@@ -19,6 +19,13 @@ to spin up a Jupyter lab shell with all of the dependencies.
 To be able to run the notebook, you will need to run the following:
 ```sh
 wget https://opendata.arcgis.com/datasets/da0765ab82ae475d985688e140f931bd_0.zip?outSR=%7B%22latestWkid%22%3A4326%2C%22wkid%22%3A4326%7D -O housing_sites.zip
-mkdir housing_sites
-unzip housing_sites.zip -o housing_sites
+mkdir data/raw_data/housing_sites
+unzip housing_sites.zip -o data/raw_data/housing_sites
+```
+
+The SF permits data is included in data/raw_data/sf_permits.csv, and the data is up-to-date as of 2/15/2021. If you would like to retrieve permits issued after 2/15/2021, you can run this code chunk:
+
+```py
+sf_permits = pd.read_csv('https://data.sfgov.org/api/views/p4e4-a5a7/rows.csv?accessType=DOWNLOAD')
+sf_permits.to_csv('./data/raw_data/sf_permits.csv', index=False)
 ```

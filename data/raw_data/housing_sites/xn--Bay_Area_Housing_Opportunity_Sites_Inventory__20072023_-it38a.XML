@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <descript>
+            <abstract>Following the adoption of the Regional Housing Need Assessment (RHNA), each jurisdiction is required to update its housing element to identify sites adequate to accommodate the number of units allocated to them. The parcel list was compiled from the housing opportunity sites inventories prepared by each of the Bay Area's 101 cities and nine counties as part of the 2007-2014 and 2015-2023 RHNA housing element cycles.Please note: Although jurisdictions have identified these sites as potential locations for the development of new housing, it does not mean that development is either imminent or will ever occur at these locations. In addition, all projects proposed for these sites are subject to the full notification and review process followed by the jurisdiction where they are located.</abstract>
+            <purpose>Housing opportunity sites identified by local jurisdictions in their Housing Element as areas suitable to accommodate the development of all housing units assigned to them through the Regional Housing Need Assessment (RHNA).</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>policy</themekey>
+                <themekey>mtc</themekey>
+                <themekey>metropolitan transportation commission</themekey>
+                <themekey>abag</themekey>
+                <themekey>association of bay area governments</themekey>
+                <themekey>housing</themekey>
+                <themekey>rhna</themekey>
+                <themekey>regional housing need assessment</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This data is intended for planning purposes only. The Metropolitan Transportation Commission (MTC) provides spatial and attribute data (also referred to as &amp;quot;information&amp;quot;) &amp;quot;as-is,&amp;quot; and shall incur no responsibility or liability as to the completeness, currentness, or accuracy of this information. The MTC, and other agencies/cities/counties from which the data were sourced, assume no responsibility arising from use of this information by individuals, businesses, or other public entities. The data is provided with no warranty of any kind, expressed or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. Do not make any decisions based on this data before validating your decision with the appropriate city, county, or government entity.</useconst>
+        <datacred>Association of Bay Area Governments, 2015</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
