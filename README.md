@@ -15,18 +15,21 @@ poetry run jupyter lab
 ```
 to spin up a Jupyter lab shell with all of the dependencies.
 
-## Getting the data
-To be able to run the notebook, you will need to run the following:
+## Data source
+There are two sources of data: the Bay Area site inventory and the SF permits dataset. This data is included in data/raw_data. 
+
+We retrieved the site inventory data with the following shell commands:
 ```sh
 wget https://opendata.arcgis.com/datasets/da0765ab82ae475d985688e140f931bd_0.zip?outSR=%7B%22latestWkid%22%3A4326%2C%22wkid%22%3A4326%7D -O housing_sites.zip
 mkdir data/raw_data/housing_sites
 unzip housing_sites.zip -o data/raw_data/housing_sites
 ```
 
-The SF permits data is included in data/raw_data/sf_permits.csv, and the data is up-to-date as of 2/15/2021. If you would like to retrieve permits issued after 2/15/2021, you can run this code chunk:
-
+We retrieved the SF Permits dataset with the follo
 ```py
 import pandas as pd
 sf_permits = pd.read_csv('https://data.sfgov.org/api/views/p4e4-a5a7/rows.csv?accessType=DOWNLOAD')
 sf_permits.to_csv('./data/raw_data/sf_permits.csv', index=False)
 ```
+
+For reproducibility's sake, these notebooks stick to the permits data as of 2/15/2021.
