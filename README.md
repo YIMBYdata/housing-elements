@@ -25,11 +25,11 @@ mkdir data/raw_data/housing_sites
 unzip housing_sites.zip -o data/raw_data/housing_sites
 ```
 
-We retrieved the SF Permits dataset with the follo
+We retrieved the SF Permits dataset with the following python code:
 ```py
 import pandas as pd
 sf_permits = pd.read_csv('https://data.sfgov.org/api/views/p4e4-a5a7/rows.csv?accessType=DOWNLOAD')
 sf_permits.to_csv('./data/raw_data/sf_permits.csv', index=False)
 ```
 
-For reproducibility's sake, these notebooks stick to the permits data as of 2/15/2021.
+For reproducibility's sake, these notebooks stick to the SF permits data as of 2/15/2021. If you would like to update this data and retrieve permits issued after 2/15/2021, just run the code chunk above.
