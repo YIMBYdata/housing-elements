@@ -3,11 +3,11 @@ Here's a list of each of the data sources we used.
 There are three sources of data: the Bay Area site inventory, the parcels dataset, and the SF permits dataset. This data is included in data/raw_data. 
 
 ## Bay Area 5th cycle site inventory dataset
-**Source:** https://opendata.mtc.ca.gov/datasets/da0765ab82ae475d985688e140f931bd_0
+Source: https://opendata.mtc.ca.gov/datasets/da0765ab82ae475d985688e140f931bd_0
 
-**Location:** `data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp`
+Location: `data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp`
 
-**Download script:**
+Download script:
 ```sh
 wget https://opendata.arcgis.com/datasets/da0765ab82ae475d985688e140f931bd_0.zip?outSR=%7B%22latestWkid%22%3A4326%2C%22wkid%22%3A4326%7D -O housing_sites.zip
 mkdir data/raw_data/housing_sites
