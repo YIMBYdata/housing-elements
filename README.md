@@ -18,4 +18,4 @@ poetry run jupyter lab
 to spin up a Jupyter lab shell with all of the dependencies.
 
 ## Data sources
-Documentation on how the data was obtained are in [Data sources](Data\ sources.md).
+Documentation on how the data was obtained are in [Data sources](<Data sources.md>).
