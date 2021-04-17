@@ -11,7 +11,28 @@ Download script:
 ```sh
 wget https://opendata.arcgis.com/datasets/da0765ab82ae475d985688e140f931bd_0.zip?outSR=%7B%22latestWkid%22%3A4326%2C%22wkid%22%3A4326%7D -O housing_sites.zip
 mkdir data/raw_data/housing_sites
-unzip housing_sites.zip -o data/raw_data/housing_sites
+unzip housing_sites.zip -d data/raw_data/housing_sites
+```
+
+## Bay Area 2013-2017 building permits
+Source: 
+* https://opendata.mtc.ca.gov/datasets/residential-building-permits-features (shapefiles)
+* https://opendata.mtc.ca.gov/datasets/residential-building-permits-attributes (row attributes)
+
+Location: `data/raw_data/abag_building_permits/permits.shp`
+
+Download script:
+```sh
+mkdir data/raw_data/abag_building_permits
+wget https://opendata.arcgis.com/datasets/92a2e55f00c94295adf9feac3d695f1e_0.csv -O data/raw_data/permits.csv
+wget https://opendata.arcgis.com/datasets/8f95c18719d04416a259854334443f3a_0.zip?outSR=%7B%22latestWkid%22%3A4326%2C%22wkid%22%3A4326%7D -O building_permits.zip
+unzip building_permits.zip -d data/raw_data/abag_building_permits
+
+# Rename the files to something meaningful
+for f in $(ls data/raw_data/abag_building_permits)
+do 
+    mv data/raw_data/abag_building_permits/$f data/raw_data/abag_building_permits/permits.${f##*.}
+done
 ```
 
 ## San Francisco parcels
