@@ -1,5 +1,6 @@
 import geopandas as gpd
 import pandas as pd
+import numpy as np
 import logging
 
 _logger = logging.getLogger(__name__)
@@ -173,3 +174,24 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
             apr_permits_df,
         ]
     )
+
+
+def load_site_inventory(city: str) -> pd.DataFrame:
+    """
+    Return the 5th RHNA cycle site inventory for CITY.
+    """
+    df = gpd.read_file(
+    './data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp'
+    )
+    assert city in df.jurisdict.values, 'city must be a jurisdiction in the inventory. Be sure to capitalize.'
+    sites = df.query(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').copy()
+    sites.fillna(value=np.nan, inplace=True)
+    sites['allowden'] = sites['allowden'].astype(float)
+    sites['relcapcty'] = sites['relcapcty'].astype(float)
+    is_constant = ((sites == sites.iloc[0]).all())
+    constant_cols = is_constant[is_constant].index.values
+    print('Dropping constant columns:', constant_cols)
+    sites.drop(constant_cols, axis=1, inplace=True)
+    sites.dropna(how='all', axis=1, inplace=True)
+    print('DF shape', sites.shape)
+    return sites
