@@ -193,5 +193,39 @@ def load_site_inventory(city: str) -> pd.DataFrame:
     print('Dropping constant columns:', constant_cols)
     sites.drop(constant_cols, axis=1, inplace=True)
     sites.dropna(how='all', axis=1, inplace=True)
+    sites.apn = sites.apn.str.replace('-','')
     print('DF shape', sites.shape)
     return sites
+
+
+def calculate_inventory_housing_over_all_housing(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+    """ (new housing units on HE sites) / (new housing units)
+    """
+    housing_on_sites = permits[permits.apn.isin(sites.apn)].totalunit.sum()
+    total_units = permits.totalunit.sum()
+    
+    print('Units permitted on inventory sites:', housing_on_sites)
+    print('Total units permitted:', total_units)
+
+    return housing_on_sites / total_units
+    
+def calculate_mean_overproduction_on_sites(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+    """ mean(housing units - HE claimed capacity), with mean taken over HE sites that were developed
+    """
+    inventory_sites_permitted = permits[permits.apn.isin(sites.apn)].apn.unique()
+    n_units = permits[permits.apn.isin(inventory_sites_permitted)].totalunit.sum()
+    n_claimed = sites[sites.apn.isin(inventory_sites_permitted)].relcapcty.sum()
+    print('Number of inventory sites developed:', len(inventory_sites_permitted))
+    print('Number of units permitted on inventory sites:', n_units)
+    print('Total realistic capacity of inventory sites:', n_claimed)
+    return (n_units - n_claimed) / len(inventory_sites_permitted)
+    
+    
+def calculate_ratio_of_development_on_inventory_sites(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+    """ (total units permitted) / (HE site capacity)
+    """
+    total_units = permits.totalunit.sum()
+    total_inventory_capacity = sites.relcapcty.sum()
+    print('Total units permitted:', total_units)
+    print('Total realistic capacity in inventory:', total_inventory_capacity)
+    return total_units / total_inventory_capacity
