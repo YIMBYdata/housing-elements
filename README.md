@@ -19,3 +19,23 @@ to spin up a Jupyter lab shell with all of the dependencies.
 
 ## Data sources
 Documentation on how the data was obtained are in [Data sources](<Data sources.md>).
+
+## Data format
+We got our raw data from two sources:
+* ABAG (from Annual Progress Reports)
+* City sources
+
+The helpers module `housing_elements/utils.py` provides a function `load_all_new_building_permits` that returns all building permits from 2013 to 2019 for most ABAG jursidictions.
+
+We also have helper functions that provide datasets in the same format, pulled from the city's online data portals. We used both sources to confirm that the ABAG dataset is valid. We have helpers for the following cities:
+* San Jose (`load_new_construction_permits` in `housing_elements/san_jose_permits.py`)
+* San Francisco (TODO)
+* Los Altos (TODO)
+
+All of these return a DataFrame that have at minimum the following columns:
+* _permyear_ (int): Year that the project was permitted
+* _apn_ (str). APNs **are allowed to be duplicated**, if there are multiple projects (with different addresses) happening on the same parcel. The consumer of this dataset is expected to group by APN and sum up `totalunit` to get the total number of units built on that parcel.
+* _address_ (str). like `apn`, also allowed to be duplicated if they're actually separate building projects on the same APN.
+* _totalunit_ (int): Number of new units built
+
+

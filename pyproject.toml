@@ -15,6 +15,7 @@ contextily = "^1.0.1"
 openpyxl = "^3.0.6"
 geopy = "^2.1.0"
 Rtree = "^0.9.7"
+pygeocodio = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
