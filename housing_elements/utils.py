@@ -186,6 +186,10 @@ def load_site_inventory(city: str) -> pd.DataFrame:
     assert city in df.jurisdict.values, 'city must be a jurisdiction in the inventory. Be sure to capitalize.'
     sites = df.query(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').copy()
     sites.fillna(value=np.nan, inplace=True)
+    
+    # MV & PA uses a range for some values. Following line replaces range with max.
+    sites.allowden = sites.allowden.str.replace('du/ac','')
+    sites.allowden = sites.allowden.str.split('-').str[-1] 
     sites['allowden'] = sites['allowden'].astype(float)
     sites['relcapcty'] = sites['relcapcty'].astype(float)
     is_constant = ((sites == sites.iloc[0]).all())
@@ -221,7 +225,7 @@ def calculate_mean_overproduction_on_sites(sites: pd.DataFrame, permits: pd.Data
     return (n_units - n_claimed) / len(inventory_sites_permitted)
     
     
-def calculate_ratio_of_development_on_inventory_sites(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
     """ (total units permitted) / (HE site capacity)
     """
     total_units = permits.totalunit.sum()
@@ -229,3 +233,26 @@ def calculate_ratio_of_development_on_inventory_sites(sites: pd.DataFrame, permi
     print('Total units permitted:', total_units)
     print('Total realistic capacity in inventory:', total_inventory_capacity)
     return total_units / total_inventory_capacity
+
+
+def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+    """Return P(permit | inventory_site)"""
+    return sites.apn.isin(permits.apn).mean()
+
+
+def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+    """Return P(permit | inventory_site, vacant)"""
+    is_permitted = sites.apn.isin(permits.apn)
+    is_vacant = sites.sitetype == 'Vacant'
+    n_vacant = is_vacant.sum()
+    n_vacant_permitted = (is_permitted & is_vacant).sum()
+    return n_vacant_permitted / n_vacant
+
+
+def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame):
+    """Return P(permit | inventory_site, non-vacant)"""
+    is_permitted = sites.apn.isin(permits.apn)
+    is_nonvacant = sites.sitetype != 'Vacant'
+    n_nonvacant = is_nonvacant.sum()
+    n_nonvacant_permitted = (is_permitted & is_nonvacant).sum()
+    return n_nonvacant_permitted / n_nonvacant
