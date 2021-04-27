@@ -2,9 +2,18 @@ import geopandas as gpd
 import pandas as pd
 import numpy as np
 import logging
+from shapely.geometry import Point
+from typing import List, Optional
+
 
 _logger = logging.getLogger(__name__)
 
+XLSX_FILES = [
+    ('Richmond', '2018'),
+    ('Pleasant Hill', '2018'),
+    ('Oakland', '2019'),
+    ('Livermore', '2019'),
+]
 
 def load_apr_permits(
     city: str, year: str, filter_for_permits: bool = True
@@ -14,7 +23,7 @@ def load_apr_permits(
     """
     city = city.replace(" ", "")
 
-    if city == "Oakland" and year == "2019":
+    if (city, year) in XLSX_FILES:
         path = f"data/raw_data/APRs/{city}{year}.xlsx"
     else:
         path = f"data/raw_data/APRs/{city}{year}.xlsm"
@@ -173,7 +182,7 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
             abag_permits_df,
             apr_permits_df,
         ]
-    )
+    ).reset_index(drop=True)
 
 
 def load_site_inventory(city: str) -> pd.DataFrame:
@@ -181,11 +190,14 @@ def load_site_inventory(city: str) -> pd.DataFrame:
     Return the 5th RHNA cycle site inventory for CITY.
     """
     df = gpd.read_file(
-    './data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp'
+        "./data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
     )
-    assert city in df.jurisdict.values, 'city must be a jurisdiction in the inventory. Be sure to capitalize.'
+    assert (
+        city in df.jurisdict.values
+    ), "city must be a jurisdiction in the inventory. Be sure to capitalize."
     sites = df.query(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').copy()
     sites.fillna(value=np.nan, inplace=True)
+<<<<<<< HEAD
     
     # MV & PA uses a range for some values. Following line replaces range with max.
     sites.allowden = sites.allowden.str.replace('du/ac','')
@@ -193,48 +205,66 @@ def load_site_inventory(city: str) -> pd.DataFrame:
     sites['allowden'] = sites['allowden'].astype(float)
     sites['relcapcty'] = sites['relcapcty'].astype(float)
     is_constant = ((sites == sites.iloc[0]).all())
+=======
+    sites["allowden"] = sites["allowden"].astype(float)
+    sites["relcapcty"] = sites["relcapcty"].astype(float)
+    is_constant = (sites == sites.iloc[0]).all()
+>>>>>>> 2b1a5ee57557ce77c5f8248954e6419948b7ded8
     constant_cols = is_constant[is_constant].index.values
-    print('Dropping constant columns:', constant_cols)
+    print("Dropping constant columns:", constant_cols)
     sites.drop(constant_cols, axis=1, inplace=True)
-    sites.dropna(how='all', axis=1, inplace=True)
-    sites.apn = sites.apn.str.replace('-','')
-    print('DF shape', sites.shape)
+    sites.dropna(how="all", axis=1, inplace=True)
+    sites.apn = sites.apn.str.replace("-", "")
+    print("DF shape", sites.shape)
     return sites
 
 
-def calculate_inventory_housing_over_all_housing(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
-    """ (new housing units on HE sites) / (new housing units)
-    """
+def calculate_inventory_housing_over_all_housing(
+    sites: pd.DataFrame, permits: pd.DataFrame
+) -> float:
+    """(new housing units on HE sites) / (new housing units)"""
     housing_on_sites = permits[permits.apn.isin(sites.apn)].totalunit.sum()
     total_units = permits.totalunit.sum()
-    
-    print('Units permitted on inventory sites:', housing_on_sites)
-    print('Total units permitted:', total_units)
+
+    print("Units permitted on inventory sites:", housing_on_sites)
+    print("Total units permitted:", total_units)
 
     return housing_on_sites / total_units
-    
-def calculate_mean_overproduction_on_sites(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
-    """ mean(housing units - HE claimed capacity), with mean taken over HE sites that were developed
-    """
+
+
+def calculate_mean_overproduction_on_sites(
+    sites: pd.DataFrame, permits: pd.DataFrame
+) -> float:
+    """mean(housing units - HE claimed capacity), with mean taken over HE sites that were developed"""
     inventory_sites_permitted = permits[permits.apn.isin(sites.apn)].apn.unique()
     n_units = permits[permits.apn.isin(inventory_sites_permitted)].totalunit.sum()
     n_claimed = sites[sites.apn.isin(inventory_sites_permitted)].relcapcty.sum()
-    print('Number of inventory sites developed:', len(inventory_sites_permitted))
-    print('Number of units permitted on inventory sites:', n_units)
-    print('Total realistic capacity of inventory sites:', n_claimed)
+    print("Number of inventory sites developed:", len(inventory_sites_permitted))
+    print("Number of units permitted on inventory sites:", n_units)
+    print("Total realistic capacity of inventory sites:", n_claimed)
     return (n_units - n_claimed) / len(inventory_sites_permitted)
+<<<<<<< HEAD
     
     
 def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
     """ (total units permitted) / (HE site capacity)
     """
+=======
+
+
+def calculate_ratio_of_development_on_inventory_sites(
+    sites: pd.DataFrame, permits: pd.DataFrame
+) -> float:
+    """(total units permitted) / (HE site capacity)"""
+>>>>>>> 2b1a5ee57557ce77c5f8248954e6419948b7ded8
     total_units = permits.totalunit.sum()
     total_inventory_capacity = sites.relcapcty.sum()
-    print('Total units permitted:', total_units)
-    print('Total realistic capacity in inventory:', total_inventory_capacity)
+    print("Total units permitted:", total_units)
+    print("Total realistic capacity in inventory:", total_inventory_capacity)
     return total_units / total_inventory_capacity
 
 
+<<<<<<< HEAD
 def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
     """Return P(permit | inventory_site)"""
     return sites.apn.isin(permits.apn).mean()
@@ -256,3 +286,21 @@ def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFram
     n_nonvacant = is_nonvacant.sum()
     n_nonvacant_permitted = (is_permitted & is_nonvacant).sum()
     return n_nonvacant_permitted / n_nonvacant
+=======
+def geocode_result_to_point(geocodio_result: dict) -> Optional[Point]:
+    results = geocodio_result['results']
+    if len(results) == 0:
+        return None
+    # There might be 0 results, or 2 results (one from City of San Jose, one from Santa Clara County for example).
+    # Fuck it, just assume the first one is correct
+    location = results[0]['location']
+    return Point(location['lng'], location['lat'])
+
+
+def geocode_results_to_geoseries(results: List[dict], index: Optional[pd.Index] = None) -> gpd.GeoSeries:
+    return gpd.GeoSeries(
+        map(geocode_result_to_point, results),
+        index=index,
+        crs='EPSG:4326'
+    )
+>>>>>>> 2b1a5ee57557ce77c5f8248954e6419948b7ded8
