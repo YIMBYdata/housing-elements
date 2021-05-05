@@ -1,2 +1,3 @@
 .ipynb_checkpoints/
 geocodio_api_key.json
+__pycache__/
