@@ -175,7 +175,9 @@ def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str
     """
     assert df.crs.to_epsg() == 4326
 
-    missing_indices = df[df.geometry.isnull()].index
+    # Some rows with 'address' being null might also be missing, but we don't have an address to
+    # geocode, so too bad.
+    missing_indices = df[df.geometry.isnull() & df['address'].notnull()].index
 
     addresses = df.loc[missing_indices]['address']
     if address_suffix:
