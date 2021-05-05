@@ -4,6 +4,7 @@ import numpy as np
 import logging
 from shapely.geometry import Point
 from typing import List, Optional
+from . import geocode_cache
 
 
 _logger = logging.getLogger(__name__)
@@ -142,7 +143,7 @@ def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
     df["lowtot"] = df["lowdr"] + df["lowndr"]
     df["modtot"] = df["moddr"] + df["modndr"]
 
-    df["permyear"] = df["Building Permits Date Issued"].dt.year
+    df["permyear"] = pd.to_datetime(df["Building Permits Date Issued"]).dt.year
 
     return df
 
@@ -158,6 +159,59 @@ def load_abag_permits() -> gpd.GeoDataFrame:
     assert geometry_df["joinid"].isin(data_df["joinid"]).all()
 
     return gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
+
+
+def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
+    """
+    Fills in the missing entries in the input GeoDataFrame's 'geometry' field,
+    using the 'address' column.
+
+    The input GeoDataFrame's projection must be the standard (long, lat)
+    projection (ESPG:4326).
+
+    :param address_suffix: (Optional.) A string to add to the end of the address (e.g. the city name)
+        to help the geocoder find the address, in case the city/state name isn't already part of the
+        address field.
+    """
+    assert df.crs.to_epsg() == 4326
+
+    missing_indices = df[df.geometry.isnull()].index
+
+    addresses = df.loc[missing_indices]['address']
+    if address_suffix:
+        addresses = addresses + address_suffix
+
+    missing_points_geoseries = geocode_results_to_geoseries(
+        geocode_cache.lookup(addresses),
+        index=missing_indices
+    )
+
+    fixed_df = df.copy()
+    fixed_df.geometry = df.geometry.combine_first(missing_points_geoseries)
+
+    return fixed_df
+
+
+def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """
+    Use a county dataset to impute APNs with missing geometries.
+    """
+    missing_rows = df[
+        df.geometry.isnull()
+    ][['apn']].drop_duplicates()
+
+    merged = missing_rows.merge(
+        parcels[['apn', 'geometry']],
+        how='left',
+        on='apn',
+    )
+
+    df_copy = df.copy()
+
+    # merged should have the same indices as the original DataFrame
+    df_copy.geometry = df_copy.geometry.combine_first(merged.geometry)
+
+    return df_copy
 
 
 def load_all_new_building_permits(city: str) -> pd.DataFrame:
@@ -177,13 +231,16 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
         pd.concat([apr_permits_2018_df, apr_permits_2019_df])
     )
 
-    return pd.concat(
+    permits_df = pd.concat(
         [
             abag_permits_df,
             apr_permits_df,
         ]
     ).reset_index(drop=True)
 
+    # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
+    # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
+    return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
 def load_site_inventory(city: str) -> pd.DataFrame:
     """
