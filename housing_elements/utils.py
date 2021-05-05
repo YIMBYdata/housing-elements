@@ -242,8 +242,7 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
-    return permits_df
-    #return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
+    return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
 def load_site_inventory(city: str) -> pd.DataFrame:
     """
