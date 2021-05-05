@@ -15,9 +15,9 @@ from geocodio import GeocodioClient
 
 # A cache of format "address -> Geocode response dict" that we will keep committed
 # in the repo.
-CACHE_PATH = Path('./data/geocode_cache.json')
+#CACHE_PATH = Path('./data/geocode_cache.json')
 
-client = GeocodioClient(json.loads(Path('./geocodio_api_key.json').read_text())['key'])
+#client = GeocodioClient(json.loads(Path('./geocodio_api_key.json').read_text())['key'])
 
 def load_cache() -> Dict[str, dict]:
     if not CACHE_PATH.exists():
