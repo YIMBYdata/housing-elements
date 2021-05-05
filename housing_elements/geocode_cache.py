@@ -10,7 +10,7 @@ a file "geocodio_api_key.json" with the contents:
 """
 import json
 from pathlib import Path
-from typing import Dict, Iterable
+from typing import Dict, Iterable, List
 from geocodio import GeocodioClient
 
 # A cache of format "address -> Geocode response dict" that we will keep committed
