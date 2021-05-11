@@ -312,10 +312,8 @@ def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permit
 def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
     """Return P(permit | inventory_site)"""
     if match_with_address:
-        # assert sites['apn'].value_counts().max() == 1
         sites['index'] = pd.RangeIndex(len(sites))
         merged_df = merge_on_address(sites, permits)
-        # assert merged_df['index'].value_counts().max() == 1
 
         # dedupe, keeping the one that is merged
         merged_df = merged_df.sort_values('apn_right', na_position='last').drop_duplicates(['index'], keep='first')
@@ -328,13 +326,13 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
 
 def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
     """Return P(permit | inventory_site, vacant)"""
-    vacant_rows = sites[sites['sitetype'] == 'Vacant']
+    vacant_rows = sites[sites['sitetype'] == 'Vacant'].copy()
     return calculate_pdev_for_inventory(vacant_rows, permits, match_with_address)
 
 
 def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
     """Return P(permit | inventory_site, non-vacant)"""
-    nonvacant_rows = sites[sites['sitetype'] != 'Vacant']
+    nonvacant_rows = sites[sites['sitetype'] != 'Vacant'].copy()
     return calculate_pdev_for_inventory(nonvacant_rows, permits, match_with_address)
 
 
