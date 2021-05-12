@@ -358,27 +358,42 @@ def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permit
     return total_units / total_inventory_capacity
 
 
-def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
     """Return P(permit | inventory_site)"""
-    return sites.apn.isin(permits.apn).mean()
+    if match_with_address:
+        sites['index'] = pd.RangeIndex(len(sites))
+        merged_df = merge_on_address(sites, permits)
+
+        # dedupe, keeping the one that is merged
+        merged_df = merged_df.sort_values('apn_right', na_position='last').drop_duplicates(['index'], keep='first')
+        assert len(merged_df) == len(sites)
+
+        return merged_df['permyear'].notnull().mean()
+    else:
+        return sites.apn.isin(permits.apn).mean()
 
 
-def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
     """Return P(permit | inventory_site, vacant)"""
-    is_permitted = sites.apn.isin(permits.apn)
-    is_vacant = sites.sitetype == 'Vacant'
-    n_vacant = is_vacant.sum()
-    n_vacant_permitted = (is_permitted & is_vacant).sum()
-    return n_vacant_permitted / n_vacant
+    vacant_rows = sites[sites['sitetype'] == 'Vacant'].copy()
+    return calculate_pdev_for_inventory(vacant_rows, permits, match_with_address)
 
 
-def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame):
+def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
     """Return P(permit | inventory_site, non-vacant)"""
-    is_permitted = sites.apn.isin(permits.apn)
-    is_nonvacant = sites.sitetype != 'Vacant'
-    n_nonvacant = is_nonvacant.sum()
-    n_nonvacant_permitted = (is_permitted & is_nonvacant).sum()
-    return n_nonvacant_permitted / n_nonvacant
+    nonvacant_rows = sites[sites['sitetype'] != 'Vacant'].copy()
+    return calculate_pdev_for_inventory(nonvacant_rows, permits, match_with_address)
+
+
+def merge_on_address(df_1, df_2):
+    # Switch to the most common projection for California. (It's in meters.)
+    df_1 = df_1.to_crs('EPSG:3310')
+    df_2 = df_2.to_crs('EPSG:3310')
+
+    # Buffer by 15 meters, which is about 50 feet
+    df_2.geometry = df_2.geometry.buffer(15)
+
+    return gpd.sjoin(df_1, df_2, how='left')
 
 
 def geocode_result_to_point(geocodio_result: dict) -> Optional[Point]:
