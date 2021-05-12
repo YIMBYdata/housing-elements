@@ -4,11 +4,11 @@ import numpy as np
 import logging
 from shapely.geometry import Point
 from typing import List, Optional
+from pandas.api.types import is_numeric_dtype
 from . import geocode_cache
 
 
 _logger = logging.getLogger(__name__)
-
 XLSX_FILES = [
     ('Richmond', '2018'),
     ('Pleasant Hill', '2018'),
@@ -256,22 +256,71 @@ def load_site_inventory(city: str) -> pd.DataFrame:
     ), "city must be a jurisdiction in the inventory. Be sure to capitalize."
     sites = df.query(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').copy()
     sites.fillna(value=np.nan, inplace=True)
-
-    # MV & PA uses a range for some values. Following line replaces range with max.
-    sites.allowden = sites.allowden.str.replace('du/ac','')
-    sites.allowden = sites.allowden.str.split('-').str[-1]
-    sites['allowden'] = sites['allowden'].astype(float)
-    sites['relcapcty'] = sites['relcapcty'].astype(float)
-    is_constant = ((sites == sites.iloc[0]).all())
-
-    constant_cols = is_constant[is_constant].index.values
-    print("Dropping constant columns:", constant_cols)
-    sites.drop(constant_cols, axis=1, inplace=True)
+    if not is_numeric_dtype(sites.allowden.dtype):
+        sites = remove_units_in_allowden(sites)
+        sites = remove_miscellaneous(sites)
+        sites = remove_range_in_allowden(sites)
+        sites['allowden'] = sites['allowden'].astype(float, errors='ignore')  
+    if city in ('Oakland', 'Los Altos Hills', 'Napa County'):
+        sites = remove_range_in_realcap(sites)
+    sites['relcapcty'] = sites['relcapcty'].astype(float, errors='ignore')
+    sites = drop_constant_cols(sites)
     sites.dropna(how="all", axis=1, inplace=True)
     sites.apn = sites.apn.str.replace("-", "")
     print("DF shape", sites.shape)
     return sites
 
+def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
+    if len(sites.index) > 1:
+        is_constant = ((sites == sites.iloc[0]).all())
+        constant_cols = is_constant[is_constant].index.values
+        print("Dropping constant columns:", constant_cols)
+        return sites.drop(constant_cols, axis=1)
+    return sites
+
+def remove_range_in_allowden(sites: pd.DataFrame) -> pd.DataFrame:
+    """ In allowden, remove range and replace with max.
+    """
+    # E.g. Mountain View
+    sites.allowden = sites.allowden.str.split('-').str[-1]
+    # E.g. Palo Alto
+    sites.allowden = sites.allowden.str.split('/').str[-1]
+    # E.g. contra cost county
+    sites.allowden = sites.allowden.str.split(',').str[-1]
+    # E.g. Emeryville
+    sites.allowden = sites.allowden.str.split(' and ').str[-1]
+    # Danville
+    sites.allowden = sites.allowden.str.split('û').str[-1]
+    # Los Altos Hills
+    sites.allowden = sites.allowden.str.split(' to ').str[-1]
+    return sites
+
+def remove_range_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
+    # E.g. Oakland
+    sites.relcapcty = sites.relcapcty.str.split('-').str[-1]
+    # Los Altos Hills
+    sites.relcapcty = sites.relcapcty.str.split(' to ').str[-1]
+    return sites
+
+def remove_units_in_allowden(sites: pd.DataFrame) -> pd.DataFrame:
+    # E.g. Palo Alto
+    sites.allowden = sites.allowden.str.replace('du/ac', '')
+    # E.g. San Leandro
+    sites.allowden = sites.allowden.str.replace('MF', '')
+    # E.g. Danville
+    sites.allowden = sites.allowden.str.replace('dus/ac', '')
+    # E.g. Atheton
+    sites.allowden = sites.allowden.str.replace('DU/Acre', '')
+    return sites
+
+def remove_miscellaneous(sites: pd.DataFrame) -> pd.DataFrame:
+    # E.g Pleasanton
+    sites.allowden = sites.allowden.str.replace('*', '')
+    # E.g Pinole
+    sites.allowden = sites.allowden.str.replace('<', '')
+    # E.g. Burlingame
+    sites.allowden = sites.allowden.str.replace('+', '')
+    return sites
 
 def calculate_inventory_housing_over_all_housing(
     sites: pd.DataFrame, permits: pd.DataFrame
