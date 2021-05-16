@@ -242,6 +242,7 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
+    #return permits_df
     return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
 def load_site_inventory(city: str) -> pd.DataFrame:
@@ -261,19 +262,25 @@ def load_site_inventory(city: str) -> pd.DataFrame:
         sites = remove_miscellaneous(sites)
         sites = remove_range_in_allowden(sites)
         sites['allowden'] = sites['allowden'].astype(float, errors='ignore')  
-    if city in ('Oakland', 'Los Altos Hills', 'Napa County'):
+    if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
         sites = remove_range_in_realcap(sites)
+    if city == 'Danville':
+        sites = remove_units_in_realcap(sites)
+    if city == 'El Cerrito':
+        sites = fix_el_cerrito_realcap(sites)
     sites['relcapcty'] = sites['relcapcty'].astype(float, errors='ignore')
     sites = drop_constant_cols(sites)
-    sites.dropna(how="all", axis=1, inplace=True)
     sites.apn = sites.apn.str.replace("-", "")
     print("DF shape", sites.shape)
     return sites
 
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
+    """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
     if len(sites.index) > 1:
+        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype']
         is_constant = ((sites == sites.iloc[0]).all())
         constant_cols = is_constant[is_constant].index.values
+        constant_cols = list(set(constant_cols) - set(dont_drop))
         print("Dropping constant columns:", constant_cols)
         return sites.drop(constant_cols, axis=1)
     return sites
@@ -296,10 +303,18 @@ def remove_range_in_allowden(sites: pd.DataFrame) -> pd.DataFrame:
     return sites
 
 def remove_range_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
-    # E.g. Oakland
+    # E.g. Oakland, Newark
     sites.relcapcty = sites.relcapcty.str.split('-').str[-1]
     # Los Altos Hills
     sites.relcapcty = sites.relcapcty.str.split(' to ').str[-1]
+    return sites
+
+def remove_units_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
+    # Danville
+    sites.relcapcty = sites.relcapcty.str.replace('sfr', '')
+    sites.relcapcty = sites.relcapcty.str.replace('SFR', '')
+    sites.relcapcty = sites.relcapcty.str.replace('mfr', '')
+    sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
     return sites
 
 def remove_units_in_allowden(sites: pd.DataFrame) -> pd.DataFrame:
@@ -322,6 +337,20 @@ def remove_miscellaneous(sites: pd.DataFrame) -> pd.DataFrame:
     sites.allowden = sites.allowden.str.replace('+', '')
     return sites
 
+def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
+    """El Cerrito's realcap is in plain english, listing primary units and accessory units."""
+    el_cerrito_rc = []
+    for v in sites.relcapcty.values:
+        # If realcap includes primary and accessory units
+        if isinstance(v, str) and 'primary and' in v:
+            # Then let realcap equal double the # of primary units (which is always true)
+            v = int(v.split(' ')[0]) * 2
+        el_cerrito_rc.append(v)
+    sites.relcapcty = el_cerrito_rc
+    sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
+    return sites
+
+
 def calculate_inventory_housing_over_all_housing(
     sites: pd.DataFrame, permits: pd.DataFrame
 ) -> float:
@@ -332,7 +361,9 @@ def calculate_inventory_housing_over_all_housing(
     print("Units permitted on inventory sites:", housing_on_sites)
     print("Total units permitted:", total_units)
 
-    return housing_on_sites / total_units
+    if total_units:
+        return housing_on_sites / total_units
+    return np.nan
 
 
 def calculate_mean_overproduction_on_sites(
@@ -345,7 +376,9 @@ def calculate_mean_overproduction_on_sites(
     print("Number of inventory sites developed:", len(inventory_sites_permitted))
     print("Number of units permitted on inventory sites:", n_units)
     print("Total realistic capacity of inventory sites:", n_claimed)
-    return (n_units - n_claimed) / len(inventory_sites_permitted)
+    if len(inventory_sites_permitted):
+        return (n_units - n_claimed) / len(inventory_sites_permitted)
+    return np.nan
 
 
 def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
@@ -355,7 +388,9 @@ def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permit
     total_inventory_capacity = sites.relcapcty.sum()
     print("Total units permitted:", total_units)
     print("Total realistic capacity in inventory:", total_inventory_capacity)
-    return total_units / total_inventory_capacity
+    if total_inventory_capacity:
+        return total_units / total_inventory_capacity
+    return np.nan
 
 
 def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
