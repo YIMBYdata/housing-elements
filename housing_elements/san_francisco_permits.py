@@ -8,7 +8,7 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
     print(permits.columns)
     date_cols = [c for c in permits.columns if 'Date' in c]
     permits[date_cols] = permits[date_cols].apply(pd.to_datetime)
-    permits['apn'] = permits['Block'] + '/' + permits['Lot']
+    permits['apn'] = permits['Block'] + permits['Lot']
     permits['new_units'] = permits['Proposed Units'].fillna(0) - permits['Existing Units'].fillna(0)
     relevant_uses = ['apartments', '1 family dwelling', '2 family dwelling',
                  'residential hotel', 'misc group residns.', 'artist live/work',

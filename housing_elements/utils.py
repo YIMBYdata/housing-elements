@@ -1,3 +1,4 @@
+import re
 import geopandas as gpd
 import pandas as pd
 import numpy as np
@@ -5,6 +6,7 @@ import logging
 from shapely.geometry import Point
 from typing import List, Optional
 from pandas.api.types import is_numeric_dtype
+
 from . import geocode_cache
 
 
@@ -239,10 +241,11 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
             apr_permits_df,
         ]
     ).reset_index(drop=True)
+    
+    permits_df = standardize_apn_format(permits_df, 'apn')
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
-    #return permits_df
     return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
 def load_site_inventory(city: str) -> pd.DataFrame:
@@ -264,15 +267,24 @@ def load_site_inventory(city: str) -> pd.DataFrame:
         sites['allowden'] = sites['allowden'].astype(float, errors='ignore')  
     if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
         sites = remove_range_in_realcap(sites)
-    if city == 'Danville':
+    if city in ('Danville', 'San Ramon', 'Corte Madera', 'Portola Valley'):
         sites = remove_units_in_realcap(sites)
     if city == 'El Cerrito':
         sites = fix_el_cerrito_realcap(sites)
     sites['relcapcty'] = sites['relcapcty'].astype(float, errors='ignore')
     sites = drop_constant_cols(sites)
-    sites.apn = sites.apn.str.replace("-", "")
+    sites = standardize_apn_format(sites, 'apn')
+    sites = standardize_apn_format(sites, 'locapn')
     print("DF shape", sites.shape)
     return sites
+
+def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
+    if not is_numeric_dtype(df[column].dtype):
+        df[column] = df[column].str.replace("-", "")
+        df[column] = df[column].str.replace(" ", "")
+        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:]",'')
+    df[column] = pd.to_numeric(df[column], errors='coerce')
+    return df
 
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
     """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
@@ -310,11 +322,14 @@ def remove_range_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     return sites
 
 def remove_units_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
+    # San Ramon
+    sites.relcapcty = sites.relcapcty.str.replace('á', '')
     # Danville
     sites.relcapcty = sites.relcapcty.str.replace('sfr', '')
     sites.relcapcty = sites.relcapcty.str.replace('SFR', '')
     sites.relcapcty = sites.relcapcty.str.replace('mfr', '')
-    sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
+    # Danville, Corte Madera, Portola Valley
+    sites.relcapcty = sites.relcapcty.str.split(' ').str[0]  
     return sites
 
 def remove_units_in_allowden(sites: pd.DataFrame) -> pd.DataFrame:
@@ -350,7 +365,6 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
     return sites
 
-
 def calculate_inventory_housing_over_all_housing(
     sites: pd.DataFrame, permits: pd.DataFrame
 ) -> float:
@@ -366,20 +380,25 @@ def calculate_inventory_housing_over_all_housing(
     return np.nan
 
 
-def calculate_mean_overproduction_on_sites(
+def calculate_underproduction_on_sites(
     sites: pd.DataFrame, permits: pd.DataFrame
 ) -> float:
-    """mean(housing units - HE claimed capacity), with mean taken over HE sites that were developed"""
-    inventory_sites_permitted = permits[permits.apn.isin(sites.apn)].apn.unique()
-    n_units = permits[permits.apn.isin(inventory_sites_permitted)].totalunit.sum()
-    n_claimed = sites[sites.apn.isin(inventory_sites_permitted)].relcapcty.sum()
-    print("Number of inventory sites developed:", len(inventory_sites_permitted))
-    print("Number of units permitted on inventory sites:", n_units)
-    print("Total realistic capacity of inventory sites:", n_claimed)
-    if len(inventory_sites_permitted):
-        return (n_units - n_claimed) / len(inventory_sites_permitted)
+    """For each inventory site that was built, report underproduction relative to units promised."""
+    inventory_sites_permitted = permits[permits.apn.isin(sites.apn) | permits.apn.isin(sites.locapn)]
+    inventory_sites_permitted = inventory_sites_permitted.apn.unique()
+    if not len(inventory_sites_permitted):
+        return np.nan
+    units_built_over_claimed = []
+    for site_apn in inventory_sites_permitted:
+        n_claimed_by_apn = sites[sites.apn == site_apn].relcapcty.sum()
+        n_claimed_by_locapn = sites[sites.locapn == site_apn].relcapcty.sum()
+        units_claimed = np.nanmax(np.array((n_claimed_by_apn), n_claimed_by_locapn))
+        units_built = permits[permits.apn == site_apn].totalunit.sum()
+        if units_claimed:
+            units_built_over_claimed.append(units_built / units_claimed)
+    if units_built_over_claimed:
+        return sum(units_built_over_claimed) / len(units_built_over_claimed)
     return np.nan
-
 
 def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
     """ (total units permitted) / (HE site capacity)
@@ -405,7 +424,8 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
 
         return merged_df['permyear'].notnull().mean()
     else:
-        return sites.apn.isin(permits.apn).mean()
+        apn_or = sites.apn.isin(permits.apn) |  sites.locapn.isin(permits.apn)
+        return apn_or.mean()
 
 
 def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
