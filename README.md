@@ -29,8 +29,8 @@ The helpers module `housing_elements/utils.py` provides a function `load_all_new
 
 We also have helper functions that provide datasets in the same format, pulled from the city's online data portals. We used both sources to confirm that the ABAG dataset is valid. We have helpers for the following cities:
 * San Jose (`load_new_construction_permits` in `housing_elements/san_jose_permits.py`)
-* San Francisco (TODO)
-* Los Altos (TODO)
+* San Francisco (`load_new_construction_permits` in `housing_elements/san_francisco_permits.py`)
+* Los Altos (`load_new_construction_permits` in `housing_elements/los_altos_permits.py`)
 
 All of these return a DataFrame that have at minimum the following columns:
 * _permyear_ (int): Year that the project was permitted
