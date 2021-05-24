@@ -456,6 +456,8 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
     :param match_by: Can be 'apn', 'geo', or 'both'.
     """
     num_sites = len(sites)
+    if num_sites == 0:
+        return 0, 0, np.nan
 
     if match_by not in ['apn', 'geo', 'both']:
         raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
@@ -484,17 +486,12 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
         match_dfs.append(merged_df_2)
 
     if match_by in ['geo', 'both']:
-        if len(sites) == 0:
-            return 0, 0, np.nan
         merged_df = merge_on_address(sites[['index', 'apn', 'geometry']], permits[['apn', 'permyear', 'geometry']])
-
-        # dedupe, keeping the one that is merged
-        merged_df = merged_df.sort_values('apn_right', na_position='last').drop_duplicates(['index'], keep='first')
-        assert len(merged_df) == len(sites)
-
         match_dfs.append(merged_df)
 
     match_df = pd.concat(match_dfs)
+
+    # dedupe, keeping the one that is merged
     match_df = match_df.sort_values('permyear', na_position='last').drop_duplicates(['index'], keep='first')
     assert len(match_df) == len(sites)
 
