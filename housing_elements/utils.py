@@ -13,7 +13,7 @@ from . import geocode_cache
 _logger = logging.getLogger(__name__)
 XLSX_FILES = [
     ('Richmond', '2018'),
-    ('Pleasant Hill', '2018'),
+    ('PleasantHill', '2018'),
     ('Oakland', '2019'),
     ('Livermore', '2019'),
 ]

@@ -3,9 +3,7 @@ import geopandas as gpd
 import os
 
 def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: bool = True) -> pd.DataFrame:
-    path = os.path.join(os.path.dirname(__file__), "../data/raw_data/sf_permits.csv")
-    permits = pd.read_csv(path)
-    print(permits.columns)
+    permits = pd.read_csv('https://data.sfgov.org/api/views/p4e4-a5a7/rows.csv?accessType=DOWNLOAD')
     date_cols = [c for c in permits.columns if 'Date' in c]
     permits[date_cols] = permits[date_cols].apply(pd.to_datetime)
     permits['apn'] = permits['Block'] + permits['Lot']
