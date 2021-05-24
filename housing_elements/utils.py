@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import logging
 from shapely.geometry import Point
-from typing import List, Optional
+from typing import List, Optional, Tuple
 from pandas.api.types import is_numeric_dtype
 
 from . import geocode_cache
@@ -179,9 +179,14 @@ def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str
 
     # Some rows with 'address' being null might also be missing, but we don't have an address to
     # geocode, so too bad.
-    missing_indices = df[df.geometry.isnull() & df['address'].notnull()].index
+    missing_indices = df[
+        df.geometry.isnull()
+        & df['address'].notnull()
+        & (df['address'].apply(type) == str)
+    ].index
 
     addresses = df.loc[missing_indices]['address']
+
     if address_suffix:
         addresses = addresses + address_suffix
 
@@ -218,15 +223,20 @@ def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDa
     return df_copy
 
 
-def load_all_new_building_permits(city: str) -> pd.DataFrame:
+def load_all_new_building_permits(city: str, abag_permits_df: Optional[pd.DataFrame] = None) -> pd.DataFrame:
     """
     Returns the combined dataset of 2013-2019 permits, combining the 2013-2017 dataset from ABAG with the 2018-19 dataset from the APRs.
+
+    :param abag_permits_df:
+        (Optional.) A pre-loaded DataFrame that is the result of load_abag_permits(). This is useful if you're loading
+        a bunch of cities' permits and don't want to load the same file a bunch of times.
     """
 
-    abag_permits_df = load_abag_permits()
+    if abag_permits_df is None:
+        abag_permits_df = load_abag_permits()
 
     assert city in set(abag_permits_df["jurisdictn"])
-    abag_permits_df = abag_permits_df[abag_permits_df["jurisdictn"] == city]
+    abag_permits_df = abag_permits_df[abag_permits_df["jurisdictn"] == city].copy()
 
     apr_permits_2018_df = load_apr_permits(city, "2018")
     apr_permits_2019_df = load_apr_permits(city, "2019")
@@ -241,30 +251,58 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
             apr_permits_df,
         ]
     ).reset_index(drop=True)
-    
+
     permits_df = standardize_apn_format(permits_df, 'apn')
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
     return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
-def load_site_inventory(city: str) -> pd.DataFrame:
-    """
-    Return the 5th RHNA cycle site inventory for CITY.
-    """
-    df = gpd.read_file(
+
+def load_all_sites(exclude_approved_sites: bool=True) -> gpd.GeoDataFrame:
+    return gpd.read_file(
         "./data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
     )
+
+
+def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, exclude_approved_sites: bool = True) -> pd.DataFrame:
+    """
+    Return the 5th RHNA cycle site inventory for CITY.
+
+    :param abag_permits_df:
+        (Optional.) A pre-loaded DataFrame that is the result of load_all_sites(). This is useful if you're loading
+        a bunch of cities' sites and don't want to load the same file a bunch of times.
+
+    :param exclude_approved_sites:
+        Whether to exclude sites with sitetype = 'Approved' (i.e. sites that already had
+        planning entitlements before the start of the 5th RHNA cycle).
+        These sites have a higher probability of development (i.e. something very close to 1) than a typical site,
+        and therefore including these would bias the estimates upward.
+    """
+    if sites_df is None:
+        sites_df = load_all_sites()
+
     assert (
-        city in df.jurisdict.values
+        city in sites_df.jurisdict.values
     ), "city must be a jurisdiction in the inventory. Be sure to capitalize."
-    sites = df.query(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').copy()
+
+    rows_to_keep = sites_df.eval(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').fillna(False)
+    print(rows_to_keep)
+    if exclude_approved_sites:
+        # Keep sites where sitetype is null or sitetype != Approved.
+        # I guess it's possible that some null rows are also pre-approved, but whatever. We can
+        # document that as a potential data issue.
+        rows_to_keep &= (sites_df['sitetype'] != 'Approved').fillna(True)
+        print(rows_to_keep)
+
+    sites = sites_df[rows_to_keep].copy()
     sites.fillna(value=np.nan, inplace=True)
+
     if not is_numeric_dtype(sites.allowden.dtype):
         sites = remove_units_in_allowden(sites)
         sites = remove_miscellaneous(sites)
         sites = remove_range_in_allowden(sites)
-        sites['allowden'] = sites['allowden'].astype(float, errors='ignore')  
+        sites['allowden'] = sites['allowden'].astype(float, errors='ignore')
     if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
         sites = remove_range_in_realcap(sites)
     if city in ('Danville', 'San Ramon', 'Corte Madera', 'Portola Valley'):
@@ -280,9 +318,9 @@ def load_site_inventory(city: str) -> pd.DataFrame:
 
 def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
     if not is_numeric_dtype(df[column].dtype):
-        df[column] = df[column].str.replace("-", "")
-        df[column] = df[column].str.replace(" ", "")
-        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]",'')
+        df[column] = df[column].str.replace("-", "", regex=False)
+        df[column] = df[column].str.replace(" ", "", regex=False)
+        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]",'', regex=True)
     df[column] = pd.to_numeric(df[column], errors='coerce')
     return df
 
@@ -323,33 +361,33 @@ def remove_range_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
 
 def remove_units_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     # San Ramon
-    sites.relcapcty = sites.relcapcty.str.replace('á', '')
+    sites.relcapcty = sites.relcapcty.str.replace('á', '', regex=False)
     # Danville
-    sites.relcapcty = sites.relcapcty.str.replace('sfr', '')
-    sites.relcapcty = sites.relcapcty.str.replace('SFR', '')
-    sites.relcapcty = sites.relcapcty.str.replace('mfr', '')
+    sites.relcapcty = sites.relcapcty.str.replace('sfr', '', regex=False)
+    sites.relcapcty = sites.relcapcty.str.replace('SFR', '', regex=False)
+    sites.relcapcty = sites.relcapcty.str.replace('mfr', '', regex=False)
     # Danville, Corte Madera, Portola Valley
-    sites.relcapcty = sites.relcapcty.str.split(' ').str[0]  
+    sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
     return sites
 
 def remove_units_in_allowden(sites: pd.DataFrame) -> pd.DataFrame:
     # E.g. Palo Alto
-    sites.allowden = sites.allowden.str.replace('du/ac', '')
+    sites.allowden = sites.allowden.str.replace('du/ac', '', regex=False)
     # E.g. San Leandro
-    sites.allowden = sites.allowden.str.replace('MF', '')
+    sites.allowden = sites.allowden.str.replace('MF', '', regex=False)
     # E.g. Danville
-    sites.allowden = sites.allowden.str.replace('dus/ac', '')
+    sites.allowden = sites.allowden.str.replace('dus/ac', '', regex=False)
     # E.g. Atheton
-    sites.allowden = sites.allowden.str.replace('DU/Acre', '')
+    sites.allowden = sites.allowden.str.replace('DU/Acre', '', regex=False)
     return sites
 
 def remove_miscellaneous(sites: pd.DataFrame) -> pd.DataFrame:
     # E.g Pleasanton
-    sites.allowden = sites.allowden.str.replace('*', '')
+    sites.allowden = sites.allowden.str.replace('*', '', regex=False)
     # E.g Pinole
-    sites.allowden = sites.allowden.str.replace('<', '')
+    sites.allowden = sites.allowden.str.replace('<', '', regex=False)
     # E.g. Burlingame
-    sites.allowden = sites.allowden.str.replace('+', '')
+    sites.allowden = sites.allowden.str.replace('+', '', regex=False)
     return sites
 
 def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
@@ -412,35 +450,72 @@ def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permit
     return np.nan
 
 
-def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
-    """Return P(permit | inventory_site)"""
-    if match_with_address:
-        sites['index'] = pd.RangeIndex(len(sites))
-        merged_df = merge_on_address(sites, permits)
+def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
+    """
+    Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
+    :param match_by: Can be 'apn', 'geo', or 'both'.
+    """
+    num_sites = len(sites)
+    if num_sites == 0:
+        return 0, 0, np.nan
 
-        # dedupe, keeping the one that is merged
-        merged_df = merged_df.sort_values('apn_right', na_position='last').drop_duplicates(['index'], keep='first')
-        assert len(merged_df) == len(sites)
+    if match_by not in ['apn', 'geo', 'both']:
+        raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
 
-        return merged_df['permyear'].notnull().mean()
-    else:
-        apn_or = sites.apn.isin(permits.apn) |  sites.locapn.isin(permits.apn)
-        return apn_or.mean()
+    # Mutation, whatever.
+    sites['index'] = pd.RangeIndex(len(sites))
+
+    match_dfs = []
+    if match_by in ['apn', 'both']:
+        # Select just a few columns before merging, because it makes it wayyy faster
+        merged_df_1 = sites[['index', 'apn']].merge(
+            permits[['apn', 'permyear']],
+            left_on='apn',
+            right_on='apn',
+            how='left',
+        )
+
+        merged_df_2 = sites[['index', 'locapn']].merge(
+            permits[['apn', 'permyear']],
+            left_on='locapn',
+            right_on='apn',
+            how='left',
+        )
+
+        match_dfs.append(merged_df_1)
+        match_dfs.append(merged_df_2)
+
+    if match_by in ['geo', 'both']:
+        merged_df = merge_on_address(sites[['index', 'apn', 'geometry']], permits[['apn', 'permyear', 'geometry']])
+        match_dfs.append(merged_df)
+
+    match_df = pd.concat(match_dfs)
+
+    # dedupe, keeping the one that is merged
+    match_df = match_df.sort_values('permyear', na_position='last').drop_duplicates(['index'], keep='first')
+    assert len(match_df) == len(sites)
+
+    is_match = match_df['permyear'].notnull()
+
+    return is_match.sum(), len(sites), is_match.mean()
 
 
-def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
+def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites['sitetype'] == 'Vacant'].copy()
-    return calculate_pdev_for_inventory(vacant_rows, permits, match_with_address)
+    return calculate_pdev_for_inventory(vacant_rows, permits, match_by)
 
 
-def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_with_address: bool = False) -> float:
+def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites['sitetype'] != 'Vacant'].copy()
-    return calculate_pdev_for_inventory(nonvacant_rows, permits, match_with_address)
+    return calculate_pdev_for_inventory(nonvacant_rows, permits, match_by)
 
 
 def merge_on_address(df_1, df_2):
+    df_1 = df_1[df_1['geometry'].notnull()]
+    df_2 = df_2[df_2['geometry'].notnull()]
+
     # Switch to the most common projection for California. (It's in meters.)
     df_1 = df_1.to_crs('EPSG:3310')
     df_2 = df_2.to_crs('EPSG:3310')
