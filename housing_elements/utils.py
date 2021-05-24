@@ -280,9 +280,7 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
         and therefore including these would bias the estimates upward.
     """
     if sites_df is None:
-        sites_df = gpd.read_file(
-            "./data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
-        )
+        sites_df = load_all_sites()
 
     assert (
         city in sites_df.jurisdict.values
@@ -518,12 +516,8 @@ def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFram
 
 
 def merge_on_address(df_1, df_2):
-    df_1 = df_1[
-        df_1['geometry'].notnull()
-    ]
-    df_2 = df_2[
-        df_2['geometry'].notnull()
-    ]
+    df_1 = df_1[df_1['geometry'].notnull()]
+    df_2 = df_2[df_2['geometry'].notnull()]
 
     # Switch to the most common projection for California. (It's in meters.)
     df_1 = df_1.to_crs('EPSG:3310')
