@@ -322,7 +322,7 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
     if not is_numeric_dtype(df[column].dtype):
         df[column] = df[column].str.replace("-", "", regex=False)
         df[column] = df[column].str.replace(" ", "", regex=False)
-        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:]",'', regex=True)
+        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]",'', regex=True)
     df[column] = pd.to_numeric(df[column], errors='coerce')
     return df
 
