@@ -11,6 +11,8 @@ from . import geocode_cache
 
 
 _logger = logging.getLogger(__name__)
+ABAG = None
+INVENTORY = None
 XLSX_FILES = [
     ('Richmond', '2018'),
     ('PleasantHill', '2018'),
@@ -154,13 +156,16 @@ def load_abag_permits() -> gpd.GeoDataFrame:
     """
     Loads all 2013-2017 building permits from ABAG as a GeoDataFrame.
     """
-    geometry_df = gpd.read_file("data/raw_data/abag_building_permits/permits.shp")
-    data_df = pd.read_csv("data/raw_data/abag_building_permits/permits.csv")
+    global ABAG
+    if ABAG is None:
+        geometry_df = gpd.read_file("data/raw_data/abag_building_permits/permits.shp")
+        data_df = pd.read_csv("data/raw_data/abag_building_permits/permits.csv")
 
-    # There shouldn't be any rows with geometry data that don't have label data
-    assert geometry_df["joinid"].isin(data_df["joinid"]).all()
+        # There shouldn't be any rows with geometry data that don't have label data
+        assert geometry_df["joinid"].isin(data_df["joinid"]).all()
 
-    return gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
+        ABAG = gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
+    return ABAG
 
 
 def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
@@ -260,9 +265,12 @@ def load_all_new_building_permits(city: str, abag_permits_df: Optional[pd.DataFr
 
 
 def load_all_sites(exclude_approved_sites: bool=True) -> gpd.GeoDataFrame:
-    return gpd.read_file(
-        "./data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
-    )
+    global INVENTORY
+    if INVENTORY is None:
+        INVENTORY = gpd.read_file(
+            "./data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
+        )
+    return INVENTORY
 
 
 def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, exclude_approved_sites: bool = True) -> pd.DataFrame:
