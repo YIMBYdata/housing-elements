@@ -320,7 +320,22 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
     if not is_numeric_dtype(df[column].dtype):
         df[column] = df[column].str.replace("-", "", regex=False)
         df[column] = df[column].str.replace(" ", "", regex=False)
+        df[column] = df[column].str.replace("\n", "", regex=False)
+        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]", '', regex=True)
+
+        # Replace empty strings with null
+        # df[column] = df[column].where(df[column].str.len() > 0)
+
+        # df[column] = df[column].where(df[column].str.isdigit())
+
+        # Set rows where the apn column is a really long string to null.
+        # (Even if they're all numbers, a length 975 string, as we find in Oakland, cannot be
+        # an APN.)
+        # df[column] = df[column].where(df[column].str.len() <= 23)
+
         df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]",'', regex=True)
+
+    # df[column] = df[column].dropna().astype('int64').astype('Int64').reindex(df.index, fill_value=pd.NA)
     df[column] = pd.to_numeric(df[column], errors='coerce')
     return df
 
@@ -450,6 +465,24 @@ def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permit
     return np.nan
 
 
+def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    merged_df_1 = sites.merge(
+        permits,
+        left_on='apn',
+        right_on='apn',
+        how='left',
+    )
+
+    merged_df_2 = sites.merge(
+        permits,
+        left_on='locapn',
+        right_on='apn',
+        how='left',
+    )
+
+    return [merged_df_1, merged_df_2]
+
+
 def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -468,22 +501,7 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
     match_dfs = []
     if match_by in ['apn', 'both']:
         # Select just a few columns before merging, because it makes it wayyy faster
-        merged_df_1 = sites[['index', 'apn']].merge(
-            permits[['apn', 'permyear']],
-            left_on='apn',
-            right_on='apn',
-            how='left',
-        )
-
-        merged_df_2 = sites[['index', 'locapn']].merge(
-            permits[['apn', 'permyear']],
-            left_on='locapn',
-            right_on='apn',
-            how='left',
-        )
-
-        match_dfs.append(merged_df_1)
-        match_dfs.append(merged_df_2)
+        match_dfs.extend(merge_on_apn(sites[['index', 'apn', 'locapn']], permits[['apn', 'permyear']]))
 
     if match_by in ['geo', 'both']:
         merged_df = merge_on_address(sites[['index', 'apn', 'geometry']], permits[['apn', 'permyear', 'geometry']])
@@ -521,7 +539,8 @@ def merge_on_address(df_1, df_2):
     df_2 = df_2.to_crs('EPSG:3310')
 
     # Buffer by 15 meters, which is about 50 feet
-    df_2.geometry = df_2.geometry.buffer(15)
+    # Actually only 1 meter, too many false positives
+    df_2.geometry = df_2.geometry.buffer(1)
 
     return gpd.sjoin(df_1, df_2, how='left')
 
