@@ -7,7 +7,7 @@ from shapely.geometry import Point
 from typing import List, Optional, Tuple
 from pandas.api.types import is_numeric_dtype
 
-#from . import geocode_cache
+from . import geocode_cache
 
 
 _logger = logging.getLogger(__name__)
