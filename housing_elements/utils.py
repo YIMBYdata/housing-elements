@@ -118,6 +118,15 @@ def load_apr_permits(
     else:
         return df
 
+def fraction_apns_nan(permits: pd.DataFrame) -> float:
+    return permits.apn.isna().mean()
+
+def has_more_than_q_real_apns(permits: pd.DataFrame, q: float) -> bool:
+    """ Return list of cities with more than Q% real values.
+    """
+    assert 0 <= q <= 1, "q must be a fraction in [0, 1]"
+    cutoff = 1 - q
+    return fraction_apns_nan(permits) > cutoff
 
 def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
     """
