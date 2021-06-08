@@ -326,7 +326,11 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
         sites = remove_units_in_realcap(sites)
     if city == 'El Cerrito':
         sites = fix_el_cerrito_realcap(sites)
+    
+    is_null_realcap = sites.relcapcty.str.contains("/^([^0-9]*)$/") != False
+    sites['No realistic capacity listed'] = is_null_realcap
     sites['relcapcty'] = sites['relcapcty'].astype(float, errors='ignore')
+    sites['Failed to parse realistic capacity'] = sites.relcapcty.isna() & ~ is_null_realcap
     sites = drop_constant_cols(sites)
     sites = standardize_apn_format(sites, 'apn')
     sites = standardize_apn_format(sites, 'locapn')
@@ -344,7 +348,8 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
     """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
     if len(sites.index) > 1:
-        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype']
+        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype', 
+                     'Failed to parse realistic capacity', 'No realistic capacity listed']
         is_constant = ((sites == sites.iloc[0]).all())
         constant_cols = is_constant[is_constant].index.values
         constant_cols = list(set(constant_cols) - set(dont_drop))
