@@ -304,13 +304,13 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
     ), "city must be a jurisdiction in the inventory. Be sure to capitalize."
 
     rows_to_keep = sites_df.eval(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').fillna(False)
-    print(rows_to_keep)
+    #print(rows_to_keep)
     if exclude_approved_sites:
         # Keep sites where sitetype is null or sitetype != Approved.
         # I guess it's possible that some null rows are also pre-approved, but whatever. We can
         # document that as a potential data issue.
         rows_to_keep &= (sites_df['sitetype'] != 'Approved').fillna(True)
-        print(rows_to_keep)
+        #print(rows_to_keep)
 
     sites = sites_df[rows_to_keep].copy()
     sites.fillna(value=np.nan, inplace=True)
@@ -319,7 +319,6 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
         sites = remove_units_in_allowden(sites)
         sites = remove_miscellaneous(sites)
         sites = remove_range_in_allowden(sites)
-        sites['allowden'] = sites['allowden'].astype(float, errors='ignore')
     if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
         sites = remove_range_in_realcap(sites)
     if city in ('Danville', 'San Ramon', 'Corte Madera', 'Portola Valley'):
@@ -327,10 +326,16 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
     if city == 'El Cerrito':
         sites = fix_el_cerrito_realcap(sites)
     
-    is_null_realcap = sites.relcapcty.str.contains("/^([^0-9]*)$/") != False
-    sites['No realistic capacity listed'] = is_null_realcap
-    sites['relcapcty'] = sites['relcapcty'].astype(float, errors='ignore')
-    sites['Failed to parse realistic capacity'] = sites.relcapcty.isna() & ~ is_null_realcap
+    is_null_realcap = sites.relcapcty.isna()
+    sites['realcap_not_listed'] = is_null_realcap
+    sites['relcapcty'] = pd.to_numeric(sites['relcapcty'], errors='coerce')
+    sites['realcap_parse_fail'] = sites.relcapcty.isna() & ~is_null_realcap
+    
+    is_null_allowden = sites.allowden.isna()
+    sites['allowden_not_listed'] = is_null_allowden
+    sites['allowden'] = pd.to_numeric(sites['allowden'], errors='coerce')
+    sites['allowden_parse_fail'] = sites.allowden.isna() & ~is_null_allowden
+    
     sites = drop_constant_cols(sites)
     sites = standardize_apn_format(sites, 'apn')
     sites = standardize_apn_format(sites, 'locapn')
@@ -349,7 +354,8 @@ def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
     """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
     if len(sites.index) > 1:
         dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype', 
-                     'Failed to parse realistic capacity', 'No realistic capacity listed']
+                     'allowden_parse_fail', 'allowden_not_listed', 'realcap_parse_fail',
+                     'realcap_not_listed']
         is_constant = ((sites == sites.iloc[0]).all())
         constant_cols = is_constant[is_constant].index.values
         constant_cols = list(set(constant_cols) - set(dont_drop))
