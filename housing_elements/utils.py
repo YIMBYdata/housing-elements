@@ -6,6 +6,7 @@ import logging
 from shapely.geometry import Point
 from typing import List, Optional, Tuple
 from pandas.api.types import is_numeric_dtype
+import matplotlib.pyplot as plt
 
 from . import geocode_cache
 
@@ -570,3 +571,23 @@ def geocode_results_to_geoseries(results: List[dict], index: Optional[pd.Index] 
         index=index,
         crs='EPSG:4326'
     )
+
+def map_qoi(qoi, results_df):
+    """ Save map for column name QOI in RESULTS_DF
+    """
+    results_copy = results_df.copy()
+    results_copy['city'] = results_copy['City']
+    bay = gpd.read_file('data/raw_data/bay_area_map/bay.shp')
+    bay['city'] = bay['city'].str.title()
+    bay['county'] = bay['county'].str.title()
+    result = bay.merge(results_copy, how='inner', on='city')
+    to_plot = result.to_crs(epsg=3857)
+    fig, ax = plt.subplots(figsize=(15, 15))
+    to_plot.plot(ax=ax, column=qoi, legend=True)
+    ax.set_yticklabels([])
+    ax.set_xticklabels([])
+    ax.set_title(f'Mapping {qoi} in the Bay')
+    qoi = qoi.replace('/', '')
+    plt.savefig(f'figures/{qoi}_bay_map.jpg')
+    #ctx.add_basemap(ax)
+    
