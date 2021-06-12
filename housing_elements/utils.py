@@ -238,17 +238,12 @@ def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDa
     return df_copy
 
 
-def load_all_new_building_permits(city: str, abag_permits_df: Optional[pd.DataFrame] = None) -> pd.DataFrame:
+def load_all_new_building_permits(city: str) -> pd.DataFrame:
     """
     Returns the combined dataset of 2013-2019 permits, combining the 2013-2017 dataset from ABAG with the 2018-19 dataset from the APRs.
-
-    :param abag_permits_df:
-        (Optional.) A pre-loaded DataFrame that is the result of load_abag_permits(). This is useful if you're loading
-        a bunch of cities' permits and don't want to load the same file a bunch of times.
     """
 
-    if abag_permits_df is None:
-        abag_permits_df = load_abag_permits()
+    abag_permits_df = load_abag_permits()
 
     assert city in set(abag_permits_df["jurisdictn"])
     abag_permits_df = abag_permits_df[abag_permits_df["jurisdictn"] == city].copy()
@@ -283,13 +278,9 @@ def load_all_sites(exclude_approved_sites: bool=True) -> gpd.GeoDataFrame:
     return INVENTORY
 
 
-def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, exclude_approved_sites: bool = True) -> pd.DataFrame:
+def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.DataFrame:
     """
     Return the 5th RHNA cycle site inventory for CITY.
-
-    :param abag_permits_df:
-        (Optional.) A pre-loaded DataFrame that is the result of load_all_sites(). This is useful if you're loading
-        a bunch of cities' sites and don't want to load the same file a bunch of times.
 
     :param exclude_approved_sites:
         Whether to exclude sites with sitetype = 'Approved' (i.e. sites that already had
@@ -297,8 +288,7 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
         These sites have a higher probability of development (i.e. something very close to 1) than a typical site,
         and therefore including these would bias the estimates upward.
     """
-    if sites_df is None:
-        sites_df = load_all_sites()
+    sites_df = load_all_sites()
 
     assert (
         city in sites_df.jurisdict.values
