@@ -6,6 +6,7 @@ import logging
 from shapely.geometry import Point
 from typing import List, Optional, Tuple
 from pandas.api.types import is_numeric_dtype
+import matplotlib.pyplot as plt
 
 from . import geocode_cache
 
@@ -118,6 +119,15 @@ def load_apr_permits(
     else:
         return df
 
+def fraction_apns_nan(permits: pd.DataFrame) -> float:
+    return permits.apn.isna().mean()
+
+def has_more_than_q_real_apns(permits: pd.DataFrame, q: float) -> bool:
+    """ Return list of cities with more than Q% real values.
+    """
+    assert 0 <= q <= 1, "q must be a fraction in [0, 1]"
+    cutoff = 1 - q
+    return fraction_apns_nan(permits) > cutoff
 
 def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -295,13 +305,13 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
     ), "city must be a jurisdiction in the inventory. Be sure to capitalize."
 
     rows_to_keep = sites_df.eval(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').fillna(False)
-    print(rows_to_keep)
+    #print(rows_to_keep)
     if exclude_approved_sites:
         # Keep sites where sitetype is null or sitetype != Approved.
         # I guess it's possible that some null rows are also pre-approved, but whatever. We can
         # document that as a potential data issue.
         rows_to_keep &= (sites_df['sitetype'] != 'Approved').fillna(True)
-        print(rows_to_keep)
+        #print(rows_to_keep)
 
     sites = sites_df[rows_to_keep].copy()
     sites.fillna(value=np.nan, inplace=True)
@@ -310,14 +320,23 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
         sites = remove_units_in_allowden(sites)
         sites = remove_miscellaneous(sites)
         sites = remove_range_in_allowden(sites)
-        sites['allowden'] = sites['allowden'].astype(float, errors='ignore')
     if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
         sites = remove_range_in_realcap(sites)
     if city in ('Danville', 'San Ramon', 'Corte Madera', 'Portola Valley'):
         sites = remove_units_in_realcap(sites)
     if city == 'El Cerrito':
         sites = fix_el_cerrito_realcap(sites)
-    sites['relcapcty'] = sites['relcapcty'].astype(float, errors='ignore')
+    
+    is_null_realcap = sites.relcapcty.isna()
+    sites['realcap_not_listed'] = is_null_realcap
+    sites['relcapcty'] = pd.to_numeric(sites['relcapcty'], errors='coerce')
+    sites['realcap_parse_fail'] = sites.relcapcty.isna() & ~is_null_realcap
+    
+    is_null_allowden = sites.allowden.isna()
+    sites['allowden_not_listed'] = is_null_allowden
+    sites['allowden'] = pd.to_numeric(sites['allowden'], errors='coerce')
+    sites['allowden_parse_fail'] = sites.allowden.isna() & ~is_null_allowden
+    
     sites = drop_constant_cols(sites)
     sites = standardize_apn_format(sites, 'apn')
     sites = standardize_apn_format(sites, 'locapn')
@@ -342,7 +361,9 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
     """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
     if len(sites.index) > 1:
-        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype']
+        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype', 
+                     'allowden_parse_fail', 'allowden_not_listed', 'realcap_parse_fail',
+                     'realcap_not_listed']
         is_constant = ((sites == sites.iloc[0]).all())
         constant_cols = is_constant[is_constant].index.values
         constant_cols = list(set(constant_cols) - set(dont_drop))
@@ -561,3 +582,23 @@ def geocode_results_to_geoseries(results: List[dict], index: Optional[pd.Index] 
         index=index,
         crs='EPSG:4326'
     )
+
+def map_qoi(qoi, results_df):
+    """ Save map for column name QOI in RESULTS_DF
+    """
+    results_copy = results_df.copy()
+    results_copy['city'] = results_copy['City']
+    bay = gpd.read_file('data/raw_data/bay_area_map/bay.shp')
+    bay['city'] = bay['city'].str.title()
+    bay['county'] = bay['county'].str.title()
+    result = bay.merge(results_copy, how='inner', on='city')
+    to_plot = result.to_crs(epsg=3857)
+    fig, ax = plt.subplots(figsize=(15, 15))
+    to_plot.plot(ax=ax, column=qoi, legend=True)
+    ax.set_yticklabels([])
+    ax.set_xticklabels([])
+    ax.set_title(f'Mapping {qoi} in the Bay')
+    qoi = qoi.replace('/', '')
+    plt.savefig(f'figures/{qoi}_bay_map.jpg')
+    #ctx.add_basemap(ax)
+    
