@@ -328,23 +328,15 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
     if not is_numeric_dtype(df[column].dtype):
         df[column] = df[column].str.replace("-", "", regex=False)
         df[column] = df[column].str.replace(" ", "", regex=False)
-        df[column] = df[column].str.replace("\n", "", regex=False)
         df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]", '', regex=True)
 
-        # Replace empty strings with null
-        # df[column] = df[column].where(df[column].str.len() > 0)
+        # Some extra logic to handle Oakland, Hayward, Pittsburg, San Bruno, South SF, Windsor
+        df[column] = df[column].str.replace("\n", "", regex=False)
+        df[column] = df[column].where(df[column].str.isdigit())
+        df[column] = df[column].where(df[column].str.len() > 0)
+        df[column] = df[column].where(df[column].str.len() <= 23)
 
-        # df[column] = df[column].where(df[column].str.isdigit())
-
-        # Set rows where the apn column is a really long string to null.
-        # (Even if they're all numbers, a length 975 string, as we find in Oakland, cannot be
-        # an APN.)
-        # df[column] = df[column].where(df[column].str.len() <= 23)
-
-        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]",'', regex=True)
-
-    # df[column] = df[column].dropna().astype('int64').astype('Int64').reindex(df.index, fill_value=pd.NA)
-    df[column] = pd.to_numeric(df[column], errors='coerce')
+    df[column] = df[column].dropna().astype('int64').astype('Int64').reindex(df.index, fill_value=pd.NA)
     return df
 
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
