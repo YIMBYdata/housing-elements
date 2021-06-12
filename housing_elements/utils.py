@@ -238,17 +238,12 @@ def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDa
     return df_copy
 
 
-def load_all_new_building_permits(city: str, abag_permits_df: Optional[pd.DataFrame] = None) -> pd.DataFrame:
+def load_all_new_building_permits(city: str) -> pd.DataFrame:
     """
     Returns the combined dataset of 2013-2019 permits, combining the 2013-2017 dataset from ABAG with the 2018-19 dataset from the APRs.
-
-    :param abag_permits_df:
-        (Optional.) A pre-loaded DataFrame that is the result of load_abag_permits(). This is useful if you're loading
-        a bunch of cities' permits and don't want to load the same file a bunch of times.
     """
 
-    if abag_permits_df is None:
-        abag_permits_df = load_abag_permits()
+    abag_permits_df = load_abag_permits()
 
     assert city in set(abag_permits_df["jurisdictn"])
     abag_permits_df = abag_permits_df[abag_permits_df["jurisdictn"] == city].copy()
@@ -283,13 +278,9 @@ def load_all_sites(exclude_approved_sites: bool=True) -> gpd.GeoDataFrame:
     return INVENTORY
 
 
-def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, exclude_approved_sites: bool = True) -> pd.DataFrame:
+def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.DataFrame:
     """
     Return the 5th RHNA cycle site inventory for CITY.
-
-    :param abag_permits_df:
-        (Optional.) A pre-loaded DataFrame that is the result of load_all_sites(). This is useful if you're loading
-        a bunch of cities' sites and don't want to load the same file a bunch of times.
 
     :param exclude_approved_sites:
         Whether to exclude sites with sitetype = 'Approved' (i.e. sites that already had
@@ -297,8 +288,7 @@ def load_site_inventory(city: str, sites_df: Optional[gpd.GeoDataFrame] = None, 
         These sites have a higher probability of development (i.e. something very close to 1) than a typical site,
         and therefore including these would bias the estimates upward.
     """
-    if sites_df is None:
-        sites_df = load_all_sites()
+    sites_df = load_all_sites()
 
     assert (
         city in sites_df.jurisdict.values
@@ -347,8 +337,15 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
     if not is_numeric_dtype(df[column].dtype):
         df[column] = df[column].str.replace("-", "", regex=False)
         df[column] = df[column].str.replace(" ", "", regex=False)
-        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]",'', regex=True)
-    df[column] = pd.to_numeric(df[column], errors='coerce')
+        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]", '', regex=True)
+
+        # Some extra logic to handle Oakland, Hayward, Pittsburg, San Bruno, South SF, Windsor
+        df[column] = df[column].str.replace("\n", "", regex=False)
+        df[column] = df[column].where(df[column].str.isdigit())
+        df[column] = df[column].where(df[column].str.len() > 0)
+        df[column] = df[column].where(df[column].str.len() <= 23)
+
+    df[column] = df[column].dropna().astype('int64').astype('Int64').reindex(df.index, fill_value=pd.NA)
     return df
 
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
@@ -479,6 +476,24 @@ def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permit
     return np.nan
 
 
+def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    merged_df_1 = sites.merge(
+        permits,
+        left_on='apn',
+        right_on='apn',
+        how='left',
+    )
+
+    merged_df_2 = sites.merge(
+        permits,
+        left_on='locapn',
+        right_on='apn',
+        how='left',
+    )
+
+    return [merged_df_1, merged_df_2]
+
+
 def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -497,22 +512,7 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
     match_dfs = []
     if match_by in ['apn', 'both']:
         # Select just a few columns before merging, because it makes it wayyy faster
-        merged_df_1 = sites[['index', 'apn']].merge(
-            permits[['apn', 'permyear']],
-            left_on='apn',
-            right_on='apn',
-            how='left',
-        )
-
-        merged_df_2 = sites[['index', 'locapn']].merge(
-            permits[['apn', 'permyear']],
-            left_on='locapn',
-            right_on='apn',
-            how='left',
-        )
-
-        match_dfs.append(merged_df_1)
-        match_dfs.append(merged_df_2)
+        match_dfs.extend(merge_on_apn(sites[['index', 'apn', 'locapn']], permits[['apn', 'permyear']]))
 
     if match_by in ['geo', 'both']:
         merged_df = merge_on_address(sites[['index', 'apn', 'geometry']], permits[['apn', 'permyear', 'geometry']])
@@ -550,7 +550,8 @@ def merge_on_address(df_1, df_2):
     df_2 = df_2.to_crs('EPSG:3310')
 
     # Buffer by 15 meters, which is about 50 feet
-    df_2.geometry = df_2.geometry.buffer(15)
+    # Actually only 1 meter, too many false positives
+    df_2.geometry = df_2.geometry.buffer(1)
 
     return gpd.sjoin(df_1, df_2, how='left')
 
