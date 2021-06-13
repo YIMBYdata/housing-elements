@@ -269,7 +269,7 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
     return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
 
-def load_all_sites(exclude_approved_sites: bool=True) -> gpd.GeoDataFrame:
+def load_all_sites() -> gpd.GeoDataFrame:
     global INVENTORY
     if INVENTORY is None:
         INVENTORY = gpd.read_file(
@@ -316,21 +316,30 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.Da
         sites = remove_units_in_realcap(sites)
     if city == 'El Cerrito':
         sites = fix_el_cerrito_realcap(sites)
-    
+
     is_null_realcap = sites.relcapcty.isna()
     sites['realcap_not_listed'] = is_null_realcap
     sites['relcapcty'] = pd.to_numeric(sites['relcapcty'], errors='coerce')
     sites['realcap_parse_fail'] = sites.relcapcty.isna() & ~is_null_realcap
-    
+
     is_null_allowden = sites.allowden.isna()
     sites['allowden_not_listed'] = is_null_allowden
     sites['allowden'] = pd.to_numeric(sites['allowden'], errors='coerce')
     sites['allowden_parse_fail'] = sites.allowden.isna() & ~is_null_allowden
-    
+
     sites = drop_constant_cols(sites)
     sites = standardize_apn_format(sites, 'apn')
     sites = standardize_apn_format(sites, 'locapn')
     print("DF shape", sites.shape)
+
+    if city == 'San Francisco':
+        # Exclude PDR sites that have a stated capacity of zero.
+        # According to SF's website, "In order to protect PDR, residential development would be prohibited,
+        # while office, retail, and institutional uses (schools, hospitals, etc.) would be limited.
+        # HOWEVER, residences, offices and retail which currently exist legally in these areas may stay indefinitely."
+        sites = sites[
+            sites['relcapcty'] != 0
+        ]
     return sites
 
 def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
@@ -351,7 +360,7 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
     """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
     if len(sites.index) > 1:
-        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype', 
+        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype',
                      'allowden_parse_fail', 'allowden_not_listed', 'realcap_parse_fail',
                      'realcap_not_listed']
         is_constant = ((sites == sites.iloc[0]).all())
@@ -591,4 +600,3 @@ def map_qoi(qoi, results_df):
     qoi = qoi.replace('/', '')
     plt.savefig(f'figures/{qoi}_bay_map.jpg')
     #ctx.add_basemap(ax)
-    
