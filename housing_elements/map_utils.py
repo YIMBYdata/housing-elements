@@ -1,4 +1,4 @@
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Union
 from pathlib import Path
 import json
 import shutil
@@ -20,12 +20,12 @@ def get_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Tuple[p
     sites['index'] = pd.RangeIndex(len(sites))
 
     apn_merged_df = pd.concat(utils.merge_on_apn(
-        sites[['index', 'apn', 'locapn', 'relcapcty']],
+        sites[['index', 'apn', 'locapn', 'relcapcty', 'sitetype']],
         permits[['apn', 'address', 'totalunit', 'permyear', 'hcategory']]
     )).dropna(subset=['permyear'])
 
     geo_merged_df = utils.merge_on_address(
-        sites[['index', 'apn', 'geometry', 'relcapcty']],
+        sites[['index', 'apn', 'geometry', 'relcapcty', 'sitetype']],
         permits[['apn', 'permyear', 'address', 'totalunit', 'hcategory', 'geometry']]
     ).dropna(subset=['permyear'])
 
@@ -88,7 +88,7 @@ def combine_match_dfs(sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_
 
         return df
 
-    merged_df = sites[['index', 'relcapcty', 'geometry']].copy()
+    merged_df = sites[['index', 'relcapcty', 'geometry', 'sitetype']].copy()
     merged_df = _merge_matches(merged_df, apn_merged_df, 'apn_match_results')
     merged_df = _merge_matches(merged_df, geo_merged_df, 'geo_match_results')
 
@@ -240,10 +240,25 @@ def write_matches_to_files(
             summary_info.append({
                 'city': city,
                 'bounds': bounds,
-                'apn_match_fraction': matches_df['apn_matched'].mean(),
-                'geo_match_fraction': matches_df['geo_matched'].mean(),
-                'either_match_fraction': (matches_df['apn_matched'] | matches_df['geo_matched']).mean(),
+                'overall_match_stats': get_match_stats(matches_df),
+                'vacant_match_stats': get_match_stats(matches_df[matches_df['sitetype'] == 'Vacant']),
+                'nonvacant_match_stats': get_match_stats(matches_df[matches_df['sitetype'] != 'Vacant']),
             })
 
     summary_df = pd.DataFrame(summary_info)
     summary_df.to_json(Path(output_dir, 'summary.json'), orient='records')
+
+
+def get_match_stats(matches_df: pd.DataFrame) -> Dict[str, Dict[str, Union[float, int]]]:
+    return {
+        'apn': _match_stats(matches_df['apn_matched']),
+        'geo': _match_stats(matches_df['geo_matched']),
+        'either': _match_stats(matches_df['apn_matched'] | matches_df['geo_matched']),
+    }
+
+def _match_stats(match_indicators: pd.Series) -> Dict[str, Union[float, int]]:
+    return {
+        'fraction': match_indicators.mean(),
+        'sites': len(match_indicators),
+        'matches': match_indicators.sum(),
+    }
