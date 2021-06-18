@@ -7,8 +7,8 @@ from shapely.geometry import Point
 from typing import List, Optional, Tuple
 from pandas.api.types import is_numeric_dtype
 import matplotlib.pyplot as plt
-
-from . import geocode_cache
+import contextily as ctx
+#from . import geocode_cache
 
 
 _logger = logging.getLogger(__name__)
@@ -266,7 +266,8 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
-    return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
+    return permits_df
+    #return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
 
 def load_all_sites() -> gpd.GeoDataFrame:
@@ -598,5 +599,5 @@ def map_qoi(qoi, results_df):
     ax.set_xticklabels([])
     ax.set_title(f'Mapping {qoi} in the Bay')
     qoi = qoi.replace('/', '')
+    ctx.add_basemap(ax)
     plt.savefig(f'figures/{qoi}_bay_map.jpg')
-    #ctx.add_basemap(ax)
