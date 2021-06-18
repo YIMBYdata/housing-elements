@@ -2,13 +2,14 @@ import re
 import geopandas as gpd
 import pandas as pd
 import numpy as np
+import seaborn as sea
 import logging
 from shapely.geometry import Point
 from typing import List, Optional, Tuple
 from pandas.api.types import is_numeric_dtype
 import matplotlib.pyplot as plt
 import contextily as ctx
-#from . import geocode_cache
+from . import geocode_cache
 
 
 _logger = logging.getLogger(__name__)
@@ -266,8 +267,7 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
-    return permits_df
-    #return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
+    return impute_missing_geometries(permits_df, address_suffix=f', {city}, CA')
 
 
 def load_all_sites() -> gpd.GeoDataFrame:
@@ -601,3 +601,17 @@ def map_qoi(qoi, results_df):
     qoi = qoi.replace('/', '')
     ctx.add_basemap(ax)
     plt.savefig(f'figures/{qoi}_bay_map.jpg')
+
+def catplot_qoi(result_df, qoi_col_prefix, order=None):
+    assert 'City' in result_df.columns
+    tiny_df = result_df.copy()
+    relevant_qoi = [c for c in result_df.columns if qoi_col_prefix in c]
+    tiny_df = tiny_df[relevant_qoi + ['City']]
+    rename_map = {c: c[len(qoi_col_prefix) + 1:] for c in tiny_df.columns if c.startswith(qoi_col_prefix)}
+    tiny_df.rename(rename_map, inplace=True, axis=1)
+    long_df = pd.melt(tiny_df, id_vars='City', var_name='Method', value_name=qoi_col_prefix)
+    sea.set(rc={'figure.figsize':(40,4)})
+    ax = sea.barplot(x="City", y=qoi_col_prefix, hue="Method",
+                data=long_df, saturation=.5, ci=None, order=order[:len(order)//3])
+    ax.tick_params(axis='x', labelrotation=90)
+    plt.savefig(f'figures/{qoi_col_prefix}_by_city_barplot.jpg')
