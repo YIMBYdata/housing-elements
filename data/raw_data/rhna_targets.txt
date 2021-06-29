@@ -1,0 +1,110 @@
+City, Very_Low, Low, Moderate, Above_Moderate, Total
+Alameda, 444, 248, 283, 748, 1723
+Albany, 80, 53, 57, 145, 335
+Berkeley, 532, 442, 584, 1401, 2959
+Dublin, 796, 446, 425, 618, 2285
+Emeryville, 276, 211, 259, 752, 1498
+Fremont, 1714, 926, 978, 1837, 5455
+Hayward, 851, 480, 608, 1981, 3920
+Livermore, 839, 474, 496, 920, 2729
+Newark, 330, 167, 158, 423, 1078
+Oakland, 2059, 2075, 2815, 7816, 14765
+Piedmont, 24, 14, 15, 7, 60
+Pleasanton, 716, 391, 407, 553, 2067
+San Leandro, 504, 270, 352, 1161, 2287
+Union City, 317, 180, 192, 417, 1106
+Unincorporated, 430, 227, 295, 817, 1769
+Antioch, 349, 205, 214, 680, 1448
+Brentwood, 234, 124, 123, 279, 760
+Clayton, 51, 25, 31, 34, 141
+Concord, 798, 444, 559, 1677, 3478
+Danville, 196, 111, 124, 126, 557
+El Cerrito, 100, 63, 69, 166, 398
+Hercules, 220, 118, 100, 244, 682
+Lafayette, 138, 78, 85, 99, 400
+Martinez, 124, 72, 78, 195, 469
+Moraga, 75, 44, 50, 60, 229
+Oakley, 317, 174, 175, 502, 1168
+Orinda, 84, 47, 54, 42, 227
+Pinole, 80, 48, 43, 126, 297
+Pittsburg, 392, 254, 316, 1063, 2025
+Pleasant Hill, 118, 69, 84, 177, 448
+Richmond, 438, 305, 410, 1282, 2435
+San Pablo, 56, 53, 75, 265, 449
+San Ramon, 516, 279, 282, 340, 1417
+Walnut Creek, 604, 355, 381, 895, 2235
+Unincorporated, 374, 218, 243, 532, 1367
+Belvedere, 4, 3, 4, 5, 16
+Corte Madera, 22, 13, 13, 24, 72
+Fairfax, 16, 11, 11, 23, 61
+Larkspur, 40, 20, 21, 51, 132
+Mill Valley, 41, 24, 26, 38, 129
+Novato, 111, 65, 72, 167, 415
+Ross, 6, 4, 4, 4, 18
+San Anselmo, 33, 17, 19, 37, 106
+San Rafael, 240, 148, 181, 438, 1007
+Sausalito, 26, 14, 16, 23, 79
+Tiburon, 24, 16, 19, 19, 78
+Unincorporated, 55, 32, 37, 61, 185
+American Canyon, 116, 54, 58, 164, 392
+Calistoga, 6, 2, 4, 15, 27
+Napa, 185, 106, 141, 403, 835
+St. Helena, 8, 5, 5, 13, 31
+Yountville, 4, 2, 3, 8, 17
+Unincorporated, 51, 30, 32, 67, 180
+San Francisco, 6234, 4639, 5460, 12536, 28869
+Atherton, 35, 26, 29, 3, 93
+Belmont, 116, 63, 67, 222, 468
+Brisbane, 25, 13, 15, 30, 83
+Burlingame, 276, 144, 155, 288, 863
+Colma, 20, 8, 9, 22, 59
+Daly City, 400, 188, 221, 541, 1350
+East Palo Alto, 64, 54, 83, 266, 467
+Foster City, 148, 87, 76, 119, 430
+Half Moon Bay, 52, 31, 36, 121, 240
+Hillsborough, 32, 17, 21, 21, 91
+Menlo Park, 233, 129, 143, 150, 655
+Millbrae, 193, 101, 112, 257, 663
+Pacifica, 121, 68, 70, 154, 413
+Portola Valley, 21, 15, 15, 13, 64
+Redwood City, 706, 429, 502, 1152, 2789
+San Bruno, 358, 161, 205, 431, 1155
+San Carlos, 195, 107, 111, 183, 596
+San Mateo, 859, 469, 530, 1242, 3100
+South San Francisco, 565, 281, 313, 705, 1864
+Woodside, 23, 13, 15, 11, 62
+Unincorporated, 153, 103, 102, 555, 913
+Campbell, 253, 138, 151, 391, 933
+Cupertino, 356, 207, 231, 270, 1064
+Gilroy, 236, 160, 217, 475, 1088
+Los Altos, 169, 99, 112, 97, 477
+Los Altos Hills, 46, 28, 32, 15, 121
+Los Gatos, 201, 112, 132, 174, 619
+Milpitas, 1004, 570, 565, 1151, 3290
+Monte Sereno, 23, 13, 13, 12, 61
+Morgan Hill, 273, 154, 185, 316, 928
+Mountain View, 814, 492, 527, 1093, 2926
+Palo Alto, 691, 432, 278, 587, 1988
+San Jose, 9233, 5428, 6188, 14231, 35080
+Santa Clara, 1050, 695, 755, 1593, 4093
+Saratoga, 147, 95, 104, 93, 439
+Sunnyvale, 1640, 906, 932, 1974, 5452
+Unincorporated, 22, 13, 214, 28, 277
+Benicia, 94, 54, 56, 123, 327
+Dixon, 50, 24, 30, 93, 197
+Fairfield, 779, 404, 456, 1461, 3100
+Rio Vista, 45, 36, 48, 170, 299
+Suisun City, 147, 57, 60, 241, 505
+Vacaville, 287, 134, 173, 490, 1084
+Vallejo, 283, 178, 211, 690, 1362
+Unincorporated, 26, 15, 19, 43, 103
+Cloverdale, 39, 29, 31, 112, 211
+Cotati, 35, 18, 18, 66, 137
+Healdsburg, 31, 24, 26, 76, 157
+Petaluma, 199, 103, 121, 322, 745
+Rohnert Park, 181, 107, 127, 484, 899
+Santa Rosa, 1041, 671, 759, 2612, 5083
+Sebastopol, 22, 17, 19, 62, 120
+Sonoma, 24, 23, 27, 63, 137
+Windsor, 120, 65, 67, 188, 440
+Unincorporated, 126, 37, 160, 192, 515
