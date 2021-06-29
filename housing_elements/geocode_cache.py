@@ -9,15 +9,17 @@ a file "geocodio_api_key.json" with the contents:
     }
 """
 import json
+import os
 from pathlib import Path
 from typing import Dict, Iterable, List
 from geocodio import GeocodioClient
 
 # A cache of format "address -> Geocode response dict" that we will keep committed
 # in the repo.
-CACHE_PATH = Path('./data/geocode_cache.json')
+parent_dir = os.path.dirname(os.path.dirname(__file__))
+CACHE_PATH = Path(parent_dir + '/data/geocode_cache.json')
 
-client = GeocodioClient(json.loads(Path('./geocodio_api_key.json').read_text())['key'])
+client = GeocodioClient(json.loads(Path(parent_dir + '/geocodio_api_key.json').read_text())['key'])
 
 def load_cache() -> Dict[str, dict]:
     if not CACHE_PATH.exists():

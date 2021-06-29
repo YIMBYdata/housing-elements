@@ -1,4 +1,6 @@
 import re
+import os
+import warnings
 import geopandas as gpd
 import pandas as pd
 import numpy as np
@@ -9,18 +11,20 @@ from typing import List, Optional, Tuple
 from pandas.api.types import is_numeric_dtype
 import matplotlib.pyplot as plt
 import contextily as ctx
-from . import geocode_cache
+from housing_elements import geocode_cache
 
 
 _logger = logging.getLogger(__name__)
 ABAG = None
 INVENTORY = None
+TARGETS = None
 XLSX_FILES = [
     ('Richmond', '2018'),
     ('PleasantHill', '2018'),
     ('Oakland', '2019'),
     ('Livermore', '2019'),
 ]
+PARENT_DIR = os.path.dirname(os.path.dirname(__file__))
 
 def load_apr_permits(
     city: str, year: str, filter_for_permits: bool = True
@@ -31,12 +35,12 @@ def load_apr_permits(
     city = city.replace(" ", "")
 
     if (city, year) in XLSX_FILES:
-        path = f"data/raw_data/APRs/{city}{year}.xlsx"
+        path = f"/data/raw_data/APRs/{city}{year}.xlsx"
     else:
-        path = f"data/raw_data/APRs/{city}{year}.xlsm"
+        path = f"/data/raw_data/APRs/{city}{year}.xlsm"
 
     df = pd.read_excel(
-        path,
+        PARENT_DIR + path,
         sheet_name="Table A2",
         skiprows=10,
         usecols="A:AS",
@@ -169,8 +173,8 @@ def load_abag_permits() -> gpd.GeoDataFrame:
     """
     global ABAG
     if ABAG is None:
-        geometry_df = gpd.read_file("data/raw_data/abag_building_permits/permits.shp")
-        data_df = pd.read_csv("data/raw_data/abag_building_permits/permits.csv")
+        geometry_df = gpd.read_file(PARENT_DIR + "/data/raw_data/abag_building_permits/permits.shp")
+        data_df = pd.read_csv(PARENT_DIR + "/data/raw_data/abag_building_permits/permits.csv")
 
         # There shouldn't be any rows with geometry data that don't have label data
         assert geometry_df["joinid"].isin(data_df["joinid"]).all()
@@ -274,10 +278,15 @@ def load_all_sites() -> gpd.GeoDataFrame:
     global INVENTORY
     if INVENTORY is None:
         INVENTORY = gpd.read_file(
-            "./data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
+            PARENT_DIR + "/data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
         )
     return INVENTORY
 
+def load_rhna_targets() -> str:
+    global TARGETS
+    if TARGETS is None:
+        TARGETS = pd.read_csv(PARENT_DIR + '/data/raw_data/rhna_targets.txt', sep=', ', engine='python')
+    return TARGETS
 
 def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.DataFrame:
     """
@@ -393,10 +402,10 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
     return sites
 
-def calculate_inventory_housing_over_all_housing(
+def calculate_pinventory_for_dev(
     sites: pd.DataFrame, permits: pd.DataFrame
 ) -> float:
-    """(new housing units on HE sites) / (new housing units)"""
+    """P(inventory|developed)"""
     housing_on_sites = permits[permits.apn.isin(sites.apn)].totalunit.sum()
     total_units = permits.totalunit.sum()
 
@@ -428,19 +437,25 @@ def calculate_underproduction_on_sites(
         return sum(units_built_over_claimed) / len(units_built_over_claimed)
     return np.nan
 
-def calculate_total_units_permitted_over_he_capacity(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
-    """ (total units permitted) / (HE site capacity)
+def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
+    """Percentage of RHNA total built. Can exceed 100%.
+
+    This is a crude proxy for RHNA success because it's insensitive to affordability levels.
     """
     total_units = permits.totalunit.sum()
-    total_inventory_capacity = sites.relcapcty.sum()
+    rhna_targets = load_rhna_targets()
+    with warnings.catch_warnings():
+        warnings.simplefilter(action='ignore', category=FutureWarning)
+        rhna_target = rhna_targets.query('City == @city')['Total'].values[0]
     print("Total units permitted:", total_units)
-    print("Total realistic capacity in inventory:", total_inventory_capacity)
-    if total_inventory_capacity:
-        return total_units / total_inventory_capacity
+    print("Total rhna target:", rhna_target)
+    if rhna_target:
+        return total_units / rhna_target
     return np.nan
 
 
 def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    
     merged_df_1 = sites.merge(
         permits,
         left_on='apn',
@@ -486,6 +501,7 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
 
     # dedupe, keeping the one that is merged
     match_df = match_df.sort_values('permyear', na_position='last').drop_duplicates(['index'], keep='first')
+    
     assert len(match_df) == len(sites)
 
     is_match = match_df['permyear'].notnull()
