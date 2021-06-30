@@ -443,15 +443,19 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
     This is a crude proxy for RHNA success because it's insensitive to affordability levels.
     """
     total_units = permits.totalunit.sum()
-    rhna_targets = load_rhna_targets()
-    with warnings.catch_warnings():
-        warnings.simplefilter(action='ignore', category=FutureWarning)
-        rhna_target = rhna_targets.query('City == @city')['Total'].values[0]
+    rhna_target = get_rhna_target()
     print("Total units permitted:", total_units)
     print("Total rhna target:", rhna_target)
     if rhna_target:
         return total_units / rhna_target
     return np.nan
+
+def get_rhna_target(city: str) -> float:
+    rhna_targets = load_rhna_targets()
+    with warnings.catch_warnings():
+        warnings.simplefilter(action='ignore', category=FutureWarning)
+        rhna_target = rhna_targets.query('City == @city')['Total'].values[0]
+    return rhna_target
 
 
 def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
@@ -567,9 +571,10 @@ def map_qoi(qoi, results_df):
     to_plot.plot(ax=ax, column=qoi, legend=True)
     ax.set_yticklabels([])
     ax.set_xticklabels([])
-    ax.set_title(f'Mapping {qoi} in the Bay')
+    ax.set_title(f'Bay Area Map Of {qoi.title()}', fontdict={'fontsize': 25})
     qoi = qoi.replace('/', '')
-    ctx.add_basemap(ax)
+    qoi = qoi.replace(' ', '_')
+    ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
     plt.savefig(f'figures/{qoi}_bay_map.jpg')
 
 def catplot_qoi(result_df, qoi_col_prefix, order=None):
