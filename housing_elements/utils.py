@@ -182,7 +182,6 @@ def load_abag_permits() -> gpd.GeoDataFrame:
         ABAG = gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
     return ABAG
 
-
 def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
     """
     Fills in the missing entries in the input GeoDataFrame's 'geometry' field,
