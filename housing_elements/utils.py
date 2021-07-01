@@ -12,7 +12,7 @@ from pandas.api.types import is_numeric_dtype
 import matplotlib.pyplot as plt
 import contextily as ctx
 from housing_elements import geocode_cache
-
+from matplotlib.colors import LinearSegmentedColormap
 
 _logger = logging.getLogger(__name__)
 ABAG = None
@@ -557,6 +557,33 @@ def geocode_results_to_geoseries(results: List[dict], index: Optional[pd.Index] 
         crs='EPSG:4326'
     )
 
+def register_cmap():
+    if ('RedGreen' in plt.colormaps()):
+        return
+    cdict = {'red':  ((0.0, 0.0, 1.0),
+                   (0.05, 1, 1.0),
+                   (0.5, 1.0, 1.0),
+                   (1.0, 0.4, 1.0)),
+
+         'green': ((0.0, 0.0, 0.0),
+                   (0.2, 0.8, 0.8),
+                   (0.3, 0.9, .9),
+                   (1.0, 0.8, 1)),
+
+         'blue':  ((0.0, 0.0, 0.0),
+                   (0.0, 0.0, 0.0),
+                   (0.0, 0.0, 0.0),
+                   (1.0, 0.0, 0.0))
+        }
+ 
+    cdict['alpha'] = ((0.0, .7, .7),
+                   (0.25, 1, 1),
+                   (0.75, 1.0, 1.0),
+                   (1.0, 1.0, 1.0))
+
+    cmap = LinearSegmentedColormap('RedGreen', cdict)
+    plt.register_cmap('RedGreen', cmap) 
+
 def map_qoi(qoi, results_df):
     """ Save map for column name QOI in RESULTS_DF
     """
@@ -568,7 +595,11 @@ def map_qoi(qoi, results_df):
     result = bay.merge(results_copy, how='inner', on='city')
     to_plot = result.to_crs(epsg=3857)
     fig, ax = plt.subplots(figsize=(15, 15))
-    to_plot.plot(ax=ax, column=qoi, legend=True)
+    register_cmap()
+    plt.rcParams.update({'font.size': 25})
+    to_plot.plot(ax=ax, column=qoi, legend=True, 
+                 legend_kwds={'label': qoi, 'ax': ax}, cmap='RedGreen')
+    plt.rcParams.update({'font.size': 10})
     ax.set_yticklabels([])
     ax.set_xticklabels([])
     ax.set_title(f'Bay Area Map Of {qoi.title()}', fontdict={'fontsize': 25})
