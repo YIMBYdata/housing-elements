@@ -589,24 +589,42 @@ def map_qoi(qoi, results_df):
     """
     results_copy = results_df.copy()
     results_copy['city'] = results_copy['City']
+    results_copy['RHNA Success'] = results_copy['RHNA Success'] * 100
     bay = gpd.read_file('data/raw_data/bay_area_map/bay.shp')
     bay['city'] = bay['city'].str.title()
     bay['county'] = bay['county'].str.title()
     result = bay.merge(results_copy, how='inner', on='city')
     to_plot = result.to_crs(epsg=3857)
+    qoi_in_title = qoi.title()
+    legend_label = qoi
+    file_name_prefix = qoi.lower()
+    if qoi == 'RHNA Success':
+        qoi_in_title = qoi
+    if qoi == 'RHNA Success':
+        legend_label = 'Percentage of RHNA Total Built'
+    title = f'Map Of {qoi_in_title}'
+    map_qoi_inner(qoi=qoi,
+                  title=title, 
+                  legend_label=legend_label, 
+                  to_plot=to_plot,
+                  file_name_prefix=file_name_prefix)
+
+
+def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     fig, ax = plt.subplots(figsize=(15, 15))
     register_cmap()
     plt.rcParams.update({'font.size': 25})
     to_plot.plot(ax=ax, column=qoi, legend=True, 
-                 legend_kwds={'label': qoi, 'ax': ax}, cmap='RedGreen')
+                 legend_kwds={'label': legend_label, 'ax': ax}, cmap='RedGreen')
     plt.rcParams.update({'font.size': 10})
     ax.set_yticklabels([])
     ax.set_xticklabels([])
-    ax.set_title(f'Bay Area Map Of {qoi.title()}', fontdict={'fontsize': 25})
-    qoi = qoi.replace('/', '')
-    qoi = qoi.replace(' ', '_')
+    ax.set_title(f' {title}', fontdict={'fontsize': 25})
+    file_name_prefix = file_name_prefix.replace('/', '')
+    file_name_prefix = file_name_prefix.replace(' ', '_')
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
-    plt.savefig(f'figures/{qoi}_bay_map.jpg')
+    plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg')
+    
 
 def catplot_qoi(result_df, qoi_col_prefix, order=None):
     assert 'City' in result_df.columns
@@ -620,4 +638,4 @@ def catplot_qoi(result_df, qoi_col_prefix, order=None):
     ax = sea.barplot(x="City", y=qoi_col_prefix, hue="Method",
                 data=long_df, saturation=.5, ci=None, order=order[:len(order)//3])
     ax.tick_params(axis='x', labelrotation=90)
-    plt.savefig(f'figures/{qoi_col_prefix}_by_city_barplot.jpg')
+    plt.savefig(f'figures/{qoi_col_prefix.lower()}_by_city_barplot.jpg')
