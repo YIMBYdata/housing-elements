@@ -6,11 +6,9 @@ jobs:
     steps:
       - name: Install poetry
         uses: abatilo/actions-poetry@v2.1.0
-      - name: ls
-        run: ls
-      - name: pwd
-        run: pwd
+      - name: Checkout repo
+        uses: actions/checkout@v2
       - name: Install dependencies
-        run: pwd && ls && poetry install
+        run: poetry install
       - name: Run tests
         run: poetry run python tests/test_utils.py
