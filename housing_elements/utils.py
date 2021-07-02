@@ -26,8 +26,9 @@ XLSX_FILES = [
 ]
 PARENT_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
-def load_apr_permits(city: str, year: str, filter_for_permits: bool = True) -> pd.DataFrame:
+def load_apr_permits(
+    city: str, year: str, filter_for_permits: bool = True
+) -> pd.DataFrame:
     """
     :param year: must be either '2018' or '2019'
     """
@@ -63,13 +64,13 @@ def load_apr_permits(city: str, year: str, filter_for_permits: bool = True) -> p
             df = df.drop(columns=[col])
         else:
             num_not_null_rows = df[col].notnull().sum()
-            _logger.info(f"Column {col} is not all null ({num_not_null_rows} rows not null), will not drop it.")
+            _logger.info(
+                f"Column {col} is not all null ({num_not_null_rows} rows not null), will not drop it."
+            )
 
     # Sorry this is messy. Some say "enter 1", some say "enter 1000", but in either case we want to drop the column
     term_length_enter_1 = "Term of Affordability or Deed Restriction (years) (if affordable in perpetuity enter 1)+"
-    term_length_enter_1000 = (
-        "Term of Affordability or Deed Restriction (years) (if affordable in perpetuity enter 1000)+"
-    )
+    term_length_enter_1000 = "Term of Affordability or Deed Restriction (years) (if affordable in perpetuity enter 1000)+"
     assert term_length_enter_1 in df.columns or term_length_enter_1000 in df.columns
     df.drop(
         columns=[
@@ -114,24 +115,24 @@ def load_apr_permits(city: str, year: str, filter_for_permits: bool = True) -> p
         for col in unrelated_columns:
             if not ((df[col] == 0) | (df[col].isnull())).all():
                 num_rows = ((df[col] != 0) | df[col].notnull()).sum()
-                _logger.info(f"{num_rows} rows of {col} are not null or zero. Dropping the column anyway")
+                _logger.info(
+                    f"{num_rows} rows of {col} are not null or zero. Dropping the column anyway"
+                )
             df = df.drop(columns=[col])
 
         return df
     else:
         return df
 
-
 def fraction_apns_nan(permits: pd.DataFrame) -> float:
     return permits.apn.isna().mean()
 
-
 def has_more_than_q_real_apns(permits: pd.DataFrame, q: float) -> bool:
-    """Return list of cities with more than Q% real values."""
+    """ Return list of cities with more than Q% real values.
+    """
     assert 0 <= q <= 1, "q must be a fraction in [0, 1]"
     cutoff = 1 - q
     return fraction_apns_nan(permits) > cutoff
-
 
 def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -181,7 +182,6 @@ def load_abag_permits() -> gpd.GeoDataFrame:
         ABAG = gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
     return ABAG
 
-
 def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
     """
     Fills in the missing entries in the input GeoDataFrame's 'geometry' field,
@@ -198,14 +198,21 @@ def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str
 
     # Some rows with 'address' being null might also be missing, but we don't have an address to
     # geocode, so too bad.
-    missing_indices = df[df.geometry.isnull() & df['address'].notnull() & (df['address'].apply(type) == str)].index
+    missing_indices = df[
+        df.geometry.isnull()
+        & df['address'].notnull()
+        & (df['address'].apply(type) == str)
+    ].index
 
     addresses = df.loc[missing_indices]['address']
 
     if address_suffix:
         addresses = addresses + address_suffix
 
-    missing_points_geoseries = geocode_results_to_geoseries(geocode_cache.lookup(addresses), index=missing_indices)
+    missing_points_geoseries = geocode_results_to_geoseries(
+        geocode_cache.lookup(addresses),
+        index=missing_indices
+    )
 
     fixed_df = df.copy()
     fixed_df.geometry = df.geometry.combine_first(missing_points_geoseries)
@@ -217,7 +224,9 @@ def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDa
     """
     Use a county dataset to impute APNs with missing geometries.
     """
-    missing_rows = df[df.geometry.isnull()][['apn']].drop_duplicates()
+    missing_rows = df[
+        df.geometry.isnull()
+    ][['apn']].drop_duplicates()
 
     merged = missing_rows.merge(
         parcels[['apn', 'geometry']],
@@ -246,7 +255,9 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
     apr_permits_2018_df = load_apr_permits(city, "2018")
     apr_permits_2019_df = load_apr_permits(city, "2019")
 
-    apr_permits_df = map_apr_column_names(pd.concat([apr_permits_2018_df, apr_permits_2019_df]))
+    apr_permits_df = map_apr_column_names(
+        pd.concat([apr_permits_2018_df, apr_permits_2019_df])
+    )
 
     permits_df = pd.concat(
         [
@@ -266,18 +277,15 @@ def load_all_sites() -> gpd.GeoDataFrame:
     global INVENTORY
     if INVENTORY is None:
         INVENTORY = gpd.read_file(
-            PARENT_DIR
-            + "/data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
+            PARENT_DIR + "/data/raw_data/housing_sites/xn--Bay_Area_Housing_Opportunity_Sites_Inventory__20072023_-it38a.shp"
         )
     return INVENTORY
-
 
 def load_rhna_targets() -> str:
     global TARGETS
     if TARGETS is None:
         TARGETS = pd.read_csv(PARENT_DIR + '/data/raw_data/rhna_targets.txt', sep=', ', engine='python')
     return TARGETS
-
 
 def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.DataFrame:
     """
@@ -291,16 +299,18 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.Da
     """
     sites_df = load_all_sites()
 
-    assert city in sites_df.jurisdict.values, "city must be a jurisdiction in the inventory. Be sure to capitalize."
+    assert (
+        city in sites_df.jurisdict.values
+    ), "city must be a jurisdiction in the inventory. Be sure to capitalize."
 
     rows_to_keep = sites_df.eval(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').fillna(False)
-    # print(rows_to_keep)
+    #print(rows_to_keep)
     if exclude_approved_sites:
         # Keep sites where sitetype is null or sitetype != Approved.
         # I guess it's possible that some null rows are also pre-approved, but whatever. We can
         # document that as a potential data issue.
         rows_to_keep &= (sites_df['sitetype'] != 'Approved').fillna(True)
-        # print(rows_to_keep)
+        #print(rows_to_keep)
 
     sites = sites_df[rows_to_keep].copy()
     sites.fillna(value=np.nan, inplace=True)
@@ -317,6 +327,7 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.Da
     sites['relcapcty'] = pd.to_numeric(sites['relcapcty'], errors='coerce')
     sites['realcap_parse_fail'] = sites.relcapcty.isna() & ~is_null_realcap
 
+
     sites = drop_constant_cols(sites)
     sites = standardize_apn_format(sites, 'apn')
     sites = standardize_apn_format(sites, 'locapn')
@@ -327,9 +338,10 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.Da
         # According to SF's website, "In order to protect PDR, residential development would be prohibited,
         # while office, retail, and institutional uses (schools, hospitals, etc.) would be limited.
         # HOWEVER, residences, offices and retail which currently exist legally in these areas may stay indefinitely."
-        sites = sites[sites['relcapcty'] != 0]
+        sites = sites[
+            sites['relcapcty'] != 0
+        ]
     return sites
-
 
 def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
     if not is_numeric_dtype(df[column].dtype):
@@ -346,27 +358,17 @@ def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
     df[column] = df[column].dropna().astype('int64').astype('Int64').reindex(df.index, fill_value=pd.NA)
     return df
 
-
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
     """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
     if len(sites.index) > 1:
-        dont_drop = [
-            'existuse',
-            'totalunit',
-            'permyear',
-            'relcapcty',
-            'apn',
-            'sitetype',
-            'realcap_parse_fail',
-            'realcap_not_listed',
-        ]
-        is_constant = (sites == sites.iloc[0]).all()
+        dont_drop = ['existuse', 'totalunit', 'permyear', 'relcapcty', 'apn', 'sitetype',
+                     'realcap_parse_fail', 'realcap_not_listed']
+        is_constant = ((sites == sites.iloc[0]).all())
         constant_cols = is_constant[is_constant].index.values
         constant_cols = list(set(constant_cols) - set(dont_drop))
         print("Dropping constant columns:", constant_cols)
         return sites.drop(constant_cols, axis=1)
     return sites
-
 
 def remove_range_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     # E.g. Oakland, Newark
@@ -374,7 +376,6 @@ def remove_range_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     # Los Altos Hills
     sites.relcapcty = sites.relcapcty.str.split(' to ').str[-1]
     return sites
-
 
 def remove_units_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     # San Ramon
@@ -386,7 +387,6 @@ def remove_units_in_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     # Danville, Corte Madera, Portola Valley
     sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
     return sites
-
 
 def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     """El Cerrito's realcap is in plain english, listing primary units and accessory units."""
@@ -401,8 +401,9 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     sites.relcapcty = sites.relcapcty.str.split(' ').str[0]
     return sites
 
-
-def calculate_pinventory_for_dev(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+def calculate_pinventory_for_dev(
+    sites: pd.DataFrame, permits: pd.DataFrame
+) -> float:
     """P(inventory|developed)"""
     housing_on_sites = permits[permits.apn.isin(sites.apn)].totalunit.sum()
     total_units = permits.totalunit.sum()
@@ -415,7 +416,9 @@ def calculate_pinventory_for_dev(sites: pd.DataFrame, permits: pd.DataFrame) -> 
     return np.nan
 
 
-def calculate_underproduction_on_sites(sites: pd.DataFrame, permits: pd.DataFrame) -> float:
+def calculate_underproduction_on_sites(
+    sites: pd.DataFrame, permits: pd.DataFrame
+) -> float:
     """For each inventory site that was built, report underproduction relative to units promised."""
     inventory_sites_permitted = permits[permits.apn.isin(sites.apn) | permits.apn.isin(sites.locapn)]
     inventory_sites_permitted = inventory_sites_permitted.apn.unique()
@@ -433,7 +436,6 @@ def calculate_underproduction_on_sites(sites: pd.DataFrame, permits: pd.DataFram
         return sum(units_built_over_claimed) / len(units_built_over_claimed)
     return np.nan
 
-
 def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
     """Percentage of RHNA total built. Can exceed 100%.
 
@@ -447,7 +449,6 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
         return total_units / rhna_target
     return np.nan
 
-
 def get_rhna_target(city: str) -> float:
     rhna_targets = load_rhna_targets()
     with warnings.catch_warnings():
@@ -457,7 +458,7 @@ def get_rhna_target(city: str) -> float:
 
 
 def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-
+    
     merged_df_1 = sites.merge(
         permits,
         left_on='apn',
@@ -513,17 +514,13 @@ def calculate_pdev_for_inventory(
     return is_match.sum(), len(sites), is_match.mean()
 
 
-def calculate_pdev_for_vacant_sites(
-    sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn'
-) -> Tuple[int, int, float]:
+def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites['sitetype'] == 'Vacant'].copy()
     return calculate_pdev_for_inventory(vacant_rows, permits, match_by)
 
 
-def calculate_pdev_for_nonvacant_sites(
-    sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn'
-) -> Tuple[int, int, float]:
+def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites['sitetype'] != 'Vacant'].copy()
     return calculate_pdev_for_inventory(nonvacant_rows, permits, match_by)
@@ -577,26 +574,42 @@ def geocode_result_to_point(geocodio_result: dict) -> Optional[Point]:
 
 
 def geocode_results_to_geoseries(results: List[dict], index: Optional[pd.Index] = None) -> gpd.GeoSeries:
-    return gpd.GeoSeries(map(geocode_result_to_point, results), index=index, crs='EPSG:4326')
-
+    return gpd.GeoSeries(
+        map(geocode_result_to_point, results),
+        index=index,
+        crs='EPSG:4326'
+    )
 
 def register_cmap():
-    if 'RedGreen' in plt.colormaps():
+    if ('RedGreen' in plt.colormaps()):
         return
-    cdict = {
-        'red': ((0.0, 0.0, 1.0), (0.05, 1, 1.0), (0.5, 1.0, 1.0), (1.0, 0.4, 1.0)),
-        'green': ((0.0, 0.0, 0.0), (0.2, 0.8, 0.8), (0.3, 0.9, 0.9), (1.0, 0.8, 1)),
-        'blue': ((0.0, 0.0, 0.0), (0.0, 0.0, 0.0), (0.0, 0.0, 0.0), (1.0, 0.0, 0.0)),
-    }
+    cdict = {'red':  ((0.0, 0.0, 1.0),
+                   (0.05, 1, 1.0),
+                   (0.5, 1.0, 1.0),
+                   (1.0, 0.4, 1.0)),
 
-    cdict['alpha'] = ((0.0, 0.7, 0.7), (0.25, 1, 1), (0.75, 1.0, 1.0), (1.0, 1.0, 1.0))
+         'green': ((0.0, 0.0, 0.0),
+                   (0.2, 0.8, 0.8),
+                   (0.3, 0.9, .9),
+                   (1.0, 0.8, 1)),
+
+         'blue':  ((0.0, 0.0, 0.0),
+                   (0.0, 0.0, 0.0),
+                   (0.0, 0.0, 0.0),
+                   (1.0, 0.0, 0.0))
+        }
+ 
+    cdict['alpha'] = ((0.0, .7, .7),
+                   (0.25, 1, 1),
+                   (0.75, 1.0, 1.0),
+                   (1.0, 1.0, 1.0))
 
     cmap = LinearSegmentedColormap('RedGreen', cdict)
-    plt.register_cmap('RedGreen', cmap)
-
+    plt.register_cmap('RedGreen', cmap) 
 
 def map_qoi(qoi, results_df):
-    """Save map for column name QOI in RESULTS_DF"""
+    """ Save map for column name QOI in RESULTS_DF
+    """
     results_copy = results_df.copy()
     results_copy['city'] = results_copy['City']
     results_copy['RHNA Success'] = results_copy['RHNA Success'] * 100
@@ -613,14 +626,19 @@ def map_qoi(qoi, results_df):
     if qoi == 'RHNA Success':
         legend_label = 'Percentage of RHNA Total Built'
     title = f'Map Of {qoi_in_title}'
-    map_qoi_inner(qoi=qoi, title=title, legend_label=legend_label, to_plot=to_plot, file_name_prefix=file_name_prefix)
+    map_qoi_inner(qoi=qoi,
+                  title=title, 
+                  legend_label=legend_label, 
+                  to_plot=to_plot,
+                  file_name_prefix=file_name_prefix)
 
 
 def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     fig, ax = plt.subplots(figsize=(15, 15))
     register_cmap()
     plt.rcParams.update({'font.size': 25})
-    to_plot.plot(ax=ax, column=qoi, legend=True, legend_kwds={'label': legend_label, 'ax': ax}, cmap='RedGreen')
+    to_plot.plot(ax=ax, column=qoi, legend=True, 
+                 legend_kwds={'label': legend_label, 'ax': ax}, cmap='RedGreen')
     plt.rcParams.update({'font.size': 10})
     ax.set_yticklabels([])
     ax.set_xticklabels([])
@@ -629,19 +647,18 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     file_name_prefix = file_name_prefix.replace(' ', '_')
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
     plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg')
-
+    
 
 def catplot_qoi(result_df, qoi_col_prefix, order=None):
     assert 'City' in result_df.columns
     tiny_df = result_df.copy()
     relevant_qoi = [c for c in result_df.columns if qoi_col_prefix in c]
     tiny_df = tiny_df[relevant_qoi + ['City']]
-    rename_map = {c: c[len(qoi_col_prefix) + 1 :] for c in tiny_df.columns if c.startswith(qoi_col_prefix)}
+    rename_map = {c: c[len(qoi_col_prefix) + 1:] for c in tiny_df.columns if c.startswith(qoi_col_prefix)}
     tiny_df.rename(rename_map, inplace=True, axis=1)
     long_df = pd.melt(tiny_df, id_vars='City', var_name='Method', value_name=qoi_col_prefix)
-    sea.set(rc={'figure.figsize': (40, 4)})
-    ax = sea.barplot(
-        x="City", y=qoi_col_prefix, hue="Method", data=long_df, saturation=0.5, ci=None, order=order[: len(order) // 3]
-    )
+    sea.set(rc={'figure.figsize':(40,4)})
+    ax = sea.barplot(x="City", y=qoi_col_prefix, hue="Method",
+                data=long_df, saturation=.5, ci=None, order=order[:len(order)//3])
     ax.tick_params(axis='x', labelrotation=90)
     plt.savefig(f'figures/{qoi_col_prefix.lower()}_by_city_barplot.jpg')
