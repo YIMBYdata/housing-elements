@@ -489,7 +489,7 @@ def calculate_pdev_for_inventory(
     if match_by not in ['apn', 'geo', 'both']:
         raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
 
-    # Mutation, whatever.
+    sites = sites.copy()
     sites['index'] = pd.RangeIndex(len(sites))
 
     match_dfs = []
@@ -498,7 +498,7 @@ def calculate_pdev_for_inventory(
         match_dfs.extend(merge_on_apn(sites[['index', 'apn', 'locapn']], permits[['apn', 'permyear']]))
 
     if match_by in ['geo', 'both']:
-        merged_df = merge_on_address(sites[['index', 'apn', 'geometry']], permits[['apn', 'permyear', 'geometry']])
+        merged_df = merge_on_address(sites[['index', 'apn', 'geometry']], permits[['apn', 'permyear', 'geometry']], lax=True)
         match_dfs.append(merged_df)
 
     match_df = pd.concat(match_dfs)
@@ -529,19 +529,41 @@ def calculate_pdev_for_nonvacant_sites(
     return calculate_pdev_for_inventory(nonvacant_rows, permits, match_by)
 
 
-def merge_on_address(df_1, df_2):
-    df_1 = df_1[df_1['geometry'].notnull()]
-    df_2 = df_2[df_2['geometry'].notnull()]
+def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bool = False) -> gpd.GeoDataFrame:
+    sites = sites[sites['geometry'].notnull()].copy().reset_index(drop=True)
+    permits = permits[permits['geometry'].notnull()].copy().reset_index(drop=True)
+
+    sites['index_sites'] = pd.RangeIndex(len(sites))
+    permits['index_permits'] = pd.RangeIndex(len(permits))
 
     # Switch to the most common projection for California. (It's in meters.)
-    df_1 = df_1.to_crs('EPSG:3310')
-    df_2 = df_2.to_crs('EPSG:3310')
+    sites = sites.to_crs('EPSG:3310')
+    permits = permits.to_crs('EPSG:3310')
 
-    # Buffer by 15 meters, which is about 50 feet
-    # Actually only 1 meter, too many false positives
-    df_2.geometry = df_2.geometry.buffer(1)
+    if lax:
+        # Buffer by 15 meters, which is about 50 feet, and take the closest match for each permit, to limit false positives
+        permits.geometry = permits.geometry.buffer(15)
 
-    return gpd.sjoin(df_1, df_2, how='left')
+        merged = gpd.sjoin(sites, permits, how='left')
+
+        merged = merged.merge(
+            permits[['index_permits', 'geometry']],
+            on='index_permits',
+            how='left',
+        )
+        merged['distance'] = gpd.GeoSeries(merged['geometry_x']).distance(gpd.GeoSeries(merged['geometry_y']))
+        merged = merged.sort_values(['index_sites', 'distance']).drop_duplicates(['index_sites'], keep='first')
+
+        merged = merged.drop(columns=['geometry_y', 'distance'])
+        merged = merged.rename(columns={'geometry_x': 'geometry'})
+
+        return merged
+
+    else:
+        # Buffer only 1 meter, to avoid false positives
+        permits.geometry = permits.geometry.buffer(1)
+
+        return gpd.sjoin(sites, permits, how='left')
 
 
 def geocode_result_to_point(geocodio_result: dict) -> Optional[Point]:

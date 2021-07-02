@@ -1,0 +1,12 @@
+- name: Run tests
+  on: [push, pull_request]
+  jobs:
+    run-tests:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Install poetry
+          uses: abatilo/actions-poetry@v2.1.0
+        - name: Install dependencies
+          run: poetry install
+        - name: Run tests
+          run: poetry run python tests/test_utils.py
