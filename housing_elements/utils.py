@@ -329,6 +329,7 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.Da
 
 
     sites = drop_constant_cols(sites)
+    sites = add_cols_for_sitetype(sites)
     sites = standardize_apn_format(sites, 'apn')
     sites = standardize_apn_format(sites, 'locapn')
     print("DF shape", sites.shape)
@@ -341,6 +342,14 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.Da
         sites = sites[
             sites['relcapcty'] != 0
         ]
+    return sites
+
+def add_cols_for_sitetype(sites):
+    vacant = ['Underutilized and Va', 'Vacant', 'Undeveloped', 'Open Space', 'Underutilized & Vaca', 'Vacant and Underutil']
+    nonvacant = ['Opportunity', 'Underused site', 'Underutilized, margi', 'Non-Vacant', "Infill", 'underutilize', 'Underutilized']
+    sites['is_vacant'] = sites.sitetype.isin(vacant)
+    sites['is_nonvacant'] = sites.sitetype.isin(nonvacant)
+    sites['na_vacant'] = ~sites.sitetype.isin(vacant + nonvacant)
     return sites
 
 def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
@@ -442,7 +451,7 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
     This is a crude proxy for RHNA success because it's insensitive to affordability levels.
     """
     total_units = permits.totalunit.sum()
-    rhna_target = get_rhna_target()
+    rhna_target = get_rhna_target(city)
     print("Total units permitted:", total_units)
     print("Total rhna target:", rhna_target)
     if rhna_target:
@@ -514,13 +523,13 @@ def calculate_pdev_for_inventory(sites: pd.DataFrame, permits: pd.DataFrame, mat
 
 def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
-    vacant_rows = sites[sites['sitetype'] == 'Vacant'].copy()
+    vacant_rows = sites[sites.is_vacant].copy()
     return calculate_pdev_for_inventory(vacant_rows, permits, match_by)
 
 
 def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
-    nonvacant_rows = sites[sites['sitetype'] != 'Vacant'].copy()
+    nonvacant_rows = sites[sites.is_nonvacant].copy()
     return calculate_pdev_for_inventory(nonvacant_rows, permits, match_by)
 
 
