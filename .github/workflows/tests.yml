@@ -7,6 +7,6 @@ jobs:
       - name: Install poetry
         uses: abatilo/actions-poetry@v2.1.0
       - name: Install dependencies
-        run: ls && poetry install
+        run: pwd && ls && poetry install
       - name: Run tests
         run: poetry run python tests/test_utils.py
