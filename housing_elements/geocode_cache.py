@@ -21,15 +21,18 @@ CACHE_PATH = Path(parent_dir + '/data/geocode_cache.json')
 
 client = GeocodioClient(json.loads(Path(parent_dir + '/geocodio_api_key.json').read_text())['key'])
 
+
 def load_cache() -> Dict[str, dict]:
     if not CACHE_PATH.exists():
         return {}
     with CACHE_PATH.open() as f:
         return json.load(f)
 
+
 def overwrite_cache(cache: Dict[str, dict]) -> None:
     with CACHE_PATH.open('w') as f:
         json.dump(cache, f)
+
 
 def lookup(addresses: Iterable[str]) -> List[dict]:
     """

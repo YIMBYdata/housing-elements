@@ -12,24 +12,29 @@ from tqdm import tqdm
 
 from . import utils
 
+
 def shapely_polygon_to_coords(shape: shapely.geometry.Polygon) -> List[Tuple[float, float]]:
     return [(lat, lng) for lng, lat in shape.exterior.coords]
+
 
 def get_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Tuple[pd.DataFrame, gpd.GeoDataFrame]:
     # Add a unique identifier for each row
     sites['index'] = pd.RangeIndex(len(sites))
 
-    apn_merged_df = pd.concat(utils.merge_on_apn(
-        sites[['index', 'apn', 'locapn', 'relcapcty', 'sitetype']],
-        permits[['apn', 'address', 'totalunit', 'permyear', 'hcategory']]
-    )).dropna(subset=['permyear'])
+    apn_merged_df = pd.concat(
+        utils.merge_on_apn(
+            sites[['index', 'apn', 'locapn', 'relcapcty', 'sitetype']],
+            permits[['apn', 'address', 'totalunit', 'permyear', 'hcategory']],
+        )
+    ).dropna(subset=['permyear'])
 
     geo_merged_df = utils.merge_on_address(
         sites[['index', 'apn', 'geometry', 'relcapcty', 'sitetype']],
-        permits[['apn', 'permyear', 'address', 'totalunit', 'hcategory', 'geometry']]
+        permits[['apn', 'permyear', 'address', 'totalunit', 'hcategory', 'geometry']],
     ).dropna(subset=['permyear'])
 
     return apn_merged_df, geo_merged_df
+
 
 def _dedupe_matches(apn_matches: Optional[List[dict]], geo_matches: Optional[List[dict]]) -> List[dict]:
     apn_matches = apn_matches or []
@@ -67,8 +72,10 @@ def _dedupe_matches(apn_matches: Optional[List[dict]], geo_matches: Optional[Lis
 
     return deduped_matches
 
-def combine_match_dfs(sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_merged_df: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
 
+def combine_match_dfs(
+    sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_merged_df: gpd.GeoDataFrame
+) -> gpd.GeoDataFrame:
     def _merge_matches(df, matches_df, col_name):
         results = matches_df.groupby('index').apply(
             lambda group: group[['permyear', 'address', 'totalunit', 'hcategory']]
@@ -77,11 +84,7 @@ def combine_match_dfs(sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_
         )
         if len(results):
             results = results.rename(col_name).reset_index()
-            df = df.merge(
-                results,
-                on='index',
-                how='left'
-            )
+            df = df.merge(results, on='index', how='left')
             df[col_name] = df[col_name].replace({np.nan: None})
         else:
             df[col_name] = None
@@ -96,17 +99,14 @@ def combine_match_dfs(sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_
     merged_df['geo_matched'] = merged_df['geo_match_results'].notnull()
 
     merged_df['match_results'] = merged_df.apply(
-        lambda row: _dedupe_matches(row['apn_match_results'], row['geo_match_results']),
-        axis='columns'
+        lambda row: _dedupe_matches(row['apn_match_results'], row['geo_match_results']), axis='columns'
     )
 
-    merged_df = (
-        merged_df.drop(columns=['apn_match_results', 'geo_match_results'])
-        .rename(columns={
-            'relcapcty': 'site_capacity_units'
-        })
+    merged_df = merged_df.drop(columns=['apn_match_results', 'geo_match_results']).rename(
+        columns={'relcapcty': 'site_capacity_units'}
     )
     return merged_df
+
 
 def plot_city_interactive(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> None:
     m = folium.Map()
@@ -117,12 +117,15 @@ def plot_city_interactive(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) ->
     apn_merged_df, geo_merged_df = get_match_dfs(sites, permits)
 
     def make_label_string(group: pd.DataFrame) -> str:
-        return (
-            ', '.join(
-                group['address']
-                + ' (' + group['relcapcty'].astype(str) + ' units expected, '
-                + group['totalunit'].astype(str) + ' units built, type ' + group['hcategory'].astype(str) + ')'
-            )
+        return ', '.join(
+            group['address']
+            + ' ('
+            + group['relcapcty'].astype(str)
+            + ' units expected, '
+            + group['totalunit'].astype(str)
+            + ' units built, type '
+            + group['hcategory'].astype(str)
+            + ')'
         )
 
     # apn_matches = apn_merged_df.groupby('index').apply(make_label_string).to_dict()
@@ -171,6 +174,7 @@ def plot_city_interactive(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) ->
 
     return m
 
+
 def _to_geojson_dict(row: pd.Series) -> dict:
     """
     Ugh, I have to write my own helper to turn a row into GeoJSON, since GeoPandas/fiona
@@ -179,26 +183,23 @@ def _to_geojson_dict(row: pd.Series) -> dict:
     return {
         'type': 'Feature',
         'geometry': shapely.geometry.mapping(row['geometry']),
-        'properties': row.drop('geometry').to_dict()
+        'properties': row.drop('geometry').to_dict(),
     }
+
 
 def _write_geoseries_to_geojson(df: gpd.GeoDataFrame, path: Path) -> None:
     # Browsers can't read JSON with NaN values.
     # I think None would be serialized as None, which is allowed.
     df = df.replace({np.nan: None})
 
-    json_value = {
-        'type': 'FeatureCollection',
-        'features': df.apply(_to_geojson_dict, axis='columns').tolist()
-    }
+    json_value = {'type': 'FeatureCollection', 'features': df.apply(_to_geojson_dict, axis='columns').tolist()}
 
     with path.open('w') as f:
         json.dump(json_value, f)
 
+
 def write_matches_to_files(
-    cities_with_sites: Dict[str, gpd.GeoDataFrame],
-    cities_with_permits: Dict[str, pd.DataFrame],
-    output_dir: Path
+    cities_with_sites: Dict[str, gpd.GeoDataFrame], cities_with_permits: Dict[str, pd.DataFrame], output_dir: Path
 ) -> None:
     shutil.rmtree(output_dir)
 
@@ -233,17 +234,17 @@ def write_matches_to_files(
 
             # Save the map bounds of the city
             min_lng, min_lat, max_lng, max_lat = sites.geometry.total_bounds
-            bounds = [
-                (min_lng, min_lat), (max_lng, max_lat)
-            ]
+            bounds = [(min_lng, min_lat), (max_lng, max_lat)]
 
-            summary_info.append({
-                'city': city,
-                'bounds': bounds,
-                'overall_match_stats': get_match_stats(matches_df),
-                'vacant_match_stats': get_match_stats(matches_df[matches_df['sitetype'] == 'Vacant']),
-                'nonvacant_match_stats': get_match_stats(matches_df[matches_df['sitetype'] != 'Vacant']),
-            })
+            summary_info.append(
+                {
+                    'city': city,
+                    'bounds': bounds,
+                    'overall_match_stats': get_match_stats(matches_df),
+                    'vacant_match_stats': get_match_stats(matches_df[matches_df['sitetype'] == 'Vacant']),
+                    'nonvacant_match_stats': get_match_stats(matches_df[matches_df['sitetype'] != 'Vacant']),
+                }
+            )
 
     summary_df = pd.DataFrame(summary_info)
     summary_df.to_json(Path(output_dir, 'summary.json'), orient='records')
@@ -255,6 +256,7 @@ def get_match_stats(matches_df: pd.DataFrame) -> Dict[str, Dict[str, Union[float
         'geo': _match_stats(matches_df['geo_matched']),
         'either': _match_stats(matches_df['apn_matched'] | matches_df['geo_matched']),
     }
+
 
 def _match_stats(match_indicators: pd.Series) -> Dict[str, Union[float, int]]:
     return {
