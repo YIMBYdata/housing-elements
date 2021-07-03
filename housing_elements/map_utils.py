@@ -200,7 +200,7 @@ def _write_geoseries_to_geojson(df: gpd.GeoDataFrame, path: Path) -> None:
     }
 
     with path.open('w') as f:
-        json.dump(json_value, f, indent=2)
+        json.dump(json_value, f)
 
 def write_matches_to_files(
     cities_with_sites: Dict[str, gpd.GeoDataFrame],
