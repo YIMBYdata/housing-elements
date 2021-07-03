@@ -226,8 +226,8 @@ def main():
             pickle.dump(cities_with_permits, f)
 
     # Dump match results to JSON, for use in website
-    # print("Creating JSON output for map...")
-    # map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'))
+    print("Creating JSON output for map...")
+    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'))
 
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
