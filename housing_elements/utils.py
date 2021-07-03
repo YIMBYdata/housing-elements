@@ -458,7 +458,7 @@ def get_rhna_target(city: str) -> float:
 
 
 def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    
+
     merged_df_1 = sites.merge(
         permits,
         left_on='apn',
@@ -477,7 +477,7 @@ def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoD
 
 
 def calculate_pdev_for_inventory(
-    sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn'
+    sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
 ) -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -499,10 +499,17 @@ def calculate_pdev_for_inventory(
         match_dfs.extend(merge_on_apn(sites[['index', 'apn', 'locapn']], permits[['apn', 'permyear']]))
 
     if match_by in ['geo', 'both']:
-        merged_df = merge_on_address(sites[['index', 'apn', 'geometry']], permits[['apn', 'permyear', 'geometry']], lax=True)
+        merged_df = merge_on_address(
+            sites[['index', 'apn', 'geometry']],
+            permits[['apn', 'permyear', 'geometry']],
+            lax=geo_matching_lax
+        )
         match_dfs.append(merged_df)
 
-    match_df = pd.concat(match_dfs)
+    # Add a copy of each site, with empty matches, as our "default" output row for each site if it was not matched.
+    null_rows = sites[['index', 'apn', 'locapn']]
+
+    match_df = pd.concat(match_dfs + [null_rows])
 
     # dedupe, keeping the one that is merged
     match_df = match_df.sort_values('permyear', na_position='last').drop_duplicates(['index'], keep='first')
@@ -527,6 +534,10 @@ def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFram
 
 
 def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bool = False) -> gpd.GeoDataFrame:
+    """
+    Returns all matches. Length of output is between 0 and len(permits). A site could be repeated, if it was matched with
+    multiple permits.
+    """
     sites = sites[sites['geometry'].notnull()].copy().reset_index(drop=True)
     permits = permits[permits['geometry'].notnull()].copy().reset_index(drop=True)
 
@@ -539,20 +550,24 @@ def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bo
 
     if lax:
         # Buffer by 15 meters, which is about 50 feet, and take the closest match for each permit, to limit false positives
-        permits.geometry = permits.geometry.buffer(15)
+        permits_buffered = permits.copy()
+        permits_buffered.geometry = permits_buffered.geometry.buffer(15)
 
-        merged = gpd.sjoin(sites, permits, how='left')
+        # Get all pairs of sites, permits within 15 meters of each other. The geometry column will be the left dataframe by default
+        # (so the site geometry).
+        merged = gpd.sjoin(sites, permits_buffered, how='inner')
 
+        # Add permit location as a column
         merged = merged.merge(
-            permits[['index_permits', 'geometry']],
+            permits[['index_permits', 'geometry']].rename(columns={'geometry': 'permit_geometry'}),
             on='index_permits',
-            how='left',
         )
-        merged['distance'] = gpd.GeoSeries(merged['geometry_x']).distance(gpd.GeoSeries(merged['geometry_y']))
-        merged = merged.sort_values(['index_sites', 'distance']).drop_duplicates(['index_sites'], keep='first')
+        merged['distance'] = gpd.GeoSeries(merged['geometry']).distance(gpd.GeoSeries(merged['permit_geometry']))
 
-        merged = merged.drop(columns=['geometry_y', 'distance'])
-        merged = merged.rename(columns={'geometry_x': 'geometry'})
+        # Now, for each permit, only keep the closest site it matched to.
+        merged = merged.sort_values(['index_permits', 'distance']).drop_duplicates(['index_permits'], keep='first').reset_index(drop=True)
+
+        merged = merged.drop(columns=['permit_geometry', 'distance', 'index_sites', 'index_right', 'index_permits'])
 
         return merged
 
@@ -598,14 +613,14 @@ def register_cmap():
                    (0.0, 0.0, 0.0),
                    (1.0, 0.0, 0.0))
         }
- 
+
     cdict['alpha'] = ((0.0, .7, .7),
                    (0.25, 1, 1),
                    (0.75, 1.0, 1.0),
                    (1.0, 1.0, 1.0))
 
     cmap = LinearSegmentedColormap('RedGreen', cdict)
-    plt.register_cmap('RedGreen', cmap) 
+    plt.register_cmap('RedGreen', cmap)
 
 def map_qoi(qoi, results_df):
     """ Save map for column name QOI in RESULTS_DF
@@ -627,8 +642,8 @@ def map_qoi(qoi, results_df):
         legend_label = 'Percentage of RHNA Total Built'
     title = f'Map Of {qoi_in_title}'
     map_qoi_inner(qoi=qoi,
-                  title=title, 
-                  legend_label=legend_label, 
+                  title=title,
+                  legend_label=legend_label,
                   to_plot=to_plot,
                   file_name_prefix=file_name_prefix)
 
@@ -637,7 +652,7 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     fig, ax = plt.subplots(figsize=(15, 15))
     register_cmap()
     plt.rcParams.update({'font.size': 25})
-    to_plot.plot(ax=ax, column=qoi, legend=True, 
+    to_plot.plot(ax=ax, column=qoi, legend=True,
                  legend_kwds={'label': legend_label, 'ax': ax}, cmap='RedGreen')
     plt.rcParams.update({'font.size': 10})
     ax.set_yticklabels([])
@@ -647,7 +662,7 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     file_name_prefix = file_name_prefix.replace(' ', '_')
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
     plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg')
-    
+
 
 def catplot_qoi(result_df, qoi_col_prefix, order=None):
     assert 'City' in result_df.columns
