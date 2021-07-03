@@ -377,7 +377,6 @@ def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
         is_constant = ((sites == sites.iloc[0]).all())
         constant_cols = is_constant[is_constant].index.values
         constant_cols = list(set(constant_cols) - set(dont_drop))
-        print("Dropping constant columns:", constant_cols)
         return sites.drop(constant_cols, axis=1)
     return sites
 
