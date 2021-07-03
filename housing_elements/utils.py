@@ -442,7 +442,7 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
     This is a crude proxy for RHNA success because it's insensitive to affordability levels.
     """
     total_units = permits.totalunit.sum()
-    rhna_target = get_rhna_target()
+    rhna_target = get_rhna_target(city)
     print("Total units permitted:", total_units)
     print("Total rhna target:", rhna_target)
     if rhna_target:
