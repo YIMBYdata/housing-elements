@@ -19,7 +19,8 @@ from geocodio import GeocodioClient
 parent_dir = os.path.dirname(os.path.dirname(__file__))
 CACHE_PATH = Path(parent_dir + '/data/geocode_cache.json')
 
-client = GeocodioClient(json.loads(Path(parent_dir + '/geocodio_api_key.json').read_text())['key'])
+def get_client():
+    return GeocodioClient(json.loads(Path(parent_dir + '/geocodio_api_key.json').read_text())['key'])
 
 def load_cache() -> Dict[str, dict]:
     if not CACHE_PATH.exists():
@@ -42,7 +43,7 @@ def lookup(addresses: Iterable[str]) -> List[dict]:
     addresses_to_lookup = list(set(addresses) - set(cache.keys()))
 
     if len(addresses_to_lookup):
-        api_results = client.geocode(addresses_to_lookup)
+        api_results = get_client().geocode(addresses_to_lookup)
         for address, response in zip(addresses_to_lookup, api_results):
             cache[address] = dict(response)
 

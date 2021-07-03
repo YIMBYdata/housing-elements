@@ -2,6 +2,7 @@ from typing import Dict, List, Optional, Tuple, Union
 from pathlib import Path
 import json
 import shutil
+import os
 
 import numpy as np
 import pandas as pd
@@ -15,7 +16,7 @@ from . import utils
 def shapely_polygon_to_coords(shape: shapely.geometry.Polygon) -> List[Tuple[float, float]]:
     return [(lat, lng) for lng, lat in shape.exterior.coords]
 
-def get_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Tuple[pd.DataFrame, gpd.GeoDataFrame]:
+def get_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Tuple[pd.DataFrame, gpd.GeoDataFrame, gpd.GeoDataFrame]:
     # Add a unique identifier for each row
     sites['index'] = pd.RangeIndex(len(sites))
 
@@ -29,7 +30,13 @@ def get_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Tuple[p
         permits[['apn', 'permyear', 'address', 'totalunit', 'hcategory', 'geometry']]
     ).dropna(subset=['permyear'])
 
-    return apn_merged_df, geo_merged_df
+    geo_merged_lax_df = utils.merge_on_address(
+        sites[['index', 'apn', 'geometry', 'relcapcty', 'sitetype']],
+        permits[['apn', 'permyear', 'address', 'totalunit', 'hcategory', 'geometry']],
+        lax=True
+    ).dropna(subset=['permyear'])
+
+    return apn_merged_df, geo_merged_df, geo_merged_lax_df
 
 def _dedupe_matches(apn_matches: Optional[List[dict]], geo_matches: Optional[List[dict]]) -> List[dict]:
     apn_matches = apn_matches or []
@@ -200,7 +207,8 @@ def write_matches_to_files(
     cities_with_permits: Dict[str, pd.DataFrame],
     output_dir: Path
 ) -> None:
-    shutil.rmtree(output_dir)
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
 
     summary_info = []
 
@@ -211,8 +219,12 @@ def write_matches_to_files(
 
         permits = cities_with_permits.get(city)
         if permits is not None:
-            apn_merged_df, geo_merged_df = get_match_dfs(cities_with_sites[city], cities_with_permits[city])
+            apn_merged_df, geo_merged_df, geo_merged_lax_df = get_match_dfs(cities_with_sites[city], cities_with_permits[city])
             matches_df = combine_match_dfs(cities_with_sites[city], apn_merged_df, geo_merged_df)
+            matches_lax_df = combine_match_dfs(cities_with_sites[city], apn_merged_df, geo_merged_lax_df)
+            assert len(matches_df) == len(matches_lax_df)
+            matches_df['match_results_lax'] = matches_lax_df['match_results']
+            matches_df['geo_matched_lax'] = matches_lax_df['geo_matched']
 
             formatted_permits_df = permits[['permyear', 'address', 'totalunit', 'hcategory', 'geometry']].rename(
                 columns={
