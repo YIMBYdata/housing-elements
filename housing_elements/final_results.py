@@ -11,6 +11,8 @@ import warnings
 import os, sys
 import pickle
 import argparse
+from multiprocessing import Pool
+from tqdm import tqdm
 
 # Silence an annoying warning that I get when running pd.read_excel
 warnings.filterwarnings("ignore", message="Data Validation extension is not supported and will be removed")
@@ -57,21 +59,31 @@ def load_sites_and_permits():
 
     return cities_with_sites, cities_with_permits
 
+def get_results_for_city_kwargs(kwargs):
+    with HiddenPrints():
+        return get_results_for_city(**kwargs)
+
+def parallel_process(function, args_list, num_workers=8):
+    with Pool(num_workers) as pool:
+        results = list(tqdm(pool.imap(function, args_list), total=len(args_list)))
+    return results
 
 def get_results_for_city(
-    cities_with_sites: Dict[str, gpd.GeoDataFrame],
-    cities_with_permits: Dict[str, gpd.GeoDataFrame],
     city: str,
+    sites: gpd.GeoDataFrame,
+    permits: gpd.GeoDataFrame,
     match_by: str,
+    geo_matching_lax: bool = False,
 ) -> pd.DataFrame:
-    permits = cities_with_permits[city]
-    sites = cities_with_sites[city]
-
     nonvacant_matches, nonvacant_sites, nonvacant_ratio = utils.calculate_pdev_for_nonvacant_sites(
-        sites, permits, match_by
+        sites, permits, match_by, geo_matching_lax
     )
-    vacant_matches, vacant_sites, vacant_ratio = utils.calculate_pdev_for_vacant_sites(sites, permits, match_by)
-    all_matches, all_sites, all_ratio = utils.calculate_pdev_for_inventory(sites, permits, match_by)
+    vacant_matches, vacant_sites, vacant_ratio = utils.calculate_pdev_for_vacant_sites(
+        sites, permits, match_by, geo_matching_lax
+    )
+    all_matches, all_sites, all_ratio = utils.calculate_pdev_for_inventory(
+        sites, permits, match_by, geo_matching_lax
+    )
 
     return {
         'City': city,
@@ -214,33 +226,60 @@ def main():
             pickle.dump(cities_with_permits, f)
 
     # Dump match results to JSON, for use in website
-    print("Creating JSON output for map...")
-    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'))
+    # print("Creating JSON output for map...")
+    # map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'))
 
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
 
     print("Getting APN results...")
-    with HiddenPrints():
-        apn_results_df = pd.DataFrame(
-            [get_results_for_city(cities_with_sites, cities_with_permits, city, match_by='apn') for city in cities]
+    apn_results_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='apn')
+                for city in cities
+            ],
         )
+    )
 
     print("Getting geo results...")
-    with HiddenPrints():
-        results_geo_df = pd.DataFrame(
-            [get_results_for_city(cities_with_sites, cities_with_permits, city, match_by='geo') for city in cities]
+    results_geo_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='geo')
+                for city in cities
+            ],
         )
+    )
 
     print("Getting apn or geo results...")
-    with HiddenPrints():
-        results_both_df = pd.DataFrame(
-            [get_results_for_city(cities_with_sites, cities_with_permits, city, match_by='both') for city in cities]
+    results_both_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='both')
+                for city in cities
+            ],
         )
+    )
+
+    print("Getting apn or geo lax results...")
+    results_both_lax_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='both', geo_matching_lax=True)
+                for city in cities
+            ],
+        )
+    )
 
     apn_results_df.to_csv('results/apn_matching_results.csv')
     results_geo_df.to_csv('results/geo_matching_results.csv')
     results_both_df.to_csv('results/apn_or_geo_matching_results.csv')
+    results_both_lax_df.to_csv('results/apn_or_geo_matching_lax_results.csv')
 
     # combined_df = apn_results_df.merge(results_geo_df, on='City', suffixes=[' (by APN)', ' (by geomatching)'])
     # combined_df.to_csv('results/combined_df.csv')

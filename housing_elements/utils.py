@@ -468,7 +468,6 @@ def get_rhna_target(city: str) -> float:
 
 
 def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-
     merged_df_1 = sites.merge(
         permits,
         left_on='apn',
@@ -531,13 +530,17 @@ def calculate_pdev_for_inventory(
     return is_match.sum(), len(sites), is_match.mean()
 
 
-def calculate_pdev_for_vacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
+def calculate_pdev_for_vacant_sites(
+        sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
+) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites.is_vacant].copy()
     return calculate_pdev_for_inventory(vacant_rows, permits, match_by)
 
 
-def calculate_pdev_for_nonvacant_sites(sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn') -> Tuple[int, int, float]:
+def calculate_pdev_for_nonvacant_sites(
+        sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
+) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
     return calculate_pdev_for_inventory(nonvacant_rows, permits, match_by)
