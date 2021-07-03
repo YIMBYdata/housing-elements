@@ -242,7 +242,7 @@ def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDa
     return df_copy
 
 
-def load_all_new_building_permits(city: str) -> pd.DataFrame:
+def load_all_new_building_permits(city: str, standardize_apn: bool = True) -> pd.DataFrame:
     """
     Returns the combined dataset of 2013-2019 permits, combining the 2013-2017 dataset from ABAG with the 2018-19 dataset from the APRs.
     """
@@ -266,7 +266,8 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
         ]
     ).reset_index(drop=True)
 
-    permits_df = standardize_apn_format(permits_df, 'apn')
+    if standardize_apn:
+        permits_df = standardize_apn_format(permits_df, 'apn')
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
@@ -287,7 +288,7 @@ def load_rhna_targets() -> str:
         TARGETS = pd.read_csv(PARENT_DIR + '/data/raw_data/rhna_targets.txt', sep=', ', engine='python')
     return TARGETS
 
-def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.DataFrame:
+def load_site_inventory(city: str, exclude_approved_sites: bool = True, standardize_apn: bool = True) -> pd.DataFrame:
     """
     Return the 5th RHNA cycle site inventory for CITY.
 
@@ -330,9 +331,10 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True) -> pd.Da
 
     sites = drop_constant_cols(sites)
     sites = add_cols_for_sitetype(sites)
-    sites = standardize_apn_format(sites, 'apn')
-    sites = standardize_apn_format(sites, 'locapn')
-    print("DF shape", sites.shape)
+    
+    if standardize_apn:
+        sites = standardize_apn_format(sites, 'apn')
+        sites = standardize_apn_format(sites, 'locapn')
 
     if city == 'San Francisco':
         # Exclude PDR sites that have a stated capacity of zero.
