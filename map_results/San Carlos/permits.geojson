@@ -1,1 +1,1237 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.254967097054, 37.5017805819084]}, "properties": {"permit_year": 2017, "permit_address": "977 Laurel Street", "permit_units": 8, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262580455324, 37.5051435283512]}, "properties": {"permit_year": 2017, "permit_address": "1249 San Carlos Avenue", "permit_units": 109, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263868973374, 37.504094981798]}, "properties": {"permit_year": 2017, "permit_address": "1501 San Carlos Avenue", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263259161081, 37.5063343899202]}, "properties": {"permit_year": 2017, "permit_address": "530 Walnut Street", "permit_units": 9, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.26173222826, 37.5079707792281]}, "properties": {"permit_year": 2017, "permit_address": "520 El Camino Real", "permit_units": 9, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263883073845, 37.5106833818327]}, "properties": {"permit_year": 2016, "permit_address": "281 El Camino Real", "permit_units": 198, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.251072579336, 37.4978324079393]}, "properties": {"permit_year": 2016, "permit_address": "1312 Laurel Street", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259307457273, 37.5037973232879]}, "properties": {"permit_year": 2016, "permit_address": "777 Walnut Street", "permit_units": 20, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262466031882, 37.5027344523332]}, "properties": {"permit_year": 2016, "permit_address": "1501 Cherry Street", "permit_units": 34, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.291730136736, 37.4977759368101]}, "properties": {"permit_year": 2016, "permit_address": "385 Club Drive", "permit_units": 2, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259843900176, 37.4878117003498]}, "properties": {"permit_year": 2016, "permit_address": "59 Hilltop Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286938272783, 37.504724081851]}, "properties": {"permit_year": 2016, "permit_address": "17 Cranfield Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270060800266, 37.5015063003755]}, "properties": {"permit_year": 2016, "permit_address": "1985 Carmelita Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.2856624001, 37.5064312999646]}, "properties": {"permit_year": 2016, "permit_address": "2811 San Carlos Avenue", "permit_units": 11, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.256245280096, 37.4894960738848]}, "properties": {"permit_year": 2016, "permit_address": "2115 White Oak Way", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.288285575019, 37.485360667361]}, "properties": {"permit_year": 2016, "permit_address": "110 Leslie Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263552641341, 37.508048684799]}, "properties": {"permit_year": 2015, "permit_address": "436 Laurel", "permit_units": 4, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274329624812, 37.5011821856094]}, "properties": {"permit_year": 2015, "permit_address": "2209 Carmelita", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28645316768, 37.5046192658665]}, "properties": {"permit_year": 2015, "permit_address": "17 Cranfield", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279511193787, 37.4976560050206]}, "properties": {"permit_year": 2015, "permit_address": "139 Windsor Dr", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275197555123, 37.5078531991659]}, "properties": {"permit_year": 2015, "permit_address": "111 Northam Ave", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.290460956808, 37.4973376306272]}, "properties": {"permit_year": 2015, "permit_address": "389 Club Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.26657236872, 37.4919749435888]}, "properties": {"permit_year": 2015, "permit_address": "984 Alameda de las Pulgas", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278967773944, 37.4923534187753]}, "properties": {"permit_year": 2015, "permit_address": "1 Portofino Court", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.247895000254, 37.4958089998855]}, "properties": {"permit_year": 2014, "permit_address": "1541 Laurel St", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274679614872, 37.4992243687097]}, "properties": {"permit_year": 2014, "permit_address": "56 Coronado Ave", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.27848517615, 37.4973468990402]}, "properties": {"permit_year": 2014, "permit_address": "46 Roslyn Ave", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.26248300029, 37.4839649995851]}, "properties": {"permit_year": 2014, "permit_address": "2711 Clifford Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265364, 37.502911]}, "properties": {"permit_year": 2018, "permit_address": "1667 San Carlos Ave.", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263749, 37.5069]}, "properties": {"permit_year": 2018, "permit_address": "500 Walnut St.", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277365, 37.498026]}, "properties": {"permit_year": 2018, "permit_address": "171 Coronado Ave.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.297269, 37.496426]}, "properties": {"permit_year": 2018, "permit_address": "596 Club Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270149, 37.501562]}, "properties": {"permit_year": 2018, "permit_address": "1985 Carmelita Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280821, 37.509479]}, "properties": {"permit_year": 2018, "permit_address": "22 Arch Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274012, 37.508718]}, "properties": {"permit_year": 2018, "permit_address": "1042 Buckland Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265342, 37.499391]}, "properties": {"permit_year": 2018, "permit_address": "765 Knoll Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267476, 37.48761]}, "properties": {"permit_year": 2018, "permit_address": "2607 Graceland Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.256344, 37.508841]}, "properties": {"permit_year": 2018, "permit_address": "967 Montgomery St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.25695, 37.499903]}, "properties": {"permit_year": 2018, "permit_address": "957 Rosewood Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277483, 37.501723]}, "properties": {"permit_year": 2018, "permit_address": "32 Cambridge St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264503, 37.49006]}, "properties": {"permit_year": 2018, "permit_address": "2401 Graceland Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.269951, 37.486932]}, "properties": {"permit_year": 2018, "permit_address": "26 Cobblestone Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.257511, 37.49895]}, "properties": {"permit_year": 2018, "permit_address": "1553 Morse Blvd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268464, 37.510704]}, "properties": {"permit_year": 2018, "permit_address": "1340 Hull Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268285, 37.492793]}, "properties": {"permit_year": 2018, "permit_address": "139 Rockridge Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259589, 37.48264]}, "properties": {"permit_year": 2018, "permit_address": "227 Frances Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28557, 37.500046]}, "properties": {"permit_year": 2018, "permit_address": "136 Club Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282091, 37.506382]}, "properties": {"permit_year": 2018, "permit_address": "2611 San Carlos Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.256657, 37.5073]}, "properties": {"permit_year": 2018, "permit_address": "1016 Hall St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265429, 37.505161]}, "properties": {"permit_year": 2018, "permit_address": "506 Chestnut St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286655, 37.498117]}, "properties": {"permit_year": 2018, "permit_address": "222 Oakley Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265927, 37.507504]}, "properties": {"permit_year": 2018, "permit_address": "388 Elm St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.248319, 37.489737]}, "properties": {"permit_year": 2019, "permit_address": "1725 Eaton Ave", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264823, 37.491026]}, "properties": {"permit_year": 2019, "permit_address": "1119 Alameda de las Pulgas", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263174, 37.490886]}, "properties": {"permit_year": 2019, "permit_address": "2328 Howard Ave", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259271, 37.487664]}, "properties": {"permit_year": 2019, "permit_address": "69 Hilltop Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "862 Cordilleras", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "665 Cordileras", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282697, 37.49432]}, "properties": {"permit_year": 2019, "permit_address": "258 Kings Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "133 Madera", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "172 Rogers", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259838, 37.501267]}, "properties": {"permit_year": 2019, "permit_address": "1565 School", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "1979 St Francis Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "121 Colton", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "2343 Brittan", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270767, 37.50534]}, "properties": {"permit_year": 2019, "permit_address": "61 Madrona", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.260585, 37.486532]}, "properties": {"permit_year": 2019, "permit_address": "1450 Alameda del las Pulgas", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "321 Clifton", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277483, 37.501723]}, "properties": {"permit_year": 2019, "permit_address": "32 Cambridge", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.255907, 37.500701]}, "properties": {"permit_year": 2019, "permit_address": "1304 Morse Blvd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264023, 37.503958]}, "properties": {"permit_year": 2019, "permit_address": "1525 San Carlos Ave", "permit_units": 18, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262682, 37.50676]}, "properties": {"permit_year": 2019, "permit_address": "545 Walnut", "permit_units": 9, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.254179, 37.500384]}, "properties": {"permit_year": 2019, "permit_address": "1040-1052 Laurel", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.254355, 37.495418]}, "properties": {"permit_year": 2019, "permit_address": "1345 Geneva", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "1819 Eaton", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272556, 37.496461]}, "properties": {"permit_year": 2019, "permit_address": "8 Wildwood", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.256063, 37.494005]}, "properties": {"permit_year": 2019, "permit_address": "1348 Cedar", "permit_units": 1, "permit_category": "SFD"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.254967097054,
+          37.5017805819084
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "977 Laurel Street",
+        "permit_units": 8,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262580455324,
+          37.5051435283512
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1249 San Carlos Avenue",
+        "permit_units": 109,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263868973374,
+          37.504094981798
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1501 San Carlos Avenue",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263259161081,
+          37.5063343899202
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "530 Walnut Street",
+        "permit_units": 9,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26173222826,
+          37.5079707792281
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "520 El Camino Real",
+        "permit_units": 9,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263883073845,
+          37.5106833818327
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "281 El Camino Real",
+        "permit_units": 198,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.251072579336,
+          37.4978324079393
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1312 Laurel Street",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259307457273,
+          37.5037973232879
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "777 Walnut Street",
+        "permit_units": 20,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262466031882,
+          37.5027344523332
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1501 Cherry Street",
+        "permit_units": 34,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291730136736,
+          37.4977759368101
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "385 Club Drive",
+        "permit_units": 2,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259843900176,
+          37.4878117003498
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "59 Hilltop Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286938272783,
+          37.504724081851
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "17 Cranfield Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270060800266,
+          37.5015063003755
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1985 Carmelita Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2856624001,
+          37.5064312999646
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2811 San Carlos Avenue",
+        "permit_units": 11,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.256245280096,
+          37.4894960738848
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2115 White Oak Way",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288285575019,
+          37.485360667361
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "110 Leslie Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263552641341,
+          37.508048684799
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "436 Laurel",
+        "permit_units": 4,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274329624812,
+          37.5011821856094
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2209 Carmelita",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28645316768,
+          37.5046192658665
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "17 Cranfield",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279511193787,
+          37.4976560050206
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "139 Windsor Dr",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275197555123,
+          37.5078531991659
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "111 Northam Ave",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290460956808,
+          37.4973376306272
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "389 Club Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26657236872,
+          37.4919749435888
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "984 Alameda de las Pulgas",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278967773944,
+          37.4923534187753
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1 Portofino Court",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247895000254,
+          37.4958089998855
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1541 Laurel St",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274679614872,
+          37.4992243687097
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "56 Coronado Ave",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27848517615,
+          37.4973468990402
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "46 Roslyn Ave",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26248300029,
+          37.4839649995851
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2711 Clifford Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265364,
+          37.502911
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1667 San Carlos Ave.",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263749,
+          37.5069
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "500 Walnut St.",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277365,
+          37.498026
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "171 Coronado Ave.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297269,
+          37.496426
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "596 Club Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270149,
+          37.501562
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1985 Carmelita Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280821,
+          37.509479
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "22 Arch Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274012,
+          37.508718
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1042 Buckland Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265342,
+          37.499391
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "765 Knoll Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267476,
+          37.48761
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2607 Graceland Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.256344,
+          37.508841
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "967 Montgomery St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25695,
+          37.499903
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "957 Rosewood Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277483,
+          37.501723
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "32 Cambridge St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264503,
+          37.49006
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2401 Graceland Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269951,
+          37.486932
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26 Cobblestone Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.257511,
+          37.49895
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1553 Morse Blvd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268464,
+          37.510704
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1340 Hull Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268285,
+          37.492793
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "139 Rockridge Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259589,
+          37.48264
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "227 Frances Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28557,
+          37.500046
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "136 Club Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282091,
+          37.506382
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2611 San Carlos Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.256657,
+          37.5073
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1016 Hall St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265429,
+          37.505161
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "506 Chestnut St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286655,
+          37.498117
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "222 Oakley Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265927,
+          37.507504
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "388 Elm St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.248319,
+          37.489737
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1725 Eaton Ave",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264823,
+          37.491026
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1119 Alameda de las Pulgas",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263174,
+          37.490886
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2328 Howard Ave",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259271,
+          37.487664
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "69 Hilltop Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "862 Cordilleras",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "665 Cordileras",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282697,
+          37.49432
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "258 Kings Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "133 Madera",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "172 Rogers",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259838,
+          37.501267
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1565 School",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1979 St Francis Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "121 Colton",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2343 Brittan",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270767,
+          37.50534
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "61 Madrona",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260585,
+          37.486532
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1450 Alameda del las Pulgas",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "321 Clifton",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277483,
+          37.501723
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "32 Cambridge",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255907,
+          37.500701
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1304 Morse Blvd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264023,
+          37.503958
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1525 San Carlos Ave",
+        "permit_units": 18,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262682,
+          37.50676
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "545 Walnut",
+        "permit_units": 9,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.254179,
+          37.500384
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1040-1052 Laurel",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.254355,
+          37.495418
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1345 Geneva",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1819 Eaton",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272556,
+          37.496461
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8 Wildwood",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.256063,
+          37.494005
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1348 Cedar",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    }
+  ]
+}

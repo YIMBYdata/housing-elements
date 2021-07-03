@@ -1,1 +1,3253 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.942230000414, 37.2836699998707]}, "properties": {"permit_year": 2017, "permit_address": "412 - 420 ROBIN RIDGE WY", "permit_units": 5, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941392128144, 37.2840910183858]}, "properties": {"permit_year": 2017, "permit_address": "100 - 104 LOTTIE LANE", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.942520000298, 37.2839300001694]}, "properties": {"permit_year": 2017, "permit_address": "400 - 410 ROBIN RIDGE WY", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.942409999722, 37.2833599999641]}, "properties": {"permit_year": 2017, "permit_address": "300 - 304 HONEYDEW WY", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.94267000002, 37.2833599999641]}, "properties": {"permit_year": 2017, "permit_address": "301 - 305 HONEYDEW WY", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.942905343607, 37.2835330421162]}, "properties": {"permit_year": 2017, "permit_address": "200 - 204 SUNKIST WY", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943011960034, 37.2835863512292]}, "properties": {"permit_year": 2017, "permit_address": "201 - 205 SUNKIST WY", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.94299564903, 37.2839389106522]}, "properties": {"permit_year": 2017, "permit_address": "250 DILLON AVE", "permit_units": 16, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.963929599971, 37.2855018999928]}, "properties": {"permit_year": 2016, "permit_address": "90 JANE ANN WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941608100334, 37.284370399974]}, "properties": {"permit_year": 2016, "permit_address": "106 - 114 LOTTIE LN", "permit_units": 5, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951714800198, 37.282449100046]}, "properties": {"permit_year": 2016, "permit_address": "106 CATALPA LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.947963899714, 37.2846731999083]}, "properties": {"permit_year": 2016, "permit_address": "106 E RINCON AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962852199569, 37.2852720000029]}, "properties": {"permit_year": 2016, "permit_address": "110 CHRISTOPHER AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.973783299859, 37.2702276003236]}, "properties": {"permit_year": 2016, "permit_address": "1149 S SAN TOMAS AQUINO RD UNIT A", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941608100334, 37.284370399974]}, "properties": {"permit_year": 2016, "permit_address": "116 - 128 LOTTIE LANE", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969668500401, 37.2753902997226]}, "properties": {"permit_year": 2016, "permit_address": "1162 HAZEL AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.971761099595, 37.2701159000288]}, "properties": {"permit_year": 2016, "permit_address": "1162 S SAN TOMAS AQUINO R", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941608100334, 37.284370399974]}, "properties": {"permit_year": 2016, "permit_address": "130 - 136 LOTTIE LANE", "permit_units": 4, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978253899898, 37.2669839003867]}, "properties": {"permit_year": 2016, "permit_address": "1377 YORK AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941608100334, 37.284370399974]}, "properties": {"permit_year": 2016, "permit_address": "138 - 148 LOTTIE LN", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.979588699759, 37.2657976001792]}, "properties": {"permit_year": 2016, "permit_address": "1443 HARRIET AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.979588699759, 37.2657976001792]}, "properties": {"permit_year": 2016, "permit_address": "1443 HARRIET AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941608100334, 37.284370399974]}, "properties": {"permit_year": 2016, "permit_address": "149 - 161 LOTTIE LN", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980060500292, 37.2837243000365]}, "properties": {"permit_year": 2016, "permit_address": "150 PAYMAN PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976855199608, 37.2689043000934]}, "properties": {"permit_year": 2016, "permit_address": "1515 HACIENDA AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980060500292, 37.2837243000365]}, "properties": {"permit_year": 2016, "permit_address": "160 PAYMAN PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962882000404, 37.2844249996141]}, "properties": {"permit_year": 2016, "permit_address": "168 CHRISTOPHER AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.979913900006, 37.2836246002951]}, "properties": {"permit_year": 2016, "permit_address": "1685 BUCKNALL RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.945692900207, 37.264902399726]}, "properties": {"permit_year": 2016, "permit_address": "180 & 182 REDDING RD", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.946377799596, 37.2647955000124]}, "properties": {"permit_year": 2016, "permit_address": "184 & 186 REDDING RD", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.946367800034, 37.2647954001876]}, "properties": {"permit_year": 2016, "permit_address": "188 REDDING RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941888900153, 37.2842234003897]}, "properties": {"permit_year": 2016, "permit_address": "190 DILLON AVE", "permit_units": 12, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.956080999738, 37.2901023999059]}, "properties": {"permit_year": 2016, "permit_address": "210 CARLYN AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.950268999715, 37.2812725997507]}, "properties": {"permit_year": 2016, "permit_address": "2305 S WINCHESTER BL", "permit_units": 16, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926750100437, 37.2874188004374]}, "properties": {"permit_year": 2016, "permit_address": "28 N MIDWAY ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.94427000006, 37.2830079000946]}, "properties": {"permit_year": 2016, "permit_address": "300 RAILWAY AVE", "permit_units": 119, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.964864400272, 37.2823923995896]}, "properties": {"permit_year": 2016, "permit_address": "306 WREN WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948069200433, 37.293202899894]}, "properties": {"permit_year": 2016, "permit_address": "418 ESTHER AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.942150890651, 37.2836489638287]}, "properties": {"permit_year": 2016, "permit_address": "421 - 431 ROBIN RIDGE WY", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.94193497332, 37.2838467598202]}, "properties": {"permit_year": 2016, "permit_address": "500 - 510 WAYFARER WY", "permit_units": 5, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.942062377577, 37.2843183912808]}, "properties": {"permit_year": 2016, "permit_address": "511- 523 WAYFARER WY", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959105499819, 37.2804565998922]}, "properties": {"permit_year": 2016, "permit_address": "531 SUNNYBROOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941899299913, 37.2847038002403]}, "properties": {"permit_year": 2016, "permit_address": "600- 608 SUNSWEET WY", "permit_units": 5, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941899299913, 37.2847038002403]}, "properties": {"permit_year": 2016, "permit_address": "610 - 618 SUNSWEET WY", "permit_units": 5, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959308000164, 37.276857100275]}, "properties": {"permit_year": 2016, "permit_address": "705 KENNETH AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.958749999613, 37.2765269996214]}, "properties": {"permit_year": 2016, "permit_address": "730 KENNETH AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.958749999613, 37.2765269996214]}, "properties": {"permit_year": 2016, "permit_address": "730 KENNETH AVE UNIT B", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941138799916, 37.2982959998606]}, "properties": {"permit_year": 2016, "permit_address": "766 ALMARIDA DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944226055588, 37.2658965238056]}, "properties": {"permit_year": 2015, "permit_address": "290 FAIRBANKS AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974565784683, 37.2727853477656]}, "properties": {"permit_year": 2015, "permit_address": "112 JASMINE CT (LOT 8)", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.924031166605, 37.2839978576151]}, "properties": {"permit_year": 2015, "permit_address": "1420 EL MORO DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.949053171167, 37.2823172468435]}, "properties": {"permit_year": 2015, "permit_address": "61 BRAXTON TERRACE (LOT 9)", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948995833991, 37.2823191480103]}, "properties": {"permit_year": 2015, "permit_address": "63 BRAXTON TERRACE (LOT 10)", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948935513763, 37.2823186120144]}, "properties": {"permit_year": 2015, "permit_address": "65 BRAXTON TERRACE (LOT 11)", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948866148154, 37.2823179959788]}, "properties": {"permit_year": 2015, "permit_address": "67 BRAXTON TERRACE (LOT 12)", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948811827304, 37.2823199241253]}, "properties": {"permit_year": 2015, "permit_address": "71 BRAXTON TERRACE (LOT 13)", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948564517339, 37.2823177270815]}, "properties": {"permit_year": 2015, "permit_address": "79 BRAXTON TERRACE LOT 15", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948507180162, 37.2823196282483]}, "properties": {"permit_year": 2015, "permit_address": "81 BRAXTON TERRACE LOT 16", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.94844987716, 37.282319119232]}, "properties": {"permit_year": 2015, "permit_address": "83 BRAXTON TERRACE LOT 17", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948377494326, 37.2823184762167]}, "properties": {"permit_year": 2015, "permit_address": "85 BRAXTON TERRACE LOT 18", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948615788588, 37.2823181830378]}, "properties": {"permit_year": 2015, "permit_address": "77 BRAXTON TERRACE LOT 14", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.9616837572, 37.2947000786457]}, "properties": {"permit_year": 2015, "permit_address": "651 W HAMILTON AVE BLDG #5", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962322717419, 37.2946889900049]}, "properties": {"permit_year": 2015, "permit_address": "651 - 715 W HAMILTON AVE", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962441158133, 37.2697216147608]}, "properties": {"permit_year": 2015, "permit_address": "711 W HACIENDA AVE", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962329472227, 37.269379600788]}, "properties": {"permit_year": 2015, "permit_address": "705 W HACIENDA AVE", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962333967039, 37.2694869591559]}, "properties": {"permit_year": 2015, "permit_address": "707 W HACIENDA AVE", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.96233971011, 37.2697207262306]}, "properties": {"permit_year": 2015, "permit_address": "709 W HACIENDA AVE", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941960765877, 37.2847846717752]}, "properties": {"permit_year": 2015, "permit_address": "466 - 476 SAM CAVA LN", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.97410560429, 37.2675983091147]}, "properties": {"permit_year": 2015, "permit_address": "1365 JUANITA WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.928932350348, 37.2917883706368]}, "properties": {"permit_year": 2015, "permit_address": "337 RICHLEE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.936510842801, 37.2749125546707]}, "properties": {"permit_year": 2015, "permit_address": "865 BRIARWOOD WY", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941491059864, 37.2710484852994]}, "properties": {"permit_year": 2015, "permit_address": "1101 SALERNO DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974086698742, 37.2676720760056]}, "properties": {"permit_year": 2015, "permit_address": "1365 JUANITA WY", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.965510198037, 37.2887927190088]}, "properties": {"permit_year": 2015, "permit_address": "150 BRANBURY DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948839104641, 37.2820936052357]}, "properties": {"permit_year": 2015, "permit_address": "49 KENNEDY AVE LOT 3", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948597794952, 37.2820938723344]}, "properties": {"permit_year": 2015, "permit_address": "53 KENNEDY AVE LOT 5", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948781768364, 37.2820955064025]}, "properties": {"permit_year": 2015, "permit_address": "51 KENNEDY AVE LOT 4", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948468074942, 37.2820951295866]}, "properties": {"permit_year": 2015, "permit_address": "57 KENNEDY AVE LOT 7", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948531443871, 37.2820932832785]}, "properties": {"permit_year": 2015, "permit_address": "55 KENNEDY AVE LOT 6", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948392709956, 37.2820920503079]}, "properties": {"permit_year": 2015, "permit_address": "59 KENNEDY AVE LOT 8", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974897953777, 37.2725301030819]}, "properties": {"permit_year": 2015, "permit_address": "105 JASMINE CT LOT 4", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974898818925, 37.2722463121177]}, "properties": {"permit_year": 2015, "permit_address": "101 JASMINE CT LOT 2", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974904257126, 37.2723954134177]}, "properties": {"permit_year": 2015, "permit_address": "103 JASMINE CT LOT 3", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974929489404, 37.2727354740629]}, "properties": {"permit_year": 2015, "permit_address": "107 JASMINE CT (LOT 5)", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974823758809, 37.2728299523405]}, "properties": {"permit_year": 2015, "permit_address": "109 JASMINE CT (LOT 6)", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974689081736, 37.2728585957477]}, "properties": {"permit_year": 2015, "permit_address": "110 JASMINE CT (LOT 7)", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.956452805552, 37.2922027026926]}, "properties": {"permit_year": 2015, "permit_address": "355 CARLYN AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952423778035, 37.2809624136845]}, "properties": {"permit_year": 2015, "permit_address": "149 BUDD AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948941044593, 37.2820945351347]}, "properties": {"permit_year": 2015, "permit_address": "47 KENNEDY AVE LOT 2", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.949018700153, 37.2820904540113]}, "properties": {"permit_year": 2015, "permit_address": "45 KENNEDY AVE LOT 1", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926517218295, 37.2905341743128]}, "properties": {"permit_year": 2015, "permit_address": "1291 RIDGELEY DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.970164623099, 37.2677064498928]}, "properties": {"permit_year": 2015, "permit_address": "1157 STEINWAY AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943376203449, 37.2656107471383]}, "properties": {"permit_year": 2015, "permit_address": "327 REDDING RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974896938443, 37.2720689532197]}, "properties": {"permit_year": 2015, "permit_address": "1421 WESTMONT AVE LOT 1", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974567388174, 37.2726671984325]}, "properties": {"permit_year": 2015, "permit_address": "114 JASMINE CT (LOT 9)", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "131 ENGLISH ROSE CIR LOT 16", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "133 ENGLISH ROSE CIR LOT 17", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "135 ENGLISH ROSE CIR LOT 18", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "148 ENGLISH ROSE CIR LOT 19", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "150 ENGLISH ROSE CIR LOT 20", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "152 ENGLISH ROSE CIR LOT 21", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "154 ENGLISH ROSE CIR LOT 22", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "156 ENGLISH ROSE CIR LOT 23", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "158 ENGLISH ROSE CIR LOT 24", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "160 ENGLISH ROSE CIR LOT 25", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962148999876, 37.2865149997675]}, "properties": {"permit_year": 2014, "permit_address": "31 VIRGINIA AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976387399259, 37.2702974110967]}, "properties": {"permit_year": 2014, "permit_address": "1138 LAURANCE HILL CT LOT 1", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.9763220806, 37.2700361940152]}, "properties": {"permit_year": 2014, "permit_address": "1142 LAURANCE HILL CT LOT 2", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976301031068, 37.2697174356112]}, "properties": {"permit_year": 2014, "permit_address": "1146 LAURANCE HILL CT LOT 3", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976693850441, 37.2696107778152]}, "properties": {"permit_year": 2014, "permit_address": "1155 LAURANCE HILL CT LOT 4", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976813683305, 37.2698617129478]}, "properties": {"permit_year": 2014, "permit_address": "1151 LAURANCE HILL CT LOT 5", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976839254628, 37.2701130680637]}, "properties": {"permit_year": 2014, "permit_address": "1147 LAURANCE HILL CT LOT 6", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976879442632, 37.2703566908087]}, "properties": {"permit_year": 2014, "permit_address": "1143 LAURANCE HILL CT LOT 7", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976915852585, 37.270611867144]}, "properties": {"permit_year": 2014, "permit_address": "1139 LAURANCE HILL CT LOT 8", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976603569299, 37.270658401664]}, "properties": {"permit_year": 2014, "permit_address": "1135 LAURANCE HILL CT LOT 9", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.970894009251, 37.286517534057]}, "properties": {"permit_year": 2014, "permit_address": "15 COLLEEN WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.970892360794, 37.2867112444284]}, "properties": {"permit_year": 2014, "permit_address": "25 COLLEEN WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.9660000003, 37.2652939996185]}, "properties": {"permit_year": 2014, "permit_address": "1498 VALE AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948040160425, 37.2841725473252]}, "properties": {"permit_year": 2014, "permit_address": "101 ALICE AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972238400382, 37.273893799959]}, "properties": {"permit_year": 2014, "permit_address": "1284 ELAM AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.96664810033, 37.2652680002181]}, "properties": {"permit_year": 2014, "permit_address": "1017 LUCOT WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.964926000235, 37.2848168998801]}, "properties": {"permit_year": 2014, "permit_address": "134 HUNT WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.945371999618, 37.2671509998189]}, "properties": {"permit_year": 2014, "permit_address": "1372 HOFFMAN LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.950628000082, 37.2819909997849]}, "properties": {"permit_year": 2014, "permit_address": "45 EL CAMINITO AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961366300115, 37.2754917000819]}, "properties": {"permit_year": 2014, "permit_address": "778 SHARMON PALMS LN", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981836998579, 37.2697409996475]}, "properties": {"permit_year": 2014, "permit_address": "1775 REGINA WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961775580678, 37.2946999365529]}, "properties": {"permit_year": 2014, "permit_address": "651 W HAMILTON AVE BLD 1", "permit_units": 7, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961604472069, 37.2947000031027]}, "properties": {"permit_year": 2014, "permit_address": "651 W HAMILTON AVE BLD 1 R", "permit_units": 7, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.935422066875, 37.2831408576645]}, "properties": {"permit_year": 2014, "permit_address": "262 UNION AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.935343547966, 37.2831406742028]}, "properties": {"permit_year": 2014, "permit_address": "266 UNION AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.935284265556, 37.2831408936374]}, "properties": {"permit_year": 2014, "permit_address": "270 UNION AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.9352218607, 37.2831393665886]}, "properties": {"permit_year": 2014, "permit_address": "274 UNION AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.935147171105, 37.2831277212674]}, "properties": {"permit_year": 2014, "permit_address": "278 UNION AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "146 ENGLISH ROSE CIR LOT 1", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "144 ENGLISH ROSE CIR LOT 2", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "142 ENGLISH ROSE CIR LOT 3", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "140 ENGLISH ROSE CIR LOT 4", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "138 ENGLISH ROSE CIR LOT 5", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "136 ENGLISH ROSE CIR LOT 6", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "134 ENGLISH ROSE CIR LOT 7", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "132 ENGLISH ROSE CIR LOT 8", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "130 ENGLISH ROSE CIR LOT 9", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "128 ENGLISH ROSE CIR LOT 10", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "126 ENGLISH ROSE CIR LOT 11", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "124 ENGLISH ROSE CIR LOT 12", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "125 ENGLISH ROSE CIR LOT 13", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "127 ENGLISH ROSE CIR LOT 14", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977072700645, 37.2841611996797]}, "properties": {"permit_year": 2014, "permit_address": "129 ENGLISH ROSE CIR LOT 15", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972174, 37.271674]}, "properties": {"permit_year": 2018, "permit_address": "1045 S SAN TOMAS AQUINO ROAD", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943986, 37.283792]}, "properties": {"permit_year": 2018, "permit_address": "208 - 226 RAILWAY AVE - BUILDING 3", "permit_units": 10, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944661, 37.283535]}, "properties": {"permit_year": 2018, "permit_address": "259 - 261 RAILWAY AVE -BUILDING 7", "permit_units": 2, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944297, 37.284009]}, "properties": {"permit_year": 2018, "permit_address": "225 - 227 RAILWAY AVE -BUILDING 5", "permit_units": 2, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944479, 37.283771]}, "properties": {"permit_year": 2018, "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6", "permit_units": 2, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944357, 37.283298]}, "properties": {"permit_year": 2018, "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4", "permit_units": 10, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943712, 37.283352]}, "properties": {"permit_year": 2018, "permit_address": "200 - 212 MALLEY WY -BUILDING 1", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943979, 37.283368]}, "properties": {"permit_year": 2018, "permit_address": "201 - 209 MALLEY WY - BUILDING 2", "permit_units": 5, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975711, 37.270772]}, "properties": {"permit_year": 2018, "permit_address": "1142 MEADOWS CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975632, 37.270453]}, "properties": {"permit_year": 2018, "permit_address": "1144 MEADOWS CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975407, 37.270081]}, "properties": {"permit_year": 2018, "permit_address": "1146 MEADOWS CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975719, 37.270006]}, "properties": {"permit_year": 2018, "permit_address": "1148 MEADOWS CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975989, 37.269963]}, "properties": {"permit_year": 2018, "permit_address": "1150 MEADOWS CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976064, 37.270234]}, "properties": {"permit_year": 2018, "permit_address": "1152 MEADOWS CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972136, 37.272557]}, "properties": {"permit_year": 2018, "permit_address": "997 S SAN TOMAS AQUINO RD LOT 2", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.935553, 37.275985]}, "properties": {"permit_year": 2018, "permit_address": "734 BRIARWOOD WY LOT 3", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "181 -B EL CAMINITO AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "927 -B EMORY AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "1162 -B HAZEL AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "578 & 578-B EL PATIO DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.935553, 37.27597]}, "properties": {"permit_year": 2018, "permit_address": "736 BRIARWOOD WY LOT 2", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "1250 -B HOFFMAN LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972136, 37.272557]}, "properties": {"permit_year": 2019, "permit_address": "997 S SAN TOMAS AQUINO RD LOT 2", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "931 -B HARRISON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944357, 37.283298]}, "properties": {"permit_year": 2018, "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4", "permit_units": 0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943979, 37.283368]}, "properties": {"permit_year": 2018, "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2", "permit_units": 0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943712, 37.283352]}, "properties": {"permit_year": 2018, "permit_address": "200 - 212 MALLEY WY (7 UNITS) BUILDING 1", "permit_units": 0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944661, 37.283535]}, "properties": {"permit_year": 2018, "permit_address": "259 - 261 RAILWAY AVE (2 UNITS) BUILDING 7", "permit_units": 0, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "578 & 578-B EL PATIO DR", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944297, 37.284009]}, "properties": {"permit_year": 2018, "permit_address": "225 - 227 RAILWAY AVE (2 UNITS) BUILDING 5", "permit_units": 0, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944479, 37.283771]}, "properties": {"permit_year": 2018, "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6", "permit_units": 0, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "181 -B EL CAMINITO AVE", "permit_units": 0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2014, "permit_address": "262 to 278 UNION AVE", "permit_units": 0, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975632, 37.270453]}, "properties": {"permit_year": 2018, "permit_address": "1144 MEADOWS CT", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.950589, 37.295431]}, "properties": {"permit_year": 2017, "permit_address": "127 W ROSEMARY LN", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.935553, 37.275985]}, "properties": {"permit_year": 2018, "permit_address": "734 BRIARWOOD WY LOT 3", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975407, 37.270081]}, "properties": {"permit_year": 2018, "permit_address": "1146 MEADOWS CT", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "927 -B EMORY AV", "permit_units": 0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972136, 37.272557]}, "properties": {"permit_year": 2019, "permit_address": "997 S SAN TOMAS AQUINO RD LOT 2", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976068, 37.27074]}, "properties": {"permit_year": 2018, "permit_address": "1140 MEADOWS CT", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2018, "permit_address": "1250 -B HOFFMAN LN", "permit_units": 0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948147, 37.263392]}, "properties": {"permit_year": 2019, "permit_address": "50 SHELLEY AV LOT 1 - LOT 4", "permit_units": 4, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "1317 & 1317- B BURROWS RD", "permit_units": 2, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "645 -B KENNETH AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.941386, 37.284662]}, "properties": {"permit_year": 2019, "permit_address": "162 - 172 LOTTIE LANE BLDG 19", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.410873, 36.843368]}, "properties": {"permit_year": 2019, "permit_address": "65 -B S MILTON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "1181 -B HAZELWOOD AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "39 -B CHRISTOPHER AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "940 -B CROCKETT AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "1203 -B AUDREY AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948261, 37.26202]}, "properties": {"permit_year": 2019, "permit_address": "1808 WHITE OAKS RD LOT 2", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976202, 37.273278]}, "properties": {"permit_year": 2019, "permit_address": "880 HARRIET & 100, 101, 200, 201, 300 HAYMARKET", "permit_units": 6, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.955101, 37.278563]}, "properties": {"permit_year": 2019, "permit_address": "679 -B CAMBRIAN DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.971854, 37.266738]}, "properties": {"permit_year": 2019, "permit_address": "1206 STEINWAY AVE", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.97929, 37.268429]}, "properties": {"permit_year": 2019, "permit_address": "1631 HACIENDA AVE, 102 to 112 HICKORY CT, & 102-B HICKORY CT ", "permit_units": 7, "permit_category": "SFD"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.942230000414,
+          37.2836699998707
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "412 - 420 ROBIN RIDGE WY",
+        "permit_units": 5,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941392128144,
+          37.2840910183858
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "100 - 104 LOTTIE LANE",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.942520000298,
+          37.2839300001694
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "400 - 410 ROBIN RIDGE WY",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.942409999722,
+          37.2833599999641
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "300 - 304 HONEYDEW WY",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94267000002,
+          37.2833599999641
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "301 - 305 HONEYDEW WY",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.942905343607,
+          37.2835330421162
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "200 - 204 SUNKIST WY",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943011960034,
+          37.2835863512292
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "201 - 205 SUNKIST WY",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94299564903,
+          37.2839389106522
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "250 DILLON AVE",
+        "permit_units": 16,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.963929599971,
+          37.2855018999928
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "90 JANE ANN WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941608100334,
+          37.284370399974
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "106 - 114 LOTTIE LN",
+        "permit_units": 5,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951714800198,
+          37.282449100046
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "106 CATALPA LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.947963899714,
+          37.2846731999083
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "106 E RINCON AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962852199569,
+          37.2852720000029
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "110 CHRISTOPHER AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.973783299859,
+          37.2702276003236
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1149 S SAN TOMAS AQUINO RD UNIT A",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941608100334,
+          37.284370399974
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "116 - 128 LOTTIE LANE",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969668500401,
+          37.2753902997226
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1162 HAZEL AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.971761099595,
+          37.2701159000288
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1162 S SAN TOMAS AQUINO R",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941608100334,
+          37.284370399974
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "130 - 136 LOTTIE LANE",
+        "permit_units": 4,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978253899898,
+          37.2669839003867
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1377 YORK AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941608100334,
+          37.284370399974
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "138 - 148 LOTTIE LN",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.979588699759,
+          37.2657976001792
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1443 HARRIET AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.979588699759,
+          37.2657976001792
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1443 HARRIET AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941608100334,
+          37.284370399974
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "149 - 161 LOTTIE LN",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980060500292,
+          37.2837243000365
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "150 PAYMAN PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976855199608,
+          37.2689043000934
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1515 HACIENDA AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980060500292,
+          37.2837243000365
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "160 PAYMAN PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962882000404,
+          37.2844249996141
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "168 CHRISTOPHER AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.979913900006,
+          37.2836246002951
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1685 BUCKNALL RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.945692900207,
+          37.264902399726
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "180 & 182 REDDING RD",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.946377799596,
+          37.2647955000124
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "184 & 186 REDDING RD",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.946367800034,
+          37.2647954001876
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "188 REDDING RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941888900153,
+          37.2842234003897
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "190 DILLON AVE",
+        "permit_units": 12,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.956080999738,
+          37.2901023999059
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "210 CARLYN AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.950268999715,
+          37.2812725997507
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2305 S WINCHESTER BL",
+        "permit_units": 16,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926750100437,
+          37.2874188004374
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "28 N MIDWAY ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94427000006,
+          37.2830079000946
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "300 RAILWAY AVE",
+        "permit_units": 119,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.964864400272,
+          37.2823923995896
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "306 WREN WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948069200433,
+          37.293202899894
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "418 ESTHER AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.942150890651,
+          37.2836489638287
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "421 - 431 ROBIN RIDGE WY",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94193497332,
+          37.2838467598202
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "500 - 510 WAYFARER WY",
+        "permit_units": 5,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.942062377577,
+          37.2843183912808
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "511- 523 WAYFARER WY",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959105499819,
+          37.2804565998922
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "531 SUNNYBROOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941899299913,
+          37.2847038002403
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "600- 608 SUNSWEET WY",
+        "permit_units": 5,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941899299913,
+          37.2847038002403
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "610 - 618 SUNSWEET WY",
+        "permit_units": 5,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959308000164,
+          37.276857100275
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "705 KENNETH AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.958749999613,
+          37.2765269996214
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "730 KENNETH AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.958749999613,
+          37.2765269996214
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "730 KENNETH AVE UNIT B",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941138799916,
+          37.2982959998606
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "766 ALMARIDA DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944226055588,
+          37.2658965238056
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "290 FAIRBANKS AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974565784683,
+          37.2727853477656
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "112 JASMINE CT (LOT 8)",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.924031166605,
+          37.2839978576151
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1420 EL MORO DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.949053171167,
+          37.2823172468435
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "61 BRAXTON TERRACE (LOT 9)",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948995833991,
+          37.2823191480103
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "63 BRAXTON TERRACE (LOT 10)",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948935513763,
+          37.2823186120144
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "65 BRAXTON TERRACE (LOT 11)",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948866148154,
+          37.2823179959788
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "67 BRAXTON TERRACE (LOT 12)",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948811827304,
+          37.2823199241253
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "71 BRAXTON TERRACE (LOT 13)",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948564517339,
+          37.2823177270815
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "79 BRAXTON TERRACE LOT 15",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948507180162,
+          37.2823196282483
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "81 BRAXTON TERRACE LOT 16",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94844987716,
+          37.282319119232
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "83 BRAXTON TERRACE LOT 17",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948377494326,
+          37.2823184762167
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "85 BRAXTON TERRACE LOT 18",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948615788588,
+          37.2823181830378
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "77 BRAXTON TERRACE LOT 14",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9616837572,
+          37.2947000786457
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "651 W HAMILTON AVE BLDG #5",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962322717419,
+          37.2946889900049
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "651 - 715 W HAMILTON AVE",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962441158133,
+          37.2697216147608
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "711 W HACIENDA AVE",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962329472227,
+          37.269379600788
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "705 W HACIENDA AVE",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962333967039,
+          37.2694869591559
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "707 W HACIENDA AVE",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96233971011,
+          37.2697207262306
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "709 W HACIENDA AVE",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941960765877,
+          37.2847846717752
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "466 - 476 SAM CAVA LN",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97410560429,
+          37.2675983091147
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1365 JUANITA WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.928932350348,
+          37.2917883706368
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "337 RICHLEE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.936510842801,
+          37.2749125546707
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "865 BRIARWOOD WY",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941491059864,
+          37.2710484852994
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1101 SALERNO DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974086698742,
+          37.2676720760056
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1365 JUANITA WY",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.965510198037,
+          37.2887927190088
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "150 BRANBURY DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948839104641,
+          37.2820936052357
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "49 KENNEDY AVE LOT 3",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948597794952,
+          37.2820938723344
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "53 KENNEDY AVE LOT 5",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948781768364,
+          37.2820955064025
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "51 KENNEDY AVE LOT 4",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948468074942,
+          37.2820951295866
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "57 KENNEDY AVE LOT 7",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948531443871,
+          37.2820932832785
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "55 KENNEDY AVE LOT 6",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948392709956,
+          37.2820920503079
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "59 KENNEDY AVE LOT 8",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974897953777,
+          37.2725301030819
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "105 JASMINE CT LOT 4",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974898818925,
+          37.2722463121177
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "101 JASMINE CT LOT 2",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974904257126,
+          37.2723954134177
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "103 JASMINE CT LOT 3",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974929489404,
+          37.2727354740629
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "107 JASMINE CT (LOT 5)",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974823758809,
+          37.2728299523405
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "109 JASMINE CT (LOT 6)",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974689081736,
+          37.2728585957477
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "110 JASMINE CT (LOT 7)",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.956452805552,
+          37.2922027026926
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "355 CARLYN AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952423778035,
+          37.2809624136845
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "149 BUDD AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948941044593,
+          37.2820945351347
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "47 KENNEDY AVE LOT 2",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.949018700153,
+          37.2820904540113
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "45 KENNEDY AVE LOT 1",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926517218295,
+          37.2905341743128
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1291 RIDGELEY DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.970164623099,
+          37.2677064498928
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1157 STEINWAY AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943376203449,
+          37.2656107471383
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "327 REDDING RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974896938443,
+          37.2720689532197
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1421 WESTMONT AVE LOT 1",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974567388174,
+          37.2726671984325
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "114 JASMINE CT (LOT 9)",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "131 ENGLISH ROSE CIR LOT 16",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "133 ENGLISH ROSE CIR LOT 17",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "135 ENGLISH ROSE CIR LOT 18",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "148 ENGLISH ROSE CIR LOT 19",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "150 ENGLISH ROSE CIR LOT 20",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "152 ENGLISH ROSE CIR LOT 21",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "154 ENGLISH ROSE CIR LOT 22",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "156 ENGLISH ROSE CIR LOT 23",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "158 ENGLISH ROSE CIR LOT 24",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "160 ENGLISH ROSE CIR LOT 25",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962148999876,
+          37.2865149997675
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "31 VIRGINIA AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976387399259,
+          37.2702974110967
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1138 LAURANCE HILL CT LOT 1",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9763220806,
+          37.2700361940152
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1142 LAURANCE HILL CT LOT 2",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976301031068,
+          37.2697174356112
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1146 LAURANCE HILL CT LOT 3",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976693850441,
+          37.2696107778152
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1155 LAURANCE HILL CT LOT 4",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976813683305,
+          37.2698617129478
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1151 LAURANCE HILL CT LOT 5",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976839254628,
+          37.2701130680637
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1147 LAURANCE HILL CT LOT 6",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976879442632,
+          37.2703566908087
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1143 LAURANCE HILL CT LOT 7",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976915852585,
+          37.270611867144
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1139 LAURANCE HILL CT LOT 8",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976603569299,
+          37.270658401664
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1135 LAURANCE HILL CT LOT 9",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.970894009251,
+          37.286517534057
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "15 COLLEEN WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.970892360794,
+          37.2867112444284
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "25 COLLEEN WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9660000003,
+          37.2652939996185
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1498 VALE AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948040160425,
+          37.2841725473252
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "101 ALICE AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972238400382,
+          37.273893799959
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1284 ELAM AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96664810033,
+          37.2652680002181
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1017 LUCOT WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.964926000235,
+          37.2848168998801
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "134 HUNT WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.945371999618,
+          37.2671509998189
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1372 HOFFMAN LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.950628000082,
+          37.2819909997849
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "45 EL CAMINITO AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961366300115,
+          37.2754917000819
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "778 SHARMON PALMS LN",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981836998579,
+          37.2697409996475
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1775 REGINA WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961775580678,
+          37.2946999365529
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "651 W HAMILTON AVE BLD 1",
+        "permit_units": 7,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961604472069,
+          37.2947000031027
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "651 W HAMILTON AVE BLD 1 R",
+        "permit_units": 7,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.935422066875,
+          37.2831408576645
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "262 UNION AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.935343547966,
+          37.2831406742028
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "266 UNION AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.935284265556,
+          37.2831408936374
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "270 UNION AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9352218607,
+          37.2831393665886
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "274 UNION AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.935147171105,
+          37.2831277212674
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "278 UNION AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "146 ENGLISH ROSE CIR LOT 1",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "144 ENGLISH ROSE CIR LOT 2",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "142 ENGLISH ROSE CIR LOT 3",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "140 ENGLISH ROSE CIR LOT 4",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "138 ENGLISH ROSE CIR LOT 5",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "136 ENGLISH ROSE CIR LOT 6",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "134 ENGLISH ROSE CIR LOT 7",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "132 ENGLISH ROSE CIR LOT 8",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "130 ENGLISH ROSE CIR LOT 9",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "128 ENGLISH ROSE CIR LOT 10",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "126 ENGLISH ROSE CIR LOT 11",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "124 ENGLISH ROSE CIR LOT 12",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "125 ENGLISH ROSE CIR LOT 13",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "127 ENGLISH ROSE CIR LOT 14",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977072700645,
+          37.2841611996797
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "129 ENGLISH ROSE CIR LOT 15",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972174,
+          37.271674
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1045 S SAN TOMAS AQUINO ROAD",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943986,
+          37.283792
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "208 - 226 RAILWAY AVE - BUILDING 3",
+        "permit_units": 10,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944661,
+          37.283535
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "259 - 261 RAILWAY AVE -BUILDING 7",
+        "permit_units": 2,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944297,
+          37.284009
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "225 - 227 RAILWAY AVE -BUILDING 5",
+        "permit_units": 2,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944479,
+          37.283771
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6",
+        "permit_units": 2,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944357,
+          37.283298
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
+        "permit_units": 10,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943712,
+          37.283352
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943979,
+          37.283368
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "201 - 209 MALLEY WY - BUILDING 2",
+        "permit_units": 5,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975711,
+          37.270772
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1142 MEADOWS CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975632,
+          37.270453
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1144 MEADOWS CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975407,
+          37.270081
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1146 MEADOWS CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975719,
+          37.270006
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1148 MEADOWS CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975989,
+          37.269963
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1150 MEADOWS CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976064,
+          37.270234
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1152 MEADOWS CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972136,
+          37.272557
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "997 S SAN TOMAS AQUINO RD LOT 2",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.935553,
+          37.275985
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "734 BRIARWOOD WY LOT 3",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "181 -B EL CAMINITO AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "927 -B EMORY AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1162 -B HAZEL AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "578 & 578-B EL PATIO DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.935553,
+          37.27597
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "736 BRIARWOOD WY LOT 2",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1250 -B HOFFMAN LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972136,
+          37.272557
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "997 S SAN TOMAS AQUINO RD LOT 2",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "931 -B HARRISON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944357,
+          37.283298
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
+        "permit_units": 0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943979,
+          37.283368
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
+        "permit_units": 0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943712,
+          37.283352
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "200 - 212 MALLEY WY (7 UNITS) BUILDING 1",
+        "permit_units": 0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944661,
+          37.283535
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "259 - 261 RAILWAY AVE (2 UNITS) BUILDING 7",
+        "permit_units": 0,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "578 & 578-B EL PATIO DR",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944297,
+          37.284009
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "225 - 227 RAILWAY AVE (2 UNITS) BUILDING 5",
+        "permit_units": 0,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944479,
+          37.283771
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6",
+        "permit_units": 0,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "181 -B EL CAMINITO AVE",
+        "permit_units": 0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "262 to 278 UNION AVE",
+        "permit_units": 0,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975632,
+          37.270453
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1144 MEADOWS CT",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.950589,
+          37.295431
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "127 W ROSEMARY LN",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.935553,
+          37.275985
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "734 BRIARWOOD WY LOT 3",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975407,
+          37.270081
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1146 MEADOWS CT",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "927 -B EMORY AV",
+        "permit_units": 0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972136,
+          37.272557
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "997 S SAN TOMAS AQUINO RD LOT 2",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976068,
+          37.27074
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1140 MEADOWS CT",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1250 -B HOFFMAN LN",
+        "permit_units": 0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948147,
+          37.263392
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "50 SHELLEY AV LOT 1 - LOT 4",
+        "permit_units": 4,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1317 & 1317- B BURROWS RD",
+        "permit_units": 2,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "645 -B KENNETH AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941386,
+          37.284662
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "162 - 172 LOTTIE LANE BLDG 19",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.410873,
+          36.843368
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "65 -B S MILTON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1181 -B HAZELWOOD AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "39 -B CHRISTOPHER AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "940 -B CROCKETT AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1203 -B AUDREY AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948261,
+          37.26202
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1808 WHITE OAKS RD LOT 2",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976202,
+          37.273278
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "880 HARRIET & 100, 101, 200, 201, 300 HAYMARKET",
+        "permit_units": 6,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.955101,
+          37.278563
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "679 -B CAMBRIAN DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.971854,
+          37.266738
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1206 STEINWAY AVE",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97929,
+          37.268429
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1631 HACIENDA AVE, 102 to 112 HICKORY CT, & 102-B HICKORY CT ",
+        "permit_units": 7,
+        "permit_category": "SFD"
+      }
+    }
+  ]
+}

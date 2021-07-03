@@ -1,1 +1,3957 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967620000363, 37.3258699998007]}, "properties": {"permit_year": 2017, "permit_address": "138 Saratoga", "permit_units": 8, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.956170000245, 37.3390499996578]}, "properties": {"permit_year": 2017, "permit_address": "2809 Newhall Street", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967890000223, 37.3254500002174]}, "properties": {"permit_year": 2017, "permit_address": "132 Saratoga Ave", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968349999853, 37.3248800000121]}, "properties": {"permit_year": 2017, "permit_address": "124 Saratoga Ave", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.983659999909, 37.3483899995989]}, "properties": {"permit_year": 2017, "permit_address": "3183 Orthello Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.983280000372, 37.3480599996693]}, "properties": {"permit_year": 2017, "permit_address": "3140 Orthello Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.957189999619, 37.3245999996903]}, "properties": {"permit_year": 2017, "permit_address": "266 Douglane", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999520000148, 37.3460499996078]}, "properties": {"permit_year": 2017, "permit_address": "1045 Bluebird", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978250000437, 37.3472500000875]}, "properties": {"permit_year": 2017, "permit_address": "2848 Humbolt", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991559999994, 37.3618099997317]}, "properties": {"permit_year": 2017, "permit_address": "3449 Machado", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967050000157, 37.3265699997058]}, "properties": {"permit_year": 2017, "permit_address": "148 Saratoga Ave", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.96732999958, 37.3270999998651]}, "properties": {"permit_year": 2017, "permit_address": "146 Bayto", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967409999672, 37.3270599998192]}, "properties": {"permit_year": 2017, "permit_address": "140 Bayto", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968260000199, 37.3250200001729]}, "properties": {"permit_year": 2017, "permit_address": "126 Saratoga Ave", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.944250000037, 37.3784799995524]}, "properties": {"permit_year": 2017, "permit_address": "604 Gianni", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.95947000044, 37.393760000024]}, "properties": {"permit_year": 2017, "permit_address": "4241 Davis Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991689999694, 37.3670700003802]}, "properties": {"permit_year": 2017, "permit_address": "3485 Monroe Street", "permit_units": 825, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978699999605, 37.3406299996748]}, "properties": {"permit_year": 2017, "permit_address": "2900 Hearth Place", "permit_units": 259, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969869999801, 37.3230500001574]}, "properties": {"permit_year": 2017, "permit_address": "50 Saratoga Avenue", "permit_units": 222, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972160000184, 37.3524299997447]}, "properties": {"permit_year": 2017, "permit_address": "2615 El Camino", "permit_units": 186, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.966349400404, 37.3433808243656]}, "properties": {"permit_year": 2016, "permit_address": "2369 Karen", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.973659766285, 37.3816317231256]}, "properties": {"permit_year": 2016, "permit_address": "3320 Montgomery", "permit_units": 194, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.973659766285, 37.3816317231256]}, "properties": {"permit_year": 2016, "permit_address": "3410 Montgomery", "permit_units": 153, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.963630132924, 37.3267422828301]}, "properties": {"permit_year": 2016, "permit_address": "189 Brookside", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996142599801, 37.3435142001203]}, "properties": {"permit_year": 2016, "permit_address": "943 Wren", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.9963831001, 37.3432392000291]}, "properties": {"permit_year": 2016, "permit_address": "956 Wren", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996364600146, 37.3434963000143]}, "properties": {"permit_year": 2016, "permit_address": "963 Wren", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996572300371, 37.3432074998263]}, "properties": {"permit_year": 2016, "permit_address": "966 Wren", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996244099985, 37.3432390003796]}, "properties": {"permit_year": 2016, "permit_address": "976 Wren", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.993779925203, 37.3433728698621]}, "properties": {"permit_year": 2016, "permit_address": "3550 Golden State", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.966104245215, 37.3588114226091]}, "properties": {"permit_year": 2016, "permit_address": "2344 Cabrillo Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.979596172226, 37.3656105526849]}, "properties": {"permit_year": 2016, "permit_address": "2917 Kearney", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951825066074, 37.324720281316]}, "properties": {"permit_year": 2016, "permit_address": "3150 Dorich", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961178619698, 37.3465351361876]}, "properties": {"permit_year": 2016, "permit_address": "2149 Benton", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968156140194, 37.3576204971882]}, "properties": {"permit_year": 2016, "permit_address": "1890 Graham", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982459549768, 37.3414495608486]}, "properties": {"permit_year": 2016, "permit_address": "919 Pepper Tree", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982336887637, 37.3414285400951]}, "properties": {"permit_year": 2016, "permit_address": "3014 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982167559685, 37.3414016179904]}, "properties": {"permit_year": 2016, "permit_address": "3010 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967435328178, 37.3269040034171]}, "properties": {"permit_year": 2016, "permit_address": "148 Saratoga", "permit_units": 3, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967435328178, 37.3269040034171]}, "properties": {"permit_year": 2016, "permit_address": "146 Bayto", "permit_units": 4, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967435328178, 37.3269040034171]}, "properties": {"permit_year": 2016, "permit_address": "140 Bayto", "permit_units": 4, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967435328178, 37.3269040034171]}, "properties": {"permit_year": 2016, "permit_address": "138 Saratoga", "permit_units": 8, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967435328178, 37.3269040034171]}, "properties": {"permit_year": 2016, "permit_address": "132 Saratoga", "permit_units": 6, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967435328178, 37.3269040034171]}, "properties": {"permit_year": 2016, "permit_address": "124 Saratoga", "permit_units": 4, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99539992077, 37.3544903699347]}, "properties": {"permit_year": 2016, "permit_address": "1701 Lawrence", "permit_units": 9, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967435328178, 37.3269040034171]}, "properties": {"permit_year": 2016, "permit_address": "126 Saratoga", "permit_units": 4, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968981808664, 37.3491189549758]}, "properties": {"permit_year": 2016, "permit_address": "1299 Blackfield", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.963630132924, 37.3267422828301]}, "properties": {"permit_year": 2016, "permit_address": "3628 Forest", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.950014699319, 37.3551764033684]}, "properties": {"permit_year": 2016, "permit_address": "1677 Jackson", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948453144397, 37.3434343376246]}, "properties": {"permit_year": 2016, "permit_address": "568 Jefferson", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.957101851669, 37.3420580439436]}, "properties": {"permit_year": 2016, "permit_address": "756 Viader", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999411614754, 37.3455404149582]}, "properties": {"permit_year": 2016, "permit_address": "1043 Bluebird", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.965518705624, 37.362501753753]}, "properties": {"permit_year": 2016, "permit_address": "2174 El Capitan", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969919092892, 37.3319793192902]}, "properties": {"permit_year": 2016, "permit_address": "2649 Birchtree", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989800302842, 37.3536423578086]}, "properties": {"permit_year": 2016, "permit_address": "3397 Rayanna", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986960924607, 37.3401709506289]}, "properties": {"permit_year": 2015, "permit_address": "860 Quince", "permit_units": 20, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972795999836, 37.3527695999371]}, "properties": {"permit_year": 2015, "permit_address": "2585 ECR", "permit_units": 60, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980474480713, 37.3406606989321]}, "properties": {"permit_year": 2015, "permit_address": "3137 Via Siena", "permit_units": 12, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980487552359, 37.3415756880676]}, "properties": {"permit_year": 2015, "permit_address": "2912 Via Torino", "permit_units": 14, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978891053379, 37.3423417126]}, "properties": {"permit_year": 2015, "permit_address": "2935 Via Roma", "permit_units": 4, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978399914724, 37.3423255472862]}, "properties": {"permit_year": 2015, "permit_address": "2945 Via Roma", "permit_units": 4, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.97862219206, 37.3423441605546]}, "properties": {"permit_year": 2015, "permit_address": "2941 Via Roma", "permit_units": 4, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978464662314, 37.3420661603251]}, "properties": {"permit_year": 2015, "permit_address": "2861 Kaiser Dr", "permit_units": 4, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.977939651594, 37.3423454196055]}, "properties": {"permit_year": 2015, "permit_address": "2955 Via Roma", "permit_units": 5, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980185718296, 37.3505855208052]}, "properties": {"permit_year": 2015, "permit_address": "2984 Butte St", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981804427832, 37.3410478336907]}, "properties": {"permit_year": 2015, "permit_address": "2987 Via Torino", "permit_units": 10, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.949854787269, 37.3475429983108]}, "properties": {"permit_year": 2015, "permit_address": "1466 Franklin", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.966591663375, 37.3494134415771]}, "properties": {"permit_year": 2015, "permit_address": "2357 Harrison", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961212571803, 37.324209237966]}, "properties": {"permit_year": 2015, "permit_address": "281 Bel Ayre", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961315109804, 37.3241362076199]}, "properties": {"permit_year": 2015, "permit_address": "285 Bel Ayre", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961429657353, 37.3240585142891]}, "properties": {"permit_year": 2015, "permit_address": "289 Bel Ayre", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.954874650045, 37.3338823512896]}, "properties": {"permit_year": 2015, "permit_address": "320 Kohner Ct", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.964712675649, 37.4011743032515]}, "properties": {"permit_year": 2015, "permit_address": "2235 Gianera", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951999655959, 37.345224012778]}, "properties": {"permit_year": 2015, "permit_address": "1703 Lexington", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.949541440085, 37.3543004861785]}, "properties": {"permit_year": 2015, "permit_address": "1567 Jackson", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980915598176, 37.3410247687781]}, "properties": {"permit_year": 2015, "permit_address": "2923 Via Torino", "permit_units": 14, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981368691912, 37.3410215168296]}, "properties": {"permit_year": 2015, "permit_address": "2955 Via Torino", "permit_units": 14, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991664021877, 37.3313681768999]}, "properties": {"permit_year": 2015, "permit_address": "481 Rosemont", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980472002181, 37.3410649756681]}, "properties": {"permit_year": 2015, "permit_address": "2911 Via Torino", "permit_units": 10, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981963115905, 37.3404476153652]}, "properties": {"permit_year": 2015, "permit_address": "3072 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981995746007, 37.340353693768]}, "properties": {"permit_year": 2015, "permit_address": "3076 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981736850076, 37.340282305584]}, "properties": {"permit_year": 2015, "permit_address": "3078 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981690861444, 37.3403701486635]}, "properties": {"permit_year": 2015, "permit_address": "3082 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981647890038, 37.3404556328213]}, "properties": {"permit_year": 2015, "permit_address": "3086 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981349171227, 37.3404578307643]}, "properties": {"permit_year": 2015, "permit_address": "3092 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981392207384, 37.3403675784011]}, "properties": {"permit_year": 2015, "permit_address": "3094 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981435241743, 37.3402773251385]}, "properties": {"permit_year": 2015, "permit_address": "3098 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981469156976, 37.3401989168466]}, "properties": {"permit_year": 2015, "permit_address": "3100 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981207372422, 37.340120347576]}, "properties": {"permit_year": 2015, "permit_address": "3104 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981173232359, 37.3402154472851]}, "properties": {"permit_year": 2015, "permit_address": "3108 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981133246702, 37.3403009566239]}, "properties": {"permit_year": 2015, "permit_address": "3110 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981096248593, 37.340386492043]}, "properties": {"permit_year": 2015, "permit_address": "3114 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962546702568, 37.3267750001662]}, "properties": {"permit_year": 2015, "permit_address": "3588 Forest", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.943936678035, 37.3418177828644]}, "properties": {"permit_year": 2015, "permit_address": "239 Monroe", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982365808935, 37.3408195371919]}, "properties": {"permit_year": 2015, "permit_address": "3036 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982408683214, 37.3407412053424]}, "properties": {"permit_year": 2015, "permit_address": "3038 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982479465255, 37.3405868007403]}, "properties": {"permit_year": 2015, "permit_address": "3046 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982254545711, 37.3404322360589]}, "properties": {"permit_year": 2015, "permit_address": "3052 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982125505588, 37.3406982267418]}, "properties": {"permit_year": 2015, "permit_address": "3062 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982162599924, 37.3406055381151]}, "properties": {"permit_year": 2015, "permit_address": "3058 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982442595749, 37.3406627979498]}, "properties": {"permit_year": 2015, "permit_address": "3042 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982510488268, 37.3405012131605]}, "properties": {"permit_year": 2015, "permit_address": "3050 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982205538055, 37.3405224380601]}, "properties": {"permit_year": 2015, "permit_address": "3056 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982461952757, 37.3409992262334]}, "properties": {"permit_year": 2015, "permit_address": "3032 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982247266598, 37.3411929357055]}, "properties": {"permit_year": 2015, "permit_address": "3022 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982584112167, 37.3410217398614]}, "properties": {"permit_year": 2015, "permit_address": "909 Pepper Tree Lane", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982402440121, 37.3412038103077]}, "properties": {"permit_year": 2015, "permit_address": "3018 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982357679064, 37.3409792495927]}, "properties": {"permit_year": 2015, "permit_address": "3030 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982241396723, 37.3409639413329]}, "properties": {"permit_year": 2015, "permit_address": "3028 Via Siena", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982527554703, 37.3412287341188]}, "properties": {"permit_year": 2015, "permit_address": "915 Pepper Tree Ln", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.960219290388, 37.3268111798921]}, "properties": {"permit_year": 2015, "permit_address": "107 N. Cypress Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951972399307, 37.343445491916]}, "properties": {"permit_year": 2015, "permit_address": "653 N. Winchester", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978052363626, 37.3420733297204]}, "properties": {"permit_year": 2015, "permit_address": "2843 Kaiser Dr.", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959145120351, 37.324040348883]}, "properties": {"permit_year": 2015, "permit_address": "3456 Cecil", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978204567587, 37.3476671641084]}, "properties": {"permit_year": 2015, "permit_address": "2831 Humboldt", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.97798959994, 37.3400447002028]}, "properties": {"permit_year": 2014, "permit_address": "900 Kiely", "permit_units": 793, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972783496561, 37.3529005457237]}, "properties": {"permit_year": 2014, "permit_address": "2585 El Camino Real", "permit_units": 60, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.97113499968, 37.3240599999691]}, "properties": {"permit_year": 2014, "permit_address": "45 Buckingham Avenue", "permit_units": 222, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.956275999738, 37.3389660002807]}, "properties": {"permit_year": 2014, "permit_address": "555 Saratoga Avenue", "permit_units": 13, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974918399864, 37.3529071998075]}, "properties": {"permit_year": 2014, "permit_address": "2611-2655 El Camino Real", "permit_units": 186, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.993983000215, 37.3676863003825]}, "properties": {"permit_year": 2014, "permit_address": "3515-3585 Monroe Street", "permit_units": 825, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980793, 37.369381]}, "properties": {"permit_year": 2018, "permit_address": "2612 Painted Rock", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952295, 37.351158]}, "properties": {"permit_year": 2018, "permit_address": "1740 Franck", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952295, 37.351158]}, "properties": {"permit_year": 2018, "permit_address": "90 Gilbert", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952295, 37.351158]}, "properties": {"permit_year": 2018, "permit_address": "2328 Glendenning", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952295, 37.351158]}, "properties": {"permit_year": 2018, "permit_address": "2235 Sherwin", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.971397, 37.335132]}, "properties": {"permit_year": 2018, "permit_address": "651 Wilson", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.973393, 37.361797]}, "properties": {"permit_year": 2018, "permit_address": "2652 Elliot", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.966824, 37.395575]}, "properties": {"permit_year": 2018, "permit_address": "4455 Lakeshore", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.967376, 37.364746]}, "properties": {"permit_year": 2018, "permit_address": "2300 Cimmaron Drive", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.953831, 37.332495]}, "properties": {"permit_year": 2018, "permit_address": "380 Crestview", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.960814, 37.341004]}, "properties": {"permit_year": 2018, "permit_address": "706 Malarin Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989469, 37.36658]}, "properties": {"permit_year": 2018, "permit_address": "2419 Fordham Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976928, 37.356705]}, "properties": {"permit_year": 2018, "permit_address": "2783 Crosby Ct.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.993945, 37.342564]}, "properties": {"permit_year": 2018, "permit_address": "3550 Butcher Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989469, 37.36658]}, "properties": {"permit_year": 2018, "permit_address": "2419 Fordham", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.932349, 37.342764]}, "properties": {"permit_year": 2018, "permit_address": "1901 Morse St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.971259, 37.330182]}, "properties": {"permit_year": 2018, "permit_address": "2682 Tuliptree Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991878, 37.362948]}, "properties": {"permit_year": 2018, "permit_address": "2201 Nobili Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978728, 37.350575]}, "properties": {"permit_year": 2018, "permit_address": "2866 Butte St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.942161, 37.393182]}, "properties": {"permit_year": 2018, "permit_address": "461 Greenwood Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.957657, 37.350846]}, "properties": {"permit_year": 2018, "permit_address": "1853 Clifford St.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994817, 37.374417]}, "properties": {"permit_year": 2018, "permit_address": "3560 Rambla", "permit_units": 251, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.995079, 37.3751]}, "properties": {"permit_year": 2018, "permit_address": "3578 Rambla", "permit_units": 126, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992446, 37.374715]}, "properties": {"permit_year": 2018, "permit_address": "2946 Feliz", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991594, 37.374711]}, "properties": {"permit_year": 2018, "permit_address": "2912 Feliz", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99182, 37.375125]}, "properties": {"permit_year": 2018, "permit_address": "2970 Feliz", "permit_units": 8, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99227, 37.374253]}, "properties": {"permit_year": 2018, "permit_address": "2930 Sanor (B1)", "permit_units": 8, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99227, 37.374253]}, "properties": {"permit_year": 2018, "permit_address": "2930 Sanor (B2)", "permit_units": 8, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991677, 37.374438]}, "properties": {"permit_year": 2018, "permit_address": "2910 Sanor (B1)", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991677, 37.374438]}, "properties": {"permit_year": 2018, "permit_address": "2910 Sanor (B2)", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992933, 37.374269]}, "properties": {"permit_year": 2018, "permit_address": "2940 Sanor (B1)", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.993258, 37.37427]}, "properties": {"permit_year": 2018, "permit_address": "2950 Sanor (B1)", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.993258, 37.37427]}, "properties": {"permit_year": 2018, "permit_address": "2950 Sanor (B2)", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99359, 37.374273]}, "properties": {"permit_year": 2018, "permit_address": "2960 Sanor (B2)", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.957357, 37.351952]}, "properties": {"permit_year": 2018, "permit_address": "1850 El Camino Real", "permit_units": 56, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969587, 37.380166]}, "properties": {"permit_year": 2018, "permit_address": "3355 Octavius (B6)", "permit_units": 281, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969888, 37.379209]}, "properties": {"permit_year": 2018, "permit_address": "3230 Scott (B7)", "permit_units": 358, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991448, 37.37532]}, "properties": {"permit_year": 2019, "permit_address": "2910 LAMORY PL", "permit_units": 4, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991463, 37.376441]}, "properties": {"permit_year": 2019, "permit_address": "3041 BOYTER PL", "permit_units": 4, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992452, 37.37532]}, "properties": {"permit_year": 2019, "permit_address": "2946 LAMORY PL", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991951, 37.37532]}, "properties": {"permit_year": 2019, "permit_address": "2928 LAMORY PL", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992427, 37.375797]}, "properties": {"permit_year": 2019, "permit_address": "3435 Copper", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992405, 37.376009]}, "properties": {"permit_year": 2019, "permit_address": "3449 Copper", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992231, 37.376125]}, "properties": {"permit_year": 2019, "permit_address": "2930 Boyter Pl U113", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992231, 37.376125]}, "properties": {"permit_year": 2019, "permit_address": "2930 Boyter Pl U114", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991961, 37.375678]}, "properties": {"permit_year": 2019, "permit_address": "2933 Lamory  Pl U113", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991961, 37.375678]}, "properties": {"permit_year": 2019, "permit_address": "2933 Lamory  Pl U114", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.992483, 37.376438]}, "properties": {"permit_year": 2019, "permit_address": "3073 Boyter Pl", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952295, 37.351158]}, "properties": {"permit_year": 2019, "permit_address": "3059 Boyyer Pl", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991255, 37.375549]}, "properties": {"permit_year": 2019, "permit_address": "3370 EICHERS PL B1", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991255, 37.375549]}, "properties": {"permit_year": 2019, "permit_address": "3370 EICHERS PL B2", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991735, 37.375801]}, "properties": {"permit_year": 2019, "permit_address": "3380 EICHERS PL B1", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991735, 37.375801]}, "properties": {"permit_year": 2019, "permit_address": "3380 EICHERS PL B2", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991431, 37.376071]}, "properties": {"permit_year": 2019, "permit_address": "3390 EICHERS PL B1", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991431, 37.376071]}, "properties": {"permit_year": 2019, "permit_address": "3390 EICHERS PL B2", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.947279, 37.343602]}, "properties": {"permit_year": 2019, "permit_address": "528 MADISON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987355, 37.374233]}, "properties": {"permit_year": 2019, "permit_address": "3303 Kifer Rd U113", "permit_units": 7, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987355, 37.374233]}, "properties": {"permit_year": 2019, "permit_address": "3305 Kifer", "permit_units": 3, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987696, 37.374598]}, "properties": {"permit_year": 2019, "permit_address": "2907 Corvin Dr U131", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987747, 37.374726]}, "properties": {"permit_year": 2019, "permit_address": "2909 Corvin Dr U143", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98775, 37.374911]}, "properties": {"permit_year": 2019, "permit_address": "2913 Corvin Dr", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987753, 37.375044]}, "properties": {"permit_year": 2019, "permit_address": "2915 Corvin Dr U167", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987155, 37.374671]}, "properties": {"permit_year": 2019, "permit_address": "2905 NOYCE PL U179", "permit_units": 6, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987156, 37.375019]}, "properties": {"permit_year": 2019, "permit_address": "2911 NOYCE PL U189", "permit_units": 5, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.948559, 37.386068]}, "properties": {"permit_year": 2019, "permit_address": "3550 MACINTOSH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.949907, 37.355018]}, "properties": {"permit_year": 2019, "permit_address": "1669 JACKSON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.939705, 37.353513]}, "properties": {"permit_year": 2019, "permit_address": "588 EL CAMINO REAL", "permit_units": 355, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.957552, 37.359539]}, "properties": {"permit_year": 2019, "permit_address": "1751 CABRILLO AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952656, 37.353525]}, "properties": {"permit_year": 2019, "permit_address": "1400 CIVIC CENTER DR U9", "permit_units": 9, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952348, 37.353651]}, "properties": {"permit_year": 2019, "permit_address": "1380 CIVIC CENTER DR U9", "permit_units": 9, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952395, 37.35298]}, "properties": {"permit_year": 2019, "permit_address": "1431 EL CAMINO REAL", "permit_units": 9, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951877, 37.353163]}, "properties": {"permit_year": 2019, "permit_address": "1379 EL CAMINO REAL", "permit_units": 9, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.985908, 37.3333]}, "properties": {"permit_year": 2019, "permit_address": "622 HICKORY PL", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959707, 37.392831]}, "properties": {"permit_year": 2019, "permit_address": "4192 Davis", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.950173, 37.349288]}, "properties": {"permit_year": 2019, "permit_address": "1134 MADISON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.002877, 37.32979]}, "properties": {"permit_year": 2019, "permit_address": "3866 SULLIVAN DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.95072, 37.345822]}, "properties": {"permit_year": 2019, "permit_address": "877 N WINCHESTER BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976932, 37.358354]}, "properties": {"permit_year": 2019, "permit_address": "1943 BOWERS AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989135, 37.337089]}, "properties": {"permit_year": 2019, "permit_address": "795 PURDUE CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.961486, 37.393344]}, "properties": {"permit_year": 2019, "permit_address": "4270 CHEENEY ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.957553, 37.342481]}, "properties": {"permit_year": 2019, "permit_address": "777 CATALA CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.946394, 37.35074]}, "properties": {"permit_year": 2019, "permit_address": "1143 MAIN ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.97918, 37.356242]}, "properties": {"permit_year": 2019, "permit_address": "2896 TAPER AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.973168, 37.32463]}, "properties": {"permit_year": 2019, "permit_address": "218 SERENA WAY", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.937812, 37.344919]}, "properties": {"permit_year": 2019, "permit_address": "757 POPLAR ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959944, 37.325545]}, "properties": {"permit_year": 2019, "permit_address": "185 N CYPRESS AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981445, 37.338158]}, "properties": {"permit_year": 2019, "permit_address": "806 CHRISTOPHER CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974421, 37.359528]}, "properties": {"permit_year": 2019, "permit_address": "2632 DAY CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.956295, 37.323874]}, "properties": {"permit_year": 2019, "permit_address": "3332 CECIL AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.947576, 37.345954]}, "properties": {"permit_year": 2019, "permit_address": "757 MADISON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959132, 37.337857]}, "properties": {"permit_year": 2019, "permit_address": "2190 FORBES AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959351, 37.406331]}, "properties": {"permit_year": 2019, "permit_address": "4929 AVENIDA DE CARMEN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.97966, 37.332135]}, "properties": {"permit_year": 2019, "permit_address": "527 BANCROFT ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.962786, 37.340282]}, "properties": {"permit_year": 2019, "permit_address": "721 LOS PADRES BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.980714, 37.347927]}, "properties": {"permit_year": 2019, "permit_address": "3030 ORTHELLO WAY", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.957614, 37.351262]}, "properties": {"permit_year": 2019, "permit_address": "1860 CLAY ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.956472, 37.350405]}, "properties": {"permit_year": 2019, "permit_address": "1814 CLIFFORD ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986319, 37.347317]}, "properties": {"permit_year": 2019, "permit_address": "1167 POMEROY AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951707, 37.352106]}, "properties": {"permit_year": 2019, "permit_address": "1430 MADISON ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951776, 37.352226]}, "properties": {"permit_year": 2019, "permit_address": "1448 MADISON ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951734, 37.351936]}, "properties": {"permit_year": 2019, "permit_address": "1435 LEWIS ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969777, 37.36347]}, "properties": {"permit_year": 2019, "permit_address": "2458 FRANCISCAN CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.96675, 37.349164]}, "properties": {"permit_year": 2019, "permit_address": "2358 HARRISON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952038, 37.353565]}, "properties": {"permit_year": 2019, "permit_address": "1340 CIVIC CENTER DR U9", "permit_units": 9, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951372, 37.348684]}, "properties": {"permit_year": 2019, "permit_address": "1515 BENTON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.95179, 37.353658]}, "properties": {"permit_year": 2019, "permit_address": "1360 CIVIC CENTER DR U9", "permit_units": 9, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.983398, 37.335395]}, "properties": {"permit_year": 2019, "permit_address": "3008 RYAN AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.945101, 37.34229]}, "properties": {"permit_year": 2019, "permit_address": "314 MONROE ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968609, 37.338773]}, "properties": {"permit_year": 2019, "permit_address": "2529 MALONE PL", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952295, 37.351158]}, "properties": {"permit_year": 2019, "permit_address": "1160 ECR U212", "permit_units": 12, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.946174, 37.344494]}, "properties": {"permit_year": 2019, "permit_address": "590 MONROE ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999837, 37.14457]}, "properties": {"permit_year": 2019, "permit_address": "159 BEL ARYE DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.96343, 37.340008]}, "properties": {"permit_year": 2019, "permit_address": "2307 SERRA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969704, 37.346532]}, "properties": {"permit_year": 2019, "permit_address": "2457 BENTON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.953151, 37.338086]}, "properties": {"permit_year": 2019, "permit_address": "2663 NEWHALL ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.959732, 37.324839]}, "properties": {"permit_year": 2019, "permit_address": "220 N Cypress Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.94906, 37.391597]}, "properties": {"permit_year": 2019, "permit_address": "825 Clyde Avenue", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.95873, 37.33732]}, "properties": {"permit_year": 2019, "permit_address": "535 Robyn Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.971369, 37.363887]}, "properties": {"permit_year": 2019, "permit_address": "2522 Monroe St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.998374, 37.331521]}, "properties": {"permit_year": 2019, "permit_address": "3707 Pruneridge Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952726, 37.348111]}, "properties": {"permit_year": 2019, "permit_address": "1643 Benton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.958207, 37.326056]}, "properties": {"permit_year": 2019, "permit_address": "144 Tyler Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.933283, 37.344167]}, "properties": {"permit_year": 2019, "permit_address": "531 Chapman Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988296, 37.374158]}, "properties": {"permit_year": 2019, "permit_address": "3311 Kifer Rd", "permit_units": 145, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968415, 37.338944]}, "properties": {"permit_year": 2019, "permit_address": "2523 Brannan Pl", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.969731, 37.337289]}, "properties": {"permit_year": 2019, "permit_address": "2646 Toledo Ave", "permit_units": 1, "permit_category": "ADU"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967620000363,
+          37.3258699998007
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "138 Saratoga",
+        "permit_units": 8,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.956170000245,
+          37.3390499996578
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2809 Newhall Street",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967890000223,
+          37.3254500002174
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "132 Saratoga Ave",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968349999853,
+          37.3248800000121
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "124 Saratoga Ave",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.983659999909,
+          37.3483899995989
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3183 Orthello Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.983280000372,
+          37.3480599996693
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3140 Orthello Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.957189999619,
+          37.3245999996903
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "266 Douglane",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999520000148,
+          37.3460499996078
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1045 Bluebird",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978250000437,
+          37.3472500000875
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2848 Humbolt",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991559999994,
+          37.3618099997317
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3449 Machado",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967050000157,
+          37.3265699997058
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "148 Saratoga Ave",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96732999958,
+          37.3270999998651
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "146 Bayto",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967409999672,
+          37.3270599998192
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "140 Bayto",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968260000199,
+          37.3250200001729
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "126 Saratoga Ave",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944250000037,
+          37.3784799995524
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "604 Gianni",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.95947000044,
+          37.393760000024
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "4241 Davis Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991689999694,
+          37.3670700003802
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3485 Monroe Street",
+        "permit_units": 825,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978699999605,
+          37.3406299996748
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2900 Hearth Place",
+        "permit_units": 259,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969869999801,
+          37.3230500001574
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "50 Saratoga Avenue",
+        "permit_units": 222,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972160000184,
+          37.3524299997447
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2615 El Camino",
+        "permit_units": 186,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.966349400404,
+          37.3433808243656
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2369 Karen",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.973659766285,
+          37.3816317231256
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3320 Montgomery",
+        "permit_units": 194,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.973659766285,
+          37.3816317231256
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3410 Montgomery",
+        "permit_units": 153,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.963630132924,
+          37.3267422828301
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "189 Brookside",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996142599801,
+          37.3435142001203
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "943 Wren",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9963831001,
+          37.3432392000291
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "956 Wren",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996364600146,
+          37.3434963000143
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "963 Wren",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996572300371,
+          37.3432074998263
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "966 Wren",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996244099985,
+          37.3432390003796
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "976 Wren",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.993779925203,
+          37.3433728698621
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3550 Golden State",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.966104245215,
+          37.3588114226091
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2344 Cabrillo Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.979596172226,
+          37.3656105526849
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2917 Kearney",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951825066074,
+          37.324720281316
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3150 Dorich",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961178619698,
+          37.3465351361876
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2149 Benton",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968156140194,
+          37.3576204971882
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1890 Graham",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982459549768,
+          37.3414495608486
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "919 Pepper Tree",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982336887637,
+          37.3414285400951
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3014 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982167559685,
+          37.3414016179904
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3010 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967435328178,
+          37.3269040034171
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "148 Saratoga",
+        "permit_units": 3,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967435328178,
+          37.3269040034171
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "146 Bayto",
+        "permit_units": 4,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967435328178,
+          37.3269040034171
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "140 Bayto",
+        "permit_units": 4,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967435328178,
+          37.3269040034171
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "138 Saratoga",
+        "permit_units": 8,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967435328178,
+          37.3269040034171
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "132 Saratoga",
+        "permit_units": 6,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967435328178,
+          37.3269040034171
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "124 Saratoga",
+        "permit_units": 4,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99539992077,
+          37.3544903699347
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1701 Lawrence",
+        "permit_units": 9,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967435328178,
+          37.3269040034171
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "126 Saratoga",
+        "permit_units": 4,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968981808664,
+          37.3491189549758
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1299 Blackfield",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.963630132924,
+          37.3267422828301
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3628 Forest",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.950014699319,
+          37.3551764033684
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1677 Jackson",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948453144397,
+          37.3434343376246
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "568 Jefferson",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.957101851669,
+          37.3420580439436
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "756 Viader",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999411614754,
+          37.3455404149582
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1043 Bluebird",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.965518705624,
+          37.362501753753
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2174 El Capitan",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969919092892,
+          37.3319793192902
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2649 Birchtree",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989800302842,
+          37.3536423578086
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3397 Rayanna",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986960924607,
+          37.3401709506289
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "860 Quince",
+        "permit_units": 20,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972795999836,
+          37.3527695999371
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2585 ECR",
+        "permit_units": 60,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980474480713,
+          37.3406606989321
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3137 Via Siena",
+        "permit_units": 12,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980487552359,
+          37.3415756880676
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2912 Via Torino",
+        "permit_units": 14,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978891053379,
+          37.3423417126
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2935 Via Roma",
+        "permit_units": 4,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978399914724,
+          37.3423255472862
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2945 Via Roma",
+        "permit_units": 4,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97862219206,
+          37.3423441605546
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2941 Via Roma",
+        "permit_units": 4,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978464662314,
+          37.3420661603251
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2861 Kaiser Dr",
+        "permit_units": 4,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.977939651594,
+          37.3423454196055
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2955 Via Roma",
+        "permit_units": 5,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980185718296,
+          37.3505855208052
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2984 Butte St",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981804427832,
+          37.3410478336907
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2987 Via Torino",
+        "permit_units": 10,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.949854787269,
+          37.3475429983108
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1466 Franklin",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.966591663375,
+          37.3494134415771
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2357 Harrison",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961212571803,
+          37.324209237966
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "281 Bel Ayre",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961315109804,
+          37.3241362076199
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "285 Bel Ayre",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961429657353,
+          37.3240585142891
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "289 Bel Ayre",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.954874650045,
+          37.3338823512896
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "320 Kohner Ct",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.964712675649,
+          37.4011743032515
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2235 Gianera",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951999655959,
+          37.345224012778
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1703 Lexington",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.949541440085,
+          37.3543004861785
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1567 Jackson",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980915598176,
+          37.3410247687781
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2923 Via Torino",
+        "permit_units": 14,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981368691912,
+          37.3410215168296
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2955 Via Torino",
+        "permit_units": 14,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991664021877,
+          37.3313681768999
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "481 Rosemont",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980472002181,
+          37.3410649756681
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2911 Via Torino",
+        "permit_units": 10,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981963115905,
+          37.3404476153652
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3072 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981995746007,
+          37.340353693768
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3076 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981736850076,
+          37.340282305584
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3078 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981690861444,
+          37.3403701486635
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3082 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981647890038,
+          37.3404556328213
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3086 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981349171227,
+          37.3404578307643
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3092 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981392207384,
+          37.3403675784011
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3094 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981435241743,
+          37.3402773251385
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3098 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981469156976,
+          37.3401989168466
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3100 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981207372422,
+          37.340120347576
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3104 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981173232359,
+          37.3402154472851
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3108 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981133246702,
+          37.3403009566239
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3110 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981096248593,
+          37.340386492043
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3114 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962546702568,
+          37.3267750001662
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3588 Forest",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943936678035,
+          37.3418177828644
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "239 Monroe",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982365808935,
+          37.3408195371919
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3036 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982408683214,
+          37.3407412053424
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3038 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982479465255,
+          37.3405868007403
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3046 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982254545711,
+          37.3404322360589
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3052 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982125505588,
+          37.3406982267418
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3062 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982162599924,
+          37.3406055381151
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3058 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982442595749,
+          37.3406627979498
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3042 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982510488268,
+          37.3405012131605
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3050 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982205538055,
+          37.3405224380601
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3056 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982461952757,
+          37.3409992262334
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3032 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982247266598,
+          37.3411929357055
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3022 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982584112167,
+          37.3410217398614
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "909 Pepper Tree Lane",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982402440121,
+          37.3412038103077
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3018 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982357679064,
+          37.3409792495927
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3030 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982241396723,
+          37.3409639413329
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3028 Via Siena",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982527554703,
+          37.3412287341188
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "915 Pepper Tree Ln",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.960219290388,
+          37.3268111798921
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "107 N. Cypress Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951972399307,
+          37.343445491916
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "653 N. Winchester",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978052363626,
+          37.3420733297204
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2843 Kaiser Dr.",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959145120351,
+          37.324040348883
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3456 Cecil",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978204567587,
+          37.3476671641084
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2831 Humboldt",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97798959994,
+          37.3400447002028
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "900 Kiely",
+        "permit_units": 793,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972783496561,
+          37.3529005457237
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2585 El Camino Real",
+        "permit_units": 60,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97113499968,
+          37.3240599999691
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "45 Buckingham Avenue",
+        "permit_units": 222,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.956275999738,
+          37.3389660002807
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "555 Saratoga Avenue",
+        "permit_units": 13,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974918399864,
+          37.3529071998075
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2611-2655 El Camino Real",
+        "permit_units": 186,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.993983000215,
+          37.3676863003825
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "3515-3585 Monroe Street",
+        "permit_units": 825,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980793,
+          37.369381
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2612 Painted Rock",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952295,
+          37.351158
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1740 Franck",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952295,
+          37.351158
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "90 Gilbert",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952295,
+          37.351158
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2328 Glendenning",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952295,
+          37.351158
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2235 Sherwin",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.971397,
+          37.335132
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "651 Wilson",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.973393,
+          37.361797
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2652 Elliot",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.966824,
+          37.395575
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "4455 Lakeshore",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.967376,
+          37.364746
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2300 Cimmaron Drive",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.953831,
+          37.332495
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "380 Crestview",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.960814,
+          37.341004
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "706 Malarin Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989469,
+          37.36658
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2419 Fordham Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976928,
+          37.356705
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2783 Crosby Ct.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.993945,
+          37.342564
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3550 Butcher Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989469,
+          37.36658
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2419 Fordham",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.932349,
+          37.342764
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1901 Morse St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.971259,
+          37.330182
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2682 Tuliptree Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991878,
+          37.362948
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2201 Nobili Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978728,
+          37.350575
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2866 Butte St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.942161,
+          37.393182
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "461 Greenwood Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.957657,
+          37.350846
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1853 Clifford St.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994817,
+          37.374417
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3560 Rambla",
+        "permit_units": 251,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.995079,
+          37.3751
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3578 Rambla",
+        "permit_units": 126,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992446,
+          37.374715
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2946 Feliz",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991594,
+          37.374711
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2912 Feliz",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99182,
+          37.375125
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2970 Feliz",
+        "permit_units": 8,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99227,
+          37.374253
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2930 Sanor (B1)",
+        "permit_units": 8,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99227,
+          37.374253
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2930 Sanor (B2)",
+        "permit_units": 8,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991677,
+          37.374438
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2910 Sanor (B1)",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991677,
+          37.374438
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2910 Sanor (B2)",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992933,
+          37.374269
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2940 Sanor (B1)",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.993258,
+          37.37427
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2950 Sanor (B1)",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.993258,
+          37.37427
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2950 Sanor (B2)",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99359,
+          37.374273
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2960 Sanor (B2)",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.957357,
+          37.351952
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1850 El Camino Real",
+        "permit_units": 56,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969587,
+          37.380166
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3355 Octavius (B6)",
+        "permit_units": 281,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969888,
+          37.379209
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3230 Scott (B7)",
+        "permit_units": 358,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991448,
+          37.37532
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2910 LAMORY PL",
+        "permit_units": 4,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991463,
+          37.376441
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3041 BOYTER PL",
+        "permit_units": 4,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992452,
+          37.37532
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2946 LAMORY PL",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991951,
+          37.37532
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2928 LAMORY PL",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992427,
+          37.375797
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3435 Copper",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992405,
+          37.376009
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3449 Copper",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992231,
+          37.376125
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2930 Boyter Pl U113",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992231,
+          37.376125
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2930 Boyter Pl U114",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991961,
+          37.375678
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2933 Lamory  Pl U113",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991961,
+          37.375678
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2933 Lamory  Pl U114",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.992483,
+          37.376438
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3073 Boyter Pl",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952295,
+          37.351158
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3059 Boyyer Pl",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991255,
+          37.375549
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3370 EICHERS PL B1",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991255,
+          37.375549
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3370 EICHERS PL B2",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991735,
+          37.375801
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3380 EICHERS PL B1",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991735,
+          37.375801
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3380 EICHERS PL B2",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991431,
+          37.376071
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3390 EICHERS PL B1",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991431,
+          37.376071
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3390 EICHERS PL B2",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.947279,
+          37.343602
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "528 MADISON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987355,
+          37.374233
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3303 Kifer Rd U113",
+        "permit_units": 7,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987355,
+          37.374233
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3305 Kifer",
+        "permit_units": 3,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987696,
+          37.374598
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2907 Corvin Dr U131",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987747,
+          37.374726
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2909 Corvin Dr U143",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98775,
+          37.374911
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2913 Corvin Dr",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987753,
+          37.375044
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2915 Corvin Dr U167",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987155,
+          37.374671
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2905 NOYCE PL U179",
+        "permit_units": 6,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987156,
+          37.375019
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2911 NOYCE PL U189",
+        "permit_units": 5,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.948559,
+          37.386068
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3550 MACINTOSH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.949907,
+          37.355018
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1669 JACKSON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.939705,
+          37.353513
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "588 EL CAMINO REAL",
+        "permit_units": 355,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.957552,
+          37.359539
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1751 CABRILLO AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952656,
+          37.353525
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1400 CIVIC CENTER DR U9",
+        "permit_units": 9,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952348,
+          37.353651
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1380 CIVIC CENTER DR U9",
+        "permit_units": 9,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952395,
+          37.35298
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1431 EL CAMINO REAL",
+        "permit_units": 9,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951877,
+          37.353163
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1379 EL CAMINO REAL",
+        "permit_units": 9,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.985908,
+          37.3333
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "622 HICKORY PL",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959707,
+          37.392831
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4192 Davis",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.950173,
+          37.349288
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1134 MADISON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.002877,
+          37.32979
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3866 SULLIVAN DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.95072,
+          37.345822
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "877 N WINCHESTER BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976932,
+          37.358354
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1943 BOWERS AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989135,
+          37.337089
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "795 PURDUE CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.961486,
+          37.393344
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4270 CHEENEY ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.957553,
+          37.342481
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "777 CATALA CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.946394,
+          37.35074
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1143 MAIN ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97918,
+          37.356242
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2896 TAPER AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.973168,
+          37.32463
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "218 SERENA WAY",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.937812,
+          37.344919
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "757 POPLAR ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959944,
+          37.325545
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "185 N CYPRESS AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981445,
+          37.338158
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "806 CHRISTOPHER CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974421,
+          37.359528
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2632 DAY CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.956295,
+          37.323874
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3332 CECIL AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.947576,
+          37.345954
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "757 MADISON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959132,
+          37.337857
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2190 FORBES AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959351,
+          37.406331
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4929 AVENIDA DE CARMEN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97966,
+          37.332135
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "527 BANCROFT ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.962786,
+          37.340282
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "721 LOS PADRES BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.980714,
+          37.347927
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3030 ORTHELLO WAY",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.957614,
+          37.351262
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1860 CLAY ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.956472,
+          37.350405
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1814 CLIFFORD ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986319,
+          37.347317
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1167 POMEROY AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951707,
+          37.352106
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1430 MADISON ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951776,
+          37.352226
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1448 MADISON ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951734,
+          37.351936
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1435 LEWIS ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969777,
+          37.36347
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2458 FRANCISCAN CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96675,
+          37.349164
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2358 HARRISON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952038,
+          37.353565
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1340 CIVIC CENTER DR U9",
+        "permit_units": 9,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951372,
+          37.348684
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1515 BENTON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.95179,
+          37.353658
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1360 CIVIC CENTER DR U9",
+        "permit_units": 9,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.983398,
+          37.335395
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3008 RYAN AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.945101,
+          37.34229
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "314 MONROE ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968609,
+          37.338773
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2529 MALONE PL",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952295,
+          37.351158
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1160 ECR U212",
+        "permit_units": 12,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.946174,
+          37.344494
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "590 MONROE ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999837,
+          37.14457
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "159 BEL ARYE DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96343,
+          37.340008
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2307 SERRA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969704,
+          37.346532
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2457 BENTON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.953151,
+          37.338086
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2663 NEWHALL ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.959732,
+          37.324839
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "220 N Cypress Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94906,
+          37.391597
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "825 Clyde Avenue",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.95873,
+          37.33732
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "535 Robyn Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.971369,
+          37.363887
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2522 Monroe St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.998374,
+          37.331521
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3707 Pruneridge Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952726,
+          37.348111
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1643 Benton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.958207,
+          37.326056
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "144 Tyler Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.933283,
+          37.344167
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "531 Chapman Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988296,
+          37.374158
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3311 Kifer Rd",
+        "permit_units": 145,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968415,
+          37.338944
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2523 Brannan Pl",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.969731,
+          37.337289
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2646 Toledo Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    }
+  ]
+}

@@ -1,1 +1,3637 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06512583389, 37.9260370296852]}, "properties": {"permit_year": 2017, "permit_address": "1547 GEARY RD", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055922711664, 37.9165148387888]}, "properties": {"permit_year": 2017, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.05614731105, 37.9165368829708]}, "properties": {"permit_year": 2017, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.05614731105, 37.9165368829708]}, "properties": {"permit_year": 2017, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.05614731105, 37.9165368829708]}, "properties": {"permit_year": 2017, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066410543312, 37.9101951750673]}, "properties": {"permit_year": 2017, "permit_address": "1605 RIVIERA AV", "permit_units": 48, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055060588276, 37.8996239897554]}, "properties": {"permit_year": 2017, "permit_address": "1247 WALKER AVE", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054980000027, 37.8995699998557]}, "properties": {"permit_year": 2017, "permit_address": "1251 WALKER AVE", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055228790276, 37.899856486088]}, "properties": {"permit_year": 2017, "permit_address": "1255 WALKER AVE", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054786717733, 37.8983980348415]}, "properties": {"permit_year": 2017, "permit_address": "320 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054610000051, 37.89860000009]}, "properties": {"permit_year": 2017, "permit_address": "350 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054570000005, 37.8984799999521]}, "properties": {"permit_year": 2017, "permit_address": "325 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054751000258, 37.8985635002054]}, "properties": {"permit_year": 2017, "permit_address": "330 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054751000258, 37.8985635002054]}, "properties": {"permit_year": 2017, "permit_address": "340 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068645528568, 37.8755254792176]}, "properties": {"permit_year": 2017, "permit_address": "20 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "40 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "201 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "203 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "205 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "207 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "208 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "206 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "204 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "202 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "401 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "403 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "405 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "407 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "406 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "404 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "402 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "601 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "603 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "605 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "606 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "604 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "602 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "701 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "703 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "705 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "707 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "709 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "711 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067780000347, 37.8748399997662]}, "properties": {"permit_year": 2017, "permit_address": "10 CHIVES WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004841973079, 37.9111866983075]}, "properties": {"permit_year": 2017, "permit_address": "66 ORCHARD ESTATES DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035821241557, 37.9286654782293]}, "properties": {"permit_year": 2017, "permit_address": "40 AMBERWOOD LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075203668215, 37.9172195160679]}, "properties": {"permit_year": 2017, "permit_address": "1850 SAN LUIS RD", "permit_units": 3, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.009656958602, 37.9297581796963]}, "properties": {"permit_year": 2017, "permit_address": "137 ROCK OAK CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.039627917994, 37.8964455212439]}, "properties": {"permit_year": 2017, "permit_address": "416 NOB HILL DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.053535322797, 37.9106853766289]}, "properties": {"permit_year": 2017, "permit_address": "1345 Homestead Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.048316334831, 37.9063614686069]}, "properties": {"permit_year": 2017, "permit_address": "117 Lakewood Road", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.009991581047, 37.9197655201627]}, "properties": {"permit_year": 2017, "permit_address": "3135 Kirby Lane", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071653645699, 37.9069492484091]}, "properties": {"permit_year": 2017, "permit_address": "2256 Overlook Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06871569997, 37.8757363000902]}, "properties": {"permit_year": 2016, "permit_address": "205 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068378329196, 37.8751413338056]}, "properties": {"permit_year": 2016, "permit_address": "207 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067875414819, 37.8743863844242]}, "properties": {"permit_year": 2016, "permit_address": "208 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067585401445, 37.8758167183669]}, "properties": {"permit_year": 2016, "permit_address": "206 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06871569997, 37.8757363000902]}, "properties": {"permit_year": 2016, "permit_address": "204 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06785932235, 37.8747516764487]}, "properties": {"permit_year": 2016, "permit_address": "202 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067407369854, 37.875230746202]}, "properties": {"permit_year": 2016, "permit_address": "110 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067860663239, 37.8751289438457]}, "properties": {"permit_year": 2016, "permit_address": "108 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.0689147712, 37.8758527110338]}, "properties": {"permit_year": 2016, "permit_address": "106 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067328914798, 37.8757574368563]}, "properties": {"permit_year": 2016, "permit_address": "301 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068737745051, 37.8748830341248]}, "properties": {"permit_year": 2016, "permit_address": "303 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067426145001, 37.8749571373621]}, "properties": {"permit_year": 2016, "permit_address": "305 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06871569997, 37.8757363000902]}, "properties": {"permit_year": 2016, "permit_address": "307 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.0679143069, 37.8750181590609]}, "properties": {"permit_year": 2016, "permit_address": "306 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067970634137, 37.8754885539536]}, "properties": {"permit_year": 2016, "permit_address": "304 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06871569997, 37.8757363000902]}, "properties": {"permit_year": 2016, "permit_address": "302 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067269905781, 37.8757277970003]}, "properties": {"permit_year": 2016, "permit_address": "501 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067206204103, 37.8750151652177]}, "properties": {"permit_year": 2016, "permit_address": "503 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067355737078, 37.8757595538603]}, "properties": {"permit_year": 2016, "permit_address": "505 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067241072617, 37.8754970228694]}, "properties": {"permit_year": 2016, "permit_address": "506 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.049957799912, 37.8919428001202]}, "properties": {"permit_year": 2016, "permit_address": "1990 SAN MIGUEL DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055923000346, 37.9165148999427]}, "properties": {"permit_year": 2016, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066397999568, 37.9260279995926]}, "properties": {"permit_year": 2016, "permit_address": "1579 GEARY RD", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.047050299831, 37.8988212000384]}, "properties": {"permit_year": 2016, "permit_address": "21 ECKLEY LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055923000346, 37.9165148999427]}, "properties": {"permit_year": 2016, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055923000346, 37.9165148999427]}, "properties": {"permit_year": 2016, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055923000346, 37.9165148999427]}, "properties": {"permit_year": 2016, "permit_address": "2480 WESTCLIFFE LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06764709224, 37.8758590620461]}, "properties": {"permit_year": 2016, "permit_address": "10 CHIVES WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068925500112, 37.8760559596149]}, "properties": {"permit_year": 2016, "permit_address": "102 CHIVES WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068619727918, 37.8752768346582]}, "properties": {"permit_year": 2016, "permit_address": "502 CHIVES WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054565599623, 37.8984769998137]}, "properties": {"permit_year": 2016, "permit_address": "305 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054606999913, 37.8986006997625]}, "properties": {"permit_year": 2016, "permit_address": "310 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054606999913, 37.8986006997625]}, "properties": {"permit_year": 2016, "permit_address": "330 Stoneyridge LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06741410038, 37.9036402001352]}, "properties": {"permit_year": 2016, "permit_address": "1800 LACASSIE AV", "permit_units": 178, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067959200157, 37.90890139958]}, "properties": {"permit_year": 2016, "permit_address": "1738 RIVIERA AV", "permit_units": 28, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066280999568, 37.9113380002486]}, "properties": {"permit_year": 2016, "permit_address": "1515 RIVIERA AV", "permit_units": 30, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068848500158, 37.9015990997187]}, "properties": {"permit_year": 2016, "permit_address": "1950 TRINITY AVE", "permit_units": 12, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01418960017, 37.9049918002315]}, "properties": {"permit_year": 2016, "permit_address": "1200 SNYDER LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.044017099709, 37.8937285002701]}, "properties": {"permit_year": 2016, "permit_address": "291 SHADY GLEN RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.050511699555, 37.8992681001428]}, "properties": {"permit_year": 2016, "permit_address": "900 HOMESTEAD AV", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069731500408, 37.9283883998049]}, "properties": {"permit_year": 2016, "permit_address": "1779 SUNNYVALE AV", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070889900049, 37.9248644000721]}, "properties": {"permit_year": 2016, "permit_address": "1766 FIRST AV", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.036718600383, 37.8772040997894]}, "properties": {"permit_year": 2016, "permit_address": "2137 YOUNGS CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054834999635, 37.9115199996483]}, "properties": {"permit_year": 2016, "permit_address": "2348 WALNUT BL", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.043926100009, 37.9016167003505]}, "properties": {"permit_year": 2016, "permit_address": "27 PASEO CIMA", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.009573399892, 37.9297394998781]}, "properties": {"permit_year": 2016, "permit_address": "137 ROCK OAK CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.042666600383, 37.8788430000045]}, "properties": {"permit_year": 2016, "permit_address": "137 RUDGEAR DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011443999641, 37.9186420996533]}, "properties": {"permit_year": 2016, "permit_address": "2868 BRIAN RANCH CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.010930500242, 37.9187277996483]}, "properties": {"permit_year": 2016, "permit_address": "2888 BRIAN RANCH CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011474900346, 37.9183006999174]}, "properties": {"permit_year": 2016, "permit_address": "2863 BRIAN RANCH CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.050545600399, 37.9084827004164]}, "properties": {"permit_year": 2016, "permit_address": "81 CRAGMONT CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994669000374, 37.9144200002829]}, "properties": {"permit_year": 2016, "permit_address": "794 WINDCHIME CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054797200231, 37.8974880000712]}, "properties": {"permit_year": 2016, "permit_address": "1749 SAN MIGUEL DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.05459610013, 37.8976106001491]}, "properties": {"permit_year": 2016, "permit_address": "1747 SAN MIGUEL DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054624900019, 37.8976621996508]}, "properties": {"permit_year": 2016, "permit_address": "1745 SAN MIGUEL DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.033915999923, 37.9289811996227]}, "properties": {"permit_year": 2016, "permit_address": "898 AMBERWOOD CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.033656200173, 37.9286736998315]}, "properties": {"permit_year": 2016, "permit_address": "888 AMBERWOOD CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034426300433, 37.9287843002553]}, "properties": {"permit_year": 2016, "permit_address": "899 AMBERWOOD CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034245700379, 37.9285834996289]}, "properties": {"permit_year": 2016, "permit_address": "893 AMBERWOOD CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034038799651, 37.928362600054]}, "properties": {"permit_year": 2016, "permit_address": "887 AMBERWOOD CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054320099993, 37.9062312000099]}, "properties": {"permit_year": 2016, "permit_address": "2581 WALNUT BL", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07145719959, 37.9053474002624]}, "properties": {"permit_year": 2016, "permit_address": "32 CROWLEY PL", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071658400415, 37.905279200175]}, "properties": {"permit_year": 2016, "permit_address": "34 CROWLEY PL", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071919999708, 37.9051880997511]}, "properties": {"permit_year": 2016, "permit_address": "36 CROWLEY PL", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071899200188, 37.9050754003096]}, "properties": {"permit_year": 2016, "permit_address": "38 CROWLEY PL", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.088238000383, 37.9168619995817]}, "properties": {"permit_year": 2016, "permit_address": "1498 QUAIL VIEW CR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.001981600171, 37.9132010996511]}, "properties": {"permit_year": 2016, "permit_address": "808 TRAILS END DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.053507799945, 37.8917908003052]}, "properties": {"permit_year": 2016, "permit_address": "158 ANDREA DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067761421253, 37.8754419762662]}, "properties": {"permit_year": 2016, "permit_address": "20 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069070338625, 37.8753657569242]}, "properties": {"permit_year": 2016, "permit_address": "101 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067688330652, 37.8758463591222]}, "properties": {"permit_year": 2016, "permit_address": "103 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068893313376, 37.8756494606541]}, "properties": {"permit_year": 2016, "permit_address": "105 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06871569997, 37.8757363000902]}, "properties": {"permit_year": 2016, "permit_address": "107 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068153023843, 37.8754927888612]}, "properties": {"permit_year": 2016, "permit_address": "201 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068005501752, 37.8745061516377]}, "properties": {"permit_year": 2016, "permit_address": "203 CHIVES WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06568698027, 37.8983866880952]}, "properties": {"permit_year": 2015, "permit_address": "1874 BONANZA ST", "permit_units": 15, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.072614669331, 37.9289158926544]}, "properties": {"permit_year": 2015, "permit_address": "1872 SUNNYVALE AV", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.051252180644, 37.9080263322495]}, "properties": {"permit_year": 2015, "permit_address": "1279 HOMESTEAD AV", "permit_units": 12, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.063286456805, 37.8996826111636]}, "properties": {"permit_year": 2015, "permit_address": "1500 N CALIFORNIA BL", "permit_units": 89, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.063229133118, 37.899694078419]}, "properties": {"permit_year": 2015, "permit_address": "1500 N CALIFORNIA BL", "permit_units": 51, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066684882401, 37.9260755242661]}, "properties": {"permit_year": 2015, "permit_address": "1579 GEARY RD", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066685877052, 37.925996838983]}, "properties": {"permit_year": 2015, "permit_address": "1579 GEARY RD", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.0665503753, 37.9259993408969]}, "properties": {"permit_year": 2015, "permit_address": "1579 GEARY RD", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066544864254, 37.9260779902071]}, "properties": {"permit_year": 2015, "permit_address": "1579 GEARY RD", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.044072116635, 37.8936648930205]}, "properties": {"permit_year": 2015, "permit_address": "291 SHADY GLEN RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034495665143, 37.92876889307]}, "properties": {"permit_year": 2015, "permit_address": "67 AMBERWOOD LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038422169048, 37.8961960879791]}, "properties": {"permit_year": 2015, "permit_address": "31 HANSON LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054411623098, 37.9061955059179]}, "properties": {"permit_year": 2015, "permit_address": "2581 WALNUT BL", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.088793563772, 37.9171482636815]}, "properties": {"permit_year": 2015, "permit_address": "920 CAMINO VERDE CR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.089131507413, 37.9172045342619]}, "properties": {"permit_year": 2015, "permit_address": "940 CAMINO VERDE CR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070106478131, 37.9261262694118]}, "properties": {"permit_year": 2015, "permit_address": "1773 GEARY RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071410327824, 37.9053124301246]}, "properties": {"permit_year": 2015, "permit_address": "2155 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071881427786, 37.9051849916941]}, "properties": {"permit_year": 2015, "permit_address": "2155 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07181946, 37.9050867326666]}, "properties": {"permit_year": 2015, "permit_address": "2155 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071609900876, 37.9052376973619]}, "properties": {"permit_year": 2015, "permit_address": "2155 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.036688012642, 37.8772156902519]}, "properties": {"permit_year": 2015, "permit_address": "2137 YOUNGS CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071007239093, 37.9222370316137]}, "properties": {"permit_year": 2015, "permit_address": "20 SHELDON LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.089501933667, 37.9171895146844]}, "properties": {"permit_year": 2015, "permit_address": "960 CAMINO VERDE CR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.08984514104, 37.9171850171749]}, "properties": {"permit_year": 2015, "permit_address": "980 CAMINO VERDE CR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.088257051622, 37.9168749237388]}, "properties": {"permit_year": 2015, "permit_address": "1498 QUAIL VIEW CR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071013504669, 37.9055537461085]}, "properties": {"permit_year": 2015, "permit_address": "2162 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070864386282, 37.9055650865595]}, "properties": {"permit_year": 2015, "permit_address": "2166 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07071016784, 37.9056228895847]}, "properties": {"permit_year": 2015, "permit_address": "2170 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070704342032, 37.9055477278454]}, "properties": {"permit_year": 2015, "permit_address": "2174 OVERLOOK DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070902137124, 37.9234472214122]}, "properties": {"permit_year": 2015, "permit_address": "1745 FIRST AV", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070900406828, 37.9231062065862]}, "properties": {"permit_year": 2015, "permit_address": "1747 FIRST AV", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.052511, 37.896109]}, "properties": {"permit_year": 2018, "permit_address": "48 ANALISA LN", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.05246, 37.896004]}, "properties": {"permit_year": 2018, "permit_address": "44 ANALISA LN", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068805, 37.876071]}, "properties": {"permit_year": 2018, "permit_address": "101 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068825, 37.875956]}, "properties": {"permit_year": 2018, "permit_address": "103 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068835, 37.875844]}, "properties": {"permit_year": 2018, "permit_address": "105 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068848, 37.875725]}, "properties": {"permit_year": 2018, "permit_address": "107 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068578, 37.875668]}, "properties": {"permit_year": 2018, "permit_address": "110 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068573, 37.875772]}, "properties": {"permit_year": 2018, "permit_address": "108 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068558, 37.875859]}, "properties": {"permit_year": 2018, "permit_address": "106 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068266, 37.875976]}, "properties": {"permit_year": 2018, "permit_address": "301 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068266, 37.875872]}, "properties": {"permit_year": 2018, "permit_address": "303 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068284, 37.875755]}, "properties": {"permit_year": 2018, "permit_address": "305 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068283, 37.875651]}, "properties": {"permit_year": 2018, "permit_address": "307 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067825, 37.875598]}, "properties": {"permit_year": 2018, "permit_address": "306 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067797, 37.875706]}, "properties": {"permit_year": 2018, "permit_address": "304 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067743, 37.875798]}, "properties": {"permit_year": 2018, "permit_address": "302 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067541, 37.875504]}, "properties": {"permit_year": 2018, "permit_address": "505 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067282, 37.875483]}, "properties": {"permit_year": 2018, "permit_address": "506 CHIVES WAY", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.053509, 37.914246]}, "properties": {"permit_year": 2018, "permit_address": "2248 WALNUT BLVD", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068533, 37.876034]}, "properties": {"permit_year": 2018, "permit_address": "102 CHIVES WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067199, 37.875639]}, "properties": {"permit_year": 2018, "permit_address": "502 CHIVES WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.053196, 37.895763]}, "properties": {"permit_year": 2018, "permit_address": "10 ANALISA LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.052941, 37.895832]}, "properties": {"permit_year": 2018, "permit_address": "22 ANALISA LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.052724, 37.895912]}, "properties": {"permit_year": 2018, "permit_address": "30 ANALISA LN", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068789, 37.901583]}, "properties": {"permit_year": 2018, "permit_address": "1950 TRINITY AVE", "permit_units": 12, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076086, 37.922142]}, "properties": {"permit_year": 2018, "permit_address": "1906 2ND AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.08042, 37.918847]}, "properties": {"permit_year": 2018, "permit_address": "91 ADAK CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.033382, 37.879132]}, "properties": {"permit_year": 2018, "permit_address": "2100 ALICE AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.015867, 37.931512]}, "properties": {"permit_year": 2018, "permit_address": "544 BANYAN CIR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.04541, 37.891953]}, "properties": {"permit_year": 2018, "permit_address": "876 BRONSON LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.073444, 37.919046]}, "properties": {"permit_year": 2018, "permit_address": "2646 BUENA VISTA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.049469, 37.904773]}, "properties": {"permit_year": 2018, "permit_address": "10 EL CAMINITO", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011404, 37.90642]}, "properties": {"permit_year": 2018, "permit_address": "2834 COMISTAS DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.039926, 37.906924]}, "properties": {"permit_year": 2018, "permit_address": "1465 CORTEZ CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06875, 37.926936]}, "properties": {"permit_year": 2018, "permit_address": "1692 GEARY RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.060443, 37.883149]}, "properties": {"permit_year": 2018, "permit_address": "101 GLEN CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055824, 37.904139]}, "properties": {"permit_year": 2018, "permit_address": "120 GREENWAY DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00682, 37.904749]}, "properties": {"permit_year": 2018, "permit_address": "1140 HANNA GROVE TRL", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068339, 37.922234]}, "properties": {"permit_year": 2018, "permit_address": "10 JOLIE LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018687, 37.934467]}, "properties": {"permit_year": 2018, "permit_address": "719 MANDARIN LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066704, 37.932671]}, "properties": {"permit_year": 2018, "permit_address": "3165 MANOR AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.05523, 37.897813]}, "properties": {"permit_year": 2018, "permit_address": "130 MARGARIDO DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.043519, 37.9016]}, "properties": {"permit_year": 2018, "permit_address": "27 PASEO CIMA", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.073363, 37.927561]}, "properties": {"permit_year": 2018, "permit_address": "2934 PUTNAM BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.074777, 37.921537]}, "properties": {"permit_year": 2018, "permit_address": "1881 SECOND AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.043538, 37.8915]}, "properties": {"permit_year": 2018, "permit_address": "351 SHADY GLEN RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.03458, 37.878174]}, "properties": {"permit_year": 2018, "permit_address": "2116 STEWART AVE", "permit_units": 1, "permit_category": "SFR"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.063233, 37.931512]}, "properties": {"permit_year": 2018, "permit_address": "65 SUN VALLEY DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067561, 37.901802]}, "properties": {"permit_year": 2018, "permit_address": "1860 Trinity Avenue", "permit_units": 45, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.061988, 37.902611]}, "properties": {"permit_year": 2018, "permit_address": "1716 N. Main Street", "permit_units": 48, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067689, 37.905878]}, "properties": {"permit_year": 2019, "permit_address": "200 YGNACIO VALLEY RD", "permit_units": 358, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069905, 37.929709]}, "properties": {"permit_year": 2019, "permit_address": "40 CARISA CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.053852, 37.8969]}, "properties": {"permit_year": 2019, "permit_address": "1790 SAN MIGUEL DR", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.053999, 37.896819]}, "properties": {"permit_year": 2019, "permit_address": "1794 SAN MIGUEL DR", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.013124, 37.935867]}, "properties": {"permit_year": 2019, "permit_address": "606 JOSHUA CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.059725, 37.885923]}, "properties": {"permit_year": 2019, "permit_address": "21 ANDERSON CIR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000818, 37.915558]}, "properties": {"permit_year": 2019, "permit_address": "708 BAYSWATER CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071276, 37.910586]}, "properties": {"permit_year": 2019, "permit_address": "724 ORINDA LN", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077858, 37.925781]}, "properties": {"permit_year": 2019, "permit_address": "2874 LARKEY LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070714, 37.905404]}, "properties": {"permit_year": 2019, "permit_address": "2158 OVERLOOK DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070778, 37.920456]}, "properties": {"permit_year": 2019, "permit_address": "760 PAGOSA CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.019358, 37.919471]}, "properties": {"permit_year": 2019, "permit_address": "3042 EBANO DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.074003, 37.910121]}, "properties": {"permit_year": 2019, "permit_address": "15 OVERLOOK CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071045, 37.880539]}, "properties": {"permit_year": 2019, "permit_address": "1936 BASALT CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.014207, 37.919341]}, "properties": {"permit_year": 2019, "permit_address": "3054 NARANJA DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075775, 37.921973]}, "properties": {"permit_year": 2019, "permit_address": "1900 2ND AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071511, 37.915241]}, "properties": {"permit_year": 2019, "permit_address": "2547 CLARK LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.050822, 37.91293]}, "properties": {"permit_year": 2019, "permit_address": "373 ENDICOTT CT", "permit_units": 1, "permit_category": "ADU"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06512583389,
+          37.9260370296852
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1547 GEARY RD",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055922711664,
+          37.9165148387888
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05614731105,
+          37.9165368829708
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05614731105,
+          37.9165368829708
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05614731105,
+          37.9165368829708
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066410543312,
+          37.9101951750673
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1605 RIVIERA AV",
+        "permit_units": 48,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055060588276,
+          37.8996239897554
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1247 WALKER AVE",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054980000027,
+          37.8995699998557
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1251 WALKER AVE",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055228790276,
+          37.899856486088
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1255 WALKER AVE",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054786717733,
+          37.8983980348415
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "320 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054610000051,
+          37.89860000009
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "350 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054570000005,
+          37.8984799999521
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "325 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054751000258,
+          37.8985635002054
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "330 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054751000258,
+          37.8985635002054
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "340 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068645528568,
+          37.8755254792176
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "40 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "201 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "203 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "205 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "207 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "208 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "206 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "204 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "202 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "401 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "403 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "405 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "407 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "406 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "404 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "402 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "601 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "603 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "605 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "606 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "604 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "602 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "701 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "703 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "705 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "707 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "709 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "711 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067780000347,
+          37.8748399997662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "10 CHIVES WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004841973079,
+          37.9111866983075
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "66 ORCHARD ESTATES DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035821241557,
+          37.9286654782293
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "40 AMBERWOOD LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075203668215,
+          37.9172195160679
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1850 SAN LUIS RD",
+        "permit_units": 3,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.009656958602,
+          37.9297581796963
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "137 ROCK OAK CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.039627917994,
+          37.8964455212439
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "416 NOB HILL DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053535322797,
+          37.9106853766289
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1345 Homestead Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.048316334831,
+          37.9063614686069
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "117 Lakewood Road",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.009991581047,
+          37.9197655201627
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3135 Kirby Lane",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071653645699,
+          37.9069492484091
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2256 Overlook Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06871569997,
+          37.8757363000902
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "205 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068378329196,
+          37.8751413338056
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "207 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067875414819,
+          37.8743863844242
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "208 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067585401445,
+          37.8758167183669
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "206 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06871569997,
+          37.8757363000902
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "204 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06785932235,
+          37.8747516764487
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "202 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067407369854,
+          37.875230746202
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "110 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067860663239,
+          37.8751289438457
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "108 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0689147712,
+          37.8758527110338
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "106 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067328914798,
+          37.8757574368563
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "301 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068737745051,
+          37.8748830341248
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "303 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067426145001,
+          37.8749571373621
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "305 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06871569997,
+          37.8757363000902
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "307 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0679143069,
+          37.8750181590609
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "306 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067970634137,
+          37.8754885539536
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "304 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06871569997,
+          37.8757363000902
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "302 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067269905781,
+          37.8757277970003
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "501 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067206204103,
+          37.8750151652177
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "503 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067355737078,
+          37.8757595538603
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "505 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067241072617,
+          37.8754970228694
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "506 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.049957799912,
+          37.8919428001202
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1990 SAN MIGUEL DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055923000346,
+          37.9165148999427
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066397999568,
+          37.9260279995926
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1579 GEARY RD",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.047050299831,
+          37.8988212000384
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "21 ECKLEY LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055923000346,
+          37.9165148999427
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055923000346,
+          37.9165148999427
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055923000346,
+          37.9165148999427
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2480 WESTCLIFFE LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06764709224,
+          37.8758590620461
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10 CHIVES WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068925500112,
+          37.8760559596149
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "102 CHIVES WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068619727918,
+          37.8752768346582
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "502 CHIVES WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054565599623,
+          37.8984769998137
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "305 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054606999913,
+          37.8986006997625
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "310 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054606999913,
+          37.8986006997625
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "330 Stoneyridge LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06741410038,
+          37.9036402001352
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1800 LACASSIE AV",
+        "permit_units": 178,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067959200157,
+          37.90890139958
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1738 RIVIERA AV",
+        "permit_units": 28,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066280999568,
+          37.9113380002486
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1515 RIVIERA AV",
+        "permit_units": 30,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068848500158,
+          37.9015990997187
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1950 TRINITY AVE",
+        "permit_units": 12,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01418960017,
+          37.9049918002315
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1200 SNYDER LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.044017099709,
+          37.8937285002701
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "291 SHADY GLEN RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.050511699555,
+          37.8992681001428
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "900 HOMESTEAD AV",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069731500408,
+          37.9283883998049
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1779 SUNNYVALE AV",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070889900049,
+          37.9248644000721
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1766 FIRST AV",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036718600383,
+          37.8772040997894
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2137 YOUNGS CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054834999635,
+          37.9115199996483
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2348 WALNUT BL",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.043926100009,
+          37.9016167003505
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "27 PASEO CIMA",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.009573399892,
+          37.9297394998781
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "137 ROCK OAK CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.042666600383,
+          37.8788430000045
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "137 RUDGEAR DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011443999641,
+          37.9186420996533
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2868 BRIAN RANCH CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.010930500242,
+          37.9187277996483
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2888 BRIAN RANCH CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011474900346,
+          37.9183006999174
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2863 BRIAN RANCH CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.050545600399,
+          37.9084827004164
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "81 CRAGMONT CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994669000374,
+          37.9144200002829
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "794 WINDCHIME CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054797200231,
+          37.8974880000712
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1749 SAN MIGUEL DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05459610013,
+          37.8976106001491
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1747 SAN MIGUEL DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054624900019,
+          37.8976621996508
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1745 SAN MIGUEL DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.033915999923,
+          37.9289811996227
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "898 AMBERWOOD CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.033656200173,
+          37.9286736998315
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "888 AMBERWOOD CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034426300433,
+          37.9287843002553
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "899 AMBERWOOD CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034245700379,
+          37.9285834996289
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "893 AMBERWOOD CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034038799651,
+          37.928362600054
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "887 AMBERWOOD CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054320099993,
+          37.9062312000099
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2581 WALNUT BL",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07145719959,
+          37.9053474002624
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "32 CROWLEY PL",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071658400415,
+          37.905279200175
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "34 CROWLEY PL",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071919999708,
+          37.9051880997511
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "36 CROWLEY PL",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071899200188,
+          37.9050754003096
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "38 CROWLEY PL",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.088238000383,
+          37.9168619995817
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1498 QUAIL VIEW CR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.001981600171,
+          37.9132010996511
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "808 TRAILS END DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053507799945,
+          37.8917908003052
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "158 ANDREA DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067761421253,
+          37.8754419762662
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "20 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069070338625,
+          37.8753657569242
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "101 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067688330652,
+          37.8758463591222
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "103 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068893313376,
+          37.8756494606541
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "105 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06871569997,
+          37.8757363000902
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "107 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068153023843,
+          37.8754927888612
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "201 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068005501752,
+          37.8745061516377
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "203 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06568698027,
+          37.8983866880952
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1874 BONANZA ST",
+        "permit_units": 15,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.072614669331,
+          37.9289158926544
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1872 SUNNYVALE AV",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.051252180644,
+          37.9080263322495
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1279 HOMESTEAD AV",
+        "permit_units": 12,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.063286456805,
+          37.8996826111636
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1500 N CALIFORNIA BL",
+        "permit_units": 89,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.063229133118,
+          37.899694078419
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1500 N CALIFORNIA BL",
+        "permit_units": 51,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066684882401,
+          37.9260755242661
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1579 GEARY RD",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066685877052,
+          37.925996838983
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1579 GEARY RD",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0665503753,
+          37.9259993408969
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1579 GEARY RD",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066544864254,
+          37.9260779902071
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1579 GEARY RD",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.044072116635,
+          37.8936648930205
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "291 SHADY GLEN RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034495665143,
+          37.92876889307
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "67 AMBERWOOD LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038422169048,
+          37.8961960879791
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "31 HANSON LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054411623098,
+          37.9061955059179
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2581 WALNUT BL",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.088793563772,
+          37.9171482636815
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "920 CAMINO VERDE CR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.089131507413,
+          37.9172045342619
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "940 CAMINO VERDE CR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070106478131,
+          37.9261262694118
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1773 GEARY RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071410327824,
+          37.9053124301246
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2155 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071881427786,
+          37.9051849916941
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2155 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07181946,
+          37.9050867326666
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2155 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071609900876,
+          37.9052376973619
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2155 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036688012642,
+          37.8772156902519
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2137 YOUNGS CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071007239093,
+          37.9222370316137
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "20 SHELDON LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.089501933667,
+          37.9171895146844
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "960 CAMINO VERDE CR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.08984514104,
+          37.9171850171749
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "980 CAMINO VERDE CR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.088257051622,
+          37.9168749237388
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1498 QUAIL VIEW CR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071013504669,
+          37.9055537461085
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2162 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070864386282,
+          37.9055650865595
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2166 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07071016784,
+          37.9056228895847
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2170 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070704342032,
+          37.9055477278454
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2174 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070902137124,
+          37.9234472214122
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1745 FIRST AV",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070900406828,
+          37.9231062065862
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1747 FIRST AV",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.052511,
+          37.896109
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "48 ANALISA LN",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05246,
+          37.896004
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "44 ANALISA LN",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068805,
+          37.876071
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "101 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068825,
+          37.875956
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "103 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068835,
+          37.875844
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "105 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068848,
+          37.875725
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "107 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068578,
+          37.875668
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "110 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068573,
+          37.875772
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "108 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068558,
+          37.875859
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "106 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068266,
+          37.875976
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "301 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068266,
+          37.875872
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "303 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068284,
+          37.875755
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "305 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068283,
+          37.875651
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "307 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067825,
+          37.875598
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "306 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067797,
+          37.875706
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "304 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067743,
+          37.875798
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "302 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067541,
+          37.875504
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "505 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067282,
+          37.875483
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "506 CHIVES WAY",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053509,
+          37.914246
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2248 WALNUT BLVD",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068533,
+          37.876034
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "102 CHIVES WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067199,
+          37.875639
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "502 CHIVES WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053196,
+          37.895763
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10 ANALISA LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.052941,
+          37.895832
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "22 ANALISA LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.052724,
+          37.895912
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "30 ANALISA LN",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068789,
+          37.901583
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1950 TRINITY AVE",
+        "permit_units": 12,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076086,
+          37.922142
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1906 2ND AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.08042,
+          37.918847
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "91 ADAK CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.033382,
+          37.879132
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2100 ALICE AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.015867,
+          37.931512
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "544 BANYAN CIR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.04541,
+          37.891953
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "876 BRONSON LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.073444,
+          37.919046
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2646 BUENA VISTA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.049469,
+          37.904773
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10 EL CAMINITO",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011404,
+          37.90642
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2834 COMISTAS DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.039926,
+          37.906924
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1465 CORTEZ CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06875,
+          37.926936
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1692 GEARY RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.060443,
+          37.883149
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "101 GLEN CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055824,
+          37.904139
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "120 GREENWAY DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00682,
+          37.904749
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1140 HANNA GROVE TRL",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068339,
+          37.922234
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10 JOLIE LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018687,
+          37.934467
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "719 MANDARIN LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066704,
+          37.932671
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3165 MANOR AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05523,
+          37.897813
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "130 MARGARIDO DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.043519,
+          37.9016
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27 PASEO CIMA",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.073363,
+          37.927561
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2934 PUTNAM BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.074777,
+          37.921537
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1881 SECOND AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.043538,
+          37.8915
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "351 SHADY GLEN RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.03458,
+          37.878174
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2116 STEWART AVE",
+        "permit_units": 1,
+        "permit_category": "SFR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.063233,
+          37.931512
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "65 SUN VALLEY DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067561,
+          37.901802
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1860 Trinity Avenue",
+        "permit_units": 45,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.061988,
+          37.902611
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1716 N. Main Street",
+        "permit_units": 48,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067689,
+          37.905878
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "200 YGNACIO VALLEY RD",
+        "permit_units": 358,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069905,
+          37.929709
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "40 CARISA CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053852,
+          37.8969
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1790 SAN MIGUEL DR",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053999,
+          37.896819
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1794 SAN MIGUEL DR",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.013124,
+          37.935867
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "606 JOSHUA CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.059725,
+          37.885923
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "21 ANDERSON CIR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000818,
+          37.915558
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "708 BAYSWATER CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071276,
+          37.910586
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "724 ORINDA LN",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077858,
+          37.925781
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2874 LARKEY LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070714,
+          37.905404
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2158 OVERLOOK DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070778,
+          37.920456
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "760 PAGOSA CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.019358,
+          37.919471
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3042 EBANO DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.074003,
+          37.910121
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "15 OVERLOOK CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071045,
+          37.880539
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1936 BASALT CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.014207,
+          37.919341
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3054 NARANJA DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075775,
+          37.921973
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1900 2ND AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071511,
+          37.915241
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2547 CLARK LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.050822,
+          37.91293
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "373 ENDICOTT CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    }
+  ]
+}

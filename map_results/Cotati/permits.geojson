@@ -1,1 +1,1045 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696133908253, 38.3297684428594]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696056922689, 38.3298006152063]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695103905721, 38.3290957571635]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695795191195, 38.3288062743901]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696057322887, 38.3295175158207]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695961249212, 38.3295576687515]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695979938923, 38.3298328001437]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695902958755, 38.3298649868797]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695909496826, 38.328755874584]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695864556804, 38.329598075291]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.69575568128, 38.3296403686082]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.703468591802, 38.3156368433657]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695761811059, 38.3299239824059]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695825977687, 38.3298971673205]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695674261158, 38.3299570243972]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695585725601, 38.3297886155522]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695543779422, 38.3297176590428]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695507264249, 38.3296634829834]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695451706831, 38.3295810178498]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695408424259, 38.3295167424038]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695367559066, 38.3294561056148]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695333505337, 38.3294055664138]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695290876573, 38.3293401344397]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696078629625, 38.3286458281425]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696138823048, 38.3287367469034]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696232916416, 38.3288101189918]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696298628979, 38.3288999477744]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696354387845, 38.3289906192218]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695724589918, 38.3294529768734]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695672297039, 38.3293753653809]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695621651718, 38.3293001667693]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695567688798, 38.3292200659533]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.712497953318, 38.3189031153865]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.712471056394, 38.3186322108079]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696414860058, 38.3290803760586]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696578022258, 38.3292752150792]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.706218118771, 38.3224167432381]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.718671015855, 38.3303014215734]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696764000258, 38.3297430999642]}, "properties": {"permit_year": 2016, "permit_address": "684 E. Cotati Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.711706700104, 38.3261978996134]}, "properties": {"permit_year": 2016, "permit_address": "8070 Woodland Hills", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696170999892, 38.3295569996558]}, "properties": {"permit_year": 2016, "permit_address": "24 Lipton Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.696207999799, 38.3294090000254]}, "properties": {"permit_year": 2016, "permit_address": "22 Lipton Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695930100294, 38.3300911996492]}, "properties": {"permit_year": 2016, "permit_address": "690 E. Cotati Avenue", "permit_units": 12, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.698394499906, 38.319006200176]}, "properties": {"permit_year": 2016, "permit_address": "101 Ward Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.698406399736, 38.3190295996364]}, "properties": {"permit_year": 2016, "permit_address": "105 Ward Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.69918550041, 38.3188113998263]}, "properties": {"permit_year": 2016, "permit_address": "109 Ward Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695569599857, 38.3189621001209]}, "properties": {"permit_year": 2016, "permit_address": "272 Aguirre Way", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.709179284996, 38.3202464740955]}, "properties": {"permit_year": 2015, "permit_address": "8596A Cypress Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.707729015781, 38.3176396587433]}, "properties": {"permit_year": 2015, "permit_address": "8735 Cypress Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.698311675044, 38.3193223847204]}, "properties": {"permit_year": 2015, "permit_address": "104 Ward Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.709665686023, 38.3262919210354]}, "properties": {"permit_year": 2015, "permit_address": "50 W. Cotati Ave", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.698236748927, 38.3191433530833]}, "properties": {"permit_year": 2015, "permit_address": "108 Ward Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.709166000211, 38.3202419999684]}, "properties": {"permit_year": 2014, "permit_address": "8596 CYPRESS AVE A", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.712677000243, 38.3184039997448]}, "properties": {"permit_year": 2014, "permit_address": "124 CERVANTES CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.712051164729, 38.3261163221106]}, "properties": {"permit_year": 2014, "permit_address": "8161 WOODLAND HILLS DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.712174969899, 38.3263899003737]}, "properties": {"permit_year": 2014, "permit_address": "8141 WOODLAND HILLS DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.706866, 38.324853]}, "properties": {"permit_year": 2018, "permit_address": "80 Henry St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695731, 38.322191]}, "properties": {"permit_year": 2019, "permit_address": "Flamingo Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.695645, 38.321315]}, "properties": {"permit_year": 2019, "permit_address": "204 Aguirre Court", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.716884, 38.329042]}, "properties": {"permit_year": 2019, "permit_address": "612 W. Cotati Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.712568, 38.316209]}, "properties": {"permit_year": 2019, "permit_address": "6 Issel Court", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.712568, 38.316209]}, "properties": {"permit_year": 2019, "permit_address": "6 Issel Court", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.707192, 38.324832]}, "properties": {"permit_year": 2019, "permit_address": "88 Henry Street ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.705601, 38.320076]}, "properties": {"permit_year": 2019, "permit_address": "88 Jagla Street ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.705601, 38.320076]}, "properties": {"permit_year": 2019, "permit_address": "90 Jagla Street", "permit_units": 1, "permit_category": "SFD"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696133908253,
+          38.3297684428594
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696056922689,
+          38.3298006152063
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695103905721,
+          38.3290957571635
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695795191195,
+          38.3288062743901
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696057322887,
+          38.3295175158207
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695961249212,
+          38.3295576687515
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695979938923,
+          38.3298328001437
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695902958755,
+          38.3298649868797
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695909496826,
+          38.328755874584
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695864556804,
+          38.329598075291
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69575568128,
+          38.3296403686082
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.703468591802,
+          38.3156368433657
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695761811059,
+          38.3299239824059
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695825977687,
+          38.3298971673205
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695674261158,
+          38.3299570243972
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695585725601,
+          38.3297886155522
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695543779422,
+          38.3297176590428
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695507264249,
+          38.3296634829834
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695451706831,
+          38.3295810178498
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695408424259,
+          38.3295167424038
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695367559066,
+          38.3294561056148
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695333505337,
+          38.3294055664138
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695290876573,
+          38.3293401344397
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696078629625,
+          38.3286458281425
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696138823048,
+          38.3287367469034
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696232916416,
+          38.3288101189918
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696298628979,
+          38.3288999477744
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696354387845,
+          38.3289906192218
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695724589918,
+          38.3294529768734
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695672297039,
+          38.3293753653809
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695621651718,
+          38.3293001667693
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695567688798,
+          38.3292200659533
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.712497953318,
+          38.3189031153865
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.712471056394,
+          38.3186322108079
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696414860058,
+          38.3290803760586
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696578022258,
+          38.3292752150792
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.706218118771,
+          38.3224167432381
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.718671015855,
+          38.3303014215734
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696764000258,
+          38.3297430999642
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "684 E. Cotati Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.711706700104,
+          38.3261978996134
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "8070 Woodland Hills",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696170999892,
+          38.3295569996558
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "24 Lipton Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.696207999799,
+          38.3294090000254
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "22 Lipton Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695930100294,
+          38.3300911996492
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "690 E. Cotati Avenue",
+        "permit_units": 12,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.698394499906,
+          38.319006200176
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "101 Ward Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.698406399736,
+          38.3190295996364
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "105 Ward Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69918550041,
+          38.3188113998263
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "109 Ward Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695569599857,
+          38.3189621001209
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "272 Aguirre Way",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.709179284996,
+          38.3202464740955
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "8596A Cypress Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.707729015781,
+          38.3176396587433
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "8735 Cypress Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.698311675044,
+          38.3193223847204
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "104 Ward Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.709665686023,
+          38.3262919210354
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "50 W. Cotati Ave",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.698236748927,
+          38.3191433530833
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "108 Ward Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.709166000211,
+          38.3202419999684
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "8596 CYPRESS AVE A",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.712677000243,
+          38.3184039997448
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "124 CERVANTES CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.712051164729,
+          38.3261163221106
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "8161 WOODLAND HILLS DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.712174969899,
+          38.3263899003737
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "8141 WOODLAND HILLS DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.706866,
+          38.324853
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "80 Henry St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695731,
+          38.322191
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "Flamingo Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.695645,
+          38.321315
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "204 Aguirre Court",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.716884,
+          38.329042
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "612 W. Cotati Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.712568,
+          38.316209
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "6 Issel Court",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.712568,
+          38.316209
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "6 Issel Court",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.707192,
+          38.324832
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "88 Henry Street ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.705601,
+          38.320076
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "88 Jagla Street ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.705601,
+          38.320076
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "90 Jagla Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    }
+  ]
+}

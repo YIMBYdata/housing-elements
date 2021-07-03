@@ -1,1 +1,1365 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018500000375, 37.2512900004332]}, "properties": {"permit_year": 2017, "permit_address": "14918 Three Oaks Court", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.031139999611, 37.2499800002768]}, "properties": {"permit_year": 2017, "permit_address": "20408 Hill Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.026849999628, 37.2517799996473]}, "properties": {"permit_year": 2017, "permit_address": "20231 Bonnie Brae Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.03039999966, 37.2718800002618]}, "properties": {"permit_year": 2017, "permit_address": "20405 Thelma Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.03519999978, 37.2750099998117]}, "properties": {"permit_year": 2017, "permit_address": "13175 Paramount Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.997579999717, 37.2853400004407]}, "properties": {"permit_year": 2017, "permit_address": "12561 Paseo Cerro", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.012679999982, 37.2588700001505]}, "properties": {"permit_year": 2017, "permit_address": "19421 San Marcos Road", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.031139999611, 37.2499800002768]}, "properties": {"permit_year": 2017, "permit_address": "20408 Hill Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.020950000042, 37.2914899998636]}, "properties": {"permit_year": 2017, "permit_address": "19845 OakHaven Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.026980000227, 37.2597500002623]}, "properties": {"permit_year": 2017, "permit_address": "14360 Lutheria Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.995159999634, 37.2781899998686]}, "properties": {"permit_year": 2017, "permit_address": "18569 McFarland Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.021719999578, 37.2784599997293]}, "properties": {"permit_year": 2017, "permit_address": "19922 Via Escuela Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.006469999591, 37.2411199999881]}, "properties": {"permit_year": 2017, "permit_address": "19100 Austin Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025830000254, 37.2688200003428]}, "properties": {"permit_year": 2017, "permit_address": "13719 Saratoga Vista Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00580000017, 37.2944699996908]}, "properties": {"permit_year": 2017, "permit_address": "11976 Brookridge Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035440000056, 37.2758000002698]}, "properties": {"permit_year": 2017, "permit_address": "13121 Paramount Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035460000079, 37.2776100001015]}, "properties": {"permit_year": 2017, "permit_address": "13180 Paramount Court", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.036320000168, 37.2774099998716]}, "properties": {"permit_year": 2017, "permit_address": "13115 Paramount Court", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035509999687, 37.2777199997782]}, "properties": {"permit_year": 2017, "permit_address": "13120 Paramount Court", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035469999641, 37.2776500001474]}, "properties": {"permit_year": 2017, "permit_address": "13160 Paramount Court", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.036289999684, 37.2773600002639]}, "properties": {"permit_year": 2017, "permit_address": "13155 Paramount Court", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.041539999871, 37.2431700000955]}, "properties": {"permit_year": 2017, "permit_address": "20888 Kittridge Road", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.014079999792, 37.2448199997432]}, "properties": {"permit_year": 2017, "permit_address": "19511 Glen Una Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.056709999767, 37.2653500004022]}, "properties": {"permit_year": 2017, "permit_address": "21901 Mount Eden Road", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025739999701, 37.2497499995629]}, "properties": {"permit_year": 2017, "permit_address": "20152 Hill Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.027419999833, 37.2536600000091]}, "properties": {"permit_year": 2016, "permit_address": "14768 MONTALVO ROAD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.995749999863, 37.2488100002814]}, "properties": {"permit_year": 2016, "permit_address": "18590 AVON LANE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.041020000173, 37.2595300000095]}, "properties": {"permit_year": 2016, "permit_address": "21154 SULLIVAN WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011104948934, 37.2470732421365]}, "properties": {"permit_year": 2016, "permit_address": "19341 MONTE VISTA DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.053036664011, 37.2667461646039]}, "properties": {"permit_year": 2016, "permit_address": "13929 VISTA REGINA", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025186188192, 37.2678051918562]}, "properties": {"permit_year": 2016, "permit_address": "13788 SARATOGA VISTA AV", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.013711171633, 37.2824053678135]}, "properties": {"permit_year": 2016, "permit_address": "19439 DEHAVILLAND CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99904759527, 37.267678231865]}, "properties": {"permit_year": 2016, "permit_address": "18781 ALLENDALE AV", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.032946776273, 37.2818906363439]}, "properties": {"permit_year": 2016, "permit_address": "12805 PIERCE RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.032946776273, 37.2818906363439]}, "properties": {"permit_year": 2016, "permit_address": "12805 SARATOGA-SUNNYVALE RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.998512000428, 37.2678376996502]}, "properties": {"permit_year": 2016, "permit_address": "13831 VIA ALTO", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.998512000428, 37.2678376996502]}, "properties": {"permit_year": 2016, "permit_address": "13831 VIA ALTO", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.051012794605, 37.2867134108952]}, "properties": {"permit_year": 2016, "permit_address": "22000 ROLLING HILLS RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.032313349581, 37.2621857007096]}, "properties": {"permit_year": 2016, "permit_address": "14165 SARATOGA-SUNNYVALE RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.014369359358, 37.2525766802696]}, "properties": {"permit_year": 2016, "permit_address": "14825 FRUITVALE AV", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024264634006, 37.2486641059638]}, "properties": {"permit_year": 2016, "permit_address": "20100 BONNIE BRAE LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.298580258372, 37.9134144727997]}, "properties": {"permit_year": 2016, "permit_address": "21459 SARATOGA HILLS RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.022326133644, 37.2573752252865]}, "properties": {"permit_year": 2016, "permit_address": "14538 HORSESHOE DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.045164, 37.257287]}, "properties": {"permit_year": 2015, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.019760000024, 37.2526599997593]}, "properties": {"permit_year": 2015, "permit_address": "14911 FARWELL", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025810000231, 37.2676199998631]}, "properties": {"permit_year": 2015, "permit_address": "13813 SARATOGA VISTA", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.045164, 37.257287]}, "properties": {"permit_year": 2015, "permit_address": "21794 HERBER WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.016430000244, 37.2926100002514]}, "properties": {"permit_year": 2015, "permit_address": "19550 PROSPECT ROAD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035569999756, 37.2462300000145]}, "properties": {"permit_year": 2015, "permit_address": "15260 NORTON ROAD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.002640000136, 37.2783399995914]}, "properties": {"permit_year": 2015, "permit_address": "13033 MONTROSE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.015650000247, 37.2851699997957]}, "properties": {"permit_year": 2015, "permit_address": "12672 LARCHMONT AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.017350000402, 37.2610200003728]}, "properties": {"permit_year": 2015, "permit_address": "19753 MINOCQUA COURT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024150000122, 37.2552299995649]}, "properties": {"permit_year": 2015, "permit_address": "14635 HORSESHOE DRIVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004180000107, 37.2431799996573]}, "properties": {"permit_year": 2015, "permit_address": "18867 MONTEWOOD CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.003770000085, 37.2948700001504]}, "properties": {"permit_year": 2015, "permit_address": "11975 WALLBROOK DRIVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.997639999786, 37.2743699999756]}, "properties": {"permit_year": 2015, "permit_address": "13297 CARRICK AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.045164, 37.257287]}, "properties": {"permit_year": 2014, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034687, 37.257107]}, "properties": {"permit_year": 2019, "permit_address": "14529 Big Basin Wy", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00112, 37.277533]}, "properties": {"permit_year": 2019, "permit_address": "13090 Heath St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.010855, 37.248015]}, "properties": {"permit_year": 2019, "permit_address": "19361 Valle Vista Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999749, 37.274318]}, "properties": {"permit_year": 2019, "permit_address": "18817 Afton Avenue", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.037084, 37.265983]}, "properties": {"permit_year": 2019, "permit_address": "13886 Malcom Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.998825, 37.277309]}, "properties": {"permit_year": 2019, "permit_address": "18761 Martha Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999855, 37.248314]}, "properties": {"permit_year": 2019, "permit_address": "15145 El Quito Wy", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.997195, 37.277699]}, "properties": {"permit_year": 2019, "permit_address": "18676 McFarland Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.995368, 37.284055]}, "properties": {"permit_year": 2019, "permit_address": "12636 Paseo Olivos", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99733, 37.284907]}, "properties": {"permit_year": 2019, "permit_address": "12570 Paseo Cerro", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996546, 37.28358]}, "properties": {"permit_year": 2019, "permit_address": "18621 Bucknall Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007278, 37.28763]}, "properties": {"permit_year": 2019, "permit_address": "12479 Palmtag Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.028158, 37.289201]}, "properties": {"permit_year": 2019, "permit_address": "20283 Seagull Wy", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999342, 37.275443]}, "properties": {"permit_year": 2019, "permit_address": "13234 McDole St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.058102, 37.262874]}, "properties": {"permit_year": 2019, "permit_address": "21794 Heber Wy", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.032877, 37.261952]}, "properties": {"permit_year": 2019, "permit_address": "20530 Marion Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.032681, 37.261981]}, "properties": {"permit_year": 2019, "permit_address": "20520 Marion Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.995535, 37.277691]}, "properties": {"permit_year": 2019, "permit_address": "18580 McFarland Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011804, 37.258918]}, "properties": {"permit_year": 2019, "permit_address": "19411 San Marcos Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035989, 37.26396]}, "properties": {"permit_year": 2019, "permit_address": "13970 Trinity Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.997635, 37.280846]}, "properties": {"permit_year": 2019, "permit_address": "18693 Cox Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99905, 37.267742]}, "properties": {"permit_year": 2019, "permit_address": "18777 Allendale Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.003784, 37.262361]}, "properties": {"permit_year": 2019, "permit_address": "14197 Ten Acres Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.043944, 37.265308]}, "properties": {"permit_year": 2019, "permit_address": "21352 Saratoga Hills Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.001507, 37.26919]}, "properties": {"permit_year": 2019, "permit_address": "13717 Fortuna Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.029602, 37.288762]}, "properties": {"permit_year": 2019, "permit_address": "20393 Zorka Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00517, 37.268061]}, "properties": {"permit_year": 2019, "permit_address": "19010 Portos Drive", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034493, 37.262721]}, "properties": {"permit_year": 2019, "permit_address": "20660 Canyon View Dr.", "permit_units": 1, "permit_category": "ADU"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018500000375,
+          37.2512900004332
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "14918 Three Oaks Court",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.031139999611,
+          37.2499800002768
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20408 Hill Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.026849999628,
+          37.2517799996473
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20231 Bonnie Brae Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.03039999966,
+          37.2718800002618
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20405 Thelma Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.03519999978,
+          37.2750099998117
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13175 Paramount Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997579999717,
+          37.2853400004407
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "12561 Paseo Cerro",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.012679999982,
+          37.2588700001505
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "19421 San Marcos Road",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.031139999611,
+          37.2499800002768
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20408 Hill Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.020950000042,
+          37.2914899998636
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "19845 OakHaven Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.026980000227,
+          37.2597500002623
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "14360 Lutheria Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.995159999634,
+          37.2781899998686
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "18569 McFarland Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.021719999578,
+          37.2784599997293
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "19922 Via Escuela Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.006469999591,
+          37.2411199999881
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "19100 Austin Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025830000254,
+          37.2688200003428
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13719 Saratoga Vista Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00580000017,
+          37.2944699996908
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "11976 Brookridge Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035440000056,
+          37.2758000002698
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13121 Paramount Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035460000079,
+          37.2776100001015
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13180 Paramount Court",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036320000168,
+          37.2774099998716
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13115 Paramount Court",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035509999687,
+          37.2777199997782
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13120 Paramount Court",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035469999641,
+          37.2776500001474
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13160 Paramount Court",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036289999684,
+          37.2773600002639
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "13155 Paramount Court",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.041539999871,
+          37.2431700000955
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20888 Kittridge Road",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.014079999792,
+          37.2448199997432
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "19511 Glen Una Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.056709999767,
+          37.2653500004022
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "21901 Mount Eden Road",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025739999701,
+          37.2497499995629
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20152 Hill Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.027419999833,
+          37.2536600000091
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "14768 MONTALVO ROAD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.995749999863,
+          37.2488100002814
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "18590 AVON LANE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.041020000173,
+          37.2595300000095
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "21154 SULLIVAN WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011104948934,
+          37.2470732421365
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "19341 MONTE VISTA DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053036664011,
+          37.2667461646039
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13929 VISTA REGINA",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025186188192,
+          37.2678051918562
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13788 SARATOGA VISTA AV",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.013711171633,
+          37.2824053678135
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "19439 DEHAVILLAND CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99904759527,
+          37.267678231865
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "18781 ALLENDALE AV",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.032946776273,
+          37.2818906363439
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "12805 PIERCE RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.032946776273,
+          37.2818906363439
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "12805 SARATOGA-SUNNYVALE RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.998512000428,
+          37.2678376996502
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13831 VIA ALTO",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.998512000428,
+          37.2678376996502
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13831 VIA ALTO",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.051012794605,
+          37.2867134108952
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "22000 ROLLING HILLS RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.032313349581,
+          37.2621857007096
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "14165 SARATOGA-SUNNYVALE RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.014369359358,
+          37.2525766802696
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "14825 FRUITVALE AV",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024264634006,
+          37.2486641059638
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "20100 BONNIE BRAE LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298580258372,
+          37.9134144727997
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "21459 SARATOGA HILLS RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.022326133644,
+          37.2573752252865
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "14538 HORSESHOE DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.045164,
+          37.257287
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.019760000024,
+          37.2526599997593
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "14911 FARWELL",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025810000231,
+          37.2676199998631
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13813 SARATOGA VISTA",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.045164,
+          37.257287
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "21794 HERBER WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.016430000244,
+          37.2926100002514
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "19550 PROSPECT ROAD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035569999756,
+          37.2462300000145
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "15260 NORTON ROAD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.002640000136,
+          37.2783399995914
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13033 MONTROSE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.015650000247,
+          37.2851699997957
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12672 LARCHMONT AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.017350000402,
+          37.2610200003728
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "19753 MINOCQUA COURT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024150000122,
+          37.2552299995649
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "14635 HORSESHOE DRIVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004180000107,
+          37.2431799996573
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "18867 MONTEWOOD CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.003770000085,
+          37.2948700001504
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "11975 WALLBROOK DRIVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997639999786,
+          37.2743699999756
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13297 CARRICK AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.045164,
+          37.257287
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034687,
+          37.257107
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "14529 Big Basin Wy",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00112,
+          37.277533
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13090 Heath St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.010855,
+          37.248015
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "19361 Valle Vista Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999749,
+          37.274318
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18817 Afton Avenue",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.037084,
+          37.265983
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13886 Malcom Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.998825,
+          37.277309
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18761 Martha Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999855,
+          37.248314
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "15145 El Quito Wy",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997195,
+          37.277699
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18676 McFarland Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.995368,
+          37.284055
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12636 Paseo Olivos",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99733,
+          37.284907
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12570 Paseo Cerro",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996546,
+          37.28358
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18621 Bucknall Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007278,
+          37.28763
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12479 Palmtag Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.028158,
+          37.289201
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "20283 Seagull Wy",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999342,
+          37.275443
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13234 McDole St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.058102,
+          37.262874
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "21794 Heber Wy",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.032877,
+          37.261952
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "20530 Marion Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.032681,
+          37.261981
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "20520 Marion Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.995535,
+          37.277691
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18580 McFarland Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011804,
+          37.258918
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "19411 San Marcos Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035989,
+          37.26396
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13970 Trinity Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997635,
+          37.280846
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18693 Cox Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99905,
+          37.267742
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18777 Allendale Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.003784,
+          37.262361
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "14197 Ten Acres Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.043944,
+          37.265308
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "21352 Saratoga Hills Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.001507,
+          37.26919
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13717 Fortuna Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.029602,
+          37.288762
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "20393 Zorka Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00517,
+          37.268061
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "19010 Portos Drive",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034493,
+          37.262721
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "20660 Canyon View Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    }
+  ]
+}

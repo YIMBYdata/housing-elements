@@ -1,1 +1,213 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.462253355308, 37.6852899541681]}, "properties": {"permit_year": 2017, "permit_address": "456 B Street", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.462122219765, 37.6852895755535]}, "properties": {"permit_year": 2017, "permit_address": "460 B Street", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.462056652892, 37.6852893866959]}, "properties": {"permit_year": 2017, "permit_address": "462 B Street", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.46199108512, 37.6852891969389]}, "properties": {"permit_year": 2017, "permit_address": "464 B Street", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.461859949577, 37.6852888192237]}, "properties": {"permit_year": 2017, "permit_address": "468 B Street", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.461794381805, 37.6852886303661]}, "properties": {"permit_year": 2017, "permit_address": "470 B Street", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-120.895188, 38.81419]}, "properties": {"permit_year": 2016, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-120.895188, 38.81419]}, "properties": {"permit_year": 2015, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-120.895188, 38.81419]}, "properties": {"permit_year": 2014, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-120.895188, 38.81419]}, "properties": {"permit_year": 2018, "permit_address": "446 B Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-120.895188, 38.81419]}, "properties": {"permit_year": 2018, "permit_address": "448 B Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-120.895188, 38.81419]}, "properties": {"permit_year": 2018, "permit_address": "439 C Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-120.895188, 38.81419]}, "properties": {"permit_year": 2018, "permit_address": "1680 Mission Road", "permit_units": 66, "permit_category": "5+"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.462253355308,
+          37.6852899541681
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "456 B Street",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.462122219765,
+          37.6852895755535
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "460 B Street",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.462056652892,
+          37.6852893866959
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "462 B Street",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46199108512,
+          37.6852891969389
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "464 B Street",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.461859949577,
+          37.6852888192237
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "468 B Street",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.461794381805,
+          37.6852886303661
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "470 B Street",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.895188,
+          38.81419
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.895188,
+          38.81419
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.895188,
+          38.81419
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.895188,
+          38.81419
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "446 B Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.895188,
+          38.81419
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "448 B Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.895188,
+          38.81419
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "439 C Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.895188,
+          38.81419
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1680 Mission Road",
+        "permit_units": 66,
+        "permit_category": "5+"
+      }
+    }
+  ]
+}

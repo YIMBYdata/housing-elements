@@ -1,1 +1,1845 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.045607000363, 37.314181000353]}, "properties": {"permit_year": 2017, "permit_address": "7866 LILY CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.005877000123, 37.3167239998128]}, "properties": {"permit_year": 2017, "permit_address": "19075 TILSON AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.036644828996, 37.3195468431124]}, "properties": {"permit_year": 2017, "permit_address": "10228 WESTERN RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06006958994, 37.3282838278365]}, "properties": {"permit_year": 2017, "permit_address": "22045 CREEKSIDE CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.058047689149, 37.3247808488571]}, "properties": {"permit_year": 2017, "permit_address": "21908 GARDENVIEW LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.006177175836, 37.3219360710929]}, "properties": {"permit_year": 2017, "permit_address": "10062 S TANTAU AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.073481641864, 37.3212949246211]}, "properties": {"permit_year": 2017, "permit_address": "10159 LEBANON DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.041128971924, 37.3284723581129]}, "properties": {"permit_year": 2017, "permit_address": "10380 N STELLING RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.037669916733, 37.3077486219015]}, "properties": {"permit_year": 2017, "permit_address": "1072 COLONY HILLS LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034635624834, 37.3204341466187]}, "properties": {"permit_year": 2017, "permit_address": "20629 SUNRISE DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.060368251194, 37.3338900557815]}, "properties": {"permit_year": 2017, "permit_address": "22044 WALLACE DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068733476868, 37.3291226066231]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 15, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069522431415, 37.3103189517583]}, "properties": {"permit_year": 2017, "permit_address": "10885 MIRAMONTE RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038407000183, 37.315044999727]}, "properties": {"permit_year": 2016, "permit_address": "20846 CHERRYLAND DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.072658999613, 37.3135550002631]}, "properties": {"permit_year": 2016, "permit_address": "10665 CORDOVA RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069125000318, 37.3235220003401]}, "properties": {"permit_year": 2016, "permit_address": "10121 N FOOTHILL BLVD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069236000041, 37.3236790003856]}, "properties": {"permit_year": 2016, "permit_address": "10117 N FOOTHILL BLVD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069226999626, 37.3235990002937]}, "properties": {"permit_year": 2016, "permit_address": "10113 N FOOTHILL BLVD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069224000387, 37.3235279997174]}, "properties": {"permit_year": 2016, "permit_address": "10109 N FOOTHILL BLVD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069220000203, 37.3234539999022]}, "properties": {"permit_year": 2016, "permit_address": "10105 N FOOTHILL BLVD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069419000387, 37.3237130001549]}, "properties": {"permit_year": 2016, "permit_address": "22546 SILVER OAK WAY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035656981285, 37.3204302984196]}, "properties": {"permit_year": 2016, "permit_address": "20685 SUNRISE DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264433860035, 38.0375824242895]}, "properties": {"permit_year": 2016, "permit_address": "21750 ALCAZAR AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01659999999, 37.3203360000064]}, "properties": {"permit_year": 2016, "permit_address": "10208 RICHWOOD DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.037608925611, 37.3276938150176]}, "properties": {"permit_year": 2016, "permit_address": "20788 HANFORD DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.058167000407, 37.3211919999109]}, "properties": {"permit_year": 2016, "permit_address": "10106 BYRNE AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.005020788878, 37.3140637107717]}, "properties": {"permit_year": 2016, "permit_address": "10592 CULBERTSON DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.043540655976, 37.332721834645]}, "properties": {"permit_year": 2016, "permit_address": "21101 TAMARIND CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071851887754, 37.3203379497367]}, "properties": {"permit_year": 2016, "permit_address": "10208 LOCKWOOD DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068322626088, 37.3172882308672]}, "properties": {"permit_year": 2016, "permit_address": "10406 S FOOTHILL BLVD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.014562165911, 37.3188357176942]}, "properties": {"permit_year": 2016, "permit_address": "10311 GREENWOOD COURT #1", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066118000146, 37.3145359996367]}, "properties": {"permit_year": 2016, "permit_address": "22343 MCCLELLAN RD UNIT 2", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.045814000016, 37.3276199995634]}, "properties": {"permit_year": 2016, "permit_address": "10317 ANN ARBOR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.005866999662, 37.3219780001846]}, "properties": {"permit_year": 2016, "permit_address": "10065 JUDY AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.03358700004, 37.3199439999157]}, "properties": {"permit_year": 2016, "permit_address": "20570 SUNRISE DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.041760000124, 37.3110259996502]}, "properties": {"permit_year": 2016, "permit_address": "7712 HUNTRIDGE LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.040780999943, 37.3121829999455]}, "properties": {"permit_year": 2016, "permit_address": "10732 S STELLING RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00585199987, 37.319125999965]}, "properties": {"permit_year": 2016, "permit_address": "10263 JUDY AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06916899965, 37.3128789996662]}, "properties": {"permit_year": 2016, "permit_address": "10643 STEVENS CANYON RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.010669428851, 37.3250403482335]}, "properties": {"permit_year": 2015, "permit_address": "19550 VALLCO PKWY", "permit_units": 120, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024403501021, 37.3209975952628]}, "properties": {"permit_year": 2015, "permit_address": "10159 S BLANEY AVE", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.072705647448, 37.3137511675824]}, "properties": {"permit_year": 2015, "permit_address": "10655 CORDOVA RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07280099537, 37.3138890444439]}, "properties": {"permit_year": 2015, "permit_address": "10645 CORDOVA RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.0433290446, 37.3313282901685]}, "properties": {"permit_year": 2015, "permit_address": "21092 LAVINA CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038659634135, 37.3309720624108]}, "properties": {"permit_year": 2015, "permit_address": "20849 GREENLEAF DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.071872005589, 37.3199337080742]}, "properties": {"permit_year": 2015, "permit_address": "10238 LOCKWOOD DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00523017803, 37.3161893402659]}, "properties": {"permit_year": 2015, "permit_address": "19048 TILSON AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.035104160828, 37.3060592427399]}, "properties": {"permit_year": 2015, "permit_address": "1102 STEEPLECHASE LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038473389935, 37.3145998847769]}, "properties": {"permit_year": 2015, "permit_address": "20852 CHERRYLAND DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.065876853234, 37.3263770537581]}, "properties": {"permit_year": 2014, "permit_address": "10231 Hillcrest Rd", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.042755001042, 37.3337140000011]}, "properties": {"permit_year": 2014, "permit_address": "21061 Gardena Dr", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007671312181, 37.3174733760955]}, "properties": {"permit_year": 2014, "permit_address": "19158 Twig Ln", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007127299685, 37.3187814004413]}, "properties": {"permit_year": 2014, "permit_address": "19133 Muriel Ln", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025975599594, 37.3335498998081]}, "properties": {"permit_year": 2014, "permit_address": "10728 Randy Ln", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.069681999924, 37.3131420001033]}, "properties": {"permit_year": 2014, "permit_address": "10690 Merriman Rd", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.041132390248, 37.3291049205557]}, "properties": {"permit_year": 2014, "permit_address": "10436 N Stelling Rd", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.055299401446, 37.3170707001527]}, "properties": {"permit_year": 2014, "permit_address": "10394 Orange Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.006149000076, 37.3186728999344]}, "properties": {"permit_year": 2014, "permit_address": "10292 S Tantau Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007693, 37.322408]}, "properties": {"permit_year": 2018, "permit_address": "19160 STEVENS CREEK BLVD", "permit_units": 19, "permit_category": "MH"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.074553, 37.313502]}, "properties": {"permit_year": 2018, "permit_address": "22823 SAN JUAN RD ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024419, 37.326176]}, "properties": {"permit_year": 2018, "permit_address": "10201 TONI CT ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018905, 37.331082]}, "properties": {"permit_year": 2018, "permit_address": "19742 DRAKE CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025649, 37.328938]}, "properties": {"permit_year": 2018, "permit_address": "10430 CHERRY TREE LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023883, 37.316422]}, "properties": {"permit_year": 2018, "permit_address": "10426 LAS ONDAS WAY", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000228, 37.319234]}, "properties": {"permit_year": 2018, "permit_address": "10271 MENHART LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999796, 37.31587]}, "properties": {"permit_year": 2018, "permit_address": "18752 TILSON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.043044, 37.31153]}, "properties": {"permit_year": 2018, "permit_address": "942 ROSE BLOSSOM DR ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.02456, 37.326363]}, "properties": {"permit_year": 2018, "permit_address": "20032 FOREST AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.057658, 37.323865]}, "properties": {"permit_year": 2018, "permit_address": "21902 OAKVIEW LN ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.066499, 37.318025]}, "properties": {"permit_year": 2018, "permit_address": " 10351 PALO VISTA RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06806, 37.317233]}, "properties": {"permit_year": 2018, "permit_address": "22467 PALM AVE ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.017237, 37.310765]}, "properties": {"permit_year": 2018, "permit_address": "6460 MYRTLEWOOD DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.044731, 37.312423]}, "properties": {"permit_year": 2018, "permit_address": "7823 LILAC CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024262, 37.326217]}, "properties": {"permit_year": 2018, "permit_address": "10203 TONI CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.034497, 37.313106]}, "properties": {"permit_year": 2018, "permit_address": "20626 KIRWIN LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.036229, 37.309504]}, "properties": {"permit_year": 2018, "permit_address": "7495 HEATHERWOOD DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.005711, 37.317851]}, "properties": {"permit_year": 2019, "permit_address": "10349 JUDY AVE", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.042685, 37.332846]}, "properties": {"permit_year": 2019, "permit_address": "10679 FLORA VISTA AVE", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.057685, 37.306839]}, "properties": {"permit_year": 2019, "permit_address": "11096 LA PALOMA DR", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.065898, 37.316288]}, "properties": {"permit_year": 2019, "permit_address": "22352 PALM AVE", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.037533, 37.32671]}, "properties": {"permit_year": 2019, "permit_address": "20788 GARDEN GATE DR", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.039499, 37.330167]}, "properties": {"permit_year": 2019, "permit_address": "20887 DUNBAR DR", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.043212, 37.32882]}, "properties": {"permit_year": 2019, "permit_address": "21088 TULITA CT", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038746, 37.306067]}, "properties": {"permit_year": 2019, "permit_address": "7553 SQUIREWOOD WAY", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054195, 37.316131]}, "properties": {"permit_year": 2019, "permit_address": "21726 NOONAN CT", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.064098, 37.329088]}, "properties": {"permit_year": 2019, "permit_address": "10470 AINSWORTH DR", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004649, 37.318274]}, "properties": {"permit_year": 2019, "permit_address": "10321 BRET AVE", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.037528, 37.320849]}, "properties": {"permit_year": 2019, "permit_address": "10152 BONNY DR", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.054952, 37.317676]}, "properties": {"permit_year": 2019, "permit_address": "21739 ALCAZAR AVE", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.047638, 37.328235]}, "properties": {"permit_year": 2019, "permit_address": "21335 RUMFORD DR", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.997317, 37.319588]}, "properties": {"permit_year": 2019, "permit_address": "18600 RALYA CT", "permit_units": 1, "permit_category": "ADU   "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06941, 37.316077]}, "properties": {"permit_year": 2019, "permit_address": "22551 ALCALDE RD", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.074553, 37.313502]}, "properties": {"permit_year": 2019, "permit_address": "22823 SAN JUAN RD", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.085766, 37.334905]}, "properties": {"permit_year": 2019, "permit_address": "23150 CRISTO REY LOOP VILLA 72", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.085766, 37.334905]}, "properties": {"permit_year": 2019, "permit_address": "23150 CRISTO REY LOOP VILLA 73", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.085766, 37.334905]}, "properties": {"permit_year": 2019, "permit_address": "23150 CRISTO REY LOOP VILLA 70", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.085766, 37.334905]}, "properties": {"permit_year": 2019, "permit_address": "23150 CRISTO REY LOOP VILLA 69", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 79", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 78", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 83", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 83", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 81", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 80", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 77", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 76", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 75", "permit_units": 1, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.084027, 37.335285]}, "properties": {"permit_year": 2019, "permit_address": "23250 VIA ESPLENDOR VILLA 66", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.084027, 37.335285]}, "properties": {"permit_year": 2019, "permit_address": "23250 VIA ESPLENDOR VILLA 65", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.085766, 37.334905]}, "properties": {"permit_year": 2019, "permit_address": "23150 CRISTO REY LOOP VILLA 68", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.085766, 37.334905]}, "properties": {"permit_year": 2019, "permit_address": "23150 CRISTO REY LOOP VILLA 71", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.084611, 37.334689]}, "properties": {"permit_year": 2019, "permit_address": "23050 VIA ESPLENDOR VILLA 67", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.084027, 37.335285]}, "properties": {"permit_year": 2019, "permit_address": "23250 VIA ESPLENDOR VILLA 64", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.089753, 37.338928]}, "properties": {"permit_year": 2019, "permit_address": "23850 VIA ESPLENDOR VILLA 62", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.089753, 37.338928]}, "properties": {"permit_year": 2019, "permit_address": "23850 VIA ESPLENDOR VILLA 61", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.083816, 37.333625]}, "properties": {"permit_year": 2019, "permit_address": "23000 CRISTO REY LOOP VILLA 74", "permit_units": 1, "permit_category": "2 to 4 "}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.045607000363,
+          37.314181000353
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "7866 LILY CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.005877000123,
+          37.3167239998128
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "19075 TILSON AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036644828996,
+          37.3195468431124
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "10228 WESTERN RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06006958994,
+          37.3282838278365
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "22045 CREEKSIDE CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.058047689149,
+          37.3247808488571
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "21908 GARDENVIEW LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.006177175836,
+          37.3219360710929
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "10062 S TANTAU AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.073481641864,
+          37.3212949246211
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "10159 LEBANON DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.041128971924,
+          37.3284723581129
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "10380 N STELLING RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.037669916733,
+          37.3077486219015
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1072 COLONY HILLS LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034635624834,
+          37.3204341466187
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "20629 SUNRISE DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.060368251194,
+          37.3338900557815
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "22044 WALLACE DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068733476868,
+          37.3291226066231
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 15,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069522431415,
+          37.3103189517583
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "10885 MIRAMONTE RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038407000183,
+          37.315044999727
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "20846 CHERRYLAND DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.072658999613,
+          37.3135550002631
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10665 CORDOVA RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069125000318,
+          37.3235220003401
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10121 N FOOTHILL BLVD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069236000041,
+          37.3236790003856
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10117 N FOOTHILL BLVD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069226999626,
+          37.3235990002937
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10113 N FOOTHILL BLVD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069224000387,
+          37.3235279997174
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10109 N FOOTHILL BLVD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069220000203,
+          37.3234539999022
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10105 N FOOTHILL BLVD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069419000387,
+          37.3237130001549
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "22546 SILVER OAK WAY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035656981285,
+          37.3204302984196
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "20685 SUNRISE DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264433860035,
+          38.0375824242895
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "21750 ALCAZAR AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01659999999,
+          37.3203360000064
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10208 RICHWOOD DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.037608925611,
+          37.3276938150176
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "20788 HANFORD DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.058167000407,
+          37.3211919999109
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10106 BYRNE AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.005020788878,
+          37.3140637107717
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10592 CULBERTSON DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.043540655976,
+          37.332721834645
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "21101 TAMARIND CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071851887754,
+          37.3203379497367
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10208 LOCKWOOD DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068322626088,
+          37.3172882308672
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10406 S FOOTHILL BLVD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.014562165911,
+          37.3188357176942
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10311 GREENWOOD COURT #1",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066118000146,
+          37.3145359996367
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "22343 MCCLELLAN RD UNIT 2",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.045814000016,
+          37.3276199995634
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10317 ANN ARBOR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.005866999662,
+          37.3219780001846
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10065 JUDY AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.03358700004,
+          37.3199439999157
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "20570 SUNRISE DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.041760000124,
+          37.3110259996502
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7712 HUNTRIDGE LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.040780999943,
+          37.3121829999455
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10732 S STELLING RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00585199987,
+          37.319125999965
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10263 JUDY AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06916899965,
+          37.3128789996662
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10643 STEVENS CANYON RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.010669428851,
+          37.3250403482335
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "19550 VALLCO PKWY",
+        "permit_units": 120,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024403501021,
+          37.3209975952628
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "10159 S BLANEY AVE",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.072705647448,
+          37.3137511675824
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "10655 CORDOVA RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07280099537,
+          37.3138890444439
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "10645 CORDOVA RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0433290446,
+          37.3313282901685
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "21092 LAVINA CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038659634135,
+          37.3309720624108
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "20849 GREENLEAF DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.071872005589,
+          37.3199337080742
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "10238 LOCKWOOD DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00523017803,
+          37.3161893402659
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "19048 TILSON AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.035104160828,
+          37.3060592427399
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1102 STEEPLECHASE LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038473389935,
+          37.3145998847769
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "20852 CHERRYLAND DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.065876853234,
+          37.3263770537581
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "10231 Hillcrest Rd",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.042755001042,
+          37.3337140000011
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "21061 Gardena Dr",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007671312181,
+          37.3174733760955
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "19158 Twig Ln",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007127299685,
+          37.3187814004413
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "19133 Muriel Ln",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025975599594,
+          37.3335498998081
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "10728 Randy Ln",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.069681999924,
+          37.3131420001033
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "10690 Merriman Rd",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.041132390248,
+          37.3291049205557
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "10436 N Stelling Rd",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.055299401446,
+          37.3170707001527
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "10394 Orange Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.006149000076,
+          37.3186728999344
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "10292 S Tantau Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007693,
+          37.322408
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "19160 STEVENS CREEK BLVD",
+        "permit_units": 19,
+        "permit_category": "MH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.074553,
+          37.313502
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "22823 SAN JUAN RD ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024419,
+          37.326176
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10201 TONI CT ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018905,
+          37.331082
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "19742 DRAKE CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025649,
+          37.328938
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10430 CHERRY TREE LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023883,
+          37.316422
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10426 LAS ONDAS WAY",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000228,
+          37.319234
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10271 MENHART LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999796,
+          37.31587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "18752 TILSON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.043044,
+          37.31153
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "942 ROSE BLOSSOM DR ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.02456,
+          37.326363
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "20032 FOREST AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.057658,
+          37.323865
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "21902 OAKVIEW LN ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066499,
+          37.318025
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": " 10351 PALO VISTA RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06806,
+          37.317233
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "22467 PALM AVE ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.017237,
+          37.310765
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "6460 MYRTLEWOOD DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.044731,
+          37.312423
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "7823 LILAC CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024262,
+          37.326217
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10203 TONI CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.034497,
+          37.313106
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "20626 KIRWIN LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036229,
+          37.309504
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "7495 HEATHERWOOD DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.005711,
+          37.317851
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "10349 JUDY AVE",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.042685,
+          37.332846
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "10679 FLORA VISTA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.057685,
+          37.306839
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "11096 LA PALOMA DR",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.065898,
+          37.316288
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "22352 PALM AVE",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.037533,
+          37.32671
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "20788 GARDEN GATE DR",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.039499,
+          37.330167
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "20887 DUNBAR DR",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.043212,
+          37.32882
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "21088 TULITA CT",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038746,
+          37.306067
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "7553 SQUIREWOOD WAY",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054195,
+          37.316131
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "21726 NOONAN CT",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.064098,
+          37.329088
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "10470 AINSWORTH DR",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004649,
+          37.318274
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "10321 BRET AVE",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.037528,
+          37.320849
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "10152 BONNY DR",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.054952,
+          37.317676
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "21739 ALCAZAR AVE",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.047638,
+          37.328235
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "21335 RUMFORD DR",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997317,
+          37.319588
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18600 RALYA CT",
+        "permit_units": 1,
+        "permit_category": "ADU   "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06941,
+          37.316077
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "22551 ALCALDE RD",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.074553,
+          37.313502
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "22823 SAN JUAN RD",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.085766,
+          37.334905
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23150 CRISTO REY LOOP VILLA 72",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.085766,
+          37.334905
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23150 CRISTO REY LOOP VILLA 73",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.085766,
+          37.334905
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23150 CRISTO REY LOOP VILLA 70",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.085766,
+          37.334905
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23150 CRISTO REY LOOP VILLA 69",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 79",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 78",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 83",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 83",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 81",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 80",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 77",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 76",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 75",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.084027,
+          37.335285
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23250 VIA ESPLENDOR VILLA 66",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.084027,
+          37.335285
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23250 VIA ESPLENDOR VILLA 65",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.085766,
+          37.334905
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23150 CRISTO REY LOOP VILLA 68",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.085766,
+          37.334905
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23150 CRISTO REY LOOP VILLA 71",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.084611,
+          37.334689
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23050 VIA ESPLENDOR VILLA 67",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.084027,
+          37.335285
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23250 VIA ESPLENDOR VILLA 64",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.089753,
+          37.338928
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23850 VIA ESPLENDOR VILLA 62",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.089753,
+          37.338928
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23850 VIA ESPLENDOR VILLA 61",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083816,
+          37.333625
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "23000 CRISTO REY LOOP VILLA 74",
+        "permit_units": 1,
+        "permit_category": "2 to 4 "
+      }
+    }
+  ]
+}

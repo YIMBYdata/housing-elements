@@ -1,1 +1,2309 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137464, 37.379663]}, "properties": {"permit_year": 2017, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129162263428, 37.3720591234298]}, "properties": {"permit_year": 2016, "permit_address": "13335 Wildcrest Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.12012314157, 37.345324166677]}, "properties": {"permit_year": 2016, "permit_address": "10800 Magdalena Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.142386525218, 37.3821678638559]}, "properties": {"permit_year": 2016, "permit_address": "26355 Esperanza Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.121244370431, 37.3543528878755]}, "properties": {"permit_year": 2016, "permit_address": "24000 Oak Knoll Circle", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.115101692389, 37.3548935611889]}, "properties": {"permit_year": 2016, "permit_address": "11637 Dawson Drive", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.115101692389, 37.3548935611889]}, "properties": {"permit_year": 2016, "permit_address": "11637 Dawson Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131920519217, 37.3533644583031]}, "properties": {"permit_year": 2016, "permit_address": "11475 Summitwood Road", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.12101258906, 37.3583974682686]}, "properties": {"permit_year": 2016, "permit_address": "12387 Stonebrook Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135337608444, 37.3794168610993]}, "properties": {"permit_year": 2016, "permit_address": "13801 La Paloma Road", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.124071607818, 37.3759575028365]}, "properties": {"permit_year": 2016, "permit_address": "25711 Deerfield Drive", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136382889559, 37.36727733638]}, "properties": {"permit_year": 2016, "permit_address": "26270 Purissima Road", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136382889559, 37.36727733638]}, "properties": {"permit_year": 2016, "permit_address": "26270 Purissima Road", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.141384452031, 37.3709209270592]}, "properties": {"permit_year": 2016, "permit_address": "26642 Purissima Road", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133707366901, 37.3771674758983]}, "properties": {"permit_year": 2016, "permit_address": "13685 La Paloma Road", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.153440269653, 37.3764955905991]}, "properties": {"permit_year": 2016, "permit_address": "13112 Maple Leaf Court", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134447357859, 37.3769704668136]}, "properties": {"permit_year": 2016, "permit_address": "13697 La Paloma Road", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.120681773445, 37.3461736231143]}, "properties": {"permit_year": 2016, "permit_address": "10888 Magdalena Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15926078086, 37.3685164249931]}, "properties": {"permit_year": 2016, "permit_address": "27333 Ursula Lane", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149898496618, 37.3806126167789]}, "properties": {"permit_year": 2015, "permit_address": "12810 Deer Creek", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.165323293335, 37.3651269530465]}, "properties": {"permit_year": 2015, "permit_address": "12501 Zappettini", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.16061416791, 37.3787859821874]}, "properties": {"permit_year": 2015, "permit_address": "27772 Lupine", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.153813837239, 37.3701590510994]}, "properties": {"permit_year": 2015, "permit_address": "12374 Melody", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.163030749669, 37.3800611048362]}, "properties": {"permit_year": 2015, "permit_address": "13686 Page Mill", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.144848479574, 37.3543735012361]}, "properties": {"permit_year": 2015, "permit_address": "21893 Blue Oaks", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.121332432945, 37.3768289018324]}, "properties": {"permit_year": 2015, "permit_address": "13638 Old Altos", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137482719952, 37.3596484800933]}, "properties": {"permit_year": 2015, "permit_address": "25800 Vinedo", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.148010504881, 37.3820005054191]}, "properties": {"permit_year": 2015, "permit_address": "12825 Deer Creek", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136248754776, 37.3649563930232]}, "properties": {"permit_year": 2015, "permit_address": "12492 Robleda", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111180379371, 37.3551846015881]}, "properties": {"permit_year": 2015, "permit_address": "24300 Dawnridge", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.145505960432, 37.3552327908607]}, "properties": {"permit_year": 2015, "permit_address": "21890 Blue Oaks", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.123448850684, 37.3730657435892]}, "properties": {"permit_year": 2015, "permit_address": "13350 Burke", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.12064405318, 37.3769191793767]}, "properties": {"permit_year": 2015, "permit_address": "13671 Burke", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15265120359, 37.3787729186353]}, "properties": {"permit_year": 2015, "permit_address": "26727 Taaffe", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.122265312294, 37.3751379506559]}, "properties": {"permit_year": 2015, "permit_address": "25608 Deerfield", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134820084579, 37.3671456711359]}, "properties": {"permit_year": 2015, "permit_address": "26225 Purissima", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150462685405, 37.3909041183305]}, "properties": {"permit_year": 2015, "permit_address": "13482 La Cresta", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13989737986, 37.3708472725836]}, "properties": {"permit_year": 2015, "permit_address": "26620 Purissima", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.148093442159, 37.3812193021291]}, "properties": {"permit_year": 2015, "permit_address": "12830 Deer Creek", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.147921073599, 37.3812657566094]}, "properties": {"permit_year": 2015, "permit_address": "12830 Deer Creek", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.1379870004, 37.3719089996007]}, "properties": {"permit_year": 2014, "permit_address": "12030 Elsie WY", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.108476549653, 37.3489639882975]}, "properties": {"permit_year": 2014, "permit_address": "11569 Old Ranch LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.142934001003, 37.3817629998626]}, "properties": {"permit_year": 2014, "permit_address": "26438 Ascension DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137523999733, 37.383245999903]}, "properties": {"permit_year": 2014, "permit_address": "26260 Catharine CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132254999569, 37.3837939999931]}, "properties": {"permit_year": 2014, "permit_address": "26023 Torello LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.112068500361, 37.3542289999684]}, "properties": {"permit_year": 2014, "permit_address": "11778 Magdalena RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.147668614115, 37.3547576763257]}, "properties": {"permit_year": 2014, "permit_address": "21886 Blue Oaks PL", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13746370019, 37.3796626997738]}, "properties": {"permit_year": 2014, "permit_address": "28155 Christophers LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.159180176424, 37.3695977716199]}, "properties": {"permit_year": 2014, "permit_address": "27300 Ursula LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137654000332, 37.37153500034]}, "properties": {"permit_year": 2014, "permit_address": "12060 Elsie WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135137000272, 37.3787359996667]}, "properties": {"permit_year": 2014, "permit_address": "13761 La Paloma RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13964400037, 37.3823560002293]}, "properties": {"permit_year": 2014, "permit_address": "26310 Esperanza DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.118273999645, 37.3599840000616]}, "properties": {"permit_year": 2014, "permit_address": "12555 Barley Hill RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.128904998867, 37.385130999596]}, "properties": {"permit_year": 2014, "permit_address": "14271 Miranda RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.162653199885, 37.3935913996235]}, "properties": {"permit_year": 2014, "permit_address": "2210 Old Page Mill RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.128904998867, 37.385130999596]}, "properties": {"permit_year": 2014, "permit_address": "14271 Miranda RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.112089001306, 37.3569820001193]}, "properties": {"permit_year": 2014, "permit_address": "11921 Hilltop DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14589099977, 37.3884220002752]}, "properties": {"permit_year": 2014, "permit_address": "26850 St Francis DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136228000222, 37.3816320001168]}, "properties": {"permit_year": 2014, "permit_address": "26240 Fremont RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.140988000296, 37.3839229996468]}, "properties": {"permit_year": 2014, "permit_address": "26478 Ascension DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.138030200234, 37.3853014004393]}, "properties": {"permit_year": 2014, "permit_address": "14269 Sholes CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.148738999805, 37.3597229997167]}, "properties": {"permit_year": 2014, "permit_address": "26400 Eshner CT", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117752999901, 37.3652409996724]}, "properties": {"permit_year": 2014, "permit_address": "12787 Normandy LN", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.1379870004, 37.3719089996007]}, "properties": {"permit_year": 2014, "permit_address": "12030 Elsie WY", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.162904399418, 37.3582741001696]}, "properties": {"permit_year": 2014, "permit_address": "27640 Sherlock RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.11122111866, 37.3537599441661]}, "properties": {"permit_year": 2014, "permit_address": "11768 Magdalena RD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.110923291976, 37.3536697997216]}, "properties": {"permit_year": 2014, "permit_address": "11768 Magdalena RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.146581977676, 37.3541422963299]}, "properties": {"permit_year": 2014, "permit_address": "21888 Blue Oaks PL", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.127293000072, 37.3793530002408]}, "properties": {"permit_year": 2014, "permit_address": "13811 Ciceroni LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.115115, 37.364363]}, "properties": {"permit_year": 2018, "permit_address": "24840 Summerhill Ave", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168125, 37.363781]}, "properties": {"permit_year": 2018, "permit_address": "27985 Central Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111213, 37.353704]}, "properties": {"permit_year": 2018, "permit_address": "11768 Maria Lane", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.160923, 37.377855]}, "properties": {"permit_year": 2018, "permit_address": "27800 Via Feliz", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.127732, 37.374469]}, "properties": {"permit_year": 2018, "permit_address": "13389 Robleda Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133625, 37.376563]}, "properties": {"permit_year": 2018, "permit_address": "13673 La Paloma Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.157166, 37.368563]}, "properties": {"permit_year": 2018, "permit_address": "27447 Edgerton Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.154868, 37.354994]}, "properties": {"permit_year": 2018, "permit_address": "26811 Moody Court", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111213, 37.353704]}, "properties": {"permit_year": 2018, "permit_address": "11768 Maria Lane", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111102, 37.357484]}, "properties": {"permit_year": 2018, "permit_address": "11871 Hilltop Drive", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.140468, 37.371231]}, "properties": {"permit_year": 2018, "permit_address": "26644 Purissima Road", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.160923, 37.377855]}, "properties": {"permit_year": 2018, "permit_address": "27800 Via Feliz", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.127693, 37.377147]}, "properties": {"permit_year": 2018, "permit_address": "26925 Orchard Hill Lane", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.128873, 37.38894]}, "properties": {"permit_year": 2018, "permit_address": "14525 Miranda Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137558, 37.379469]}, "properties": {"permit_year": 2018, "permit_address": "12735 Alto Verde", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131941, 37.352227]}, "properties": {"permit_year": 2018, "permit_address": "25136 La Loma Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134285, 37.376439]}, "properties": {"permit_year": 2018, "permit_address": "13661 La Paloma Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131025, 37.388937]}, "properties": {"permit_year": 2018, "permit_address": "14510 Manuella Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132133, 37.358207]}, "properties": {"permit_year": 2018, "permit_address": "25380 Becky Lane", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117211, 37.342874]}, "properties": {"permit_year": 2018, "permit_address": "10570 Blandor Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111102, 37.357484]}, "properties": {"permit_year": 2018, "permit_address": "11871 Hilltop Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133896, 37.364577]}, "properties": {"permit_year": 2018, "permit_address": "26088 Duval Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.143023, 37.385321]}, "properties": {"permit_year": 2018, "permit_address": "26550 Anacapa Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168087, 37.382675]}, "properties": {"permit_year": 2018, "permit_address": "13875 Mir Mirou Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.116991, 37.360309]}, "properties": {"permit_year": 2018, "permit_address": "12520 Barley Hill Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129162, 37.372059]}, "properties": {"permit_year": 2018, "permit_address": "13335 Wildcrest Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137732, 37.38661]}, "properties": {"permit_year": 2018, "permit_address": "26634 Snell Ct", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117882, 37.364567]}, "properties": {"permit_year": 2018, "permit_address": "12791 Normandy Lane", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.115115, 37.364363]}, "properties": {"permit_year": 2018, "permit_address": "24840 Summerhill Ave", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168125, 37.363781]}, "properties": {"permit_year": 2018, "permit_address": "27985 Central Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111213, 37.353704]}, "properties": {"permit_year": 2018, "permit_address": "11768 Maria Lane", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.160923, 37.377855]}, "properties": {"permit_year": 2018, "permit_address": "27800 Via Feliz", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.127732, 37.374469]}, "properties": {"permit_year": 2018, "permit_address": "13389 Robleda Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133625, 37.376563]}, "properties": {"permit_year": 2018, "permit_address": "13673 La Paloma Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.157166, 37.368563]}, "properties": {"permit_year": 2018, "permit_address": "27447 Edgerton Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.154868, 37.354994]}, "properties": {"permit_year": 2018, "permit_address": "26811 Moody Court", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111213, 37.353704]}, "properties": {"permit_year": 2018, "permit_address": "11768 Maria Lane", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111102, 37.357484]}, "properties": {"permit_year": 2018, "permit_address": "11871 Hilltop Drive", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.140468, 37.371231]}, "properties": {"permit_year": 2018, "permit_address": "26644 Purissima Road", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.160923, 37.377855]}, "properties": {"permit_year": 2018, "permit_address": "27800 Via Feliz", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.127693, 37.377147]}, "properties": {"permit_year": 2018, "permit_address": "26925 Orchard Hill Lane", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.128873, 37.38894]}, "properties": {"permit_year": 2018, "permit_address": "14525 Miranda Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137558, 37.379469]}, "properties": {"permit_year": 2018, "permit_address": "12735 Alto Verde", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131941, 37.352227]}, "properties": {"permit_year": 2018, "permit_address": "25136 La Loma Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134285, 37.376439]}, "properties": {"permit_year": 2018, "permit_address": "13661 La Paloma Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131025, 37.388937]}, "properties": {"permit_year": 2018, "permit_address": "14510 Manuella Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132133, 37.358207]}, "properties": {"permit_year": 2018, "permit_address": "25380 Becky Lane", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117211, 37.342874]}, "properties": {"permit_year": 2018, "permit_address": "10570 Blandor Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111102, 37.357484]}, "properties": {"permit_year": 2018, "permit_address": "11871 Hilltop Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133896, 37.364577]}, "properties": {"permit_year": 2018, "permit_address": "26088 Duval Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.143023, 37.385321]}, "properties": {"permit_year": 2018, "permit_address": "26550 Anacapa Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168087, 37.382675]}, "properties": {"permit_year": 2018, "permit_address": "13875 Mir Mirou Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.116991, 37.360309]}, "properties": {"permit_year": 2018, "permit_address": "12520 Barley Hill Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129162, 37.372059]}, "properties": {"permit_year": 2018, "permit_address": "13335 Wildcrest Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137732, 37.38661]}, "properties": {"permit_year": 2018, "permit_address": "26634 Snell Ct", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117882, 37.364567]}, "properties": {"permit_year": 2018, "permit_address": "12791 Normandy Lane", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.114898, 37.343676]}, "properties": {"permit_year": 2019, "permit_address": "10511 Magdalena Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14588, 37.38302]}, "properties": {"permit_year": 2019, "permit_address": "12869 La Cresta Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134327, 37.365305]}, "properties": {"permit_year": 2019, "permit_address": "26100 Duval Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.122315, 37.374685]}, "properties": {"permit_year": 2019, "permit_address": "13505 Burke Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.106508, 37.358777]}, "properties": {"permit_year": 2019, "permit_address": "12450 Hilltop Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.109204, 37.359906]}, "properties": {"permit_year": 2019, "permit_address": "12468 Casa Mia Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.148293, 37.369177]}, "properties": {"permit_year": 2019, "permit_address": "27860 Black Mountain Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.138195, 37.381715]}, "properties": {"permit_year": 2019, "permit_address": "26303 Esperanza Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.160598, 37.378755]}, "properties": {"permit_year": 2019, "permit_address": "27772 Lupine Road", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.166361, 37.367055]}, "properties": {"permit_year": 2019, "permit_address": "12255 Menalto Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.126212, 37.358672]}, "properties": {"permit_year": 2019, "permit_address": "12355 Stonebrook Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134327, 37.365305]}, "properties": {"permit_year": 2019, "permit_address": "26100 Duval Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.154141, 37.368831]}, "properties": {"permit_year": 2019, "permit_address": "12345 Melody Lane", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.166479, 37.380924]}, "properties": {"permit_year": 2019, "permit_address": "13850 Paseo Del Roble", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.139253, 37.357314]}, "properties": {"permit_year": 2019, "permit_address": "12181 Padre Court", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.148293, 37.369177]}, "properties": {"permit_year": 2019, "permit_address": "27860 Black Mountain Road", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135862, 37.36278]}, "properties": {"permit_year": 2019, "permit_address": "25769 Elena Road", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.165849, 37.372216]}, "properties": {"permit_year": 2019, "permit_address": "27975 Via Ventana Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.126212, 37.358672]}, "properties": {"permit_year": 2019, "permit_address": "12355 Stonebrook Drive", "permit_units": 1, "permit_category": "ADU"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137464,
+          37.379663
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129162263428,
+          37.3720591234298
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13335 Wildcrest Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.12012314157,
+          37.345324166677
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10800 Magdalena Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.142386525218,
+          37.3821678638559
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "26355 Esperanza Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.121244370431,
+          37.3543528878755
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "24000 Oak Knoll Circle",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.115101692389,
+          37.3548935611889
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "11637 Dawson Drive",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.115101692389,
+          37.3548935611889
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "11637 Dawson Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131920519217,
+          37.3533644583031
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "11475 Summitwood Road",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.12101258906,
+          37.3583974682686
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "12387 Stonebrook Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135337608444,
+          37.3794168610993
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13801 La Paloma Road",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.124071607818,
+          37.3759575028365
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "25711 Deerfield Drive",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136382889559,
+          37.36727733638
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "26270 Purissima Road",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136382889559,
+          37.36727733638
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "26270 Purissima Road",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.141384452031,
+          37.3709209270592
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "26642 Purissima Road",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133707366901,
+          37.3771674758983
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13685 La Paloma Road",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.153440269653,
+          37.3764955905991
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13112 Maple Leaf Court",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134447357859,
+          37.3769704668136
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "13697 La Paloma Road",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.120681773445,
+          37.3461736231143
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "10888 Magdalena Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15926078086,
+          37.3685164249931
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "27333 Ursula Lane",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149898496618,
+          37.3806126167789
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12810 Deer Creek",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.165323293335,
+          37.3651269530465
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12501 Zappettini",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16061416791,
+          37.3787859821874
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "27772 Lupine",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.153813837239,
+          37.3701590510994
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12374 Melody",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.163030749669,
+          37.3800611048362
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13686 Page Mill",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.144848479574,
+          37.3543735012361
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "21893 Blue Oaks",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.121332432945,
+          37.3768289018324
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13638 Old Altos",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137482719952,
+          37.3596484800933
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "25800 Vinedo",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.148010504881,
+          37.3820005054191
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12825 Deer Creek",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136248754776,
+          37.3649563930232
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12492 Robleda",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111180379371,
+          37.3551846015881
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "24300 Dawnridge",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.145505960432,
+          37.3552327908607
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "21890 Blue Oaks",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.123448850684,
+          37.3730657435892
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13350 Burke",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.12064405318,
+          37.3769191793767
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13671 Burke",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15265120359,
+          37.3787729186353
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "26727 Taaffe",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.122265312294,
+          37.3751379506559
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "25608 Deerfield",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134820084579,
+          37.3671456711359
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "26225 Purissima",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150462685405,
+          37.3909041183305
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13482 La Cresta",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13989737986,
+          37.3708472725836
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "26620 Purissima",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.148093442159,
+          37.3812193021291
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12830 Deer Creek",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.147921073599,
+          37.3812657566094
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12830 Deer Creek",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1379870004,
+          37.3719089996007
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "12030 Elsie WY",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.108476549653,
+          37.3489639882975
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "11569 Old Ranch LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.142934001003,
+          37.3817629998626
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26438 Ascension DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137523999733,
+          37.383245999903
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26260 Catharine CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132254999569,
+          37.3837939999931
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26023 Torello LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.112068500361,
+          37.3542289999684
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "11778 Magdalena RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.147668614115,
+          37.3547576763257
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "21886 Blue Oaks PL",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13746370019,
+          37.3796626997738
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "28155 Christophers LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.159180176424,
+          37.3695977716199
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "27300 Ursula LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137654000332,
+          37.37153500034
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "12060 Elsie WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135137000272,
+          37.3787359996667
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "13761 La Paloma RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13964400037,
+          37.3823560002293
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26310 Esperanza DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.118273999645,
+          37.3599840000616
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "12555 Barley Hill RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.128904998867,
+          37.385130999596
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "14271 Miranda RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.162653199885,
+          37.3935913996235
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2210 Old Page Mill RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.128904998867,
+          37.385130999596
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "14271 Miranda RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.112089001306,
+          37.3569820001193
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "11921 Hilltop DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14589099977,
+          37.3884220002752
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26850 St Francis DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136228000222,
+          37.3816320001168
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26240 Fremont RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.140988000296,
+          37.3839229996468
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26478 Ascension DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.138030200234,
+          37.3853014004393
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "14269 Sholes CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.148738999805,
+          37.3597229997167
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26400 Eshner CT",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117752999901,
+          37.3652409996724
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "12787 Normandy LN",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1379870004,
+          37.3719089996007
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "12030 Elsie WY",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.162904399418,
+          37.3582741001696
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "27640 Sherlock RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.11122111866,
+          37.3537599441661
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "11768 Magdalena RD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.110923291976,
+          37.3536697997216
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "11768 Magdalena RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.146581977676,
+          37.3541422963299
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "21888 Blue Oaks PL",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.127293000072,
+          37.3793530002408
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "13811 Ciceroni LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.115115,
+          37.364363
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "24840 Summerhill Ave",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168125,
+          37.363781
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27985 Central Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111213,
+          37.353704
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11768 Maria Lane",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160923,
+          37.377855
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27800 Via Feliz",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.127732,
+          37.374469
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13389 Robleda Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133625,
+          37.376563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13673 La Paloma Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.157166,
+          37.368563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27447 Edgerton Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.154868,
+          37.354994
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26811 Moody Court",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111213,
+          37.353704
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11768 Maria Lane",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111102,
+          37.357484
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11871 Hilltop Drive",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.140468,
+          37.371231
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26644 Purissima Road",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160923,
+          37.377855
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27800 Via Feliz",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.127693,
+          37.377147
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26925 Orchard Hill Lane",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.128873,
+          37.38894
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "14525 Miranda Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137558,
+          37.379469
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "12735 Alto Verde",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131941,
+          37.352227
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "25136 La Loma Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134285,
+          37.376439
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13661 La Paloma Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131025,
+          37.388937
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "14510 Manuella Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132133,
+          37.358207
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "25380 Becky Lane",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117211,
+          37.342874
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10570 Blandor Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111102,
+          37.357484
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11871 Hilltop Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133896,
+          37.364577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26088 Duval Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143023,
+          37.385321
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26550 Anacapa Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168087,
+          37.382675
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13875 Mir Mirou Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.116991,
+          37.360309
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "12520 Barley Hill Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129162,
+          37.372059
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13335 Wildcrest Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137732,
+          37.38661
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26634 Snell Ct",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117882,
+          37.364567
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "12791 Normandy Lane",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.115115,
+          37.364363
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "24840 Summerhill Ave",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168125,
+          37.363781
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27985 Central Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111213,
+          37.353704
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11768 Maria Lane",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160923,
+          37.377855
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27800 Via Feliz",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.127732,
+          37.374469
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13389 Robleda Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133625,
+          37.376563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13673 La Paloma Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.157166,
+          37.368563
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27447 Edgerton Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.154868,
+          37.354994
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26811 Moody Court",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111213,
+          37.353704
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11768 Maria Lane",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111102,
+          37.357484
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11871 Hilltop Drive",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.140468,
+          37.371231
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26644 Purissima Road",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160923,
+          37.377855
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "27800 Via Feliz",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.127693,
+          37.377147
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26925 Orchard Hill Lane",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.128873,
+          37.38894
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "14525 Miranda Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137558,
+          37.379469
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "12735 Alto Verde",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131941,
+          37.352227
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "25136 La Loma Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134285,
+          37.376439
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13661 La Paloma Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131025,
+          37.388937
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "14510 Manuella Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132133,
+          37.358207
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "25380 Becky Lane",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117211,
+          37.342874
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "10570 Blandor Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111102,
+          37.357484
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11871 Hilltop Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133896,
+          37.364577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26088 Duval Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143023,
+          37.385321
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26550 Anacapa Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168087,
+          37.382675
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13875 Mir Mirou Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.116991,
+          37.360309
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "12520 Barley Hill Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129162,
+          37.372059
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "13335 Wildcrest Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137732,
+          37.38661
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "26634 Snell Ct",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117882,
+          37.364567
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "12791 Normandy Lane",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.114898,
+          37.343676
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "10511 Magdalena Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14588,
+          37.38302
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12869 La Cresta Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134327,
+          37.365305
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "26100 Duval Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.122315,
+          37.374685
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13505 Burke Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.106508,
+          37.358777
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12450 Hilltop Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.109204,
+          37.359906
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12468 Casa Mia Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.148293,
+          37.369177
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "27860 Black Mountain Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.138195,
+          37.381715
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "26303 Esperanza Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160598,
+          37.378755
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "27772 Lupine Road",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.166361,
+          37.367055
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12255 Menalto Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.126212,
+          37.358672
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12355 Stonebrook Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134327,
+          37.365305
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "26100 Duval Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.154141,
+          37.368831
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12345 Melody Lane",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.166479,
+          37.380924
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13850 Paseo Del Roble",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.139253,
+          37.357314
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12181 Padre Court",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.148293,
+          37.369177
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "27860 Black Mountain Road",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135862,
+          37.36278
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "25769 Elena Road",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.165849,
+          37.372216
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "27975 Via Ventana Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.126212,
+          37.358672
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12355 Stonebrook Drive",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    }
+  ]
+}

@@ -1,1 +1,5541 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.276805999797, 37.8880779996001]}, "properties": {"permit_year": 2017, "permit_address": "1835 MONTEREY Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279784000431, 37.8599290001233]}, "properties": {"permit_year": 2017, "permit_address": "1513 CARLETON ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285428999948, 37.8922559998146]}, "properties": {"permit_year": 2017, "permit_address": "825 PERALTA Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285036999858, 37.8510089997656]}, "properties": {"permit_year": 2017, "permit_address": "1211 HASKELL St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274342000383, 37.8897730004237]}, "properties": {"permit_year": 2017, "permit_address": "1949 MARIN Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.290579000021, 37.879222000395]}, "properties": {"permit_year": 2017, "permit_address": "1365 CURTIS St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.251983999962, 37.8890100003113]}, "properties": {"permit_year": 2017, "permit_address": "1234 GRIZZLY PEAK BLVD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253298000302, 37.8925800003668]}, "properties": {"permit_year": 2017, "permit_address": "1120 WOODSIDE Rd", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279279999672, 37.8568639999737]}, "properties": {"permit_year": 2017, "permit_address": "1522 Stuart St", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.293938000238, 37.8719339997543]}, "properties": {"permit_year": 2017, "permit_address": "1737 TENTH St", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270726000005, 37.8858890002772]}, "properties": {"permit_year": 2017, "permit_address": "2075 EUNICE St", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.248094999585, 37.8857969996319]}, "properties": {"permit_year": 2017, "permit_address": "1352 SUMMIT RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.24604400033, 37.8535459998481]}, "properties": {"permit_year": 2017, "permit_address": "52 THE UPLANDS", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.252562999683, 37.8553349996106]}, "properties": {"permit_year": 2017, "permit_address": "3011 COLLEGE Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287842999755, 37.8647739996204]}, "properties": {"permit_year": 2017, "permit_address": "1216 BANCROFT Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.281893999708, 37.8628980003425]}, "properties": {"permit_year": 2017, "permit_address": "2425 EDWARDS St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287767999893, 37.8592749996416]}, "properties": {"permit_year": 2017, "permit_address": "1122 PARKER St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262876999574, 37.8587790001508]}, "properties": {"permit_year": 2017, "permit_address": "2224 STUART St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.261066999742, 37.8557119999089]}, "properties": {"permit_year": 2017, "permit_address": "2300 ASHBY Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275785000377, 37.8688660003657]}, "properties": {"permit_year": 2017, "permit_address": "2135 ROOSEVELT Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.24608300033, 37.858648000405]}, "properties": {"permit_year": 2017, "permit_address": "2954 RUSSELL St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264010999708, 37.8568460000429]}, "properties": {"permit_year": 2017, "permit_address": "2152 RUSSELL St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280397999968, 37.8535170003094]}, "properties": {"permit_year": 2017, "permit_address": "1421 ASHBY Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.299722999916, 37.8735840003014]}, "properties": {"permit_year": 2017, "permit_address": "1626 SIXTY-SECOND St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287286000149, 37.8589710000117]}, "properties": {"permit_year": 2017, "permit_address": "1133 CARLETON St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.281259000103, 37.8773949997795]}, "properties": {"permit_year": 2017, "permit_address": "1517 HOLLY St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278913999881, 37.8591369995729]}, "properties": {"permit_year": 2017, "permit_address": "1531 DERBY St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262642999575, 37.8602630002373]}, "properties": {"permit_year": 2017, "permit_address": "2241 WARD St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292079999992, 37.8823099998067]}, "properties": {"permit_year": 2017, "permit_address": "1218 EVELYN Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286026999646, 37.8617830001854]}, "properties": {"permit_year": 2017, "permit_address": "1245 DWIGHT Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.27539999971, 37.8694559996947]}, "properties": {"permit_year": 2017, "permit_address": "2118 GRANT ST", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279433999579, 37.8608769997738]}, "properties": {"permit_year": 2017, "permit_address": "1527 PARKER St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273891000269, 37.885524999679]}, "properties": {"permit_year": 2017, "permit_address": "1917 YOLO AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.281824000078, 37.848388000306]}, "properties": {"permit_year": 2017, "permit_address": "3232 IDAHO St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262722999667, 37.8593369998027]}, "properties": {"permit_year": 2017, "permit_address": "2231 STUART St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.269741999594, 37.8495560002093]}, "properties": {"permit_year": 2017, "permit_address": "1900 HARMON St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273978999831, 37.8776689998246]}, "properties": {"permit_year": 2017, "permit_address": "1600 M L KING JR WAY", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265457999887, 37.85716100018]}, "properties": {"permit_year": 2017, "permit_address": "2127 RUSSELL ST", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.296337000252, 37.8611649995651]}, "properties": {"permit_year": 2017, "permit_address": "2411 FIFTH St", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272973000204, 37.8607470000741]}, "properties": {"permit_year": 2017, "permit_address": "1817 CARLETON ST", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285604999971, 37.850911999789]}, "properties": {"permit_year": 2017, "permit_address": "1203 HASKELL St", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267981000223, 37.8623280001372]}, "properties": {"permit_year": 2017, "permit_address": "2037 PARKER ST", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.290850999974, 37.8549499998427]}, "properties": {"permit_year": 2017, "permit_address": "2817 EIGHTH St", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.271730999586, 37.8704580000367]}, "properties": {"permit_year": 2017, "permit_address": "1950 Addison", "permit_units": 111, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267673999555, 37.8616209999093]}, "properties": {"permit_year": 2017, "permit_address": "2600 Shattuck", "permit_units": 24, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.26667000002, 37.8598649998699]}, "properties": {"permit_year": 2017, "permit_address": "2711 Shattuck", "permit_units": 22, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277745999978, 37.8706590003127]}, "properties": {"permit_year": 2017, "permit_address": "1698 University", "permit_units": 36, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273992999577, 37.8545900003283]}, "properties": {"permit_year": 2017, "permit_address": "2935 KING St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.296813999766, 37.869803999555]}, "properties": {"permit_year": 2017, "permit_address": "905 HEARST Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275142000403, 37.8577120004085]}, "properties": {"permit_year": 2017, "permit_address": "1705 STUART St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.281207000403, 37.8837089995707]}, "properties": {"permit_year": 2017, "permit_address": "1231 MONTEREY Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272765999651, 37.8573319999718]}, "properties": {"permit_year": 2017, "permit_address": "2811 GRANT St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287468000448, 37.8666600002588]}, "properties": {"permit_year": 2017, "permit_address": "1234 ALLSTON Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.289384999818, 37.8714960002403]}, "properties": {"permit_year": 2017, "permit_address": "1815 CURTIS St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274198000038, 37.8780090002152]}, "properties": {"permit_year": 2017, "permit_address": "1837 CEDAR St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286140000361, 37.8548699997507]}, "properties": {"permit_year": 2017, "permit_address": "1206 OREGON St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.281830000354, 37.8653520001947]}, "properties": {"permit_year": 2017, "permit_address": "2306 SACRAMENTO St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273992999577, 37.8720669995924]}, "properties": {"permit_year": 2017, "permit_address": "1828 BERKELEY Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.289769999586, 37.8741549996536]}, "properties": {"permit_year": 2017, "permit_address": "1207 VIRGINIA St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275867999708, 37.8696759999475]}, "properties": {"permit_year": 2017, "permit_address": "2115 ROOSEVELT Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.27429600006, 37.8890969998267]}, "properties": {"permit_year": 2017, "permit_address": "1948 MARIN Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301017000234, 37.8757310003854]}, "properties": {"permit_year": 2017, "permit_address": "1449 FIFTH St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277712000209, 37.8654090001253]}, "properties": {"permit_year": 2017, "permit_address": "2323 JEFFERSON Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.250411000267, 37.8532610001951]}, "properties": {"permit_year": 2017, "permit_address": "3127 ETON Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.252183000145, 37.8546519995901]}, "properties": {"permit_year": 2017, "permit_address": "2712 PRINCE St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.250356999576, 37.8579149998774]}, "properties": {"permit_year": 2017, "permit_address": "2801 ASHBY Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29874799992, 37.875292999972]}, "properties": {"permit_year": 2017, "permit_address": "900 JONES St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286894000058, 37.8584850000827]}, "properties": {"permit_year": 2017, "permit_address": "1140 CARLETON St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.246166999707, 37.8594980000327]}, "properties": {"permit_year": 2017, "permit_address": "2950 AVALON Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.25165700017, 37.862783999582]}, "properties": {"permit_year": 2017, "permit_address": "2634 PIEDMONT Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286206999853, 37.8562949998145]}, "properties": {"permit_year": 2017, "permit_address": "2744 MATHEWS St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.293585000148, 37.8672250002336]}, "properties": {"permit_year": 2017, "permit_address": "1004 ADDISON St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274817999851, 37.8806079995596]}, "properties": {"permit_year": 2017, "permit_address": "1417 JOSEPHINE St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.255190000318, 37.8545419999134]}, "properties": {"permit_year": 2017, "permit_address": "3030 HILLEGASS Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301131000096, 37.8789440001655]}, "properties": {"permit_year": 2017, "permit_address": "1323 SIXTY-SEVENTH St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.276769999936, 37.8758250002236]}, "properties": {"permit_year": 2017, "permit_address": "1729 VIRGINIA St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.297825100348, 37.8677682995674]}, "properties": {"permit_year": 2016, "permit_address": "824 University Avenue", "permit_units": 48, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.261081638007, 37.860850610967]}, "properties": {"permit_year": 2016, "permit_address": "2324 Derby Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274418245805, 37.8955312686532]}, "properties": {"permit_year": 2016, "permit_address": "68 Southampton Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272569963633, 37.8866737918621]}, "properties": {"permit_year": 2016, "permit_address": "1148 Sutter Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274304933926, 37.8569588253895]}, "properties": {"permit_year": 2016, "permit_address": "1721 Oregon Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275921904172, 37.8571192437581]}, "properties": {"permit_year": 2016, "permit_address": "1636 Stuart Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273926910199, 37.8600869075848]}, "properties": {"permit_year": 2016, "permit_address": "2630 Grant Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.248344000275, 37.8619089997006]}, "properties": {"permit_year": 2016, "permit_address": "2915 Forest Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280670892947, 37.8861323451317]}, "properties": {"permit_year": 2016, "permit_address": "1734 Sonoma Avenue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.289002305012, 37.8823279871469]}, "properties": {"permit_year": 2016, "permit_address": "1216 Neilson Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277937893719, 37.8715788637736]}, "properties": {"permit_year": 2016, "permit_address": "1640 Berkeley Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28343342771, 37.8580229715829]}, "properties": {"permit_year": 2016, "permit_address": "1326 Derby Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268526347313, 37.8534067946879]}, "properties": {"permit_year": 2016, "permit_address": "3040 Tremont Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285370360554, 37.8936568836583]}, "properties": {"permit_year": 2016, "permit_address": "1224 Milvia Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.269117999596, 37.8621760003222]}, "properties": {"permit_year": 2016, "permit_address": "2011 Parker Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275925067088, 37.8469084131928]}, "properties": {"permit_year": 2016, "permit_address": "1538 Sixty-Third Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.295715095675, 37.8664798723483]}, "properties": {"permit_year": 2016, "permit_address": "2113 Seventh Street", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.246908541996, 37.8824507437069]}, "properties": {"permit_year": 2016, "permit_address": "690 Euclid Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.256798597877, 37.8912691449551]}, "properties": {"permit_year": 2016, "permit_address": "455 Vincente Avenue", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278693910595, 37.8567884263448]}, "properties": {"permit_year": 2016, "permit_address": "1524 Stuart Street", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.260333637687, 37.8542782476431]}, "properties": {"permit_year": 2016, "permit_address": "3046 Telegraph Avenue", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273278322736, 37.8517296004408]}, "properties": {"permit_year": 2016, "permit_address": "2332 Channing Way", "permit_units": 5, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282324673345, 37.8659807432168]}, "properties": {"permit_year": 2016, "permit_address": "2001 Fourth Street", "permit_units": 152, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.271184301714, 37.8511456904213]}, "properties": {"permit_year": 2015, "permit_address": "3132 Martin Luther King", "permit_units": 42, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253211520595, 37.8554738189616]}, "properties": {"permit_year": 2015, "permit_address": "3012 College", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.288951281976, 37.8572999301477]}, "properties": {"permit_year": 2015, "permit_address": "1037 Pardee", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28904831163, 37.8562308952397]}, "properties": {"permit_year": 2015, "permit_address": "1029 Grayson", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278040268044, 37.8601596258661]}, "properties": {"permit_year": 2015, "permit_address": "1601 Carleton", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.250588486869, 37.8678144473789]}, "properties": {"permit_year": 2015, "permit_address": "2401 Warring", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264974587307, 37.8646185805831]}, "properties": {"permit_year": 2015, "permit_address": "2201 Dwight", "permit_units": 77, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266849312246, 37.8643148327634]}, "properties": {"permit_year": 2015, "permit_address": "2107 Dwight", "permit_units": 99, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.271826260274, 37.8640325868345]}, "properties": {"permit_year": 2015, "permit_address": "2433 Martin Luther King", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274630201622, 37.8710270217797]}, "properties": {"permit_year": 2015, "permit_address": "1808-1814 University", "permit_units": 44, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301326101718, 37.8763956848131]}, "properties": {"permit_year": 2015, "permit_address": "809 Page", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.247108836304, 37.8528549508953]}, "properties": {"permit_year": 2015, "permit_address": "120 Hillcrest", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267647810398, 37.8622966066031]}, "properties": {"permit_year": 2015, "permit_address": "2598-2600 Shattuck", "permit_units": 155, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270855999705, 37.8647050000358]}, "properties": {"permit_year": 2014, "permit_address": "1931 Haste", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264811999774, 37.8599829999156]}, "properties": {"permit_year": 2014, "permit_address": "2155 Ward", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301020000373, 37.875283999557]}, "properties": {"permit_year": 2014, "permit_address": "801 Jones", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264483599738, 37.8858388999453]}, "properties": {"permit_year": 2014, "permit_address": "1214 Glen", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.298443299718, 37.867515599965]}, "properties": {"permit_year": 2014, "permit_address": "800 University", "permit_units": 58, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268856054963, 37.8659579597921]}, "properties": {"permit_year": 2014, "permit_address": "2024 Durant", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268990800385, 37.8661931001315]}, "properties": {"permit_year": 2014, "permit_address": "2024 Durant", "permit_units": 48, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292220000153, 37.8666139999362]}, "properties": {"permit_year": 2014, "permit_address": "2125A Tenth", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.271537523038, 37.8997716080733]}, "properties": {"permit_year": 2014, "permit_address": "596 Spruce", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.257728000447, 37.8863679998834]}, "properties": {"permit_year": 2014, "permit_address": "2750 Shasta", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.257730499663, 37.8677254999319]}, "properties": {"permit_year": 2014, "permit_address": "2526 Durant", "permit_units": 42, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282441113966, 37.900062133161]}, "properties": {"permit_year": 2014, "permit_address": "462 Vincente", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28242990032, 37.900030100209]}, "properties": {"permit_year": 2014, "permit_address": "462 Vincente", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.260091800096, 37.8780654002981]}, "properties": {"permit_year": 2014, "permit_address": "2517 Virginia", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259025783313, 37.8661795752273]}, "properties": {"permit_year": 2014, "permit_address": "2441 Haste", "permit_units": 42, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.271801055874, 37.8709949312711]}, "properties": {"permit_year": 2014, "permit_address": "1935 Addison", "permit_units": 69, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259187799777, 37.8947227997175]}, "properties": {"permit_year": 2014, "permit_address": "1005 Overlook", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268983700238, 37.8944720003826]}, "properties": {"permit_year": 2014, "permit_address": "866 Regal", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268352, 37.898903]}, "properties": {"permit_year": 2018, "permit_address": "680 Cragmont Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267367, 37.872579]}, "properties": {"permit_year": 2018, "permit_address": "2131 University Ave", "permit_units": 205, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.284143, 37.858837]}, "properties": {"permit_year": 2018, "permit_address": "1316 Carleton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.246454, 37.860399]}, "properties": {"permit_year": 2018, "permit_address": "2946 Claremont Blvd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.284469, 37.861129]}, "properties": {"permit_year": 2018, "permit_address": "1319 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259033, 37.885956]}, "properties": {"permit_year": 2018, "permit_address": "2706 Shasta Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.258699, 37.864037]}, "properties": {"permit_year": 2018, "permit_address": "2597 Telegraph Ave", "permit_units": 10, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266243, 37.881035]}, "properties": {"permit_year": 2018, "permit_address": "1432 Spruce St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266223, 37.879041]}, "properties": {"permit_year": 2018, "permit_address": "2215 Cedar St", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285549, 37.857752]}, "properties": {"permit_year": 2018, "permit_address": "1222 Derby St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253224, 37.861691]}, "properties": {"permit_year": 2018, "permit_address": "2709 College Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29673, 37.860576]}, "properties": {"permit_year": 2018, "permit_address": "1222 Sixty-Sixth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29673, 37.860576]}, "properties": {"permit_year": 2018, "permit_address": "1222 Sixty-Sixth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263921, 37.853713]}, "properties": {"permit_year": 2018, "permit_address": "3087 Wheeler St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265729, 37.893862]}, "properties": {"permit_year": 2018, "permit_address": "901 Cragmont Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29673, 37.860576]}, "properties": {"permit_year": 2018, "permit_address": "1838 Sixty-Third St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.248233, 37.883726]}, "properties": {"permit_year": 2018, "permit_address": "1441 Grizzly Peak Blvd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277207, 37.902289]}, "properties": {"permit_year": 2018, "permit_address": "450 Arlington Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287786, 37.858]}, "properties": {"permit_year": 2018, "permit_address": "1113 Derby St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279655, 37.874956]}, "properties": {"permit_year": 2018, "permit_address": "1612 Virginia St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253375, 37.885709]}, "properties": {"permit_year": 2018, "permit_address": "0 Queens Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292022, 37.872105]}, "properties": {"permit_year": 2018, "permit_address": "1121 Delaware St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.269681, 37.898488]}, "properties": {"permit_year": 2018, "permit_address": "681 Spruce St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301382, 37.876892]}, "properties": {"permit_year": 2018, "permit_address": "1415 Fifth St", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301382, 37.876892]}, "properties": {"permit_year": 2018, "permit_address": "1415 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.261159, 37.859016]}, "properties": {"permit_year": 2018, "permit_address": "2312 Stuart St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282124, 37.885338]}, "properties": {"permit_year": 2018, "permit_address": "1547 Posen Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282219, 37.865197]}, "properties": {"permit_year": 2018, "permit_address": "2313 Edwards St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282219, 37.865197]}, "properties": {"permit_year": 2018, "permit_address": "2313 Edwards St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.27119, 37.888595]}, "properties": {"permit_year": 2018, "permit_address": "1040 Mariposa Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265963, 37.883568]}, "properties": {"permit_year": 2018, "permit_address": "1311 Spruce St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.284189, 37.86249]}, "properties": {"permit_year": 2018, "permit_address": "2440 Valley St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287844, 37.860167]}, "properties": {"permit_year": 2018, "permit_address": "1128 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286576, 37.86171]}, "properties": {"permit_year": 2018, "permit_address": "1229 Dwight Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286781, 37.860352]}, "properties": {"permit_year": 2018, "permit_address": "1204 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278639, 37.883673]}, "properties": {"permit_year": 2018, "permit_address": "1725 Hopkins St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.2919, 37.874971]}, "properties": {"permit_year": 2018, "permit_address": "1611 Stannage Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29085, 37.873145]}, "properties": {"permit_year": 2018, "permit_address": "1157 Francisco St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.283473, 37.85892]}, "properties": {"permit_year": 2018, "permit_address": "1330 Carleton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270993, 37.897748]}, "properties": {"permit_year": 2018, "permit_address": "715 Santa Barbara Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286291, 37.859998]}, "properties": {"permit_year": 2018, "permit_address": "1215 Parker St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.243832, 37.855256]}, "properties": {"permit_year": 2018, "permit_address": "59 The Plaza Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.297882, 37.874188]}, "properties": {"permit_year": 2018, "permit_address": "912 Cedar St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.297882, 37.874188]}, "properties": {"permit_year": 2018, "permit_address": "912 Cedar St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275504, 37.876407]}, "properties": {"permit_year": 2018, "permit_address": "1631 Grant St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280934, 37.880687]}, "properties": {"permit_year": 2018, "permit_address": "1584 Ada St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.252773, 37.890939]}, "properties": {"permit_year": 2018, "permit_address": "1175 Grizzly Peak Blvd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287786, 37.868445]}, "properties": {"permit_year": 2018, "permit_address": "1234 Addison St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.244041, 37.855245]}, "properties": {"permit_year": 2018, "permit_address": "53 The Plaza Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.255582, 37.861232]}, "properties": {"permit_year": 2018, "permit_address": "2707 Hillegass Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273033, 37.858]}, "properties": {"permit_year": 2018, "permit_address": "1801 Stuart St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.247899, 37.855799]}, "properties": {"permit_year": 2018, "permit_address": "2856 Webster St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.283638, 37.864326]}, "properties": {"permit_year": 2018, "permit_address": "2322 Acton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285588, 37.879237]}, "properties": {"permit_year": 2018, "permit_address": "1430 Acton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274387, 37.880917]}, "properties": {"permit_year": 2018, "permit_address": "1412 M L King Jr Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270646, 37.861969]}, "properties": {"permit_year": 2018, "permit_address": "1923 Parker St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292539, 37.882518]}, "properties": {"permit_year": 2018, "permit_address": "1211 Talbot Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280971, 37.860141]}, "properties": {"permit_year": 2018, "permit_address": "1440 Parker St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282632, 37.850835]}, "properties": {"permit_year": 2018, "permit_address": "1310 Haskell St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282632, 37.850835]}, "properties": {"permit_year": 2018, "permit_address": "1310 Haskell St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282632, 37.850835]}, "properties": {"permit_year": 2018, "permit_address": "1310 Haskell St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.295854, 37.874301]}, "properties": {"permit_year": 2018, "permit_address": "1611 Ninth St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.295301, 37.874018]}, "properties": {"permit_year": 2018, "permit_address": "1626 Tenth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264931, 37.884743]}, "properties": {"permit_year": 2018, "permit_address": "2257 Glen Ave", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292579, 37.865581]}, "properties": {"permit_year": 2018, "permit_address": "2212 Tenth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292579, 37.865581]}, "properties": {"permit_year": 2018, "permit_address": "2212 Tenth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262744, 37.858422]}, "properties": {"permit_year": 2018, "permit_address": "2231 Oregon St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253004, 37.881502]}, "properties": {"permit_year": 2018, "permit_address": "85 Parnassus Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28781, 37.860706]}, "properties": {"permit_year": 2018, "permit_address": "1127 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280023, 37.879607]}, "properties": {"permit_year": 2018, "permit_address": "1406 Mcgee Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.258088, 37.859034]}, "properties": {"permit_year": 2018, "permit_address": "2425 Oregon St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.249676, 37.855696]}, "properties": {"permit_year": 2018, "permit_address": "2814 Webster St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286035, 37.89416]}, "properties": {"permit_year": 2018, "permit_address": "724 Peralta Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266543, 37.88292]}, "properties": {"permit_year": 2018, "permit_address": "1330 Spruce St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270738, 37.889329]}, "properties": {"permit_year": 2018, "permit_address": "1014 Mariposa Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285079, 37.892294]}, "properties": {"permit_year": 2018, "permit_address": "826 Miramar Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.243548, 37.854463]}, "properties": {"permit_year": 2018, "permit_address": "105 Parkside Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.299567, 37.876829]}, "properties": {"permit_year": 2018, "permit_address": "847 Page St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273117, 37.875542]}, "properties": {"permit_year": 2018, "permit_address": "1711 M L King Jr Way", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285138, 37.853102]}, "properties": {"permit_year": 2018, "permit_address": "1234 Burnett St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286656, 37.881749]}, "properties": {"permit_year": 2018, "permit_address": "1218 Ordway St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277942, 37.867629]}, "properties": {"permit_year": 2018, "permit_address": "2213 Jefferson Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274373, 37.880811]}, "properties": {"permit_year": 2018, "permit_address": "1414 M L King Jr Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.249093, 37.855682]}, "properties": {"permit_year": 2018, "permit_address": "2828 Webster St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.276747, 37.874403]}, "properties": {"permit_year": 2018, "permit_address": "1724 Francisco St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29629, 37.873316]}, "properties": {"permit_year": 2018, "permit_address": "1640 Ninth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.283746, 37.858886]}, "properties": {"permit_year": 2018, "permit_address": "1322 Carleton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278377, 37.880223]}, "properties": {"permit_year": 2018, "permit_address": "1407 Cypress St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.291311, 37.87398]}, "properties": {"permit_year": 2018, "permit_address": "1157 Virginia St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279141, 37.898809]}, "properties": {"permit_year": 2018, "permit_address": "1843 San Ramon Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279767, 37.863]}, "properties": {"permit_year": 2018, "permit_address": "2431 Spaulding Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286216, 37.894152]}, "properties": {"permit_year": 2018, "permit_address": "725 Neilson St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277957, 37.885151]}, "properties": {"permit_year": 2018, "permit_address": "1707 Beverly Pl", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285343, 37.876958]}, "properties": {"permit_year": 2018, "permit_address": "1538 Acton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.294121, 37.865154]}, "properties": {"permit_year": 2018, "permit_address": "2217 Eighth St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263665, 37.886199]}, "properties": {"permit_year": 2018, "permit_address": "2374 Eunice St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.291503, 37.882078]}, "properties": {"permit_year": 2018, "permit_address": "1233 Evelyn Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285367, 37.872212]}, "properties": {"permit_year": 2018, "permit_address": "1805 Franklin St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.288729, 37.85583]}, "properties": {"permit_year": 2018, "permit_address": "1030 Grayson St", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.288729, 37.85583]}, "properties": {"permit_year": 2018, "permit_address": "1030 Grayson St", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29082, 37.877624]}, "properties": {"permit_year": 2018, "permit_address": "1444 Neilson St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28928, 37.879011]}, "properties": {"permit_year": 2018, "permit_address": "1357 Northside Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.24269, 37.854509]}, "properties": {"permit_year": 2018, "permit_address": "123 Parkside Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.250554, 37.855272]}, "properties": {"permit_year": 2018, "permit_address": "2751 Prince St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.295131, 37.864682]}, "properties": {"permit_year": 2018, "permit_address": "2223 Seventh St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29459, 37.881679]}, "properties": {"permit_year": 2018, "permit_address": "1224 Stannage Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268402, 37.880575]}, "properties": {"permit_year": 2018, "permit_address": "1444 Walnut St", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.27296, 37.879311]}, "properties": {"permit_year": 2019, "permit_address": "1506 Bonita Ave.", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282715, 37.864039]}, "properties": {"permit_year": 2019, "permit_address": "1409 Channing Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.291036, 37.877317]}, "properties": {"permit_year": 2019, "permit_address": "1461  Curtis Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278377, 37.880223]}, "properties": {"permit_year": 2018, "permit_address": "1407 Cypress Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274661, 37.868918]}, "properties": {"permit_year": 2019, "permit_address": "2145 Grant Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262797, 37.882536]}, "properties": {"permit_year": 2019, "permit_address": "1410 Hawthrone Terrace", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278171, 37.883937]}, "properties": {"permit_year": 2019, "permit_address": "1735 Hopkins Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.272961, 37.868606]}, "properties": {"permit_year": 2019, "permit_address": "2200 MLK Jr Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.293309, 37.866397]}, "properties": {"permit_year": 2019, "permit_address": "2129 Ninth Street", "permit_units": 2, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28006, 37.884387]}, "properties": {"permit_year": 2019, "permit_address": "1624 Posen Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.281262, 37.893023]}, "properties": {"permit_year": 2019, "permit_address": "1767 Tacoma Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270022, 37.871207]}, "properties": {"permit_year": 2019, "permit_address": "2009 Addison St", "permit_units": 45, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270676, 37.886866]}, "properties": {"permit_year": 2018, "permit_address": "1145 Amador Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.257658, 37.868617]}, "properties": {"permit_year": 2019, "permit_address": "2580 Bancroft Way", "permit_units": 122, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285774, 37.870912]}, "properties": {"permit_year": 2019, "permit_address": "1353 Berkeley Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.258264, 37.866743]}, "properties": {"permit_year": 2019, "permit_address": "2510 Channing Way", "permit_units": 36, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.257374, 37.864985]}, "properties": {"permit_year": 2019, "permit_address": "2524 Dwight Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253272, 37.89164]}, "properties": {"permit_year": 2019, "permit_address": "1118 Park Hills Road", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.259459, 37.883482]}, "properties": {"permit_year": 2019, "permit_address": "2606 Shasta Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.258852, 37.863912]}, "properties": {"permit_year": 2019, "permit_address": "2556 Telegraph Ave", "permit_units": 24, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.234662, 37.854065]}, "properties": {"permit_year": 2019, "permit_address": "24 Vicente Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268352, 37.898903]}, "properties": {"permit_year": 2018, "permit_address": "680 Cragmont Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.284143, 37.858837]}, "properties": {"permit_year": 2018, "permit_address": "1316 Carleton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.284469, 37.861129]}, "properties": {"permit_year": 2018, "permit_address": "1319 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266243, 37.881035]}, "properties": {"permit_year": 2018, "permit_address": "1432 Spruce St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253224, 37.861691]}, "properties": {"permit_year": 2018, "permit_address": "2709 College Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29673, 37.860576]}, "properties": {"permit_year": 2018, "permit_address": "1222 Sixty-Sixth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29673, 37.860576]}, "properties": {"permit_year": 2018, "permit_address": "1222 Sixty-Sixth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.263921, 37.853713]}, "properties": {"permit_year": 2018, "permit_address": "3087 Wheeler St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.265729, 37.893862]}, "properties": {"permit_year": 2018, "permit_address": "901 Cragmont Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29673, 37.860576]}, "properties": {"permit_year": 2018, "permit_address": "1838 Sixty-Third St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277207, 37.902289]}, "properties": {"permit_year": 2018, "permit_address": "450 Arlington Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287786, 37.858]}, "properties": {"permit_year": 2018, "permit_address": "1113 Derby St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279655, 37.874956]}, "properties": {"permit_year": 2018, "permit_address": "1612 Virginia St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253375, 37.885709]}, "properties": {"permit_year": 2018, "permit_address": "0 Queens Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292022, 37.872105]}, "properties": {"permit_year": 2018, "permit_address": "1121 Delaware St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.269681, 37.898488]}, "properties": {"permit_year": 2018, "permit_address": "681 Spruce St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301382, 37.876892]}, "properties": {"permit_year": 2018, "permit_address": "1415 Fifth St", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301382, 37.876892]}, "properties": {"permit_year": 2018, "permit_address": "1415 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282124, 37.885338]}, "properties": {"permit_year": 2018, "permit_address": "1547 Posen Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282219, 37.865197]}, "properties": {"permit_year": 2018, "permit_address": "2313 Edwards St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282219, 37.865197]}, "properties": {"permit_year": 2018, "permit_address": "2313 Edwards St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.27119, 37.888595]}, "properties": {"permit_year": 2018, "permit_address": "1040 Mariposa Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.284189, 37.86249]}, "properties": {"permit_year": 2018, "permit_address": "2440 Valley St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.287844, 37.860167]}, "properties": {"permit_year": 2018, "permit_address": "1128 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286576, 37.86171]}, "properties": {"permit_year": 2018, "permit_address": "1229 Dwight Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286781, 37.860352]}, "properties": {"permit_year": 2018, "permit_address": "1204 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.2919, 37.874971]}, "properties": {"permit_year": 2018, "permit_address": "1611 Stannage Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29085, 37.873145]}, "properties": {"permit_year": 2018, "permit_address": "1157 Francisco St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270993, 37.897748]}, "properties": {"permit_year": 2018, "permit_address": "715 Santa Barbara Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286291, 37.859998]}, "properties": {"permit_year": 2018, "permit_address": "1215 Parker St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.243832, 37.855256]}, "properties": {"permit_year": 2018, "permit_address": "59 The Plaza Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275504, 37.876407]}, "properties": {"permit_year": 2018, "permit_address": "1631 Grant St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.252773, 37.890939]}, "properties": {"permit_year": 2018, "permit_address": "1175 Grizzly Peak Blvd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.244041, 37.855245]}, "properties": {"permit_year": 2018, "permit_address": "53 The Plaza Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.255582, 37.861232]}, "properties": {"permit_year": 2018, "permit_address": "2707 Hillegass Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.273033, 37.858]}, "properties": {"permit_year": 2018, "permit_address": "1801 Stuart St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.247899, 37.855799]}, "properties": {"permit_year": 2018, "permit_address": "2856 Webster St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.283638, 37.864326]}, "properties": {"permit_year": 2018, "permit_address": "2322 Acton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285588, 37.879237]}, "properties": {"permit_year": 2018, "permit_address": "1430 Acton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.274387, 37.880917]}, "properties": {"permit_year": 2018, "permit_address": "1412 M L King Jr Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270646, 37.861969]}, "properties": {"permit_year": 2018, "permit_address": "1923 Parker St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292539, 37.882518]}, "properties": {"permit_year": 2018, "permit_address": "1211 Talbot Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280971, 37.860141]}, "properties": {"permit_year": 2018, "permit_address": "1440 Parker St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282632, 37.850835]}, "properties": {"permit_year": 2018, "permit_address": "1310 Haskell St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282632, 37.850835]}, "properties": {"permit_year": 2018, "permit_address": "1310 Haskell St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282632, 37.850835]}, "properties": {"permit_year": 2018, "permit_address": "1310 Haskell St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.295854, 37.874301]}, "properties": {"permit_year": 2018, "permit_address": "1611 Ninth St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292579, 37.865581]}, "properties": {"permit_year": 2018, "permit_address": "2212 Tenth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292579, 37.865581]}, "properties": {"permit_year": 2018, "permit_address": "2212 Tenth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262744, 37.858422]}, "properties": {"permit_year": 2018, "permit_address": "2231 Oregon St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253004, 37.881502]}, "properties": {"permit_year": 2018, "permit_address": "85 Parnassus Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.28781, 37.860706]}, "properties": {"permit_year": 2018, "permit_address": "1127 Blake St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.280023, 37.879607]}, "properties": {"permit_year": 2018, "permit_address": "1406 Mcgee Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.258088, 37.859034]}, "properties": {"permit_year": 2018, "permit_address": "2425 Oregon St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.249676, 37.855696]}, "properties": {"permit_year": 2018, "permit_address": "2814 Webster St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286035, 37.89416]}, "properties": {"permit_year": 2018, "permit_address": "724 Peralta Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266543, 37.88292]}, "properties": {"permit_year": 2018, "permit_address": "1330 Spruce St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270738, 37.889329]}, "properties": {"permit_year": 2018, "permit_address": "1014 Mariposa Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285079, 37.892294]}, "properties": {"permit_year": 2018, "permit_address": "826 Miramar Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.243548, 37.854463]}, "properties": {"permit_year": 2018, "permit_address": "105 Parkside Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.285138, 37.853102]}, "properties": {"permit_year": 2018, "permit_address": "1234 Burnett St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286656, 37.881749]}, "properties": {"permit_year": 2018, "permit_address": "1218 Ordway St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277942, 37.867629]}, "properties": {"permit_year": 2018, "permit_address": "2213 Jefferson Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.249093, 37.855682]}, "properties": {"permit_year": 2018, "permit_address": "2828 Webster St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.276747, 37.874403]}, "properties": {"permit_year": 2018, "permit_address": "1724 Francisco St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29629, 37.873316]}, "properties": {"permit_year": 2018, "permit_address": "1640 Ninth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.283746, 37.858886]}, "properties": {"permit_year": 2018, "permit_address": "1322 Carleton St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278377, 37.880223]}, "properties": {"permit_year": 2018, "permit_address": "1407 Cypress St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.291311, 37.87398]}, "properties": {"permit_year": 2018, "permit_address": "1157 Virginia St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301654, 37.875587]}, "properties": {"permit_year": 2018, "permit_address": "1446 Fifth St", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279141, 37.898809]}, "properties": {"permit_year": 2018, "permit_address": "1843 San Ramon Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.279767, 37.863]}, "properties": {"permit_year": 2018, "permit_address": "2431 Spaulding Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.286216, 37.894152]}, "properties": {"permit_year": 2018, "permit_address": "725 Neilson St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277957, 37.885151]}, "properties": {"permit_year": 2018, "permit_address": "1707 Beverly Pl", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.283504, 37.866463]}, "properties": {"permit_year": 2019, "permit_address": "2215 ACTON", "permit_units": 0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.270101, 37.902786]}, "properties": {"permit_year": 2019, "permit_address": "45 ALTA", "permit_units": 0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.301694, 37.875718]}, "properties": {"permit_year": 2019, "permit_address": "1444 FIFTH", "permit_units": 0, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.29673, 37.860576]}, "properties": {"permit_year": 2019, "permit_address": "2348 HILGARD", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.278344, 37.898635]}, "properties": {"permit_year": 2019, "permit_address": "1873 SAN RAMON ", "permit_units": 0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.297881, 37.872984]}, "properties": {"permit_year": 2020, "permit_address": "1641 SEVENTH", "permit_units": 0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267391, 37.861038]}, "properties": {"permit_year": 2019, "permit_address": "2628 SHATTUCK", "permit_units": 0, "permit_category": "5+"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276805999797,
+          37.8880779996001
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1835 MONTEREY Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279784000431,
+          37.8599290001233
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1513 CARLETON ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285428999948,
+          37.8922559998146
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "825 PERALTA Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285036999858,
+          37.8510089997656
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1211 HASKELL St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274342000383,
+          37.8897730004237
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1949 MARIN Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290579000021,
+          37.879222000395
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1365 CURTIS St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.251983999962,
+          37.8890100003113
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1234 GRIZZLY PEAK BLVD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253298000302,
+          37.8925800003668
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1120 WOODSIDE Rd",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279279999672,
+          37.8568639999737
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1522 Stuart St",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293938000238,
+          37.8719339997543
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1737 TENTH St",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270726000005,
+          37.8858890002772
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2075 EUNICE St",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.248094999585,
+          37.8857969996319
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1352 SUMMIT RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.24604400033,
+          37.8535459998481
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "52 THE UPLANDS",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.252562999683,
+          37.8553349996106
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3011 COLLEGE Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287842999755,
+          37.8647739996204
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1216 BANCROFT Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281893999708,
+          37.8628980003425
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2425 EDWARDS St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287767999893,
+          37.8592749996416
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1122 PARKER St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262876999574,
+          37.8587790001508
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2224 STUART St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.261066999742,
+          37.8557119999089
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2300 ASHBY Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275785000377,
+          37.8688660003657
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2135 ROOSEVELT Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.24608300033,
+          37.858648000405
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2954 RUSSELL St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264010999708,
+          37.8568460000429
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2152 RUSSELL St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280397999968,
+          37.8535170003094
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1421 ASHBY Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.299722999916,
+          37.8735840003014
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1626 SIXTY-SECOND St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287286000149,
+          37.8589710000117
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1133 CARLETON St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281259000103,
+          37.8773949997795
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1517 HOLLY St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278913999881,
+          37.8591369995729
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1531 DERBY St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262642999575,
+          37.8602630002373
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2241 WARD St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292079999992,
+          37.8823099998067
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1218 EVELYN Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286026999646,
+          37.8617830001854
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1245 DWIGHT Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27539999971,
+          37.8694559996947
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2118 GRANT ST",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279433999579,
+          37.8608769997738
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1527 PARKER St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273891000269,
+          37.885524999679
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1917 YOLO AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281824000078,
+          37.848388000306
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3232 IDAHO St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262722999667,
+          37.8593369998027
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2231 STUART St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269741999594,
+          37.8495560002093
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1900 HARMON St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273978999831,
+          37.8776689998246
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1600 M L KING JR WAY",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265457999887,
+          37.85716100018
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2127 RUSSELL ST",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.296337000252,
+          37.8611649995651
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2411 FIFTH St",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272973000204,
+          37.8607470000741
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1817 CARLETON ST",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285604999971,
+          37.850911999789
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1203 HASKELL St",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267981000223,
+          37.8623280001372
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2037 PARKER ST",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290850999974,
+          37.8549499998427
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2817 EIGHTH St",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271730999586,
+          37.8704580000367
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1950 Addison",
+        "permit_units": 111,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267673999555,
+          37.8616209999093
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2600 Shattuck",
+        "permit_units": 24,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26667000002,
+          37.8598649998699
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2711 Shattuck",
+        "permit_units": 22,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277745999978,
+          37.8706590003127
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1698 University",
+        "permit_units": 36,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273992999577,
+          37.8545900003283
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2935 KING St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.296813999766,
+          37.869803999555
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "905 HEARST Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275142000403,
+          37.8577120004085
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1705 STUART St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281207000403,
+          37.8837089995707
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1231 MONTEREY Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272765999651,
+          37.8573319999718
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2811 GRANT St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287468000448,
+          37.8666600002588
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1234 ALLSTON Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289384999818,
+          37.8714960002403
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1815 CURTIS St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274198000038,
+          37.8780090002152
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1837 CEDAR St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286140000361,
+          37.8548699997507
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1206 OREGON St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281830000354,
+          37.8653520001947
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2306 SACRAMENTO St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273992999577,
+          37.8720669995924
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1828 BERKELEY Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289769999586,
+          37.8741549996536
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1207 VIRGINIA St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275867999708,
+          37.8696759999475
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2115 ROOSEVELT Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27429600006,
+          37.8890969998267
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1948 MARIN Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301017000234,
+          37.8757310003854
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1449 FIFTH St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277712000209,
+          37.8654090001253
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2323 JEFFERSON Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.250411000267,
+          37.8532610001951
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3127 ETON Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.252183000145,
+          37.8546519995901
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2712 PRINCE St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.250356999576,
+          37.8579149998774
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2801 ASHBY Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29874799992,
+          37.875292999972
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "900 JONES St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286894000058,
+          37.8584850000827
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1140 CARLETON St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.246166999707,
+          37.8594980000327
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2950 AVALON Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25165700017,
+          37.862783999582
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2634 PIEDMONT Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286206999853,
+          37.8562949998145
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2744 MATHEWS St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293585000148,
+          37.8672250002336
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1004 ADDISON St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274817999851,
+          37.8806079995596
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1417 JOSEPHINE St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255190000318,
+          37.8545419999134
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3030 HILLEGASS Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301131000096,
+          37.8789440001655
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1323 SIXTY-SEVENTH St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276769999936,
+          37.8758250002236
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1729 VIRGINIA St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297825100348,
+          37.8677682995674
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "824 University Avenue",
+        "permit_units": 48,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.261081638007,
+          37.860850610967
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2324 Derby Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274418245805,
+          37.8955312686532
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "68 Southampton Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272569963633,
+          37.8866737918621
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1148 Sutter Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274304933926,
+          37.8569588253895
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1721 Oregon Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275921904172,
+          37.8571192437581
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1636 Stuart Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273926910199,
+          37.8600869075848
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2630 Grant Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.248344000275,
+          37.8619089997006
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2915 Forest Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280670892947,
+          37.8861323451317
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1734 Sonoma Avenue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289002305012,
+          37.8823279871469
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1216 Neilson Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277937893719,
+          37.8715788637736
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1640 Berkeley Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28343342771,
+          37.8580229715829
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1326 Derby Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268526347313,
+          37.8534067946879
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3040 Tremont Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285370360554,
+          37.8936568836583
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1224 Milvia Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269117999596,
+          37.8621760003222
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2011 Parker Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275925067088,
+          37.8469084131928
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1538 Sixty-Third Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295715095675,
+          37.8664798723483
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2113 Seventh Street",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.246908541996,
+          37.8824507437069
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "690 Euclid Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.256798597877,
+          37.8912691449551
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "455 Vincente Avenue",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278693910595,
+          37.8567884263448
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1524 Stuart Street",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260333637687,
+          37.8542782476431
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3046 Telegraph Avenue",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273278322736,
+          37.8517296004408
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2332 Channing Way",
+        "permit_units": 5,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282324673345,
+          37.8659807432168
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2001 Fourth Street",
+        "permit_units": 152,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271184301714,
+          37.8511456904213
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3132 Martin Luther King",
+        "permit_units": 42,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253211520595,
+          37.8554738189616
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3012 College",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288951281976,
+          37.8572999301477
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1037 Pardee",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28904831163,
+          37.8562308952397
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1029 Grayson",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278040268044,
+          37.8601596258661
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1601 Carleton",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.250588486869,
+          37.8678144473789
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2401 Warring",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264974587307,
+          37.8646185805831
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2201 Dwight",
+        "permit_units": 77,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266849312246,
+          37.8643148327634
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2107 Dwight",
+        "permit_units": 99,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271826260274,
+          37.8640325868345
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2433 Martin Luther King",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274630201622,
+          37.8710270217797
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1808-1814 University",
+        "permit_units": 44,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301326101718,
+          37.8763956848131
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "809 Page",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247108836304,
+          37.8528549508953
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "120 Hillcrest",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267647810398,
+          37.8622966066031
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2598-2600 Shattuck",
+        "permit_units": 155,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270855999705,
+          37.8647050000358
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1931 Haste",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264811999774,
+          37.8599829999156
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2155 Ward",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301020000373,
+          37.875283999557
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "801 Jones",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264483599738,
+          37.8858388999453
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1214 Glen",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298443299718,
+          37.867515599965
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "800 University",
+        "permit_units": 58,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268856054963,
+          37.8659579597921
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2024 Durant",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268990800385,
+          37.8661931001315
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2024 Durant",
+        "permit_units": 48,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292220000153,
+          37.8666139999362
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2125A Tenth",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271537523038,
+          37.8997716080733
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "596 Spruce",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.257728000447,
+          37.8863679998834
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2750 Shasta",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.257730499663,
+          37.8677254999319
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2526 Durant",
+        "permit_units": 42,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282441113966,
+          37.900062133161
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "462 Vincente",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28242990032,
+          37.900030100209
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "462 Vincente",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260091800096,
+          37.8780654002981
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2517 Virginia",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259025783313,
+          37.8661795752273
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2441 Haste",
+        "permit_units": 42,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271801055874,
+          37.8709949312711
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1935 Addison",
+        "permit_units": 69,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259187799777,
+          37.8947227997175
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1005 Overlook",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268983700238,
+          37.8944720003826
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "866 Regal",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268352,
+          37.898903
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "680 Cragmont Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267367,
+          37.872579
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2131 University Ave",
+        "permit_units": 205,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284143,
+          37.858837
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1316 Carleton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.246454,
+          37.860399
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2946 Claremont Blvd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284469,
+          37.861129
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1319 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259033,
+          37.885956
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2706 Shasta Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.258699,
+          37.864037
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2597 Telegraph Ave",
+        "permit_units": 10,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266243,
+          37.881035
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1432 Spruce St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266223,
+          37.879041
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2215 Cedar St",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285549,
+          37.857752
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1222 Derby St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253224,
+          37.861691
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2709 College Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29673,
+          37.860576
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1222 Sixty-Sixth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29673,
+          37.860576
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1222 Sixty-Sixth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263921,
+          37.853713
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3087 Wheeler St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265729,
+          37.893862
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "901 Cragmont Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29673,
+          37.860576
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1838 Sixty-Third St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.248233,
+          37.883726
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1441 Grizzly Peak Blvd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277207,
+          37.902289
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "450 Arlington Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287786,
+          37.858
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1113 Derby St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279655,
+          37.874956
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1612 Virginia St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253375,
+          37.885709
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "0 Queens Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292022,
+          37.872105
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1121 Delaware St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269681,
+          37.898488
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "681 Spruce St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301382,
+          37.876892
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1415 Fifth St",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301382,
+          37.876892
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1415 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.261159,
+          37.859016
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2312 Stuart St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282124,
+          37.885338
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1547 Posen Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282219,
+          37.865197
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2313 Edwards St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282219,
+          37.865197
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2313 Edwards St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27119,
+          37.888595
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1040 Mariposa Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265963,
+          37.883568
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1311 Spruce St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284189,
+          37.86249
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2440 Valley St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287844,
+          37.860167
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1128 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286576,
+          37.86171
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1229 Dwight Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286781,
+          37.860352
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1204 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278639,
+          37.883673
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1725 Hopkins St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2919,
+          37.874971
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1611 Stannage Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29085,
+          37.873145
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1157 Francisco St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283473,
+          37.85892
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1330 Carleton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270993,
+          37.897748
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "715 Santa Barbara Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286291,
+          37.859998
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1215 Parker St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.243832,
+          37.855256
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "59 The Plaza Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297882,
+          37.874188
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "912 Cedar St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297882,
+          37.874188
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "912 Cedar St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275504,
+          37.876407
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1631 Grant St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280934,
+          37.880687
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1584 Ada St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.252773,
+          37.890939
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1175 Grizzly Peak Blvd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287786,
+          37.868445
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1234 Addison St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.244041,
+          37.855245
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "53 The Plaza Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255582,
+          37.861232
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2707 Hillegass Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273033,
+          37.858
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1801 Stuart St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247899,
+          37.855799
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2856 Webster St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283638,
+          37.864326
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2322 Acton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285588,
+          37.879237
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1430 Acton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274387,
+          37.880917
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1412 M L King Jr Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270646,
+          37.861969
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1923 Parker St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292539,
+          37.882518
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1211 Talbot Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280971,
+          37.860141
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1440 Parker St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282632,
+          37.850835
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1310 Haskell St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282632,
+          37.850835
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1310 Haskell St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282632,
+          37.850835
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1310 Haskell St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295854,
+          37.874301
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1611 Ninth St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295301,
+          37.874018
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1626 Tenth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264931,
+          37.884743
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2257 Glen Ave",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292579,
+          37.865581
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2212 Tenth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292579,
+          37.865581
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2212 Tenth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262744,
+          37.858422
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2231 Oregon St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253004,
+          37.881502
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "85 Parnassus Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28781,
+          37.860706
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1127 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280023,
+          37.879607
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1406 Mcgee Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.258088,
+          37.859034
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2425 Oregon St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.249676,
+          37.855696
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2814 Webster St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286035,
+          37.89416
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "724 Peralta Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266543,
+          37.88292
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1330 Spruce St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270738,
+          37.889329
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1014 Mariposa Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285079,
+          37.892294
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "826 Miramar Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.243548,
+          37.854463
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "105 Parkside Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.299567,
+          37.876829
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "847 Page St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273117,
+          37.875542
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1711 M L King Jr Way",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285138,
+          37.853102
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1234 Burnett St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286656,
+          37.881749
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1218 Ordway St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277942,
+          37.867629
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2213 Jefferson Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274373,
+          37.880811
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1414 M L King Jr Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.249093,
+          37.855682
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2828 Webster St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276747,
+          37.874403
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1724 Francisco St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29629,
+          37.873316
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1640 Ninth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283746,
+          37.858886
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1322 Carleton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278377,
+          37.880223
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1407 Cypress St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291311,
+          37.87398
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1157 Virginia St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279141,
+          37.898809
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1843 San Ramon Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279767,
+          37.863
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2431 Spaulding Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286216,
+          37.894152
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "725 Neilson St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277957,
+          37.885151
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1707 Beverly Pl",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285343,
+          37.876958
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1538 Acton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294121,
+          37.865154
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2217 Eighth St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263665,
+          37.886199
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2374 Eunice St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291503,
+          37.882078
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1233 Evelyn Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285367,
+          37.872212
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1805 Franklin St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288729,
+          37.85583
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1030 Grayson St",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288729,
+          37.85583
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1030 Grayson St",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29082,
+          37.877624
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1444 Neilson St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28928,
+          37.879011
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1357 Northside Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.24269,
+          37.854509
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "123 Parkside Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.250554,
+          37.855272
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2751 Prince St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295131,
+          37.864682
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2223 Seventh St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29459,
+          37.881679
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1224 Stannage Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268402,
+          37.880575
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1444 Walnut St",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27296,
+          37.879311
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1506 Bonita Ave.",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282715,
+          37.864039
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1409 Channing Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291036,
+          37.877317
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1461  Curtis Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278377,
+          37.880223
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1407 Cypress Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274661,
+          37.868918
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2145 Grant Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262797,
+          37.882536
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1410 Hawthrone Terrace",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278171,
+          37.883937
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1735 Hopkins Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.272961,
+          37.868606
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2200 MLK Jr Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293309,
+          37.866397
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2129 Ninth Street",
+        "permit_units": 2,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28006,
+          37.884387
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1624 Posen Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281262,
+          37.893023
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1767 Tacoma Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270022,
+          37.871207
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2009 Addison St",
+        "permit_units": 45,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270676,
+          37.886866
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1145 Amador Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.257658,
+          37.868617
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2580 Bancroft Way",
+        "permit_units": 122,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285774,
+          37.870912
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1353 Berkeley Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.258264,
+          37.866743
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2510 Channing Way",
+        "permit_units": 36,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.257374,
+          37.864985
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2524 Dwight Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253272,
+          37.89164
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1118 Park Hills Road",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.259459,
+          37.883482
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2606 Shasta Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.258852,
+          37.863912
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2556 Telegraph Ave",
+        "permit_units": 24,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.234662,
+          37.854065
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "24 Vicente Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268352,
+          37.898903
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "680 Cragmont Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284143,
+          37.858837
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1316 Carleton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284469,
+          37.861129
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1319 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266243,
+          37.881035
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1432 Spruce St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253224,
+          37.861691
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2709 College Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29673,
+          37.860576
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1222 Sixty-Sixth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29673,
+          37.860576
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1222 Sixty-Sixth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263921,
+          37.853713
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3087 Wheeler St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265729,
+          37.893862
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "901 Cragmont Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29673,
+          37.860576
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1838 Sixty-Third St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277207,
+          37.902289
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "450 Arlington Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287786,
+          37.858
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1113 Derby St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279655,
+          37.874956
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1612 Virginia St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253375,
+          37.885709
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "0 Queens Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292022,
+          37.872105
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1121 Delaware St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269681,
+          37.898488
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "681 Spruce St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301382,
+          37.876892
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1415 Fifth St",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301382,
+          37.876892
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1415 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282124,
+          37.885338
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1547 Posen Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282219,
+          37.865197
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2313 Edwards St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282219,
+          37.865197
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2313 Edwards St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27119,
+          37.888595
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1040 Mariposa Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284189,
+          37.86249
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2440 Valley St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287844,
+          37.860167
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1128 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286576,
+          37.86171
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1229 Dwight Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286781,
+          37.860352
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1204 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2919,
+          37.874971
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1611 Stannage Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29085,
+          37.873145
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1157 Francisco St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270993,
+          37.897748
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "715 Santa Barbara Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286291,
+          37.859998
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1215 Parker St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.243832,
+          37.855256
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "59 The Plaza Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275504,
+          37.876407
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1631 Grant St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.252773,
+          37.890939
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1175 Grizzly Peak Blvd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.244041,
+          37.855245
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "53 The Plaza Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255582,
+          37.861232
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2707 Hillegass Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273033,
+          37.858
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1801 Stuart St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247899,
+          37.855799
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2856 Webster St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283638,
+          37.864326
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2322 Acton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285588,
+          37.879237
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1430 Acton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274387,
+          37.880917
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1412 M L King Jr Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270646,
+          37.861969
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1923 Parker St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292539,
+          37.882518
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1211 Talbot Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280971,
+          37.860141
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1440 Parker St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282632,
+          37.850835
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1310 Haskell St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282632,
+          37.850835
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1310 Haskell St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282632,
+          37.850835
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1310 Haskell St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295854,
+          37.874301
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1611 Ninth St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292579,
+          37.865581
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2212 Tenth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292579,
+          37.865581
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2212 Tenth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262744,
+          37.858422
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2231 Oregon St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253004,
+          37.881502
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "85 Parnassus Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28781,
+          37.860706
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1127 Blake St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280023,
+          37.879607
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1406 Mcgee Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.258088,
+          37.859034
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2425 Oregon St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.249676,
+          37.855696
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2814 Webster St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286035,
+          37.89416
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "724 Peralta Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266543,
+          37.88292
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1330 Spruce St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270738,
+          37.889329
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1014 Mariposa Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285079,
+          37.892294
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "826 Miramar Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.243548,
+          37.854463
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "105 Parkside Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285138,
+          37.853102
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1234 Burnett St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286656,
+          37.881749
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1218 Ordway St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277942,
+          37.867629
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2213 Jefferson Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.249093,
+          37.855682
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2828 Webster St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276747,
+          37.874403
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1724 Francisco St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29629,
+          37.873316
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1640 Ninth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283746,
+          37.858886
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1322 Carleton St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278377,
+          37.880223
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1407 Cypress St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291311,
+          37.87398
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1157 Virginia St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301654,
+          37.875587
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1446 Fifth St",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279141,
+          37.898809
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1843 San Ramon Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279767,
+          37.863
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2431 Spaulding Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286216,
+          37.894152
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "725 Neilson St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277957,
+          37.885151
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1707 Beverly Pl",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283504,
+          37.866463
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2215 ACTON",
+        "permit_units": 0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270101,
+          37.902786
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "45 ALTA",
+        "permit_units": 0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301694,
+          37.875718
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1444 FIFTH",
+        "permit_units": 0,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29673,
+          37.860576
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2348 HILGARD",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278344,
+          37.898635
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1873 SAN RAMON ",
+        "permit_units": 0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297881,
+          37.872984
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "1641 SEVENTH",
+        "permit_units": 0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267391,
+          37.861038
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2628 SHATTUCK",
+        "permit_units": 0,
+        "permit_category": "5+"
+      }
+    }
+  ]
+}

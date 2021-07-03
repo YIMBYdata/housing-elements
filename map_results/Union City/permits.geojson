@@ -1,1 +1,1701 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.028130732247, 37.5829324337848]}, "properties": {"permit_year": 2017, "permit_address": "2624 Royal Ann Dr", "permit_units": 1.0, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024533670692, 37.5807158171813]}, "properties": {"permit_year": 2017, "permit_address": "2701 Cherry Blossom Way", "permit_units": 1.0, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.08598133517, 37.5955205115624]}, "properties": {"permit_year": 2017, "permit_address": "4451 Horner St", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023177202566, 37.5948610566925]}, "properties": {"permit_year": 2017, "permit_address": "33862 13th St", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024212169356, 37.6062960741046]}, "properties": {"permit_year": 2017, "permit_address": "493 Whipple Rd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.02430353508, 37.6059755809084]}, "properties": {"permit_year": 2017, "permit_address": "495 Whipple Rd", "permit_units": 1.0, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.080965307103, 37.5978929186234]}, "properties": {"permit_year": 2017, "permit_address": "30701 Sugarmill Lane", "permit_units": 24.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.080392123298, 37.5975777584069]}, "properties": {"permit_year": 2016, "permit_address": "30891 Vallejo Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.070861399634, 37.5782987003248]}, "properties": {"permit_year": 2016, "permit_address": "4583 Carmen Way", "permit_units": 1.0, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.078091345439, 37.5730382239349]}, "properties": {"permit_year": 2015, "permit_address": "4864 Cheryl Ct", "permit_units": 1.0, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07695392968, 37.5853987309667]}, "properties": {"permit_year": 2015, "permit_address": "4516 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076856759732, 37.5855122110198]}, "properties": {"permit_year": 2015, "permit_address": "4512 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076759590683, 37.5856256901735]}, "properties": {"permit_year": 2015, "permit_address": "4508 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076662420734, 37.5857391684279]}, "properties": {"permit_year": 2015, "permit_address": "4502 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076584043918, 37.5859426975975]}, "properties": {"permit_year": 2015, "permit_address": "32200 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076432563912, 37.5858634520367]}, "properties": {"permit_year": 2015, "permit_address": "32202 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076290253392, 37.5857857901821]}, "properties": {"permit_year": 2015, "permit_address": "32206 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076147941974, 37.5857081283275]}, "properties": {"permit_year": 2015, "permit_address": "32208 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075970566888, 37.5856113297991]}, "properties": {"permit_year": 2015, "permit_address": "32210 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075758111947, 37.5854953892009]}, "properties": {"permit_year": 2015, "permit_address": "32212 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077548266439, 37.5844652202937]}, "properties": {"permit_year": 2015, "permit_address": "32203 Hall Ranch Pkwy", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075580721573, 37.5853985816793]}, "properties": {"permit_year": 2015, "permit_address": "32216 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075438412852, 37.5853209189253]}, "properties": {"permit_year": 2015, "permit_address": "32218 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075277930632, 37.585237921393]}, "properties": {"permit_year": 2015, "permit_address": "32220 Regents Blvd", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075507745186, 37.5851090332553]}, "properties": {"permit_year": 2015, "permit_address": "4501 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075605453829, 37.5849957978178]}, "properties": {"permit_year": 2015, "permit_address": "4505 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075731333734, 37.5848979893508]}, "properties": {"permit_year": 2015, "permit_address": "4509 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075828917371, 37.5847847467188]}, "properties": {"permit_year": 2015, "permit_address": "4513 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075926506403, 37.5846714968921]}, "properties": {"permit_year": 2015, "permit_address": "4517 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076024095436, 37.5845582470655]}, "properties": {"permit_year": 2015, "permit_address": "4521 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076092356677, 37.5843594726117]}, "properties": {"permit_year": 2015, "permit_address": "32211 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077734400922, 37.5845670478311]}, "properties": {"permit_year": 2015, "permit_address": "32201 Hall Ranch Pkwy", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07626728111, 37.5844478921566]}, "properties": {"permit_year": 2015, "permit_address": "32209 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076415565826, 37.5845288158522]}, "properties": {"permit_year": 2015, "permit_address": "32207 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076588184397, 37.5846249048155]}, "properties": {"permit_year": 2015, "permit_address": "32205 Gacoscos Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076373832786, 37.584749109284]}, "properties": {"permit_year": 2015, "permit_address": "4522 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076276243754, 37.5848623591106]}, "properties": {"permit_year": 2015, "permit_address": "4520 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076178654721, 37.5849756089373]}, "properties": {"permit_year": 2015, "permit_address": "4518 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076077436025, 37.5850863388635]}, "properties": {"permit_year": 2015, "permit_address": "4512 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075895162332, 37.5851528536214]}, "properties": {"permit_year": 2015, "permit_address": "4508 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.075816701879, 37.5852840161445]}, "properties": {"permit_year": 2015, "permit_address": "4502 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07634219014, 37.5855705590341]}, "properties": {"permit_year": 2015, "permit_address": "4501 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077536943975, 37.5847178533463]}, "properties": {"permit_year": 2015, "permit_address": "4540 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.07647133998, 37.5854683825598]}, "properties": {"permit_year": 2015, "permit_address": "4505 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076569020744, 37.5853551471224]}, "properties": {"permit_year": 2015, "permit_address": "4509 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076666610675, 37.5852418972958]}, "properties": {"permit_year": 2015, "permit_address": "4513 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076764198809, 37.5851286447712]}, "properties": {"permit_year": 2015, "permit_address": "4517 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076861786942, 37.5850153949445]}, "properties": {"permit_year": 2015, "permit_address": "4521 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.076959375974, 37.5849021442186]}, "properties": {"permit_year": 2015, "permit_address": "4525 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077078064001, 37.5847889447541]}, "properties": {"permit_year": 2015, "permit_address": "4529 Ellis Court", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077439775825, 37.5848313333994]}, "properties": {"permit_year": 2015, "permit_address": "4538 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077342606776, 37.5849448125531]}, "properties": {"permit_year": 2015, "permit_address": "4532 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077245437727, 37.5850582917068]}, "properties": {"permit_year": 2015, "permit_address": "4528 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077148268678, 37.5851717717599]}, "properties": {"permit_year": 2015, "permit_address": "4522 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077051098729, 37.585285251813]}, "properties": {"permit_year": 2015, "permit_address": "4520 Cabello Street", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06737244828, 37.5941071882962]}, "properties": {"permit_year": 2015, "permit_address": "3246 San Pablo Way", "permit_units": 1.0, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.016236459845, 37.5923334931962]}, "properties": {"permit_year": 2015, "permit_address": "34588 11th Street", "permit_units": 243.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004016099563, 37.5991202000372]}, "properties": {"permit_year": 2014, "permit_address": "34400 MISSION BLVD", "permit_units": 2.0, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.074809498959, 37.5665452167884]}, "properties": {"permit_year": 2014, "permit_address": "5202 DAVIS ST", "permit_units": 1.0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.031817, 37.608868]}, "properties": {"permit_year": 2018, "permit_address": "108 Teddy Drive", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.027139, 37.59641]}, "properties": {"permit_year": 2018, "permit_address": "1450 F Street ", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068324, 37.585622]}, "properties": {"permit_year": 2018, "permit_address": "32319 Cygnus Court", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.026047, 37.601983]}, "properties": {"permit_year": 2018, "permit_address": "33340 Depot Road", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025978, 37.601907]}, "properties": {"permit_year": 2018, "permit_address": "33348 Depot Road", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025961, 37.601888]}, "properties": {"permit_year": 2018, "permit_address": "33350 Depot Road", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025909, 37.601831]}, "properties": {"permit_year": 2018, "permit_address": "33356 Depot Road ", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.025839, 37.601755]}, "properties": {"permit_year": 2018, "permit_address": "33364 Depot Road", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018797, 37.596122]}, "properties": {"permit_year": 2018, "permit_address": "33950 Depot Road", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.019202, 37.596285]}, "properties": {"permit_year": 2018, "permit_address": "33952 Depot Road", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.003827, 37.597288]}, "properties": {"permit_year": 2018, "permit_address": "370 Appian Way ", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.077248, 37.57151]}, "properties": {"permit_year": 2018, "permit_address": "4864 Nadine Court", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.022416, 37.604701]}, "properties": {"permit_year": 2018, "permit_address": "33323 4th Street", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "30701 Lyric Terrace", "permit_units": 5.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "30712 Sugarmill Lane", "permit_units": 7.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33400 Eileen Terrace", "permit_units": 6.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33400 Soares Ranch Terrace", "permit_units": 4.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33401 Scarlett Terrace", "permit_units": 2.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33401 Soares Ranch Terrace", "permit_units": 7.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33404 Scarlett Terrace", "permit_units": 4.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33410 Eileen Terrace", "permit_units": 7.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33410 Scarlett Terrace", "permit_units": 5.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01913, 37.59577]}, "properties": {"permit_year": 2018, "permit_address": "33431 Madelyn Terrace", "permit_units": 6.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038783, 37.591727]}, "properties": {"permit_year": 2018, "permit_address": "33463 Alvarado-Niles Road", "permit_units": 7.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038704, 37.5917]}, "properties": {"permit_year": 2018, "permit_address": "33477 Alvarado-Niles Road", "permit_units": 5.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.036246, 37.591086]}, "properties": {"permit_year": 2018, "permit_address": "33497 Alvarado-Niles Road", "permit_units": 6.0, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.078361, 37.582737]}, "properties": {"permit_year": 2018, "permit_address": "32206 Deborah Drive", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.072125, 37.582032]}, "properties": {"permit_year": 2019, "permit_address": "32416 Regents Blvd.", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.030834, 37.590138]}, "properties": {"permit_year": 2019, "permit_address": "33799 Remington Drive ", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018233, 37.602819]}, "properties": {"permit_year": 2019, "permit_address": "33610 3rd Street", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.024035, 37.606077]}, "properties": {"permit_year": 2019, "permit_address": "495 Whipple Road", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023918, 37.606075]}, "properties": {"permit_year": 2019, "permit_address": "493 Whipple Road ", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023025, 37.594789]}, "properties": {"permit_year": 2019, "permit_address": "33874 13th Street", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023045, 37.594811]}, "properties": {"permit_year": 2019, "permit_address": "33872 13th Street", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.021824, 37.601692]}, "properties": {"permit_year": 2019, "permit_address": "33524 7th Street", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.068418, 37.593033]}, "properties": {"permit_year": 2019, "permit_address": "3286 Santa Susana ", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.06849, 37.59291]}, "properties": {"permit_year": 2019, "permit_address": "3284 Santa Susana", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.074282, 37.59742]}, "properties": {"permit_year": 2019, "permit_address": "30917 Perwinkle Dr", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.082633, 37.594963]}, "properties": {"permit_year": 2019, "permit_address": "31155 Brooklyn", "permit_units": 1.0, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.082633, 37.594943]}, "properties": {"permit_year": 2019, "permit_address": "31157 Brooklyn ", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.027268, 37.591507]}, "properties": {"permit_year": 2019, "permit_address": "1924 Tulane Street", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.067331, 37.578768]}, "properties": {"permit_year": 2019, "permit_address": "32725 Fowler Court", "permit_units": null, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.026501, 37.603441]}, "properties": {"permit_year": 2019, "permit_address": "33234 9th Street", "permit_units": 1.0, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038782, 37.592044]}, "properties": {"permit_year": 2019, "permit_address": "33426 Alvarado-Niles Rd.", "permit_units": 1.0, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038769, 37.59204]}, "properties": {"permit_year": 2019, "permit_address": "33428 Alvarado-Niles Rd. ", "permit_units": 1.0, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038756, 37.592035]}, "properties": {"permit_year": 2019, "permit_address": "33430 Alvarado-Niles Rd.", "permit_units": 1.0, "permit_category": "2 to 4 "}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.038743, 37.592031]}, "properties": {"permit_year": 2019, "permit_address": "33432 Alvarado-Niles Road", "permit_units": 1.0, "permit_category": "2 to 4 "}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.028130732247,
+          37.5829324337848
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2624 Royal Ann Dr",
+        "permit_units": 1.0,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024533670692,
+          37.5807158171813
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2701 Cherry Blossom Way",
+        "permit_units": 1.0,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.08598133517,
+          37.5955205115624
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "4451 Horner St",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023177202566,
+          37.5948610566925
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "33862 13th St",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024212169356,
+          37.6062960741046
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "493 Whipple Rd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.02430353508,
+          37.6059755809084
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "495 Whipple Rd",
+        "permit_units": 1.0,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.080965307103,
+          37.5978929186234
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "30701 Sugarmill Lane",
+        "permit_units": 24.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.080392123298,
+          37.5975777584069
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "30891 Vallejo Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070861399634,
+          37.5782987003248
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "4583 Carmen Way",
+        "permit_units": 1.0,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.078091345439,
+          37.5730382239349
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4864 Cheryl Ct",
+        "permit_units": 1.0,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07695392968,
+          37.5853987309667
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4516 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076856759732,
+          37.5855122110198
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4512 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076759590683,
+          37.5856256901735
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4508 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076662420734,
+          37.5857391684279
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4502 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076584043918,
+          37.5859426975975
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32200 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076432563912,
+          37.5858634520367
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32202 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076290253392,
+          37.5857857901821
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32206 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076147941974,
+          37.5857081283275
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32208 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075970566888,
+          37.5856113297991
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32210 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075758111947,
+          37.5854953892009
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32212 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077548266439,
+          37.5844652202937
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32203 Hall Ranch Pkwy",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075580721573,
+          37.5853985816793
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32216 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075438412852,
+          37.5853209189253
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32218 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075277930632,
+          37.585237921393
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32220 Regents Blvd",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075507745186,
+          37.5851090332553
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4501 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075605453829,
+          37.5849957978178
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4505 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075731333734,
+          37.5848979893508
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4509 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075828917371,
+          37.5847847467188
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4513 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075926506403,
+          37.5846714968921
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4517 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076024095436,
+          37.5845582470655
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4521 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076092356677,
+          37.5843594726117
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32211 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077734400922,
+          37.5845670478311
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32201 Hall Ranch Pkwy",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07626728111,
+          37.5844478921566
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32209 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076415565826,
+          37.5845288158522
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32207 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076588184397,
+          37.5846249048155
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "32205 Gacoscos Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076373832786,
+          37.584749109284
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4522 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076276243754,
+          37.5848623591106
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4520 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076178654721,
+          37.5849756089373
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4518 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076077436025,
+          37.5850863388635
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4512 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075895162332,
+          37.5851528536214
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4508 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.075816701879,
+          37.5852840161445
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4502 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07634219014,
+          37.5855705590341
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4501 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077536943975,
+          37.5847178533463
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4540 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07647133998,
+          37.5854683825598
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4505 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076569020744,
+          37.5853551471224
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4509 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076666610675,
+          37.5852418972958
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4513 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076764198809,
+          37.5851286447712
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4517 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076861786942,
+          37.5850153949445
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4521 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076959375974,
+          37.5849021442186
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4525 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077078064001,
+          37.5847889447541
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4529 Ellis Court",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077439775825,
+          37.5848313333994
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4538 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077342606776,
+          37.5849448125531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4532 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077245437727,
+          37.5850582917068
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4528 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077148268678,
+          37.5851717717599
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4522 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077051098729,
+          37.585285251813
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4520 Cabello Street",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06737244828,
+          37.5941071882962
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3246 San Pablo Way",
+        "permit_units": 1.0,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.016236459845,
+          37.5923334931962
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "34588 11th Street",
+        "permit_units": 243.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004016099563,
+          37.5991202000372
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "34400 MISSION BLVD",
+        "permit_units": 2.0,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.074809498959,
+          37.5665452167884
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "5202 DAVIS ST",
+        "permit_units": 1.0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.031817,
+          37.608868
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "108 Teddy Drive",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.027139,
+          37.59641
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1450 F Street ",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068324,
+          37.585622
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "32319 Cygnus Court",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.026047,
+          37.601983
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33340 Depot Road",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025978,
+          37.601907
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33348 Depot Road",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025961,
+          37.601888
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33350 Depot Road",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025909,
+          37.601831
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33356 Depot Road ",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.025839,
+          37.601755
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33364 Depot Road",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018797,
+          37.596122
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33950 Depot Road",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.019202,
+          37.596285
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33952 Depot Road",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.003827,
+          37.597288
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "370 Appian Way ",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.077248,
+          37.57151
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "4864 Nadine Court",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.022416,
+          37.604701
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33323 4th Street",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "30701 Lyric Terrace",
+        "permit_units": 5.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "30712 Sugarmill Lane",
+        "permit_units": 7.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33400 Eileen Terrace",
+        "permit_units": 6.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33400 Soares Ranch Terrace",
+        "permit_units": 4.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33401 Scarlett Terrace",
+        "permit_units": 2.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33401 Soares Ranch Terrace",
+        "permit_units": 7.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33404 Scarlett Terrace",
+        "permit_units": 4.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33410 Eileen Terrace",
+        "permit_units": 7.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33410 Scarlett Terrace",
+        "permit_units": 5.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01913,
+          37.59577
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33431 Madelyn Terrace",
+        "permit_units": 6.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038783,
+          37.591727
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33463 Alvarado-Niles Road",
+        "permit_units": 7.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038704,
+          37.5917
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33477 Alvarado-Niles Road",
+        "permit_units": 5.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036246,
+          37.591086
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "33497 Alvarado-Niles Road",
+        "permit_units": 6.0,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.078361,
+          37.582737
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "32206 Deborah Drive",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.072125,
+          37.582032
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "32416 Regents Blvd.",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.030834,
+          37.590138
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33799 Remington Drive ",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018233,
+          37.602819
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33610 3rd Street",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.024035,
+          37.606077
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "495 Whipple Road",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023918,
+          37.606075
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "493 Whipple Road ",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023025,
+          37.594789
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33874 13th Street",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023045,
+          37.594811
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33872 13th Street",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.021824,
+          37.601692
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33524 7th Street",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.068418,
+          37.593033
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3286 Santa Susana ",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.06849,
+          37.59291
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3284 Santa Susana",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.074282,
+          37.59742
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "30917 Perwinkle Dr",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.082633,
+          37.594963
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "31155 Brooklyn",
+        "permit_units": 1.0,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.082633,
+          37.594943
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "31157 Brooklyn ",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.027268,
+          37.591507
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1924 Tulane Street",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.067331,
+          37.578768
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "32725 Fowler Court",
+        "permit_units": null,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.026501,
+          37.603441
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33234 9th Street",
+        "permit_units": 1.0,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038782,
+          37.592044
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33426 Alvarado-Niles Rd.",
+        "permit_units": 1.0,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038769,
+          37.59204
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33428 Alvarado-Niles Rd. ",
+        "permit_units": 1.0,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038756,
+          37.592035
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33430 Alvarado-Niles Rd.",
+        "permit_units": 1.0,
+        "permit_category": "2 to 4 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.038743,
+          37.592031
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "33432 Alvarado-Niles Road",
+        "permit_units": 1.0,
+        "permit_category": "2 to 4 "
+      }
+    }
+  ]
+}

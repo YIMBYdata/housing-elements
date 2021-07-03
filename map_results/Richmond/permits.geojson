@@ -1,1 +1,4549 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.36211473131, 37.9537713751489]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.374903119583, 37.9095038428281]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 18, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.354497994287, 37.9498198512052]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.329696002568, 37.9295018558261]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.359421376895, 37.9296244370182]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.337680800628, 37.9256735785729]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.351809623016, 37.929622515167]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.319882274847, 37.9104592627848]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353982716029, 37.9461960321212]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.349508023177, 37.9443209105816]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.326378315407, 37.9305649219336]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 80, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.368968542864, 37.9378705277027]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.335078919856, 37.9297387561388]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.327718432959, 37.9359128663857]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.38142723338, 37.9227206663257]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.334305907592, 37.9460684839734]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.313655208021, 37.9037382298355]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.315719162909, 37.9138041436464]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.368338204445, 37.9507639361068]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.319375753288, 37.9158241999269]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.351548295318, 37.9493192193066]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.385793144238, 37.9246200587688]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.385798825256, 37.9246252082868]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.356207697227, 37.9187500740567]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 19, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347875197882, 37.9956368632507]}, "properties": {"permit_year": 2016, "permit_address": "5060 BAFFY CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34768261526, 37.9184023367985]}, "properties": {"permit_year": 2016, "permit_address": "901-908 JETTY DR BLDG 9", "permit_units": 8, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.383675175169, 37.9257028676932]}, "properties": {"permit_year": 2016, "permit_address": "101-103 S GARRARD", "permit_units": 27, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.365700275247, 37.951032479965]}, "properties": {"permit_year": 2016, "permit_address": "414 WILLARD AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347981565197, 37.9955485606176]}, "properties": {"permit_year": 2016, "permit_address": "5056 BAFFY CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.356801929665, 37.9454990206633]}, "properties": {"permit_year": 2016, "permit_address": "1327 ESMOND AVE A", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.361075712174, 37.9538397344162]}, "properties": {"permit_year": 2016, "permit_address": "818 GERTRUDE AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.382163019108, 37.9100655288012]}, "properties": {"permit_year": 2016, "permit_address": "1336 MALLARD DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347749311681, 37.9956560071191]}, "properties": {"permit_year": 2016, "permit_address": "5064 BAFFY CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347435665923, 37.9953204565738]}, "properties": {"permit_year": 2016, "permit_address": "5160 WAGGLE CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.309138642734, 37.9100159752571]}, "properties": {"permit_year": 2016, "permit_address": "1929 SAN BENITO ST UNIT A", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347547464244, 37.9952871285981]}, "properties": {"permit_year": 2016, "permit_address": "5156 WAGGLE CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.364216285953, 37.9292106256699]}, "properties": {"permit_year": 2016, "permit_address": "528 FLORIDA AVE (526)", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34764756868, 37.995191640382]}, "properties": {"permit_year": 2016, "permit_address": "5152 WAGGLE CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347736739159, 37.9954460217166]}, "properties": {"permit_year": 2016, "permit_address": "5157 WAGGLE CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347626765563, 37.995489170289]}, "properties": {"permit_year": 2016, "permit_address": "5161 WAGGLE CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347376226132, 37.9951115683443]}, "properties": {"permit_year": 2016, "permit_address": "5355 NIBLICK CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347273340992, 37.9951602711296]}, "properties": {"permit_year": 2016, "permit_address": "5359 NIBLICK CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.346655549914, 37.9947870605744]}, "properties": {"permit_year": 2016, "permit_address": "5420 SANDY CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347846308061, 37.9953858957426]}, "properties": {"permit_year": 2016, "permit_address": "5153 WAGGLE CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347273340992, 37.9951602711296]}, "properties": {"permit_year": 2016, "permit_address": "5351 NIBLICK CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34682857318, 37.9946635791609]}, "properties": {"permit_year": 2016, "permit_address": "5412 SANDY CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.382550390388, 37.922979330232]}, "properties": {"permit_year": 2016, "permit_address": "25 MONTANA ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348674422686, 37.9180293807514]}, "properties": {"permit_year": 2015, "permit_address": "403 JETTY DR BLD 4", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348745913393, 37.9180293591676]}, "properties": {"permit_year": 2015, "permit_address": "404 JETTY DR BLD 4", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348819917705, 37.9180344619209]}, "properties": {"permit_year": 2015, "permit_address": "405 JETTY DR BLD 4", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348525658632, 37.9182068376755]}, "properties": {"permit_year": 2015, "permit_address": "501 JETTY DR BLD 5", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348603321386, 37.9182058915887]}, "properties": {"permit_year": 2015, "permit_address": "502 JETTY DR BLD 5", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348674362432, 37.9182110294155]}, "properties": {"permit_year": 2015, "permit_address": "503 JETTY DR BLD 5", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348745852239, 37.9182110348115]}, "properties": {"permit_year": 2015, "permit_address": "504 JETTY DR BLD 5", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348819854752, 37.9182059095751]}, "properties": {"permit_year": 2015, "permit_address": "505 JETTY DR BLD 5", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.329744119895, 37.9469076629583]}, "properties": {"permit_year": 2015, "permit_address": "977 MC LAUGHLIN ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348525663129, 37.9184011460961]}, "properties": {"permit_year": 2015, "permit_address": "601 JETTY DR BLD 6", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348603330379, 37.9184020723978]}, "properties": {"permit_year": 2015, "permit_address": "602 JETTY DR BLD 6", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.328167713569, 37.9493672961638]}, "properties": {"permit_year": 2015, "permit_address": "969 MC LAUGHLIN ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.316326894171, 37.9675842504129]}, "properties": {"permit_year": 2015, "permit_address": "4046 MOZART DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348041870136, 37.9943536817771]}, "properties": {"permit_year": 2015, "permit_address": "5317 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.362084059032, 37.9454046539017]}, "properties": {"permit_year": 2015, "permit_address": "849 8TH ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348002121001, 37.994129321611]}, "properties": {"permit_year": 2015, "permit_address": "5324 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34822984643, 37.9944727367275]}, "properties": {"permit_year": 2015, "permit_address": "5309 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348624862847, 37.994482897268]}, "properties": {"permit_year": 2015, "permit_address": "5300 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348327646803, 37.9945360121273]}, "properties": {"permit_year": 2015, "permit_address": "5305 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348430588601, 37.9946307071415]}, "properties": {"permit_year": 2015, "permit_address": "5301 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347900726937, 37.9943156683335]}, "properties": {"permit_year": 2015, "permit_address": "5321 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.364501376437, 37.9522815789318]}, "properties": {"permit_year": 2015, "permit_address": "1301 KELSEY ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.355205782321, 37.9867308167738]}, "properties": {"permit_year": 2015, "permit_address": "604 THOMAS DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.349918275008, 37.9248958106932]}, "properties": {"permit_year": 2015, "permit_address": "2012 CUTTING BLVD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348141777621, 37.9944064503974]}, "properties": {"permit_year": 2015, "permit_address": "5313 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348147441551, 37.9941643016413]}, "properties": {"permit_year": 2015, "permit_address": "5320 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.351675897425, 37.9329304635701]}, "properties": {"permit_year": 2015, "permit_address": "125 19TH ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348257731709, 37.9942039122808]}, "properties": {"permit_year": 2015, "permit_address": "5316 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348358043889, 37.9942612647456]}, "properties": {"permit_year": 2015, "permit_address": "5312 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348438890243, 37.9943282543455]}, "properties": {"permit_year": 2015, "permit_address": "5308 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348524349219, 37.9943895422437]}, "properties": {"permit_year": 2015, "permit_address": "5304 CLUB CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.31383751409, 37.9041387204256]}, "properties": {"permit_year": 2015, "permit_address": "5305 SACRAMENTO AVE", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348525760256, 37.9174731428713]}, "properties": {"permit_year": 2015, "permit_address": "101 JETTY DR BLD 1", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34860342301, 37.9174721958852]}, "properties": {"permit_year": 2015, "permit_address": "102 JETTY DR BLD 1", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348674465854, 37.9174773319134]}, "properties": {"permit_year": 2015, "permit_address": "103 JETTY DR BLD 1", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348745955661, 37.9174773409066]}, "properties": {"permit_year": 2015, "permit_address": "104 JETTY DR BLD 1", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348819957275, 37.917472214771]}, "properties": {"permit_year": 2015, "permit_address": "105 JETTY DR BLD 1", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348525769249, 37.9176674503926]}, "properties": {"permit_year": 2015, "permit_address": "201 JETTY DR BLD 2", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.3486034356, 37.917668375795]}, "properties": {"permit_year": 2015, "permit_address": "202 JETTY DR BLD 2", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348674474847, 37.917663223579]}, "properties": {"permit_year": 2015, "permit_address": "203 JETTY DR BLD 2", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348745964655, 37.9176632001966]}, "properties": {"permit_year": 2015, "permit_address": "204 JETTY DR BLD 2", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348819969866, 37.9176683074465]}, "properties": {"permit_year": 2015, "permit_address": "205 JETTY DR BLD 2", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348525709894, 37.9178406796037]}, "properties": {"permit_year": 2015, "permit_address": "301 JETTY DR BLD 3", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348603372648, 37.9178397326176]}, "properties": {"permit_year": 2015, "permit_address": "302 JETTY DR BLD 3", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348674416391, 37.9178448722431]}, "properties": {"permit_year": 2015, "permit_address": "303 JETTY DR BLD 3", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.3487459044, 37.9178448767397]}, "properties": {"permit_year": 2015, "permit_address": "304 JETTY DR BLD 3", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348819906014, 37.917839753302]}, "properties": {"permit_year": 2015, "permit_address": "305 JETTY DR BLD 3", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348525717088, 37.9180336066657]}, "properties": {"permit_year": 2015, "permit_address": "401 JETTY DR BLD 4", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348603384339, 37.9180345338667]}, "properties": {"permit_year": 2015, "permit_address": "402 JETTY DR BLD 4", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348674373224, 37.9183969192824]}, "properties": {"permit_year": 2015, "permit_address": "603 JETTY DR BLD 6", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348745862132, 37.9183968959001]}, "properties": {"permit_year": 2015, "permit_address": "604 JETTY DR BLD 6", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348819867343, 37.9184020022507]}, "properties": {"permit_year": 2015, "permit_address": "605 JETTY DR BLD 6", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348271637026, 37.918435016363]}, "properties": {"permit_year": 2015, "permit_address": "701 JETTY DR BLD 7", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348183936939, 37.9184359588525]}, "properties": {"permit_year": 2015, "permit_address": "702 JETTY DR BLD 7", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348225829159, 37.9183707067428]}, "properties": {"permit_year": 2015, "permit_address": "703 JETTY DR BLD 7", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348219359436, 37.9183144055854]}, "properties": {"permit_year": 2015, "permit_address": "704 JETTY DR BLD 7", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348219371127, 37.9182577725782]}, "properties": {"permit_year": 2015, "permit_address": "705 JETTY DR BLD 7", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34822625184, 37.9181987833472]}, "properties": {"permit_year": 2015, "permit_address": "706 JETTY DR BLD 7", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348226267129, 37.918109299005]}, "properties": {"permit_year": 2015, "permit_address": "801 JETTY DR BLD 8", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348219400805, 37.918050309774]}, "properties": {"permit_year": 2015, "permit_address": "802 JETTY DR BLD 8", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348217033789, 37.9179936138143]}, "properties": {"permit_year": 2015, "permit_address": "803 JETTY DR BLD 8", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348217539208, 37.9179363845565]}, "properties": {"permit_year": 2015, "permit_address": "804 JETTY DR BLD 8", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348184019677, 37.9178721163051]}, "properties": {"permit_year": 2015, "permit_address": "805 JETTY DR BLD 8", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348271719764, 37.9178730749825]}, "properties": {"permit_year": 2015, "permit_address": "806 JETTY DR BLD 8", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347595147198, 37.9176836876521]}, "properties": {"permit_year": 2015, "permit_address": "1101 MARITIME WAY BLD 11", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34767110214, 37.9176794167717]}, "properties": {"permit_year": 2015, "permit_address": "1102 MARITIME WAY BLD 11", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347742590148, 37.917679423067]}, "properties": {"permit_year": 2015, "permit_address": "1103 MARITIME WAY BLD 11", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347813631194, 37.9176846085579]}, "properties": {"permit_year": 2015, "permit_address": "1104 MARITIME WAY BLD 11", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347885871036, 37.9176845662898]}, "properties": {"permit_year": 2015, "permit_address": "1105 MARITIME WAY BLD 11", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347967044743, 37.9177208710215]}, "properties": {"permit_year": 2015, "permit_address": "1106 MARITIME WAY BLD 11", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347968254331, 37.9176513956954]}, "properties": {"permit_year": 2015, "permit_address": "1107 MARITIME WAY BLD 11", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347189015161, 37.9176835941227]}, "properties": {"permit_year": 2015, "permit_address": "1701 MARITIME WAY BLD 17", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347265512393, 37.9176793781008]}, "properties": {"permit_year": 2015, "permit_address": "1702 MARITIME WAY BLD 17", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347336998604, 37.9176793852955]}, "properties": {"permit_year": 2015, "permit_address": "1703 MARITIME WAY BLD 17", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347408041448, 37.917684522223]}, "properties": {"permit_year": 2015, "permit_address": "1704 MARITIME WAY BLD 17", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347483605184, 37.9176846202491]}, "properties": {"permit_year": 2015, "permit_address": "1705 MARITIME WAY BLD 17", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347214476767, 37.9174244769581]}, "properties": {"permit_year": 2015, "permit_address": "1801 MARITIME WAY", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347213298655, 37.9174939531835]}, "properties": {"permit_year": 2015, "permit_address": "1802 MARITIME WAY", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347295660366, 37.91746082126]}, "properties": {"permit_year": 2015, "permit_address": "1803 MARITIME WAY", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347366728392, 37.9174659563888]}, "properties": {"permit_year": 2015, "permit_address": "1804 MARITIME WAY", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347438218199, 37.9174659626841]}, "properties": {"permit_year": 2015, "permit_address": "1805 MARITIME WAY", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347512681165, 37.9174605235843]}, "properties": {"permit_year": 2015, "permit_address": "1806 MARITIME WAY", "permit_units": 1, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.366396999822, 37.9415969999017]}, "properties": {"permit_year": 2014, "permit_address": "664 3RD ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.366048999961, 37.9410960001803]}, "properties": {"permit_year": 2014, "permit_address": "637 4TH ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.316834000289, 37.9587250001587]}, "properties": {"permit_year": 2014, "permit_address": "6333 JERILYNN AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.364496848351, 37.952232880643]}, "properties": {"permit_year": 2014, "permit_address": "441 SANFORD", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.321849000431, 37.9325869998902]}, "properties": {"permit_year": 2014, "permit_address": "322 KEY BLVD", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.363256999811, 37.9517260002548]}, "properties": {"permit_year": 2014, "permit_address": "580 SANFORD AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.349296599758, 37.922831100375]}, "properties": {"permit_year": 2014, "permit_address": "656 S 21ST ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347998330359, 37.9174272432727]}, "properties": {"permit_year": 2014, "permit_address": "1007 MARITIME WAY BLDG 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347627345625, 37.917466842221]}, "properties": {"permit_year": 2014, "permit_address": "1001 MARITIME WAY BLDG 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347700342697, 37.9174686678448]}, "properties": {"permit_year": 2014, "permit_address": "1002 MARITIME WAY BLDG 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347771721887, 37.9174650552681]}, "properties": {"permit_year": 2014, "permit_address": "1003 MARITIME WAY BLDG 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347845581408, 37.9174634859511]}, "properties": {"permit_year": 2014, "permit_address": "1004 MARITIME WAY BLDG 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347915395779, 37.9174630102098]}, "properties": {"permit_year": 2014, "permit_address": "1005 MARITIME WAY BLDG 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347999662255, 37.9174939702706]}, "properties": {"permit_year": 2014, "permit_address": "1006 MARITIME WAY BLDG 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.347627345625, 37.917466842221]}, "properties": {"permit_year": 2014, "permit_address": "1001-1007 MARITIME WAY BLD 10", "permit_units": 7, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348404493872, 37.9179351111165]}, "properties": {"permit_year": 2014, "permit_address": "Jetty Dr Richmond, CA 94804", "permit_units": 75, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.349406, 37.936228]}, "properties": {"permit_year": 2018, "permit_address": "344 21ST ST", "permit_units": 128, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.349045, 37.936585]}, "properties": {"permit_year": 2018, "permit_address": "2100 NEVIN AVE", "permit_units": 143, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.373806, 37.909967]}, "properties": {"permit_year": 2018, "permit_address": "SEACLIFF DR", "permit_units": 25, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.373806, 37.909967]}, "properties": {"permit_year": 2018, "permit_address": "SEACLIFF DR", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.363116, 37.942826]}, "properties": {"permit_year": 2018, "permit_address": "611 PENNSYLVANIA AVE", "permit_units": 2, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.333142, 37.937212]}, "properties": {"permit_year": 2018, "permit_address": "536 37TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.365493, 37.941604]}, "properties": {"permit_year": 2018, "permit_address": "664 4TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.379543, 37.907483]}, "properties": {"permit_year": 2018, "permit_address": "1461 SANDPIPER SPIT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.350005, 37.922399]}, "properties": {"permit_year": 2018, "permit_address": "2008 HOFFMAN BLVD", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.363116, 37.942826]}, "properties": {"permit_year": 2018, "permit_address": "611 PENNSYLVANIA AVE", "permit_units": 2, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.356025, 37.92459]}, "properties": {"permit_year": 2018, "permit_address": "MARINA WAY SOUTH", "permit_units": 61, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.356025, 37.92459]}, "properties": {"permit_year": 2018, "permit_address": "MARINA WAY SOUTH ", "permit_units": 42, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.363688, 37.941208]}, "properties": {"permit_year": 2018, "permit_address": "641 6TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.365877, 37.953153]}, "properties": {"permit_year": 2018, "permit_address": "408 ALAMO AVE", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.373806, 37.909967]}, "properties": {"permit_year": 2018, "permit_address": "SEACLIFF DR", "permit_units": 13, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348926, 37.941565]}, "properties": {"permit_year": 2018, "permit_address": "2111 GRANT AVE", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.342672, 37.925462]}, "properties": {"permit_year": 2018, "permit_address": "2801 CUTTING BLVD", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.366911, 37.938189]}, "properties": {"permit_year": 2018, "permit_address": "230 BARRETT AVE", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.333105, 37.928417]}, "properties": {"permit_year": 2018, "permit_address": "251 S 39TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.3657, 37.951037]}, "properties": {"permit_year": 2018, "permit_address": "414 WILLARD AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.324807, 37.942657]}, "properties": {"permit_year": 2018, "permit_address": "738A VENTURA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.323603, 37.935103]}, "properties": {"permit_year": 2018, "permit_address": "470 A MC LAUGHLIN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.350005, 37.922399]}, "properties": {"permit_year": 2018, "permit_address": "2008 HOFFMAN BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.30617, 37.903721]}, "properties": {"permit_year": 2018, "permit_address": "2911 CARLSON BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.321287, 37.941188]}, "properties": {"permit_year": 2018, "permit_address": "679 KERN ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.365493, 37.941063]}, "properties": {"permit_year": 2018, "permit_address": "634A 4TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.318404, 37.941641]}, "properties": {"permit_year": 2018, "permit_address": "662 SONOMA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.324019, 37.93675]}, "properties": {"permit_year": 2018, "permit_address": "555A KEY BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.277071, 37.969104]}, "properties": {"permit_year": 2018, "permit_address": "5254 HEAVENLY RIDGE LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.307827, 37.90752]}, "properties": {"permit_year": 2018, "permit_address": "6101A PANAMA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.359318, 37.940902]}, "properties": {"permit_year": 2018, "permit_address": "651 11TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.369266, 37.939453]}, "properties": {"permit_year": 2018, "permit_address": "608A S 49TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.322941, 37.926388]}, "properties": {"permit_year": 2018, "permit_address": "379 S 50TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.356058, 37.94232]}, "properties": {"permit_year": 2018, "permit_address": "1409-A PENNSYLVANIA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.343164, 37.934087]}, "properties": {"permit_year": 2018, "permit_address": "239-A MURDOCK ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.342016, 37.94943]}, "properties": {"permit_year": 2018, "permit_address": "2703-A LOWELL AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.292482, 37.970012]}, "properties": {"permit_year": 2018, "permit_address": "4596-A SANTA RITA RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.335943, 37.97324]}, "properties": {"permit_year": 2018, "permit_address": "3033-A BIRMINGHAM DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.365698, 37.953565]}, "properties": {"permit_year": 2018, "permit_address": "411 ALAMO AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.385873, 37.924712]}, "properties": {"permit_year": 2018, "permit_address": "9 A NICHOLL AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.355019, 37.948337]}, "properties": {"permit_year": 2018, "permit_address": "1519A HELLINGS AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.367371, 37.9345]}, "properties": {"permit_year": 2018, "permit_address": "222A 2ND ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.336103, 37.940664]}, "properties": {"permit_year": 2018, "permit_address": "662A 33RD ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.308554, 37.909095]}, "properties": {"permit_year": 2018, "permit_address": "6112-A SUTTER AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.364587, 37.941997]}, "properties": {"permit_year": 2018, "permit_address": "687A 5TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.345763, 37.948703]}, "properties": {"permit_year": 2018, "permit_address": "2369A HUMPHREY AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.384032, 37.947523]}, "properties": {"permit_year": 2018, "permit_address": "148A S 21ST ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.335486, 37.927145]}, "properties": {"permit_year": 2018, "permit_address": "345 S 36TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.369573, 37.937624]}, "properties": {"permit_year": 2018, "permit_address": "4243A CENTER AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.32247, 37.945518]}, "properties": {"permit_year": 2018, "permit_address": "5520A GARVIN AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.384032, 37.947523]}, "properties": {"permit_year": 2018, "permit_address": "244A S 12TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.343328, 37.946848]}, "properties": {"permit_year": 2018, "permit_address": "2548-A MC BRYDE AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.314499, 37.902595]}, "properties": {"permit_year": 2018, "permit_address": "5116A FRESNO AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.322848, 37.944452]}, "properties": {"permit_year": 2018, "permit_address": "769A KERN ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.309375, 37.906819]}, "properties": {"permit_year": 2018, "permit_address": "5829 A PANAMA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.342633, 37.931619]}, "properties": {"permit_year": 2018, "permit_address": "2736A CHANSLOR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.336889, 37.951093]}, "properties": {"permit_year": 2018, "permit_address": "3106 A TULARE AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.341329, 37.948274]}, "properties": {"permit_year": 2018, "permit_address": "2736A HUMPHREY AVENUE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.369273, 37.93764]}, "properties": {"permit_year": 2018, "permit_address": "450A MOUNT ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.357401, 37.940843]}, "properties": {"permit_year": 2018, "permit_address": "625A 13TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.323571, 37.936003]}, "properties": {"permit_year": 2018, "permit_address": "5029A BARRETT AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.355935, 37.94647]}, "properties": {"permit_year": 2018, "permit_address": "1416A VISALIA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.368247, 37.932216]}, "properties": {"permit_year": 2018, "permit_address": "112-A CHANSLOR AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.358726, 37.933093]}, "properties": {"permit_year": 2018, "permit_address": "130-A 11TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.310683, 37.906571]}, "properties": {"permit_year": 2018, "permit_address": "5718-A HUNTINGTON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.348868, 37.922691]}, "properties": {"permit_year": 2019, "permit_address": "2131A HOFFMAN BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.32782, 37.947842]}, "properties": {"permit_year": 2019, "permit_address": "5134-A MC BRYDE AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353375, 37.922307]}, "properties": {"permit_year": 2019, "permit_address": "1606A HOFFMAN BLVD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.354627, 37.927844]}, "properties": {"permit_year": 2019, "permit_address": "1500A MAINE AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.282985, 37.97388]}, "properties": {"permit_year": 2019, "permit_address": "3606-A MAY RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.341743, 37.94385]}, "properties": {"permit_year": 2019, "permit_address": "2717-A GARVIN AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.33629, 37.938706]}, "properties": {"permit_year": 2019, "permit_address": "3319A ROOSEVELT AVE", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.381668, 37.922782]}, "properties": {"permit_year": 2019, "permit_address": "240A BUENA VISTA AVE", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.333515, 37.942267]}, "properties": {"permit_year": 2019, "permit_address": "733-A 36TH ST", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.293244, 37.971669]}, "properties": {"permit_year": 2019, "permit_address": "4503-A GREGORY WAY", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.342043, 37.945379]}, "properties": {"permit_year": 2019, "permit_address": "2705 A ESMOND AVE", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.318881, 37.940665]}, "properties": {"permit_year": 2019, "permit_address": "5626-A SIERRA AVE", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.352828, 37.924901]}, "properties": {"permit_year": 2019, "permit_address": "1700A CUTTING BLVD", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.360562, 37.945328]}, "properties": {"permit_year": 2019, "permit_address": "852-852-A 9TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.360562, 37.945328]}, "properties": {"permit_year": 2019, "permit_address": "852-852-A 9TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.343558, 37.938718]}, "properties": {"permit_year": 2019, "permit_address": "538-A CIVIC CENTER ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.331223, 37.940153]}, "properties": {"permit_year": 2019, "permit_address": "665-A 39TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.321143, 37.939879]}, "properties": {"permit_year": 2019, "permit_address": "642A AMADOR ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.349792, 37.940832]}, "properties": {"permit_year": 2019, "permit_address": "623A 21ST ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.321538, 37.97532]}, "properties": {"permit_year": 2019, "permit_address": "3116-A JO ANN DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.391123, 37.926771]}, "properties": {"permit_year": 2019, "permit_address": "435-A TREMONT AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.331979, 37.948319]}, "properties": {"permit_year": 2019, "permit_address": "3626-A NATALIE CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.36622, 37.954526]}, "properties": {"permit_year": 2019, "permit_address": "328-A CHESLEY AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.329321, 37.940886]}, "properties": {"permit_year": 2019, "permit_address": "4017A CLINTON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.308257, 37.908911]}, "properties": {"permit_year": 2019, "permit_address": "6115A SANTA CRUZ AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.326301, 37.942059]}, "properties": {"permit_year": 2019, "permit_address": "733-A LASSEN ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.346094, 37.946124]}, "properties": {"permit_year": 2019, "permit_address": "2354-B LINCOLN AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.345368, 37.92724]}, "properties": {"permit_year": 2019, "permit_address": "334-A S 25TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.34096, 37.936951]}, "properties": {"permit_year": 2019, "permit_address": "451-A 29TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.354134, 37.940725]}, "properties": {"permit_year": 2019, "permit_address": "618-A 16TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.331233, 37.935914]}, "properties": {"permit_year": 2019, "permit_address": "477-A 40TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.331328, 37.972562]}, "properties": {"permit_year": 2019, "permit_address": "3021-A SHANE DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.330446, 37.943143]}, "properties": {"permit_year": 2019, "permit_address": "761-A 39TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.365029, 37.938947]}, "properties": {"permit_year": 2019, "permit_address": "525 5TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.32395, 37.945822]}, "properties": {"permit_year": 2019, "permit_address": "820-A AMADOR ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.316503, 37.913315]}, "properties": {"permit_year": 2019, "permit_address": "1510-A SANTA CLARA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.352746, 37.941591]}, "properties": {"permit_year": 2019, "permit_address": "643-A 18TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.314884, 37.918141]}, "properties": {"permit_year": 2019, "permit_address": "5717-A MADISON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.312569, 37.906279]}, "properties": {"permit_year": 2019, "permit_address": "5529-A HUNTINGTON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.351209, 37.937261]}, "properties": {"permit_year": 2019, "permit_address": "420-A 19TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.332226, 37.941283]}, "properties": {"permit_year": 2019, "permit_address": "3715-A CLINTON AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.362528, 37.929203]}, "properties": {"permit_year": 2019, "permit_address": "716-A FLORIDA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.322342, 37.937433]}, "properties": {"permit_year": 2019, "permit_address": "551A CLIFF LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.253921, 37.967329]}, "properties": {"permit_year": 2019, "permit_address": "5401 HACKNEY LN", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.352893, 37.919781]}, "properties": {"permit_year": 2019, "permit_address": "1650 HARBOR LIGHTS ROAD", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.354135, 37.988244]}, "properties": {"permit_year": 2019, "permit_address": "800 BANKS DR", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.367244, 37.928571]}, "properties": {"permit_year": 2019, "permit_address": "247 S 3RD ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.293379, 37.966325]}, "properties": {"permit_year": 2019, "permit_address": "2472 DIANE DR", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.384032, 37.947523]}, "properties": {"permit_year": 2019, "permit_address": "852-852A 7TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.344262, 37.943487]}, "properties": {"permit_year": 2019, "permit_address": "2520 GARVIN AVE", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.333105, 37.928417]}, "properties": {"permit_year": 2019, "permit_address": "251 S 39TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.333105, 37.928417]}, "properties": {"permit_year": 2019, "permit_address": "251 S 39TH ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.384032, 37.947523]}, "properties": {"permit_year": 2019, "permit_address": "258 & 258A WILLARD AVE", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.384032, 37.947523]}, "properties": {"permit_year": 2019, "permit_address": "258 & 258A WILLARD AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353408, 37.920658]}, "properties": {"permit_year": 2019, "permit_address": "1582 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353412, 37.920718]}, "properties": {"permit_year": 2019, "permit_address": "1588 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353412, 37.920785]}, "properties": {"permit_year": 2019, "permit_address": "1592 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353411, 37.920844]}, "properties": {"permit_year": 2019, "permit_address": "1596 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353637, 37.920842]}, "properties": {"permit_year": 2019, "permit_address": "1558 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353634, 37.920783]}, "properties": {"permit_year": 2019, "permit_address": "1564 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353633, 37.920716]}, "properties": {"permit_year": 2019, "permit_address": "1566 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353635, 37.920656]}, "properties": {"permit_year": 2019, "permit_address": "1572 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.352918, 37.92083]}, "properties": {"permit_year": 2019, "permit_address": "1642 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.35299, 37.92083]}, "properties": {"permit_year": 2019, "permit_address": "1636 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353063, 37.92083]}, "properties": {"permit_year": 2019, "permit_address": "1628 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353135, 37.92083]}, "properties": {"permit_year": 2019, "permit_address": "1620 SEAWIND DRIVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353129, 37.920653]}, "properties": {"permit_year": 2019, "permit_address": "1623 PORTSIDE WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.353058, 37.920652]}, "properties": {"permit_year": 2019, "permit_address": "1631 PORTSIDE WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.352916, 37.920653]}, "properties": {"permit_year": 2019, "permit_address": "1647 PORTSIDE WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.352987, 37.920652]}, "properties": {"permit_year": 2019, "permit_address": "1639 PORTSIDE WAY", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.384032, 37.947523]}, "properties": {"permit_year": 2019, "permit_address": "100-100A MAINE ST", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.384032, 37.947523]}, "properties": {"permit_year": 2019, "permit_address": "852-852A 7TH ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.350932, 37.926855]}, "properties": {"permit_year": 2019, "permit_address": "1911 VIRGINIA AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.349967, 37.946195]}, "properties": {"permit_year": 2019, "permit_address": "2005 LINCOLN AVE", "permit_units": 1, "permit_category": "ADU"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.36211473131,
+          37.9537713751489
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.374903119583,
+          37.9095038428281
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 18,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.354497994287,
+          37.9498198512052
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329696002568,
+          37.9295018558261
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359421376895,
+          37.9296244370182
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337680800628,
+          37.9256735785729
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.351809623016,
+          37.929622515167
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319882274847,
+          37.9104592627848
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353982716029,
+          37.9461960321212
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349508023177,
+          37.9443209105816
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.326378315407,
+          37.9305649219336
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 80,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.368968542864,
+          37.9378705277027
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.335078919856,
+          37.9297387561388
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.327718432959,
+          37.9359128663857
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38142723338,
+          37.9227206663257
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.334305907592,
+          37.9460684839734
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313655208021,
+          37.9037382298355
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315719162909,
+          37.9138041436464
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.368338204445,
+          37.9507639361068
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319375753288,
+          37.9158241999269
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.351548295318,
+          37.9493192193066
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385793144238,
+          37.9246200587688
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385798825256,
+          37.9246252082868
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356207697227,
+          37.9187500740567
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 19,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347875197882,
+          37.9956368632507
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5060 BAFFY CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34768261526,
+          37.9184023367985
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "901-908 JETTY DR BLDG 9",
+        "permit_units": 8,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.383675175169,
+          37.9257028676932
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "101-103 S GARRARD",
+        "permit_units": 27,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.365700275247,
+          37.951032479965
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "414 WILLARD AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347981565197,
+          37.9955485606176
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5056 BAFFY CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356801929665,
+          37.9454990206633
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1327 ESMOND AVE A",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.361075712174,
+          37.9538397344162
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "818 GERTRUDE AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.382163019108,
+          37.9100655288012
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1336 MALLARD DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347749311681,
+          37.9956560071191
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5064 BAFFY CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347435665923,
+          37.9953204565738
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5160 WAGGLE CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.309138642734,
+          37.9100159752571
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1929 SAN BENITO ST UNIT A",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347547464244,
+          37.9952871285981
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5156 WAGGLE CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364216285953,
+          37.9292106256699
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "528 FLORIDA AVE (526)",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34764756868,
+          37.995191640382
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5152 WAGGLE CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347736739159,
+          37.9954460217166
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5157 WAGGLE CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347626765563,
+          37.995489170289
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5161 WAGGLE CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347376226132,
+          37.9951115683443
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5355 NIBLICK CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347273340992,
+          37.9951602711296
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5359 NIBLICK CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.346655549914,
+          37.9947870605744
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5420 SANDY CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347846308061,
+          37.9953858957426
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5153 WAGGLE CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347273340992,
+          37.9951602711296
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5351 NIBLICK CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34682857318,
+          37.9946635791609
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "5412 SANDY CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.382550390388,
+          37.922979330232
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "25 MONTANA ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348674422686,
+          37.9180293807514
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "403 JETTY DR BLD 4",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348745913393,
+          37.9180293591676
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "404 JETTY DR BLD 4",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348819917705,
+          37.9180344619209
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "405 JETTY DR BLD 4",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348525658632,
+          37.9182068376755
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "501 JETTY DR BLD 5",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348603321386,
+          37.9182058915887
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "502 JETTY DR BLD 5",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348674362432,
+          37.9182110294155
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "503 JETTY DR BLD 5",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348745852239,
+          37.9182110348115
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "504 JETTY DR BLD 5",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348819854752,
+          37.9182059095751
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "505 JETTY DR BLD 5",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329744119895,
+          37.9469076629583
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "977 MC LAUGHLIN ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348525663129,
+          37.9184011460961
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "601 JETTY DR BLD 6",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348603330379,
+          37.9184020723978
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "602 JETTY DR BLD 6",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328167713569,
+          37.9493672961638
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "969 MC LAUGHLIN ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316326894171,
+          37.9675842504129
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "4046 MOZART DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348041870136,
+          37.9943536817771
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5317 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.362084059032,
+          37.9454046539017
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "849 8TH ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348002121001,
+          37.994129321611
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5324 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34822984643,
+          37.9944727367275
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5309 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348624862847,
+          37.994482897268
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5300 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348327646803,
+          37.9945360121273
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5305 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348430588601,
+          37.9946307071415
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5301 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347900726937,
+          37.9943156683335
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5321 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364501376437,
+          37.9522815789318
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1301 KELSEY ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.355205782321,
+          37.9867308167738
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "604 THOMAS DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349918275008,
+          37.9248958106932
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2012 CUTTING BLVD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348141777621,
+          37.9944064503974
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5313 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348147441551,
+          37.9941643016413
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5320 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.351675897425,
+          37.9329304635701
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "125 19TH ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348257731709,
+          37.9942039122808
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5316 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348358043889,
+          37.9942612647456
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5312 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348438890243,
+          37.9943282543455
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5308 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348524349219,
+          37.9943895422437
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5304 CLUB CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31383751409,
+          37.9041387204256
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5305 SACRAMENTO AVE",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348525760256,
+          37.9174731428713
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "101 JETTY DR BLD 1",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34860342301,
+          37.9174721958852
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "102 JETTY DR BLD 1",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348674465854,
+          37.9174773319134
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "103 JETTY DR BLD 1",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348745955661,
+          37.9174773409066
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "104 JETTY DR BLD 1",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348819957275,
+          37.917472214771
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "105 JETTY DR BLD 1",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348525769249,
+          37.9176674503926
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "201 JETTY DR BLD 2",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3486034356,
+          37.917668375795
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "202 JETTY DR BLD 2",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348674474847,
+          37.917663223579
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "203 JETTY DR BLD 2",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348745964655,
+          37.9176632001966
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "204 JETTY DR BLD 2",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348819969866,
+          37.9176683074465
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "205 JETTY DR BLD 2",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348525709894,
+          37.9178406796037
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "301 JETTY DR BLD 3",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348603372648,
+          37.9178397326176
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "302 JETTY DR BLD 3",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348674416391,
+          37.9178448722431
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "303 JETTY DR BLD 3",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3487459044,
+          37.9178448767397
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "304 JETTY DR BLD 3",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348819906014,
+          37.917839753302
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "305 JETTY DR BLD 3",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348525717088,
+          37.9180336066657
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "401 JETTY DR BLD 4",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348603384339,
+          37.9180345338667
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "402 JETTY DR BLD 4",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348674373224,
+          37.9183969192824
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "603 JETTY DR BLD 6",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348745862132,
+          37.9183968959001
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "604 JETTY DR BLD 6",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348819867343,
+          37.9184020022507
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "605 JETTY DR BLD 6",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348271637026,
+          37.918435016363
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "701 JETTY DR BLD 7",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348183936939,
+          37.9184359588525
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "702 JETTY DR BLD 7",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348225829159,
+          37.9183707067428
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "703 JETTY DR BLD 7",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348219359436,
+          37.9183144055854
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "704 JETTY DR BLD 7",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348219371127,
+          37.9182577725782
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "705 JETTY DR BLD 7",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34822625184,
+          37.9181987833472
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "706 JETTY DR BLD 7",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348226267129,
+          37.918109299005
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "801 JETTY DR BLD 8",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348219400805,
+          37.918050309774
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "802 JETTY DR BLD 8",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348217033789,
+          37.9179936138143
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "803 JETTY DR BLD 8",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348217539208,
+          37.9179363845565
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "804 JETTY DR BLD 8",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348184019677,
+          37.9178721163051
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "805 JETTY DR BLD 8",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348271719764,
+          37.9178730749825
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "806 JETTY DR BLD 8",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347595147198,
+          37.9176836876521
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1101 MARITIME WAY BLD 11",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34767110214,
+          37.9176794167717
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1102 MARITIME WAY BLD 11",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347742590148,
+          37.917679423067
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1103 MARITIME WAY BLD 11",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347813631194,
+          37.9176846085579
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1104 MARITIME WAY BLD 11",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347885871036,
+          37.9176845662898
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1105 MARITIME WAY BLD 11",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347967044743,
+          37.9177208710215
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1106 MARITIME WAY BLD 11",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347968254331,
+          37.9176513956954
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1107 MARITIME WAY BLD 11",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347189015161,
+          37.9176835941227
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1701 MARITIME WAY BLD 17",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347265512393,
+          37.9176793781008
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1702 MARITIME WAY BLD 17",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347336998604,
+          37.9176793852955
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1703 MARITIME WAY BLD 17",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347408041448,
+          37.917684522223
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1704 MARITIME WAY BLD 17",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347483605184,
+          37.9176846202491
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1705 MARITIME WAY BLD 17",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347214476767,
+          37.9174244769581
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1801 MARITIME WAY",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347213298655,
+          37.9174939531835
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1802 MARITIME WAY",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347295660366,
+          37.91746082126
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1803 MARITIME WAY",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347366728392,
+          37.9174659563888
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1804 MARITIME WAY",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347438218199,
+          37.9174659626841
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1805 MARITIME WAY",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347512681165,
+          37.9174605235843
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1806 MARITIME WAY",
+        "permit_units": 1,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366396999822,
+          37.9415969999017
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "664 3RD ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366048999961,
+          37.9410960001803
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "637 4TH ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316834000289,
+          37.9587250001587
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "6333 JERILYNN AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364496848351,
+          37.952232880643
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "441 SANFORD",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321849000431,
+          37.9325869998902
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "322 KEY BLVD",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.363256999811,
+          37.9517260002548
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "580 SANFORD AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349296599758,
+          37.922831100375
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "656 S 21ST ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347998330359,
+          37.9174272432727
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1007 MARITIME WAY BLDG 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347627345625,
+          37.917466842221
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1001 MARITIME WAY BLDG 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347700342697,
+          37.9174686678448
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1002 MARITIME WAY BLDG 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347771721887,
+          37.9174650552681
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1003 MARITIME WAY BLDG 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347845581408,
+          37.9174634859511
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1004 MARITIME WAY BLDG 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347915395779,
+          37.9174630102098
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1005 MARITIME WAY BLDG 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347999662255,
+          37.9174939702706
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1006 MARITIME WAY BLDG 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347627345625,
+          37.917466842221
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1001-1007 MARITIME WAY BLD 10",
+        "permit_units": 7,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348404493872,
+          37.9179351111165
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "Jetty Dr Richmond, CA 94804",
+        "permit_units": 75,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349406,
+          37.936228
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "344 21ST ST",
+        "permit_units": 128,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349045,
+          37.936585
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2100 NEVIN AVE",
+        "permit_units": 143,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373806,
+          37.909967
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "SEACLIFF DR",
+        "permit_units": 25,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373806,
+          37.909967
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "SEACLIFF DR",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.363116,
+          37.942826
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "611 PENNSYLVANIA AVE",
+        "permit_units": 2,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333142,
+          37.937212
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "536 37TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.365493,
+          37.941604
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "664 4TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.379543,
+          37.907483
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1461 SANDPIPER SPIT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.350005,
+          37.922399
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2008 HOFFMAN BLVD",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.363116,
+          37.942826
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "611 PENNSYLVANIA AVE",
+        "permit_units": 2,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356025,
+          37.92459
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "MARINA WAY SOUTH",
+        "permit_units": 61,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356025,
+          37.92459
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "MARINA WAY SOUTH ",
+        "permit_units": 42,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.363688,
+          37.941208
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "641 6TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.365877,
+          37.953153
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "408 ALAMO AVE",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373806,
+          37.909967
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "SEACLIFF DR",
+        "permit_units": 13,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348926,
+          37.941565
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2111 GRANT AVE",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.342672,
+          37.925462
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2801 CUTTING BLVD",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366911,
+          37.938189
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "230 BARRETT AVE",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333105,
+          37.928417
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "251 S 39TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3657,
+          37.951037
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "414 WILLARD AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324807,
+          37.942657
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "738A VENTURA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323603,
+          37.935103
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "470 A MC LAUGHLIN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.350005,
+          37.922399
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2008 HOFFMAN BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30617,
+          37.903721
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2911 CARLSON BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321287,
+          37.941188
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "679 KERN ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.365493,
+          37.941063
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "634A 4TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318404,
+          37.941641
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "662 SONOMA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324019,
+          37.93675
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "555A KEY BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277071,
+          37.969104
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "5254 HEAVENLY RIDGE LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.307827,
+          37.90752
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "6101A PANAMA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359318,
+          37.940902
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "651 11TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.369266,
+          37.939453
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "608A S 49TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322941,
+          37.926388
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "379 S 50TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356058,
+          37.94232
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1409-A PENNSYLVANIA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.343164,
+          37.934087
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "239-A MURDOCK ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.342016,
+          37.94943
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2703-A LOWELL AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292482,
+          37.970012
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "4596-A SANTA RITA RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.335943,
+          37.97324
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3033-A BIRMINGHAM DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.365698,
+          37.953565
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "411 ALAMO AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385873,
+          37.924712
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "9 A NICHOLL AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.355019,
+          37.948337
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1519A HELLINGS AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.367371,
+          37.9345
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "222A 2ND ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336103,
+          37.940664
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "662A 33RD ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308554,
+          37.909095
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "6112-A SUTTER AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364587,
+          37.941997
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "687A 5TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.345763,
+          37.948703
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2369A HUMPHREY AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384032,
+          37.947523
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "148A S 21ST ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.335486,
+          37.927145
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "345 S 36TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.369573,
+          37.937624
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "4243A CENTER AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32247,
+          37.945518
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "5520A GARVIN AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384032,
+          37.947523
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "244A S 12TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.343328,
+          37.946848
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2548-A MC BRYDE AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314499,
+          37.902595
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "5116A FRESNO AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322848,
+          37.944452
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "769A KERN ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.309375,
+          37.906819
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "5829 A PANAMA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.342633,
+          37.931619
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2736A CHANSLOR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336889,
+          37.951093
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3106 A TULARE AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.341329,
+          37.948274
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2736A HUMPHREY AVENUE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.369273,
+          37.93764
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "450A MOUNT ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357401,
+          37.940843
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "625A 13TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323571,
+          37.936003
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "5029A BARRETT AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.355935,
+          37.94647
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1416A VISALIA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.368247,
+          37.932216
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "112-A CHANSLOR AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.358726,
+          37.933093
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "130-A 11TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.310683,
+          37.906571
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "5718-A HUNTINGTON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348868,
+          37.922691
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2131A HOFFMAN BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32782,
+          37.947842
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5134-A MC BRYDE AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353375,
+          37.922307
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1606A HOFFMAN BLVD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.354627,
+          37.927844
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1500A MAINE AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282985,
+          37.97388
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3606-A MAY RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.341743,
+          37.94385
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2717-A GARVIN AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33629,
+          37.938706
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3319A ROOSEVELT AVE",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.381668,
+          37.922782
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "240A BUENA VISTA AVE",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333515,
+          37.942267
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "733-A 36TH ST",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293244,
+          37.971669
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4503-A GREGORY WAY",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.342043,
+          37.945379
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2705 A ESMOND AVE",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318881,
+          37.940665
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5626-A SIERRA AVE",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352828,
+          37.924901
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1700A CUTTING BLVD",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.360562,
+          37.945328
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "852-852-A 9TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.360562,
+          37.945328
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "852-852-A 9TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.343558,
+          37.938718
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "538-A CIVIC CENTER ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.331223,
+          37.940153
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "665-A 39TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321143,
+          37.939879
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "642A AMADOR ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349792,
+          37.940832
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "623A 21ST ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321538,
+          37.97532
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3116-A JO ANN DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391123,
+          37.926771
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "435-A TREMONT AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.331979,
+          37.948319
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3626-A NATALIE CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.36622,
+          37.954526
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "328-A CHESLEY AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329321,
+          37.940886
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4017A CLINTON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308257,
+          37.908911
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "6115A SANTA CRUZ AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.326301,
+          37.942059
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "733-A LASSEN ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.346094,
+          37.946124
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2354-B LINCOLN AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.345368,
+          37.92724
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "334-A S 25TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34096,
+          37.936951
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "451-A 29TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.354134,
+          37.940725
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "618-A 16TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.331233,
+          37.935914
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "477-A 40TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.331328,
+          37.972562
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3021-A SHANE DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330446,
+          37.943143
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "761-A 39TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.365029,
+          37.938947
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "525 5TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32395,
+          37.945822
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "820-A AMADOR ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316503,
+          37.913315
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1510-A SANTA CLARA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352746,
+          37.941591
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "643-A 18TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314884,
+          37.918141
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5717-A MADISON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312569,
+          37.906279
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5529-A HUNTINGTON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.351209,
+          37.937261
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "420-A 19TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332226,
+          37.941283
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3715-A CLINTON AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.362528,
+          37.929203
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "716-A FLORIDA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322342,
+          37.937433
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "551A CLIFF LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253921,
+          37.967329
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5401 HACKNEY LN",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352893,
+          37.919781
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1650 HARBOR LIGHTS ROAD",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.354135,
+          37.988244
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "800 BANKS DR",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.367244,
+          37.928571
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "247 S 3RD ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293379,
+          37.966325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2472 DIANE DR",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384032,
+          37.947523
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "852-852A 7TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.344262,
+          37.943487
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2520 GARVIN AVE",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333105,
+          37.928417
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "251 S 39TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333105,
+          37.928417
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "251 S 39TH ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384032,
+          37.947523
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "258 & 258A WILLARD AVE",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384032,
+          37.947523
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "258 & 258A WILLARD AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353408,
+          37.920658
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1582 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353412,
+          37.920718
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1588 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353412,
+          37.920785
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1592 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353411,
+          37.920844
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1596 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353637,
+          37.920842
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1558 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353634,
+          37.920783
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1564 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353633,
+          37.920716
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1566 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353635,
+          37.920656
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1572 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352918,
+          37.92083
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1642 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.35299,
+          37.92083
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1636 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353063,
+          37.92083
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1628 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353135,
+          37.92083
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1620 SEAWIND DRIVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353129,
+          37.920653
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1623 PORTSIDE WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353058,
+          37.920652
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1631 PORTSIDE WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352916,
+          37.920653
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1647 PORTSIDE WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352987,
+          37.920652
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1639 PORTSIDE WAY",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384032,
+          37.947523
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "100-100A MAINE ST",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384032,
+          37.947523
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "852-852A 7TH ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.350932,
+          37.926855
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1911 VIRGINIA AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349967,
+          37.946195
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2005 LINCOLN AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    }
+  ]
+}

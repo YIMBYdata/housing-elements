@@ -1,1 +1,2645 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151165871608, 37.4169218918319]}, "properties": {"permit_year": 2017, "permit_address": "1501 California Avenue", "permit_units": 43, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.152146692016, 37.4174546268296]}, "properties": {"permit_year": 2017, "permit_address": "1501 California Avenue", "permit_units": 18, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150621520966, 37.4175764867655]}, "properties": {"permit_year": 2017, "permit_address": "1501 California Avenue", "permit_units": 0, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151785516189, 37.4159669736969]}, "properties": {"permit_year": 2017, "permit_address": "1501 California Avenue", "permit_units": 0, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168700000305, 37.4468999999351]}, "properties": {"permit_year": 2017, "permit_address": "1250 BRYANT ST", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168700000305, 37.4471800002569]}, "properties": {"permit_year": 2017, "permit_address": "4082 ORME ST", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.141530000109, 37.4204699996908]}, "properties": {"permit_year": 2017, "permit_address": "4250 LOS PALOS PL", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.171410000271, 37.4467799997972]}, "properties": {"permit_year": 2017, "permit_address": "1755 UNIVERSITY AV", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.141140000111, 37.4213200002179]}, "properties": {"permit_year": 2017, "permit_address": "2264 BOWDOIN ST", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14120000018, 37.4215300000096]}, "properties": {"permit_year": 2017, "permit_address": "116 MONROE DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.171410000271, 37.4467799997972]}, "properties": {"permit_year": 2017, "permit_address": "1451 EDGEWOOD DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.171410000271, 37.4467799997972]}, "properties": {"permit_year": 2017, "permit_address": "1446 DANA AV", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168029999984, 37.447740000001]}, "properties": {"permit_year": 2017, "permit_address": "3110 BANDERA DR", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168789999959, 37.4470499996578]}, "properties": {"permit_year": 2017, "permit_address": "3863 NATHAN WY", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.168700000305, 37.4468999999351]}, "properties": {"permit_year": 2017, "permit_address": "526 ADDISON AV", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.141690000293, 37.4214400003558]}, "properties": {"permit_year": 2017, "permit_address": "2463 LOUIS RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.140966750215, 37.4241156749985]}, "properties": {"permit_year": 2017, "permit_address": "425 Page Mill Rd", "permit_units": 16, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149889086112, 37.4388864712337]}, "properties": {"permit_year": 2016, "permit_address": "320 Kellogg Av", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.138648586663, 37.4517282621496]}, "properties": {"permit_year": 2016, "permit_address": "1496 Dana Av", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.126169305269, 37.4396222110962]}, "properties": {"permit_year": 2016, "permit_address": "2577 LOUIS RD", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14982592043, 37.426532258557]}, "properties": {"permit_year": 2016, "permit_address": "565 Stanford Ave", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.157091294128, 37.4457788484152]}, "properties": {"permit_year": 2016, "permit_address": "430 Forest Ave", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.157091294128, 37.4457788484152]}, "properties": {"permit_year": 2016, "permit_address": "430 Forest Ave", "permit_units": 11, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151268159598, 37.4169751649719]}, "properties": {"permit_year": 2015, "permit_address": "1501 CALIFORNIA AVE, Palo Alto, CA 94304", "permit_units": 28, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.124391645958, 37.4248875676072]}, "properties": {"permit_year": 2015, "permit_address": "3266 KIPLING ST, Palo Alto, CA 94306", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.107801131817, 37.4112013051961]}, "properties": {"permit_year": 2015, "permit_address": "264 FAIRFIELD CT, Palo Alto, CA 94306", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.153948552084, 37.4397489984176]}, "properties": {"permit_year": 2015, "permit_address": "221 KINGSLEY AV, Palo Alto, CA 94301", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.123132427819, 37.423888529632]}, "properties": {"permit_year": 2015, "permit_address": "3338 KIPLING ST, Palo Alto, CA 94306", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15225319423, 37.4443153375828]}, "properties": {"permit_year": 2015, "permit_address": "1021 COWPER ST, Palo Alto, CA 94301", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.122561002188, 37.4453836539325]}, "properties": {"permit_year": 2015, "permit_address": "1130 OREGON AV, Palo Alto, CA 94303", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.114234054358, 37.4242115796008]}, "properties": {"permit_year": 2015, "permit_address": "3655 MIDDLEFIELD RD, Palo Alto, CA 94303", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.167598097874, 37.4463542877203]}, "properties": {"permit_year": 2015, "permit_address": "125 HAWTHORNE AV, Palo Alto, CA 94301", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.148362849366, 37.4263608927411]}, "properties": {"permit_year": 2015, "permit_address": "2123 STAUNTON CT, Palo Alto, CA 94306", "permit_units": 8, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151467858555, 37.4170561273385]}, "properties": {"permit_year": 2015, "permit_address": "1501 CALIFORNIA AV, Palo Alto, CA 94304", "permit_units": 58, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151095824313, 37.4169044027161]}, "properties": {"permit_year": 2015, "permit_address": "1501 CALIFORNIA AV, Palo Alto, CA 94304", "permit_units": 54, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.130859619576, 37.4180122856385]}, "properties": {"permit_year": 2015, "permit_address": "405 CURTNER AV, Palo Alto, CA 94306", "permit_units": 6, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.145410203318, 37.4241837159058]}, "properties": {"permit_year": 2015, "permit_address": "2500 EL CAMINO REAL, Palo Alto, CA 94306", "permit_units": 70, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.143121693112, 37.4262359886001]}, "properties": {"permit_year": 2015, "permit_address": "385 SHERMAN AVE, Palo Alto, CA 94306", "permit_units": 4, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.147518149443, 37.4257824649888]}, "properties": {"permit_year": 2015, "permit_address": "2209 EL CAMINO REAL, Palo Alto, CA 94306", "permit_units": 1, "permit_category": "COMM"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.160861500358, 37.4442351000699]}, "properties": {"permit_year": 2014, "permit_address": "240 HAMILTON AVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117110999973, 37.4262560003142]}, "properties": {"permit_year": 2014, "permit_address": "3475 MIDDLEFIELD AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.16265460013, 37.4483275001141]}, "properties": {"permit_year": 2014, "permit_address": "318 WAVERLEY ST", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.11437399966, 37.4088560001044]}, "properties": {"permit_year": 2014, "permit_address": "4317 SILVA AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.162513000075, 37.4432699998107]}, "properties": {"permit_year": 2014, "permit_address": "135 HAMILTON AVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.158595400357, 37.4457289998935]}, "properties": {"permit_year": 2014, "permit_address": "636 WAVERLEY ST", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150347000214, 37.4292119999339]}, "properties": {"permit_year": 2014, "permit_address": "1845 EL CAMINO REAL", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.157319999818, 37.4474680000482]}, "properties": {"permit_year": 2014, "permit_address": "611 COWPER ST", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.124558, 37.409992]}, "properties": {"permit_year": 2018, "permit_address": "531 IRVEN CT, PALO ALTO, CA 94306", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133876, 37.415196]}, "properties": {"permit_year": 2018, "permit_address": "3721 LA DONNA AVE", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151083, 37.416815]}, "properties": {"permit_year": 2018, "permit_address": "1501 CALIFORNIA AVE", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151696, 37.416203]}, "properties": {"permit_year": 2018, "permit_address": "1635 BOWDOIN CT", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151083, 37.416815]}, "properties": {"permit_year": 2018, "permit_address": "1501 CALIFORNIA AV", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.152199, 37.415794]}, "properties": {"permit_year": 2018, "permit_address": "1600 AMHERST CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151083, 37.416815]}, "properties": {"permit_year": 2018, "permit_address": "1501 CALIFORNIA AV", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151913, 37.415706]}, "properties": {"permit_year": 2018, "permit_address": "1615 AMHERST CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151083, 37.416815]}, "properties": {"permit_year": 2018, "permit_address": "1501 CALIFORNIA AV", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151776, 37.415516]}, "properties": {"permit_year": 2018, "permit_address": "2500 AMHERST ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151083, 37.416815]}, "properties": {"permit_year": 2018, "permit_address": "1501 CALIFORNIA AV", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15159, 37.416284]}, "properties": {"permit_year": 2018, "permit_address": "1615 BOWDOIN CT", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.151083, 37.416815]}, "properties": {"permit_year": 2018, "permit_address": "1501 CALIFORNIA AV", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.152471, 37.41627]}, "properties": {"permit_year": 2018, "permit_address": "2435 AMHERST ST", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15085, 37.435455]}, "properties": {"permit_year": 2018, "permit_address": "1545 ALMA ST", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150696, 37.435616]}, "properties": {"permit_year": 2018, "permit_address": "1543 ALMA ST", "permit_units": 1, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.130997, 37.442823]}, "properties": {"permit_year": 2018, "permit_address": "912 N CALIFORNIA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.111829, 37.412693]}, "properties": {"permit_year": 2018, "permit_address": "237 SCRIPPS CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15234, 37.445711]}, "properties": {"permit_year": 2018, "permit_address": "940 WEBSTER ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149092, 37.42156]}, "properties": {"permit_year": 2018, "permit_address": "980 CALIFORNIA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.125401, 37.436591]}, "properties": {"permit_year": 2018, "permit_address": "836 BRUCE DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133868, 37.426097]}, "properties": {"permit_year": 2018, "permit_address": "2829 EMERSON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13049, 37.404031]}, "properties": {"permit_year": 2018, "permit_address": "4152 DONALD DR A", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131702, 37.44403]}, "properties": {"permit_year": 2018, "permit_address": "2100 BELLVIEW DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.152759, 37.449254]}, "properties": {"permit_year": 2018, "permit_address": "741 HOMER AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.127753, 37.422136]}, "properties": {"permit_year": 2018, "permit_address": "3247 EMERSON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15432, 37.442527]}, "properties": {"permit_year": 2018, "permit_address": "358 ADDISON AV, UNIT A", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149002, 37.422127]}, "properties": {"permit_year": 2018, "permit_address": "2350 CORNELL ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.114422, 37.432573]}, "properties": {"permit_year": 2018, "permit_address": "3342 VERNON TER", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.108409, 37.42215]}, "properties": {"permit_year": 2018, "permit_address": "728 GAILEN AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13502, 37.406799]}, "properties": {"permit_year": 2018, "permit_address": "1070 CERRITO WY", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133401, 37.420217]}, "properties": {"permit_year": 2018, "permit_address": "419 MARGARITA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132248, 37.420088]}, "properties": {"permit_year": 2018, "permit_address": "389 MATADERO AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149657, 37.447496]}, "properties": {"permit_year": 2018, "permit_address": "1001 FULTON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117717, 37.427247]}, "properties": {"permit_year": 2018, "permit_address": "3451 CORK OAK WY", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.116579, 37.433855]}, "properties": {"permit_year": 2018, "permit_address": "3256 CLIFTON CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150083, 37.443804]}, "properties": {"permit_year": 2018, "permit_address": "555 KINGSLEY AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.130219, 37.433639]}, "properties": {"permit_year": 2018, "permit_address": "2640 MIDDLEFIELD RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.123885, 37.403216]}, "properties": {"permit_year": 2018, "permit_address": "665 GLENBROOK DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.121192, 37.433094]}, "properties": {"permit_year": 2018, "permit_address": "3094 STELLING DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.154274, 37.451915]}, "properties": {"permit_year": 2018, "permit_address": "833 HAMILTON AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131817, 37.432867]}, "properties": {"permit_year": 2018, "permit_address": "2546 WEBSTER ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.110693, 37.428237]}, "properties": {"permit_year": 2018, "permit_address": "3624 EVERGREEN DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135705, 37.42841]}, "properties": {"permit_year": 2018, "permit_address": "2591 RAMONA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.153373, 37.450841]}, "properties": {"permit_year": 2018, "permit_address": "641 GUINDA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.130658, 37.453015]}, "properties": {"permit_year": 2018, "permit_address": "1741 EDGEWOOD DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.120912, 37.428447]}, "properties": {"permit_year": 2018, "permit_address": "3287 Middlefield Road", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117003, 37.406636]}, "properties": {"permit_year": 2018, "permit_address": "124 MONROE DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.148695, 37.430589]}, "properties": {"permit_year": 2018, "permit_address": "310 LELAND AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129176, 37.409112]}, "properties": {"permit_year": 2018, "permit_address": "580 GEORGIA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.154967, 37.444055]}, "properties": {"permit_year": 2018, "permit_address": "400 CHANNING AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.154967, 37.444055]}, "properties": {"permit_year": 2018, "permit_address": "400 CHANNING AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149915, 37.444122]}, "properties": {"permit_year": 2019, "permit_address": "567 MAYBELL", "permit_units": 12, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149915, 37.444122]}, "properties": {"permit_year": 2019, "permit_address": "429 UNIVERSITY", "permit_units": 3, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.144392, 37.424663]}, "properties": {"permit_year": 2019, "permit_address": "2515 EL CAMINO REAL", "permit_units": 13, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.130791, 37.417509]}, "properties": {"permit_year": 2019, "permit_address": "3877 EL CAMINO REAL", "permit_units": 17, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136824, 37.435325]}, "properties": {"permit_year": 2019, "permit_address": "2227 TASSO ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129236, 37.432038]}, "properties": {"permit_year": 2019, "permit_address": "2732 BYRON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150176, 37.432764]}, "properties": {"permit_year": 2019, "permit_address": "1630 CASTILLEJA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149185, 37.439642]}, "properties": {"permit_year": 2019, "permit_address": "360 KELLOGG AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.146348, 37.443831]}, "properties": {"permit_year": 2019, "permit_address": "1338 MIDDLEFIELD RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.114894, 37.437158]}, "properties": {"permit_year": 2019, "permit_address": "3161 GREER RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135108, 37.43565]}, "properties": {"permit_year": 2019, "permit_address": "2320 BYRON ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.153045, 37.419216]}, "properties": {"permit_year": 2019, "permit_address": "1411 COLLEGE AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.127009, 37.404257]}, "properties": {"permit_year": 2019, "permit_address": "4206 POMONA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.123266, 37.40573]}, "properties": {"permit_year": 2019, "permit_address": "4248 SUZANNE DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133835, 37.413394]}, "properties": {"permit_year": 2019, "permit_address": "750 PAUL AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150375, 37.44236]}, "properties": {"permit_year": 2019, "permit_address": "490 KINGSLEY AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131989, 37.413645]}, "properties": {"permit_year": 2019, "permit_address": "3886 LA DONNA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132856, 37.417081]}, "properties": {"permit_year": 2019, "permit_address": "3748 LA SELVA DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149229, 37.433041]}, "properties": {"permit_year": 2019, "permit_address": "1648 MARIPOSA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132922, 37.422293]}, "properties": {"permit_year": 2019, "permit_address": "253 FERNANDO AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.162409, 37.452589]}, "properties": {"permit_year": 2019, "permit_address": "119 WEBSTER ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.146634, 37.430362]}, "properties": {"permit_year": 2019, "permit_address": "261 STANFORD AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.114364, 37.428192]}, "properties": {"permit_year": 2019, "permit_address": "3495 ROSS RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.152904, 37.453182]}, "properties": {"permit_year": 2019, "permit_address": "951 HAMILTON AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.120772, 37.413083]}, "properties": {"permit_year": 2019, "permit_address": "360 W CHARLESTON RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.117477, 37.425601]}, "properties": {"permit_year": 2019, "permit_address": "3442 MIDDLEFIELD RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129755, 37.42407]}, "properties": {"permit_year": 2019, "permit_address": "3130 RAMONA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133542, 37.410467]}, "properties": {"permit_year": 2019, "permit_address": "833 LA PARA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149693, 37.449153]}, "properties": {"permit_year": 2019, "permit_address": "843 CHANNING AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13396, 37.421038]}, "properties": {"permit_year": 2019, "permit_address": "397 FERNANDO AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13381, 37.435911]}, "properties": {"permit_year": 2019, "permit_address": "2360 MIDDLEFIELD RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.115051, 37.427601]}, "properties": {"permit_year": 2019, "permit_address": "780 STONE LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15298, 37.451069]}, "properties": {"permit_year": 2019, "permit_address": "829 FOREST AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14551, 37.443303]}, "properties": {"permit_year": 2019, "permit_address": "1410 MIDDLEFIELD RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135602, 37.411289]}, "properties": {"permit_year": 2019, "permit_address": "841 LA JENNIFER WY", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.128942, 37.426916]}, "properties": {"permit_year": 2019, "permit_address": "3032 WAVERLEY ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.141641, 37.411858]}, "properties": {"permit_year": 2019, "permit_address": "926 MATADERO AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133281, 37.445368]}, "properties": {"permit_year": 2019, "permit_address": "11 PRIMROSE WY", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129044, 37.434476]}, "properties": {"permit_year": 2019, "permit_address": "732 ROSEWOOD DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150767, 37.443584]}, "properties": {"permit_year": 2019, "permit_address": "1107 COWPER ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.141349, 37.432244]}, "properties": {"permit_year": 2019, "permit_address": "245 WASHINGTON AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132339, 37.417208]}, "properties": {"permit_year": 2019, "permit_address": "3775 LA SELVA DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136295, 37.431582]}, "properties": {"permit_year": 2019, "permit_address": "2434 WAVERLEY ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.142351, 37.441948]}, "properties": {"permit_year": 2019, "permit_address": "1655 MIDDLEFIELD RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135885, 37.434733]}, "properties": {"permit_year": 2019, "permit_address": "2321 TASSO ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.145009, 37.454551]}, "properties": {"permit_year": 2019, "permit_address": "580 W CRESCENT DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.105628, 37.414572]}, "properties": {"permit_year": 2019, "permit_address": "473 FERNE AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.128258, 37.437439]}, "properties": {"permit_year": 2019, "permit_address": "2570 MARSHALL DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.152366, 37.453548]}, "properties": {"permit_year": 2019, "permit_address": "975 HAMILTON AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.12939, 37.451445]}, "properties": {"permit_year": 2019, "permit_address": "1862 EDGEWOOD DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149984, 37.420537]}, "properties": {"permit_year": 2019, "permit_address": "1120 CALIFORNIA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133351, 37.452605]}, "properties": {"permit_year": 2019, "permit_address": "531 JEFFERSON DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.126363, 37.405562]}, "properties": {"permit_year": 2019, "permit_address": "639 ARASTRADERO RD", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131472, 37.419381]}, "properties": {"permit_year": 2019, "permit_address": "425 WILTON AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.163997, 37.450787]}, "properties": {"permit_year": 2019, "permit_address": "466 RUTHVEN AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.144244, 37.439425]}, "properties": {"permit_year": 2019, "permit_address": "521 LOWELL AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133663, 37.395322]}, "properties": {"permit_year": 2019, "permit_address": "4214 MANUELA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.121837, 37.413818]}, "properties": {"permit_year": 2019, "permit_address": "363 TENNESSEE LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.121016, 37.414095]}, "properties": {"permit_year": 2019, "permit_address": "292 CAROLINA LN", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132088, 37.437353]}, "properties": {"permit_year": 2019, "permit_address": "745 OREGON AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.15046, 37.420342]}, "properties": {"permit_year": 2019, "permit_address": "2321 HARVARD ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.113385, 37.408296]}, "properties": {"permit_year": 2019, "permit_address": "4361 SILVA AV", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.112774, 37.425537]}, "properties": {"permit_year": 2019, "permit_address": "765 E MEADOW DR", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129085, 37.423449]}, "properties": {"permit_year": 2019, "permit_address": "3168 RAMONA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.12209, 37.428561]}, "properties": {"permit_year": 2019, "permit_address": "695 TOYON PL", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14154, 37.434491]}, "properties": {"permit_year": 2019, "permit_address": "355 SANTA RITA AV", "permit_units": 1, "permit_category": "ADU"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151165871608,
+          37.4169218918319
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1501 California Avenue",
+        "permit_units": 43,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.152146692016,
+          37.4174546268296
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1501 California Avenue",
+        "permit_units": 18,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150621520966,
+          37.4175764867655
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1501 California Avenue",
+        "permit_units": 0,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151785516189,
+          37.4159669736969
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1501 California Avenue",
+        "permit_units": 0,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168700000305,
+          37.4468999999351
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1250 BRYANT ST",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168700000305,
+          37.4471800002569
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "4082 ORME ST",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.141530000109,
+          37.4204699996908
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "4250 LOS PALOS PL",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.171410000271,
+          37.4467799997972
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1755 UNIVERSITY AV",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.141140000111,
+          37.4213200002179
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2264 BOWDOIN ST",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14120000018,
+          37.4215300000096
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "116 MONROE DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.171410000271,
+          37.4467799997972
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1451 EDGEWOOD DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.171410000271,
+          37.4467799997972
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1446 DANA AV",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168029999984,
+          37.447740000001
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3110 BANDERA DR",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168789999959,
+          37.4470499996578
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "3863 NATHAN WY",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.168700000305,
+          37.4468999999351
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "526 ADDISON AV",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.141690000293,
+          37.4214400003558
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2463 LOUIS RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.140966750215,
+          37.4241156749985
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "425 Page Mill Rd",
+        "permit_units": 16,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149889086112,
+          37.4388864712337
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "320 Kellogg Av",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.138648586663,
+          37.4517282621496
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1496 Dana Av",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.126169305269,
+          37.4396222110962
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2577 LOUIS RD",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14982592043,
+          37.426532258557
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "565 Stanford Ave",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.157091294128,
+          37.4457788484152
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "430 Forest Ave",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.157091294128,
+          37.4457788484152
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "430 Forest Ave",
+        "permit_units": 11,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151268159598,
+          37.4169751649719
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1501 CALIFORNIA AVE, Palo Alto, CA 94304",
+        "permit_units": 28,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.124391645958,
+          37.4248875676072
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3266 KIPLING ST, Palo Alto, CA 94306",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.107801131817,
+          37.4112013051961
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "264 FAIRFIELD CT, Palo Alto, CA 94306",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.153948552084,
+          37.4397489984176
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "221 KINGSLEY AV, Palo Alto, CA 94301",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.123132427819,
+          37.423888529632
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3338 KIPLING ST, Palo Alto, CA 94306",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15225319423,
+          37.4443153375828
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1021 COWPER ST, Palo Alto, CA 94301",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.122561002188,
+          37.4453836539325
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1130 OREGON AV, Palo Alto, CA 94303",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.114234054358,
+          37.4242115796008
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3655 MIDDLEFIELD RD, Palo Alto, CA 94303",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.167598097874,
+          37.4463542877203
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "125 HAWTHORNE AV, Palo Alto, CA 94301",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.148362849366,
+          37.4263608927411
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2123 STAUNTON CT, Palo Alto, CA 94306",
+        "permit_units": 8,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151467858555,
+          37.4170561273385
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1501 CALIFORNIA AV, Palo Alto, CA 94304",
+        "permit_units": 58,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151095824313,
+          37.4169044027161
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1501 CALIFORNIA AV, Palo Alto, CA 94304",
+        "permit_units": 54,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.130859619576,
+          37.4180122856385
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "405 CURTNER AV, Palo Alto, CA 94306",
+        "permit_units": 6,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.145410203318,
+          37.4241837159058
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2500 EL CAMINO REAL, Palo Alto, CA 94306",
+        "permit_units": 70,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143121693112,
+          37.4262359886001
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "385 SHERMAN AVE, Palo Alto, CA 94306",
+        "permit_units": 4,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.147518149443,
+          37.4257824649888
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2209 EL CAMINO REAL, Palo Alto, CA 94306",
+        "permit_units": 1,
+        "permit_category": "COMM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.160861500358,
+          37.4442351000699
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "240 HAMILTON AVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117110999973,
+          37.4262560003142
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "3475 MIDDLEFIELD AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16265460013,
+          37.4483275001141
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "318 WAVERLEY ST",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.11437399966,
+          37.4088560001044
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "4317 SILVA AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.162513000075,
+          37.4432699998107
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "135 HAMILTON AVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.158595400357,
+          37.4457289998935
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "636 WAVERLEY ST",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150347000214,
+          37.4292119999339
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "1845 EL CAMINO REAL",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.157319999818,
+          37.4474680000482
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "611 COWPER ST",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.124558,
+          37.409992
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "531 IRVEN CT, PALO ALTO, CA 94306",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133876,
+          37.415196
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3721 LA DONNA AVE",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151083,
+          37.416815
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1501 CALIFORNIA AVE",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151696,
+          37.416203
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1635 BOWDOIN CT",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151083,
+          37.416815
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1501 CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.152199,
+          37.415794
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1600 AMHERST CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151083,
+          37.416815
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1501 CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151913,
+          37.415706
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1615 AMHERST CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151083,
+          37.416815
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1501 CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151776,
+          37.415516
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2500 AMHERST ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151083,
+          37.416815
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1501 CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15159,
+          37.416284
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1615 BOWDOIN CT",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151083,
+          37.416815
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1501 CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.152471,
+          37.41627
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2435 AMHERST ST",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15085,
+          37.435455
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1545 ALMA ST",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150696,
+          37.435616
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1543 ALMA ST",
+        "permit_units": 1,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.130997,
+          37.442823
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "912 N CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.111829,
+          37.412693
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "237 SCRIPPS CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15234,
+          37.445711
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "940 WEBSTER ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149092,
+          37.42156
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "980 CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.125401,
+          37.436591
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "836 BRUCE DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133868,
+          37.426097
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2829 EMERSON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13049,
+          37.404031
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "4152 DONALD DR A",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131702,
+          37.44403
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2100 BELLVIEW DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.152759,
+          37.449254
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "741 HOMER AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.127753,
+          37.422136
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3247 EMERSON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15432,
+          37.442527
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "358 ADDISON AV, UNIT A",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149002,
+          37.422127
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2350 CORNELL ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.114422,
+          37.432573
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3342 VERNON TER",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.108409,
+          37.42215
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "728 GAILEN AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13502,
+          37.406799
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1070 CERRITO WY",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133401,
+          37.420217
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "419 MARGARITA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132248,
+          37.420088
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "389 MATADERO AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149657,
+          37.447496
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1001 FULTON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117717,
+          37.427247
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3451 CORK OAK WY",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.116579,
+          37.433855
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3256 CLIFTON CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150083,
+          37.443804
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "555 KINGSLEY AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.130219,
+          37.433639
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2640 MIDDLEFIELD RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.123885,
+          37.403216
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "665 GLENBROOK DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.121192,
+          37.433094
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3094 STELLING DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.154274,
+          37.451915
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "833 HAMILTON AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131817,
+          37.432867
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2546 WEBSTER ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.110693,
+          37.428237
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3624 EVERGREEN DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135705,
+          37.42841
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2591 RAMONA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.153373,
+          37.450841
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "641 GUINDA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.130658,
+          37.453015
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1741 EDGEWOOD DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.120912,
+          37.428447
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3287 Middlefield Road",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117003,
+          37.406636
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "124 MONROE DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.148695,
+          37.430589
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "310 LELAND AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129176,
+          37.409112
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "580 GEORGIA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.154967,
+          37.444055
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "400 CHANNING AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.154967,
+          37.444055
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "400 CHANNING AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149915,
+          37.444122
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "567 MAYBELL",
+        "permit_units": 12,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149915,
+          37.444122
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "429 UNIVERSITY",
+        "permit_units": 3,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.144392,
+          37.424663
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2515 EL CAMINO REAL",
+        "permit_units": 13,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.130791,
+          37.417509
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3877 EL CAMINO REAL",
+        "permit_units": 17,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136824,
+          37.435325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2227 TASSO ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129236,
+          37.432038
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2732 BYRON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150176,
+          37.432764
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1630 CASTILLEJA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149185,
+          37.439642
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "360 KELLOGG AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.146348,
+          37.443831
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1338 MIDDLEFIELD RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.114894,
+          37.437158
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3161 GREER RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135108,
+          37.43565
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2320 BYRON ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.153045,
+          37.419216
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1411 COLLEGE AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.127009,
+          37.404257
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4206 POMONA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.123266,
+          37.40573
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4248 SUZANNE DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133835,
+          37.413394
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "750 PAUL AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150375,
+          37.44236
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "490 KINGSLEY AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131989,
+          37.413645
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3886 LA DONNA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132856,
+          37.417081
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3748 LA SELVA DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149229,
+          37.433041
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1648 MARIPOSA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132922,
+          37.422293
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "253 FERNANDO AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.162409,
+          37.452589
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "119 WEBSTER ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.146634,
+          37.430362
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "261 STANFORD AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.114364,
+          37.428192
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3495 ROSS RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.152904,
+          37.453182
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "951 HAMILTON AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.120772,
+          37.413083
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "360 W CHARLESTON RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.117477,
+          37.425601
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3442 MIDDLEFIELD RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129755,
+          37.42407
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3130 RAMONA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133542,
+          37.410467
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "833 LA PARA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149693,
+          37.449153
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "843 CHANNING AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13396,
+          37.421038
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "397 FERNANDO AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13381,
+          37.435911
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2360 MIDDLEFIELD RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.115051,
+          37.427601
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "780 STONE LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15298,
+          37.451069
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "829 FOREST AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14551,
+          37.443303
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1410 MIDDLEFIELD RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135602,
+          37.411289
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "841 LA JENNIFER WY",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.128942,
+          37.426916
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3032 WAVERLEY ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.141641,
+          37.411858
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "926 MATADERO AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133281,
+          37.445368
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "11 PRIMROSE WY",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129044,
+          37.434476
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "732 ROSEWOOD DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150767,
+          37.443584
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1107 COWPER ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.141349,
+          37.432244
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "245 WASHINGTON AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132339,
+          37.417208
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3775 LA SELVA DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136295,
+          37.431582
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2434 WAVERLEY ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.142351,
+          37.441948
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1655 MIDDLEFIELD RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135885,
+          37.434733
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2321 TASSO ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.145009,
+          37.454551
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "580 W CRESCENT DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.105628,
+          37.414572
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "473 FERNE AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.128258,
+          37.437439
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2570 MARSHALL DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.152366,
+          37.453548
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "975 HAMILTON AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.12939,
+          37.451445
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1862 EDGEWOOD DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149984,
+          37.420537
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1120 CALIFORNIA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133351,
+          37.452605
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "531 JEFFERSON DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.126363,
+          37.405562
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "639 ARASTRADERO RD",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131472,
+          37.419381
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "425 WILTON AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.163997,
+          37.450787
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "466 RUTHVEN AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.144244,
+          37.439425
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "521 LOWELL AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133663,
+          37.395322
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4214 MANUELA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.121837,
+          37.413818
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "363 TENNESSEE LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.121016,
+          37.414095
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "292 CAROLINA LN",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132088,
+          37.437353
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "745 OREGON AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15046,
+          37.420342
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2321 HARVARD ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.113385,
+          37.408296
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4361 SILVA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.112774,
+          37.425537
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "765 E MEADOW DR",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129085,
+          37.423449
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3168 RAMONA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.12209,
+          37.428561
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "695 TOYON PL",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14154,
+          37.434491
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "355 SANTA RITA AV",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    }
+  ]
+}

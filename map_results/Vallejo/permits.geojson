@@ -1,1 +1,3557 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267244301683, 38.0866733669823]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267017453093, 38.0867207225833]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266774216157, 38.086833701714]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194082505303, 38.0926641657187]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268497849596, 38.0884835475777]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268450213407, 38.0883020248186]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268424677157, 38.088127451121]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268412970682, 38.087953574398]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.26842578692, 38.0877824711841]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268124982582, 38.0884758619715]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268196807836, 38.0886532289634]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268113964987, 38.0872351626727]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268166605904, 38.0874334281103]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268143430375, 38.0876135362358]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268092785054, 38.087782934335]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268080466141, 38.0879611475889]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268095905701, 38.0881343327333]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268109972897, 38.0882999500827]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266815925814, 38.087051674895]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.266830285289, 38.0872396961551]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267156208592, 38.0869326496222]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267383515837, 38.0868949860148]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267640078926, 38.0868789133312]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.2138112361, 38.1049147459188]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.25612911017, 38.1137517316571]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193200272175, 38.0928715376913]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193707893604, 38.0932506558931]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193763605706, 38.093380695163]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194271720863, 38.093847915449]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194297756236, 38.0936996307334]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193696235693, 38.0927179586669]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193364816633, 38.092827509582]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193528378132, 38.092777705127]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.246094204984, 38.1046277299858]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268128791211, 38.0868238757213]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267941814963, 38.0867182350585]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267713478894, 38.0866456453803]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.267468921753, 38.0866347186174]}, "properties": {"permit_year": 2017, "permit_address": null, "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193200272175, 38.0928715376913]}, "properties": {"permit_year": 2016, "permit_address": "7147 STONEBROOKE DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194139209357, 38.0943905780628]}, "properties": {"permit_year": 2016, "permit_address": "7607 TIDEWATER DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194171645205, 38.0942557013396]}, "properties": {"permit_year": 2016, "permit_address": "7611 TIDEWATER DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194204081053, 38.0941208246164]}, "properties": {"permit_year": 2016, "permit_address": "7615 TIDEWATER DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193705419569, 38.0942457827168]}, "properties": {"permit_year": 2016, "permit_address": "7608 TIDEWATER DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193737857216, 38.0941109059935]}, "properties": {"permit_year": 2016, "permit_address": "7612 TIDEWATER DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.246095572852, 38.1046088945849]}, "properties": {"permit_year": 2016, "permit_address": "1215A FLORIDA ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19382507077, 38.0936926313099]}, "properties": {"permit_year": 2016, "permit_address": "7626 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194255764192, 38.0933741597897]}, "properties": {"permit_year": 2016, "permit_address": "7635 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194138916178, 38.0930589788888]}, "properties": {"permit_year": 2016, "permit_address": "7643 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194187120739, 38.0932133619072]}, "properties": {"permit_year": 2016, "permit_address": "7639 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193803219943, 38.093839121878]}, "properties": {"permit_year": 2016, "permit_address": "7620 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193770293964, 38.0939760292704]}, "properties": {"permit_year": 2016, "permit_address": "7616 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194236516902, 38.0939859478933]}, "properties": {"permit_year": 2016, "permit_address": "7619 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268230158295, 38.0969844197952]}, "properties": {"permit_year": 2016, "permit_address": "1203 Club Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268230158295, 38.0969844197952]}, "properties": {"permit_year": 2016, "permit_address": "1203 CLUB DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193707892705, 38.0932506558931]}, "properties": {"permit_year": 2016, "permit_address": "7642 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193763606605, 38.093380695163]}, "properties": {"permit_year": 2016, "permit_address": "7636 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193807701264, 38.0934995378734]}, "properties": {"permit_year": 2016, "permit_address": "7632 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194297319166, 38.0935430659598]}, "properties": {"permit_year": 2016, "permit_address": "7631 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194286862748, 38.0926970125572]}, "properties": {"permit_year": 2016, "permit_address": "7123 STONEBROOKE DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19364514161, 38.0931041887074]}, "properties": {"permit_year": 2016, "permit_address": "7646 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194267397822, 38.0938575390942]}, "properties": {"permit_year": 2016, "permit_address": "7623 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194292275768, 38.0937115953139]}, "properties": {"permit_year": 2016, "permit_address": "7627 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268352518254, 38.08707464358]}, "properties": {"permit_year": 2016, "permit_address": "1534 FLAGSHIP DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.268352518254, 38.08707464358]}, "properties": {"permit_year": 2016, "permit_address": "1530 FLAGSHIP DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19408501711, 38.0926750142406]}, "properties": {"permit_year": 2016, "permit_address": "7127 STONEBROOKE DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193882570724, 38.0926775089599]}, "properties": {"permit_year": 2016, "permit_address": "7131 Stonebrooke Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19410677171, 38.094525454786]}, "properties": {"permit_year": 2016, "permit_address": "7603 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.194071708043, 38.094671258272]}, "properties": {"permit_year": 2016, "permit_address": "7599 TIDEWATER", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.25614257482, 38.1137271450917]}, "properties": {"permit_year": 2016, "permit_address": "1804 MARIN ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193672982822, 38.0943806594399]}, "properties": {"permit_year": 2016, "permit_address": "7604 TIDEWATER DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193374565284, 38.0931764537304]}, "properties": {"permit_year": 2016, "permit_address": "7937 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193436392775, 38.0933233049266]}, "properties": {"permit_year": 2016, "permit_address": "7933 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.249757929685, 38.094300874286]}, "properties": {"permit_year": 2015, "permit_address": "1050 SONOMA AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193048945053, 38.0929205552395]}, "properties": {"permit_year": 2015, "permit_address": "7151 STONEBROOK DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192838325628, 38.0929769121548]}, "properties": {"permit_year": 2015, "permit_address": "7155 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192673780271, 38.0930209402642]}, "properties": {"permit_year": 2015, "permit_address": "7159 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.234105265446, 38.1050242878406]}, "properties": {"permit_year": 2015, "permit_address": "2014 FLORIDA ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.238935105071, 38.1204442596949]}, "properties": {"permit_year": 2015, "permit_address": "624 LA CADENA", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192036363288, 38.0933116955783]}, "properties": {"permit_year": 2015, "permit_address": "7179 STONEBROOKE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192770003233, 38.0934114618696]}, "properties": {"permit_year": 2015, "permit_address": "7162 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192500769595, 38.0930651923048]}, "properties": {"permit_year": 2015, "permit_address": "7163 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192331591829, 38.0931284838925]}, "properties": {"permit_year": 2015, "permit_address": "7169 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192620198663, 38.0935190001018]}, "properties": {"permit_year": 2015, "permit_address": "7170 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192176450683, 38.0932124239143]}, "properties": {"permit_year": 2015, "permit_address": "7175 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192414786313, 38.0935612088828]}, "properties": {"permit_year": 2015, "permit_address": "7178 STONEBROOKE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192202668618, 38.0936727778765]}, "properties": {"permit_year": 2015, "permit_address": "7188 CALISTOGA CT", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192031949415, 38.0939829045874]}, "properties": {"permit_year": 2015, "permit_address": "7196 STONEBROOKE DRIVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191914986288, 38.0941020872416]}, "properties": {"permit_year": 2015, "permit_address": "7202 STONEBROOKE DR", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192911810132, 38.0944071201925]}, "properties": {"permit_year": 2015, "permit_address": "7900 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193372159597, 38.0944782268887]}, "properties": {"permit_year": 2015, "permit_address": "7901 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193404598144, 38.0943433510649]}, "properties": {"permit_year": 2015, "permit_address": "7905 GOLDEN SPRINGS LANE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192944247779, 38.09427224257]}, "properties": {"permit_year": 2015, "permit_address": "7906 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193437035791, 38.0942084743417]}, "properties": {"permit_year": 2015, "permit_address": "7909 GOLDEN SPRINGS LANE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192976687224, 38.0941373667461]}, "properties": {"permit_year": 2015, "permit_address": "7910 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193469473437, 38.0940735967192]}, "properties": {"permit_year": 2015, "permit_address": "7913 GOLDEN SPRINGS LANE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193009124871, 38.0940024909223]}, "properties": {"permit_year": 2015, "permit_address": "7914 GOLDEN SPRINGS LANE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193501908386, 38.0939387181974]}, "properties": {"permit_year": 2015, "permit_address": "7917 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.1930431777, 38.0938665107309]}, "properties": {"permit_year": 2015, "permit_address": "7918 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19353883365, 38.0937936728398]}, "properties": {"permit_year": 2015, "permit_address": "7921 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193034027998, 38.0937226362907]}, "properties": {"permit_year": 2015, "permit_address": "7922 GOLDEN SPRINGS LANE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193540530671, 38.0936302957016]}, "properties": {"permit_year": 2015, "permit_address": "7925 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193007687755, 38.0935804300928]}, "properties": {"permit_year": 2015, "permit_address": "7928 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193511368355, 38.0934681686211]}, "properties": {"permit_year": 2015, "permit_address": "7929 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.193015012733, 38.0934269472958]}, "properties": {"permit_year": 2015, "permit_address": "7932 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192953023363, 38.0932900201184]}, "properties": {"permit_year": 2015, "permit_address": "7936 GOLDEN SPRINGS LN", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.254519, 38.152288]}, "properties": {"permit_year": 2018, "permit_address": "446 Diana Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.23954, 38.105673]}, "properties": {"permit_year": 2018, "permit_address": "517 Wolfe St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.202318, 38.101858]}, "properties": {"permit_year": 2018, "permit_address": "1313 Delwood", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.237729, 38.117843]}, "properties": {"permit_year": 2018, "permit_address": "1414 Tuolumn St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.256098, 38.143207]}, "properties": {"permit_year": 2018, "permit_address": "230 Ebbets Pass Rd ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.240855, 38.126529]}, "properties": {"permit_year": 2018, "permit_address": "306 San Marino Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.211279, 38.106782]}, "properties": {"permit_year": 2018, "permit_address": "130 Sherrod Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.243299, 38.152701]}, "properties": {"permit_year": 2018, "permit_address": "820 Corcoran Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.264574, 38.114387]}, "properties": {"permit_year": 2018, "permit_address": "116 Baxter St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.244331, 38.106709]}, "properties": {"permit_year": 2018, "permit_address": "1307 Ohio St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.249357, 38.139195]}, "properties": {"permit_year": 2018, "permit_address": "228 B.W. Williams Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.231064, 38.114343]}, "properties": {"permit_year": 2018, "permit_address": "1021 Highland Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.234317, 38.112255]}, "properties": {"permit_year": 2018, "permit_address": "1305 Arkansas St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.231007, 38.110903]}, "properties": {"permit_year": 2018, "permit_address": "2108 Indiana St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.236854, 38.098011]}, "properties": {"permit_year": 2018, "permit_address": "1422 Beach St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.239113, 38.105391]}, "properties": {"permit_year": 2018, "permit_address": "540 Wolfe St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.211279, 38.106782]}, "properties": {"permit_year": 2018, "permit_address": "130 Sherrod Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.233693, 38.112721]}, "properties": {"permit_year": 2018, "permit_address": "1318 Arkansas", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.219117, 38.099585]}, "properties": {"permit_year": 2018, "permit_address": "3029 Georgia St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.251392, 38.101879]}, "properties": {"permit_year": 2018, "permit_address": "724 Napa St", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189551, 38.090685]}, "properties": {"permit_year": 2018, "permit_address": "8923 Brookside Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189453, 38.090555]}, "properties": {"permit_year": 2018, "permit_address": "8927 Brookside Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189355, 38.09042]}, "properties": {"permit_year": 2018, "permit_address": "8931 Brookside Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190262, 38.089882]}, "properties": {"permit_year": 2018, "permit_address": "8234 Rainwater Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190262, 38.089882]}, "properties": {"permit_year": 2018, "permit_address": "8238 Rainwater Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190262, 38.089882]}, "properties": {"permit_year": 2018, "permit_address": "8214 Rainwater Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190262, 38.089882]}, "properties": {"permit_year": 2018, "permit_address": "8222 Rainwater Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190262, 38.089882]}, "properties": {"permit_year": 2018, "permit_address": "8226 Rainwater Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190262, 38.089882]}, "properties": {"permit_year": 2018, "permit_address": "8230 Rainwater Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190081, 38.09003]}, "properties": {"permit_year": 2018, "permit_address": "8901 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.18975, 38.090414]}, "properties": {"permit_year": 2018, "permit_address": "8898 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190221, 38.090172]}, "properties": {"permit_year": 2018, "permit_address": "8897 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189645, 38.090281]}, "properties": {"permit_year": 2018, "permit_address": "8902 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189849, 38.090543]}, "properties": {"permit_year": 2018, "permit_address": "8894 Blue River", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189951, 38.090676]}, "properties": {"permit_year": 2018, "permit_address": "8890 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190052, 38.090815]}, "properties": {"permit_year": 2018, "permit_address": "8886 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190517, 38.090562]}, "properties": {"permit_year": 2018, "permit_address": "8887 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19042, 38.090427]}, "properties": {"permit_year": 2018, "permit_address": "8891 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190327, 38.090296]}, "properties": {"permit_year": 2018, "permit_address": "8895 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190303, 38.091248]}, "properties": {"permit_year": 2018, "permit_address": "8874 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190766, 38.091006]}, "properties": {"permit_year": 2018, "permit_address": "8875 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190218, 38.091103]}, "properties": {"permit_year": 2018, "permit_address": "8878 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190695, 38.090847]}, "properties": {"permit_year": 2018, "permit_address": "8879 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190142, 38.090957]}, "properties": {"permit_year": 2018, "permit_address": "8882 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190608, 38.090705]}, "properties": {"permit_year": 2018, "permit_address": "8883 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191177, 38.091683]}, "properties": {"permit_year": 2018, "permit_address": "8854 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191113, 38.091257]}, "properties": {"permit_year": 2018, "permit_address": "8859 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190433, 38.09138]}, "properties": {"permit_year": 2018, "permit_address": "8870 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190587, 38.091494]}, "properties": {"permit_year": 2018, "permit_address": "8866 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190767, 38.091585]}, "properties": {"permit_year": 2018, "permit_address": "8862 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190966, 38.091649]}, "properties": {"permit_year": 2018, "permit_address": "8858 Blue river Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191391, 38.091686]}, "properties": {"permit_year": 2018, "permit_address": "8850 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191602, 38.091657]}, "properties": {"permit_year": 2018, "permit_address": "8846 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191399, 38.091261]}, "properties": {"permit_year": 2018, "permit_address": "8853 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190902, 38.091155]}, "properties": {"permit_year": 2018, "permit_address": "8867 Blue River Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.260951, 38.1074]}, "properties": {"permit_year": 2019, "permit_address": "314 Ohio Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.233372, 38.105435]}, "properties": {"permit_year": 2019, "permit_address": "51 Mendocino Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.233372, 38.105435]}, "properties": {"permit_year": 2019, "permit_address": "55 Mendocino Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.233372, 38.105435]}, "properties": {"permit_year": 2019, "permit_address": "59 Mendocino Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.23936, 38.100415]}, "properties": {"permit_year": 2019, "permit_address": "1516 Rice Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.221489, 38.095832]}, "properties": {"permit_year": 2019, "permit_address": "469 Maple Avenue", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.250507, 38.144618]}, "properties": {"permit_year": 2019, "permit_address": "107 Hastings Avenue", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.237831, 38.113149]}, "properties": {"permit_year": 2019, "permit_address": "1140 Tuolumne Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.231868, 38.106956]}, "properties": {"permit_year": 2019, "permit_address": "1938 Ohio Street", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.243105, 38.113904]}, "properties": {"permit_year": 2019, "permit_address": "1410 Amador Street", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.249215, 38.10866]}, "properties": {"permit_year": 2019, "permit_address": "915 Alabama Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.202963, 38.102783]}, "properties": {"permit_year": 2019, "permit_address": "1355 Delwood Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.243105, 38.113845]}, "properties": {"permit_year": 2019, "permit_address": "1408 Amador Street", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19188, 38.091111]}, "properties": {"permit_year": 2019, "permit_address": "8703 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191687, 38.090651]}, "properties": {"permit_year": 2019, "permit_address": "8715 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191739, 38.090797]}, "properties": {"permit_year": 2019, "permit_address": "8711 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.19112, 38.090744]}, "properties": {"permit_year": 2019, "permit_address": "8712 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191189, 38.090885]}, "properties": {"permit_year": 2019, "permit_address": "8708 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191272, 38.091027]}, "properties": {"permit_year": 2019, "permit_address": "8704 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191789, 38.090949]}, "properties": {"permit_year": 2019, "permit_address": "8707 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191804, 38.0916]}, "properties": {"permit_year": 2019, "permit_address": "8842 Blue River Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191984, 38.091513]}, "properties": {"permit_year": 2019, "permit_address": "8838 Blue River Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.192146, 38.091415]}, "properties": {"permit_year": 2019, "permit_address": "8836 Blue River Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.275019, 38.098081]}, "properties": {"permit_year": 2019, "permit_address": "1017 Azuar Drive", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.241764, 38.10266]}, "properties": {"permit_year": 2019, "permit_address": "227 Contra Costa Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.235193, 38.12744]}, "properties": {"permit_year": 2019, "permit_address": "1238 Valle Vista Avenue", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.205103, 38.103086]}, "properties": {"permit_year": 2019, "permit_address": "243 Grapewood Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191628, 38.09049]}, "properties": {"permit_year": 2019, "permit_address": "8719 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191525, 38.090332]}, "properties": {"permit_year": 2019, "permit_address": "8723 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191043, 38.090606]}, "properties": {"permit_year": 2019, "permit_address": "8716 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190946, 38.090474]}, "properties": {"permit_year": 2019, "permit_address": "8720 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190844, 38.090343]}, "properties": {"permit_year": 2019, "permit_address": "8724 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190758, 38.090206]}, "properties": {"permit_year": 2019, "permit_address": "8728 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190672, 38.090069]}, "properties": {"permit_year": 2019, "permit_address": "8732 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191283, 38.090071]}, "properties": {"permit_year": 2019, "permit_address": "8731 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191389, 38.090207]}, "properties": {"permit_year": 2019, "permit_address": "8727 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191222, 38.089922]}, "properties": {"permit_year": 2019, "permit_address": "8735 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.24034, 38.118733]}, "properties": {"permit_year": 2019, "permit_address": "230 El Camino Real", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.258868, 38.141844]}, "properties": {"permit_year": 2019, "permit_address": "118 Kit Carson Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.255485, 38.111708]}, "properties": {"permit_year": 2019, "permit_address": "231 Illonis Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.227931, 38.097513]}, "properties": {"permit_year": 2019, "permit_address": "321 Buss Avenue", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191158, 38.08978]}, "properties": {"permit_year": 2019, "permit_address": "8739 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191095, 38.08963]}, "properties": {"permit_year": 2019, "permit_address": "8743 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.191014, 38.089441]}, "properties": {"permit_year": 2019, "permit_address": "8747 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190625, 38.089881]}, "properties": {"permit_year": 2019, "permit_address": "8738 Aquamarine Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.25066, 38.104722]}, "properties": {"permit_year": 2019, "permit_address": "925 Florida Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.201413, 38.101373]}, "properties": {"permit_year": 2019, "permit_address": "1236 Delwood Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189993, 38.091416]}, "properties": {"permit_year": 2019, "permit_address": "8903 Brookside Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.189651, 38.090815]}, "properties": {"permit_year": 2019, "permit_address": "8919 Brookside Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190502, 38.089609]}, "properties": {"permit_year": 2019, "permit_address": "8206 Rainwater Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190262, 38.089882]}, "properties": {"permit_year": 2019, "permit_address": "8215 Rainwater Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190375, 38.089755]}, "properties": {"permit_year": 2019, "permit_address": "8211 Rainwater Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190502, 38.089609]}, "properties": {"permit_year": 2019, "permit_address": "8207 Rainwater Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190502, 38.089609]}, "properties": {"permit_year": 2019, "permit_address": "8202 Rainwater Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.190375, 38.089755]}, "properties": {"permit_year": 2019, "permit_address": "8210 Rainwater Drive", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.262823, 38.10589]}, "properties": {"permit_year": 2019, "permit_address": "209 Kentucky Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.242577, 38.112905]}, "properties": {"permit_year": 2019, "permit_address": "1429 Glenn Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.220601, 38.090943]}, "properties": {"permit_year": 2019, "permit_address": "484 Woodrow Avenue", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.227237, 38.079974]}, "properties": {"permit_year": 2019, "permit_address": "202 Del Sur Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.22133, 38.096687]}, "properties": {"permit_year": 2019, "permit_address": "112 George Circle", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.231963, 38.110368]}, "properties": {"permit_year": 2019, "permit_address": "2033 Indiana Street", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.218406, 38.093737]}, "properties": {"permit_year": 2019, "permit_address": "505 Apollo Court", "permit_units": 1, "permit_category": "SFD"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267244301683,
+          38.0866733669823
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267017453093,
+          38.0867207225833
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266774216157,
+          38.086833701714
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194082505303,
+          38.0926641657187
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268497849596,
+          38.0884835475777
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268450213407,
+          38.0883020248186
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268424677157,
+          38.088127451121
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268412970682,
+          38.087953574398
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26842578692,
+          38.0877824711841
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268124982582,
+          38.0884758619715
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268196807836,
+          38.0886532289634
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268113964987,
+          38.0872351626727
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268166605904,
+          38.0874334281103
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268143430375,
+          38.0876135362358
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268092785054,
+          38.087782934335
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268080466141,
+          38.0879611475889
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268095905701,
+          38.0881343327333
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268109972897,
+          38.0882999500827
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266815925814,
+          38.087051674895
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266830285289,
+          38.0872396961551
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267156208592,
+          38.0869326496222
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267383515837,
+          38.0868949860148
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267640078926,
+          38.0868789133312
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2138112361,
+          38.1049147459188
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25612911017,
+          38.1137517316571
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193200272175,
+          38.0928715376913
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193707893604,
+          38.0932506558931
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193763605706,
+          38.093380695163
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194271720863,
+          38.093847915449
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194297756236,
+          38.0936996307334
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193696235693,
+          38.0927179586669
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193364816633,
+          38.092827509582
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193528378132,
+          38.092777705127
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.246094204984,
+          38.1046277299858
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268128791211,
+          38.0868238757213
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267941814963,
+          38.0867182350585
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267713478894,
+          38.0866456453803
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267468921753,
+          38.0866347186174
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": null,
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193200272175,
+          38.0928715376913
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7147 STONEBROOKE DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194139209357,
+          38.0943905780628
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7607 TIDEWATER DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194171645205,
+          38.0942557013396
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7611 TIDEWATER DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194204081053,
+          38.0941208246164
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7615 TIDEWATER DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193705419569,
+          38.0942457827168
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7608 TIDEWATER DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193737857216,
+          38.0941109059935
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7612 TIDEWATER DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.246095572852,
+          38.1046088945849
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1215A FLORIDA ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19382507077,
+          38.0936926313099
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7626 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194255764192,
+          38.0933741597897
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7635 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194138916178,
+          38.0930589788888
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7643 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194187120739,
+          38.0932133619072
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7639 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193803219943,
+          38.093839121878
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7620 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193770293964,
+          38.0939760292704
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7616 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194236516902,
+          38.0939859478933
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7619 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268230158295,
+          38.0969844197952
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1203 Club Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268230158295,
+          38.0969844197952
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1203 CLUB DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193707892705,
+          38.0932506558931
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7642 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193763606605,
+          38.093380695163
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7636 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193807701264,
+          38.0934995378734
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7632 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194297319166,
+          38.0935430659598
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7631 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194286862748,
+          38.0926970125572
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7123 STONEBROOKE DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19364514161,
+          38.0931041887074
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7646 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194267397822,
+          38.0938575390942
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7623 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194292275768,
+          38.0937115953139
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7627 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268352518254,
+          38.08707464358
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1534 FLAGSHIP DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268352518254,
+          38.08707464358
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1530 FLAGSHIP DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19408501711,
+          38.0926750142406
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7127 STONEBROOKE DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193882570724,
+          38.0926775089599
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7131 Stonebrooke Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19410677171,
+          38.094525454786
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7603 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.194071708043,
+          38.094671258272
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7599 TIDEWATER",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25614257482,
+          38.1137271450917
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1804 MARIN ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193672982822,
+          38.0943806594399
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7604 TIDEWATER DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193374565284,
+          38.0931764537304
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7937 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193436392775,
+          38.0933233049266
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "7933 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.249757929685,
+          38.094300874286
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1050 SONOMA AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193048945053,
+          38.0929205552395
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7151 STONEBROOK DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192838325628,
+          38.0929769121548
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7155 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192673780271,
+          38.0930209402642
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7159 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.234105265446,
+          38.1050242878406
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2014 FLORIDA ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.238935105071,
+          38.1204442596949
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "624 LA CADENA",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192036363288,
+          38.0933116955783
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7179 STONEBROOKE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192770003233,
+          38.0934114618696
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7162 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192500769595,
+          38.0930651923048
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7163 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192331591829,
+          38.0931284838925
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7169 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192620198663,
+          38.0935190001018
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7170 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192176450683,
+          38.0932124239143
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7175 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192414786313,
+          38.0935612088828
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7178 STONEBROOKE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192202668618,
+          38.0936727778765
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7188 CALISTOGA CT",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192031949415,
+          38.0939829045874
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7196 STONEBROOKE DRIVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191914986288,
+          38.0941020872416
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7202 STONEBROOKE DR",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192911810132,
+          38.0944071201925
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7900 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193372159597,
+          38.0944782268887
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7901 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193404598144,
+          38.0943433510649
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7905 GOLDEN SPRINGS LANE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192944247779,
+          38.09427224257
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7906 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193437035791,
+          38.0942084743417
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7909 GOLDEN SPRINGS LANE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192976687224,
+          38.0941373667461
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7910 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193469473437,
+          38.0940735967192
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7913 GOLDEN SPRINGS LANE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193009124871,
+          38.0940024909223
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7914 GOLDEN SPRINGS LANE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193501908386,
+          38.0939387181974
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7917 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1930431777,
+          38.0938665107309
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7918 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19353883365,
+          38.0937936728398
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7921 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193034027998,
+          38.0937226362907
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7922 GOLDEN SPRINGS LANE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193540530671,
+          38.0936302957016
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7925 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193007687755,
+          38.0935804300928
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7928 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193511368355,
+          38.0934681686211
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7929 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.193015012733,
+          38.0934269472958
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7932 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192953023363,
+          38.0932900201184
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "7936 GOLDEN SPRINGS LN",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.254519,
+          38.152288
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "446 Diana Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.23954,
+          38.105673
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "517 Wolfe St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.202318,
+          38.101858
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1313 Delwood",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.237729,
+          38.117843
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1414 Tuolumn St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.256098,
+          38.143207
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "230 Ebbets Pass Rd ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.240855,
+          38.126529
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "306 San Marino Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.211279,
+          38.106782
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "130 Sherrod Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.243299,
+          38.152701
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "820 Corcoran Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264574,
+          38.114387
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "116 Baxter St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.244331,
+          38.106709
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1307 Ohio St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.249357,
+          38.139195
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "228 B.W. Williams Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.231064,
+          38.114343
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1021 Highland Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.234317,
+          38.112255
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1305 Arkansas St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.231007,
+          38.110903
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2108 Indiana St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.236854,
+          38.098011
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1422 Beach St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.239113,
+          38.105391
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "540 Wolfe St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.211279,
+          38.106782
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "130 Sherrod Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.233693,
+          38.112721
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1318 Arkansas",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.219117,
+          38.099585
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3029 Georgia St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.251392,
+          38.101879
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "724 Napa St",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189551,
+          38.090685
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8923 Brookside Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189453,
+          38.090555
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8927 Brookside Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189355,
+          38.09042
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8931 Brookside Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190262,
+          38.089882
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8234 Rainwater Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190262,
+          38.089882
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8238 Rainwater Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190262,
+          38.089882
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8214 Rainwater Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190262,
+          38.089882
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8222 Rainwater Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190262,
+          38.089882
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8226 Rainwater Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190262,
+          38.089882
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8230 Rainwater Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190081,
+          38.09003
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8901 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.18975,
+          38.090414
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8898 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190221,
+          38.090172
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8897 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189645,
+          38.090281
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8902 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189849,
+          38.090543
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8894 Blue River",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189951,
+          38.090676
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8890 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190052,
+          38.090815
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8886 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190517,
+          38.090562
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8887 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19042,
+          38.090427
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8891 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190327,
+          38.090296
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8895 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190303,
+          38.091248
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8874 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190766,
+          38.091006
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8875 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190218,
+          38.091103
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8878 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190695,
+          38.090847
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8879 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190142,
+          38.090957
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8882 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190608,
+          38.090705
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8883 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191177,
+          38.091683
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8854 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191113,
+          38.091257
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8859 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190433,
+          38.09138
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8870 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190587,
+          38.091494
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8866 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190767,
+          38.091585
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8862 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190966,
+          38.091649
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8858 Blue river Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191391,
+          38.091686
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8850 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191602,
+          38.091657
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8846 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191399,
+          38.091261
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8853 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190902,
+          38.091155
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8867 Blue River Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260951,
+          38.1074
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "314 Ohio Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.233372,
+          38.105435
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "51 Mendocino Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.233372,
+          38.105435
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "55 Mendocino Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.233372,
+          38.105435
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "59 Mendocino Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.23936,
+          38.100415
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1516 Rice Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.221489,
+          38.095832
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "469 Maple Avenue",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.250507,
+          38.144618
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "107 Hastings Avenue",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.237831,
+          38.113149
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1140 Tuolumne Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.231868,
+          38.106956
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1938 Ohio Street",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.243105,
+          38.113904
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1410 Amador Street",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.249215,
+          38.10866
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "915 Alabama Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.202963,
+          38.102783
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1355 Delwood Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.243105,
+          38.113845
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1408 Amador Street",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19188,
+          38.091111
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8703 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191687,
+          38.090651
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8715 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191739,
+          38.090797
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8711 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19112,
+          38.090744
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8712 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191189,
+          38.090885
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8708 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191272,
+          38.091027
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8704 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191789,
+          38.090949
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8707 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191804,
+          38.0916
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8842 Blue River Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191984,
+          38.091513
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8838 Blue River Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.192146,
+          38.091415
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8836 Blue River Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275019,
+          38.098081
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1017 Azuar Drive",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.241764,
+          38.10266
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "227 Contra Costa Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.235193,
+          38.12744
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1238 Valle Vista Avenue",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.205103,
+          38.103086
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "243 Grapewood Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191628,
+          38.09049
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8719 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191525,
+          38.090332
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8723 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191043,
+          38.090606
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8716 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190946,
+          38.090474
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8720 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190844,
+          38.090343
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8724 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190758,
+          38.090206
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8728 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190672,
+          38.090069
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8732 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191283,
+          38.090071
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8731 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191389,
+          38.090207
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8727 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191222,
+          38.089922
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8735 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.24034,
+          38.118733
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "230 El Camino Real",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.258868,
+          38.141844
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "118 Kit Carson Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255485,
+          38.111708
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "231 Illonis Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.227931,
+          38.097513
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "321 Buss Avenue",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191158,
+          38.08978
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8739 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191095,
+          38.08963
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8743 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191014,
+          38.089441
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8747 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190625,
+          38.089881
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8738 Aquamarine Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25066,
+          38.104722
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "925 Florida Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.201413,
+          38.101373
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1236 Delwood Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189993,
+          38.091416
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8903 Brookside Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.189651,
+          38.090815
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8919 Brookside Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190502,
+          38.089609
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8206 Rainwater Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190262,
+          38.089882
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8215 Rainwater Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190375,
+          38.089755
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8211 Rainwater Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190502,
+          38.089609
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8207 Rainwater Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190502,
+          38.089609
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8202 Rainwater Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190375,
+          38.089755
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "8210 Rainwater Drive",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262823,
+          38.10589
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "209 Kentucky Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.242577,
+          38.112905
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1429 Glenn Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.220601,
+          38.090943
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "484 Woodrow Avenue",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.227237,
+          38.079974
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "202 Del Sur Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.22133,
+          38.096687
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "112 George Circle",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.231963,
+          38.110368
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2033 Indiana Street",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.218406,
+          38.093737
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "505 Apollo Court",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    }
+  ]
+}

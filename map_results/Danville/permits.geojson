@@ -1,1 +1,4293 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.916718, 37.832075]}, "properties": {"permit_year": 2017, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.010723931364, 37.8127827541209]}, "properties": {"permit_year": 2016, "permit_address": "26 Sky Ter", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.951503660066, 37.8316345416009]}, "properties": {"permit_year": 2016, "permit_address": "2120 Blackhawk Rd", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.902406748573, 37.7910807731592]}, "properties": {"permit_year": 2016, "permit_address": "24 Hidden Hills Pl.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018275076334, 37.8205024428335]}, "properties": {"permit_year": 2016, "permit_address": "110 Starview Pl", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.002308528915, 37.8448022216452]}, "properties": {"permit_year": 2016, "permit_address": "18 Quiet Country Ln", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.93929359972, 37.8275623996851]}, "properties": {"permit_year": 2016, "permit_address": "29 Walnut Meadow Ln", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.990409449636, 37.8254252363856]}, "properties": {"permit_year": 2016, "permit_address": "412 Alamatos Dr", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.979766129703, 37.8316464252424]}, "properties": {"permit_year": 2016, "permit_address": "1021 El Cajon Dr", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.021611024229, 37.8261548617575]}, "properties": {"permit_year": 2016, "permit_address": "222 Kuss Rd", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.006790556639, 37.8213366431716]}, "properties": {"permit_year": 2016, "permit_address": "222 Tim Ct", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999245688937, 37.8172596961781]}, "properties": {"permit_year": 2016, "permit_address": "125 Sonora Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000773037246, 37.8271875082969]}, "properties": {"permit_year": 2016, "permit_address": "16 Cathy Ln", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.012635889135, 37.8350316371004]}, "properties": {"permit_year": 2016, "permit_address": "823 La Gonda Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98938699961, 37.7997660001009]}, "properties": {"permit_year": 2015, "permit_address": "137 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98942599961, 37.7996530002858]}, "properties": {"permit_year": 2015, "permit_address": "139 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "163 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.255450999764, 38.1593970001715]}, "properties": {"permit_year": 2015, "permit_address": "5 Tyler Ct.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989483999587, 37.8001350000303]}, "properties": {"permit_year": 2015, "permit_address": "111 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989624999794, 37.8004389996602]}, "properties": {"permit_year": 2015, "permit_address": "101 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.952150000122, 37.8049400003808]}, "properties": {"permit_year": 2015, "permit_address": "34 Sherburne Hills Rd.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "169 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989259000003, 37.7993040003794]}, "properties": {"permit_year": 2015, "permit_address": "167 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.903182000149, 37.7915109998328]}, "properties": {"permit_year": 2015, "permit_address": "34 Hidden Hills Pl.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018659999659, 37.8224209998293]}, "properties": {"permit_year": 2015, "permit_address": "418 Starview Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018243000214, 37.8216830997953]}, "properties": {"permit_year": 2015, "permit_address": "452 Starview Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.020267000022, 37.8246779995901]}, "properties": {"permit_year": 2015, "permit_address": "120 Kuss Rd.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986630199824, 37.8299733004275]}, "properties": {"permit_year": 2015, "permit_address": "1 Tyler Ct.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986630199824, 37.8299733004275]}, "properties": {"permit_year": 2015, "permit_address": "3 Tyler Ct.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.975528999963, 37.8448069997433]}, "properties": {"permit_year": 2015, "permit_address": "189 Hope Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "380 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "378 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "161 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989585999794, 37.8002140000761]}, "properties": {"permit_year": 2015, "permit_address": "107 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989626999886, 37.8003229997067]}, "properties": {"permit_year": 2015, "permit_address": "105 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986839499943, 37.8297992995981]}, "properties": {"permit_year": 2015, "permit_address": "6 Tyler Ct.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "603 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "601 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986630199824, 37.8299733004275]}, "properties": {"permit_year": 2015, "permit_address": "2 Tyler Ct.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "300 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "308 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "387 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "397 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "398 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "388 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "602 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "606 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "608 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "610 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "135 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "165 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "173 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "183 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989140999957, 37.8001489997766]}, "properties": {"permit_year": 2015, "permit_address": "120 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "122 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "126 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "128 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "130 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988923999843, 37.8002459997531]}, "properties": {"permit_year": 2015, "permit_address": "132 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.017475999917, 37.8336230002013]}, "properties": {"permit_year": 2015, "permit_address": "40 Fairmayden Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987942700096, 37.8009633997411]}, "properties": {"permit_year": 2015, "permit_address": "10 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987836000031, 37.8009636002899]}, "properties": {"permit_year": 2015, "permit_address": "12 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987729299967, 37.8009637999395]}, "properties": {"permit_year": 2015, "permit_address": "14 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987625699866, 37.8009457001839]}, "properties": {"permit_year": 2015, "permit_address": "16 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987522699613, 37.8009237000688]}, "properties": {"permit_year": 2015, "permit_address": "18 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987419200236, 37.8009046002671]}, "properties": {"permit_year": 2015, "permit_address": "20 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987312500172, 37.8009057999628]}, "properties": {"permit_year": 2015, "permit_address": "22 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987205899932, 37.8009071003824]}, "properties": {"permit_year": 2015, "permit_address": "24 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987099199868, 37.8009083999028]}, "properties": {"permit_year": 2015, "permit_address": "26 Brookstone Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999888000031, 37.8214550002481]}, "properties": {"permit_year": 2015, "permit_address": "200 Railroad Ave.", "permit_units": 10, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999370000425, 37.8213000002949]}, "properties": {"permit_year": 2015, "permit_address": "401 Hartz Ave.", "permit_units": 6, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999758000331, 37.8214170002944]}, "properties": {"permit_year": 2015, "permit_address": "411 Hartz Ave.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.005428000102, 37.8207989996741]}, "properties": {"permit_year": 2015, "permit_address": "305 W. Linda Mesa Ave.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00552199994, 37.8208799998122]}, "properties": {"permit_year": 2015, "permit_address": "304 W. Linda Mesa Ave.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.903182000149, 37.7915109998328]}, "properties": {"permit_year": 2015, "permit_address": "34 Hidden Hills Pl.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996945000112, 37.8083530003907]}, "properties": {"permit_year": 2015, "permit_address": "221 Morris Ranch Rd.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008281000368, 37.8229710000117]}, "properties": {"permit_year": 2015, "permit_address": "292 Love Ln.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968701999897, 37.7943850001677]}, "properties": {"permit_year": 2015, "permit_address": "244 Aptos Pl.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.893079000096, 37.7854879999713]}, "properties": {"permit_year": 2015, "permit_address": "40 Meadow Lake", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989324628029, 37.8005215421355]}, "properties": {"permit_year": 2014, "permit_address": "100 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989049525415, 37.8005299121258]}, "properties": {"permit_year": 2014, "permit_address": "106 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989010275404, 37.8004329966855]}, "properties": {"permit_year": 2014, "permit_address": "108 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989161237401, 37.8006024109725]}, "properties": {"permit_year": 2014, "permit_address": "102 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989029815873, 37.8003222775511]}, "properties": {"permit_year": 2014, "permit_address": "110 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989572384058, 37.7992132461944]}, "properties": {"permit_year": 2014, "permit_address": "320 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989575186346, 37.7993384641988]}, "properties": {"permit_year": 2014, "permit_address": "318 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989582300882, 37.7994780281885]}, "properties": {"permit_year": 2014, "permit_address": "310 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98965551469, 37.7990673033135]}, "properties": {"permit_year": 2014, "permit_address": "328 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989649724855, 37.7988547728295]}, "properties": {"permit_year": 2014, "permit_address": "370 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989456776209, 37.798765131106]}, "properties": {"permit_year": 2014, "permit_address": "368 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989369526682, 37.7988824233852]}, "properties": {"permit_year": 2014, "permit_address": "360 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989385996866, 37.7989970275908]}, "properties": {"permit_year": 2014, "permit_address": "338 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.987944200165, 37.7980233001352]}, "properties": {"permit_year": 2014, "permit_address": "340 Elworthy Ranch Dr.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000059999869, 37.8361449995921]}, "properties": {"permit_year": 2014, "permit_address": "557 El Pintado Rd.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.94476600135, 37.8287120003586]}, "properties": {"permit_year": 2014, "permit_address": "262 Arency Ct.", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.013738841075, 37.8194254273416]}, "properties": {"permit_year": 2014, "permit_address": "485 Montcrest Pl", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011011000357, 37.8403110001526]}, "properties": {"permit_year": 2014, "permit_address": "315 El Pinto", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.897932499086, 37.8056390254208]}, "properties": {"permit_year": 2014, "permit_address": "33 Blackhawk Meadows Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999864400022, 37.8214147996533]}, "properties": {"permit_year": 2014, "permit_address": "411 Hartz Ave.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011011000357, 37.8403110001526]}, "properties": {"permit_year": 2014, "permit_address": "315 El Pinto", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99988, 37.818862]}, "properties": {"permit_year": 2018, "permit_address": "185 El Dorado Ave.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.001833, 37.820916]}, "properties": {"permit_year": 2018, "permit_address": "42 William Ct. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996861, 37.807757]}, "properties": {"permit_year": 2018, "permit_address": "324 Cliffside Dr. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98689, 37.829177]}, "properties": {"permit_year": 2018, "permit_address": "1 Willowmere ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991835, 37.83463]}, "properties": {"permit_year": 2018, "permit_address": "853 Dolphin Dr. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.014154, 37.822594]}, "properties": {"permit_year": 2018, "permit_address": "446 Marian Ln. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.014921, 37.830529]}, "properties": {"permit_year": 2018, "permit_address": "741 Glen Rd. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99089, 37.832153]}, "properties": {"permit_year": 2018, "permit_address": "854 El Cerro Blvd. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004584, 37.832801]}, "properties": {"permit_year": 2016, "permit_address": "474 El Rio Rd. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008353, 37.839487]}, "properties": {"permit_year": 2016, "permit_address": "857 El Pintado Rd. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01261, 37.817355]}, "properties": {"permit_year": 2017, "permit_address": "8 Margaret Ln. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989424, 37.827735]}, "properties": {"permit_year": 2017, "permit_address": "50 Bobbie Ct. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011125, 37.838606]}, "properties": {"permit_year": 2018, "permit_address": "900 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981102, 37.821612]}, "properties": {"permit_year": 2017, "permit_address": "225 Gil Blas Rd. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000617, 37.818098]}, "properties": {"permit_year": 2017, "permit_address": "181 Sonora Ave ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982403, 37.809378]}, "properties": {"permit_year": 2017, "permit_address": "547 Everett Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.018244, 37.822798]}, "properties": {"permit_year": 2017, "permit_address": "390 Starview Dr. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007294, 37.822212]}, "properties": {"permit_year": 2017, "permit_address": "153 Alice Ct. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023946, 37.821772]}, "properties": {"permit_year": 2018, "permit_address": "700 Clipper Hill Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986844, 37.829453]}, "properties": {"permit_year": 2018, "permit_address": "815 Diablo Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.012055, 37.834662]}, "properties": {"permit_year": 2018, "permit_address": "805 La Gonda Way ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.984879, 37.829255]}, "properties": {"permit_year": 2017, "permit_address": "11 Buckeye Ln. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.993768, 37.83459]}, "properties": {"permit_year": 2018, "permit_address": "529 Farragut Pl ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.020373, 37.817312]}, "properties": {"permit_year": 2018, "permit_address": "6 Hilferd Way ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.017724, 37.828971]}, "properties": {"permit_year": 2018, "permit_address": "334 Cordell Dr. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000104, 37.817271]}, "properties": {"permit_year": 2017, "permit_address": "176 Estates Dr. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000617, 37.818098]}, "properties": {"permit_year": 2017, "permit_address": "181 Sonora Ave.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.982403, 37.809378]}, "properties": {"permit_year": 2017, "permit_address": "547 Everett Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.003971, 37.843485]}, "properties": {"permit_year": 2018, "permit_address": "740 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.90385, 37.791666]}, "properties": {"permit_year": 2017, "permit_address": "66 Hidden Hills Pl.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.997335, 37.805703]}, "properties": {"permit_year": 2018, "permit_address": "269 Montego Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.938624, 37.827728]}, "properties": {"permit_year": 2017, "permit_address": "18 Walnut Meadow Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.939172, 37.827854]}, "properties": {"permit_year": 2017, "permit_address": "21 Walnut Meadow Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.938818, 37.827232]}, "properties": {"permit_year": 2017, "permit_address": "26 Walnut Meadow Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.897852, 37.784115]}, "properties": {"permit_year": 2018, "permit_address": "15 Mitchell Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994698, 37.802774]}, "properties": {"permit_year": 2018, "permit_address": "315 Wingfield Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994465, 37.802219]}, "properties": {"permit_year": 2018, "permit_address": "320 Wingfield Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994179, 37.802402]}, "properties": {"permit_year": 2018, "permit_address": "316 Wingfield Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.002347, 37.843803]}, "properties": {"permit_year": 2018, "permit_address": "8 Quiet Country Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.001263, 37.83133]}, "properties": {"permit_year": 2018, "permit_address": "455 El Rio Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.995144, 37.803165]}, "properties": {"permit_year": 2018, "permit_address": "323 Wingfield Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.995403, 37.803305]}, "properties": {"permit_year": 2018, "permit_address": "327 Wingfield Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994937, 37.802958]}, "properties": {"permit_year": 2018, "permit_address": "319 Wingfield Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927583, 37.80339]}, "properties": {"permit_year": 2018, "permit_address": "101 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.92752, 37.803056]}, "properties": {"permit_year": 2018, "permit_address": "102 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927325, 37.803025]}, "properties": {"permit_year": 2018, "permit_address": "106 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927136, 37.802976]}, "properties": {"permit_year": 2018, "permit_address": "108 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999781, 37.837064]}, "properties": {"permit_year": 2018, "permit_address": "554 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999334, 37.841384]}, "properties": {"permit_year": 2015, "permit_address": "315 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98593, 37.831457]}, "properties": {"permit_year": 2018, "permit_address": "818 Matadera Cir. ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999334, 37.841384]}, "properties": {"permit_year": 2015, "permit_address": "315 El Pinto", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98882, 37.817061]}, "properties": {"permit_year": 2017, "permit_address": "241 La Questa Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000617, 37.818098]}, "properties": {"permit_year": 2017, "permit_address": "181 Sonora Ave. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023946, 37.821772]}, "properties": {"permit_year": 2018, "permit_address": "700 Clipper Hill Rd. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986844, 37.829453]}, "properties": {"permit_year": 2017, "permit_address": "815 Diablo Rd ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.005141, 37.815067]}, "properties": {"permit_year": 2017, "permit_address": "492 Highland Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.985329, 37.828768]}, "properties": {"permit_year": 2017, "permit_address": "9 Buckeye Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999734, 37.809117]}, "properties": {"permit_year": 2018, "permit_address": "66 Alexander Ln. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.984274, 37.805772]}, "properties": {"permit_year": 2018, "permit_address": "9 Liberta Pl. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008557, 37.840857]}, "properties": {"permit_year": 2018, "permit_address": "330 El Alamo ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989397, 37.819883]}, "properties": {"permit_year": 2018, "permit_address": "44 Buena Vista Dr. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01384, 37.832346]}, "properties": {"permit_year": 2018, "permit_address": "796 Danville Blvd. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.998764, 37.837767]}, "properties": {"permit_year": 2018, "permit_address": "611 Logan Ln. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.015289, 37.819988]}, "properties": {"permit_year": 2018, "permit_address": "555 Del Amigo Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.968972, 37.844728]}, "properties": {"permit_year": 2018, "permit_address": "293 Valle Vista ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.990508, 37.823562]}, "properties": {"permit_year": 2018, "permit_address": "112 Alamatos Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.019504, 37.829913]}, "properties": {"permit_year": 2018, "permit_address": "309 Rutherford Dr. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.974023, 37.801777]}, "properties": {"permit_year": 2018, "permit_address": "309 Bolero Dr. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927404, 37.803348]}, "properties": {"permit_year": 2018, "permit_address": "105 Julia Loop", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927244, 37.803338]}, "properties": {"permit_year": 2018, "permit_address": "115 Julia Loop", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994876, 37.822005]}, "properties": {"permit_year": 2019, "permit_address": "373-383 Diablo Road", "permit_units": 144, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999334, 37.841384]}, "properties": {"permit_year": 2019, "permit_address": "315 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.938624, 37.827728]}, "properties": {"permit_year": 2017, "permit_address": "18 Walnut Meadow Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.939172, 37.827854]}, "properties": {"permit_year": 2017, "permit_address": "21 Walnut Meadow Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.999781, 37.837064]}, "properties": {"permit_year": 2018, "permit_address": "554 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927583, 37.80339]}, "properties": {"permit_year": 2018, "permit_address": "101 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.92752, 37.803056]}, "properties": {"permit_year": 2019, "permit_address": "102 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927325, 37.803025]}, "properties": {"permit_year": 2019, "permit_address": "106 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927136, 37.802976]}, "properties": {"permit_year": 2019, "permit_address": "108 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926897, 37.803023]}, "properties": {"permit_year": 2019, "permit_address": "110 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926892, 37.803197]}, "properties": {"permit_year": 2019, "permit_address": "112 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926864, 37.80334]}, "properties": {"permit_year": 2019, "permit_address": "116 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927282, 37.803491]}, "properties": {"permit_year": 2019, "permit_address": "117 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927279, 37.803654]}, "properties": {"permit_year": 2019, "permit_address": "119 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927736, 37.80309]}, "properties": {"permit_year": 2019, "permit_address": "100 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926839, 37.803506]}, "properties": {"permit_year": 2019, "permit_address": "118 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926845, 37.803739]}, "properties": {"permit_year": 2019, "permit_address": "120 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927288, 37.803842]}, "properties": {"permit_year": 2019, "permit_address": "121 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926852, 37.803838]}, "properties": {"permit_year": 2019, "permit_address": "122 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.926831, 37.804103]}, "properties": {"permit_year": 2019, "permit_address": "126 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927048, 37.804124]}, "properties": {"permit_year": 2020, "permit_address": "128 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927245, 37.804173]}, "properties": {"permit_year": 2020, "permit_address": "130 Julia Loop", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00334, 37.843894]}, "properties": {"permit_year": 2019, "permit_address": "782 El Pintado Rd ", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.899642, 37.794117]}, "properties": {"permit_year": 2019, "permit_address": "81 Hackler Ct", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.900346, 37.794117]}, "properties": {"permit_year": 2019, "permit_address": "80 Hackler Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.899675, 37.794668]}, "properties": {"permit_year": 2019, "permit_address": "89 Hackler Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.900378, 37.794493]}, "properties": {"permit_year": 2019, "permit_address": "86 Hackler Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.900221, 37.794648]}, "properties": {"permit_year": 2019, "permit_address": "88 Hackler Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.899589, 37.794411]}, "properties": {"permit_year": 2019, "permit_address": "85 Hackler Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.896522, 37.784096]}, "properties": {"permit_year": 2019, "permit_address": "19 Mitchell Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.984441, 37.809509]}, "properties": {"permit_year": 2020, "permit_address": "44 Smokewood Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927404, 37.803348]}, "properties": {"permit_year": 2019, "permit_address": "105 Julia Loop", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.927244, 37.803338]}, "properties": {"permit_year": 2019, "permit_address": "115 Julia Loop", "permit_units": 1, "permit_category": "SFA"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004584, 37.832801]}, "properties": {"permit_year": 2016, "permit_address": "474 El Rio Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01261, 37.817355]}, "properties": {"permit_year": 2016, "permit_address": "8 Margaret Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.011125, 37.838606]}, "properties": {"permit_year": 2018, "permit_address": "900 El Pintado Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000617, 37.818098]}, "properties": {"permit_year": 2017, "permit_address": "181 Sonora Ave.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007294, 37.822212]}, "properties": {"permit_year": 2017, "permit_address": "153 Alice Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023946, 37.821772]}, "properties": {"permit_year": 2018, "permit_address": "700 Clipper Hill Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.012055, 37.834662]}, "properties": {"permit_year": 2018, "permit_address": "805 La Gonda Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004344, 37.815116]}, "properties": {"permit_year": 2018, "permit_address": "493 Highland Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.984879, 37.829255]}, "properties": {"permit_year": 2018, "permit_address": "11 Buckeye Ln", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.996861, 37.807757]}, "properties": {"permit_year": 2018, "permit_address": "324 Cliffside Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98689, 37.829177]}, "properties": {"permit_year": 2018, "permit_address": "1 Willowmere", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.991835, 37.83463]}, "properties": {"permit_year": 2018, "permit_address": "853 Dolphin Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.99089, 37.832153]}, "properties": {"permit_year": 2019, "permit_address": "854 El Cerro Blvd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.012818, 37.824997]}, "properties": {"permit_year": 2019, "permit_address": "150 Emerald Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01355, 37.830706]}, "properties": {"permit_year": 2019, "permit_address": "12 Shelly Pl.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008383, 37.822183]}, "properties": {"permit_year": 2019, "permit_address": "305 Love Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.002139, 37.817154]}, "properties": {"permit_year": 2019, "permit_address": "315 Bonanza Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.020771, 37.827939]}, "properties": {"permit_year": 2019, "permit_address": "357 Hartford Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.997422, 37.816069]}, "properties": {"permit_year": 2019, "permit_address": "95 Estates Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008284, 37.829171]}, "properties": {"permit_year": 2019, "permit_address": "608 Danville Blvd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.981737, 37.808532]}, "properties": {"permit_year": 2019, "permit_address": "635 Everett Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007877, 37.832853]}, "properties": {"permit_year": 2019, "permit_address": "10 La Gonda Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.985198, 37.824249]}, "properties": {"permit_year": 2019, "permit_address": "46 Diablo Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98383, 37.840298]}, "properties": {"permit_year": 2020, "permit_address": "931 Blemer Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.984688, 37.824293]}, "properties": {"permit_year": 2019, "permit_address": "56 Diablo Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.00038, 37.817437]}, "properties": {"permit_year": 2019, "permit_address": "186 Estates Dr.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008313, 37.839741]}, "properties": {"permit_year": 2019, "permit_address": "853 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.96515, 37.801661]}, "properties": {"permit_year": 2019, "permit_address": "349 Camaritas Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.014561, 37.826178]}, "properties": {"permit_year": 2020, "permit_address": "318 Del Amigo Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.007327, 37.824451]}, "properties": {"permit_year": 2019, "permit_address": "432 Verona Ave.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.984604, 37.809743]}, "properties": {"permit_year": 2019, "permit_address": "46 Smokewood Ct.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.017993, 37.830176]}, "properties": {"permit_year": 2019, "permit_address": "224 Hartford Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.978171, 37.822037]}, "properties": {"permit_year": 2020, "permit_address": "973 Richard Ln.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.003971, 37.843485]}, "properties": {"permit_year": 2020, "permit_address": "740 El Pintado Rd.", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.000617, 37.818098]}, "properties": {"permit_year": 2017, "permit_address": "181 Sonora Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.023946, 37.821772]}, "properties": {"permit_year": 2018, "permit_address": "700 Clipper Hill Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.985329, 37.828768]}, "properties": {"permit_year": 2018, "permit_address": "9 Buckeye Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98689, 37.829177]}, "properties": {"permit_year": 2018, "permit_address": "1 Willowmere", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.01384, 37.832346]}, "properties": {"permit_year": 2018, "permit_address": "796 Danville Blvd. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.015289, 37.819988]}, "properties": {"permit_year": 2018, "permit_address": "555 Del Amigo Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.019504, 37.829913]}, "properties": {"permit_year": 2019, "permit_address": "309 Rutherford Dr. ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008974, 37.812446]}, "properties": {"permit_year": 2019, "permit_address": "17 Sky Terrace", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.972578, 37.798467]}, "properties": {"permit_year": 2019, "permit_address": "300 Century Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98035, 37.796895]}, "properties": {"permit_year": 2019, "permit_address": "58 Hardester Ct.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988376, 37.821401]}, "properties": {"permit_year": 2019, "permit_address": "922 El Rincon Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.986622, 37.810444]}, "properties": {"permit_year": 2019, "permit_address": "417 Everett Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008284, 37.829171]}, "properties": {"permit_year": 2019, "permit_address": "608 Danville Blvd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.976544, 37.791819]}, "properties": {"permit_year": 2019, "permit_address": "163 Saint James Ct.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.008313, 37.839741]}, "properties": {"permit_year": 2019, "permit_address": "853 El Pintado Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.013655, 37.83033]}, "properties": {"permit_year": 2019, "permit_address": "716 Glen Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98791, 37.818009]}, "properties": {"permit_year": 2019, "permit_address": "302 La Questa Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.89868, 37.791878]}, "properties": {"permit_year": 2019, "permit_address": "1315 Lawrence Rd", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.989744, 37.823319]}, "properties": {"permit_year": 2019, "permit_address": "536 Diablo Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.020771, 37.827939]}, "properties": {"permit_year": 2019, "permit_address": "357 Hartford Rd.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988934, 37.818519]}, "properties": {"permit_year": 2019, "permit_address": "321 La Questa Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.004875, 37.822498]}, "properties": {"permit_year": 2019, "permit_address": "329 Verona Ave.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.006302, 37.823584]}, "properties": {"permit_year": 2019, "permit_address": "193 Love Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.002992, 37.816121]}, "properties": {"permit_year": 2019, "permit_address": "355 Glendora Cir.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.98672, 37.814158]}, "properties": {"permit_year": 2019, "permit_address": "507 Old Farm Road", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.988934, 37.818519]}, "properties": {"permit_year": 2020, "permit_address": "321 La Questa Dr.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.006302, 37.823584]}, "properties": {"permit_year": 2020, "permit_address": "193 Love Ln.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.971881, 37.785017]}, "properties": {"permit_year": 2019, "permit_address": "80 La Pera Ct.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.017446, 37.827414]}, "properties": {"permit_year": 2020, "permit_address": "10 Harmony Ct.", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994876, 37.822005]}, "properties": {"permit_year": 2019, "permit_address": "373-383 Diablo Road", "permit_units": 10, "permit_category": "MH"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.994876, 37.822005]}, "properties": {"permit_year": 2019, "permit_address": "373-383 Diablo Road", "permit_units": 134, "permit_category": "MH"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.916718,
+          37.832075
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.010723931364,
+          37.8127827541209
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "26 Sky Ter",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.951503660066,
+          37.8316345416009
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2120 Blackhawk Rd",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.902406748573,
+          37.7910807731592
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "24 Hidden Hills Pl.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018275076334,
+          37.8205024428335
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "110 Starview Pl",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.002308528915,
+          37.8448022216452
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "18 Quiet Country Ln",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.93929359972,
+          37.8275623996851
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "29 Walnut Meadow Ln",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.990409449636,
+          37.8254252363856
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "412 Alamatos Dr",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.979766129703,
+          37.8316464252424
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "1021 El Cajon Dr",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.021611024229,
+          37.8261548617575
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "222 Kuss Rd",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.006790556639,
+          37.8213366431716
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "222 Tim Ct",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999245688937,
+          37.8172596961781
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "125 Sonora Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000773037246,
+          37.8271875082969
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "16 Cathy Ln",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.012635889135,
+          37.8350316371004
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "823 La Gonda Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98938699961,
+          37.7997660001009
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "137 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98942599961,
+          37.7996530002858
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "139 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "163 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255450999764,
+          38.1593970001715
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "5 Tyler Ct.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989483999587,
+          37.8001350000303
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "111 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989624999794,
+          37.8004389996602
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "101 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952150000122,
+          37.8049400003808
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "34 Sherburne Hills Rd.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "169 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989259000003,
+          37.7993040003794
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "167 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.903182000149,
+          37.7915109998328
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "34 Hidden Hills Pl.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018659999659,
+          37.8224209998293
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "418 Starview Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018243000214,
+          37.8216830997953
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "452 Starview Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.020267000022,
+          37.8246779995901
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "120 Kuss Rd.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986630199824,
+          37.8299733004275
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "1 Tyler Ct.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986630199824,
+          37.8299733004275
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "3 Tyler Ct.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.975528999963,
+          37.8448069997433
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "189 Hope Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "380 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "378 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "161 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989585999794,
+          37.8002140000761
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "107 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989626999886,
+          37.8003229997067
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "105 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986839499943,
+          37.8297992995981
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "6 Tyler Ct.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "603 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "601 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986630199824,
+          37.8299733004275
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "2 Tyler Ct.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "300 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "308 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "387 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "397 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "398 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "388 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "602 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "606 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "608 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "610 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "135 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "165 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "173 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "183 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989140999957,
+          37.8001489997766
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "120 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "122 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "126 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "128 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "130 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988923999843,
+          37.8002459997531
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "132 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.017475999917,
+          37.8336230002013
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "40 Fairmayden Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987942700096,
+          37.8009633997411
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "10 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987836000031,
+          37.8009636002899
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "12 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987729299967,
+          37.8009637999395
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "14 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987625699866,
+          37.8009457001839
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "16 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987522699613,
+          37.8009237000688
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "18 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987419200236,
+          37.8009046002671
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "20 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987312500172,
+          37.8009057999628
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "22 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987205899932,
+          37.8009071003824
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "24 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987099199868,
+          37.8009083999028
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "26 Brookstone Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999888000031,
+          37.8214550002481
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "200 Railroad Ave.",
+        "permit_units": 10,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999370000425,
+          37.8213000002949
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "401 Hartz Ave.",
+        "permit_units": 6,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999758000331,
+          37.8214170002944
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "411 Hartz Ave.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.005428000102,
+          37.8207989996741
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "305 W. Linda Mesa Ave.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00552199994,
+          37.8208799998122
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "304 W. Linda Mesa Ave.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.903182000149,
+          37.7915109998328
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "34 Hidden Hills Pl.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996945000112,
+          37.8083530003907
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "221 Morris Ranch Rd.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008281000368,
+          37.8229710000117
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "292 Love Ln.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968701999897,
+          37.7943850001677
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "244 Aptos Pl.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.893079000096,
+          37.7854879999713
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "40 Meadow Lake",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989324628029,
+          37.8005215421355
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "100 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989049525415,
+          37.8005299121258
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "106 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989010275404,
+          37.8004329966855
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "108 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989161237401,
+          37.8006024109725
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "102 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989029815873,
+          37.8003222775511
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "110 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989572384058,
+          37.7992132461944
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "320 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989575186346,
+          37.7993384641988
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "318 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989582300882,
+          37.7994780281885
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "310 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98965551469,
+          37.7990673033135
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "328 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989649724855,
+          37.7988547728295
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "370 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989456776209,
+          37.798765131106
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "368 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989369526682,
+          37.7988824233852
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "360 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989385996866,
+          37.7989970275908
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "338 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.987944200165,
+          37.7980233001352
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "340 Elworthy Ranch Dr.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000059999869,
+          37.8361449995921
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "557 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.94476600135,
+          37.8287120003586
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "262 Arency Ct.",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.013738841075,
+          37.8194254273416
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "485 Montcrest Pl",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011011000357,
+          37.8403110001526
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "315 El Pinto",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.897932499086,
+          37.8056390254208
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "33 Blackhawk Meadows Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999864400022,
+          37.8214147996533
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "411 Hartz Ave.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011011000357,
+          37.8403110001526
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "315 El Pinto",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99988,
+          37.818862
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "185 El Dorado Ave.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.001833,
+          37.820916
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "42 William Ct. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996861,
+          37.807757
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "324 Cliffside Dr. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98689,
+          37.829177
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1 Willowmere ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991835,
+          37.83463
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "853 Dolphin Dr. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.014154,
+          37.822594
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "446 Marian Ln. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.014921,
+          37.830529
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "741 Glen Rd. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99089,
+          37.832153
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "854 El Cerro Blvd. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004584,
+          37.832801
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "474 El Rio Rd. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008353,
+          37.839487
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "857 El Pintado Rd. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01261,
+          37.817355
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "8 Margaret Ln. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989424,
+          37.827735
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "50 Bobbie Ct. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011125,
+          37.838606
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "900 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981102,
+          37.821612
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "225 Gil Blas Rd. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000617,
+          37.818098
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "181 Sonora Ave ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982403,
+          37.809378
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "547 Everett Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.018244,
+          37.822798
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "390 Starview Dr. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007294,
+          37.822212
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "153 Alice Ct. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023946,
+          37.821772
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "700 Clipper Hill Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986844,
+          37.829453
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "815 Diablo Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.012055,
+          37.834662
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "805 La Gonda Way ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.984879,
+          37.829255
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "11 Buckeye Ln. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.993768,
+          37.83459
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "529 Farragut Pl ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.020373,
+          37.817312
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "6 Hilferd Way ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.017724,
+          37.828971
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "334 Cordell Dr. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000104,
+          37.817271
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "176 Estates Dr. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000617,
+          37.818098
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "181 Sonora Ave.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982403,
+          37.809378
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "547 Everett Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.003971,
+          37.843485
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "740 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.90385,
+          37.791666
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "66 Hidden Hills Pl.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997335,
+          37.805703
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "269 Montego Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.938624,
+          37.827728
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "18 Walnut Meadow Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.939172,
+          37.827854
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "21 Walnut Meadow Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.938818,
+          37.827232
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "26 Walnut Meadow Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.897852,
+          37.784115
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "15 Mitchell Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994698,
+          37.802774
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "315 Wingfield Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994465,
+          37.802219
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "320 Wingfield Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994179,
+          37.802402
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "316 Wingfield Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.002347,
+          37.843803
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "8 Quiet Country Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.001263,
+          37.83133
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "455 El Rio Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.995144,
+          37.803165
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "323 Wingfield Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.995403,
+          37.803305
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "327 Wingfield Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994937,
+          37.802958
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "319 Wingfield Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927583,
+          37.80339
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "101 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.92752,
+          37.803056
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "102 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927325,
+          37.803025
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "106 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927136,
+          37.802976
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "108 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999781,
+          37.837064
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "554 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999334,
+          37.841384
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "315 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98593,
+          37.831457
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "818 Matadera Cir. ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999334,
+          37.841384
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "315 El Pinto",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98882,
+          37.817061
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "241 La Questa Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000617,
+          37.818098
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "181 Sonora Ave. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023946,
+          37.821772
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "700 Clipper Hill Rd. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986844,
+          37.829453
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "815 Diablo Rd ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.005141,
+          37.815067
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "492 Highland Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.985329,
+          37.828768
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "9 Buckeye Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999734,
+          37.809117
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "66 Alexander Ln. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.984274,
+          37.805772
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "9 Liberta Pl. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008557,
+          37.840857
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "330 El Alamo ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989397,
+          37.819883
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "44 Buena Vista Dr. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01384,
+          37.832346
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "796 Danville Blvd. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.998764,
+          37.837767
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "611 Logan Ln. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.015289,
+          37.819988
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "555 Del Amigo Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.968972,
+          37.844728
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "293 Valle Vista ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.990508,
+          37.823562
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "112 Alamatos Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.019504,
+          37.829913
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "309 Rutherford Dr. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.974023,
+          37.801777
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "309 Bolero Dr. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927404,
+          37.803348
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "105 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927244,
+          37.803338
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "115 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994876,
+          37.822005
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "373-383 Diablo Road",
+        "permit_units": 144,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999334,
+          37.841384
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "315 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.938624,
+          37.827728
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "18 Walnut Meadow Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.939172,
+          37.827854
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "21 Walnut Meadow Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.999781,
+          37.837064
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "554 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927583,
+          37.80339
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "101 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.92752,
+          37.803056
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "102 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927325,
+          37.803025
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "106 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927136,
+          37.802976
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "108 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926897,
+          37.803023
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "110 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926892,
+          37.803197
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "112 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926864,
+          37.80334
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "116 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927282,
+          37.803491
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "117 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927279,
+          37.803654
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "119 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927736,
+          37.80309
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "100 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926839,
+          37.803506
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "118 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926845,
+          37.803739
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "120 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927288,
+          37.803842
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "121 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926852,
+          37.803838
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "122 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.926831,
+          37.804103
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "126 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927048,
+          37.804124
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "128 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927245,
+          37.804173
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "130 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00334,
+          37.843894
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "782 El Pintado Rd ",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.899642,
+          37.794117
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "81 Hackler Ct",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.900346,
+          37.794117
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "80 Hackler Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.899675,
+          37.794668
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "89 Hackler Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.900378,
+          37.794493
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "86 Hackler Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.900221,
+          37.794648
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "88 Hackler Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.899589,
+          37.794411
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "85 Hackler Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.896522,
+          37.784096
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "19 Mitchell Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.984441,
+          37.809509
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "44 Smokewood Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927404,
+          37.803348
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "105 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.927244,
+          37.803338
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "115 Julia Loop",
+        "permit_units": 1,
+        "permit_category": "SFA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004584,
+          37.832801
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "474 El Rio Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01261,
+          37.817355
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "8 Margaret Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.011125,
+          37.838606
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "900 El Pintado Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000617,
+          37.818098
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "181 Sonora Ave.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007294,
+          37.822212
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "153 Alice Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023946,
+          37.821772
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "700 Clipper Hill Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.012055,
+          37.834662
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "805 La Gonda Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004344,
+          37.815116
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "493 Highland Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.984879,
+          37.829255
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "11 Buckeye Ln",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.996861,
+          37.807757
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "324 Cliffside Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98689,
+          37.829177
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1 Willowmere",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.991835,
+          37.83463
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "853 Dolphin Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99089,
+          37.832153
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "854 El Cerro Blvd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.012818,
+          37.824997
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "150 Emerald Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01355,
+          37.830706
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "12 Shelly Pl.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008383,
+          37.822183
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "305 Love Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.002139,
+          37.817154
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "315 Bonanza Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.020771,
+          37.827939
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "357 Hartford Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997422,
+          37.816069
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "95 Estates Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008284,
+          37.829171
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "608 Danville Blvd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.981737,
+          37.808532
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "635 Everett Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007877,
+          37.832853
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "10 La Gonda Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.985198,
+          37.824249
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "46 Diablo Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98383,
+          37.840298
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "931 Blemer Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.984688,
+          37.824293
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "56 Diablo Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00038,
+          37.817437
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "186 Estates Dr.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008313,
+          37.839741
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "853 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96515,
+          37.801661
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "349 Camaritas Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.014561,
+          37.826178
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "318 Del Amigo Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.007327,
+          37.824451
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "432 Verona Ave.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.984604,
+          37.809743
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "46 Smokewood Ct.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.017993,
+          37.830176
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "224 Hartford Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978171,
+          37.822037
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "973 Richard Ln.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.003971,
+          37.843485
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "740 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.000617,
+          37.818098
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "181 Sonora Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.023946,
+          37.821772
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "700 Clipper Hill Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.985329,
+          37.828768
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "9 Buckeye Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98689,
+          37.829177
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "1 Willowmere",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.01384,
+          37.832346
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "796 Danville Blvd. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.015289,
+          37.819988
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "555 Del Amigo Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.019504,
+          37.829913
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "309 Rutherford Dr. ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008974,
+          37.812446
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "17 Sky Terrace",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.972578,
+          37.798467
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "300 Century Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98035,
+          37.796895
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "58 Hardester Ct.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988376,
+          37.821401
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "922 El Rincon Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.986622,
+          37.810444
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "417 Everett Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008284,
+          37.829171
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "608 Danville Blvd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.976544,
+          37.791819
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "163 Saint James Ct.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.008313,
+          37.839741
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "853 El Pintado Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.013655,
+          37.83033
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "716 Glen Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98791,
+          37.818009
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "302 La Questa Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.89868,
+          37.791878
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1315 Lawrence Rd",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.989744,
+          37.823319
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "536 Diablo Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.020771,
+          37.827939
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "357 Hartford Rd.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988934,
+          37.818519
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "321 La Questa Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004875,
+          37.822498
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "329 Verona Ave.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.006302,
+          37.823584
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "193 Love Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.002992,
+          37.816121
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "355 Glendora Cir.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98672,
+          37.814158
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "507 Old Farm Road",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.988934,
+          37.818519
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "321 La Questa Dr.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.006302,
+          37.823584
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "193 Love Ln.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.971881,
+          37.785017
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "80 La Pera Ct.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.017446,
+          37.827414
+        ]
+      },
+      "properties": {
+        "permit_year": 2020,
+        "permit_address": "10 Harmony Ct.",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994876,
+          37.822005
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "373-383 Diablo Road",
+        "permit_units": 10,
+        "permit_category": "MH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.994876,
+          37.822005
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "373-383 Diablo Road",
+        "permit_units": 134,
+        "permit_category": "MH"
+      }
+    }
+  ]
+}

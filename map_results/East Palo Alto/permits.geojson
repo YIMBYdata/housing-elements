@@ -1,1 +1,901 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14056622725, 37.469785066028]}, "properties": {"permit_year": 2017, "permit_address": "2358 University Ave.", "permit_units": 41, "permit_category": "5+"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136501350957, 37.4789308771583]}, "properties": {"permit_year": 2017, "permit_address": "2727 Fordham St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135405084577, 37.4734777677848]}, "properties": {"permit_year": 2017, "permit_address": "2495 Illinois St", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.152232480145, 37.4733729014383]}, "properties": {"permit_year": 2017, "permit_address": "1244 Westminster", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.153630111141, 37.4708119236314]}, "properties": {"permit_year": 2017, "permit_address": "1137 Westminster", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135104136347, 37.4673912586997]}, "properties": {"permit_year": 2016, "permit_address": "2257 Clarke Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.137528122225, 37.4773807607136]}, "properties": {"permit_year": 2016, "permit_address": "2653 FORDHAM ST", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.139020564248, 37.4658053069694]}, "properties": {"permit_year": 2016, "permit_address": "2192 COOLEY AVE", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.135141425836, 37.4760621081798]}, "properties": {"permit_year": 2016, "permit_address": "2600 ILLINOIS ST", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131988323602, 37.4720966060736]}, "properties": {"permit_year": 2016, "permit_address": "535 ASPEN PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131939118096, 37.472013175068]}, "properties": {"permit_year": 2016, "permit_address": "533 ASPEN PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131888516842, 37.4719273824428]}, "properties": {"permit_year": 2016, "permit_address": "531 ASPEN PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13183809815, 37.4718418946877]}, "properties": {"permit_year": 2016, "permit_address": "529 ASPEN PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131737106982, 37.4716706601729]}, "properties": {"permit_year": 2016, "permit_address": "523 ASPEN PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131891800266, 37.4715100997114]}, "properties": {"permit_year": 2016, "permit_address": "612 Montage Circle", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131942394326, 37.4715958608604]}, "properties": {"permit_year": 2016, "permit_address": "616 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.131993095405, 37.4716818522357]}, "properties": {"permit_year": 2016, "permit_address": "620 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132043399883, 37.471767170019]}, "properties": {"permit_year": 2016, "permit_address": "622 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132093829367, 37.4718526982435]}, "properties": {"permit_year": 2016, "permit_address": "628 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132144346984, 37.4719383775541]}, "properties": {"permit_year": 2016, "permit_address": "630 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132199925986, 37.4720326372964]}, "properties": {"permit_year": 2016, "permit_address": "632 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132302378552, 37.4722713353539]}, "properties": {"permit_year": 2016, "permit_address": "636 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132169310365, 37.4713902272772]}, "properties": {"permit_year": 2016, "permit_address": "618 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132078913211, 37.4713278179245]}, "properties": {"permit_year": 2016, "permit_address": "615 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.13200260034, 37.4712468969268]}, "properties": {"permit_year": 2016, "permit_address": "611 MONTAGE CIRCLE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132185490068, 37.4711042707456]}, "properties": {"permit_year": 2016, "permit_address": "770 CEDAR PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132246325607, 37.471185319447]}, "properties": {"permit_year": 2016, "permit_address": "778 CEDAR PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132317184091, 37.4712617492304]}, "properties": {"permit_year": 2016, "permit_address": "780 CEDAR PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132554912679, 37.4711206366081]}, "properties": {"permit_year": 2016, "permit_address": "785 CEDAR PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132495553827, 37.4710380410728]}, "properties": {"permit_year": 2016, "permit_address": "779 CEDAR PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132436186881, 37.4709513266425]}, "properties": {"permit_year": 2016, "permit_address": "775 CEDAR PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132688712014, 37.4708529857767]}, "properties": {"permit_year": 2016, "permit_address": "850 MAPLE PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132725898082, 37.4709550669228]}, "properties": {"permit_year": 2016, "permit_address": "852 MAPLE PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132764514071, 37.4710449029]}, "properties": {"permit_year": 2016, "permit_address": "856 MAPLE PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.132786875714, 37.4713329089866]}, "properties": {"permit_year": 2016, "permit_address": "866 MAPLE PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133075044578, 37.4713261020181]}, "properties": {"permit_year": 2016, "permit_address": "867 MAPLE PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133010463362, 37.4707859790897]}, "properties": {"permit_year": 2016, "permit_address": "851 MAPLE PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133271587814, 37.4707844547389]}, "properties": {"permit_year": 2016, "permit_address": "902 HOLLY PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133280037843, 37.4708845187056]}, "properties": {"permit_year": 2016, "permit_address": "906 HOLLY PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133288013031, 37.4709789556144]}, "properties": {"permit_year": 2016, "permit_address": "910 HOLLY PLACE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150269889644, 37.4640057959308]}, "properties": {"permit_year": 2016, "permit_address": "2035 RALMAR AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.14876427615, 37.4725047193174]}, "properties": {"permit_year": 2016, "permit_address": "2361 POPLAR AVE", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.133746035051, 37.4798467907968]}, "properties": {"permit_year": 2016, "permit_address": "2800 ILLINOIS ST", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149915, 37.444122]}, "properties": {"permit_year": 2016, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.149915, 37.444122]}, "properties": {"permit_year": 2015, "permit_address": "Unidentified", "permit_units": 0, "permit_category": "Unidentified"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.144489999914, 37.4661099999766]}, "properties": {"permit_year": 2014, "permit_address": "449 Bell Street", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134397899643, 37.46382079999]}, "properties": {"permit_year": 2014, "permit_address": "2124 Clarke Avnue", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.125313, 37.456574]}, "properties": {"permit_year": 2019, "permit_address": "283 Daphne Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.129024, 37.459112]}, "properties": {"permit_year": 2019, "permit_address": "1127 Gaillardia Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.147109, 37.473199]}, "properties": {"permit_year": 2019, "permit_address": "2390 Ralmar Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.1354, 37.469932]}, "properties": {"permit_year": 2019, "permit_address": "888 WEEKS ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.150012, 37.470131]}, "properties": {"permit_year": 2019, "permit_address": "2282 Menalto Ave", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.134263, 37.459531]}, "properties": {"permit_year": 2019, "permit_address": "1960 CLARKE AVE", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136107, 37.478403]}, "properties": {"permit_year": 2019, "permit_address": "2717 GONZAGA ST", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.126914, 37.457377]}, "properties": {"permit_year": 2019, "permit_address": "4 GARDENIA CT", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.136911, 37.46632]}, "properties": {"permit_year": 2019, "permit_address": "803 BELL ST", "permit_units": 1, "permit_category": "ADU"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14056622725,
+          37.469785066028
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2358 University Ave.",
+        "permit_units": 41,
+        "permit_category": "5+"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136501350957,
+          37.4789308771583
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2727 Fordham St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135405084577,
+          37.4734777677848
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2495 Illinois St",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.152232480145,
+          37.4733729014383
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1244 Westminster",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.153630111141,
+          37.4708119236314
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "1137 Westminster",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135104136347,
+          37.4673912586997
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2257 Clarke Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137528122225,
+          37.4773807607136
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2653 FORDHAM ST",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.139020564248,
+          37.4658053069694
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2192 COOLEY AVE",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.135141425836,
+          37.4760621081798
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2600 ILLINOIS ST",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131988323602,
+          37.4720966060736
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "535 ASPEN PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131939118096,
+          37.472013175068
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "533 ASPEN PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131888516842,
+          37.4719273824428
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "531 ASPEN PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13183809815,
+          37.4718418946877
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "529 ASPEN PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131737106982,
+          37.4716706601729
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "523 ASPEN PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131891800266,
+          37.4715100997114
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "612 Montage Circle",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131942394326,
+          37.4715958608604
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "616 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.131993095405,
+          37.4716818522357
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "620 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132043399883,
+          37.471767170019
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "622 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132093829367,
+          37.4718526982435
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "628 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132144346984,
+          37.4719383775541
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "630 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132199925986,
+          37.4720326372964
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "632 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132302378552,
+          37.4722713353539
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "636 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132169310365,
+          37.4713902272772
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "618 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132078913211,
+          37.4713278179245
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "615 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13200260034,
+          37.4712468969268
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "611 MONTAGE CIRCLE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132185490068,
+          37.4711042707456
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "770 CEDAR PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132246325607,
+          37.471185319447
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "778 CEDAR PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132317184091,
+          37.4712617492304
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "780 CEDAR PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132554912679,
+          37.4711206366081
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "785 CEDAR PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132495553827,
+          37.4710380410728
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "779 CEDAR PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132436186881,
+          37.4709513266425
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "775 CEDAR PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132688712014,
+          37.4708529857767
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "850 MAPLE PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132725898082,
+          37.4709550669228
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "852 MAPLE PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132764514071,
+          37.4710449029
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "856 MAPLE PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.132786875714,
+          37.4713329089866
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "866 MAPLE PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133075044578,
+          37.4713261020181
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "867 MAPLE PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133010463362,
+          37.4707859790897
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "851 MAPLE PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133271587814,
+          37.4707844547389
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "902 HOLLY PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133280037843,
+          37.4708845187056
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "906 HOLLY PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133288013031,
+          37.4709789556144
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "910 HOLLY PLACE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150269889644,
+          37.4640057959308
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2035 RALMAR AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14876427615,
+          37.4725047193174
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2361 POPLAR AVE",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133746035051,
+          37.4798467907968
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "2800 ILLINOIS ST",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149915,
+          37.444122
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.149915,
+          37.444122
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "Unidentified",
+        "permit_units": 0,
+        "permit_category": "Unidentified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.144489999914,
+          37.4661099999766
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "449 Bell Street",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134397899643,
+          37.46382079999
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "2124 Clarke Avnue",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.125313,
+          37.456574
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "283 Daphne Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.129024,
+          37.459112
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1127 Gaillardia Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.147109,
+          37.473199
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2390 Ralmar Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1354,
+          37.469932
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "888 WEEKS ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.150012,
+          37.470131
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2282 Menalto Ave",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.134263,
+          37.459531
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1960 CLARKE AVE",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136107,
+          37.478403
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "2717 GONZAGA ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.126914,
+          37.457377
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "4 GARDENIA CT",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.136911,
+          37.46632
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "803 BELL ST",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    }
+  ]
+}

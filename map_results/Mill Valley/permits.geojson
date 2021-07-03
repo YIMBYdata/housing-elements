@@ -1,1 +1,1525 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.551513000125, 37.9056769999936]}, "properties": {"permit_year": 2017, "permit_address": "89 Lovell", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.535340999887, 37.9033169999796]}, "properties": {"permit_year": 2017, "permit_address": "32 Alta Vista", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.539746800175, 37.898736356198]}, "properties": {"permit_year": 2017, "permit_address": "445 Molino", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.530245172277, 37.89921339798]}, "properties": {"permit_year": 2017, "permit_address": "81 Ryan", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.520837270823, 37.9075203970488]}, "properties": {"permit_year": 2017, "permit_address": "2 Greenfield Court", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.544743819272, 37.9136153300835]}, "properties": {"permit_year": 2017, "permit_address": "54 Greenwood Way", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.545900460738, 37.9029916477464]}, "properties": {"permit_year": 2017, "permit_address": "207 Ethel", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.565525713741, 37.9159862199881]}, "properties": {"permit_year": 2017, "permit_address": "750 Lovell", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.526422826053, 37.9129059475515]}, "properties": {"permit_year": 2017, "permit_address": "17 Stanton", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.552893272407, 37.9163878509186]}, "properties": {"permit_year": 2017, "permit_address": "350 Corte Madera Ave", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.556450627994, 37.9134584730302]}, "properties": {"permit_year": 2017, "permit_address": "26 Ralston", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.55577751512, 37.9024996061719]}, "properties": {"permit_year": 2017, "permit_address": "290 Edgewood", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.546932659415, 37.9128216271164]}, "properties": {"permit_year": 2017, "permit_address": "131 Woodbine", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.555466311021, 37.9087312469495]}, "properties": {"permit_year": 2017, "permit_address": "161 Tamalpais", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.534350806744, 37.9004610607294]}, "properties": {"permit_year": 2017, "permit_address": "24 Hilarita", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.551213465629, 37.9140073913281]}, "properties": {"permit_year": 2017, "permit_address": "235 W Blithedale", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.550495644758, 37.9170853336213]}, "properties": {"permit_year": 2017, "permit_address": "24 Cushing", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.546272536348, 37.9047000502671]}, "properties": {"permit_year": 2017, "permit_address": "28 Laurelwood", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.546224555719, 37.9049072378788]}, "properties": {"permit_year": 2017, "permit_address": "28 Laurelwood", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.555222973361, 37.91884319166]}, "properties": {"permit_year": 2017, "permit_address": "18 Marsh", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.53606440285, 37.9033308135662]}, "properties": {"permit_year": 2017, "permit_address": "386 E Blithedale", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.552037900229, 37.9146294002267]}, "properties": {"permit_year": 2016, "permit_address": "265 W. Blithedale", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.544541899889, 37.9058648998453]}, "properties": {"permit_year": 2016, "permit_address": "66 Sunnyside", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.547502899739, 37.9095775000017]}, "properties": {"permit_year": 2016, "permit_address": "86 W. Bithedale", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.560036099986, 37.9040124996772]}, "properties": {"permit_year": 2016, "permit_address": "6 Cypress", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.535088900133, 37.9014123995626]}, "properties": {"permit_year": 2016, "permit_address": "191 Elm", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.548214699649, 37.9116089003305]}, "properties": {"permit_year": 2016, "permit_address": "3 Coronet", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.520398600415, 37.9120471003934]}, "properties": {"permit_year": 2016, "permit_address": "4 Salt Creek", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.520503000013, 37.8945686999855]}, "properties": {"permit_year": 2016, "permit_address": "30 Jacklyn Terrace", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.558779899972, 37.9107295000665]}, "properties": {"permit_year": 2016, "permit_address": "335 Lovell", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.553113000165, 37.9214679997484]}, "properties": {"permit_year": 2016, "permit_address": "70 Lee", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.547434871422, 37.9148346596918]}, "properties": {"permit_year": 2015, "permit_address": "150 Greenwood Wy", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.554344335722, 37.9024279508893]}, "properties": {"permit_year": 2015, "permit_address": "13 Daffodil Ln.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.554486202876, 37.9087259724257]}, "properties": {"permit_year": 2015, "permit_address": "51 Cornelia Ave.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.559367817371, 37.9163174420963]}, "properties": {"permit_year": 2015, "permit_address": "575 Summit Ave.", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.548888894407, 37.9126389766075]}, "properties": {"permit_year": 2015, "permit_address": "36 Portola Ln, Mill Valley, CA 94941", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.535691438709, 37.9025588337233]}, "properties": {"permit_year": 2015, "permit_address": "153 Locust Ave, Mill Valley, CA 94941", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.540226832203, 37.9095383713988]}, "properties": {"permit_year": 2015, "permit_address": "166 Elinor Ave, Mill Valley, CA 94941", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.547297049419, 37.9008076135806]}, "properties": {"permit_year": 2015, "permit_address": "29 Birch St, Mill Valley, CA 94941", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.552083416716, 37.9145828459216]}, "properties": {"permit_year": 2015, "permit_address": "260 Corte Madera Ave, Mill Valley, CA 94941", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.524495319004, 37.901694557358]}, "properties": {"permit_year": 2015, "permit_address": "112 Shelley Dr, Mill Valley, CA 94941", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.536074531914, 37.901454333151]}, "properties": {"permit_year": 2015, "permit_address": "116 Locust Ave, Mill Valley, CA 94941", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.533451848924, 37.8981573870538]}, "properties": {"permit_year": 2014, "permit_address": "5 Nelson", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.521712284195, 37.9027043251446]}, "properties": {"permit_year": 2014, "permit_address": "6 Longfellow", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.520500999921, 37.9035600003938]}, "properties": {"permit_year": 2014, "permit_address": "862 E Blithedale", "permit_units": 2, "permit_category": "2 to 4"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.550771490212, 37.9046629451389]}, "properties": {"permit_year": 2014, "permit_address": "12 Ethel", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.524538558408, 37.9017013724205]}, "properties": {"permit_year": 2014, "permit_address": "122 Shelley", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.531842999555, 37.9080349999153]}, "properties": {"permit_year": 2014, "permit_address": "14 Escalon", "permit_units": 1, "permit_category": "SF"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.531953581093, 37.908084479715]}, "properties": {"permit_year": 2014, "permit_address": "14 Escalon", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.536693456138, 37.8998764870103]}, "properties": {"permit_year": 2014, "permit_address": "140 Walnut", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.543795923943, 37.9101168189361]}, "properties": {"permit_year": 2014, "permit_address": "164 Bolsa", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.551809496711, 37.9143607709329]}, "properties": {"permit_year": 2014, "permit_address": "249 W. Blithedale", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.535510760413, 37.904355887814]}, "properties": {"permit_year": 2014, "permit_address": "26 Alvarado", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.554185696213, 37.9126730510205]}, "properties": {"permit_year": 2014, "permit_address": "41 Beverly Terrace", "permit_units": 1, "permit_category": "SU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2018, "permit_address": "175 Bolsa", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.527399, 37.925262]}, "properties": {"permit_year": 2018, "permit_address": "315 Tamalpais", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.527399, 37.925262]}, "properties": {"permit_year": 2018, "permit_address": "315 Tamalpais", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2018, "permit_address": "185 Summit", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.55809, 37.909702]}, "properties": {"permit_year": 2018, "permit_address": "516 Throckmorton", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2018, "permit_address": "55 Marilin", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2018, "permit_address": "30 Catalpa", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2018, "permit_address": "3 Magee", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2018, "permit_address": "61 Catalpa", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.550287, 37.909329]}, "properties": {"permit_year": 2018, "permit_address": "2 Upper Alcatraz", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.557396, 37.907882]}, "properties": {"permit_year": 2018, "permit_address": "471 Throckmorton", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.522211, 37.914767]}, "properties": {"permit_year": 2018, "permit_address": "14 Midhill ", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.525665, 37.912524]}, "properties": {"permit_year": 2018, "permit_address": "12 Stanton", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.555919, 37.92026]}, "properties": {"permit_year": 2018, "permit_address": "28 Marsh", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2018, "permit_address": "319 Lovell", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.568539, 37.911536]}, "properties": {"permit_year": 2019, "permit_address": "501 Cascade Dr", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "9 Simons Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "7 Simons Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "7A Simons Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "5 Simons Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "5A Simons Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "1 Simons Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "3 Simons Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "11 Simons Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "11A Simons Way", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.562937, 37.886325]}, "properties": {"permit_year": 2019, "permit_address": "13 Simons Way", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.538231, 37.91526]}, "properties": {"permit_year": 2019, "permit_address": "5 Tartan Rd", "permit_units": 1, "permit_category": "SFD"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.559966, 37.909868]}, "properties": {"permit_year": 2019, "permit_address": "571 Throckmorton Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.556488, 37.907361]}, "properties": {"permit_year": 2019, "permit_address": "445 Throckmorton Ave", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.555211, 37.918835]}, "properties": {"permit_year": 2019, "permit_address": "18 Marsh Drive", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.568539, 37.911536]}, "properties": {"permit_year": 2019, "permit_address": "501 Cascade Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.530494, 37.908132]}, "properties": {"permit_year": 2019, "permit_address": "11 Escalon Dr", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.531743, 37.901573]}, "properties": {"permit_year": 2019, "permit_address": "495 E Blithedale", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.525331, 37.914707]}, "properties": {"permit_year": 2019, "permit_address": "15 Middle Ct", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.560615, 37.901998]}, "properties": {"permit_year": 2019, "permit_address": "50A Sunnycrest", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.533763, 37.902875]}, "properties": {"permit_year": 2019, "permit_address": "76 Alta Vista", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.545725, 37.902455]}, "properties": {"permit_year": 2019, "permit_address": "216 Ethel", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.543843, 37.904938]}, "properties": {"permit_year": 2019, "permit_address": "144 E Blithedale", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.533446, 37.896965]}, "properties": {"permit_year": 2019, "permit_address": "106 Valley Circle", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.539481, 37.908934]}, "properties": {"permit_year": 2019, "permit_address": "58 Hillcrest (AKA 155 Circle)", "permit_units": 1, "permit_category": "ADU"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.539481, 37.908934]}, "properties": {"permit_year": 2019, "permit_address": "58 Hillcrest (AKA 155 Circle)", "permit_units": 1, "permit_category": "SFD"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.551513000125,
+          37.9056769999936
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "89 Lovell",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.535340999887,
+          37.9033169999796
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "32 Alta Vista",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.539746800175,
+          37.898736356198
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "445 Molino",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.530245172277,
+          37.89921339798
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "81 Ryan",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.520837270823,
+          37.9075203970488
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "2 Greenfield Court",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.544743819272,
+          37.9136153300835
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "54 Greenwood Way",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.545900460738,
+          37.9029916477464
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "207 Ethel",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.565525713741,
+          37.9159862199881
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "750 Lovell",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.526422826053,
+          37.9129059475515
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "17 Stanton",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.552893272407,
+          37.9163878509186
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "350 Corte Madera Ave",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.556450627994,
+          37.9134584730302
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "26 Ralston",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.55577751512,
+          37.9024996061719
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "290 Edgewood",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.546932659415,
+          37.9128216271164
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "131 Woodbine",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.555466311021,
+          37.9087312469495
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "161 Tamalpais",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.534350806744,
+          37.9004610607294
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "24 Hilarita",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.551213465629,
+          37.9140073913281
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "235 W Blithedale",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.550495644758,
+          37.9170853336213
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "24 Cushing",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.546272536348,
+          37.9047000502671
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "28 Laurelwood",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.546224555719,
+          37.9049072378788
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "28 Laurelwood",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.555222973361,
+          37.91884319166
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "18 Marsh",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.53606440285,
+          37.9033308135662
+        ]
+      },
+      "properties": {
+        "permit_year": 2017,
+        "permit_address": "386 E Blithedale",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.552037900229,
+          37.9146294002267
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "265 W. Blithedale",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.544541899889,
+          37.9058648998453
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "66 Sunnyside",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.547502899739,
+          37.9095775000017
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "86 W. Bithedale",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.560036099986,
+          37.9040124996772
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "6 Cypress",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.535088900133,
+          37.9014123995626
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "191 Elm",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.548214699649,
+          37.9116089003305
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "3 Coronet",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.520398600415,
+          37.9120471003934
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "4 Salt Creek",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.520503000013,
+          37.8945686999855
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "30 Jacklyn Terrace",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.558779899972,
+          37.9107295000665
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "335 Lovell",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.553113000165,
+          37.9214679997484
+        ]
+      },
+      "properties": {
+        "permit_year": 2016,
+        "permit_address": "70 Lee",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.547434871422,
+          37.9148346596918
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "150 Greenwood Wy",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.554344335722,
+          37.9024279508893
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "13 Daffodil Ln.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.554486202876,
+          37.9087259724257
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "51 Cornelia Ave.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.559367817371,
+          37.9163174420963
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "575 Summit Ave.",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.548888894407,
+          37.9126389766075
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "36 Portola Ln, Mill Valley, CA 94941",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.535691438709,
+          37.9025588337233
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "153 Locust Ave, Mill Valley, CA 94941",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.540226832203,
+          37.9095383713988
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "166 Elinor Ave, Mill Valley, CA 94941",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.547297049419,
+          37.9008076135806
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "29 Birch St, Mill Valley, CA 94941",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.552083416716,
+          37.9145828459216
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "260 Corte Madera Ave, Mill Valley, CA 94941",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.524495319004,
+          37.901694557358
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "112 Shelley Dr, Mill Valley, CA 94941",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.536074531914,
+          37.901454333151
+        ]
+      },
+      "properties": {
+        "permit_year": 2015,
+        "permit_address": "116 Locust Ave, Mill Valley, CA 94941",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.533451848924,
+          37.8981573870538
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "5 Nelson",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.521712284195,
+          37.9027043251446
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "6 Longfellow",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.520500999921,
+          37.9035600003938
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "862 E Blithedale",
+        "permit_units": 2,
+        "permit_category": "2 to 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.550771490212,
+          37.9046629451389
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "12 Ethel",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.524538558408,
+          37.9017013724205
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "122 Shelley",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.531842999555,
+          37.9080349999153
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "14 Escalon",
+        "permit_units": 1,
+        "permit_category": "SF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.531953581093,
+          37.908084479715
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "14 Escalon",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.536693456138,
+          37.8998764870103
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "140 Walnut",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.543795923943,
+          37.9101168189361
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "164 Bolsa",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.551809496711,
+          37.9143607709329
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "249 W. Blithedale",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.535510760413,
+          37.904355887814
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "26 Alvarado",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.554185696213,
+          37.9126730510205
+        ]
+      },
+      "properties": {
+        "permit_year": 2014,
+        "permit_address": "41 Beverly Terrace",
+        "permit_units": 1,
+        "permit_category": "SU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "175 Bolsa",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.527399,
+          37.925262
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "315 Tamalpais",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.527399,
+          37.925262
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "315 Tamalpais",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "185 Summit",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.55809,
+          37.909702
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "516 Throckmorton",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "55 Marilin",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "30 Catalpa",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "3 Magee",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "61 Catalpa",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.550287,
+          37.909329
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "2 Upper Alcatraz",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.557396,
+          37.907882
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "471 Throckmorton",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.522211,
+          37.914767
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "14 Midhill ",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.525665,
+          37.912524
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "12 Stanton",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.555919,
+          37.92026
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "28 Marsh",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2018,
+        "permit_address": "319 Lovell",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.568539,
+          37.911536
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "501 Cascade Dr",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "9 Simons Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "7 Simons Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "7A Simons Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5 Simons Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5A Simons Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "1 Simons Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "3 Simons Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "11 Simons Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "11A Simons Way",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.562937,
+          37.886325
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "13 Simons Way",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.538231,
+          37.91526
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "5 Tartan Rd",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.559966,
+          37.909868
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "571 Throckmorton Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.556488,
+          37.907361
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "445 Throckmorton Ave",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.555211,
+          37.918835
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "18 Marsh Drive",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.568539,
+          37.911536
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "501 Cascade Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.530494,
+          37.908132
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "11 Escalon Dr",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.531743,
+          37.901573
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "495 E Blithedale",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.525331,
+          37.914707
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "15 Middle Ct",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.560615,
+          37.901998
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "50A Sunnycrest",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.533763,
+          37.902875
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "76 Alta Vista",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.545725,
+          37.902455
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "216 Ethel",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.543843,
+          37.904938
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "144 E Blithedale",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.533446,
+          37.896965
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "106 Valley Circle",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.539481,
+          37.908934
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "58 Hillcrest (AKA 155 Circle)",
+        "permit_units": 1,
+        "permit_category": "ADU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.539481,
+          37.908934
+        ]
+      },
+      "properties": {
+        "permit_year": 2019,
+        "permit_address": "58 Hillcrest (AKA 155 Circle)",
+        "permit_units": 1,
+        "permit_category": "SFD"
+      }
+    }
+  ]
+}
