@@ -514,15 +514,6 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "1406 Yarberry Lane",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2014.0,
             "permit_address": "1401 Yarberry Lane",
             "permit_units": 10.0,
@@ -533,7 +524,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1409 Yarberry Lane",
+            "permit_address": "1406 Yarberry Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -542,7 +533,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1410 Yarberry Lane",
+            "permit_address": "1414 Yarberry Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -551,7 +542,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1425 Yarberry Lane",
+            "permit_address": "1413 Yarberry Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -578,6 +569,33 @@
           },
           {
             "permit_year": 2015.0,
+            "permit_address": "1402 Yarberry Lane",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1409 Yarberry Lane",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1410 Yarberry Lane",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "1421 Yarberry Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -596,25 +614,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1413 Yarberry Lane",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1402 Yarberry Lane",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1414 Yarberry Lane",
+            "permit_address": "1425 Yarberry Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -633,15 +633,6 @@
             ]
           },
           {
-            "permit_year": 2015,
-            "permit_address": "1409 Yarberry Lane",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2014,
             "permit_address": "1401 Yarberry Lane",
             "permit_units": 10,
@@ -652,7 +643,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1410 Yarberry Lane",
+            "permit_address": "1414 Yarberry Lane",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -661,7 +652,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1425 Yarberry Lane",
+            "permit_address": "1413 Yarberry Lane",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -688,33 +679,6 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1421 Yarberry Lane",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1418 Yarberry Lane",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1413 Yarberry Lane",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "1402 Yarberry Lane",
             "permit_units": 1,
             "permit_category": "SF",
@@ -724,7 +688,43 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1414 Yarberry Lane",
+            "permit_address": "1409 Yarberry Lane",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1410 Yarberry Lane",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1421 Yarberry Lane",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1425 Yarberry Lane",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1418 Yarberry Lane",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1173,6 +1173,60 @@
         "match_results": [
           {
             "permit_year": 2015.0,
+            "permit_address": "703 Wood Sorrel",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "110/112 Hansen Way",
+            "permit_units": 2.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "106/108 Hansen Way",
+            "permit_units": 2.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "118/120 Hansen Way",
+            "permit_units": 2.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "102/104 Hansen Way",
+            "permit_units": 2.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "707 Wood Sorrel",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "114/116 Hansen Way",
             "permit_units": 2.0,
             "permit_category": "2 to 4",
@@ -1191,63 +1245,9 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "118/120 Hansen Way",
-            "permit_units": 2.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "110/112 Hansen Way",
-            "permit_units": 2.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "102/104 Hansen Way",
-            "permit_units": 2.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "703 Wood Sorrel",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "707 Wood Sorrel",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "705 Wood Sorrel",
             "permit_units": 1.0,
             "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "106/108 Hansen Way",
-            "permit_units": 2.0,
-            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -1265,60 +1265,6 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "114/116 Hansen Way",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1384 Woodside Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1388 Woodside Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "118/120 Hansen Way",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1392 Woodside Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "110/112 Hansen Way",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "701 Wood Sorrel",
             "permit_units": 1,
             "permit_category": "SF",
@@ -1337,9 +1283,72 @@
           },
           {
             "permit_year": 2015,
+            "permit_address": "110/112 Hansen Way",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "100 Hansen Way",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1384 Woodside Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "106/108 Hansen Way",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
             "permit_address": "707 Wood Sorrel",
             "permit_units": 1,
             "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1388 Woodside Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1392 Woodside Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "114/116 Hansen Way",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -1363,15 +1372,6 @@
             ]
           },
           {
-            "permit_year": 2015,
-            "permit_address": "106/108 Hansen Way",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016,
             "permit_address": "1396 Woodside Circle",
             "permit_units": 1,
@@ -1382,9 +1382,9 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "100 Hansen Way",
-            "permit_units": 1,
-            "permit_category": "SF",
+            "permit_address": "118/120 Hansen Way",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -1439,15 +1439,6 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "695 Wood Sorrel",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "122/124 Hansen Way",
             "permit_units": 2.0,
             "permit_category": "2 to 4",
@@ -1457,16 +1448,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "119/121 Hansen Way",
-            "permit_units": 2.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "699 Wood Sorrel",
+            "permit_address": "109 Hansen Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1484,7 +1466,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "2611/128 Hansen Way",
+            "permit_address": "127/129 Hansen Way",
             "permit_units": 2.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1502,7 +1484,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "123/125 Hansen Way",
+            "permit_address": "115/117 Hansen Way",
             "permit_units": 2.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1511,7 +1493,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "127/129 Hansen Way",
+            "permit_address": "119/121 Hansen Way",
             "permit_units": 2.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1529,7 +1511,25 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "115/117 Hansen Way",
+            "permit_address": "699 Wood Sorrel",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "695 Wood Sorrel",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2611/128 Hansen Way",
             "permit_units": 2.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1538,9 +1538,9 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "109 Hansen Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_address": "123/125 Hansen Way",
+            "permit_units": 2.0,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -1558,9 +1558,9 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "695 Wood Sorrel",
-            "permit_units": 1,
-            "permit_category": "SF",
+            "permit_address": "2611/128 Hansen Way",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -1576,16 +1576,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "119/121 Hansen Way",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "699 Wood Sorrel",
+            "permit_address": "109 Hansen Way",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1603,7 +1594,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "2611/128 Hansen Way",
+            "permit_address": "127/129 Hansen Way",
             "permit_units": 2,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1621,16 +1612,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "123/125 Hansen Way",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "127/129 Hansen Way",
+            "permit_address": "115/117 Hansen Way",
             "permit_units": 2,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1648,7 +1630,25 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "115/117 Hansen Way",
+            "permit_address": "699 Wood Sorrel",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "695 Wood Sorrel",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "123/125 Hansen Way",
             "permit_units": 2,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1657,9 +1657,9 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "109 Hansen Way",
-            "permit_units": 1,
-            "permit_category": "SF",
+            "permit_address": "119/121 Hansen Way",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -11516,7 +11516,7 @@
         "match_results_lax": [
           {
             "permit_year": 2018,
-            "permit_address": "674 Sunnyslope Ln",
+            "permit_address": "668 Sunnyslope Rd.",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -11525,7 +11525,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "668 Sunnyslope Rd.",
+            "permit_address": "674 Sunnyslope",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -11543,7 +11543,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "674 Sunnyslope",
+            "permit_address": "674 Sunnyslope Ln",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [

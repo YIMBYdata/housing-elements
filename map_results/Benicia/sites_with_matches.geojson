@@ -135,42 +135,42 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "154 St. Catherine's Lane",
-            "permit_units": 1.0,
-            "permit_category": "SU",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "150 St. Catherine's Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "154 St. Catherine's Lane",
+            "permit_units": 1.0,
+            "permit_category": "SU",
+            "match_type": [
+              "apn"
             ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2017.0,
-            "permit_address": "154 St. Catherine's Lane",
-            "permit_units": 1.0,
-            "permit_category": "SU",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "150 St. Catherine's Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "154 St. Catherine's Lane",
+            "permit_units": 1.0,
+            "permit_category": "SU",
+            "match_type": [
+              "apn"
             ]
           }
         ],
@@ -4580,7 +4580,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1033 West L Street",
+            "permit_address": "1013 West L Street",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4589,7 +4589,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1013 West L Street",
+            "permit_address": "1001 West L Street",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4607,7 +4607,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1001 West L Street",
+            "permit_address": "1033 West L Street",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4627,7 +4627,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1033 West L Street",
+            "permit_address": "1013 West L Street",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4636,7 +4636,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1013 West L Street",
+            "permit_address": "1001 West L Street",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4654,7 +4654,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1001 West L Street",
+            "permit_address": "1033 West L Street",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

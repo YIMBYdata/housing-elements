@@ -2187,601 +2187,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "435 BELVEDERE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "251 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "870 WATERWOOD DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "660 WATERWOOD DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "275 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "650 WATERWOOD DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "101 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "367 SILVER RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "858 WATERWOOD DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "263 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "342 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "602 SANDPIPER PLACE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "125 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "339 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "450 MALLARDS GULCH DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "318 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "126 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "214 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "244 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "104 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "366 SILVER RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "665 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "139 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "137 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "299 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "648 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "420 BELVEDERE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "115 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "102 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "435 MALLARDS GULCH DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "612 SANDPIPER PLACE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "121 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "629 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "930 BLUE HERON DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "124 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "615 HAWK RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "590 BELVEDERE DRIVE, Rio Vista, CA",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "510 HAWK RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "670 WATERWOOD DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "105 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "256 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "118 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "620 WATERWOOD DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "368 SILVER RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "620 HAWK RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "900 BLUE HERON DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "605 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "624 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "405 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "127 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "262 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "326 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "132 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "622 SANDPIPER PLACE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "409 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "689 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "238 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "106 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "268 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "326 SILVER RIDGE DRIVE, Rio Vista, CA",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "324 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "455 MALLARDS GULCH DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "336 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "307 MARKS ROAD",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "405 BELVEDERE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "975 BLUE HERON DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "129 DVID LAMOREE WAY",
+            "permit_address": "245 HARVEST HILLS DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2799,142 +2205,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "475 MALLARDS GULCH DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "369 SILVER RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "660 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "310 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "281 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "291 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "303 MARKS ROAD",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "470 MALLARDS GULCH DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "413 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "432 SUMMERSET DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "550 HAWK RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "314 MARKS ROAD, Rio Vista, CA",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "295 MARKS ROAD",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "410 BELVEDERE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "257 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "677 FALCONCREST DRIVE",
+            "permit_address": "365 SILVER RIDGE DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2952,7 +2223,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "672 SANDPIPER PLACE",
+            "permit_address": "650 HAWK RIDGE DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2961,7 +2232,502 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "650 HAWK RIDGE DRIVE",
+            "permit_address": "262 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "332 SILVER RIDGE DRIVE, Rio Vista, CA",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "122 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "124 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "565 BELVEDERE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "590 BELVEDERE DRIVE, Rio Vista, CA",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "102 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "108 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "415 BELVEDERE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "367 SILVER RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "677 FALCONCREST DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "660 WATERWOOD DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "318 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "109 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "280 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "368 SILVER RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "425 BELVEDERE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "104 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "470 MALLARDS GULCH DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "870 WATERWOOD DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "251 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "130 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "612 SANDPIPER PLACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "239 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "330 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "620 HAWK RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "413 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "326 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "106 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "269 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "435 BELVEDERE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "214 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "128 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "620 WATERWOOD DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "420 BELVEDERE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "432 SUMMERSET DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "299 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "410 BELVEDERE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "137 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "670 WATERWOOD DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "263 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "125 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "378 SILVER RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "103 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "121 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "291 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "324 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "660 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "139 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "374 SILVER RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "650 WATERWOOD DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "133 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "303 MARKS ROAD",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "846 WATERWOOD DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "310 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "612 FALCONCREST WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2988,7 +2754,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "610 HAWK RIDGE DRIVE",
+            "permit_address": "570 HAWK RIDGE DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2997,97 +2763,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "846 WATERWOOD DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "332 SILVER RIDGE DRIVE, Rio Vista, CA",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "280 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "119 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "378 SILVER RIDGE DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "116 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "612 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "285 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "239 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "117 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "103 DAVID LAMOREE WAY",
+            "permit_address": "841 WRENWOOD WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3096,7 +2772,16 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "417 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_address": "335 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "314 MARKS ROAD, Rio Vista, CA",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -3105,7 +2790,16 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "220 HARVEST HILLS DRIVE",
+            "permit_address": "900 BLUE HERON DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "105 DAVID LAMOREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3122,17 +2816,8 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "128 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019.0,
-            "permit_address": "565 BELVEDERE DRIVE, Rio Vista, CA 94571",
+            "permit_address": "330 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -3141,7 +2826,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "232 HARVEST HILLS DRIVE",
+            "permit_address": "256 HARVEST HILLS DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3159,24 +2844,6 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "250 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "675 SANDPIPER PLACE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "395 MALLARDS GULCH DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -3186,7 +2853,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "130 DAVID LAMOREE WAY",
+            "permit_address": "101 DAVID LAMOREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3194,17 +2861,35 @@
             ]
           },
           {
-            "permit_year": 2019.0,
-            "permit_address": "330 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_year": 2016.0,
+            "permit_address": "220 HARVEST HILLS DRIVE",
             "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "245 HARVEST HILLS DRIVE",
+            "permit_address": "129 DVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "120 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "244 HARVEST HILLS DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3222,7 +2907,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "570 HAWK RIDGE DRIVE",
+            "permit_address": "975 BLUE HERON DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3231,7 +2916,61 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "374 SILVER RIDGE DRIVE",
+            "permit_address": "116 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "131 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "326 SILVER RIDGE DRIVE, Rio Vista, CA",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "275 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "342 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "648 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "455 MALLARDS GULCH DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3258,7 +2997,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "655 HAWK RIDGE DRIVE",
+            "permit_address": "126 DAVID LAMOREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3267,7 +3006,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "122 DAVID LAMOREE WAY",
+            "permit_address": "602 SANDPIPER PLACE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3276,97 +3015,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "226 HARVEST HILLS DRIVE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "334 MARKS ROAD, Rio Vista, CA",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "131 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "108 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "109 DAVID LAMOREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "841 WRENWOOD WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "340 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "330 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "335 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "600 FALCONCREST WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "133 DAVID LAMOREE WAY",
+            "permit_address": "119 DAVID LAMOREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3384,6 +3033,87 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "675 SANDPIPER PLACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "600 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "405 BELVEDERE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "475 MALLARDS GULCH DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "435 MALLARDS GULCH DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "127 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "118 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "409 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "232 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "630 WATERWOOD DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -3393,7 +3123,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "269 HARVEST HILLS DRIVE",
+            "permit_address": "510 HAWK RIDGE DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3402,7 +3132,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "415 BELVEDERE DRIVE",
+            "permit_address": "550 HAWK RIDGE DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3411,7 +3141,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "120 DAVID LAMOREE WAY",
+            "permit_address": "610 HAWK RIDGE DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3420,7 +3150,25 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "365 SILVER RIDGE DRIVE",
+            "permit_address": "295 MARKS ROAD",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "336 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "285 HARVEST HILLS DRIVE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3429,7 +3177,259 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "425 BELVEDERE DRIVE",
+            "permit_address": "366 SILVER RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "672 SANDPIPER PLACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "281 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "257 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "615 HAWK RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "268 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "115 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "622 SANDPIPER PLACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "665 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "450 MALLARDS GULCH DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "226 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "858 WATERWOOD DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "307 MARKS ROAD",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "629 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "417 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "132 DAVID LAMOREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "369 SILVER RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "605 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "930 BLUE HERON DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "250 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "334 MARKS ROAD, Rio Vista, CA",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "339 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "405 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "624 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "340 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "655 HAWK RIDGE DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "689 FALCONCREST WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "238 HARVEST HILLS DRIVE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "117 DAVID LAMOREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3440,133 +3440,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016,
-            "permit_address": "615 MALLARDS GULCH DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "435 BELVEDERE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "251 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "870 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "660 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "275 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "650 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "101 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "412 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "367 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "858 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "263 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "342 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "602 SANDPIPER PLACE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "125 DAVID LAMOREE WAY",
+            "permit_address": "245 HARVEST HILLS DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3575,7 +3449,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "339 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_address": "338 SILVER RIDGE DRIVE, Rio Vista, CA",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -3584,7 +3458,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "450 MALLARDS GULCH DRIVE",
+            "permit_address": "365 SILVER RIDGE DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3592,8 +3466,8 @@
             ]
           },
           {
-            "permit_year": 2019,
-            "permit_address": "318 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_year": 2018,
+            "permit_address": "337 SILVER RIDGE DRIVE, Rio Vista, CA",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -3602,7 +3476,43 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "126 DAVID LAMOREE WAY",
+            "permit_address": "650 HAWK RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "262 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "332 SILVER RIDGE DRIVE, Rio Vista, CA",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "122 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "382 SUMMERSET DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3620,7 +3530,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "244 HARVEST HILLS DRIVE",
+            "permit_address": "124 DAVID LAMOREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3628,89 +3538,26 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "214 HARVEST HILLS DRIVE",
+            "permit_year": 2019,
+            "permit_address": "565 BELVEDERE DRIVE, Rio Vista, CA 94571",
             "permit_units": 1,
-            "permit_category": "SF",
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "590 BELVEDERE DRIVE, Rio Vista, CA",
+            "permit_units": 1,
+            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2016,
-            "permit_address": "104 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "665 FALCONCREST WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "139 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "137 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "366 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "648 FALCONCREST WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "299 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "115 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "420 BELVEDERE DRIVE",
+            "permit_address": "108 DAVID LAMOREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3728,7 +3575,133 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "435 MALLARDS GULCH DRIVE",
+            "permit_address": "415 BELVEDERE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "462 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "367 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "677 FALCONCREST DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "660 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "109 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "318 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "280 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "368 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "425 BELVEDERE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "104 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "470 MALLARDS GULCH DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "870 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "251 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "130 DAVID LAMOREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3746,6 +3719,231 @@
           },
           {
             "permit_year": 2016,
+            "permit_address": "452 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "239 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "330 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "620 HAWK RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "413 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "326 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "106 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "315 MALLARDS GULCH DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "269 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "214 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "435 BELVEDERE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "128 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "450 BELVEDERE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "620 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "420 BELVEDERE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "392 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "432 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "299 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "410 BELVEDERE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "137 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "670 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "263 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "125 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "378 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "103 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
             "permit_address": "121 DAVID LAMOREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
@@ -3755,7 +3953,25 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "629 FALCONCREST WAY",
+            "permit_address": "291 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "324 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "660 FALCONCREST WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3764,7 +3980,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "930 BLUE HERON DRIVE",
+            "permit_address": "615 MALLARDS GULCH DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3773,7 +3989,592 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "124 DAVID LAMOREE WAY",
+            "permit_address": "139 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "374 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "650 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "402 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "133 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "303 MARKS ROAD",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "846 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "310 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "612 FALCONCREST WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "358 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "640 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "570 HAWK RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "841 WRENWOOD WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "314 MARKS ROAD, Rio Vista, CA",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "335 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "900 BLUE HERON DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "105 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "335 MALLARDS GULCH DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "330 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "256 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "822 GOOSE POND DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "395 MALLARDS GULCH DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "412 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "101 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "220 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "129 DVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "244 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "120 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "372 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "975 BLUE HERON DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "442 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "116 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "422 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "131 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "326 SILVER RIDGE DRIVE, Rio Vista, CA",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "275 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "342 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "648 FALCONCREST WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "455 MALLARDS GULCH DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "299 MARKS ROAD",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "580 BELVEDERE DRIVE, Rio Vista, CA",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "126 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "602 SANDPIPER PLACE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "119 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "370 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "675 SANDPIPER PLACE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "600 FALCONCREST WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "405 BELVEDERE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "475 MALLARDS GULCH DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "435 MALLARDS GULCH DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "127 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "118 DAVID LAMOREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "409 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "232 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "630 WATERWOOD DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "510 HAWK RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "610 HAWK RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "550 HAWK RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "295 MARKS ROAD",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "336 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "472 SUMMERSET DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "285 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "366 SILVER RIDGE DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "672 SANDPIPER PLACE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "281 HARVEST HILLS DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "257 HARVEST HILLS DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3799,17 +4600,8 @@
             ]
           },
           {
-            "permit_year": 2018,
-            "permit_address": "590 BELVEDERE DRIVE, Rio Vista, CA",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016,
-            "permit_address": "510 HAWK RIDGE DRIVE",
+            "permit_address": "268 HARVEST HILLS DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3818,7 +4610,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "382 SUMMERSET DRIVE",
+            "permit_address": "115 DAVID LAMOREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3827,169 +4619,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "670 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "105 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "256 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "392 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "118 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "620 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "452 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "620 HAWK RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "900 BLUE HERON DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "372 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "368 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "605 FALCONCREST WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "624 FALCONCREST WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "405 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "127 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "262 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "326 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "462 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "132 DAVID LAMOREE WAY",
+            "permit_address": "665 FALCONCREST WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4006,17 +4636,8 @@
             ]
           },
           {
-            "permit_year": 2019,
-            "permit_address": "409 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016,
-            "permit_address": "689 FALCONCREST WAY",
+            "permit_address": "450 MALLARDS GULCH DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4025,7 +4646,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "450 BELVEDERE DRIVE",
+            "permit_address": "226 HARVEST HILLS DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4034,72 +4655,9 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "238 HARVEST HILLS DRIVE",
+            "permit_address": "858 WATERWOOD DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "422 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "106 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "268 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "326 SILVER RIDGE DRIVE, Rio Vista, CA",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "324 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "455 MALLARDS GULCH DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "336 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
@@ -4115,358 +4673,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "405 BELVEDERE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "975 BLUE HERON DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "129 DVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "338 SILVER RIDGE DRIVE, Rio Vista, CA",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "475 MALLARDS GULCH DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "369 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "660 FALCONCREST WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "472 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "310 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "281 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "303 MARKS ROAD",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "470 MALLARDS GULCH DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "291 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "413 MARKS ROAD, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "432 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "550 HAWK RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "314 MARKS ROAD, Rio Vista, CA",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "295 MARKS ROAD",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "410 BELVEDERE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "257 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "677 FALCONCREST DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "337 SILVER RIDGE DRIVE, Rio Vista, CA",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "672 SANDPIPER PLACE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "650 HAWK RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "610 HAWK RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "640 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "846 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "315 MALLARDS GULCH DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "358 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "332 SILVER RIDGE DRIVE, Rio Vista, CA",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "119 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "280 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "116 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "378 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "612 FALCONCREST WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "285 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "239 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "117 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "103 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "220 HARVEST HILLS DRIVE",
+            "permit_address": "629 FALCONCREST WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4484,7 +4691,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "335 MALLARDS GULCH DRIVE",
+            "permit_address": "132 DAVID LAMOREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4493,25 +4700,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "128 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "565 BELVEDERE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "232 HARVEST HILLS DRIVE",
+            "permit_address": "605 FALCONCREST WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4520,7 +4709,16 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "822 GOOSE POND DRIVE",
+            "permit_address": "930 BLUE HERON DRIVE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "369 SILVER RIDGE DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4537,44 +4735,17 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "675 SANDPIPER PLACE",
+            "permit_year": 2018,
+            "permit_address": "334 MARKS ROAD, Rio Vista, CA",
             "permit_units": 1,
-            "permit_category": "SF",
+            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "395 MALLARDS GULCH DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "442 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "130 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "330 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_year": 2018,
+            "permit_address": "339 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -4583,16 +4754,25 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "245 HARVEST HILLS DRIVE",
+            "permit_address": "372 SUMMERSET DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "405 MARKS ROAD, Rio Vista, CA 94571",
+            "permit_units": 1,
+            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2016,
-            "permit_address": "372 SILVER RIDGE DRIVE",
+            "permit_address": "624 FALCONCREST WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4600,35 +4780,8 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "570 HAWK RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "299 MARKS ROAD",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "374 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "580 BELVEDERE DRIVE, Rio Vista, CA",
+            "permit_year": 2019,
+            "permit_address": "340 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -4646,7 +4799,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "122 DAVID LAMOREE WAY",
+            "permit_address": "689 FALCONCREST WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4655,25 +4808,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "226 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "334 MARKS ROAD, Rio Vista, CA",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "131 DAVID LAMOREE WAY",
+            "permit_address": "238 HARVEST HILLS DRIVE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4682,142 +4817,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "108 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "109 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "841 WRENWOOD WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "340 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "330 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "335 SILVER RIDGE DRIVE, Rio Vista, CA 94571",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "600 FALCONCREST WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "133 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "630 WATERWOOD DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "370 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "269 HARVEST HILLS DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "402 SUMMERSET DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "415 BELVEDERE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "120 DAVID LAMOREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "365 SILVER RIDGE DRIVE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "425 BELVEDERE DRIVE",
+            "permit_address": "117 DAVID LAMOREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

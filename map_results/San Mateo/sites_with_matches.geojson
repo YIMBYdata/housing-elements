@@ -698,18 +698,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -725,18 +716,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -750,9 +732,45 @@
             "match_type": [
               "geo"
             ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
           }
         ],
         "match_results_lax": [
+          {
+            "permit_year": 2016,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
           {
             "permit_year": 2015,
             "permit_address": "2600 S DELAWARE ST-Brightside",
@@ -772,15 +790,6 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2015,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
@@ -793,15 +802,6 @@
             "permit_year": 2016,
             "permit_address": "2600 S Delaware",
             "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -1517,18 +1517,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -1544,18 +1535,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -1565,6 +1547,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -2272,18 +2272,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -2299,18 +2290,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -2320,6 +2302,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -6619,18 +6619,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -6646,18 +6637,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -6667,6 +6649,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -7374,18 +7374,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -7401,18 +7392,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -7422,6 +7404,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -8129,18 +8129,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -8156,18 +8147,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -8177,6 +8159,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -10068,18 +10068,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -10095,18 +10086,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -10116,6 +10098,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -10823,18 +10823,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -10850,18 +10841,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -10871,6 +10853,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -11578,18 +11578,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -11605,18 +11596,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -11626,6 +11608,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -12333,18 +12333,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -12360,18 +12351,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -12381,6 +12363,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -13088,18 +13088,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -13115,18 +13106,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -13136,6 +13118,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -13843,18 +13843,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -13870,18 +13861,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -13891,6 +13873,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -14598,18 +14598,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -14625,18 +14616,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -14646,6 +14628,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -15353,18 +15353,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -15380,18 +15371,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -15401,6 +15383,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -16108,18 +16108,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S DELAWARE ST-Brightside",
-            "permit_units": 36.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
-            "permit_units": 41.0,
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -16135,18 +16126,9 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2600 S Delaware",
-            "permit_units": 7.0,
+            "permit_year": 2015.0,
+            "permit_address": "2600 S DELAWARE ST-Brightside",
+            "permit_units": 36.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -16156,6 +16138,24 @@
             "permit_year": 2015.0,
             "permit_address": "2600 S Delaware St-Russell",
             "permit_units": 70.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2600 S Delaware",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2600 S S DELAWARE St-MeadowWalk",
+            "permit_units": 41.0,
             "permit_category": "5+",
             "match_type": [
               "geo"

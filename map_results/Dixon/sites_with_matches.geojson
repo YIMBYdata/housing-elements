@@ -1259,87 +1259,7 @@
         "match_results": [
           {
             "permit_year": 2014.0,
-            "permit_address": "1260 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1255 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1265 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1210 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1205 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1215 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1220 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
             "permit_address": "1285 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1295 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1369,7 +1289,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1200 Baylor Way",
+            "permit_address": "1265 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1379,7 +1299,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1245 Baylor Way",
+            "permit_address": "1220 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1389,7 +1309,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1235 Baylor Way",
+            "permit_address": "1215 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1399,7 +1319,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1315 Baylor Way",
+            "permit_address": "1260 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1409,7 +1329,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1250 Baylor Way",
+            "permit_address": "1225 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1429,7 +1349,17 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1325 Baylor Way",
+            "permit_address": "1235 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1245 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1449,7 +1379,77 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1225 Baylor Way",
+            "permit_address": "1250 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1295 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1325 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1210 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1200 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1315 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1205 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1255 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1468,7 +1468,43 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1145 Dartmouth Circle",
+            "permit_address": "1345 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1250 Cornell Court",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1130 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1340 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1360 Cornell Drive",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1486,7 +1522,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1370 Cornell Drive",
+            "permit_address": "1155 Dartmouth Circle",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1495,7 +1531,52 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1345 Cornell Drive",
+            "permit_address": "1400 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1290 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1160 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1330 Dartmouth Court",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1205 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1310 Cornell Drive",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1513,7 +1594,43 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1300 Cornell Drive",
+            "permit_address": "1430 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1460 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1165 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1175 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1145 Dartmouth Circle",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1531,7 +1648,97 @@
           },
           {
             "permit_year": 2015.0,
+            "permit_address": "1260 Cornell Court",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "1345 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1370 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1300 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1390 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1350 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1195 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1300 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1395 Cornell Drive",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1290 Cornell Court",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1230 Cornell Court",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1558,205 +1765,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1460 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1395 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1380 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1160 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1300 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1310 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1360 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1390 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1430 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1195 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1250 Cornell Court",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1290 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1230 Cornell Court",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1400 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1340 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1350 Cornell Drive",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1330 Dartmouth Court",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1290 Cornell Court",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1260 Cornell Court",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1155 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1205 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1165 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1130 Dartmouth Circle",
+            "permit_address": "1150 Dartmouth Circle",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1774,16 +1783,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1175 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1150 Dartmouth Circle",
+            "permit_address": "1380 Cornell Drive",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1794,87 +1794,7 @@
         "match_results_lax": [
           {
             "permit_year": 2014.0,
-            "permit_address": "1260 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1255 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1265 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1210 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1205 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1215 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1220 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
             "permit_address": "1285 Baylor Way",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1295 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1904,7 +1824,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1200 Baylor Way",
+            "permit_address": "1265 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1914,7 +1834,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1245 Baylor Way",
+            "permit_address": "1220 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1924,7 +1844,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1235 Baylor Way",
+            "permit_address": "1215 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1934,7 +1854,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1315 Baylor Way",
+            "permit_address": "1260 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1944,7 +1864,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1250 Baylor Way",
+            "permit_address": "1225 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1964,7 +1884,17 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1325 Baylor Way",
+            "permit_address": "1235 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1245 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1984,7 +1914,77 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "1225 Baylor Way",
+            "permit_address": "1250 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1295 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1325 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1210 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1200 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1315 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1205 Baylor Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1255 Baylor Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2003,34 +2003,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1145 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1240 Cornell Court",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1370 Cornell Drive",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1185 Dartmouth Circle",
+            "permit_address": "1250 Cornell Court",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2048,7 +2021,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1300 Cornell Drive",
+            "permit_address": "1130 Dartmouth Circle",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2057,7 +2030,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1280 Cornell Court",
+            "permit_address": "1340 Dartmouth Circle",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2066,79 +2039,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1345 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "1280 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1215 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1460 Cornell Drive",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1395 Cornell Drive",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1160 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1380 Cornell Drive",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "1300 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1310 Cornell Drive",
+            "permit_address": "1240 Cornell Court",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2156,43 +2057,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1430 Cornell Drive",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1390 Cornell Drive",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1195 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1250 Cornell Court",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1230 Cornell Court",
+            "permit_address": "1155 Dartmouth Circle",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2219,52 +2084,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1340 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1350 Cornell Drive",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1330 Dartmouth Court",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1290 Cornell Court",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1260 Cornell Court",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1155 Dartmouth Circle",
+            "permit_address": "1160 Dartmouth Circle",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2282,25 +2102,52 @@
           },
           {
             "permit_year": 2015,
+            "permit_address": "1330 Dartmouth Court",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1185 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1310 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1430 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1460 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
             "permit_address": "1165 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1130 Dartmouth Circle",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1405 Cornell Drive",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2318,7 +2165,160 @@
           },
           {
             "permit_year": 2015,
+            "permit_address": "1145 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1280 Cornell Court",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1260 Cornell Court",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1345 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1370 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "1300 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1390 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1350 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1195 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1300 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1395 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1230 Cornell Court",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1290 Cornell Court",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "1280 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1215 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
             "permit_address": "1150 Dartmouth Circle",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1405 Cornell Drive",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1380 Cornell Drive",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -3707,6 +3707,15 @@
         "match_results": [
           {
             "permit_year": 2014.0,
+            "permit_address": "1280 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
             "permit_address": "1300 Dartmouth Circle",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -3717,15 +3726,6 @@
           {
             "permit_year": 2014.0,
             "permit_address": "1290 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1280 Dartmouth Circle",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3745,6 +3745,15 @@
         "match_results_lax": [
           {
             "permit_year": 2014.0,
+            "permit_address": "1280 Dartmouth Circle",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
             "permit_address": "1300 Dartmouth Circle",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -3755,15 +3764,6 @@
           {
             "permit_year": 2014.0,
             "permit_address": "1290 Dartmouth Circle",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1280 Dartmouth Circle",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6177,43 +6177,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "1745  GOLD STREET ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1755   GOLD STREET ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1740  GOLD STREET ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1775   GOLD STREET ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1760  GOLD STREET ",
+            "permit_address": "1770  GOLD STREET ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -6231,7 +6195,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1770  GOLD STREET ",
+            "permit_address": "1730  GOLD STREET ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -6240,7 +6204,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1720  GOLD STREET ",
+            "permit_address": "1740  GOLD STREET ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -6249,7 +6213,16 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1795  GOLD STREET ",
+            "permit_address": "1750  GOLD STREET ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1745  GOLD STREET ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -6267,7 +6240,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1730  GOLD STREET ",
+            "permit_address": "1720  GOLD STREET ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -6276,7 +6249,34 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1750  GOLD STREET ",
+            "permit_address": "1755   GOLD STREET ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1760  GOLD STREET ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1775   GOLD STREET ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1795  GOLD STREET ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -6287,51 +6287,6 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "1745  GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1755   GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1740  GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1775   GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1760  GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "1770  GOLD STREET ",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -6341,34 +6296,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "1720  GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1795  GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1750  GOLD STREET ",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1700  GOLD STREET ",
+            "permit_address": "1710  GOLD STREET ",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -6386,7 +6314,79 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "1710  GOLD STREET ",
+            "permit_address": "1750  GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1740  GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1745  GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1720  GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1700  GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1755   GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1760  GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1775   GOLD STREET ",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1795  GOLD STREET ",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [

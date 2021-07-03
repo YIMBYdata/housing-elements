@@ -556,16 +556,6 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2018.0,
-            "permit_address": "2126 M L KING JR WY",
-            "permit_units": 62.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2017.0,
             "permit_address": "2126 Martin Luther King",
             "permit_units": 62.0,
@@ -573,9 +563,7 @@
             "match_type": [
               "apn"
             ]
-          }
-        ],
-        "match_results_lax": [
+          },
           {
             "permit_year": 2018.0,
             "permit_address": "2126 M L KING JR WY",
@@ -585,10 +573,22 @@
               "apn",
               "geo"
             ]
-          },
+          }
+        ],
+        "match_results_lax": [
           {
             "permit_year": 2017.0,
             "permit_address": "2126 Martin Luther King",
+            "permit_units": 62.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2126 M L KING JR WY",
             "permit_units": 62.0,
             "permit_category": "5+",
             "match_type": [
@@ -843,7 +843,16 @@
         "match_results_lax": [
           {
             "permit_year": 2017,
-            "permit_address": "1407 ADELINE ST",
+            "permit_address": "1158 14TH ST",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1154 14TH ST",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -861,24 +870,6 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1411 ADELINE ST",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "1158 14TH ST",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
             "permit_address": "1403 ADELINE ST",
             "permit_units": 1,
             "permit_category": "SF",
@@ -888,7 +879,16 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1154 14TH ST",
+            "permit_address": "1407 ADELINE ST",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1411 ADELINE ST",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -8000,8 +8000,8 @@
         "match_results": [],
         "match_results_lax": [
           {
-            "permit_year": 2019,
-            "permit_address": "2401 BROADWAY, Oakland, CA 94612",
+            "permit_year": 2018,
+            "permit_address": "2401 BROADWAY",
             "permit_units": 72,
             "permit_category": "5+",
             "match_type": [
@@ -8009,8 +8009,8 @@
             ]
           },
           {
-            "permit_year": 2018,
-            "permit_address": "2401 BROADWAY",
+            "permit_year": 2019,
+            "permit_address": "2401 BROADWAY, Oakland, CA 94612",
             "permit_units": 72,
             "permit_category": "5+",
             "match_type": [
@@ -10123,8 +10123,8 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "805 71st Avenue",
-            "permit_units": 110.0,
+            "permit_address": "805 71st AVE",
+            "permit_units": 55.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -10132,8 +10132,8 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "805 71st AVE",
-            "permit_units": 55.0,
+            "permit_address": "805 71st Avenue",
+            "permit_units": 110.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -10143,8 +10143,8 @@
         "match_results_lax": [
           {
             "permit_year": 2017.0,
-            "permit_address": "805 71st Avenue",
-            "permit_units": 110.0,
+            "permit_address": "805 71st AVE",
+            "permit_units": 55.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -10153,8 +10153,8 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "805 71st AVE",
-            "permit_units": 55.0,
+            "permit_address": "805 71st Avenue",
+            "permit_units": 110.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -14833,15 +14833,6 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2935 TELEGRAPH AVE  phase 1",
-            "permit_units": 66,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
             "permit_address": "2935 TELEGRAPH AVE  phase 2",
             "permit_units": 44,
             "permit_category": "5+",
@@ -14853,6 +14844,15 @@
             "permit_year": 2016,
             "permit_address": "2935 TELEGRAPH AVE  phase 3",
             "permit_units": 48,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2935 TELEGRAPH AVE  phase 1",
+            "permit_units": 66,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -15591,6 +15591,16 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2018.0,
+            "permit_address": "4045 BROADWAY",
+            "permit_units": 47.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2017.0,
             "permit_address": "4045 BROADWAY",
             "permit_units": 47.0,
@@ -15598,21 +15608,11 @@
             "match_type": [
               "apn"
             ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "4045 BROADWAY",
-            "permit_units": 47.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
           }
         ],
         "match_results_lax": [
           {
-            "permit_year": 2017.0,
+            "permit_year": 2018.0,
             "permit_address": "4045 BROADWAY",
             "permit_units": 47.0,
             "permit_category": "5+",
@@ -15622,7 +15622,7 @@
             ]
           },
           {
-            "permit_year": 2018.0,
+            "permit_year": 2017.0,
             "permit_address": "4045 BROADWAY",
             "permit_units": 47.0,
             "permit_category": "5+",
@@ -18286,6 +18286,16 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2018.0,
+            "permit_address": "2855 BROADWAY",
+            "permit_units": 68.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2017.0,
             "permit_address": "2855 BROADWAY",
             "permit_units": 68.0,
@@ -18293,21 +18303,11 @@
             "match_type": [
               "apn"
             ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2855 BROADWAY",
-            "permit_units": 68.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
           }
         ],
         "match_results_lax": [
           {
-            "permit_year": 2017.0,
+            "permit_year": 2018.0,
             "permit_address": "2855 BROADWAY",
             "permit_units": 68.0,
             "permit_category": "5+",
@@ -18317,7 +18317,7 @@
             ]
           },
           {
-            "permit_year": 2018.0,
+            "permit_year": 2017.0,
             "permit_address": "2855 BROADWAY",
             "permit_units": 68.0,
             "permit_category": "5+",

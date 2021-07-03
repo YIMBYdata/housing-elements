@@ -3627,7 +3627,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "600- 608 SUNSWEET WY",
+            "permit_address": "610 - 618 SUNSWEET WY",
             "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
@@ -3636,7 +3636,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "610 - 618 SUNSWEET WY",
+            "permit_address": "600- 608 SUNSWEET WY",
             "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
@@ -3647,7 +3647,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016,
-            "permit_address": "600- 608 SUNSWEET WY",
+            "permit_address": "610 - 618 SUNSWEET WY",
             "permit_units": 5,
             "permit_category": "5+",
             "match_type": [
@@ -3656,7 +3656,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "610 - 618 SUNSWEET WY",
+            "permit_address": "600- 608 SUNSWEET WY",
             "permit_units": 5,
             "permit_category": "5+",
             "match_type": [
@@ -3723,7 +3723,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "600- 608 SUNSWEET WY",
+            "permit_address": "610 - 618 SUNSWEET WY",
             "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
@@ -3732,7 +3732,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "610 - 618 SUNSWEET WY",
+            "permit_address": "600- 608 SUNSWEET WY",
             "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
@@ -3933,26 +3933,8 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "138 - 148 LOTTIE LN",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "106 - 114 LOTTIE LN",
             "permit_units": 5.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "116 - 128 LOTTIE LANE",
-            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -3975,31 +3957,31 @@
             "match_type": [
               "geo"
             ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "116 - 128 LOTTIE LANE",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "138 - 148 LOTTIE LN",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2016,
-            "permit_address": "138 - 148 LOTTIE LN",
-            "permit_units": 6,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
             "permit_address": "106 - 114 LOTTIE LN",
             "permit_units": 5,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "116 - 128 LOTTIE LANE",
-            "permit_units": 7,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -4018,6 +4000,24 @@
             "permit_year": 2016,
             "permit_address": "149 - 161 LOTTIE LN",
             "permit_units": 7,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "116 - 128 LOTTIE LANE",
+            "permit_units": 7,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "138 - 148 LOTTIE LN",
+            "permit_units": 6,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -4088,10 +4088,10 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2017.0,
-            "permit_address": "100 - 104 LOTTIE LANE",
-            "permit_units": 3.0,
-            "permit_category": "2 to 4",
+            "permit_year": 2016.0,
+            "permit_address": "190 DILLON AVE",
+            "permit_units": 12.0,
+            "permit_category": "5+",
             "match_type": [
               "geo"
             ]
@@ -4106,10 +4106,10 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "190 DILLON AVE",
-            "permit_units": 12.0,
-            "permit_category": "5+",
+            "permit_year": 2017.0,
+            "permit_address": "100 - 104 LOTTIE LANE",
+            "permit_units": 3.0,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -4117,10 +4117,10 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2017,
-            "permit_address": "100 - 104 LOTTIE LANE",
-            "permit_units": 3,
-            "permit_category": "2 to 4",
+            "permit_year": 2016,
+            "permit_address": "190 DILLON AVE",
+            "permit_units": 12,
+            "permit_category": "5+",
             "match_type": [
               "geo"
             ]
@@ -4135,10 +4135,10 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "190 DILLON AVE",
-            "permit_units": 12,
-            "permit_category": "5+",
+            "permit_year": 2017,
+            "permit_address": "100 - 104 LOTTIE LANE",
+            "permit_units": 3,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -4725,6 +4725,15 @@
             ]
           },
           {
+            "permit_year": 2016.0,
+            "permit_address": "500 - 510 WAYFARER WY",
+            "permit_units": 5.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2017.0,
             "permit_address": "200 - 204 SUNKIST WY",
             "permit_units": 3.0,
@@ -4741,22 +4750,40 @@
             "match_type": [
               "geo"
             ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "500 - 510 WAYFARER WY",
-            "permit_units": 5.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
           }
         ],
         "match_results_lax": [
           {
+            "permit_year": 2016,
+            "permit_address": "500 - 510 WAYFARER WY",
+            "permit_units": 5,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "200 - 204 SUNKIST WY",
+            "permit_units": 3,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2017,
             "permit_address": "412 - 420 ROBIN RIDGE WY",
             "permit_units": 5,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "421 - 431 ROBIN RIDGE WY",
+            "permit_units": 6,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -4772,35 +4799,8 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "421 - 431 ROBIN RIDGE WY",
-            "permit_units": 6,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "500 - 510 WAYFARER WY",
-            "permit_units": 5,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2017,
             "permit_address": "300 - 304 HONEYDEW WY",
-            "permit_units": 3,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "200 - 204 SUNKIST WY",
             "permit_units": 3,
             "permit_category": "2 to 4",
             "match_type": [
@@ -5825,18 +5825,18 @@
         "match_results_lax": [
           {
             "permit_year": 2018,
-            "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6",
-            "permit_units": 2,
-            "permit_category": "SFA",
+            "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6",
+            "permit_units": 0,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2018,
-            "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6",
-            "permit_units": 0,
-            "permit_category": "2 to 4",
+            "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6",
+            "permit_units": 2,
+            "permit_category": "SFA",
             "match_type": [
               "geo"
             ]
@@ -5887,97 +5887,7 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6",
-            "permit_units": 2.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
-            "permit_units": 10.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "259 - 261 RAILWAY AVE -BUILDING 7",
-            "permit_units": 2.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
-            "permit_units": 0.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "200 - 212 MALLEY WY (7 UNITS) BUILDING 1",
-            "permit_units": 0.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6",
-            "permit_units": 0.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
-            "permit_units": 0.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
             "permit_address": "259 - 261 RAILWAY AVE (2 UNITS) BUILDING 7",
-            "permit_units": 0.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "201 - 209 MALLEY WY - BUILDING 2",
-            "permit_units": 5.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "225 - 227 RAILWAY AVE (2 UNITS) BUILDING 5",
             "permit_units": 0.0,
             "permit_category": "SFA",
             "match_type": [
@@ -5995,9 +5905,99 @@
           },
           {
             "permit_year": 2018.0,
+            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
+            "permit_units": 0.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "225 - 227 RAILWAY AVE (2 UNITS) BUILDING 5",
+            "permit_units": 0.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "259 - 261 RAILWAY AVE -BUILDING 7",
+            "permit_units": 2.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
             "permit_address": "225 - 227 RAILWAY AVE -BUILDING 5",
             "permit_units": 2.0,
             "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "200 - 212 MALLEY WY (7 UNITS) BUILDING 1",
+            "permit_units": 0.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
+            "permit_units": 10.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6",
+            "permit_units": 2.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "201 - 209 MALLEY WY - BUILDING 2",
+            "permit_units": 5.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6",
+            "permit_units": 0.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
+            "permit_units": 0.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]
@@ -6006,8 +6006,18 @@
         "match_results_lax": [
           {
             "permit_year": 2018.0,
-            "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6",
-            "permit_units": 2.0,
+            "permit_address": "259 - 261 RAILWAY AVE (2 UNITS) BUILDING 7",
+            "permit_units": 0.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "208 - 226 RAILWAY AVE - BUILDING 3",
+            "permit_units": 10.0,
             "permit_category": "SFA",
             "match_type": [
               "apn"
@@ -6015,8 +6025,26 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
-            "permit_units": 10.0,
+            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
+            "permit_units": 0.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "225 - 227 RAILWAY AVE (2 UNITS) BUILDING 5",
+            "permit_units": 0.0,
             "permit_category": "SFA",
             "match_type": [
               "apn"
@@ -6034,9 +6062,9 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
-            "permit_units": 0.0,
-            "permit_category": "5+",
+            "permit_address": "225 - 227 RAILWAY AVE -BUILDING 5",
+            "permit_units": 2.0,
+            "permit_category": "SFA",
             "match_type": [
               "apn"
             ]
@@ -6052,30 +6080,20 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6",
-            "permit_units": 0.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
-            "permit_units": 0.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "259 - 261 RAILWAY AVE (2 UNITS) BUILDING 7",
-            "permit_units": 0.0,
+            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
+            "permit_units": 10.0,
             "permit_category": "SFA",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "241 - 243 RAILWAY AVE- BUILDING 6",
+            "permit_units": 2.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
             ]
           },
           {
@@ -6089,36 +6107,18 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "225 - 227 RAILWAY AVE (2 UNITS) BUILDING 5",
+            "permit_address": "241 - 243 RAILWAY AVE (2 UNITS) BUILDING 6",
             "permit_units": 0.0,
-            "permit_category": "SFA",
+            "permit_category": "2 to 4",
             "match_type": [
               "apn"
             ]
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "208 - 226 RAILWAY AVE - BUILDING 3",
-            "permit_units": 10.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "225 - 227 RAILWAY AVE -BUILDING 5",
-            "permit_units": 2.0,
-            "permit_category": "SFA",
+            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
+            "permit_units": 0.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]
@@ -6204,9 +6204,18 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2016.0,
+            "permit_address": "300 RAILWAY AVE",
+            "permit_units": 119.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2018.0,
-            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
-            "permit_units": 10.0,
+            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
+            "permit_units": 7.0,
             "permit_category": "SFA",
             "match_type": [
               "geo"
@@ -6214,7 +6223,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
+            "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
             "permit_units": 0.0,
             "permit_category": "5+",
             "match_type": [
@@ -6231,19 +6240,10 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "300 RAILWAY AVE",
-            "permit_units": 119.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018.0,
-            "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
-            "permit_units": 0.0,
-            "permit_category": "5+",
+            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
+            "permit_units": 10.0,
+            "permit_category": "SFA",
             "match_type": [
               "geo"
             ]
@@ -6259,42 +6259,15 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
+            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
+            "permit_units": 0.0,
+            "permit_category": "5+",
             "match_type": [
               "geo"
             ]
           }
         ],
         "match_results_lax": [
-          {
-            "permit_year": 2018,
-            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
-            "permit_units": 10,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
-            "permit_units": 0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "200 - 212 MALLEY WY (7 UNITS) BUILDING 1",
-            "permit_units": 0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
           {
             "permit_year": 2016,
             "permit_address": "300 RAILWAY AVE",
@@ -6306,7 +6279,25 @@
           },
           {
             "permit_year": 2018,
+            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
+            "permit_units": 7,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
             "permit_address": "201 - 209 MALLEY WY (5 UNITS) BUILDING 2",
+            "permit_units": 0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "200 - 212 MALLEY WY (7 UNITS) BUILDING 1",
             "permit_units": 0,
             "permit_category": "5+",
             "match_type": [
@@ -6324,9 +6315,18 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "200 - 212 MALLEY WY -BUILDING 1",
-            "permit_units": 7,
+            "permit_address": "228 - 246 RAILWAY AVE - BUILDING 4",
+            "permit_units": 10,
             "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "228 - 246 RAILWAY AVE (10 UNITS) BUILDING 4",
+            "permit_units": 0,
+            "permit_category": "5+",
             "match_type": [
               "geo"
             ]

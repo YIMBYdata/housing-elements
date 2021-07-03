@@ -7296,6 +7296,15 @@
         "match_results_lax": [
           {
             "permit_year": 2017,
+            "permit_address": "103 BELLE HARBOR CIR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
             "permit_address": "111 BELLE HARBOR CIR",
             "permit_units": 1,
             "permit_category": "SF",
@@ -7306,15 +7315,6 @@
           {
             "permit_year": 2017,
             "permit_address": "102 BELLE HARBOR CIR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "103 BELLE HARBOR CIR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -16662,15 +16662,6 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "6 BELLE HARBOR CIR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "10 BELLE HARBOR CIR",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -16681,6 +16672,15 @@
           {
             "permit_year": 2016.0,
             "permit_address": "14 BELLE HARBOR CIR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "6 BELLE HARBOR CIR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [

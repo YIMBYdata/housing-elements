@@ -3387,7 +3387,7 @@
             "permit_year": 2015.0,
             "permit_address": "40 Antonio",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -3397,7 +3397,7 @@
             "permit_year": 2015.0,
             "permit_address": "40 Antonio",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -3409,7 +3409,7 @@
             "permit_year": 2015.0,
             "permit_address": "40 Antonio",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -3419,7 +3419,7 @@
             "permit_year": 2015.0,
             "permit_address": "40 Antonio",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -3569,7 +3569,7 @@
             "permit_year": 2014.0,
             "permit_address": "7 Veronica",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn"
             ]
@@ -3578,7 +3578,7 @@
             "permit_year": 2014.0,
             "permit_address": "7 Veronica",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn"
             ]
@@ -3589,7 +3589,7 @@
             "permit_year": 2014.0,
             "permit_address": "7 Veronica",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn"
             ]
@@ -3598,7 +3598,7 @@
             "permit_year": 2014.0,
             "permit_address": "7 Veronica",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn"
             ]
@@ -8603,7 +8603,7 @@
             "permit_year": 2016.0,
             "permit_address": "185 Meadowood",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -8613,7 +8613,7 @@
             "permit_year": 2016.0,
             "permit_address": "185 Meadowood",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -8625,7 +8625,7 @@
             "permit_year": 2016.0,
             "permit_address": "185 Meadowood",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -8635,7 +8635,7 @@
             "permit_year": 2016.0,
             "permit_address": "185 Meadowood",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -12697,7 +12697,7 @@
             "permit_year": 2015.0,
             "permit_address": "3 Buck Meadow Dr",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "geo"
             ]
@@ -12706,7 +12706,7 @@
             "permit_year": 2015.0,
             "permit_address": "3 Buck Meadow Dr",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
@@ -12717,7 +12717,7 @@
             "permit_year": 2015,
             "permit_address": "3 Buck Meadow Dr",
             "permit_units": 1,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "geo"
             ]
@@ -12726,7 +12726,7 @@
             "permit_year": 2015,
             "permit_address": "3 Buck Meadow Dr",
             "permit_units": 1,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]

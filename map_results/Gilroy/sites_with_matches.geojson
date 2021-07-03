@@ -499,7 +499,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "1808 ROSEMARY DR",
+            "permit_address": "1815 TAMARIND",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -517,358 +517,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1843 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1810 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1827 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7720 SUMAC PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1834 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1820 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7700 SUMAC PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7704 SUMAC PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1818 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1847 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1826 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1800 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7706 GINGER PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1811 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7711 GINGER PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7705 SUMAC PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1812 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1802 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7708 SUMAC PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1822 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1815 TAMARIND",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1810 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1801 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1841 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1816 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1831 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1803 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1819 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7716 SUMAC PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1838 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1842 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1830 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1823 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7722 GINGER PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7714 GINGER PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7710 GINGER PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7709 SUMAC PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1828 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1837 TAMARIND WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7718 GINGER PL",
+            "permit_address": "7717 SUMAC PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -886,7 +535,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7721 SUMAC PL",
+            "permit_address": "1822 ROSEMARY DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -895,7 +544,61 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7712 SUMAC PL",
+            "permit_address": "1808 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1826 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1834 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1812 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1818 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1803 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1823 TAMARIND WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -913,7 +616,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7717 SUMAC PL",
+            "permit_address": "7702 GINGER PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -922,7 +625,52 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7715 GINGER PL",
+            "permit_address": "7710 GINGER PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1830 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1827 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1800 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1810 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7718 GINGER PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -940,7 +688,241 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7702 GINGER PL",
+            "permit_address": "1843 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7721 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1819 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7711 GINGER PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1841 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1838 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1831 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1828 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7708 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7714 GINGER PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7704 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7700 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1802 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7709 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7720 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1842 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1816 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1810 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7716 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1837 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7712 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1820 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7715 GINGER PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1811 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1847 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7705 SUMAC PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1801 TAMARIND WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -950,6 +932,24 @@
           {
             "permit_year": 2015.0,
             "permit_address": "1830 TAMARIND WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7722 GINGER PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7706 GINGER PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -960,7 +960,7 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "1808 ROSEMARY DR",
+            "permit_address": "1815 TAMARIND",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -978,7 +978,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1843 TAMARIND WY",
+            "permit_address": "7717 SUMAC PL",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -987,7 +987,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1810 TARRAGON DR",
+            "permit_address": "1806 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -996,7 +996,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1827 TAMARIND WY",
+            "permit_address": "1822 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1005,61 +1005,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7720 SUMAC PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1834 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7704 SUMAC PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1847 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7700 SUMAC PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1820 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1818 ROSEMARY DR",
+            "permit_address": "1808 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1077,6 +1023,105 @@
           },
           {
             "permit_year": 2015,
+            "permit_address": "1834 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1812 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1818 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1803 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1823 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7713 SUMAC PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7710 GINGER PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7702 GINGER PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1830 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1827 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1810 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
             "permit_address": "1800 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
@@ -1086,7 +1131,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7706 GINGER PL",
+            "permit_address": "7718 GINGER PL",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1095,7 +1140,43 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1811 TAMARIND WY",
+            "permit_address": "1802 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1843 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1819 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7721 SUMAC PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1841 TAMARIND WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1113,7 +1194,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7705 SUMAC PL",
+            "permit_address": "1831 TAMARIND WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1122,7 +1203,16 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1812 ROSEMARY DR",
+            "permit_address": "1838 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1828 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1149,7 +1239,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1822 ROSEMARY DR",
+            "permit_address": "7704 SUMAC PL",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1158,124 +1248,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1815 TAMARIND",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1810 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1801 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1841 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1816 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1831 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1803 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1819 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7716 SUMAC PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1838 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1842 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1830 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1823 TAMARIND WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7722 GINGER PL",
+            "permit_address": "7700 SUMAC PL",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1293,15 +1266,6 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7710 GINGER PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "7709 SUMAC PL",
             "permit_units": 1,
             "permit_category": "SF",
@@ -1311,7 +1275,43 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1828 ROSEMARY DR",
+            "permit_address": "7720 SUMAC PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1842 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1816 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1810 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7716 SUMAC PL",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1329,33 +1329,6 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7718 GINGER PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1806 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7721 SUMAC PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "7712 SUMAC PL",
             "permit_units": 1,
             "permit_category": "SF",
@@ -1365,16 +1338,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7713 SUMAC PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7717 SUMAC PL",
+            "permit_address": "1820 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1392,7 +1356,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1802 ROSEMARY DR",
+            "permit_address": "1811 TAMARIND WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1401,7 +1365,25 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7702 GINGER PL",
+            "permit_address": "1847 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7705 SUMAC PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1801 TAMARIND WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1411,6 +1393,24 @@
           {
             "permit_year": 2015,
             "permit_address": "1830 TAMARIND WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7722 GINGER PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7706 GINGER PL",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1467,169 +1467,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "7708 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7717 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1752 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7702 CURRY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1711 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1733 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7701 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7704 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1718 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1712 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1740 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "1737 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7726 CURRY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7713 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1722 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "7709 Wasabi Wy",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1715 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1702 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1721 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1647,7 +1485,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1748 TARRAGON DR",
+            "permit_address": "1740 ROSEMARY DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1656,43 +1494,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7714 CURRY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "1750 Rosemary Dr",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1742 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1726 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1736 TARRAGON DR",
+            "permit_address": "1726 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1710,7 +1512,70 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1732 ROSEMARY DR",
+            "permit_address": "1727 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7708 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1720 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1702 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1726 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1758 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7710 CURRY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1720 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1720,6 +1585,51 @@
           {
             "permit_year": 2015.0,
             "permit_address": "1708 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1711 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1722 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1731 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7702 CURRY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7726 CURRY DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1737,16 +1647,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1731 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1708 WASABI WY",
+            "permit_address": "1733 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1764,43 +1665,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7706 CURRY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1720 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1766 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7730 CURRY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1739 WASABI WY",
+            "permit_address": "7704 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1810,24 +1675,6 @@
           {
             "permit_year": 2015.0,
             "permit_address": "1762 ROSEMARY DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1714 WASABI WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7718 CURRY DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1854,7 +1701,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7710 CURRY DR",
+            "permit_address": "1752 ROSEMARY DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1863,7 +1710,43 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1727 WASABI WY",
+            "permit_address": "7717 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "7709 Wasabi Wy",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1721 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1718 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7714 CURRY DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1881,7 +1764,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1726 WASABI WY",
+            "permit_address": "1714 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1890,7 +1773,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1710 TARRAGON DR",
+            "permit_address": "7706 CURRY DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1899,7 +1782,79 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1720 ROSEMARY DR",
+            "permit_address": "7701 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1712 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7730 CURRY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1730 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1708 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1742 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1748 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1736 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1739 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1917,7 +1872,34 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1730 TARRAGON DR",
+            "permit_address": "7718 CURRY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "1750 Rosemary Dr",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1766 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1715 WASABI WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1935,7 +1917,25 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1758 ROSEMARY DR",
+            "permit_address": "7713 WASABI WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1732 ROSEMARY DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1710 TARRAGON DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1946,187 +1946,7 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "7708 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1754 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7717 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1752 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7702 CURRY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1711 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1733 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7701 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7704 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1718 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "7705 Wasabi Wy",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1712 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1740 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "1737 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7726 CURRY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7713 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1722 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "7709 Wasabi Wy",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1715 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1702 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1721 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2144,7 +1964,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1748 TARRAGON DR",
+            "permit_address": "1740 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2153,43 +1973,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7714 CURRY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "1750 Rosemary Dr",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1742 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1726 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1736 TARRAGON DR",
+            "permit_address": "1726 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2207,16 +1991,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1732 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1834 TARRAGON DR",
+            "permit_address": "1754 TARRAGON DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2225,7 +2000,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1731 ROSEMARY DR",
+            "permit_address": "1727 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2234,7 +2009,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1708 WASABI WY",
+            "permit_address": "7708 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2243,7 +2018,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7722 CURRY DR",
+            "permit_address": "1720 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2252,7 +2027,34 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7706 CURRY DR",
+            "permit_address": "1702 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1726 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1758 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7710 CURRY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2270,7 +2072,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1766 ROSEMARY DR",
+            "permit_address": "1708 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2279,7 +2081,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7730 CURRY DR",
+            "permit_address": "1711 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2288,7 +2090,70 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1739 WASABI WY",
+            "permit_address": "1722 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1731 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1834 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7726 CURRY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7702 CURRY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1733 WASABI WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7722 CURRY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7704 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2298,24 +2163,6 @@
           {
             "permit_year": 2015,
             "permit_address": "1762 ROSEMARY DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1714 WASABI WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7718 CURRY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2342,7 +2189,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7710 CURRY DR",
+            "permit_address": "1752 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2351,7 +2198,43 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1727 WASABI WY",
+            "permit_address": "7717 WASABI WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "7709 Wasabi Wy",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1721 WASABI WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1718 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7714 CURRY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2369,7 +2252,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1726 WASABI WY",
+            "permit_address": "7701 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2378,7 +2261,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1710 TARRAGON DR",
+            "permit_address": "7706 CURRY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2387,7 +2270,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1720 ROSEMARY DR",
+            "permit_address": "1714 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2396,7 +2279,16 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1736 ROSEMARY DR",
+            "permit_address": "7730 CURRY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1712 ROSEMARY DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2414,7 +2306,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1708 ROSEMARY DR",
+            "permit_address": "1708 WASABI WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -2423,7 +2315,115 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "1758 ROSEMARY DR",
+            "permit_address": "1742 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1748 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1736 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1739 WASABI WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1736 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7718 CURRY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "1750 Rosemary Dr",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1766 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1715 WASABI WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7713 WASABI WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "7705 Wasabi Wy",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1732 ROSEMARY DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1710 TARRAGON DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4766,7 +4766,43 @@
           },
           {
             "permit_year": 2016,
+            "permit_address": "2450 3RD ST",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2520 3RD ST",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
             "permit_address": "2460 3RD ST",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2500 3RD ST",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2510 3RD ST",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4785,42 +4821,6 @@
           {
             "permit_year": 2016,
             "permit_address": "2470 3RD ST",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2450 3RD ST",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2510 3RD ST",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2520 3RD ST",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2500 3RD ST",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -5883,241 +5883,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "7910 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2590 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2490 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2461 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2470 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2550 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2520 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2490 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "7900 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2501 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2441 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2481 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2470 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2491 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2460 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2480 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2450 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2471 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2480 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2521 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2530 APPLE TREE WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1860 THYME CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2500 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2451 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2491 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2531 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2511 APPLE TREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6135,24 +5901,6 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2440 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2521 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "2460 APPLE TREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -6161,17 +5909,8 @@
             ]
           },
           {
-            "permit_year": 2019.0,
-            "permit_address": "1853 THYME CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016.0,
-            "permit_address": "2560 APPLE TREE WY",
+            "permit_address": "2491 APRICOT WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6180,43 +5919,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2511 APRICOT WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2540 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2450 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2531 APPLE TREE WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2510 APPLE TREE WY",
+            "permit_address": "2470 APRICOT WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6234,6 +5937,132 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "2480 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2531 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2540 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2490 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2491 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2520 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2451 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1860 THYME CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2440 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2481 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2480 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2511 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2531 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2521 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "2590 LONE OAK WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -6243,7 +6072,178 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "2510 APPLE TREE WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1853 THYME CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2501 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2530 APPLE TREE WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "2600 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2461 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2560 APPLE TREE WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2470 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2471 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2450 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2490 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2550 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2590 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2450 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2441 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "7910 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2460 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2521 APPLE TREE WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2511 APRICOT WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2500 APPLE TREE WAY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6254,87 +6254,6 @@
         "match_results_lax": [
           {
             "permit_year": 2016,
-            "permit_address": "7910 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2590 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2490 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2461 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2470 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2550 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2520 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2501 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2490 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
             "permit_address": "7900 APPLE TREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
@@ -6343,125 +6262,17 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "2441 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2481 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2470 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2491 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2460 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2471 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2450 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2480 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2480 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2521 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2530 APPLE TREE WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019,
-            "permit_address": "1860 THYME CT",
+            "permit_address": "1853 Thyme Ct",
             "permit_units": 1,
-            "permit_category": "SFD",
+            "permit_category": "ADU",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2016,
-            "permit_address": "2500 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2451 APPLE TREE WAY",
+            "permit_address": "2460 APPLE TREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -6479,115 +6290,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2531 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2511 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2521 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2440 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2460 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1853 Thyme Ct",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1853 THYME CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2560 APPLE TREE WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2511 APRICOT WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2540 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2450 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2531 APPLE TREE WAY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2510 APPLE TREE WY",
+            "permit_address": "2470 APRICOT WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -6605,6 +6308,132 @@
           },
           {
             "permit_year": 2016,
+            "permit_address": "2480 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2531 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2540 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2490 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2491 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2451 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2520 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2440 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1860 THYME CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2481 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2480 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2511 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2531 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2521 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
             "permit_address": "2590 LONE OAK WAY",
             "permit_units": 1,
             "permit_category": "SF",
@@ -6614,7 +6443,178 @@
           },
           {
             "permit_year": 2016,
+            "permit_address": "2510 APPLE TREE WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1853 THYME CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2501 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2530 APPLE TREE WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
             "permit_address": "2600 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2461 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2560 APPLE TREE WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2470 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2471 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2450 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2490 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2550 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2590 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2450 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2441 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "7910 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2460 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2521 APPLE TREE WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2511 APRICOT WAY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2500 APPLE TREE WAY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -6782,35 +6782,44 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2015.0,
-            "permit_address": "7712 CINNAMON WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1680 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1846 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016.0,
             "permit_address": "1822 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7722 CINNAMON WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1850 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7732 CINNAMON WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7742 CINNAMON WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6828,61 +6837,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1668 CLOVE PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1678 CLOVE PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7722 CINNAMON WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "7752 CINNAMON WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "1670 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1830 TARRAGON DR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "7742 CINNAMON WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6900,7 +6855,16 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "7732 CINNAMON WY",
+            "permit_address": "1680 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1670 TARRAGON DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6909,7 +6873,43 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "1850 TARRAGON DR",
+            "permit_address": "1846 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1668 CLOVE PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1830 TARRAGON DR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "7712 CINNAMON WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "1678 CLOVE PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -6928,116 +6928,8 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2015,
-            "permit_address": "7712 CINNAMON WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1680 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1846 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016,
             "permit_address": "1822 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1806 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1668 CLOVE PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1678 CLOVE PL",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7722 CINNAMON WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1670 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1830 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7742 CINNAMON WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "1690 TARRAGON DR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "7732 CINNAMON WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -7055,7 +6947,34 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "7702 CINNAMON WY",
+            "permit_address": "7722 CINNAMON WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7732 CINNAMON WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7742 CINNAMON WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1806 TARRAGON DR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -7065,6 +6984,87 @@
           {
             "permit_year": 2015,
             "permit_address": "7752 CINNAMON WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1680 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1690 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1670 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1846 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1668 CLOVE PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1830 TARRAGON DR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7712 CINNAMON WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "1678 CLOVE PL",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "7702 CINNAMON WY",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

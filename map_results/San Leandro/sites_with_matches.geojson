@@ -12293,6 +12293,15 @@
           },
           {
             "permit_year": 2017,
+            "permit_address": "428 Warren Avenue",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
             "permit_address": "438 Warren Avenue",
             "permit_units": 1,
             "permit_category": "SF",
@@ -12303,15 +12312,6 @@
           {
             "permit_year": 2017,
             "permit_address": "468 Warren Avenue",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "428 Warren Avenue",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

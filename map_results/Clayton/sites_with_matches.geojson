@@ -71,25 +71,16 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "1White Diamond Lane",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "4 White Diamond Lane",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "3 White Diamond Lane",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1White Diamond Lane",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -104,21 +95,21 @@
             "match_type": [
               "geo"
             ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "4 White Diamond Lane",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2017,
-            "permit_address": "1White Diamond Lane",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "4 White Diamond Lane",
+            "permit_address": "3 White Diamond Lane",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -136,6 +127,24 @@
           },
           {
             "permit_year": 2017,
+            "permit_address": "2 White Diamond Lane",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1White Diamond Lane",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
             "permit_address": "5679 Pine Hollow Road",
             "permit_units": 1,
             "permit_category": "SF",
@@ -145,16 +154,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3 White Diamond Lane",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "2 White Diamond Lane",
+            "permit_address": "4 White Diamond Lane",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

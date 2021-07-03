@@ -7391,7 +7391,7 @@
             "permit_year": 2016.0,
             "permit_address": "212 Santa Clara Street",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -7401,7 +7401,7 @@
             "permit_year": 2016.0,
             "permit_address": "212 Santa Clara Street",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -7413,7 +7413,7 @@
             "permit_year": 2016.0,
             "permit_address": "212 Santa Clara Street",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -7423,7 +7423,7 @@
             "permit_year": 2016.0,
             "permit_address": "212 Santa Clara Street",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -41478,7 +41478,7 @@
             "permit_year": 2016.0,
             "permit_address": "316 Humboldt Road",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -41488,7 +41488,7 @@
             "permit_year": 2016.0,
             "permit_address": "316 Humboldt Road",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -41500,7 +41500,7 @@
             "permit_year": 2016.0,
             "permit_address": "316 Humboldt Road",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -41510,7 +41510,7 @@
             "permit_year": 2016.0,
             "permit_address": "316 Humboldt Road",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"

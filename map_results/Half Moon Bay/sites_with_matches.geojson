@@ -20721,8 +20721,8 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "120 Carnoustie Dr",
+            "permit_year": 2014,
+            "permit_address": "117 Carnoustie Dr",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -20749,25 +20749,25 @@
           },
           {
             "permit_year": 2014,
-            "permit_address": "110 Carnoustie Dr",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "117 Carnoustie Dr",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
             "permit_address": "111 Carnoustie Dr",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "120 Carnoustie Dr",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "110 Carnoustie Dr",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -21329,7 +21329,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "312 Kelly Avenue",
-            "permit_units": 1.0,
+            "permit_units": 0.0,
             "permit_category": "SFD",
             "match_type": [
               "apn",
@@ -21339,7 +21339,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "312 Kelly Avenue",
-            "permit_units": 0.0,
+            "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
               "apn",
@@ -21360,7 +21360,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "312 Kelly Avenue",
-            "permit_units": 1.0,
+            "permit_units": 0.0,
             "permit_category": "SFD",
             "match_type": [
               "apn",
@@ -21370,7 +21370,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "312 Kelly Avenue",
-            "permit_units": 0.0,
+            "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
               "apn",
@@ -26652,6 +26652,15 @@
             ]
           },
           {
+            "permit_year": 2014,
+            "permit_address": "251 Bayhill Rd",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2016,
             "permit_address": "241 Bayhill Rd",
             "permit_units": 1,
@@ -26663,15 +26672,6 @@
           {
             "permit_year": 2016,
             "permit_address": "231 Bayhill Rd",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "251 Bayhill Rd",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -26853,7 +26853,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "390 Myrtle Street",
-            "permit_units": 0.0,
+            "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
               "apn"
@@ -26862,7 +26862,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "390 Myrtle Street",
-            "permit_units": 1.0,
+            "permit_units": 0.0,
             "permit_category": "SFD",
             "match_type": [
               "apn"
@@ -26873,7 +26873,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "390 Myrtle Street",
-            "permit_units": 0.0,
+            "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
               "apn",
@@ -26883,7 +26883,7 @@
           {
             "permit_year": 2018.0,
             "permit_address": "390 Myrtle Street",
-            "permit_units": 1.0,
+            "permit_units": 0.0,
             "permit_category": "SFD",
             "match_type": [
               "apn",

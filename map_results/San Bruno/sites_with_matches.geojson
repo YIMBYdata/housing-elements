@@ -2290,8 +2290,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 30.0,
-            "permit_category": "5+",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
             "match_type": [
               "apn"
             ]
@@ -2299,8 +2299,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_units": 30.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]
@@ -2310,8 +2310,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 30.0,
-            "permit_category": "5+",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
             "match_type": [
               "apn"
             ]
@@ -2319,8 +2319,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_units": 30.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]
@@ -4430,8 +4430,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 30.0,
-            "permit_category": "5+",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
             "match_type": [
               "apn"
             ]
@@ -4439,8 +4439,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_units": 30.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]
@@ -4450,8 +4450,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 30.0,
-            "permit_category": "5+",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
             "match_type": [
               "apn"
             ]
@@ -4459,8 +4459,8 @@
           {
             "permit_year": 2019.0,
             "permit_address": "3300 College Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_units": 30.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]

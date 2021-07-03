@@ -1235,7 +1235,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "1400 CIVIC CENTER DR U9",
+            "permit_address": "1431 EL CAMINO REAL",
             "permit_units": 9.0,
             "permit_category": "SFA",
             "match_type": [
@@ -1253,7 +1253,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1431 EL CAMINO REAL",
+            "permit_address": "1400 CIVIC CENTER DR U9",
             "permit_units": 9.0,
             "permit_category": "SFA",
             "match_type": [
@@ -1264,7 +1264,7 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "1380 CIVIC CENTER DR U9",
+            "permit_address": "1431 EL CAMINO REAL",
             "permit_units": 9,
             "permit_category": "SFA",
             "match_type": [
@@ -1273,7 +1273,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "1431 EL CAMINO REAL",
+            "permit_address": "1380 CIVIC CENTER DR U9",
             "permit_units": 9,
             "permit_category": "SFA",
             "match_type": [
@@ -4217,40 +4217,22 @@
         "match_results": [
           {
             "permit_year": 2018.0,
+            "permit_address": "2960 Sanor (B2)",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
             "permit_address": "2950 Sanor (B1)",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
               "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2950 Sanor (B2)",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2970 Feliz",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3449 Copper",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
             ]
           },
           {
@@ -4264,8 +4246,26 @@
             ]
           },
           {
+            "permit_year": 2019.0,
+            "permit_address": "3449 Copper",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
             "permit_year": 2018.0,
-            "permit_address": "2960 Sanor (B2)",
+            "permit_address": "2970 Feliz",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2950 Sanor (B2)",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -4277,40 +4277,22 @@
         "match_results_lax": [
           {
             "permit_year": 2018.0,
+            "permit_address": "2960 Sanor (B2)",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
             "permit_address": "2950 Sanor (B1)",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
               "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2950 Sanor (B2)",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2970 Feliz",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3449 Copper",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
             ]
           },
           {
@@ -4324,8 +4306,26 @@
             ]
           },
           {
+            "permit_year": 2019.0,
+            "permit_address": "3449 Copper",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
             "permit_year": 2018.0,
-            "permit_address": "2960 Sanor (B2)",
+            "permit_address": "2970 Feliz",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2950 Sanor (B2)",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -7043,7 +7043,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "2933 Lamory  Pl U113",
+            "permit_address": "2933 Lamory  Pl U114",
             "permit_units": 7.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7052,7 +7052,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "2933 Lamory  Pl U114",
+            "permit_address": "2933 Lamory  Pl U113",
             "permit_units": 7.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7063,7 +7063,7 @@
         "match_results_lax": [
           {
             "permit_year": 2019.0,
-            "permit_address": "2933 Lamory  Pl U113",
+            "permit_address": "2933 Lamory  Pl U114",
             "permit_units": 7.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7072,7 +7072,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "2933 Lamory  Pl U114",
+            "permit_address": "2933 Lamory  Pl U113",
             "permit_units": 7.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7536,8 +7536,128 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2018.0,
+            "permit_address": "2930 Sanor (B2)",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2930 Boyter Pl U114",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3390 EICHERS PL B2",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2928 LAMORY PL",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3380 EICHERS PL B1",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2910 Sanor (B1)",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2910 LAMORY PL",
+            "permit_units": 4.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2912 Feliz",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019.0,
             "permit_address": "3380 EICHERS PL B2",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2946 Feliz",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2930 Sanor (B1)",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3041 BOYTER PL",
+            "permit_units": 4.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3370 EICHERS PL B2",
             "permit_units": 6.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7557,68 +7677,8 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "2910 LAMORY PL",
-            "permit_units": 4.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2910 Sanor (B1)",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2930 Boyter Pl U114",
+            "permit_address": "2930 Boyter Pl U113",
             "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3041 BOYTER PL",
-            "permit_units": 4.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2928 LAMORY PL",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2946 Feliz",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3380 EICHERS PL B1",
-            "permit_units": 6.0,
             "permit_category": "SFA",
             "match_type": [
               "apn",
@@ -7637,37 +7697,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "3390 EICHERS PL B2",
-            "permit_units": 6.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3370 EICHERS PL B2",
-            "permit_units": 6.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2912 Feliz",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2930 Boyter Pl U113",
+            "permit_address": "3435 Copper",
             "permit_units": 7.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7687,39 +7717,9 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "2930 Sanor (B1)",
+            "permit_address": "2970 Feliz",
             "permit_units": 8.0,
             "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2930 Sanor (B2)",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3435 Copper",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2933 Lamory  Pl U114",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
             "match_type": [
               "geo"
             ]
@@ -7734,10 +7734,10 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "2970 Feliz",
-            "permit_units": 8.0,
-            "permit_category": "5+",
+            "permit_year": 2019.0,
+            "permit_address": "2933 Lamory  Pl U114",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
             "match_type": [
               "geo"
             ]
@@ -7763,8 +7763,128 @@
         ],
         "match_results_lax": [
           {
+            "permit_year": 2018.0,
+            "permit_address": "2930 Sanor (B2)",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2930 Boyter Pl U114",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3390 EICHERS PL B2",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2928 LAMORY PL",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3380 EICHERS PL B1",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2910 Sanor (B1)",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2910 LAMORY PL",
+            "permit_units": 4.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2912 Feliz",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019.0,
             "permit_address": "3380 EICHERS PL B2",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2946 Feliz",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2930 Sanor (B1)",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3041 BOYTER PL",
+            "permit_units": 4.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3370 EICHERS PL B2",
             "permit_units": 6.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7784,68 +7904,8 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "2910 LAMORY PL",
-            "permit_units": 4.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2910 Sanor (B1)",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2930 Boyter Pl U114",
+            "permit_address": "2930 Boyter Pl U113",
             "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3041 BOYTER PL",
-            "permit_units": 4.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2928 LAMORY PL",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2946 Feliz",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3380 EICHERS PL B1",
-            "permit_units": 6.0,
             "permit_category": "SFA",
             "match_type": [
               "apn",
@@ -7864,37 +7924,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "3390 EICHERS PL B2",
-            "permit_units": 6.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3370 EICHERS PL B2",
-            "permit_units": 6.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2912 Feliz",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2930 Boyter Pl U113",
+            "permit_address": "3435 Copper",
             "permit_units": 7.0,
             "permit_category": "SFA",
             "match_type": [
@@ -7913,45 +7943,6 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "2930 Sanor (B1)",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2930 Sanor (B2)",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3435 Copper",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2933 Lamory  Pl U114",
-            "permit_units": 7,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018,
             "permit_address": "2970 Feliz",
             "permit_units": 8,
@@ -7963,6 +7954,15 @@
           {
             "permit_year": 2019,
             "permit_address": "3449 Copper",
+            "permit_units": 7,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2933 Lamory  Pl U114",
             "permit_units": 7,
             "permit_category": "SFA",
             "match_type": [
@@ -8403,6 +8403,44 @@
         "match_results": [
           {
             "permit_year": 2019.0,
+            "permit_address": "3303 Kifer Rd U113",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3305 Kifer",
+            "permit_units": 3.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2911 NOYCE PL U189",
+            "permit_units": 5.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2905 NOYCE PL U179",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
             "permit_address": "2907 Corvin Dr U131",
             "permit_units": 6.0,
             "permit_category": "SFA",
@@ -8422,45 +8460,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "3305 Kifer",
-            "permit_units": 3.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3303 Kifer Rd U113",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2911 NOYCE PL U189",
-            "permit_units": 5.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "2915 Corvin Dr U167",
-            "permit_units": 6.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2905 NOYCE PL U179",
             "permit_units": 6.0,
             "permit_category": "SFA",
             "match_type": [
@@ -8482,6 +8482,44 @@
         "match_results_lax": [
           {
             "permit_year": 2019.0,
+            "permit_address": "3303 Kifer Rd U113",
+            "permit_units": 7.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3305 Kifer",
+            "permit_units": 3.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2911 NOYCE PL U189",
+            "permit_units": 5.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2905 NOYCE PL U179",
+            "permit_units": 6.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
             "permit_address": "2907 Corvin Dr U131",
             "permit_units": 6.0,
             "permit_category": "SFA",
@@ -8501,45 +8539,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "3305 Kifer",
-            "permit_units": 3.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3303 Kifer Rd U113",
-            "permit_units": 7.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2911 NOYCE PL U189",
-            "permit_units": 5.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "2915 Corvin Dr U167",
-            "permit_units": 6.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2905 NOYCE PL U179",
             "permit_units": 6.0,
             "permit_category": "SFA",
             "match_type": [
@@ -8699,8 +8699,8 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "2907 Corvin Dr U131",
-            "permit_units": 6.0,
+            "permit_address": "3305 Kifer",
+            "permit_units": 3.0,
             "permit_category": "SFA",
             "match_type": [
               "geo"
@@ -8708,8 +8708,8 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "3305 Kifer",
-            "permit_units": 3.0,
+            "permit_address": "2907 Corvin Dr U131",
+            "permit_units": 6.0,
             "permit_category": "SFA",
             "match_type": [
               "geo"
@@ -8728,8 +8728,8 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "2907 Corvin Dr U131",
-            "permit_units": 6,
+            "permit_address": "3305 Kifer",
+            "permit_units": 3,
             "permit_category": "SFA",
             "match_type": [
               "geo"
@@ -8737,8 +8737,8 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "3305 Kifer",
-            "permit_units": 3,
+            "permit_address": "2907 Corvin Dr U131",
+            "permit_units": 6,
             "permit_category": "SFA",
             "match_type": [
               "geo"
@@ -12631,15 +12631,6 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "1340 CIVIC CENTER DR U9",
-            "permit_units": 9.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "1431 EL CAMINO REAL",
             "permit_units": 9.0,
             "permit_category": "SFA",
@@ -12649,7 +12640,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1379 EL CAMINO REAL",
+            "permit_address": "1340 CIVIC CENTER DR U9",
             "permit_units": 9.0,
             "permit_category": "SFA",
             "match_type": [
@@ -12668,6 +12659,15 @@
           {
             "permit_year": 2019.0,
             "permit_address": "1380 CIVIC CENTER DR U9",
+            "permit_units": 9.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1379 EL CAMINO REAL",
             "permit_units": 9.0,
             "permit_category": "SFA",
             "match_type": [
@@ -12687,15 +12687,6 @@
         "match_results_lax": [
           {
             "permit_year": 2019.0,
-            "permit_address": "1340 CIVIC CENTER DR U9",
-            "permit_units": 9.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "1431 EL CAMINO REAL",
             "permit_units": 9.0,
             "permit_category": "SFA",
@@ -12705,7 +12696,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1379 EL CAMINO REAL",
+            "permit_address": "1340 CIVIC CENTER DR U9",
             "permit_units": 9.0,
             "permit_category": "SFA",
             "match_type": [
@@ -12724,6 +12715,15 @@
           {
             "permit_year": 2019.0,
             "permit_address": "1380 CIVIC CENTER DR U9",
+            "permit_units": 9.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1379 EL CAMINO REAL",
             "permit_units": 9.0,
             "permit_category": "SFA",
             "match_type": [

@@ -1024,19 +1024,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -1045,19 +1045,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -1104,19 +1104,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -1125,19 +1125,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -1184,19 +1184,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -1205,19 +1205,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -1972,7 +1972,7 @@
         "match_results": [
           {
             "permit_year": 2014.0,
-            "permit_address": "8141 WOODLAND HILLS DR",
+            "permit_address": "8161 WOODLAND HILLS DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1990,7 +1990,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "8161 WOODLAND HILLS DR",
+            "permit_address": "8141 WOODLAND HILLS DR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3452,19 +3452,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3473,19 +3473,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3532,19 +3532,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3553,19 +3553,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3620,19 +3620,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3641,19 +3641,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3708,19 +3708,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3729,19 +3729,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3788,19 +3788,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],
@@ -3809,19 +3809,19 @@
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
-              "apn",
-              "geo"
+              "apn"
             ]
           },
           {
             "permit_year": 2017.0,
             "permit_address": null,
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
-              "apn"
+              "apn",
+              "geo"
             ]
           }
         ],

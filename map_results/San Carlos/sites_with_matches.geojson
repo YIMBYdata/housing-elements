@@ -20447,51 +20447,6 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "862 Cordilleras",
-            "permit_units": 1.0,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "8 Wildwood",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "133 Madera",
-            "permit_units": 1.0,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "121 Colton",
-            "permit_units": 1.0,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1979 St Francis Way",
-            "permit_units": 1.0,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "321 Clifton",
             "permit_units": 1.0,
             "permit_category": "ADU",
@@ -20519,6 +20474,15 @@
           },
           {
             "permit_year": 2019.0,
+            "permit_address": "1979 St Francis Way",
+            "permit_units": 1.0,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
             "permit_address": "1819 Eaton",
             "permit_units": 1.0,
             "permit_category": "SFD",
@@ -20528,7 +20492,43 @@
           },
           {
             "permit_year": 2019.0,
+            "permit_address": "862 Cordilleras",
+            "permit_units": 1.0,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
             "permit_address": "172 Rogers",
+            "permit_units": 1.0,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "8 Wildwood",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "121 Colton",
+            "permit_units": 1.0,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "133 Madera",
             "permit_units": 1.0,
             "permit_category": "ADU",
             "match_type": [
@@ -20539,51 +20539,6 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "862 Cordilleras",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "8 Wildwood",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "133 Madera",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "121 Colton",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1979 St Francis Way",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "321 Clifton",
             "permit_units": 1,
             "permit_category": "ADU",
@@ -20611,6 +20566,15 @@
           },
           {
             "permit_year": 2019,
+            "permit_address": "1979 St Francis Way",
+            "permit_units": 1,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
             "permit_address": "1819 Eaton",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -20620,7 +20584,43 @@
           },
           {
             "permit_year": 2019,
+            "permit_address": "862 Cordilleras",
+            "permit_units": 1,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
             "permit_address": "172 Rogers",
+            "permit_units": 1,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "8 Wildwood",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "121 Colton",
+            "permit_units": 1,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "133 Madera",
             "permit_units": 1,
             "permit_category": "ADU",
             "match_type": [

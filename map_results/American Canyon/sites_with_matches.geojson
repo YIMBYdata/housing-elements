@@ -1674,6 +1674,15 @@
         "geo_matched": false,
         "match_results": [
           {
+            "permit_year": 2015.0,
+            "permit_address": "200 Reliant Way",
+            "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
             "permit_year": 2016.0,
             "permit_address": "Unidentified",
             "permit_units": 0.0,
@@ -1684,16 +1693,16 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "14 Rita",
-            "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_address": "300 Reliant Way",
+            "permit_units": 20.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "200 Reliant Way",
+            "permit_address": "400 Reliant Way",
             "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
@@ -1711,8 +1720,8 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "600 Reliant Way",
-            "permit_units": 24.0,
+            "permit_address": "500 Reliant Way",
+            "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -1720,8 +1729,8 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "400 Reliant Way",
-            "permit_units": 20.0,
+            "permit_address": "600 Reliant Way",
+            "permit_units": 24.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -1738,18 +1747,9 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "300 Reliant Way",
-            "permit_units": 20.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "500 Reliant Way",
-            "permit_units": 20.0,
-            "permit_category": "5+",
+            "permit_address": "14 Rita",
+            "permit_units": 1.0,
+            "permit_category": "SU",
             "match_type": [
               "apn"
             ]
@@ -1757,6 +1757,15 @@
         ],
         "match_results_lax": [
           {
+            "permit_year": 2015.0,
+            "permit_address": "200 Reliant Way",
+            "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
             "permit_year": 2016.0,
             "permit_address": "Unidentified",
             "permit_units": 0.0,
@@ -1767,16 +1776,16 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "14 Rita",
-            "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_address": "300 Reliant Way",
+            "permit_units": 20.0,
+            "permit_category": "5+",
             "match_type": [
               "apn"
             ]
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "200 Reliant Way",
+            "permit_address": "400 Reliant Way",
             "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
@@ -1794,8 +1803,8 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "600 Reliant Way",
-            "permit_units": 24.0,
+            "permit_address": "500 Reliant Way",
+            "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -1803,8 +1812,8 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "400 Reliant Way",
-            "permit_units": 20.0,
+            "permit_address": "600 Reliant Way",
+            "permit_units": 24.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -1821,18 +1830,9 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "300 Reliant Way",
-            "permit_units": 20.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "500 Reliant Way",
-            "permit_units": 20.0,
-            "permit_category": "5+",
+            "permit_address": "14 Rita",
+            "permit_units": 1.0,
+            "permit_category": "SU",
             "match_type": [
               "apn"
             ]

@@ -1253,16 +1253,6 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "901 Autumn Brook Pl, Concord, CA",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "901 AUTUMN BROOK PL",
             "permit_units": 0.0,
             "permit_category": "SFD",
@@ -1273,16 +1263,17 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "909 Autumn Brook Pl",
+            "permit_address": "901 Autumn Brook Pl, Concord, CA",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
+              "apn",
               "geo"
             ]
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "921 Autumn Brook Pl",
+            "permit_address": "917 Autumn Brook Pl",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1318,7 +1309,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "917 Autumn Brook Pl",
+            "permit_address": "909 Autumn Brook Pl",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1328,6 +1319,15 @@
           {
             "permit_year": 2017.0,
             "permit_address": "913 Autumn Brook Pl",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "921 Autumn Brook Pl",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1338,16 +1338,6 @@
         "match_results_lax": [
           {
             "permit_year": 2017.0,
-            "permit_address": "901 Autumn Brook Pl, Concord, CA",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "901 AUTUMN BROOK PL",
             "permit_units": 0.0,
             "permit_category": "SFD",
@@ -1357,35 +1347,27 @@
             ]
           },
           {
-            "permit_year": 2017,
-            "permit_address": "909 Autumn Brook Pl",
+            "permit_year": 2017.0,
+            "permit_address": "901 Autumn Brook Pl, Concord, CA",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "921 Autumn Brook Pl",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "929 Autumn Brook Pl",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
+              "apn",
               "geo"
             ]
           },
           {
             "permit_year": 2017,
             "permit_address": "905 Autumn Brook Pl",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "917 Autumn Brook Pl",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1403,6 +1385,24 @@
           },
           {
             "permit_year": 2017,
+            "permit_address": "929 Autumn Brook Pl",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "909 Autumn Brook Pl",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
             "permit_address": "913 Autumn Brook Pl",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -1412,7 +1412,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "917 Autumn Brook Pl",
+            "permit_address": "921 Autumn Brook Pl",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -41697,16 +41697,6 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "3572 Sanford St, Concord, CA",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "3578 SANFORD ST",
             "permit_units": 0.0,
             "permit_category": "SFD",
@@ -41718,6 +41708,16 @@
           {
             "permit_year": 2017.0,
             "permit_address": "3578 Sanford St, Concord, CA",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3572 Sanford St, Concord, CA",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -41729,16 +41729,6 @@
         "match_results_lax": [
           {
             "permit_year": 2017.0,
-            "permit_address": "3572 Sanford St, Concord, CA",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "3578 SANFORD ST",
             "permit_units": 0.0,
             "permit_category": "SFD",
@@ -41750,6 +41740,16 @@
           {
             "permit_year": 2017.0,
             "permit_address": "3578 Sanford St, Concord, CA",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3572 Sanford St, Concord, CA",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -55105,7 +55105,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "3887 Callie Court",
+            "permit_address": "3883 Callie Court",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -55123,7 +55123,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "3883 Callie Court",
+            "permit_address": "3887 Callie Court",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [

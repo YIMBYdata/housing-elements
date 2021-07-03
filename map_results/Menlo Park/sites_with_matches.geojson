@@ -5552,6 +5552,15 @@
         "match_results_lax": [
           {
             "permit_year": 2014,
+            "permit_address": "1275 Laurel St.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
             "permit_address": "1279 Laurel St.",
             "permit_units": 1,
             "permit_category": "SF",
@@ -5562,15 +5571,6 @@
           {
             "permit_year": 2014,
             "permit_address": "1277 Laurel St.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "1275 Laurel St.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

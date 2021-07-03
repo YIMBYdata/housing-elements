@@ -1063,17 +1063,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "1657 Annie St",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1652 Edgeworth Ave",
+            "permit_address": "1656 Edgeworth Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1082,47 +1072,17 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "1648 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "1640 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1653 Annie St",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1628 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1620 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1636 Edgeworth Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1152,6 +1112,66 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "1632 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1657 Annie St",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1628 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1620 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1653 Annie St",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1636 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "1649 Annie St",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -1162,31 +1182,11 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "1648 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1656 Edgeworth Ave",
+            "permit_address": "1652 Edgeworth Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
               "apn"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1632 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
             ]
           },
           {
@@ -1202,7 +1202,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
-            "permit_address": "1657 Annie St",
+            "permit_address": "1656 Edgeworth Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1212,7 +1212,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "1652 Edgeworth Ave",
+            "permit_address": "1648 Edgeworth Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1223,46 +1223,6 @@
           {
             "permit_year": 2016.0,
             "permit_address": "1640 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1653 Annie St",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1628 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1620 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1636 Edgeworth Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1292,6 +1252,66 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "1632 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1657 Annie St",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1628 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1620 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1653 Annie St",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "1636 Edgeworth Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "1649 Annie St",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -1302,27 +1322,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "1648 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1656 Edgeworth Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1632 Edgeworth Ave",
+            "permit_address": "1652 Edgeworth Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1332,16 +1332,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "1645 Annie St",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "1665 Annie St",
+            "permit_address": "1641 Annie St",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1359,15 +1350,6 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "1661 Annie St",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
             "permit_address": "1637 Annie St",
             "permit_units": 1,
             "permit_category": "SF",
@@ -1377,7 +1359,25 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "1641 Annie St",
+            "permit_address": "1661 Annie St",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1665 Annie St",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "1645 Annie St",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1770,7 +1770,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "17 Hibiscus Ct",
+            "permit_address": "19 Hibiscus Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1800,7 +1800,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "19 Hibiscus Ct",
+            "permit_address": "13 Hibiscus Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1810,7 +1810,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "13 Hibiscus Ct",
+            "permit_address": "17 Hibiscus Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1822,7 +1822,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
-            "permit_address": "17 Hibiscus Ct",
+            "permit_address": "19 Hibiscus Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -1852,16 +1852,6 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "19 Hibiscus Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "13 Hibiscus Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -1871,35 +1861,27 @@
             ]
           },
           {
+            "permit_year": 2016.0,
+            "permit_address": "17 Hibiscus Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "16 Hibiscus Ct",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2016,
             "permit_address": "10 Hibiscus Ct",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "14 Hibiscus Ct",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "18 Hibiscus Ct",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "20 Hibiscus Ct",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1917,7 +1899,25 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "16 Hibiscus Ct",
+            "permit_address": "14 Hibiscus Ct",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "20 Hibiscus Ct",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "18 Hibiscus Ct",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1978,36 +1978,6 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "21 Honeysuckle Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "10 Honeysuckle Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "17 Honeysuckle Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "12 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -2018,7 +1988,17 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "14 Honeysuckle Ct",
+            "permit_address": "11 Honeysuckle Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "15 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2058,7 +2038,17 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "11 Honeysuckle Ct",
+            "permit_address": "14 Honeysuckle Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "21 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2078,7 +2068,17 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "15 Honeysuckle Ct",
+            "permit_address": "17 Honeysuckle Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "10 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2090,36 +2090,6 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
-            "permit_address": "21 Honeysuckle Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "10 Honeysuckle Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "17 Honeysuckle Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "12 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -2130,7 +2100,17 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "14 Honeysuckle Ct",
+            "permit_address": "11 Honeysuckle Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "15 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2170,7 +2150,17 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "11 Honeysuckle Ct",
+            "permit_address": "14 Honeysuckle Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "21 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2190,7 +2180,17 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "15 Honeysuckle Ct",
+            "permit_address": "17 Honeysuckle Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "10 Honeysuckle Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2304,6 +2304,26 @@
         "match_results": [
           {
             "permit_year": 2016.0,
+            "permit_address": "16 Lavender Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "25 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "11 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -2314,37 +2334,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "15 Plumeria Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "336 3rd Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "13 Rosebud Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "17 Plumeria Ct",
+            "permit_address": "26 Lavender Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2364,7 +2354,47 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "340 3rd Ave",
+            "permit_address": "20 Lavender Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "19 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "15 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "344 3th Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "322 3rd Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2394,7 +2424,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "19 Plumeria Ct",
+            "permit_address": "10 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2404,57 +2434,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "20 Lavender Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "25 Plumeria Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "26 Lavender Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "322 3rd Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "326 3rd Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "16 Lavender Ct",
+            "permit_address": "24 Lavender Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2484,6 +2464,46 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "336 3rd Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "326 3rd Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "17 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "13 Rosebud Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "22 Lavender Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -2504,27 +2524,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "24 Lavender Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "10 Rosebud Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "344 3th Ave",
+            "permit_address": "340 3rd Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2545,6 +2545,26 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
+            "permit_address": "16 Lavender Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "25 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "11 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -2555,37 +2575,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "15 Plumeria Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "336 3rd Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "13 Rosebud Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "17 Plumeria Ct",
+            "permit_address": "26 Lavender Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2605,7 +2595,47 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "340 3rd Ave",
+            "permit_address": "20 Lavender Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "19 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "15 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "344 3th Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "322 3rd Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2635,7 +2665,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "19 Plumeria Ct",
+            "permit_address": "10 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2645,57 +2675,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "20 Lavender Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "25 Plumeria Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "26 Lavender Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "322 3rd Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "326 3rd Ave",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "16 Lavender Ct",
+            "permit_address": "24 Lavender Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2725,6 +2705,46 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "336 3rd Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "326 3rd Ave",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "17 Plumeria Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "13 Rosebud Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "22 Lavender Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -2745,27 +2765,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "24 Lavender Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "10 Rosebud Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "344 3th Ave",
+            "permit_address": "340 3rd Ave",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2968,7 +2968,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "1550 Annie St",
+            "permit_address": "1556 Annie St",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -2988,7 +2988,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1556 Annie St",
+            "permit_address": "1550 Annie St",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3000,7 +3000,7 @@
         "match_results_lax": [
           {
             "permit_year": 2015.0,
-            "permit_address": "1550 Annie St",
+            "permit_address": "1556 Annie St",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3020,7 +3020,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "1556 Annie St",
+            "permit_address": "1550 Annie St",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3914,7 +3914,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "8 Rosebud Ct",
+            "permit_address": "6 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3934,7 +3934,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "6 Rosebud Ct",
+            "permit_address": "2 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3944,7 +3944,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2 Rosebud Ct",
+            "permit_address": "8 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3956,7 +3956,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
-            "permit_address": "8 Rosebud Ct",
+            "permit_address": "6 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3976,7 +3976,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "6 Rosebud Ct",
+            "permit_address": "2 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3986,7 +3986,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2 Rosebud Ct",
+            "permit_address": "8 Rosebud Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [

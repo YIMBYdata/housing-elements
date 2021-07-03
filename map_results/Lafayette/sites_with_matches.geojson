@@ -4073,16 +4073,6 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "954 MOUNTAIN VIEW",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
             "permit_address": "960 MOUNTAIN VIEW",
             "permit_units": 1.0,
             "permit_category": "SFA",
@@ -4092,7 +4082,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "962 MOUNTAIN VIEW",
+            "permit_address": "964 MOUNTAIN VIEW",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -4110,7 +4100,17 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "964 MOUNTAIN VIEW",
+            "permit_address": "954 MOUNTAIN VIEW",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "962 MOUNTAIN VIEW",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -4121,16 +4121,6 @@
         "match_results_lax": [
           {
             "permit_year": 2018.0,
-            "permit_address": "954 MOUNTAIN VIEW",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
             "permit_address": "960 MOUNTAIN VIEW",
             "permit_units": 1.0,
             "permit_category": "SFA",
@@ -4140,7 +4130,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "962 MOUNTAIN VIEW",
+            "permit_address": "964 MOUNTAIN VIEW",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -4158,7 +4148,17 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "964 MOUNTAIN VIEW",
+            "permit_address": "954 MOUNTAIN VIEW",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "962 MOUNTAIN VIEW",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [

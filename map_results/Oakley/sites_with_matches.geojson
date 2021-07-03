@@ -35,60 +35,6 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "50 PRESCOTT CIR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "63 PRESCOTT CIR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "64 PRESCOTT CIR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "104 PRESCOTT CIR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "100 PRESCOTT CIR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "108 PRESCOTT CIR",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "54 PRESCOTT CIR",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -107,7 +53,61 @@
           },
           {
             "permit_year": 2015.0,
+            "permit_address": "50 PRESCOTT CIR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "64 PRESCOTT CIR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "108 PRESCOTT CIR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "58 PRESCOTT CIR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "104 PRESCOTT CIR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "63 PRESCOTT CIR",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "100 PRESCOTT CIR",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -118,60 +118,6 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "50 PRESCOTT CIR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "63 PRESCOTT CIR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "64 PRESCOTT CIR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "104 PRESCOTT CIR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "100 PRESCOTT CIR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "108 PRESCOTT CIR",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "54 PRESCOTT CIR",
             "permit_units": 1,
             "permit_category": "SF",
@@ -190,7 +136,61 @@
           },
           {
             "permit_year": 2015,
+            "permit_address": "50 PRESCOTT CIR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "64 PRESCOTT CIR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "108 PRESCOTT CIR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
             "permit_address": "58 PRESCOTT CIR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "104 PRESCOTT CIR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "63 PRESCOTT CIR",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "100 PRESCOTT CIR",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

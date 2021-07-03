@@ -198,6 +198,16 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2016.0,
+            "permit_address": "1273 Swiftwood Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2015.0,
             "permit_address": "1256 MISSION RD",
             "permit_units": 35.0,
@@ -210,16 +220,6 @@
           {
             "permit_year": 2016.0,
             "permit_address": "1254 MISSION RD B-1",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1273 Swiftwood Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -239,6 +239,16 @@
         ],
         "match_results_lax": [
           {
+            "permit_year": 2016.0,
+            "permit_address": "1273 Swiftwood Way",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2015.0,
             "permit_address": "1256 MISSION RD",
             "permit_units": 35.0,
@@ -251,16 +261,6 @@
           {
             "permit_year": 2016.0,
             "permit_address": "1254 MISSION RD B-1",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1273 Swiftwood Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [

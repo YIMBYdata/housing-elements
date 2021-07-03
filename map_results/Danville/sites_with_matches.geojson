@@ -26633,26 +26633,6 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "108 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "105 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "102 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFD",
@@ -26666,36 +26646,6 @@
             "permit_address": "115 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "106 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "115 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "102 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
             "match_type": [
               "apn",
               "geo"
@@ -26733,9 +26683,39 @@
           },
           {
             "permit_year": 2018.0,
+            "permit_address": "105 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
             "permit_address": "101 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "102 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "115 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
             "match_type": [
               "apn",
               "geo"
@@ -26753,16 +26733,27 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "112 Julia Loop",
+            "permit_address": "106 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
+              "apn",
               "geo"
             ]
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "117 Julia Loop",
+            "permit_address": "108 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "116 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -26780,7 +26771,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "116 Julia Loop",
+            "permit_address": "117 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -26795,31 +26786,20 @@
             "match_type": [
               "geo"
             ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "112 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2019.0,
-            "permit_address": "108 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "105 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "102 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFD",
@@ -26833,36 +26813,6 @@
             "permit_address": "115 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "106 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "115 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "102 Julia Loop",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
             "match_type": [
               "apn",
               "geo"
@@ -26900,9 +26850,39 @@
           },
           {
             "permit_year": 2018.0,
+            "permit_address": "105 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
             "permit_address": "101 Julia Loop",
             "permit_units": 1.0,
             "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "102 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "115 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
             "match_type": [
               "apn",
               "geo"
@@ -26919,17 +26899,28 @@
             ]
           },
           {
-            "permit_year": 2019,
-            "permit_address": "112 Julia Loop",
-            "permit_units": 1,
+            "permit_year": 2019.0,
+            "permit_address": "106 Julia Loop",
+            "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "108 Julia Loop",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
               "geo"
             ]
           },
           {
             "permit_year": 2019,
-            "permit_address": "117 Julia Loop",
+            "permit_address": "116 Julia Loop",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -26956,7 +26947,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "116 Julia Loop",
+            "permit_address": "117 Julia Loop",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -26966,6 +26957,15 @@
           {
             "permit_year": 2019,
             "permit_address": "118 Julia Loop",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "112 Julia Loop",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -27150,37 +27150,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "89 Hackler Ct.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "81 Hackler Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "85 Hackler Ct.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "80 Hackler Ct.",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27200,7 +27170,37 @@
           },
           {
             "permit_year": 2019.0,
+            "permit_address": "89 Hackler Ct.",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "80 Hackler Ct.",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
             "permit_address": "88 Hackler Ct.",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "81 Hackler Ct",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27212,37 +27212,7 @@
         "match_results_lax": [
           {
             "permit_year": 2019.0,
-            "permit_address": "89 Hackler Ct.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "81 Hackler Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "85 Hackler Ct.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "80 Hackler Ct.",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27262,7 +27232,37 @@
           },
           {
             "permit_year": 2019.0,
+            "permit_address": "89 Hackler Ct.",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "80 Hackler Ct.",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
             "permit_address": "88 Hackler Ct.",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "81 Hackler Ct",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -31274,7 +31274,7 @@
             "permit_year": 2015.0,
             "permit_address": "34 Hidden Hills Pl.",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "geo"
             ]
@@ -31283,7 +31283,7 @@
             "permit_year": 2015.0,
             "permit_address": "34 Hidden Hills Pl.",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
@@ -31294,7 +31294,7 @@
             "permit_year": 2015,
             "permit_address": "34 Hidden Hills Pl.",
             "permit_units": 1,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "geo"
             ]
@@ -31303,7 +31303,7 @@
             "permit_year": 2015,
             "permit_address": "34 Hidden Hills Pl.",
             "permit_units": 1,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
@@ -31632,24 +31632,6 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "22 Brookstone Ln.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "16 Brookstone Ln.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "24 Brookstone Ln.",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -31659,7 +31641,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "18 Brookstone Ln.",
+            "permit_address": "22 Brookstone Ln.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -31668,7 +31650,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "26 Brookstone Ln.",
+            "permit_address": "18 Brookstone Ln.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -31686,7 +31668,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "14 Brookstone Ln.",
+            "permit_address": "12 Brookstone Ln.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -31695,7 +31677,25 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "12 Brookstone Ln.",
+            "permit_address": "26 Brookstone Ln.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "16 Brookstone Ln.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "14 Brookstone Ln.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -31704,24 +31704,6 @@
           }
         ],
         "match_results_lax": [
-          {
-            "permit_year": 2015,
-            "permit_address": "22 Brookstone Ln.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "16 Brookstone Ln.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
           {
             "permit_year": 2015,
             "permit_address": "24 Brookstone Ln.",
@@ -31734,6 +31716,15 @@
           {
             "permit_year": 2015,
             "permit_address": "18 Brookstone Ln.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "22 Brookstone Ln.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -31751,7 +31742,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "26 Brookstone Ln.",
+            "permit_address": "12 Brookstone Ln.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -31769,7 +31760,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "14 Brookstone Ln.",
+            "permit_address": "26 Brookstone Ln.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -31778,7 +31769,16 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "12 Brookstone Ln.",
+            "permit_address": "16 Brookstone Ln.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "14 Brookstone Ln.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -32519,7 +32519,7 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "327 Wingfield Ct.",
+            "permit_address": "319 Wingfield Ct.",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -32529,6 +32529,15 @@
           {
             "permit_year": 2018.0,
             "permit_address": "323 Wingfield Ct.",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "327 Wingfield Ct.",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -32547,15 +32556,6 @@
           {
             "permit_year": 2018.0,
             "permit_address": "315 Wingfield Ct.",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "319 Wingfield Ct.",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -32575,7 +32575,7 @@
         "match_results_lax": [
           {
             "permit_year": 2018,
-            "permit_address": "327 Wingfield Ct.",
+            "permit_address": "319 Wingfield Ct.",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -32585,6 +32585,15 @@
           {
             "permit_year": 2018,
             "permit_address": "323 Wingfield Ct.",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "327 Wingfield Ct.",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -32603,15 +32612,6 @@
           {
             "permit_year": 2018,
             "permit_address": "315 Wingfield Ct.",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "319 Wingfield Ct.",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -32936,8 +32936,116 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2014.0,
+            "permit_address": "340 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "368 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2015.0,
-            "permit_address": "606 Elworthy Ranch Dr.",
+            "permit_address": "601 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "328 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "338 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "132 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "122 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "173 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "169 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "360 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "110 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "107 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "370 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -32955,7 +33063,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "108 Elworthy Ranch Dr.",
+            "permit_address": "106 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -32964,7 +33072,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "126 Elworthy Ranch Dr.",
+            "permit_address": "610 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -32973,7 +33081,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "378 Elworthy Ranch Dr.",
+            "permit_address": "137 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -32982,43 +33090,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "163 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "388 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "338 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "318 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "161 Elworthy Ranch Dr.",
+            "permit_address": "602 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33045,24 +33117,6 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "122 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "602 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "608 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -33071,80 +33125,8 @@
             ]
           },
           {
-            "permit_year": 2014.0,
-            "permit_address": "370 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2015.0,
-            "permit_address": "137 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "101 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "106 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "173 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "130 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "320 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "111 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "139 Elworthy Ranch Dr.",
+            "permit_address": "105 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33162,43 +33144,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "165 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "135 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "107 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "183 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "105 Elworthy Ranch Dr.",
+            "permit_address": "388 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33207,7 +33153,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "360 Elworthy Ranch Dr.",
+            "permit_address": "320 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33216,16 +33162,7 @@
           },
           {
             "permit_year": 2014.0,
-            "permit_address": "100 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "603 Elworthy Ranch Dr.",
+            "permit_address": "318 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33243,97 +33180,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "132 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "610 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "110 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "601 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "340 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "102 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "328 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "120 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "398 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "387 Elworthy Ranch Dr.",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014.0,
-            "permit_address": "368 Elworthy Ranch Dr.",
+            "permit_address": "130 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33351,7 +33198,151 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "169 Elworthy Ranch Dr.",
+            "permit_address": "111 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "387 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "120 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "603 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "126 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "398 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "108 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "165 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "161 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "183 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "102 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "101 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "135 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "139 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014.0,
+            "permit_address": "100 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "163 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "378 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33361,6 +33352,15 @@
           {
             "permit_year": 2014.0,
             "permit_address": "310 Elworthy Ranch Dr.",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "606 Elworthy Ranch Dr.",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -33370,17 +33370,8 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2015,
-            "permit_address": "606 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "380 Elworthy Ranch Dr.",
+            "permit_year": 2014,
+            "permit_address": "340 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33389,7 +33380,7 @@
           },
           {
             "permit_year": 2014,
-            "permit_address": "108 Elworthy Ranch Dr.",
+            "permit_address": "368 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33398,34 +33389,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "378 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "126 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "163 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "388 Elworthy Ranch Dr.",
+            "permit_address": "601 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33434,7 +33398,7 @@
           },
           {
             "permit_year": 2014,
-            "permit_address": "318 Elworthy Ranch Dr.",
+            "permit_address": "328 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33452,7 +33416,115 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "161 Elworthy Ranch Dr.",
+            "permit_address": "132 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "122 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "173 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "169 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "110 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "360 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "107 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "370 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "380 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "106 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "610 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "137 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "602 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33479,42 +33551,6 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "602 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "122 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "137 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "101 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "608 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
@@ -33523,62 +33559,8 @@
             ]
           },
           {
-            "permit_year": 2014,
-            "permit_address": "370 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "106 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2015,
-            "permit_address": "173 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "130 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "320 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "111 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "139 Elworthy Ranch Dr.",
+            "permit_address": "105 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33596,43 +33578,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "165 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "135 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "107 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "183 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "105 Elworthy Ranch Dr.",
+            "permit_address": "388 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33641,7 +33587,7 @@
           },
           {
             "permit_year": 2014,
-            "permit_address": "360 Elworthy Ranch Dr.",
+            "permit_address": "320 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33650,16 +33596,7 @@
           },
           {
             "permit_year": 2014,
-            "permit_address": "100 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "603 Elworthy Ranch Dr.",
+            "permit_address": "318 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33677,7 +33614,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "132 Elworthy Ranch Dr.",
+            "permit_address": "130 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33686,16 +33623,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "610 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "110 Elworthy Ranch Dr.",
+            "permit_address": "111 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33704,52 +33632,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "601 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "340 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "102 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "120 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "328 Elworthy Ranch Dr.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "398 Elworthy Ranch Dr.",
+            "permit_address": "378 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33766,8 +33649,8 @@
             ]
           },
           {
-            "permit_year": 2014,
-            "permit_address": "368 Elworthy Ranch Dr.",
+            "permit_year": 2015,
+            "permit_address": "120 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33785,7 +33668,115 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "169 Elworthy Ranch Dr.",
+            "permit_address": "126 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "398 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "108 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "165 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "161 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "183 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "102 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "101 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "135 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "139 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "100 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "163 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "603 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -33795,6 +33786,15 @@
           {
             "permit_year": 2014,
             "permit_address": "310 Elworthy Ranch Dr.",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "606 Elworthy Ranch Dr.",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -34071,15 +34071,6 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2014,
-            "permit_address": "411 Hartz Ave.",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2015,
             "permit_address": "411 Hartz Ave.",
             "permit_units": 1,
@@ -34092,6 +34083,15 @@
             "permit_year": 2015,
             "permit_address": "200 Railroad Ave.",
             "permit_units": 10,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "411 Hartz Ave.",
+            "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
               "geo"

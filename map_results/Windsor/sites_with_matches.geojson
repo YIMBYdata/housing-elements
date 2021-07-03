@@ -313,7 +313,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "216 Johnson St.",
+            "permit_address": "212 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -322,7 +322,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "212 Johnson St.",
+            "permit_address": "216 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -333,7 +333,7 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "216 Johnson St.",
+            "permit_address": "212 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
             "match_type": [
@@ -342,7 +342,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "212 Johnson St.",
+            "permit_address": "216 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
             "match_type": [
@@ -2078,15 +2078,6 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "240 Johnson St.",
-            "permit_units": 1,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "236 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
@@ -2097,6 +2088,15 @@
           {
             "permit_year": 2015,
             "permit_address": "238 Johnson St.",
+            "permit_units": 1,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "240 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
             "match_type": [
@@ -2281,7 +2281,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "224 Johnson St.",
+            "permit_address": "218 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2290,7 +2290,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "218 Johnson St.",
+            "permit_address": "224 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2301,7 +2301,7 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "224 Johnson St.",
+            "permit_address": "218 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
             "match_type": [
@@ -2310,7 +2310,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "218 Johnson St.",
+            "permit_address": "224 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
             "match_type": [
@@ -2379,16 +2379,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "224 Johnson St.",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "226 Johnson St.",
+            "permit_address": "230 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2406,7 +2397,16 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "230 Johnson St.",
+            "permit_address": "224 Johnson St.",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "226 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2491,15 +2491,6 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "232 Johnson St.",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "230 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
@@ -2510,6 +2501,15 @@
           {
             "permit_year": 2015.0,
             "permit_address": "234 Johnson St.",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "232 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2520,15 +2520,6 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "232 Johnson St.",
-            "permit_units": 1,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "230 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
@@ -2539,6 +2530,15 @@
           {
             "permit_year": 2015,
             "permit_address": "234 Johnson St.",
+            "permit_units": 1,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "232 Johnson St.",
             "permit_units": 1,
             "permit_category": "5+",
             "match_type": [
@@ -2675,7 +2675,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "216 Johnson St.",
+            "permit_address": "212 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2684,7 +2684,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "212 Johnson St.",
+            "permit_address": "216 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2750,7 +2750,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "224 Johnson St.",
+            "permit_address": "218 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2759,7 +2759,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "218 Johnson St.",
+            "permit_address": "224 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2829,16 +2829,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "224 Johnson St.",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "226 Johnson St.",
+            "permit_address": "230 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2856,7 +2847,16 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "230 Johnson St.",
+            "permit_address": "224 Johnson St.",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "226 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -2922,15 +2922,6 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "232 Johnson St.",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "230 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
@@ -2941,6 +2932,15 @@
           {
             "permit_year": 2015.0,
             "permit_address": "234 Johnson St.",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "232 Johnson St.",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [

@@ -72,6 +72,24 @@
         "match_results_lax": [
           {
             "permit_year": 2017,
+            "permit_address": "162 Willobrook",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "206 Willowbrook",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
             "permit_address": "210 Willowbrook",
             "permit_units": 1,
             "permit_category": "SF",
@@ -90,24 +108,6 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "226 Willowbrook",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "206 Willowbrook",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
             "permit_address": "218 Willowbrook",
             "permit_units": 1,
             "permit_category": "SF",
@@ -117,7 +117,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "162 Willobrook",
+            "permit_address": "226 Willowbrook",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -4784,15 +4784,6 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2019.0,
-            "permit_address": "793 and 797 Country Club Drive",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2014.0,
             "permit_address": "Unidentified",
             "permit_units": 0.0,
@@ -4800,23 +4791,32 @@
             "match_type": [
               "geo"
             ]
-          }
-        ],
-        "match_results_lax": [
+          },
           {
-            "permit_year": 2019,
+            "permit_year": 2019.0,
             "permit_address": "793 and 797 Country Club Drive",
-            "permit_units": 4,
+            "permit_units": 4.0,
             "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
-          },
+          }
+        ],
+        "match_results_lax": [
           {
             "permit_year": 2014,
             "permit_address": "Unidentified",
             "permit_units": 0,
             "permit_category": "Unidentified",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "793 and 797 Country Club Drive",
+            "permit_units": 4,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]

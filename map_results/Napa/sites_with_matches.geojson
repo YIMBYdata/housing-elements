@@ -937,15 +937,6 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "2596 First",
-            "permit_units": 2.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
             "permit_address": "2594 First",
             "permit_units": 1.0,
             "permit_category": "SFD",
@@ -956,8 +947,8 @@
           {
             "permit_year": 2018.0,
             "permit_address": "2596 First",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_units": 2.0,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -967,21 +958,21 @@
             "permit_address": "2594 First",
             "permit_units": 2.0,
             "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2596 First",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
           }
         ],
         "match_results_lax": [
-          {
-            "permit_year": 2018,
-            "permit_address": "2594 First",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
           {
             "permit_year": 2018,
             "permit_address": "2594 First",
@@ -994,6 +985,15 @@
           {
             "permit_year": 2018,
             "permit_address": "2596 First",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "2594 First",
             "permit_units": 2,
             "permit_category": "2 to 4",
             "match_type": [
@@ -1159,7 +1159,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "2602 First St A",
+            "permit_address": "2600 First St E",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -1167,8 +1167,17 @@
             ]
           },
           {
+            "permit_year": 2018.0,
+            "permit_address": "2598 First",
+            "permit_units": 2.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019.0,
-            "permit_address": "2598 First St F",
+            "permit_address": "2602 First St D",
             "permit_units": 2.0,
             "permit_category": "SFA",
             "match_type": [
@@ -1195,72 +1204,9 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "2602 First St D",
+            "permit_address": "2598 First St F",
             "permit_units": 2.0,
             "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2600 First St H",
-            "permit_units": 2.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2598 First",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2598 First St E",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2600 First St E",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2598 First St H",
-            "permit_units": 2.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2600 First St A",
-            "permit_units": 2.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2598 First",
-            "permit_units": 2.0,
-            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -1277,6 +1223,60 @@
           {
             "permit_year": 2019.0,
             "permit_address": "2602 First St B",
+            "permit_units": 2.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2598 First St E",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2598 First",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2602 First St A",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2600 First St A",
+            "permit_units": 2.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2600 First St H",
+            "permit_units": 2.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2598 First St H",
             "permit_units": 2.0,
             "permit_category": "SFA",
             "match_type": [
@@ -1287,7 +1287,7 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "2602 First St A",
+            "permit_address": "2600 First St E",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1295,8 +1295,26 @@
             ]
           },
           {
+            "permit_year": 2018,
+            "permit_address": "2598 First",
+            "permit_units": 2,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019,
-            "permit_address": "2598 First St F",
+            "permit_address": "2602 First St D",
+            "permit_units": 2,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2600 First St G",
             "permit_units": 2,
             "permit_category": "SFA",
             "match_type": [
@@ -1314,81 +1332,9 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "2600 First St G",
+            "permit_address": "2598 First St F",
             "permit_units": 2,
             "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2602 First St D",
-            "permit_units": 2,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2600 First St H",
-            "permit_units": 2,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "2598 First",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2600 First St E",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2598 First St E",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2598 First St H",
-            "permit_units": 2,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2600 First St A",
-            "permit_units": 2,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "2598 First",
-            "permit_units": 2,
-            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -1405,6 +1351,60 @@
           {
             "permit_year": 2019,
             "permit_address": "2602 First St B",
+            "permit_units": 2,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2598 First St E",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "2598 First",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2602 First St A",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2600 First St A",
+            "permit_units": 2,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2600 First St H",
+            "permit_units": 2,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2598 First St H",
             "permit_units": 2,
             "permit_category": "SFA",
             "match_type": [
@@ -4043,25 +4043,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "2175 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2034 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2082 EVA ST",
+            "permit_address": "2135 Eva",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4070,52 +4052,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2184 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2046 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2187 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2062 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2183 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2164 Eva",
+            "permit_address": "2131 Eva",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4124,126 +4061,9 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "108 Riordan",
+            "permit_address": "124 Riordan",
             "permit_units": 1.0,
             "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2155 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2151 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2066 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2054 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2147 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2123 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2050 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2070 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2167 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2159 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2168 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2090 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2179 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -4267,62 +4087,8 @@
             ]
           },
           {
-            "permit_year": 2015.0,
-            "permit_address": "2086 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2074 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016.0,
-            "permit_address": "2172 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "2094 EVA ST",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2160 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2135 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2119 Eva",
+            "permit_address": "2156 Eva",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4340,16 +4106,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2131 Eva",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2143 Eva",
+            "permit_address": "2164 Eva",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4358,7 +4115,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "2078 EVA ST",
+            "permit_address": "2086 EVA ST",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4366,8 +4123,8 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2127 Eva",
+            "permit_year": 2015.0,
+            "permit_address": "2090 EVA ST",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4375,8 +4132,8 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2139 Eva",
+            "permit_year": 2015.0,
+            "permit_address": "2058 EVA ST",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4384,8 +4141,35 @@
             ]
           },
           {
-            "permit_year": 2016.0,
-            "permit_address": "2180 Eva",
+            "permit_year": 2015.0,
+            "permit_address": "2050 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "108 Riordan",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2034 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2054 EVA ST",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4403,7 +4187,187 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "2038 EVA ST",
+            "permit_address": "2074 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2143 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2175 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2147 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2062 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2168 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2046 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2155 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2160 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2167 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2094 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2179 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2172 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2183 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2184 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2070 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2151 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2123 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2171 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2187 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2119 Eva",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4420,17 +4384,44 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "124 Riordan",
+            "permit_year": 2016.0,
+            "permit_address": "2180 Eva",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2038 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2066 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2156 Eva",
+            "permit_address": "2139 Eva",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2159 Eva",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4448,7 +4439,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2171 Eva",
+            "permit_address": "2127 Eva",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4457,7 +4448,16 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "2058 EVA ST",
+            "permit_address": "2078 EVA ST",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "2082 EVA ST",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4468,25 +4468,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016,
-            "permit_address": "2175 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2034 EVA ST",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2082 EVA ST",
+            "permit_address": "2135 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4495,7 +4477,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2184 Eva",
+            "permit_address": "2131 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4503,8 +4485,17 @@
             ]
           },
           {
+            "permit_year": 2017,
+            "permit_address": "124 Riordan",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2016,
-            "permit_address": "2248 Eva",
+            "permit_address": "2191 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4513,16 +4504,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "2046 EVA ST",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2187 Eva",
+            "permit_address": "2042 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4539,8 +4521,8 @@
             ]
           },
           {
-            "permit_year": 2015,
-            "permit_address": "2062 EVA ST",
+            "permit_year": 2016,
+            "permit_address": "2248 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4549,25 +4531,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2256 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2183 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2164 Eva",
+            "permit_address": "2152 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4585,7 +4549,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2155 Eva",
+            "permit_address": "2164 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4593,8 +4557,17 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "2151 Eva",
+            "permit_year": 2015,
+            "permit_address": "2050 EVA ST",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2058 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4604,6 +4577,42 @@
           {
             "permit_year": 2016,
             "permit_address": "2236 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2086 EVA ST",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2090 EVA ST",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2034 EVA ST",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2054 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4621,7 +4630,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2232 Eva",
+            "permit_address": "2176 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4630,7 +4639,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "2066 EVA ST",
+            "permit_address": "2074 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4639,7 +4648,25 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2240 Eva",
+            "permit_address": "2143 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2232 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2175 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4656,8 +4683,17 @@
             ]
           },
           {
+            "permit_year": 2016,
+            "permit_address": "2168 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2015,
-            "permit_address": "2054 EVA ST",
+            "permit_address": "2062 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4666,7 +4702,25 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2123 Eva",
+            "permit_address": "2160 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2155 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2240 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4675,7 +4729,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "2050 EVA ST",
+            "permit_address": "2046 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4692,35 +4746,8 @@
             ]
           },
           {
-            "permit_year": 2015,
-            "permit_address": "2070 EVA ST",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016,
-            "permit_address": "2252 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2159 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2090 EVA ST",
+            "permit_address": "2256 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4730,51 +4757,6 @@
           {
             "permit_year": 2016,
             "permit_address": "2179 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2260 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2191 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2042 EVA ST",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2086 EVA ST",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2074 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4801,7 +4783,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2160 Eva",
+            "permit_address": "2183 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4810,7 +4792,16 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2135 Eva",
+            "permit_address": "2184 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2070 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4819,7 +4810,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2152 Eva",
+            "permit_address": "2260 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4828,7 +4819,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2119 Eva",
+            "permit_address": "2151 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4837,7 +4828,34 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2131 Eva",
+            "permit_address": "2252 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2123 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2171 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2187 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4855,16 +4873,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2143 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2078 EVA ST",
+            "permit_address": "2119 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4873,7 +4882,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2127 Eva",
+            "permit_address": "2163 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4883,6 +4892,24 @@
           {
             "permit_year": 2016,
             "permit_address": "2180 Eva",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2038 EVA ST",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2066 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4900,43 +4927,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2176 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2038 EVA ST",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2163 Eva",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "124 Riordan",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2168 Eva",
+            "permit_address": "2159 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4954,7 +4945,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2171 Eva",
+            "permit_address": "2127 Eva",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [
@@ -4963,7 +4954,16 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "2058 EVA ST",
+            "permit_address": "2078 EVA ST",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2082 EVA ST",
             "permit_units": 1,
             "permit_category": "2 to 4",
             "match_type": [

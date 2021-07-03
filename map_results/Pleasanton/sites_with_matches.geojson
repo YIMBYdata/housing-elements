@@ -1387,38 +1387,8 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "4434 HACIENDA DR, PLEASANTON, CA 94588",
-            "permit_units": 20.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4422 HACIENDA DR, PLEASANTON, CA 94588",
-            "permit_units": 50.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "5795 GIBRALTAR DR, PLEASANTON, CA 94588",
             "permit_units": 52.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4410 HACIENDA DR, PLEASANTON, CA 94588",
-            "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -1437,6 +1407,16 @@
           },
           {
             "permit_year": 2015.0,
+            "permit_address": "4416 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "5777 GIBRALTAR DR, PLEASANTON, CA 94588",
             "permit_units": 52.0,
             "permit_category": "5+",
@@ -1447,7 +1427,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "4416 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_address": "4434 HACIENDA DR, PLEASANTON, CA 94588",
             "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
@@ -1459,6 +1439,26 @@
             "permit_year": 2015.0,
             "permit_address": "4428 HACIENDA DR, PLEASANTON, CA 94588",
             "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4410 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4422 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_units": 50.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -1469,38 +1469,8 @@
         "match_results_lax": [
           {
             "permit_year": 2015.0,
-            "permit_address": "4434 HACIENDA DR, PLEASANTON, CA 94588",
-            "permit_units": 20.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4422 HACIENDA DR, PLEASANTON, CA 94588",
-            "permit_units": 50.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "5795 GIBRALTAR DR, PLEASANTON, CA 94588",
             "permit_units": 52.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4410 HACIENDA DR, PLEASANTON, CA 94588",
-            "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -1519,6 +1489,16 @@
           },
           {
             "permit_year": 2015.0,
+            "permit_address": "4416 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "5777 GIBRALTAR DR, PLEASANTON, CA 94588",
             "permit_units": 52.0,
             "permit_category": "5+",
@@ -1529,7 +1509,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "4416 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_address": "4434 HACIENDA DR, PLEASANTON, CA 94588",
             "permit_units": 20.0,
             "permit_category": "5+",
             "match_type": [
@@ -1541,6 +1521,26 @@
             "permit_year": 2015.0,
             "permit_address": "4428 HACIENDA DR, PLEASANTON, CA 94588",
             "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4410 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_units": 20.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4422 HACIENDA DR, PLEASANTON, CA 94588",
+            "permit_units": 50.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3165,58 +3165,8 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "61 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "57 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "28 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "60 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 162.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "65 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 16.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "69 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 6.0,
+            "permit_address": "12 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 2.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3245,26 +3195,6 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "73 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "12 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 2.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "32 VINTAGE CI, PLEASANTON 94566",
             "permit_units": 31.0,
             "permit_category": "5+",
@@ -3275,8 +3205,28 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "77 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 7.0,
+            "permit_address": "61 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "69 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "73 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3295,8 +3245,48 @@
           },
           {
             "permit_year": 2015.0,
+            "permit_address": "28 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "60 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 162.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "57 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "81 VINTAGE CI, PLEASANTON 94566",
             "permit_units": 19.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "20 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3315,8 +3305,8 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "24 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 2.0,
+            "permit_address": "77 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3325,8 +3315,18 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "20 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 6.0,
+            "permit_address": "65 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 16.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "24 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 2.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3337,58 +3337,8 @@
         "match_results_lax": [
           {
             "permit_year": 2015.0,
-            "permit_address": "61 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "57 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 8.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "28 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 10.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "60 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 162.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "65 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 16.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "69 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 6.0,
+            "permit_address": "12 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 2.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3417,26 +3367,6 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "73 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "12 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 2.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "32 VINTAGE CI, PLEASANTON 94566",
             "permit_units": 31.0,
             "permit_category": "5+",
@@ -3447,8 +3377,28 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "77 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 7.0,
+            "permit_address": "61 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "69 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "73 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3467,8 +3417,48 @@
           },
           {
             "permit_year": 2015.0,
+            "permit_address": "28 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 10.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "60 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 162.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "57 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 8.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
             "permit_address": "81 VINTAGE CI, PLEASANTON 94566",
             "permit_units": 19.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "20 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3487,8 +3477,8 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "24 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 2.0,
+            "permit_address": "77 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3497,8 +3487,18 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "20 VINTAGE CI, PLEASANTON 94566",
-            "permit_units": 6.0,
+            "permit_address": "65 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 16.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "24 VINTAGE CI, PLEASANTON 94566",
+            "permit_units": 2.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -6024,9 +6024,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2017.0,
-            "permit_address": "3464 SERRA CI",
-            "permit_units": 5.0,
+            "permit_year": 2016.0,
+            "permit_address": "1988 TABOADA LN",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -6036,6 +6036,26 @@
           {
             "permit_year": 2016.0,
             "permit_address": "1989 BARCENILLA LN",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3452 SERRA CI",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "5800 W LAS POSITAS BL",
             "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
@@ -6055,8 +6075,8 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1495 QUINTANA TE",
-            "permit_units": 6.0,
+            "permit_address": "3464 SERRA CI",
+            "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -6075,7 +6095,47 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "5814 W LAS POSITAS BL",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1493 PURISIMA TE",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "1972 TABOADA LN",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1495 QUINTANA TE",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1494 PURISIMA TE",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -6095,7 +6155,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1493 PURISIMA TE",
+            "permit_address": "1492 ARCANGEL TE",
             "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
@@ -6107,66 +6167,6 @@
             "permit_year": 2017.0,
             "permit_address": "3478 SERRA CI",
             "permit_units": 2.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1494 PURISIMA TE",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1492 ARCANGEL TE",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "5800 W LAS POSITAS BL",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1988 TABOADA LN",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "5814 W LAS POSITAS BL",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3452 SERRA CI",
-            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -6185,9 +6185,9 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2017.0,
-            "permit_address": "3464 SERRA CI",
-            "permit_units": 5.0,
+            "permit_year": 2016.0,
+            "permit_address": "1988 TABOADA LN",
+            "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -6197,6 +6197,26 @@
           {
             "permit_year": 2016.0,
             "permit_address": "1989 BARCENILLA LN",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3452 SERRA CI",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "5800 W LAS POSITAS BL",
             "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
@@ -6216,8 +6236,8 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1495 QUINTANA TE",
-            "permit_units": 6.0,
+            "permit_address": "3464 SERRA CI",
+            "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -6236,7 +6256,47 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "5814 W LAS POSITAS BL",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1493 PURISIMA TE",
+            "permit_units": 7.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "1972 TABOADA LN",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1495 QUINTANA TE",
+            "permit_units": 6.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1494 PURISIMA TE",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -6256,7 +6316,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1493 PURISIMA TE",
+            "permit_address": "1492 ARCANGEL TE",
             "permit_units": 7.0,
             "permit_category": "5+",
             "match_type": [
@@ -6268,66 +6328,6 @@
             "permit_year": 2017.0,
             "permit_address": "3478 SERRA CI",
             "permit_units": 2.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1494 PURISIMA TE",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1492 ARCANGEL TE",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "5800 W LAS POSITAS BL",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "1988 TABOADA LN",
-            "permit_units": 7.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "5814 W LAS POSITAS BL",
-            "permit_units": 6.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3452 SERRA CI",
-            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -8013,27 +8013,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "107 BARIAS PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "100 BARIAS PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "112 BARIAS PL",
+            "permit_address": "101 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8053,7 +8033,27 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "101 BARIAS PL",
+            "permit_address": "112 BARIAS PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "107 BARIAS PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "100 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8065,27 +8065,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
-            "permit_address": "107 BARIAS PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "100 BARIAS PL",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "112 BARIAS PL",
+            "permit_address": "101 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8105,7 +8085,27 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "101 BARIAS PL",
+            "permit_address": "112 BARIAS PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "107 BARIAS PL",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "100 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8159,7 +8159,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "130 BARIAS PL",
+            "permit_address": "124 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8179,7 +8179,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "124 BARIAS PL",
+            "permit_address": "130 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8191,7 +8191,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
-            "permit_address": "130 BARIAS PL",
+            "permit_address": "124 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8211,7 +8211,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "124 BARIAS PL",
+            "permit_address": "130 BARIAS PL",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8965,7 +8965,7 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "2330 SILVER OAKS LN",
+            "permit_address": "2329 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8983,25 +8983,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2348 SILVER OAKS LN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2312 SILVER OAKS LN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2384 SILVER OAKS LN",
+            "permit_address": "2311 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9019,6 +9001,33 @@
           },
           {
             "permit_year": 2016.0,
+            "permit_address": "2384 SILVER OAKS LN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2330 SILVER OAKS LN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2348 SILVER OAKS LN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
             "permit_address": "2347 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -9028,25 +9037,16 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "2311 SILVER OAKS LN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "2329 SILVER OAKS LN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "2383 SILVER OAKS LN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "2312 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9057,7 +9057,7 @@
         "match_results_lax": [
           {
             "permit_year": 2016,
-            "permit_address": "2330 SILVER OAKS LN",
+            "permit_address": "2329 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9075,34 +9075,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2348 SILVER OAKS LN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2329 SILVER OAKS LN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2312 SILVER OAKS LN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "2384 SILVER OAKS LN",
+            "permit_address": "2311 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9120,7 +9093,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2383 SILVER OAKS LN",
+            "permit_address": "2384 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9129,7 +9102,16 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "2311 SILVER OAKS LN",
+            "permit_address": "2330 SILVER OAKS LN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2348 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9139,6 +9121,24 @@
           {
             "permit_year": 2016,
             "permit_address": "2347 SILVER OAKS LN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2383 SILVER OAKS LN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2312 SILVER OAKS LN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -16300,10 +16300,91 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2018.0,
-            "permit_address": "5613 LEAH LN ",
+            "permit_year": 2019.0,
+            "permit_address": "5709 MELINDA WY        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1861 ROSE AV        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "5607 LEAH LN ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "5610 LEAH LN ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "5715 MELINDA WY        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "5616 LEAH LN        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "5622 LEAH LN        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "5625 LEAH LN        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1855 ROSE AV        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "5712 MELINDA WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
@@ -16327,35 +16408,8 @@
             ]
           },
           {
-            "permit_year": 2019.0,
-            "permit_address": "1861 ROSE AV        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1855 ROSE AV        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018.0,
-            "permit_address": "5607 LEAH LN ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "5601 LEAH LN ",
+            "permit_address": "5613 LEAH LN ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -16373,33 +16427,6 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "5622 LEAH LN        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "5712 MELINDA WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "5709 MELINDA WY        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "1867 ROSE AV        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
@@ -16408,35 +16435,8 @@
             ]
           },
           {
-            "permit_year": 2019.0,
-            "permit_address": "5616 LEAH LN        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018.0,
-            "permit_address": "5610 LEAH LN ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "5625 LEAH LN        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "5715 MELINDA WY        ",
+            "permit_address": "5601 LEAH LN ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -16446,44 +16446,8 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2018,
-            "permit_address": "5613 LEAH LN ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "5706 MELINDA WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019,
-            "permit_address": "1855 ROSE AV        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "5607 LEAH LN ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "5619 LEAH LN        ",
+            "permit_address": "5709 MELINDA WY        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -16501,61 +16465,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "5601 LEAH LN ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "5700 MELINDA WY        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "5622 LEAH LN        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "5712 MELINDA WAY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "5709 MELINDA WY        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1867 ROSE AV        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "5616 LEAH LN        ",
+            "permit_address": "5607 LEAH LN ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -16582,7 +16492,97 @@
           },
           {
             "permit_year": 2019,
+            "permit_address": "5616 LEAH LN        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "5622 LEAH LN        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
             "permit_address": "5715 MELINDA WY        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "5712 MELINDA WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "5706 MELINDA WAY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "5619 LEAH LN        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "5613 LEAH LN ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1855 ROSE AV        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "5700 MELINDA WY        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1867 ROSE AV        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "5601 LEAH LN ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -42803,25 +42803,16 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "1131 SLEEPYHEAD",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "481 SY MORE RD        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "4011  VESTRI CI        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "4005  VESTRI CI        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -42839,7 +42830,16 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "4005  VESTRI CI        ",
+            "permit_address": "1131 SLEEPYHEAD",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "481 SY MORE RD        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -42850,25 +42850,16 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "1131 SLEEPYHEAD",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "481 SY MORE RD        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "4011  VESTRI CI        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "4005  VESTRI CI        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -42886,7 +42877,16 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "4005  VESTRI CI        ",
+            "permit_address": "1131 SLEEPYHEAD",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "481 SY MORE RD        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -43125,25 +43125,16 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "1131 SLEEPYHEAD",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "481 SY MORE RD        ",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "4011  VESTRI CI        ",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "4005  VESTRI CI        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -43161,7 +43152,16 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "4005  VESTRI CI        ",
+            "permit_address": "1131 SLEEPYHEAD",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "481 SY MORE RD        ",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [

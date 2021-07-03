@@ -2789,9 +2789,9 @@
         "geo_matched": true,
         "match_results": [
           {
-            "permit_year": 2019.0,
-            "permit_address": "517 TYNDALL ST",
-            "permit_units": 1.0,
+            "permit_year": 2018.0,
+            "permit_address": "517 Tyndal St.",
+            "permit_units": 3.0,
             "permit_category": "2 to 4",
             "match_type": [
               "apn",
@@ -2799,9 +2799,9 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "517 Tyndal St.",
-            "permit_units": 3.0,
+            "permit_year": 2019.0,
+            "permit_address": "517 TYNDALL ST",
+            "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
               "apn",
@@ -2811,9 +2811,9 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2019.0,
-            "permit_address": "517 TYNDALL ST",
-            "permit_units": 1.0,
+            "permit_year": 2018.0,
+            "permit_address": "517 Tyndal St.",
+            "permit_units": 3.0,
             "permit_category": "2 to 4",
             "match_type": [
               "apn",
@@ -2821,9 +2821,9 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "517 Tyndal St.",
-            "permit_units": 3.0,
+            "permit_year": 2019.0,
+            "permit_address": "517 TYNDALL ST",
+            "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
               "apn",

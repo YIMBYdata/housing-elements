@@ -663,27 +663,7 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "41829 Mission Cielo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "41849 Mission Cielo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "41841 Mission Cielo Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -713,7 +693,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "41837 Mission Cielo Ct",
+            "permit_address": "41841 Mission Cielo Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -729,9 +709,7 @@
             "match_type": [
               "apn"
             ]
-          }
-        ],
-        "match_results_lax": [
+          },
           {
             "permit_year": 2017.0,
             "permit_address": "41829 Mission Cielo Ct",
@@ -744,17 +722,19 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "41849 Mission Cielo Ct",
+            "permit_address": "41837 Mission Cielo Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
             ]
-          },
+          }
+        ],
+        "match_results_lax": [
           {
             "permit_year": 2017.0,
-            "permit_address": "41841 Mission Cielo Ct",
+            "permit_address": "41849 Mission Cielo Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -784,7 +764,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "41837 Mission Cielo Ct",
+            "permit_address": "41841 Mission Cielo Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -795,6 +775,26 @@
           {
             "permit_year": 2017.0,
             "permit_address": "41851 Mission Cielo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "41829 Mission Cielo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "41837 Mission Cielo Ct",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -852,6 +852,15 @@
         "match_results": [
           {
             "permit_year": 2019.0,
+            "permit_address": "42079 Vinha Way",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
             "permit_address": "150 Cavalo Ct",
             "permit_units": 1.0,
             "permit_category": "SFD",
@@ -861,7 +870,124 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "42079 Vinha Way",
+            "permit_address": "220 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "42089 Vinha Way",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "222 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "180 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "190 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "170 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "160 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "42069 Vinha Way",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "130 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "212 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "230 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "200 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "140 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "210 Cavalo Ct",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -879,90 +1005,9 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "130 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "170 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "160 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "140 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "180 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "222 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "220 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "212 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "232 Cavalo Ct",
             "permit_units": 1.0,
             "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "42069 Vinha Way",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
@@ -975,54 +1020,18 @@
             "match_type": [
               "geo"
             ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "42089 Vinha Way",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "190 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "200 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "210 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "230 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
           }
         ],
         "match_results_lax": [
+          {
+            "permit_year": 2019,
+            "permit_address": "42079 Vinha Way",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
           {
             "permit_year": 2019,
             "permit_address": "150 Cavalo Ct",
@@ -1034,7 +1043,124 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "42079 Vinha Way",
+            "permit_address": "220 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "42089 Vinha Way",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "222 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "180 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "190 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "170 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "160 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "42069 Vinha Way",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "130 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "212 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "230 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "200 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "140 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "210 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1052,78 +1178,6 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "130 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "170 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "160 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "140 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "180 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "222 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "220 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "212 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "232 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "ADU",
@@ -1133,61 +1187,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "42069 Vinha Way",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "42059 Vinha Way",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "42089 Vinha Way",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "190 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "200 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "210 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "230 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1277,28 +1277,19 @@
             ]
           },
           {
+            "permit_year": 2018.0,
+            "permit_address": "42166 Vinha Way",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019.0,
-            "permit_address": "161 Cavalo Ct",
+            "permit_address": "203 Cavalo Ct",
             "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "42146 Vinha Way",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "42116 Vinha Way",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_category": "ADU",
             "match_type": [
               "geo"
             ]
@@ -1315,6 +1306,87 @@
           {
             "permit_year": 2018.0,
             "permit_address": "42106 Vinha Way",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "191 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "201 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "221 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "42116 Vinha Way",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "42096 Vinha Way",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "211 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "161 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "181 Cavalo Ct",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "42126 Vinha Way",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -1340,53 +1412,8 @@
             ]
           },
           {
-            "permit_year": 2019.0,
-            "permit_address": "203 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "211 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018.0,
-            "permit_address": "42126 Vinha Way",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "42166 Vinha Way",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "221 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "42096 Vinha Way",
+            "permit_address": "42146 Vinha Way",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -1398,33 +1425,6 @@
             "permit_address": "223 Cavalo Ct",
             "permit_units": 1.0,
             "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "191 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "201 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "181 Cavalo Ct",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
@@ -1442,17 +1442,8 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "42209 VINHA WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019,
-            "permit_address": "211 Cavalo Ct",
+            "permit_address": "171 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1470,7 +1461,16 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "42136 Vinha Way",
+            "permit_address": "42166 Vinha Way",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "201 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1479,7 +1479,34 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "42126 Vinha Way",
+            "permit_address": "42116 Vinha Way",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "42219 VINHA WY",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "211 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "42156 Vinha Way",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1497,7 +1524,16 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "201 Cavalo Ct",
+            "permit_address": "203 Cavalo Ct",
+            "permit_units": 1,
+            "permit_category": "ADU",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "191 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1505,10 +1541,19 @@
             ]
           },
           {
-            "permit_year": 2019,
-            "permit_address": "161 Cavalo Ct",
+            "permit_year": 2018,
+            "permit_address": "42096 Vinha Way",
             "permit_units": 1,
             "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "42209 VINHA WY",
+            "permit_units": 1,
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
@@ -1524,16 +1569,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "42116 Vinha Way",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "42166 Vinha Way",
+            "permit_address": "42126 Vinha Way",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1560,33 +1596,6 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "171 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "42156 Vinha Way",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "203 Cavalo Ct",
-            "permit_units": 1,
-            "permit_category": "ADU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "221 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -1595,8 +1604,8 @@
             ]
           },
           {
-            "permit_year": 2019,
-            "permit_address": "191 Cavalo Ct",
+            "permit_year": 2018,
+            "permit_address": "42136 Vinha Way",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1604,17 +1613,8 @@
             ]
           },
           {
-            "permit_year": 2016,
-            "permit_address": "42219 VINHA WY",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "42096 Vinha Way",
+            "permit_year": 2019,
+            "permit_address": "161 Cavalo Ct",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -1700,43 +1700,7 @@
         "match_results_lax": [
           {
             "permit_year": 2014,
-            "permit_address": "761 TANGELO CT",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "731 TANGELO CT",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
             "permit_address": "721 TANGELO CT",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "771 TANGELO CT",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
-            "permit_address": "741 TANGELO CT",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -1763,7 +1727,43 @@
           },
           {
             "permit_year": 2014,
+            "permit_address": "761 TANGELO CT",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "731 TANGELO CT",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
             "permit_address": "791 TANGELO CT",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "771 TANGELO CT",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "741 TANGELO CT",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -11717,15 +11717,6 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "4011 FIORENTINO CMN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "34629 ACQUAVIVA TERRACE",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -11744,70 +11735,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "34617 ACQUAVIVA TERRACE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "4002 FIORENTINO COMMON",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "4003 FIORENTINO CMN",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "34641 ACQUAVIVA TERRACE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "34623 ACQUAVIVA TERRACE",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "4010 FIORENTINO COMMON",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "4027 FIORENTINO CMN",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "34635 ACQUAVIVA TERRACE",
+            "permit_address": "34659 ACQUAVIVA TERRACE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -11825,7 +11753,25 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "34653 ACQUAVIVA TERRACE",
+            "permit_address": "4026 FIORENTINO COMMON",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "4010 FIORENTINO COMMON",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "34623 ACQUAVIVA TERRACE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -11843,7 +11789,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "34659 ACQUAVIVA TERRACE",
+            "permit_address": "34653 ACQUAVIVA TERRACE",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -11852,9 +11798,36 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "4026 FIORENTINO COMMON",
+            "permit_address": "4002 FIORENTINO COMMON",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "4011 FIORENTINO CMN",
             "permit_units": 1.0,
             "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "34641 ACQUAVIVA TERRACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "4027 FIORENTINO CMN",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -11862,6 +11835,33 @@
           {
             "permit_year": 2016.0,
             "permit_address": "34605 ACQUAVIVA TERRACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "34617 ACQUAVIVA TERRACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "34635 ACQUAVIVA TERRACE",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "4003 FIORENTINO CMN",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -11881,15 +11881,6 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "4011 FIORENTINO CMN",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
             "permit_address": "34629 ACQUAVIVA TERRACE",
             "permit_units": 1,
             "permit_category": "SF",
@@ -11908,7 +11899,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "34617 ACQUAVIVA TERRACE",
+            "permit_address": "34659 ACQUAVIVA TERRACE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -11917,27 +11908,9 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "4002 FIORENTINO COMMON",
+            "permit_address": "34608 ACQUAVIVA TERRACE",
             "permit_units": 1,
             "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "4003 FIORENTINO CMN",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "34641 ACQUAVIVA TERRACE",
-            "permit_units": 1,
-            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
@@ -11962,34 +11935,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "34635 ACQUAVIVA TERRACE",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "4027 FIORENTINO CMN",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "34608 ACQUAVIVA TERRACE",
-            "permit_units": 1,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "34653 ACQUAVIVA TERRACE",
+            "permit_address": "34623 ACQUAVIVA TERRACE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -12007,7 +11953,7 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "34659 ACQUAVIVA TERRACE",
+            "permit_address": "34653 ACQUAVIVA TERRACE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -12016,9 +11962,36 @@
           },
           {
             "permit_year": 2016,
-            "permit_address": "34623 ACQUAVIVA TERRACE",
+            "permit_address": "4011 FIORENTINO CMN",
             "permit_units": 1,
             "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "4002 FIORENTINO COMMON",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "34641 ACQUAVIVA TERRACE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "4027 FIORENTINO CMN",
+            "permit_units": 1,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -12026,6 +11999,33 @@
           {
             "permit_year": 2016,
             "permit_address": "34605 ACQUAVIVA TERRACE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "34617 ACQUAVIVA TERRACE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "34635 ACQUAVIVA TERRACE",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "4003 FIORENTINO CMN",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -17426,8 +17426,8 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "37394 Sequoia Rd",
-            "permit_units": 6.0,
+            "permit_address": "37340 Sequoia Rd",
+            "permit_units": 4.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -17436,8 +17436,8 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37340 Sequoia Rd",
-            "permit_units": 4.0,
+            "permit_address": "37392 Sequoia Rd",
+            "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -17456,7 +17456,17 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37385 Ortega Cmn",
+            "permit_address": "3155 Ignacio Ter",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "37394 Sequoia Rd",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -17476,48 +17486,11 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "3155 Ignacio Ter",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "37392 Sequoia Rd",
-            "permit_units": 5.0,
+            "permit_address": "37385 Ortega Cmn",
+            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "37310 Sequoia Rd",
-            "permit_units": 5.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3156 Medina Cmn",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "37340 Sequoia Rd",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
               "geo"
             ]
           },
@@ -17538,13 +17511,40 @@
             "match_type": [
               "geo"
             ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "37310 Sequoia Rd",
+            "permit_units": 5.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "37340 Sequoia Rd",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3156 Medina Cmn",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2018.0,
-            "permit_address": "37394 Sequoia Rd",
-            "permit_units": 6.0,
+            "permit_address": "37340 Sequoia Rd",
+            "permit_units": 4.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -17553,8 +17553,8 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37340 Sequoia Rd",
-            "permit_units": 4.0,
+            "permit_address": "37392 Sequoia Rd",
+            "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -17573,7 +17573,17 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37385 Ortega Cmn",
+            "permit_address": "3155 Ignacio Ter",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "37394 Sequoia Rd",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -17593,48 +17603,11 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "3155 Ignacio Ter",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "37392 Sequoia Rd",
-            "permit_units": 5.0,
+            "permit_address": "37385 Ortega Cmn",
+            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "37310 Sequoia Rd",
-            "permit_units": 5,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "3156 Medina Cmn",
-            "permit_units": 4,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "37340 Sequoia Rd",
-            "permit_units": 4,
-            "permit_category": "2 to 4",
-            "match_type": [
               "geo"
             ]
           },
@@ -17652,6 +17625,33 @@
             "permit_address": "37311 Ortega Cmn",
             "permit_units": 6,
             "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "37310 Sequoia Rd",
+            "permit_units": 5,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "37340 Sequoia Rd",
+            "permit_units": 4,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "3156 Medina Cmn",
+            "permit_units": 4,
+            "permit_category": "2 to 4",
             "match_type": [
               "geo"
             ]
@@ -19374,8 +19374,8 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "1031 WALNUT AVE",
-            "permit_units": 417.0,
+            "permit_address": "38880 GUARDINO DR.",
+            "permit_units": 215.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -19384,8 +19384,8 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "38880 GUARDINO DR.",
-            "permit_units": 215.0,
+            "permit_address": "1031 WALNUT AVE",
+            "permit_units": 417.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -19396,8 +19396,8 @@
         "match_results_lax": [
           {
             "permit_year": 2018.0,
-            "permit_address": "1031 WALNUT AVE",
-            "permit_units": 417.0,
+            "permit_address": "38880 GUARDINO DR.",
+            "permit_units": 215.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -19406,8 +19406,8 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "38880 GUARDINO DR.",
-            "permit_units": 215.0,
+            "permit_address": "1031 WALNUT AVE",
+            "permit_units": 417.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -20965,7 +20965,7 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "34805 CANOPY TERRACE",
+            "permit_address": "34801 CANOPY TERRACE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -20983,7 +20983,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "34801 CANOPY TERRACE",
+            "permit_address": "34805 CANOPY TERRACE",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -21912,8 +21912,8 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "37394 Sequoia Rd",
-            "permit_units": 6.0,
+            "permit_address": "37340 Sequoia Rd",
+            "permit_units": 4.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -21922,8 +21922,8 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37340 Sequoia Rd",
-            "permit_units": 4.0,
+            "permit_address": "37392 Sequoia Rd",
+            "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -21942,7 +21942,17 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37385 Ortega Cmn",
+            "permit_address": "3155 Ignacio Ter",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "37394 Sequoia Rd",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -21962,48 +21972,11 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "3155 Ignacio Ter",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "37392 Sequoia Rd",
-            "permit_units": 5.0,
+            "permit_address": "37385 Ortega Cmn",
+            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "37310 Sequoia Rd",
-            "permit_units": 5.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "3156 Medina Cmn",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "37340 Sequoia Rd",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
               "geo"
             ]
           },
@@ -22024,13 +21997,40 @@
             "match_type": [
               "geo"
             ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "37310 Sequoia Rd",
+            "permit_units": 5.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "37340 Sequoia Rd",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "3156 Medina Cmn",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "geo"
+            ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2018.0,
-            "permit_address": "37394 Sequoia Rd",
-            "permit_units": 6.0,
+            "permit_address": "37340 Sequoia Rd",
+            "permit_units": 4.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -22038,8 +22038,8 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37340 Sequoia Rd",
-            "permit_units": 4.0,
+            "permit_address": "37392 Sequoia Rd",
+            "permit_units": 5.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -22056,7 +22056,16 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "37385 Ortega Cmn",
+            "permit_address": "3155 Ignacio Ter",
+            "permit_units": 4.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "37394 Sequoia Rd",
             "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
@@ -22074,17 +22083,8 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "3155 Ignacio Ter",
-            "permit_units": 4.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "37392 Sequoia Rd",
-            "permit_units": 5.0,
+            "permit_address": "37385 Ortega Cmn",
+            "permit_units": 6.0,
             "permit_category": "5+",
             "match_type": [
               "apn"
@@ -22662,61 +22662,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "4431 KENNETT TER",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4439 KENNETT TER",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4430 KENNETT TER",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4443 KENNETT TER",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4435 KENNETT TER",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "4442 KENNETT TER",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
-            "permit_address": "4446 KENNETT TER",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -22734,7 +22680,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "4434 KENNETT TER",
+            "permit_address": "4446 KENNETT TER",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -22752,7 +22698,25 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "37427 TALAMORE CMN",
+            "permit_address": "4431 KENNETT TER",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4443 KENNETT TER",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4447 KENNETT TER",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -22770,7 +22734,43 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "4447 KENNETT TER",
+            "permit_address": "37427 TALAMORE CMN",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4434 KENNETT TER",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4439 KENNETT TER",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4435 KENNETT TER",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015.0,
+            "permit_address": "4430 KENNETT TER",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -22779,6 +22779,24 @@
           }
         ],
         "match_results_lax": [
+          {
+            "permit_year": 2015,
+            "permit_address": "4438 KENNETT TER",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "4442 KENNETT TER",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
           {
             "permit_year": 2015,
             "permit_address": "4431 KENNETT TER",
@@ -22790,7 +22808,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "4439 KENNETT TER",
+            "permit_address": "37423 TALAMORE CMN",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -22808,16 +22826,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "4430 KENNETT TER",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "4435 KENNETT TER",
+            "permit_address": "4446 KENNETT TER",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -22835,52 +22844,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "4442 KENNETT TER",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "4446 KENNETT TER",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "4438 KENNETT TER",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "4434 KENNETT TER",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "37423 TALAMORE CMN",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "37427 TALAMORE CMN",
+            "permit_address": "4447 KENNETT TER",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -22898,7 +22862,43 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "4447 KENNETT TER",
+            "permit_address": "37427 TALAMORE CMN",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "4434 KENNETT TER",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "4439 KENNETT TER",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "4435 KENNETT TER",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "4430 KENNETT TER",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

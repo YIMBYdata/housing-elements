@@ -745,6 +745,24 @@
             "permit_year": 2018.0,
             "permit_address": "132 Lincoln St",
             "permit_units": 1.0,
+            "permit_category": null,
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "637 Johnson",
+            "permit_units": 1.0,
+            "permit_category": null,
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "637 Johnson",
+            "permit_units": 1.0,
             "permit_category": "ADU",
             "match_type": [
               "apn"
@@ -753,24 +771,6 @@
           {
             "permit_year": 2018.0,
             "permit_address": "132 Lincoln St",
-            "permit_units": 1.0,
-            "permit_category": null,
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "637 Johnson",
-            "permit_units": 1.0,
-            "permit_category": null,
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "637 Johnson",
             "permit_units": 1.0,
             "permit_category": "ADU",
             "match_type": [
@@ -783,6 +783,24 @@
             "permit_year": 2018.0,
             "permit_address": "132 Lincoln St",
             "permit_units": 1.0,
+            "permit_category": null,
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "637 Johnson",
+            "permit_units": 1.0,
+            "permit_category": null,
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "637 Johnson",
+            "permit_units": 1.0,
             "permit_category": "ADU",
             "match_type": [
               "apn"
@@ -791,24 +809,6 @@
           {
             "permit_year": 2018.0,
             "permit_address": "132 Lincoln St",
-            "permit_units": 1.0,
-            "permit_category": null,
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "637 Johnson",
-            "permit_units": 1.0,
-            "permit_category": null,
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "637 Johnson",
             "permit_units": 1.0,
             "permit_category": "ADU",
             "match_type": [

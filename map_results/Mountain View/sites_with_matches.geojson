@@ -2333,8 +2333,8 @@
         "match_results": [
           {
             "permit_year": 2016.0,
-            "permit_address": "801 W EL CAMINO REAL",
-            "permit_units": 33.0,
+            "permit_address": "1040  CASTRO ST",
+            "permit_units": 69.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -2353,8 +2353,8 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "1040  CASTRO ST",
-            "permit_units": 69.0,
+            "permit_address": "801 W EL CAMINO REAL",
+            "permit_units": 33.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -2365,8 +2365,8 @@
         "match_results_lax": [
           {
             "permit_year": 2016.0,
-            "permit_address": "801 W EL CAMINO REAL",
-            "permit_units": 33.0,
+            "permit_address": "1040  CASTRO ST",
+            "permit_units": 69.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -2385,8 +2385,8 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "1040  CASTRO ST",
-            "permit_units": 69.0,
+            "permit_address": "801 W EL CAMINO REAL",
+            "permit_units": 33.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
@@ -3781,7 +3781,7 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "183  MELIA LP",
+            "permit_address": "385  LILY CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3799,15 +3799,6 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "388  LILY CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "185  MELIA LP",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -3817,16 +3808,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "385  LILY CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "184  MELIA LP",
+            "permit_address": "183  MELIA LP",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3844,7 +3826,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "386  LILY CT",
+            "permit_address": "184  MELIA LP",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3854,6 +3836,24 @@
           {
             "permit_year": 2017.0,
             "permit_address": "380  LILY CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "388  LILY CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "386  LILY CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3864,7 +3864,7 @@
         "match_results_lax": [
           {
             "permit_year": 2017,
-            "permit_address": "183  MELIA LP",
+            "permit_address": "385  LILY CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3891,24 +3891,6 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "388  LILY CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "385  LILY CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
             "permit_address": "184  MELIA LP",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -3927,7 +3909,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "386  LILY CT",
+            "permit_address": "183  MELIA LP",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -3937,6 +3919,24 @@
           {
             "permit_year": 2017,
             "permit_address": "380  LILY CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "388  LILY CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "386  LILY CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4381,34 +4381,34 @@
         "match_results": [
           {
             "permit_year": 2017.0,
+            "permit_address": "2010  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "2008  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "350  ALEXANDER CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "330  ALEXANDER CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "2002  SUN-MOR AV",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "2006  SUN-MOR AV",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "310  ALEXANDER CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4423,6 +4423,24 @@
             "match_type": [
               "apn",
               "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "2006  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "2000  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
             ]
           },
           {
@@ -4445,7 +4463,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "2010  SUN-MOR AV",
+            "permit_address": "2002  SUN-MOR AV",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4454,25 +4472,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "2000  SUN-MOR AV",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "350  ALEXANDER CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "2008  SUN-MOR AV",
+            "permit_address": "310  ALEXANDER CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4483,34 +4483,34 @@
         "match_results_lax": [
           {
             "permit_year": 2017.0,
+            "permit_address": "2010  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "2008  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "350  ALEXANDER CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "330  ALEXANDER CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "2002  SUN-MOR AV",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "2006  SUN-MOR AV",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "310  ALEXANDER CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4525,6 +4525,24 @@
             "match_type": [
               "apn",
               "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "2006  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "2000  SUN-MOR AV",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn"
             ]
           },
           {
@@ -4548,7 +4566,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "2010  SUN-MOR AV",
+            "permit_address": "2002  SUN-MOR AV",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4557,25 +4575,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "2000  SUN-MOR AV",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "350  ALEXANDER CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "2008  SUN-MOR AV",
+            "permit_address": "310  ALEXANDER CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4880,7 +4880,7 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "184  ATHENA CT",
+            "permit_address": "229  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4889,10 +4889,10 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "187  ATHENA CT",
+            "permit_year": 2016.0,
+            "permit_address": "220  ATHENA CT",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -4909,10 +4909,10 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "219  ATHENA CT",
+            "permit_year": 2016.0,
+            "permit_address": "218  ATHENA CT",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -4920,7 +4920,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "178  ATHENA CT",
+            "permit_address": "230  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4930,7 +4930,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "198  ATHENA CT",
+            "permit_address": "212  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4940,7 +4940,57 @@
           },
           {
             "permit_year": 2017.0,
+            "permit_address": "221  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "182  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "206  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "225  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "190  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "188  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4960,7 +5010,117 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "203  ATHENA CT",
+            "permit_address": "211  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "194  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "192  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "226  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "208  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "207  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "178  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "184  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "198  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "176  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "180  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "231  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -4989,18 +5149,8 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "221  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016.0,
-            "permit_address": "220  ATHENA CT",
+            "permit_address": "196  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -5010,27 +5160,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "207  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "194  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "206  ATHENA CT",
+            "permit_address": "223  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -5040,7 +5170,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "176  ATHENA CT",
+            "permit_address": "187  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5050,9 +5180,9 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "180  ATHENA CT",
+            "permit_address": "217  ATHENA CT",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -5060,27 +5190,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "186  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "188  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "226  ATHENA CT",
+            "permit_address": "227  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5100,46 +5210,6 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "192  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "196  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "229  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "230  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "210  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -5150,7 +5220,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "211  ATHENA CT",
+            "permit_address": "203  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5160,7 +5230,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "225  ATHENA CT",
+            "permit_address": "219  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5170,79 +5240,9 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "227  ATHENA CT",
+            "permit_address": "186  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "217  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "208  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "212  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "223  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "231  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "190  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "218  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -5252,7 +5252,7 @@
         "match_results_lax": [
           {
             "permit_year": 2017.0,
-            "permit_address": "184  ATHENA CT",
+            "permit_address": "229  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5261,10 +5261,10 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "187  ATHENA CT",
+            "permit_year": 2016.0,
+            "permit_address": "220  ATHENA CT",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -5281,10 +5281,10 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "219  ATHENA CT",
+            "permit_year": 2016.0,
+            "permit_address": "218  ATHENA CT",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -5292,7 +5292,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "178  ATHENA CT",
+            "permit_address": "230  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5302,7 +5302,7 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "198  ATHENA CT",
+            "permit_address": "212  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5312,7 +5312,57 @@
           },
           {
             "permit_year": 2017.0,
+            "permit_address": "221  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "182  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "206  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "225  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "190  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "188  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5332,7 +5382,117 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "203  ATHENA CT",
+            "permit_address": "211  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "194  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "192  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "226  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "208  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "2 to 4",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "207  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "178  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "184  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "198  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "176  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "180  ATHENA CT",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "apn",
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "231  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5361,18 +5521,8 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "221  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016.0,
-            "permit_address": "220  ATHENA CT",
+            "permit_address": "196  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -5382,27 +5532,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "207  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "194  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "206  ATHENA CT",
+            "permit_address": "223  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "2 to 4",
             "match_type": [
@@ -5412,7 +5542,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "176  ATHENA CT",
+            "permit_address": "187  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5422,9 +5552,9 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "180  ATHENA CT",
+            "permit_address": "217  ATHENA CT",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -5432,27 +5562,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "186  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "188  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "226  ATHENA CT",
+            "permit_address": "227  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5472,46 +5582,6 @@
           },
           {
             "permit_year": 2016.0,
-            "permit_address": "192  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "196  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "229  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "230  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
             "permit_address": "210  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -5522,7 +5592,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "211  ATHENA CT",
+            "permit_address": "203  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5532,7 +5602,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "225  ATHENA CT",
+            "permit_address": "219  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -5542,79 +5612,9 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "227  ATHENA CT",
+            "permit_address": "186  ATHENA CT",
             "permit_units": 1.0,
             "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "217  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "208  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "212  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "223  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "231  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "190  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
-            "match_type": [
-              "apn",
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "218  ATHENA CT",
-            "permit_units": 1.0,
-            "permit_category": "2 to 4",
             "match_type": [
               "apn",
               "geo"
@@ -5682,42 +5682,42 @@
         "match_results": [
           {
             "permit_year": 2017.0,
+            "permit_address": "550  FERGUSON DR",
+            "permit_units": 192.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "500  FERGUSON DR",
             "permit_units": 202.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
               "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "550  FERGUSON DR",
-            "permit_units": 192.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
             ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2017.0,
+            "permit_address": "550  FERGUSON DR",
+            "permit_units": 192.0,
+            "permit_category": "5+",
+            "match_type": [
+              "apn"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "500  FERGUSON DR",
             "permit_units": 202.0,
             "permit_category": "5+",
             "match_type": [
               "apn",
               "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "550  FERGUSON DR",
-            "permit_units": 192.0,
-            "permit_category": "5+",
-            "match_type": [
-              "apn"
             ]
           }
         ],
@@ -6468,79 +6468,7 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "133  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "225  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3910  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "350  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "245  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "219  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "221  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "149  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "121  ORBIT WY",
+            "permit_address": "3915  DEGREE LN",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -6558,358 +6486,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "342  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "249  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "231  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "229  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3915  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "334  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3907  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3914  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "117  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3918  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "227  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3911  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "111  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "113  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "330  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "139  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "223  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "147  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "211  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "247  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "123  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3916  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "346  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "241  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "141  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "125  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "145  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3909  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "119  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "131  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
             "permit_address": "135  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "127  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3905  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3912  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "137  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "338  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "109  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "217  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "215  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "115  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -6927,6 +6504,24 @@
           },
           {
             "permit_year": 2017.0,
+            "permit_address": "119  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "346  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "129  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
@@ -6936,7 +6531,286 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "143  ORBIT WY",
+            "permit_address": "149  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "223  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "113  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "131  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3912  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "121  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "137  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3911  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "211  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "245  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "221  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3916  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "338  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "241  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "125  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "217  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3907  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "127  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3914  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "249  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "213  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "117  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "219  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "231  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "111  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "342  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3910  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "227  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "334  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "350  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3918  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "123  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -6954,7 +6828,133 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "213  ORBIT WY",
+            "permit_address": "133  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "247  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "143  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3905  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "145  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "330  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "141  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "115  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "229  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "147  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "215  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "225  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "109  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3909  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "139  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -6965,79 +6965,7 @@
         "match_results_lax": [
           {
             "permit_year": 2017,
-            "permit_address": "133  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "225  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3910  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "350  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "245  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "219  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "221  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "149  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "121  ORBIT WY",
+            "permit_address": "3915  DEGREE LN",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7055,7 +6983,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "342  CIRCUIT WY",
+            "permit_address": "135  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7064,7 +6992,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "249  ORBIT WY",
+            "permit_address": "243  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7073,7 +7001,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "231  ORBIT WY",
+            "permit_address": "119  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7082,7 +7010,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "229  ORBIT WY",
+            "permit_address": "346  CIRCUIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7091,7 +7019,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3915  DEGREE LN",
+            "permit_address": "129  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7100,70 +7028,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "334  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3907  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3914  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "117  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3918  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "227  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3911  DEGREE LN",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "111  ORBIT WY",
+            "permit_address": "149  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7181,16 +7046,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "139  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "330  CIRCUIT WY",
+            "permit_address": "131  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7208,7 +7064,34 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "147  ORBIT WY",
+            "permit_address": "3912  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "121  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "137  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3911  DEGREE LN",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7226,7 +7109,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "247  ORBIT WY",
+            "permit_address": "245  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7235,7 +7118,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "123  ORBIT WY",
+            "permit_address": "221  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7262,16 +7145,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "346  CIRCUIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "141  ORBIT WY",
+            "permit_address": "338  CIRCUIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7289,7 +7163,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "135  ORBIT WY",
+            "permit_address": "217  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7298,34 +7172,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "145  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "119  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "131  ORBIT WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3909  DEGREE LN",
+            "permit_address": "3907  DEGREE LN",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7343,7 +7190,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "137  ORBIT WY",
+            "permit_address": "3914  DEGREE LN",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7352,7 +7199,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3912  DEGREE LN",
+            "permit_address": "249  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7361,7 +7208,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3905  DEGREE LN",
+            "permit_address": "117  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7370,7 +7217,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "338  CIRCUIT WY",
+            "permit_address": "219  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7379,7 +7226,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "109  INFINITY WY",
+            "permit_address": "213  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7388,7 +7235,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "217  ORBIT WY",
+            "permit_address": "231  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7397,7 +7244,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "115  ORBIT WY",
+            "permit_address": "111  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7406,7 +7253,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "215  ORBIT WY",
+            "permit_address": "227  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7415,7 +7262,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "243  ORBIT WY",
+            "permit_address": "3910  DEGREE LN",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7424,7 +7271,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "129  ORBIT WY",
+            "permit_address": "342  CIRCUIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7433,7 +7280,43 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "143  ORBIT WY",
+            "permit_address": "334  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "350  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "123  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3918  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "133  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7451,7 +7334,124 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "213  ORBIT WY",
+            "permit_address": "247  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "143  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3905  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "145  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "330  CIRCUIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "115  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "141  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "229  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "147  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "215  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "225  ORBIT WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "109  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3909  DEGREE LN",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "139  ORBIT WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7584,70 +7584,7 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "3216  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3514  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3500  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3308  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3302  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3418  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3102  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3120  PYRAMID WY",
+            "permit_address": "3610  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7665,7 +7602,25 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "205  INFINITY WY",
+            "permit_address": "3418  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3512  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "207  INFINITY WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7674,7 +7629,196 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3320  PYRAMID WY",
+            "permit_address": "3400  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3518  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3312  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3112  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3422  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3110  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3206  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3516  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3911  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3416  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3402  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3202  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3420  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3116  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "103  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3302  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3108  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3216  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3210  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "3802  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3618  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3406  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7692,6 +7836,96 @@
           },
           {
             "permit_year": 2017.0,
+            "permit_address": "3106  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3905  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "203  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3414  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3318  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3102  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3520  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3208  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3200  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3220  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "3608  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -7701,7 +7935,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3522  PYRAMID WY",
+            "permit_address": "3506  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7710,7 +7944,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3212  PYRAMID WY",
+            "permit_address": "3120  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7719,34 +7953,16 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3606  PYRAMID WY",
+            "permit_address": "3903  PYRAMID WY",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "5+",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3406  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "3806  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3420  PYRAMID WY",
+            "permit_address": "3100  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7773,7 +7989,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3414  PYRAMID WY",
+            "permit_address": "3218  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7782,7 +7998,16 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3921  PYRAMID WY",
+            "permit_address": "3500  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "209  INFINITY WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -7791,16 +8016,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "101  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3200  PYRAMID WY",
+            "permit_address": "3510  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7809,43 +8025,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3516  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3614  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3314  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3408  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3110  PYRAMID WY",
+            "permit_address": "3514  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -7863,223 +8043,16 @@
           },
           {
             "permit_year": 2017.0,
+            "permit_address": "3314  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "3620  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3416  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3220  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3422  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3202  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3909  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3508  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3602  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3903  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "209  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3616  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3600  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3618  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3218  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "203  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3122  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3901  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3312  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016.0,
-            "permit_address": "3802  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3400  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3106  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3100  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3510  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3520  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3114  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8096,233 +8069,8 @@
             ]
           },
           {
-            "permit_year": 2017.0,
-            "permit_address": "3506  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3118  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3518  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3112  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3402  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3206  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3318  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3322  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3905  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3612  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3410  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3210  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "107  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3907  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3108  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3915  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3316  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "201  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "103  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3911  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3222  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3300  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3412  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3925  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016.0,
-            "permit_address": "3800  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3310  PYRAMID WY",
+            "permit_address": "3806  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8340,34 +8088,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3116  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3208  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3512  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "3923  PYRAMID WY",
+            "permit_address": "3915  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -8376,7 +8097,250 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "3610  PYRAMID WY",
+            "permit_address": "3410  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3300  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3310  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3212  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3925  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "107  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3909  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3907  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016.0,
+            "permit_address": "3800  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3522  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "201  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3600  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3122  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3308  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3408  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3316  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3114  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3412  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3222  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3612  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "205  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3508  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3616  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3901  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3118  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3606  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3921  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3322  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8394,7 +8358,43 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "207  INFINITY WY",
+            "permit_address": "101  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3614  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3320  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3602  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "3923  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -8405,70 +8405,7 @@
         "match_results_lax": [
           {
             "permit_year": 2017,
-            "permit_address": "3216  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3514  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3500  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3308  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3302  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3418  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3102  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3120  PYRAMID WY",
+            "permit_address": "3610  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8486,7 +8423,25 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "205  INFINITY WY",
+            "permit_address": "3418  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3512  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "207  INFINITY WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -8495,7 +8450,196 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3320  PYRAMID WY",
+            "permit_address": "3400  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3518  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3312  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3112  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3422  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3110  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3206  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3516  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3911  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3416  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3402  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3202  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3420  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3116  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "103  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3302  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3108  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3216  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3210  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "3802  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3618  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3406  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8513,6 +8657,96 @@
           },
           {
             "permit_year": 2017,
+            "permit_address": "3106  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3905  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "203  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3414  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3318  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3102  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3520  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3208  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3200  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3220  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
             "permit_address": "3608  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -8522,7 +8756,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3522  PYRAMID WY",
+            "permit_address": "3506  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8531,7 +8765,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3212  PYRAMID WY",
+            "permit_address": "3120  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8540,34 +8774,16 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3606  PYRAMID WY",
+            "permit_address": "3903  PYRAMID WY",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "5+",
             "match_type": [
               "geo"
             ]
           },
           {
             "permit_year": 2017,
-            "permit_address": "3406  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "3806  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3420  PYRAMID WY",
+            "permit_address": "3100  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8594,7 +8810,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3414  PYRAMID WY",
+            "permit_address": "3218  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8603,7 +8819,16 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3921  PYRAMID WY",
+            "permit_address": "3500  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "209  INFINITY WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -8612,16 +8837,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "101  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3200  PYRAMID WY",
+            "permit_address": "3510  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8630,34 +8846,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3516  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3614  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3314  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3408  PYRAMID WY",
+            "permit_address": "3514  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8675,7 +8864,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3110  PYRAMID WY",
+            "permit_address": "3314  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -8693,222 +8882,6 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3220  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3416  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3422  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3202  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3909  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3508  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3602  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3903  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "209  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3616  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3600  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3618  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3218  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "203  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3122  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3901  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3312  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
-            "permit_address": "3802  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3400  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3106  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3100  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3510  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3520  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3114  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
             "permit_address": "3502  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
@@ -8917,233 +8890,8 @@
             ]
           },
           {
-            "permit_year": 2017,
-            "permit_address": "3506  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3118  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3518  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3402  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3112  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3206  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3318  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3322  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3905  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3612  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3410  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3210  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "107  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3907  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3108  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3915  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3316  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "201  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3911  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "103  INFINITY WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3222  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3300  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3412  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3925  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "5+",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2016,
-            "permit_address": "3800  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3310  PYRAMID WY",
+            "permit_address": "3806  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9161,34 +8909,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3116  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3208  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3512  PYRAMID WY",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "3923  PYRAMID WY",
+            "permit_address": "3915  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [
@@ -9197,7 +8918,232 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "3610  PYRAMID WY",
+            "permit_address": "3410  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3300  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3310  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3212  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3925  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "107  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3909  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3907  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "3800  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3522  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "201  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3600  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3122  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3308  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3408  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3316  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3114  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3412  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3222  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3612  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "205  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3508  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3616  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3901  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3118  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3606  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -9215,7 +9161,61 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "207  INFINITY WY",
+            "permit_address": "3322  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3921  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3614  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "101  INFINITY WY",
+            "permit_units": 1.0,
+            "permit_category": "5+",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3320  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3602  PYRAMID WY",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "3923  PYRAMID WY",
             "permit_units": 1.0,
             "permit_category": "5+",
             "match_type": [

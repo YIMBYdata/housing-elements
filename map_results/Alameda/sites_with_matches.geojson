@@ -279,18 +279,18 @@
         "match_results": [],
         "match_results_lax": [
           {
-            "permit_year": 2018,
-            "permit_address": "2100 CLEMENT AVE",
-            "permit_units": 11,
+            "permit_year": 2017,
+            "permit_address": "2100 Clement",
+            "permit_units": 41,
             "permit_category": "5+",
             "match_type": [
               "geo"
             ]
           },
           {
-            "permit_year": 2017,
-            "permit_address": "2100 Clement",
-            "permit_units": 41,
+            "permit_year": 2018,
+            "permit_address": "2100 CLEMENT AVE",
+            "permit_units": 11,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -2364,18 +2364,18 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2018,
-            "permit_address": "201 SINGLETON AVE",
-            "permit_units": 150,
+            "permit_year": 2015,
+            "permit_address": "421 Singleton Avenue",
+            "permit_units": 65,
             "permit_category": "5+",
             "match_type": [
               "geo"
             ]
           },
           {
-            "permit_year": 2015,
-            "permit_address": "421 Singleton Avenue",
-            "permit_units": 65,
+            "permit_year": 2018,
+            "permit_address": "201 SINGLETON AVE",
+            "permit_units": 150,
             "permit_category": "5+",
             "match_type": [
               "geo"
@@ -2450,15 +2450,6 @@
         "match_results_lax": [
           {
             "permit_year": 2016,
-            "permit_address": "2740 BETTE ST",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2016,
             "permit_address": "2738 BETTE ST",
             "permit_units": 1,
             "permit_category": "SF",
@@ -2469,6 +2460,15 @@
           {
             "permit_year": 2014,
             "permit_address": "401 Mosley Ave Alameda, CA 94501",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2016,
+            "permit_address": "2740 BETTE ST",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [

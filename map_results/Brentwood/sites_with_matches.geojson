@@ -16411,70 +16411,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "95 LETTY LN",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "85 LETTY LN",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "80 LETTY LN",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "60 LETTY LN",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "55 LETTY LN",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "30 LETTY LN",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "70 LETTY LN",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "75 LETTY LN",
+            "permit_address": "65 LETTY LN",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -16492,7 +16429,70 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "65 LETTY LN",
+            "permit_address": "30 LETTY LN",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "95 LETTY LN",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "75 LETTY LN",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "55 LETTY LN",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "80 LETTY LN",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "70 LETTY LN",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "60 LETTY LN",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "85 LETTY LN",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -16521,6 +16521,33 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
+            "permit_address": "65 LETTY LN",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "45 LETTY LN",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "30 LETTY LN",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
             "permit_address": "95 LETTY LN",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -16530,7 +16557,34 @@
           },
           {
             "permit_year": 2019,
+            "permit_address": "75 LETTY LN",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
             "permit_address": "55 LETTY LN",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "80 LETTY LN",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "70 LETTY LN",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -16549,60 +16603,6 @@
           {
             "permit_year": 2019,
             "permit_address": "85 LETTY LN",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "80 LETTY LN",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "30 LETTY LN",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "70 LETTY LN",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "75 LETTY LN",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "45 LETTY LN",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "65 LETTY LN",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -19901,17 +19901,8 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2016,
-            "permit_address": "2080 Rioja Way",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019,
-            "permit_address": "1473 SANTORINI STREET",
+            "permit_address": "1479 SANTORINI STREET",
             "permit_units": 1,
             "permit_category": "SFA",
             "match_type": [
@@ -19937,8 +19928,17 @@
             ]
           },
           {
+            "permit_year": 2016,
+            "permit_address": "2080 Rioja Way",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019,
-            "permit_address": "1479 SANTORINI STREET",
+            "permit_address": "1473 SANTORINI STREET",
             "permit_units": 1,
             "permit_category": "SFA",
             "match_type": [
@@ -22247,232 +22247,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "265 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "152 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "257 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "132 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "274 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "261 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "108 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "341 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "314 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "337 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "113 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "321 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "305 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "133 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "141 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "203 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "125 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "322 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "270 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "278 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "301 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "310 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "140 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "195 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "273 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "325 BEAR CREEK DR",
+            "permit_address": "129 SCOTT CREEK WAY",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -22482,222 +22257,6 @@
           {
             "permit_year": 2019.0,
             "permit_address": "326 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "148 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "136 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "112 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "120 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "121 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "144 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "117 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "262 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "258 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "204 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "137 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "109 SCOTT CREEK WA6Y",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "254 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "240 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "253 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "318 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "105 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "329 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "333 BEAR CREEK DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "250 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "100 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "124 SCOTT CREEK WAY",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "277 SESPE CREEK AVE",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "199 SCOTT CREEK WAY",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -22715,7 +22274,97 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "269 SESPE CREEK AVE",
+            "permit_address": "121 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "318 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "125 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "133 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "109 SCOTT CREEK WA6Y",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "124 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "140 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "195 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "105 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "254 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "148 SCOTT CREEK WAY",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -22733,7 +22382,34 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "266 SESPE CREEK AVE",
+            "permit_address": "273 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "329 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "322 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "341 BEAR CREEK DR",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -22751,7 +22427,331 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "129 SCOTT CREEK WAY",
+            "permit_address": "314 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "204 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "120 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "269 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "137 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "240 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "132 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "301 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "305 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "117 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "277 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "325 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "112 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "266 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "258 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "144 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "274 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "270 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "262 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "136 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "250 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "253 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "152 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "100 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "203 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "265 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "337 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "199 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "333 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "141 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "113 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "278 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "261 SESPE CREEK AVE",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "108 SCOTT CREEK WAY",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "321 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "310 BEAR CREEK DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "257 SESPE CREEK AVE",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -22762,286 +22762,7 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "265 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "152 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "257 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "228 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "132 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "261 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "341 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "108 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "274 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "314 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "337 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "113 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "249 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "321 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "133 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "305 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "141 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "203 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "125 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "322 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "128 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "310 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "301 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "278 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "270 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "220 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "216 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "208 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "140 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "273 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "195 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "325 BEAR CREEK DR",
+            "permit_address": "129 SCOTT CREEK WAY",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23059,6 +22780,123 @@
           },
           {
             "permit_year": 2019,
+            "permit_address": "116 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "121 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "208 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "318 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "228 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "125 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "133 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "109 SCOTT CREEK WA6Y",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "124 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "140 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "195 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "105 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "254 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
             "permit_address": "148 SCOTT CREEK WAY",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -23068,7 +22906,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "136 SCOTT CREEK WAY",
+            "permit_address": "128 SCOTT CREEK WAY",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23077,7 +22915,79 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "112 SCOTT CREEK WAY",
+            "permit_address": "329 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "273 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "216 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "322 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "341 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "104 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "314 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "204 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "297 BEAR CREEK DR",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23104,61 +23014,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "297 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "121 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "117 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "144 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "258 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "262 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "204 SESPE CREEK AVE",
+            "permit_address": "269 SESPE CREEK AVE",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23176,33 +23032,6 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "254 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "253 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "212 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "240 SESPE CREEK AVE",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -23212,7 +23041,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "109 SCOTT CREEK WA6Y",
+            "permit_address": "132 SCOTT CREEK WAY",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23221,7 +23050,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "318 BEAR CREEK DR",
+            "permit_address": "301 BEAR CREEK DR",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23230,7 +23059,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "105 SCOTT CREEK WAY",
+            "permit_address": "305 BEAR CREEK DR",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23239,43 +23068,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "329 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "333 BEAR CREEK DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "250 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "100 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "124 SCOTT CREEK WAY",
+            "permit_address": "117 SCOTT CREEK WAY",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23293,7 +23086,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "199 SCOTT CREEK WAY",
+            "permit_address": "325 BEAR CREEK DR",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23302,25 +23095,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "116 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "269 SESPE CREEK AVE",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "236 SESPE CREEK AVE",
+            "permit_address": "112 SCOTT CREEK WAY",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -23338,15 +23113,6 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "104 SCOTT CREEK WAY",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "224 SESPE CREEK AVE",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -23356,7 +23122,241 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "129 SCOTT CREEK WAY",
+            "permit_address": "258 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "144 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "274 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "270 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "236 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "253 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "262 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "250 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "136 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "152 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "100 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "203 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "212 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "265 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "220 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "337 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "199 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "333 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "141 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "261 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "249 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "113 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "108 SCOTT CREEK WAY",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "321 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "278 SESPE CREEK AVE",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "310 BEAR CREEK DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "257 SESPE CREEK AVE",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -26629,7 +26629,16 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "7179 BRENTWOOD BLVD",
+            "permit_address": "7167 BRENTWOOD BLVD",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "7171 BRENTWOOD BLVD",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -26647,16 +26656,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "7167 BRENTWOOD BLVD",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "7171 BRENTWOOD BLVD",
+            "permit_address": "7179 BRENTWOOD BLVD",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -26667,7 +26667,7 @@
         "match_results_lax": [
           {
             "permit_year": 2018,
-            "permit_address": "7179 BRENTWOOD BLVD",
+            "permit_address": "7171 BRENTWOOD BLVD",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -26694,7 +26694,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "7171 BRENTWOOD BLVD",
+            "permit_address": "7179 BRENTWOOD BLVD",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -27342,8 +27342,44 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2018.0,
+            "permit_address": "436 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "432 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "461 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "457 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019.0,
-            "permit_address": "513 AMARI CT",
+            "permit_address": "528 AMARI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27361,88 +27397,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "1012 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "468 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1017 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "532 AMARI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "428 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1025 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1016 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "436 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "449 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "473 CATALANO CT",
+            "permit_address": "472 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27459,89 +27414,8 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "424 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1004 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019.0,
-            "permit_address": "1049 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "432 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "444 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "448 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1045 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "500 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "552 DIVISI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "540 AMARI CT",
+            "permit_address": "501 TINTORI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27559,7 +27433,25 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1061 ALLORO DR",
+            "permit_address": "1045 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "552 DIVISI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "449 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27568,7 +27460,16 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "477 TINTORI CT",
+            "permit_address": "521 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1013 ALLORO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27586,16 +27487,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "461 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "536 AMARI CT",
+            "permit_address": "424 NAPOLI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27604,7 +27496,70 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "472 CATALANO CT",
+            "permit_address": "469 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "456 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "513 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "525 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1012 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1041 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1061 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "497 TINTORI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27630,105 +27585,6 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "1009 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "488 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "485 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1013 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1021 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1053 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "453 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1005 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "465 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1001 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "525 AMARI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019.0,
             "permit_address": "505 TINTORI CT",
             "permit_units": 1.0,
@@ -27738,8 +27594,17 @@
             ]
           },
           {
+            "permit_year": 2019.0,
+            "permit_address": "500 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2018.0,
-            "permit_address": "469 CATALANO CT",
+            "permit_address": "1017 ALLORO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27756,35 +27621,8 @@
             ]
           },
           {
-            "permit_year": 2019.0,
-            "permit_address": "1041 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "501 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "528 AMARI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018.0,
-            "permit_address": "420 NAPOLI CT",
+            "permit_address": "468 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27793,97 +27631,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "493 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "489 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "429 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "476 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "497 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "440 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "456 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "480 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "481 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "496 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "529 AMARI CT",
+            "permit_address": "477 TINTORI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27901,7 +27649,61 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "521 AMARI CT",
+            "permit_address": "536 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "453 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "493 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "529 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1053 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "464 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "428 NAPOLI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27919,7 +27721,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "457 CATALANO CT",
+            "permit_address": "473 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27928,7 +27730,205 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "464 CATALANO CT",
+            "permit_address": "1001 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1004 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "532 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "420 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "489 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1016 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1009 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1021 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "496 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1049 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "444 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "488 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "480 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "540 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1005 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "440 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "429 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "465 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "485 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "481 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "476 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "448 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1025 ALLORO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -27938,96 +27938,6 @@
         ],
         "match_results_lax": [
           {
-            "permit_year": 2019,
-            "permit_address": "513 AMARI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "548 DIVISI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1012 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "468 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1017 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1016 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "428 NAPOLI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1025 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "532 AMARI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "424 NAPOLI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018,
             "permit_address": "436 NAPOLI CT",
             "permit_units": 1,
@@ -28038,142 +27948,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "473 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "449 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "517 AMARI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1004 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1049 ALLORO DR",
-            "permit_units": 1,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
             "permit_address": "432 NAPOLI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "444 NAPOLI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "448 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "500 TINTORI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1045 ALLORO DR",
-            "permit_units": 1,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "552 DIVISI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "540 AMARI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1029 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "477 TINTORI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1061 ALLORO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "533 AMARI CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28190,179 +27965,8 @@
             ]
           },
           {
-            "permit_year": 2019,
-            "permit_address": "536 AMARI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018,
-            "permit_address": "472 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "544 DIVISI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "488 TINTORI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1009 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "485 TINTORI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1057 ALLORO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1013 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1021 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1053 ALLORO DR",
-            "permit_units": 1,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "453 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1005 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "465 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "1001 ALLORO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "460 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "505 TINTORI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "469 CATALANO CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "525 AMARI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1041 ALLORO DR",
-            "permit_units": 1,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "501 TINTORI CT",
+            "permit_address": "457 CATALANO CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28380,7 +27984,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "420 NAPOLI CT",
+            "permit_address": "548 DIVISI CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28389,7 +27993,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "429 NAPOLI CT",
+            "permit_address": "472 CATALANO CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28398,7 +28002,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "489 TINTORI CT",
+            "permit_address": "517 AMARI CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28407,25 +28011,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "493 TINTORI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "476 TINTORI CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "497 TINTORI CT",
+            "permit_address": "501 TINTORI CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28434,7 +28020,79 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "440 NAPOLI CT",
+            "permit_address": "424 NAPOLI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1029 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "552 DIVISI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "449 CATALANO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1045 ALLORO DR",
+            "permit_units": 1,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1013 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "533 AMARI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "513 AMARI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "469 CATALANO CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28452,7 +28110,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "480 TINTORI CT",
+            "permit_address": "521 AMARI CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28461,7 +28119,16 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "481 TINTORI CT",
+            "permit_address": "525 AMARI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1012 ALLORO CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28470,7 +28137,16 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "496 TINTORI CT",
+            "permit_address": "1041 ALLORO DR",
+            "permit_units": 1,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1061 ALLORO DR",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28479,7 +28155,79 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "529 AMARI CT",
+            "permit_address": "497 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "544 DIVISI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1057 ALLORO DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "505 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "477 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1017 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "460 CATALANO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "468 CATALANO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "500 TINTORI CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28497,7 +28245,61 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "521 AMARI CT",
+            "permit_address": "536 AMARI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "453 CATALANO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "493 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "529 AMARI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1053 ALLORO DR",
+            "permit_units": 1,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "464 CATALANO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "428 NAPOLI CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28515,7 +28317,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "457 CATALANO CT",
+            "permit_address": "473 CATALANO CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28524,7 +28326,205 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "464 CATALANO CT",
+            "permit_address": "1001 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1004 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "489 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "420 NAPOLI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "532 AMARI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1016 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1009 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1021 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "496 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "444 NAPOLI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1049 ALLORO DR",
+            "permit_units": 1,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "488 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "480 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "540 AMARI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1005 ALLORO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "429 NAPOLI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "440 NAPOLI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "465 CATALANO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "481 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "485 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "476 TINTORI CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "448 CATALANO CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "1025 ALLORO CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -28652,8 +28652,44 @@
         "geo_matched": true,
         "match_results": [
           {
+            "permit_year": 2018.0,
+            "permit_address": "436 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "432 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "461 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "457 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2019.0,
-            "permit_address": "513 AMARI CT",
+            "permit_address": "528 AMARI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -28671,88 +28707,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "1012 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "468 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1017 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "532 AMARI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "428 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1025 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1016 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "436 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "449 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "473 CATALANO CT",
+            "permit_address": "472 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -28769,89 +28724,8 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "424 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1004 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019.0,
-            "permit_address": "1049 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "432 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "444 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "448 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1045 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "500 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "552 DIVISI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "540 AMARI CT",
+            "permit_address": "501 TINTORI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -28869,7 +28743,25 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1061 ALLORO DR",
+            "permit_address": "1045 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "552 DIVISI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "449 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -28878,7 +28770,16 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "477 TINTORI CT",
+            "permit_address": "521 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1013 ALLORO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -28896,16 +28797,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "461 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "536 AMARI CT",
+            "permit_address": "424 NAPOLI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -28914,7 +28806,70 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "472 CATALANO CT",
+            "permit_address": "469 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "456 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "513 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "525 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1012 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1041 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1061 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "497 TINTORI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -28940,105 +28895,6 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "1009 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "488 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "485 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1013 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1021 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1053 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "453 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1005 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "465 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "1001 ALLORO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "525 AMARI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019.0,
             "permit_address": "505 TINTORI CT",
             "permit_units": 1.0,
@@ -29048,8 +28904,17 @@
             ]
           },
           {
+            "permit_year": 2019.0,
+            "permit_address": "500 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
             "permit_year": 2018.0,
-            "permit_address": "469 CATALANO CT",
+            "permit_address": "1017 ALLORO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -29066,35 +28931,8 @@
             ]
           },
           {
-            "permit_year": 2019.0,
-            "permit_address": "1041 ALLORO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "501 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "528 AMARI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2018.0,
-            "permit_address": "420 NAPOLI CT",
+            "permit_address": "468 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -29103,97 +28941,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "493 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "489 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "429 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "476 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "497 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "440 NAPOLI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "456 CATALANO CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "480 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "481 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "496 TINTORI CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "529 AMARI CT",
+            "permit_address": "477 TINTORI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -29211,7 +28959,61 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "521 AMARI CT",
+            "permit_address": "536 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "453 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "493 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "529 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1053 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "464 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "428 NAPOLI CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -29229,7 +29031,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "457 CATALANO CT",
+            "permit_address": "473 CATALANO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -29238,7 +29040,205 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "464 CATALANO CT",
+            "permit_address": "1001 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1004 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "532 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "420 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "489 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1016 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1009 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1021 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "496 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1049 ALLORO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "444 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "488 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "480 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "540 AMARI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1005 ALLORO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "440 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "429 NAPOLI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "465 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "485 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "481 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "476 TINTORI CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "448 CATALANO CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "1025 ALLORO CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -29306,25 +29306,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "304 EUGENIA ST",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
             "permit_address": "301 EUGENIA ST",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "305 EUGENIA ST",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -29339,12 +29321,48 @@
             "match_type": [
               "geo"
             ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "304 EUGENIA ST",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "305 EUGENIA ST",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
           }
         ],
         "match_results_lax": [
           {
             "permit_year": 2019,
             "permit_address": "300 EUGENIA ST",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "309 EUGENIA ST",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "301 EUGENIA ST",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -29371,25 +29389,7 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "301 EUGENIA ST",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "305 EUGENIA ST",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "309 EUGENIA ST",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -99286,15 +99286,6 @@
           },
           {
             "permit_year": 2014,
-            "permit_address": "1751 Chardonnay Ct",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2014,
             "permit_address": "1516 Miwok Ct",
             "permit_units": 1,
             "permit_category": "SF",
@@ -99305,6 +99296,15 @@
           {
             "permit_year": 2014,
             "permit_address": "1511 Symphony Cir",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2014,
+            "permit_address": "1751 Chardonnay Ct",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108221,7 +108221,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "2964 Blumen Way",
+            "permit_address": "2962 Blumen Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108230,7 +108230,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "2962 Blumen Way",
+            "permit_address": "2964 Blumen Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108241,24 +108241,6 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "2964 Blumen Way",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
-            "permit_address": "2968 Blumen Way",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015,
             "permit_address": "2962 Blumen Way",
             "permit_units": 1,
             "permit_category": "SF",
@@ -108268,7 +108250,25 @@
           },
           {
             "permit_year": 2015,
+            "permit_address": "2964 Blumen Way",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
             "permit_address": "2966 Blumen Way",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "2968 Blumen Way",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108477,7 +108477,7 @@
         "match_results": [
           {
             "permit_year": 2017.0,
-            "permit_address": "1953 Muirwood Loop",
+            "permit_address": "1920 Muirwood Loop",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108486,7 +108486,16 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1965 Muirwood Loop",
+            "permit_address": "1944 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1957 Muirwood Loop",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108504,34 +108513,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "840 Banbury Wy",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1920 Muirwood Loop",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1936 Muirwood Loop",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1945 Muirwood Loop",
+            "permit_address": "1933 Muirwood Loop",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108549,7 +108531,70 @@
           },
           {
             "permit_year": 2017.0,
+            "permit_address": "1953 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1945 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
             "permit_address": "1949 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1948 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1936 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1940 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1969 Muirwood Loop",
+            "permit_units": 1.0,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017.0,
+            "permit_address": "1964 Muirwood Loop",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108576,7 +108621,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1964 Muirwood Loop",
+            "permit_address": "1973 Muirwood Loop",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108585,16 +108630,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1969 Muirwood Loop",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1948 Muirwood Loop",
+            "permit_address": "1965 Muirwood Loop",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108612,43 +108648,7 @@
           },
           {
             "permit_year": 2017.0,
-            "permit_address": "1933 Muirwood Loop",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1957 Muirwood Loop",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1973 Muirwood Loop",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1940 Muirwood Loop",
-            "permit_units": 1.0,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017.0,
-            "permit_address": "1944 Muirwood Loop",
+            "permit_address": "840 Banbury Wy",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -108657,6 +108657,60 @@
           }
         ],
         "match_results_lax": [
+          {
+            "permit_year": 2017,
+            "permit_address": "1920 Muirwood Loop",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1944 Muirwood Loop",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1957 Muirwood Loop",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1941 Muirwood Loop",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1933 Muirwood Loop",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2017,
+            "permit_address": "1937 Muirwood Loop",
+            "permit_units": 1,
+            "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
           {
             "permit_year": 2017,
             "permit_address": "1953 Muirwood Loop",
@@ -108668,7 +108722,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1965 Muirwood Loop",
+            "permit_address": "1945 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108686,7 +108740,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1941 Muirwood Loop",
+            "permit_address": "1949 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108695,16 +108749,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "840 Banbury Wy",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "1920 Muirwood Loop",
+            "permit_address": "1948 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108722,7 +108767,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1945 Muirwood Loop",
+            "permit_address": "1940 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108731,7 +108776,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1937 Muirwood Loop",
+            "permit_address": "1969 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108740,7 +108785,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1949 Muirwood Loop",
+            "permit_address": "1964 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108767,7 +108812,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1964 Muirwood Loop",
+            "permit_address": "1973 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108776,16 +108821,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1969 Muirwood Loop",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "1948 Muirwood Loop",
+            "permit_address": "1965 Muirwood Loop",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -108803,43 +108839,7 @@
           },
           {
             "permit_year": 2017,
-            "permit_address": "1933 Muirwood Loop",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "1957 Muirwood Loop",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "1973 Muirwood Loop",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "1940 Muirwood Loop",
-            "permit_units": 1,
-            "permit_category": "SF",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2017,
-            "permit_address": "1944 Muirwood Loop",
+            "permit_address": "840 Banbury Wy",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -110980,7 +110980,7 @@
         "match_results": [
           {
             "permit_year": 2015.0,
-            "permit_address": "2958 Blumen Way",
+            "permit_address": "2960 Blumen Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -110989,7 +110989,7 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "2960 Blumen Way",
+            "permit_address": "2958 Blumen Way",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
@@ -111000,7 +111000,7 @@
         "match_results_lax": [
           {
             "permit_year": 2015,
-            "permit_address": "2958 Blumen Way",
+            "permit_address": "2960 Blumen Way",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -111009,7 +111009,7 @@
           },
           {
             "permit_year": 2015,
-            "permit_address": "2960 Blumen Way",
+            "permit_address": "2958 Blumen Way",
             "permit_units": 1,
             "permit_category": "SF",
             "match_type": [
@@ -125402,16 +125402,7 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "803 BAMBOO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "601 GARDENIA CT",
+            "permit_address": "292 PACIFICA DR",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -125429,61 +125420,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "606 GARDENIA CT",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "815 BAMBOO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "811 BAMBOO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "292 PACIFICA DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "801 BAMBOO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "812 BAMBOO DR",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "814 BAMBOO DR",
+            "permit_address": "605 GARDENIA CT",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -125501,7 +125438,25 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "605 GARDENIA CT",
+            "permit_address": "803 BAMBOO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "801 BAMBOO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "814 BAMBOO DR",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -125520,6 +125475,51 @@
           {
             "permit_year": 2018.0,
             "permit_address": "290 PACIFICA DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "606 GARDENIA CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "601 GARDENIA CT",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "812 BAMBOO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "811 BAMBOO DR",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "815 BAMBOO DR",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -125539,7 +125539,52 @@
         "match_results_lax": [
           {
             "permit_year": 2018,
-            "permit_address": "601 GARDENIA CT",
+            "permit_address": "292 PACIFICA DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "607 GARDENIA CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "813 BAMBOO DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "605 GARDENIA CT",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "817 BAMBOO DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "603 GARDENIA CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -125557,7 +125602,52 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "813 BAMBOO DR",
+            "permit_address": "814 BAMBOO DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "801 BAMBOO DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "811 BAMBOO DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "290 PACIFICA DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "812 BAMBOO DR",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "601 GARDENIA CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -125584,97 +125674,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "817 BAMBOO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "811 BAMBOO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "292 PACIFICA DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "814 BAMBOO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "812 BAMBOO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "801 BAMBOO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "603 GARDENIA CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
             "permit_address": "816 BAMBOO DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "605 GARDENIA CT",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "290 PACIFICA DR",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "607 GARDENIA CT",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -137135,7 +137135,7 @@
         "match_results": [
           {
             "permit_year": 2018.0,
-            "permit_address": "2111 SANGRIA ST",
+            "permit_address": "2100 SANGRIA ST",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -137153,16 +137153,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "2106 SANGRIA ST",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018.0,
-            "permit_address": "2100 SANGRIA ST",
+            "permit_address": "2112 SANGRIA ST",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -137180,7 +137171,7 @@
           },
           {
             "permit_year": 2018.0,
-            "permit_address": "2112 SANGRIA ST",
+            "permit_address": "2106 SANGRIA ST",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -137190,6 +137181,15 @@
           {
             "permit_year": 2018.0,
             "permit_address": "2105 SANGRIA ST",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2111 SANGRIA ST",
             "permit_units": 1.0,
             "permit_category": "SFD",
             "match_type": [
@@ -137200,7 +137200,7 @@
         "match_results_lax": [
           {
             "permit_year": 2018,
-            "permit_address": "2111 SANGRIA ST",
+            "permit_address": "2112 SANGRIA ST",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -137218,15 +137218,6 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "2106 SANGRIA ST",
-            "permit_units": 1,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
             "permit_address": "2099 SANGRIA ST",
             "permit_units": 1,
             "permit_category": "SFD",
@@ -137236,7 +137227,7 @@
           },
           {
             "permit_year": 2018,
-            "permit_address": "2112 SANGRIA ST",
+            "permit_address": "2106 SANGRIA ST",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -137246,6 +137237,15 @@
           {
             "permit_year": 2018,
             "permit_address": "2105 SANGRIA ST",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "2111 SANGRIA ST",
             "permit_units": 1,
             "permit_category": "SFD",
             "match_type": [
@@ -144222,7 +144222,25 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "2088 SANGRIA STREET",
+            "permit_address": "2081 SANGRIA STREET",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018.0,
+            "permit_address": "2100 SANGRIA ST",
+            "permit_units": 1.0,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "2087 SANGRIA STREET",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -144231,7 +144249,7 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "2081 SANGRIA STREET",
+            "permit_address": "2082 SANGRIA STREET",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -144248,17 +144266,8 @@
             ]
           },
           {
-            "permit_year": 2018.0,
-            "permit_address": "2100 SANGRIA ST",
-            "permit_units": 1.0,
-            "permit_category": "SFD",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
             "permit_year": 2019.0,
-            "permit_address": "2082 SANGRIA STREET",
+            "permit_address": "2088 SANGRIA STREET",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -144268,15 +144277,6 @@
           {
             "permit_year": 2019.0,
             "permit_address": "2076 SANGRIA STREET",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "2087 SANGRIA STREET",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -144296,27 +144296,9 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "2088 SANGRIA STREET",
-            "permit_units": 1,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
             "permit_address": "2081 SANGRIA STREET",
             "permit_units": 1,
             "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2018,
-            "permit_address": "2093 SANGRIA ST",
-            "permit_units": 1,
-            "permit_category": "SFD",
             "match_type": [
               "geo"
             ]
@@ -144341,7 +144323,34 @@
           },
           {
             "permit_year": 2019,
+            "permit_address": "2087 SANGRIA STREET",
+            "permit_units": 1,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
             "permit_address": "2082 SANGRIA STREET",
+            "permit_units": 1,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2018,
+            "permit_address": "2093 SANGRIA ST",
+            "permit_units": 1,
+            "permit_category": "SFD",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "2088 SANGRIA STREET",
             "permit_units": 1,
             "permit_category": "SFA",
             "match_type": [
@@ -144351,15 +144360,6 @@
           {
             "permit_year": 2019,
             "permit_address": "2076 SANGRIA STREET",
-            "permit_units": 1,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "2087 SANGRIA STREET",
             "permit_units": 1,
             "permit_category": "SFA",
             "match_type": [
@@ -150141,7 +150141,7 @@
         "match_results": [
           {
             "permit_year": 2019.0,
-            "permit_address": "1419 SANTORINI STREET",
+            "permit_address": "1413 SANTORINI STREET",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -150151,15 +150151,6 @@
           {
             "permit_year": 2019.0,
             "permit_address": "1407 SANTORINI STREET",
-            "permit_units": 1.0,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019.0,
-            "permit_address": "1425 SANTORINI STREET",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -150177,7 +150168,16 @@
           },
           {
             "permit_year": 2019.0,
-            "permit_address": "1413 SANTORINI STREET",
+            "permit_address": "1425 SANTORINI STREET",
+            "permit_units": 1.0,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019.0,
+            "permit_address": "1419 SANTORINI STREET",
             "permit_units": 1.0,
             "permit_category": "SFA",
             "match_type": [
@@ -150188,7 +150188,7 @@
         "match_results_lax": [
           {
             "permit_year": 2019,
-            "permit_address": "1419 SANTORINI STREET",
+            "permit_address": "1413 SANTORINI STREET",
             "permit_units": 1,
             "permit_category": "SFA",
             "match_type": [
@@ -150198,15 +150198,6 @@
           {
             "permit_year": 2019,
             "permit_address": "1407 SANTORINI STREET",
-            "permit_units": 1,
-            "permit_category": "SFA",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2019,
-            "permit_address": "1425 SANTORINI STREET",
             "permit_units": 1,
             "permit_category": "SFA",
             "match_type": [
@@ -150233,7 +150224,16 @@
           },
           {
             "permit_year": 2019,
-            "permit_address": "1413 SANTORINI STREET",
+            "permit_address": "1425 SANTORINI STREET",
+            "permit_units": 1,
+            "permit_category": "SFA",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2019,
+            "permit_address": "1419 SANTORINI STREET",
             "permit_units": 1,
             "permit_category": "SFA",
             "match_type": [

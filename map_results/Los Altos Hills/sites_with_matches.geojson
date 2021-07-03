@@ -105,33 +105,24 @@
           },
           {
             "permit_year": 2015.0,
-            "permit_address": "12830 Deer Creek",
-            "permit_units": 1.0,
-            "permit_category": "SU",
-            "match_type": [
-              "geo"
-            ]
-          },
-          {
-            "permit_year": 2015.0,
             "permit_address": "12810 Deer Creek",
             "permit_units": 1.0,
             "permit_category": "SF",
             "match_type": [
               "geo"
             ]
-          }
-        ],
-        "match_results_lax": [
+          },
           {
-            "permit_year": 2015,
+            "permit_year": 2015.0,
             "permit_address": "12830 Deer Creek",
-            "permit_units": 1,
-            "permit_category": "SF",
+            "permit_units": 1.0,
+            "permit_category": "SU",
             "match_type": [
               "geo"
             ]
-          },
+          }
+        ],
+        "match_results_lax": [
           {
             "permit_year": 2015,
             "permit_address": "12825 Deer Creek",
@@ -145,7 +136,7 @@
             "permit_year": 2015,
             "permit_address": "12830 Deer Creek",
             "permit_units": 1,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "geo"
             ]
@@ -155,6 +146,15 @@
             "permit_address": "12810 Deer Creek",
             "permit_units": 1,
             "permit_category": "SF",
+            "match_type": [
+              "geo"
+            ]
+          },
+          {
+            "permit_year": 2015,
+            "permit_address": "12830 Deer Creek",
+            "permit_units": 1,
+            "permit_category": "SU",
             "match_type": [
               "geo"
             ]
@@ -15135,7 +15135,7 @@
             "permit_year": 2019.0,
             "permit_address": "12355 Stonebrook Drive",
             "permit_units": 1.0,
-            "permit_category": "ADU",
+            "permit_category": "SFD",
             "match_type": [
               "apn",
               "geo"
@@ -15145,7 +15145,7 @@
             "permit_year": 2019.0,
             "permit_address": "12355 Stonebrook Drive",
             "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_category": "ADU",
             "match_type": [
               "apn",
               "geo"
@@ -15157,7 +15157,7 @@
             "permit_year": 2019.0,
             "permit_address": "12355 Stonebrook Drive",
             "permit_units": 1.0,
-            "permit_category": "ADU",
+            "permit_category": "SFD",
             "match_type": [
               "apn",
               "geo"
@@ -15167,7 +15167,7 @@
             "permit_year": 2019.0,
             "permit_address": "12355 Stonebrook Drive",
             "permit_units": 1.0,
-            "permit_category": "SFD",
+            "permit_category": "ADU",
             "match_type": [
               "apn",
               "geo"
@@ -16577,7 +16577,7 @@
             "permit_year": 2016.0,
             "permit_address": "11637 Dawson Drive",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -16587,7 +16587,7 @@
             "permit_year": 2016.0,
             "permit_address": "11637 Dawson Drive",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
@@ -16599,7 +16599,7 @@
             "permit_year": 2016.0,
             "permit_address": "11637 Dawson Drive",
             "permit_units": 1.0,
-            "permit_category": "SF",
+            "permit_category": "SU",
             "match_type": [
               "apn",
               "geo"
@@ -16609,7 +16609,7 @@
             "permit_year": 2016.0,
             "permit_address": "11637 Dawson Drive",
             "permit_units": 1.0,
-            "permit_category": "SU",
+            "permit_category": "SF",
             "match_type": [
               "apn",
               "geo"
