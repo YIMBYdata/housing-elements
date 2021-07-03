@@ -72,6 +72,9 @@ def _dedupe_matches(apn_matches: Optional[List[dict]], geo_matches: Optional[Lis
     for permit_tuple in geo_tuples:
         deduped_matches.append(make_match_dict(permit_tuple, ['geo']))
 
+    # Make the order deterministic, to avoid spurious diffs
+    deduped_matches = sorted(deduped_matches, key=lambda match: (match['permit_address'] is not None, match['permit_address']))
+
     return deduped_matches
 
 def combine_match_dfs(sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_merged_df: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
