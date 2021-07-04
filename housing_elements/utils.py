@@ -288,6 +288,19 @@ def load_rhna_targets() -> str:
         TARGETS = pd.read_csv(PARENT_DIR + '/data/raw_data/rhna_targets.txt', sep=', ', engine='python')
     return TARGETS
 
+SITE_TYPES_TO_EXCLUDE = [
+    'Approved',
+    'Built',
+    'Entitled',
+    'Planned and Approved',
+    'Under Construction',
+]
+
+
+VACANT_SITE_TYPES = ['Underutilized and Va', 'Vacant', 'Undeveloped', 'Open Space', 'Underutilized & Vaca', 'Vacant and Underutil']
+
+NONVACANT_SITE_TYPES = ['Opportunity', 'Underused site', 'Underutilized, margi', 'Non-Vacant', "Infill", 'underutilize', 'Underutilized']
+
 def load_site_inventory(city: str, exclude_approved_sites: bool = True, standardize_apn: bool = True, fix_realcap: bool = True) -> pd.DataFrame:
     """
     Return the 5th RHNA cycle site inventory for CITY.
@@ -305,17 +318,16 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, standard
     ), "city must be a jurisdiction in the inventory. Be sure to capitalize."
 
     rows_to_keep = sites_df.eval(f'jurisdict == "{city}" and rhnacyc == "RHNA5"').fillna(False)
-    #print(rows_to_keep)
+
     if exclude_approved_sites:
         # Keep sites where sitetype is null or sitetype != Approved.
         # I guess it's possible that some null rows are also pre-approved, but whatever. We can
         # document that as a potential data issue.
-        rows_to_keep &= (sites_df['sitetype'] != 'Approved').fillna(True)
-        #print(rows_to_keep)
+        rows_to_keep &= (sites_df['sitetype'].isin('Approved')).fillna(True)
 
     sites = sites_df[rows_to_keep].copy()
     sites.fillna(value=np.nan, inplace=True)
-    
+
     if fix_realcap:
         if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
             sites = remove_range_in_realcap(sites)
@@ -332,7 +344,7 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, standard
 
     sites = drop_constant_cols(sites)
     sites = add_cols_for_sitetype(sites)
-    
+
     if standardize_apn:
         sites = standardize_apn_format(sites, 'apn')
         sites = standardize_apn_format(sites, 'locapn')
@@ -348,11 +360,9 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, standard
     return sites
 
 def add_cols_for_sitetype(sites):
-    vacant = ['Underutilized and Va', 'Vacant', 'Undeveloped', 'Open Space', 'Underutilized & Vaca', 'Vacant and Underutil']
-    nonvacant = ['Opportunity', 'Underused site', 'Underutilized, margi', 'Non-Vacant', "Infill", 'underutilize', 'Underutilized']
-    sites['is_vacant'] = sites.sitetype.isin(vacant)
-    sites['is_nonvacant'] = sites.sitetype.isin(nonvacant)
-    sites['na_vacant'] = ~sites.sitetype.isin(vacant + nonvacant)
+    sites['is_vacant'] = sites.sitetype.isin(VACANT_SITE_TYPES)
+    sites['is_nonvacant'] = sites.sitetype.isin(NONVACANT_SITE_TYPES)
+    sites['na_vacant'] = ~sites.sitetype.isin(VACANT_SITE_TYPES + NONVACANT_SITE_TYPES)
     return sites
 
 def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
@@ -462,6 +472,8 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
 
 def get_rhna_target(city: str) -> float:
     rhna_targets = load_rhna_targets()
+    if city == 'Overall':
+        return rhna_targets['Total'].sum()
     with warnings.catch_warnings():
         warnings.simplefilter(action='ignore', category=FutureWarning)
         rhna_target = rhna_targets.query('City == @city')['Total'].values[0]

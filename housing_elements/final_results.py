@@ -233,6 +233,13 @@ def main():
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
 
+    # Add an "overall" row so that we have the overall stats in the final table
+    overall_sites = pd.concat([cities_with_sites[city] for city in cities])
+    overall_permits = pd.concat([cities_with_permits[city] for city in cities])
+    cities_with_sites['Overall'] = overall_sites
+    cities_with_permits['Overall'] = overall_permits
+    cities.append('Overall')
+
     print("Getting APN results...")
     apn_results_df = pd.DataFrame(
         parallel_process(
@@ -304,14 +311,15 @@ def main():
     combined_df.to_csv('results/combined_df.csv')
 
 
-    make_plots(results_both_df)
+    make_plots(results_both_df.query('City != "Overall"'))
 
     ground_truth_cities = ['Los Altos', 'San Francisco', 'San Jose']
     ground_truth_results_df = pd.DataFrame([get_ground_truth_results_for_city(city) for city in ground_truth_cities])
     ground_truth_results_df.to_csv('results/ground_truth_results.csv')
 
     # Additional summary stats for results section
-    get_additional_stats(results_both_df).to_csv('results/overall_summary_stats.csv')
+    get_additional_stats(results_both_df.query('City != "Overall"')).to_csv('results/overall_summary_stats.csv')
+    get_additional_stats(results_both_lax_df.query('City != "Overall"')).to_csv('results/overall_summary_stats_lax.csv')
 
 
 def find_n_matches_raw_apn(cities):
