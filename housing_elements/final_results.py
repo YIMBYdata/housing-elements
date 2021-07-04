@@ -335,7 +335,8 @@ def plot_pdev_vs_vacant_land(results_both_df):
     to_plot = pd.wide_to_long(results_both_df, stubnames='P(dev)', i=['City'], j='Vacant', suffix='.*')
     to_plot = to_plot.reset_index("Vacant")
     to_plot = to_plot[~(to_plot['Vacant'] == ' for inventory')]
-    to_plot = to_plot.replace({' for nonvacant sites':'nonvacant', ' for vacant sites': 'vacant'})
+    to_plot = to_plot.replace({' for nonvacant sites': 'nonvacant',
+                               ' for vacant sites': 'vacant'})
     
     to_barplot = to_plot.copy() 
     to_barplot['P(dev)'] = (to_plot['P(dev)'].values / .2).round(0) / 5
@@ -355,9 +356,9 @@ def plot_pdev_vs_vacant_land(results_both_df):
                 '.4 ≤ p < .6',
                 '.6 ≤ p < .8',
                 '.8 ≤ p ≤ 1']
-    sns.set(font_scale=1.1)
+    sea.set(font_scale=1.1)
     plt.figure(figsize=(8, 6))
-    ax = sns.countplot(x=to_barplot['P(dev)'], hue=to_barplot['Vacant'], data=to_barplot, order=order_ps)
+    ax = sea.countplot(x=to_barplot['P(dev)'], hue=to_barplot['Vacant'], data=to_barplot, order=order_ps)
     plt.legend(loc='upper right', title='Land')
     plt.title("Distribution of P(dev) Across Cities")
     plt.savefig('./figures/pdev_vs_vacancy.jpg')
@@ -377,9 +378,9 @@ def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_
     combined_df = results_both_df.merge(n_sites_df, on='City')
     
     # Plot
-    sns.set()
+    sea.set()
     plt.figure(figsize=(8, 6))
-    ax = sns.regplot(x=combined_df['n_sites'], y=combined_df['P(dev) for inventory'], truncate=True, robust=True)
+    ax = sea.regplot(x=combined_df['n_sites'], y=combined_df['P(dev) for inventory'], truncate=True, robust=True)
     ax.set(xscale="log")
     ax.set_ylim((-0.1, 1.1))
     plt.title('P(dev) as a function of site inventory size')
