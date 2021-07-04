@@ -563,33 +563,33 @@ def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bo
     permits = permits.to_crs('EPSG:3310')
 
     if lax:
-        # Buffer by 15 meters, which is about 50 feet, and take the closest match for each permit, to limit false positives
-        permits_buffered = permits.copy()
-        permits_buffered.geometry = permits_buffered.geometry.buffer(15)
-
-        # Get all pairs of sites, permits within 15 meters of each other. The geometry column will be the left dataframe by default
-        # (so the site geometry).
-        merged = gpd.sjoin(sites, permits_buffered, how='inner')
-
-        # Add permit location as a column
-        merged = merged.merge(
-            permits[['index_permits', 'geometry']].rename(columns={'geometry': 'permit_geometry'}),
-            on='index_permits',
-        )
-        merged['distance'] = gpd.GeoSeries(merged['geometry']).distance(gpd.GeoSeries(merged['permit_geometry']))
-
-        # Now, for each permit, only keep the closest site it matched to.
-        merged = merged.sort_values(['index_permits', 'distance']).drop_duplicates(['index_permits'], keep='first').reset_index(drop=True)
-
-        merged = merged.drop(columns=['permit_geometry', 'distance', 'index_sites', 'index_right', 'index_permits'])
-
-        return merged
-
+        # About 25 feet
+        buffer_meters = 8
     else:
-        # Buffer only 1 meter, to avoid false positives
-        permits.geometry = permits.geometry.buffer(1)
+        # About 3 feet
+        buffer_meters = 1
 
-        return gpd.sjoin(sites, permits, how='left')
+    # Buffer by N meters, and take the closest match for each permit, to limit false positives
+    permits_buffered = permits.copy()
+    permits_buffered.geometry = permits_buffered.geometry.buffer(buffer_meters)
+
+    # Get all pairs of sites, permits within N meters of each other.
+    # The geometry column will be taken the left dataframe (i.e. the site geometry).
+    merged = gpd.sjoin(sites, permits_buffered, how='inner')
+
+    # Add permit location as a column
+    merged = merged.merge(
+        permits[['index_permits', 'geometry']].rename(columns={'geometry': 'permit_geometry'}),
+        on='index_permits',
+    )
+    merged['distance'] = gpd.GeoSeries(merged['geometry']).distance(gpd.GeoSeries(merged['permit_geometry']))
+
+    # Now, for each permit, only keep the closest site it matched to.
+    merged = merged.sort_values(['index_permits', 'distance']).drop_duplicates(['index_permits'], keep='first').reset_index(drop=True)
+
+    merged = merged.drop(columns=['permit_geometry', 'distance', 'index_sites', 'index_right', 'index_permits'])
+
+    return merged
 
 
 def geocode_result_to_point(geocodio_result: dict) -> Optional[Point]:

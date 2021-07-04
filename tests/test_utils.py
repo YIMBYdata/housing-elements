@@ -15,14 +15,14 @@ sites = gpd.GeoDataFrame({
 
 permits = gpd.GeoDataFrame({
     'permit_id': [1],
-    'geometry': [Point(15.5, 2)],
+    'geometry': [Point(8.5, 2)],
     'permyear': ['2017'],
     'apn': ['A'],
 }, crs='EPSG:3310').to_crs('EPSG:3857')
 
 class TestUtils(unittest.TestCase):
     def test_merge_on_address_lax(self):
-        # Should be able to merge points within 15 meters, even if the inputs are not in a meters projection
+        # Should be able to merge points within 8 meters, even if the inputs are not in a meters projection
         merged = utils.merge_on_address(sites, permits, lax=True)
 
         expected = gpd.GeoDataFrame({
@@ -47,10 +47,10 @@ class TestUtils(unittest.TestCase):
             'geometry': [Point(1, 1), Point(1, 2), Point(1, 3)]
         }, crs='EPSG:3310').to_crs('EPSG:3857')
 
-        # This point is more than 15 meters away
+        # This point is more than 8 meters away
         permits = gpd.GeoDataFrame({
             'permit_id': [1],
-            'geometry': [Point(16.5, 2)],
+            'geometry': [Point(10.5, 2)],
         }, crs='EPSG:3310').to_crs('EPSG:3857')
 
         merged = utils.merge_on_address(sites, permits, lax=True)
