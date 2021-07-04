@@ -255,6 +255,17 @@ def main():
         )
     )
 
+    print("Getting geo lax results...")
+    results_geo_lax_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='geo', geo_matching_lax=True)
+                for city in cities
+            ],
+        )
+    )
+
     print("Getting apn or geo results...")
     results_both_df = pd.DataFrame(
         parallel_process(
@@ -279,13 +290,19 @@ def main():
 
     apn_results_df.to_csv('results/apn_matching_results.csv')
     results_geo_df.to_csv('results/geo_matching_results.csv')
+    results_geo_lax_df.to_csv('results/geo_matching_lax_results.csv')
     results_both_df.to_csv('results/apn_or_geo_matching_results.csv')
     results_both_lax_df.to_csv('results/apn_or_geo_matching_lax_results.csv')
 
-    # combined_df = apn_results_df.merge(results_geo_df, on='City', suffixes=[' (by APN)', ' (by geomatching)'])
-    # combined_df.to_csv('results/combined_df.csv')
+    combined_df = (
+        apn_results_df
+        .merge(results_geo_df, on='City', suffixes=[' (by APN)', ' (by geomatching)'])
+        .merge(results_geo_df, on='City', suffixes=['', ' (by lenient geomatching)'])
+        .merge(results_both_df, on='City', suffixes=['', ' (by APN or geomatching)'])
+        .merge(results_both_lax_df, on='City', suffixes=['', ' (by APN or lenient geomatching)'])
+    )
+    combined_df.to_csv('results/combined_df.csv')
 
-    # all_df = combined_df.merge(results_both_df, on='City', suffixes=['', ' union'])
 
     make_plots(results_both_df)
 
@@ -304,7 +321,7 @@ def find_n_matches_raw_apn(cities):
         permits_df = utils.load_all_new_building_permits(city, standardize_apn=False)
         city_matches, _, _ = utils.calculate_pdev_for_inventory(site_df, permits_df, 'apn')
         n_matches += city_matches
-    return n_matches 
+    return n_matches
 
 
 def find_city_where_apn_formatting_mattered(cities):
@@ -312,7 +329,7 @@ def find_city_where_apn_formatting_mattered(cities):
         site_raw = utils.load_site_inventory(city, standardize_apn=False)
         permits_raw = utils.load_all_new_building_permits(city, standardize_apn=False)
         n_matches_raw, _, _ = utils.calculate_pdev_for_inventory(site_raw, permits_raw, 'apn')
-        
+
         site_cln = utils.load_site_inventory(city, standardize_apn=True)
         permits_cln = utils.load_all_new_building_permits(city, standardize_apn=True)
         n_matches_cln, _, _ = utils.calculate_pdev_for_inventory(site_cln, permits_cln, 'apn')
@@ -330,24 +347,24 @@ def find_city_where_apn_formatting_mattered(cities):
                 print('Clean permits apn', permits_cln.loc[permit_idx].apn)
                 print('Raw permits apn', permits_raw.loc[permit_idx].apn)
             break
-    
+
 def plot_pdev_vs_vacant_land(results_both_df):
     to_plot = pd.wide_to_long(results_both_df, stubnames='P(dev)', i=['City'], j='Vacant', suffix='.*')
     to_plot = to_plot.reset_index("Vacant")
     to_plot = to_plot[~(to_plot['Vacant'] == ' for inventory')]
     to_plot = to_plot.replace({' for nonvacant sites': 'nonvacant',
                                ' for vacant sites': 'vacant'})
-    
-    to_barplot = to_plot.copy() 
+
+    to_barplot = to_plot.copy()
     to_barplot['P(dev)'] = (to_plot['P(dev)'].values / .2).round(0) / 5
-    to_barplot['P(dev)'] = to_barplot['P(dev)'].astype(str) 
+    to_barplot['P(dev)'] = to_barplot['P(dev)'].astype(str)
     to_barplot = to_barplot[to_barplot['P(dev)'] != 'nan']
-    
+
     p_map = {'0.0' : '0 ≤ p < .2',
          '0.2': '.2 ≤ p < .4',
          '0.4': '.4 ≤ p < .6',
          '0.6': '.6 ≤ p < .8',
-         '0.8': '.8 ≤ p ≤ 1', 
+         '0.8': '.8 ≤ p ≤ 1',
          '1.0':  '.8 ≤ p ≤ 1'}
     to_barplot = to_barplot.replace(p_map)
 
@@ -364,19 +381,18 @@ def plot_pdev_vs_vacant_land(results_both_df):
     plt.savefig('./figures/pdev_vs_vacancy.jpg')
 
 def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_permits):
-    
     city_n_sites = {}
 
     for city, sites in cities_with_sites.items():
         if city in cities_with_permits:
             city_n_sites[city] = len(sites.index)
-    
+
     # Include inventory size into results_df
     n_sites_df = pd.DataFrame.from_dict(city_n_sites, orient='index', columns=['n_sites'])
     n_sites_df = n_sites_df.reset_index()
     n_sites_df = n_sites_df.rename({'index': 'City'}, axis=1)
     combined_df = results_both_df.merge(n_sites_df, on='City')
-    
+
     # Plot
     sea.set()
     plt.figure(figsize=(8, 6))
@@ -387,6 +403,6 @@ def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_
     plt.ylabel("P(dev) for City's Inventory")
     plt.xlabel("# of Sites in City's Inventory")
     plt.savefig('./figures/pdev_vs_inventory_size.jpg')
-    
+
 if __name__ == '__main__':
     main()
