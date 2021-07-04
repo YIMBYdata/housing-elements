@@ -192,9 +192,12 @@ def _to_geojson_dict(row: pd.Series) -> dict:
         'properties': row.drop('geometry').to_dict()
     }
 
-def _write_geoseries_to_geojson(df: gpd.GeoDataFrame, path: Path) -> None:
+def write_geodataframe_to_geojson(df: gpd.GeoDataFrame, path: Path) -> None:
     # Browsers can't read JSON with NaN values.
     # I think None would be serialized as None, which is allowed.
+    if len(df) == 0:
+        raise ValueError("Cannot write empty GeoDataFrame")
+
     df = df.replace({np.nan: None})
 
     json_value = {
@@ -215,6 +218,7 @@ def write_matches_to_files(
 
     summary_info = []
 
+    import itertools
     for city, sites in tqdm(cities_with_sites.items()):
         if len(sites) == 0:
             # This is the case for Orinda (not sure how this happened); not sure if there are other cities
@@ -243,8 +247,8 @@ def write_matches_to_files(
 
             city_path = Path(output_dir, city)
             city_path.mkdir(parents=True, exist_ok=True)
-            _write_geoseries_to_geojson(matches_df, Path(output_dir, city, 'sites_with_matches.geojson'))
-            _write_geoseries_to_geojson(formatted_permits_df, Path(output_dir, city, 'permits.geojson'))
+            write_geodataframe_to_geojson(matches_df, Path(output_dir, city, 'sites_with_matches.geojson'))
+            write_geodataframe_to_geojson(formatted_permits_df, Path(output_dir, city, 'permits.geojson'))
 
             # Save the map bounds of the city
             min_lng, min_lat, max_lng, max_lat = sites.geometry.total_bounds
@@ -262,6 +266,26 @@ def write_matches_to_files(
 
     summary_df = pd.DataFrame(summary_info)
     summary_df.to_json(Path(output_dir, 'summary.json'), orient='records')
+
+    # Get rid of the numpy int/float types by round-tripping via JSON/dicts. Ugh this is so annoying
+    non_numpy_summary_df = pd.DataFrame.from_records(json.loads(summary_df.to_json(orient='records')))
+
+    city_shapes_df = gpd.read_file('data/raw_data/bay_area_map/bay.shp')[['city', 'geometry']]
+    city_shapes_df['city'] = city_shapes_df['city'].str.title()
+    city_shapes_df = city_shapes_df.merge(
+        non_numpy_summary_df,
+        on='city'
+    )
+    write_geodataframe_to_geojson(city_shapes_df, Path(output_dir, 'summary.geojson'))
+
+    # Same as summary.geojson, except the geometry is the centroid of each polygon rather than
+    # the whole shape. This is needed so that we can add labels to each city in Mapbox, and have the
+    # label be in the middle of the polygon. For whatever reason, Mapbox can't calculate the centroid
+    # itself, and it does this annoying thing where it labels each polygon in multiple places if you
+    # give it a polygon to add a text label to.
+    city_centroids_df = city_shapes_df.copy()
+    city_centroids_df.geometry = city_centroids_df.geometry.centroid
+    write_geodataframe_to_geojson(city_centroids_df, Path(output_dir, 'summary_centroids.geojson'))
 
 
 def get_match_stats(matches_df: pd.DataFrame) -> Dict[str, Dict[str, Union[float, int]]]:
