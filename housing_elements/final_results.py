@@ -296,5 +296,40 @@ def main():
     get_additional_stats(results_both_df).to_csv('results/overall_summary_stats.csv')
 
 
+def find_n_matches_raw_apn(cities):
+    n_matches = 0
+    for city in cities:
+        site_df = utils.load_site_inventory(city, standardize_apn=False)
+        permits_df = utils.load_all_new_building_permits(city, standardize_apn=False)
+        city_matches, _, _ = utils.calculate_pdev_for_inventory(site_df, permits_df, 'apn')
+        n_matches += city_matches
+    return n_matches 
+
+
+def find_city_where_apn_formatting_mattered(cities):
+    for city in cities:
+        site_raw = utils.load_site_inventory(city, standardize_apn=False)
+        permits_raw = utils.load_all_new_building_permits(city, standardize_apn=False)
+        n_matches_raw, _, _ = utils.calculate_pdev_for_inventory(site_raw, permits_raw, 'apn')
+        
+        site_cln = utils.load_site_inventory(city, standardize_apn=True)
+        permits_cln = utils.load_all_new_building_permits(city, standardize_apn=True)
+        n_matches_cln, _, _ = utils.calculate_pdev_for_inventory(site_cln, permits_cln, 'apn')
+
+        if n_matches_raw != n_matches_cln:
+            matching_cln_site_indexes = site_cln[site_cln.apn.isin(permits_cln.apn)].index
+            matching_raw_site_indexes = site_raw[site_raw.apn.isin(permits_raw.apn)].index
+            new_matches_idx = list(set(matching_cln_site_indexes) - set(matching_raw_site_indexes))
+            print(city)
+            for idx in new_matches_idx:
+                apn = site_cln.loc[idx].apn
+                print('Clean sites apn', apn)
+                print('Raw sites apn', site_raw.loc[idx].apn)
+                permit_idx = permits_cln[permits_cln.apn == apn].index[0]
+                print('Clean permits apn', permits_cln.loc[permit_idx].apn)
+                print('Raw permits apn', permits_raw.loc[permit_idx].apn)
+            break
+    
+    
 if __name__ == '__main__':
     main()
