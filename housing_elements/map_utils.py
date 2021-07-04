@@ -73,9 +73,13 @@ def _dedupe_matches(apn_matches: Optional[List[dict]], geo_matches: Optional[Lis
         deduped_matches.append(make_match_dict(permit_tuple, ['geo']))
 
     # Make the order deterministic, to avoid spurious diffs
-    deduped_matches = sorted(deduped_matches, key=lambda match: (match['permit_address'] is not None, match['permit_address']))
+    deduped_matches = sorted(deduped_matches, key=sort_key)
 
     return deduped_matches
+
+def sort_key(permit_dict):
+    keys = ['permit_address', 'permit_year', 'permit_units', 'permit_category', 'match_type']
+    return tuple([(permit_dict[key] is not None, permit_dict[key]) for key in keys])
 
 def combine_match_dfs(sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_merged_df: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
 
@@ -269,6 +273,8 @@ def get_match_stats(matches_df: pd.DataFrame) -> Dict[str, Dict[str, Union[float
         'apn': _match_stats(matches_df['apn_matched']),
         'geo': _match_stats(matches_df['geo_matched']),
         'either': _match_stats(matches_df['apn_matched'] | matches_df['geo_matched']),
+        'geo_lax': _match_stats(matches_df['geo_matched_lax']),
+        'either_lax': _match_stats(matches_df['apn_matched'] | matches_df['geo_matched_lax']),
     }
 
 def _match_stats(match_indicators: pd.Series) -> Dict[str, Union[float, int]]:
