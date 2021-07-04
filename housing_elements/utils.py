@@ -288,7 +288,7 @@ def load_rhna_targets() -> str:
         TARGETS = pd.read_csv(PARENT_DIR + '/data/raw_data/rhna_targets.txt', sep=', ', engine='python')
     return TARGETS
 
-def load_site_inventory(city: str, exclude_approved_sites: bool = True, standardize_apn: bool = True) -> pd.DataFrame:
+def load_site_inventory(city: str, exclude_approved_sites: bool = True, standardize_apn: bool = True, fix_realcap: bool = True) -> pd.DataFrame:
     """
     Return the 5th RHNA cycle site inventory for CITY.
 
@@ -315,13 +315,14 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, standard
 
     sites = sites_df[rows_to_keep].copy()
     sites.fillna(value=np.nan, inplace=True)
-
-    if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
-        sites = remove_range_in_realcap(sites)
-    if city in ('Danville', 'San Ramon', 'Corte Madera', 'Portola Valley'):
-        sites = remove_units_in_realcap(sites)
-    if city == 'El Cerrito':
-        sites = fix_el_cerrito_realcap(sites)
+    
+    if fix_realcap:
+        if city in ('Oakland', 'Los Altos Hills', 'Napa County', 'Newark'):
+            sites = remove_range_in_realcap(sites)
+        if city in ('Danville', 'San Ramon', 'Corte Madera', 'Portola Valley'):
+            sites = remove_units_in_realcap(sites)
+        if city == 'El Cerrito':
+            sites = fix_el_cerrito_realcap(sites)
 
     is_null_realcap = sites.relcapcty.isna()
     sites['realcap_not_listed'] = is_null_realcap
