@@ -323,7 +323,7 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, standard
         # Keep sites where sitetype is null or sitetype != Approved.
         # I guess it's possible that some null rows are also pre-approved, but whatever. We can
         # document that as a potential data issue.
-        rows_to_keep &= (sites_df['sitetype'].isin('Approved')).fillna(True)
+        rows_to_keep &= (~sites_df['sitetype'].isin(SITE_TYPES_TO_EXCLUDE)).fillna(True)
 
     sites = sites_df[rows_to_keep].copy()
     sites.fillna(value=np.nan, inplace=True)

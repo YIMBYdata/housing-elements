@@ -1,4 +1,4 @@
-,Site type,Overall development rate,Num sites,Median P(dev),Mean P(dev)
-0,All,6.7%,15865,8.6%,14.4%
-1,Nonvacant,4.0%,7790,2.9%,8.6%
-2,Vacant,6.5%,5270,9.4%,16.6%
+Site type,Overall development rate,Num sites,Median P(dev),Mean P(dev)
+All,6.3%,15750,8.6%,14.2%
+Nonvacant,4.0%,7790,2.9%,8.6%
+Vacant,6.5%,5270,9.4%,16.6%

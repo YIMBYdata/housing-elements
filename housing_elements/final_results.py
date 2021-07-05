@@ -113,14 +113,24 @@ def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
     permits = utils.load_all_new_building_permits(city)
     sites = utils.load_site_inventory(city)
 
+    if city == 'San Jose':
+        # the San Jose data already has "San Jose, CA" at the end
+        address_suffix = None
+    else:
+        address_suffix = ', ' + city + ', CA'
+
+    if not isinstance(permits, gpd.GeoDataFrame):
+        permits = gpd.GeoDataFrame(permits, geometry=None, crs='EPSG:3857')
+    permits = utils.impute_missing_geometries(permits, address_suffix)
+
     return {
         'City': city,
         'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
         'P(inventory) for homes built': utils.calculate_pinventory_for_dev(sites, permits),
-        'P(dev) for nonvacant sites': utils.calculate_pdev_for_nonvacant_sites(sites, permits),
-        'P(dev) for vacant sites': utils.calculate_pdev_for_vacant_sites(sites, permits),
-        'P(dev) for inventory': utils.calculate_pdev_for_inventory(sites, permits),
+        'P(dev) for nonvacant sites': utils.calculate_pdev_for_nonvacant_sites(sites, permits, match_by='both', geo_matching_lax=True),
+        'P(dev) for vacant sites': utils.calculate_pdev_for_vacant_sites(sites, permits, match_by='both', geo_matching_lax=True),
+        'P(dev) for inventory': utils.calculate_pdev_for_inventory(sites, permits, match_by='both', geo_matching_lax=True),
     }
 
 
@@ -295,31 +305,31 @@ def main():
         )
     )
 
-    apn_results_df.to_csv('results/apn_matching_results.csv')
-    results_geo_df.to_csv('results/geo_matching_results.csv')
-    results_geo_lax_df.to_csv('results/geo_matching_lax_results.csv')
-    results_both_df.to_csv('results/apn_or_geo_matching_results.csv')
-    results_both_lax_df.to_csv('results/apn_or_geo_matching_lax_results.csv')
+    apn_results_df.to_csv('results/apn_matching_results.csv', index=False)
+    results_geo_df.to_csv('results/geo_matching_results.csv', index=False)
+    results_geo_lax_df.to_csv('results/geo_matching_lax_results.csv', index=False)
+    results_both_df.to_csv('results/apn_or_geo_matching_results.csv', index=False)
+    results_both_lax_df.to_csv('results/apn_or_geo_matching_lax_results.csv', index=False)
 
     combined_df = (
         apn_results_df
-        .merge(results_geo_df, on='City', suffixes=[' (by APN)', ' (by geomatching)'])
-        .merge(results_geo_df, on='City', suffixes=['', ' (by lenient geomatching)'])
-        .merge(results_both_df, on='City', suffixes=['', ' (by APN or geomatching)'])
+        .merge(results_geo_df, on='City', suffixes=[' (by APN)', ' (by conservative geomatching)'])
+        .merge(results_geo_lax_df, on='City', suffixes=['', ' (by lenient geomatching)'])
+        .merge(results_both_df, on='City', suffixes=['', ' (by APN or conservative geomatching)'])
         .merge(results_both_lax_df, on='City', suffixes=['', ' (by APN or lenient geomatching)'])
     )
-    combined_df.to_csv('results/combined_df.csv')
+    combined_df.to_csv('results/combined_df.csv', index=False)
 
 
     make_plots(results_both_df.query('City != "Overall"'))
 
     ground_truth_cities = ['Los Altos', 'San Francisco', 'San Jose']
     ground_truth_results_df = pd.DataFrame([get_ground_truth_results_for_city(city) for city in ground_truth_cities])
-    ground_truth_results_df.to_csv('results/ground_truth_results.csv')
+    ground_truth_results_df.to_csv('results/ground_truth_results.csv', index=False)
 
     # Additional summary stats for results section
-    get_additional_stats(results_both_df.query('City != "Overall"')).to_csv('results/overall_summary_stats.csv')
-    get_additional_stats(results_both_lax_df.query('City != "Overall"')).to_csv('results/overall_summary_stats_lax.csv')
+    get_additional_stats(results_both_df.query('City != "Overall"')).to_csv('results/overall_summary_stats.csv', index=False)
+    get_additional_stats(results_both_lax_df.query('City != "Overall"')).to_csv('results/overall_summary_stats_lax.csv', index=False)
 
 
 def find_n_matches_raw_apn(cities):

@@ -16,17 +16,17 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
     date_cols = ['Issued', 'Finaled', 'Applied']
     permits[date_cols] = permits[date_cols].apply(pd.to_datetime)
     renaming_map = {
-        'APN': 'apn', 
-        'RHNA.Date': 'permyear', 
+        'APN': 'apn',
+        'RHNA.Date': 'permyear',
         'Site.Address': 'address',
         'net': 'totalunit'
     }
     permits = permits.rename(renaming_map, axis=1)
-    
+
     if filter_post_2015_new_construction:
         permits = permits.query('permyear >= 2015')
-    
+
     if dedupe:
         permits = permits.sort_values('totalunit', ascending=False).drop_duplicates('apn')
-    
+
     return permits
