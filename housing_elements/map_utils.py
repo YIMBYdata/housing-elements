@@ -81,8 +81,6 @@ def combine_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, matche
             .apply(lambda group: [flattened_permits[i] for i in group['permits_index']])
         )
 
-    # print(matches)
-
     output_df['apn_match_results'] = make_matches_series(matches.apn_matches, output_df.index)
     output_df['geo_match_results'] = make_matches_series(matches.geo_matches, output_df.index)
     output_df['geo_match_results_lax'] = make_matches_series(matches.geo_matches_lax, output_df.index)
