@@ -7,7 +7,7 @@ import numpy as np
 import seaborn as sea
 import logging
 from shapely.geometry import Point
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple, NamedTuple
 from pandas.api.types import is_numeric_dtype
 import matplotlib.pyplot as plt
 import contextily as ctx
@@ -480,26 +480,50 @@ def get_rhna_target(city: str) -> float:
     return rhna_target
 
 
-def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> pd.DataFrame:
+    """
+    :return: a DataFrame with two columns, 'sites_index' and 'permits_index', indicating which rows
+    in `sites` and `permits` were matched.
+    """
+    assert sites.index.nunique() == len(sites.index)
+    assert permits.index.nunique() == len(permits.index)
+
+    sites = sites.rename_axis('sites_index').reset_index()[['sites_index', 'apn', 'locapn']]
+    permits = permits.rename_axis('permits_index').reset_index()[['permits_index', 'apn']]
+
     merged_df_1 = sites.merge(
         permits,
         left_on='apn',
         right_on='apn',
-        how='left',
     )
 
     merged_df_2 = sites.merge(
         permits,
         left_on='locapn',
         right_on='apn',
-        how='left',
     )
 
-    return [merged_df_1, merged_df_2]
+    return pd.concat([merged_df_1, merged_df_2])[['sites_index', 'permits_index']].drop_duplicates()
 
+
+class Matches(NamedTuple):
+    apn_matches: pd.DataFrame
+    geo_matches: pd.DataFrame
+    geo_matches_lax: pd.DataFrame
+
+def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Matches:
+    """
+    Helper function to precompute all matches. This should speed up all the downstream functions that depend on matching logic,
+    so that we only compute them once.
+    """
+    apn_matches = merge_on_apn(sites, permits)
+    geo_matches = merge_on_address(sites, permits)
+    geo_matches_lax = merge_on_address(sites, permits, lax=True)
+
+    return Matches(apn_matches, geo_matches, geo_matches_lax)
 
 def calculate_pdev_for_inventory(
-    sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False
 ) -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -512,51 +536,56 @@ def calculate_pdev_for_inventory(
     if match_by not in ['apn', 'geo', 'both']:
         raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
 
-    sites = sites.copy()
-    sites['index'] = pd.RangeIndex(len(sites))
-
     match_dfs = []
     if match_by in ['apn', 'both']:
-        # Select just a few columns before merging, because it makes it wayyy faster
-        match_dfs.extend(merge_on_apn(sites[['index', 'apn', 'locapn']], permits[['apn', 'permyear']]))
+        match_dfs.append(matches.apn_matches)
 
     if match_by in ['geo', 'both']:
-        merged_df = merge_on_address(
-            sites[['index', 'apn', 'geometry']],
-            permits[['apn', 'permyear', 'geometry']],
-            lax=geo_matching_lax
-        )
-        match_dfs.append(merged_df)
+        if geo_matching_lax:
+            match_dfs.append(matches.geo_matches_lax)
+        else:
+            match_dfs.append(matches.geo_matches)
 
-    # Add a copy of each site, with empty matches, as our "default" output row for each site if it was not matched.
-    null_rows = sites[['index', 'apn', 'locapn']]
+    matched_site_indices = pd.concat(match_dfs)['sites_index']
 
-    match_df = pd.concat(match_dfs + [null_rows])
-
-    # dedupe, keeping the one that is merged
-    match_df = match_df.sort_values('permyear', na_position='last').drop_duplicates(['index'], keep='first')
-
-    assert len(match_df) == len(sites)
-
-    is_match = match_df['permyear'].notnull()
+    is_match = sites.index.isin(matched_site_indices)
 
     return is_match.sum(), len(sites), is_match.mean()
 
 
 def calculate_pdev_for_vacant_sites(
-        sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
+        sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites.is_vacant].copy()
-    return calculate_pdev_for_inventory(vacant_rows, permits, match_by)
+    return calculate_pdev_for_inventory(vacant_rows, matches, match_by)
 
 
 def calculate_pdev_for_nonvacant_sites(
-        sites: pd.DataFrame, permits: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
+        sites: pd.DataFrame, matches: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
-    return calculate_pdev_for_inventory(nonvacant_rows, permits, match_by)
+    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by)
+
+# def merge_with_indices(match_indices: pd.DataFrame, sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+#     """
+#     For combining the result from `merge_on_apn` or `merge_on_address` with the original GeoDataFrames, to add back
+#     columns from.
+#     """
+#     merged = match_indices.merge(
+#         sites.rename_axis('sites_index').reset_index(),
+#         on='sites_index'
+#     )
+
+#     merged = merged.merge(
+#         permits.rename_axis('permits_index').reset_index(),
+#         on='permits_index'
+#     )
+
+#     merged = merged.drop(columns=['sites_index', 'permits_index'])
+
+#     return merged
 
 
 def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bool = False) -> gpd.GeoDataFrame:
@@ -564,11 +593,11 @@ def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bo
     Returns all matches. Length of output is between 0 and len(permits). A site could be repeated, if it was matched with
     multiple permits.
     """
-    sites = sites[sites['geometry'].notnull()].copy().reset_index(drop=True)
-    permits = permits[permits['geometry'].notnull()].copy().reset_index(drop=True)
+    assert sites.index.nunique() == len(sites.index)
+    assert permits.index.nunique() == len(permits.index)
 
-    sites['index_sites'] = pd.RangeIndex(len(sites))
-    permits['index_permits'] = pd.RangeIndex(len(permits))
+    sites = sites[['geometry']][sites['geometry'].notnull()].rename_axis('sites_index').reset_index()
+    permits = permits[['geometry']][permits['geometry'].notnull()].rename_axis('permits_index').reset_index()
 
     # Switch to the most common projection for California. (It's in meters.)
     sites = sites.to_crs('EPSG:3310')
@@ -591,17 +620,15 @@ def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bo
 
     # Add permit location as a column
     merged = merged.merge(
-        permits[['index_permits', 'geometry']].rename(columns={'geometry': 'permit_geometry'}),
-        on='index_permits',
+        permits.rename(columns={'geometry': 'permit_geometry'}),
+        on='permits_index',
     )
     merged['distance'] = gpd.GeoSeries(merged['geometry']).distance(gpd.GeoSeries(merged['permit_geometry']))
 
     # Now, for each permit, only keep the closest site it matched to.
-    merged = merged.sort_values(['index_permits', 'distance']).drop_duplicates(['index_permits'], keep='first').reset_index(drop=True)
+    merged = merged.sort_values(['permits_index', 'distance']).drop_duplicates(['permits_index'], keep='first').reset_index(drop=True)
 
-    merged = merged.drop(columns=['permit_geometry', 'distance', 'index_sites', 'index_right', 'index_permits'])
-
-    return merged
+    return merged[['sites_index', 'permits_index']].copy()
 
 
 def geocode_result_to_point(geocodio_result: dict) -> Optional[Point]:

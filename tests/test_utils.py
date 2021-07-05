@@ -25,21 +25,12 @@ class TestUtils(unittest.TestCase):
         # Should be able to merge points within 8 meters, even if the inputs are not in a meters projection
         merged = utils.merge_on_address(sites, permits, lax=True)
 
-        expected = gpd.GeoDataFrame({
-            'site_id': [2],
-            'apn_left': ['2'],
-            'locapn': ['2'],
-            'geometry': pd.Series([Point(1, 2)], dtype='geometry'),
-            'permit_id': [1],
-            'permyear': ['2017'],
-            'apn_right': ['A'],
-        }, crs='EPSG:3310')
+        expected = pd.DataFrame({
+            'sites_index': [1],
+            'permits_index': [0],
+        })
 
-        # This roundtrip is needed because there is some rounding error from converting to WebMercator
-        # and back to the California projection.
-        expected = expected.to_crs('EPSG:3857').to_crs('EPSG:3310')
-
-        assert_frame_equal(pd.DataFrame(merged), pd.DataFrame(expected))
+        assert_frame_equal(merged, expected)
 
     def test_merge_on_address_lax_too_far(self):
         sites = gpd.GeoDataFrame({
@@ -58,14 +49,16 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(len(merged), 0)
 
     def test_calculate_pdev_for_inventory_geo(self):
-        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, permits, match_by='geo', geo_matching_lax=False)
+        matches = utils.get_all_matches(sites, permits)
+        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, matches, match_by='geo', geo_matching_lax=False)
 
         self.assertEqual(num_matches, 0)
         self.assertEqual(num_sites, 3)
         self.assertEqual(match_rate, 0)
 
     def test_calculate_pdev_for_inventory_geo_lax(self):
-        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, permits, match_by='geo', geo_matching_lax=True)
+        matches = utils.get_all_matches(sites, permits)
+        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, matches, match_by='geo', geo_matching_lax=True)
 
         self.assertEqual(num_matches, 1)
         self.assertEqual(num_sites, 3)
