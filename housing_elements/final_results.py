@@ -243,28 +243,28 @@ def main():
         with open('cities_with_permits_cache.pkl', 'wb') as f:
             pickle.dump(cities_with_permits, f)
 
-    # Dump match results to JSON, for use in website
-    print("Creating JSON output for map...")
-    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'))
-
-    return
-
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
-
-    # Add an "overall" row so that we have the overall stats in the final table
-    overall_sites = pd.concat([cities_with_sites[city] for city in cities])
-    overall_permits = pd.concat([cities_with_permits[city] for city in cities])
-    cities_with_sites['Overall'] = overall_sites
-    cities_with_permits['Overall'] = overall_permits
-    cities.append('Overall')
 
     print("Computing all matches...")
     all_matches = parallel_process(
         get_all_matches_kwargs,
-        [(cities_with_sites[city], cities_with_permits[city]) for city in cities]
+        [{'sites': cities_with_sites[city], 'permits': cities_with_permits[city]} for city in cities]
     )
     all_matches = dict(zip(cities, all_matches))
+
+    # Dump match results to JSON, for use in website
+    print("Creating JSON output for map...")
+    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
+
+    # Add an "overall" row so that we have the overall stats in the final table
+    overall_sites = pd.concat([cities_with_sites[city] for city in cities])
+    overall_permits = pd.concat([cities_with_permits[city] for city in cities], ignore_index=True)
+    cities_with_sites['Overall'] = overall_sites
+    cities_with_permits['Overall'] = overall_permits
+    all_matches['Overall'] = utils.get_all_matches(overall_sites, overall_permits)
+    cities.append('Overall')
+
 
     print("Getting APN results...")
     apn_results_df = pd.DataFrame(

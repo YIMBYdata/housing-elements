@@ -201,7 +201,8 @@ def write_geodataframe_to_geojson(df: gpd.GeoDataFrame, path: Path) -> None:
 def write_matches_to_files(
     cities_with_sites: Dict[str, gpd.GeoDataFrame],
     cities_with_permits: Dict[str, pd.DataFrame],
-    output_dir: Path
+    output_dir: Path,
+    all_matches: Dict[str, utils.Matches] = None,
 ) -> None:
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
@@ -216,7 +217,11 @@ def write_matches_to_files(
 
         permits = cities_with_permits.get(city)
         if permits is not None:
-            matches = utils.get_all_matches(sites, permits)
+            if all_matches is not None:
+                matches = all_matches[city]
+            else:
+                matches = utils.get_all_matches(sites, permits)
+
             matches_df = combine_match_dfs(sites, permits, matches)
 
             formatted_permits_df = permits[['permyear', 'address', 'totalunit', 'hcategory', 'geometry']].rename(
