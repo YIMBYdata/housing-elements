@@ -568,25 +568,6 @@ def calculate_pdev_for_nonvacant_sites(
     nonvacant_rows = sites[sites.is_nonvacant].copy()
     return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by)
 
-# def merge_with_indices(match_indices: pd.DataFrame, sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-#     """
-#     For combining the result from `merge_on_apn` or `merge_on_address` with the original GeoDataFrames, to add back
-#     columns from.
-#     """
-#     merged = match_indices.merge(
-#         sites.rename_axis('sites_index').reset_index(),
-#         on='sites_index'
-#     )
-
-#     merged = merged.merge(
-#         permits.rename_axis('permits_index').reset_index(),
-#         on='permits_index'
-#     )
-
-#     merged = merged.drop(columns=['sites_index', 'permits_index'])
-
-#     return merged
-
 
 def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bool = False) -> gpd.GeoDataFrame:
     """

@@ -106,68 +106,6 @@ def combine_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, matche
     )
     return output_df
 
-def plot_city_interactive(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> None:
-    m = folium.Map()
-
-    min_lng, min_lat, max_lng, max_lat = sites.geometry.total_bounds
-    m.fit_bounds([(min_lat, min_lng), (max_lat, max_lng)])
-
-    apn_merged_df, geo_merged_df = get_match_dfs(sites, permits)
-
-    def make_label_string(group: pd.DataFrame) -> str:
-        return (
-            ', '.join(
-                group['address']
-                + ' (' + group['relcapcty'].astype(str) + ' units expected, '
-                + group['totalunit'].astype(str) + ' units built, type ' + group['hcategory'].astype(str) + ')'
-            )
-        )
-
-    # apn_matches = apn_merged_df.groupby('index').apply(make_label_string).to_dict()
-    # geo_matches = geo_merged_df.groupby('index').apply(make_label_string).to_dict()
-
-    for _, row in sites.iterrows():
-        assert isinstance(row.geometry, shapely.geometry.Polygon)
-
-        apn_addresses = apn_matches.get(row['index'])
-        geo_addresses = geo_matches.get(row['index'])
-
-        if apn_addresses and geo_addresses:
-            color = 'green'
-            text = f'APN-matched to {apn_addresses}; geo-matched to {geo_addresses}'
-        elif apn_addresses:
-            color = 'yellow'
-            text = f'APN-matched to {apn_addresses}'
-        elif geo_addresses:
-            color = 'blue'
-            text = f'Geo-matched to {geo_addresses}'
-        else:
-            color = 'red'
-            text = None
-
-        m.add_child(
-            folium.Polygon(
-                shapely_polygon_to_coords(row.geometry),
-                color=color,
-                fill='true',
-                tooltip=text,
-            )
-        )
-
-    for _, row in permits.iterrows():
-        text = f'{row["totalunit"]} units built, type {row["hcategory"]} ({row["permyear"]})'
-
-        m.add_child(
-            folium.Polygon(
-                [(row.geometry.y, row.geometry.x)],
-                color='green',
-                weight=8,
-                fill='true',
-                tooltip=text,
-            )
-        )
-
-    return m
 
 def _to_geojson_dict(row: pd.Series) -> dict:
     """
