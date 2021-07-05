@@ -73,17 +73,18 @@ def get_results_for_city(
     city: str,
     sites: gpd.GeoDataFrame,
     permits: gpd.GeoDataFrame,
+    matches: Matches,
     match_by: str,
     geo_matching_lax: bool = False,
 ) -> pd.DataFrame:
     nonvacant_matches, nonvacant_sites, nonvacant_ratio = utils.calculate_pdev_for_nonvacant_sites(
-        sites, permits, match_by, geo_matching_lax
+        sites, matches, match_by, geo_matching_lax
     )
     vacant_matches, vacant_sites, vacant_ratio = utils.calculate_pdev_for_vacant_sites(
-        sites, permits, match_by, geo_matching_lax
+        sites, matches, match_by, geo_matching_lax
     )
     all_matches, all_sites, all_ratio = utils.calculate_pdev_for_inventory(
-        sites, permits, match_by, geo_matching_lax
+        sites, matches, match_by, geo_matching_lax
     )
 
     return {
@@ -123,14 +124,16 @@ def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
         permits = gpd.GeoDataFrame(permits, geometry=None, crs='EPSG:3857')
     permits = utils.impute_missing_geometries(permits, address_suffix)
 
+    matches = utils.get_all_matches(sites, permits)
+
     return {
         'City': city,
         'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
         'P(inventory) for homes built': utils.calculate_pinventory_for_dev(sites, permits),
-        'P(dev) for nonvacant sites': utils.calculate_pdev_for_nonvacant_sites(sites, permits, match_by='both', geo_matching_lax=True),
-        'P(dev) for vacant sites': utils.calculate_pdev_for_vacant_sites(sites, permits, match_by='both', geo_matching_lax=True),
-        'P(dev) for inventory': utils.calculate_pdev_for_inventory(sites, permits, match_by='both', geo_matching_lax=True),
+        'P(dev) for nonvacant sites': utils.calculate_pdev_for_nonvacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
+        'P(dev) for vacant sites': utils.calculate_pdev_for_vacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
+        'P(dev) for inventory': utils.calculate_pdev_for_inventory(sites, matches, match_by='both', geo_matching_lax=True),
     }
 
 
@@ -216,6 +219,10 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     plt.savefig('./figures/rhna_vs_pdev.png')
 
 
+def get_all_matches_kwargs(kwargs):
+    return utils.get_all_matches(**kwargs)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--use-cache', action='store_true')
@@ -240,6 +247,8 @@ def main():
     print("Creating JSON output for map...")
     map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'))
 
+    return
+
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
 
@@ -250,12 +259,19 @@ def main():
     cities_with_permits['Overall'] = overall_permits
     cities.append('Overall')
 
+    print("Computing all matches...")
+    all_matches = parallel_process(
+        get_all_matches_kwargs,
+        [(cities_with_sites[city], cities_with_permits[city]) for city in cities]
+    )
+    all_matches = dict(zip(cities, all_matches))
+
     print("Getting APN results...")
     apn_results_df = pd.DataFrame(
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='apn')
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='apn')
                 for city in cities
             ],
         )
@@ -266,7 +282,7 @@ def main():
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='geo')
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo')
                 for city in cities
             ],
         )
@@ -277,7 +293,7 @@ def main():
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='geo', geo_matching_lax=True)
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_lax=True)
                 for city in cities
             ],
         )
@@ -288,7 +304,7 @@ def main():
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='both')
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both')
                 for city in cities
             ],
         )
@@ -299,7 +315,7 @@ def main():
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], match_by='both', geo_matching_lax=True)
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_lax=True)
                 for city in cities
             ],
         )

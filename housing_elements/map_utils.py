@@ -1,3 +1,4 @@
+from __future__ import annotations
 from typing import Dict, List, Optional, Tuple, Union
 from pathlib import Path
 import json
@@ -15,28 +16,6 @@ from . import utils
 
 def shapely_polygon_to_coords(shape: shapely.geometry.Polygon) -> List[Tuple[float, float]]:
     return [(lat, lng) for lng, lat in shape.exterior.coords]
-
-def get_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Tuple[pd.DataFrame, gpd.GeoDataFrame, gpd.GeoDataFrame]:
-    # Add a unique identifier for each row
-    sites['index'] = pd.RangeIndex(len(sites))
-
-    apn_merged_df = pd.concat(utils.merge_on_apn(
-        sites[['index', 'apn', 'locapn', 'relcapcty', 'sitetype']],
-        permits[['apn', 'address', 'totalunit', 'permyear', 'hcategory']]
-    )).dropna(subset=['permyear'])
-
-    geo_merged_df = utils.merge_on_address(
-        sites[['index', 'apn', 'geometry', 'relcapcty', 'sitetype']],
-        permits[['apn', 'permyear', 'address', 'totalunit', 'hcategory', 'geometry']]
-    ).dropna(subset=['permyear'])
-
-    geo_merged_lax_df = utils.merge_on_address(
-        sites[['index', 'apn', 'geometry', 'relcapcty', 'sitetype']],
-        permits[['apn', 'permyear', 'address', 'totalunit', 'hcategory', 'geometry']],
-        lax=True
-    ).dropna(subset=['permyear'])
-
-    return apn_merged_df, geo_merged_df, geo_merged_lax_df
 
 def _dedupe_matches(apn_matches: Optional[List[dict]], geo_matches: Optional[List[dict]]) -> List[dict]:
     apn_matches = apn_matches or []
@@ -81,109 +60,53 @@ def sort_key(permit_dict):
     keys = ['permit_address', 'permit_year', 'permit_units', 'permit_category', 'match_type']
     return tuple([(permit_dict[key] is not None, permit_dict[key]) for key in keys])
 
-def combine_match_dfs(sites: gpd.GeoDataFrame, apn_merged_df: pd.DataFrame, geo_merged_df: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+def combine_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, matches: Matches) -> gpd.GeoDataFrame:
 
-    def _merge_matches(df, matches_df, col_name):
-        results = matches_df.groupby('index').apply(
-            lambda group: group[['permyear', 'address', 'totalunit', 'hcategory']]
-            .replace({np.nan: None})  # for JSON reasons
-            .to_dict(orient='records')
+    flattened_permits = (
+        permits[['permyear', 'address', 'totalunit', 'hcategory']]
+        .replace({np.nan: None})  # for JSON reasons
+        .to_dict(orient='records')
+    )
+    flattened_permits = dict(zip(permits.index, flattened_permits))
+
+    output_df = sites[['relcapcty', 'geometry', 'sitetype']]
+    output_df = output_df.rename(columns={'relcapcty': 'site_capacity_units'})
+
+    def make_matches_series(matches_df, index):
+        if len(matches_df) == 0:
+            return pd.Series(None, index)
+        return (
+            matches_df
+            .groupby('sites_index')
+            .apply(lambda group: [flattened_permits[i] for i in group['permits_index']])
         )
-        if len(results):
-            results = results.rename(col_name).reset_index()
-            df = df.merge(
-                results,
-                on='index',
-                how='left'
-            )
-            df[col_name] = df[col_name].replace({np.nan: None})
-        else:
-            df[col_name] = None
 
-        return df
+    # print(matches)
 
-    merged_df = sites[['index', 'relcapcty', 'geometry', 'sitetype']].copy()
-    merged_df = _merge_matches(merged_df, apn_merged_df, 'apn_match_results')
-    merged_df = _merge_matches(merged_df, geo_merged_df, 'geo_match_results')
+    output_df['apn_match_results'] = make_matches_series(matches.apn_matches, output_df.index)
+    output_df['geo_match_results'] = make_matches_series(matches.geo_matches, output_df.index)
+    output_df['geo_match_results_lax'] = make_matches_series(matches.geo_matches_lax, output_df.index)
+    for col in ['apn_match_results', 'geo_match_results', 'geo_match_results_lax']:
+        output_df[col] = output_df[col].replace({np.nan: None})
 
-    merged_df['apn_matched'] = merged_df['apn_match_results'].notnull()
-    merged_df['geo_matched'] = merged_df['geo_match_results'].notnull()
+    output_df['apn_matched'] = output_df['apn_match_results'].notnull()
+    output_df['geo_matched'] = output_df['geo_match_results'].notnull()
+    output_df['geo_matched_lax'] = output_df['geo_match_results_lax'].notnull()
 
-    merged_df['match_results'] = merged_df.apply(
+    output_df['match_results'] = output_df.apply(
         lambda row: _dedupe_matches(row['apn_match_results'], row['geo_match_results']),
         axis='columns'
     )
 
-    merged_df = (
-        merged_df.drop(columns=['apn_match_results', 'geo_match_results'])
-        .rename(columns={
-            'relcapcty': 'site_capacity_units'
-        })
+    output_df['match_results_lax'] = output_df.apply(
+        lambda row: _dedupe_matches(row['apn_match_results'], row['geo_match_results_lax']),
+        axis='columns'
     )
-    return merged_df
 
-def plot_city_interactive(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> None:
-    m = folium.Map()
-
-    min_lng, min_lat, max_lng, max_lat = sites.geometry.total_bounds
-    m.fit_bounds([(min_lat, min_lng), (max_lat, max_lng)])
-
-    apn_merged_df, geo_merged_df = get_match_dfs(sites, permits)
-
-    def make_label_string(group: pd.DataFrame) -> str:
-        return (
-            ', '.join(
-                group['address']
-                + ' (' + group['relcapcty'].astype(str) + ' units expected, '
-                + group['totalunit'].astype(str) + ' units built, type ' + group['hcategory'].astype(str) + ')'
-            )
-        )
-
-    # apn_matches = apn_merged_df.groupby('index').apply(make_label_string).to_dict()
-    # geo_matches = geo_merged_df.groupby('index').apply(make_label_string).to_dict()
-
-    for _, row in sites.iterrows():
-        assert isinstance(row.geometry, shapely.geometry.Polygon)
-
-        apn_addresses = apn_matches.get(row['index'])
-        geo_addresses = geo_matches.get(row['index'])
-
-        if apn_addresses and geo_addresses:
-            color = 'green'
-            text = f'APN-matched to {apn_addresses}; geo-matched to {geo_addresses}'
-        elif apn_addresses:
-            color = 'yellow'
-            text = f'APN-matched to {apn_addresses}'
-        elif geo_addresses:
-            color = 'blue'
-            text = f'Geo-matched to {geo_addresses}'
-        else:
-            color = 'red'
-            text = None
-
-        m.add_child(
-            folium.Polygon(
-                shapely_polygon_to_coords(row.geometry),
-                color=color,
-                fill='true',
-                tooltip=text,
-            )
-        )
-
-    for _, row in permits.iterrows():
-        text = f'{row["totalunit"]} units built, type {row["hcategory"]} ({row["permyear"]})'
-
-        m.add_child(
-            folium.Polygon(
-                [(row.geometry.y, row.geometry.x)],
-                color='green',
-                weight=8,
-                fill='true',
-                tooltip=text,
-            )
-        )
-
-    return m
+    output_df = (
+        output_df.drop(columns=['apn_match_results', 'geo_match_results', 'geo_match_results_lax'])
+    )
+    return output_df
 
 def _to_geojson_dict(row: pd.Series) -> dict:
     """
@@ -230,12 +153,8 @@ def write_matches_to_files(
 
         permits = cities_with_permits.get(city)
         if permits is not None:
-            apn_merged_df, geo_merged_df, geo_merged_lax_df = get_match_dfs(cities_with_sites[city], cities_with_permits[city])
-            matches_df = combine_match_dfs(cities_with_sites[city], apn_merged_df, geo_merged_df)
-            matches_lax_df = combine_match_dfs(cities_with_sites[city], apn_merged_df, geo_merged_lax_df)
-            assert len(matches_df) == len(matches_lax_df)
-            matches_df['match_results_lax'] = matches_lax_df['match_results']
-            matches_df['geo_matched_lax'] = matches_lax_df['geo_matched']
+            matches = utils.get_all_matches(sites, permits)
+            matches_df = combine_match_dfs(sites, permits, matches)
 
             formatted_permits_df = permits[['permyear', 'address', 'totalunit', 'hcategory', 'geometry']].rename(
                 columns={
