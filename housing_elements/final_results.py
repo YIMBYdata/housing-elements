@@ -89,9 +89,9 @@ def get_results_for_city(
 
     return {
         'City': city,
-        'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits),
+        'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits, matches, match_by, geo_matching_lax),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
-        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(sites, permits),
+        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by, geo_matching_lax),
         'P(dev) for nonvacant sites': nonvacant_ratio,
         'P(dev) for vacant sites': vacant_ratio,
         'P(dev) for inventory': all_ratio,
@@ -128,9 +128,9 @@ def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
 
     return {
         'City': city,
-        'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits),
+        'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits, matches, match_by='both', geo_matching_lax=True),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
-        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(sites, permits),
+        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by='both', geo_matching_lax=True),
         'P(dev) for nonvacant sites': utils.calculate_pdev_for_nonvacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
         'P(dev) for vacant sites': utils.calculate_pdev_for_vacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
         'P(dev) for inventory': utils.calculate_pdev_for_inventory(sites, matches, match_by='both', geo_matching_lax=True),
@@ -275,6 +275,10 @@ def main():
                 for city in cities
             ],
         )
+    )
+    get_results_for_city(
+        city='Overall', sites=cities_with_sites['Overall'], permits=cities_with_permits['Overall'],
+        matches=all_matches['Overall'], match_by='apn'
     )
 
     print("Getting geo results...")

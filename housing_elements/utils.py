@@ -1,3 +1,4 @@
+from __future__ import annotations
 import re
 import os
 import warnings
@@ -423,10 +424,12 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     return sites
 
 def calculate_pinventory_for_dev(
-    sites: pd.DataFrame, permits: pd.DataFrame
+    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool = False
 ) -> float:
     """P(inventory|developed)"""
-    housing_on_sites = permits[permits.apn.isin(sites.apn)].totalunit.sum()
+    matches_df = get_matches_df(matches, match_by, geo_matching_lax)
+
+    housing_on_sites = permits[permits.index.isin(matches_df['permits_index'])].totalunit.sum()
     total_units = permits.totalunit.sum()
 
     print("Units permitted on inventory sites:", housing_on_sites)
@@ -438,24 +441,25 @@ def calculate_pinventory_for_dev(
 
 
 def calculate_underproduction_on_sites(
-    sites: pd.DataFrame, permits: pd.DataFrame
+    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool
 ) -> float:
-    """For each inventory site that was built, report underproduction relative to units promised."""
-    inventory_sites_permitted = permits[permits.apn.isin(sites.apn) | permits.apn.isin(sites.locapn)]
-    inventory_sites_permitted = inventory_sites_permitted.apn.unique()
-    if not len(inventory_sites_permitted):
-        return np.nan
-    units_built_over_claimed = []
-    for site_apn in inventory_sites_permitted:
-        n_claimed_by_apn = sites[sites.apn == site_apn].relcapcty.sum()
-        n_claimed_by_locapn = sites[sites.locapn == site_apn].relcapcty.sum()
-        units_claimed = np.nanmax(np.array((n_claimed_by_apn), n_claimed_by_locapn))
-        units_built = permits[permits.apn == site_apn].totalunit.sum()
-        if units_claimed:
-            units_built_over_claimed.append(units_built / units_claimed)
-    if units_built_over_claimed:
-        return sum(units_built_over_claimed) / len(units_built_over_claimed)
-    return np.nan
+    """
+    Report the average ratio of (units built / units claimed) for all matched sites in the city.
+    """
+    matches_df = get_matches_df(matches, match_by, geo_matching_lax).drop_duplicates()
+
+    merged_df = sites[['relcapcty']].rename_axis('sites_index').reset_index().merge(
+        matches_df,
+        on='sites_index'
+    ).merge(
+        permits[['totalunit']].rename_axis('permits_index').reset_index(),
+        on='permits_index'
+    )
+
+    # Get the match for each permit with the maximum claimed capacity
+    deduped_df = merged_df.groupby(['sites_index', 'relcapcty'])['totalunit'].sum().reset_index()
+
+    return deduped_df.query('relcapcty != 0').eval('totalunit / relcapcty').dropna().mean()
 
 def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
     """Percentage of RHNA total built. Can exceed 100%.
@@ -522,6 +526,19 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
 
     return Matches(apn_matches, geo_matches, geo_matches_lax)
 
+def get_matches_df(matches: Matches, match_by: str, geo_matching_lax: bool) -> pd.DataFrame:
+    match_dfs = []
+    if match_by in ['apn', 'both']:
+        match_dfs.append(matches.apn_matches)
+
+    if match_by in ['geo', 'both']:
+        if geo_matching_lax:
+            match_dfs.append(matches.geo_matches_lax)
+        else:
+            match_dfs.append(matches.geo_matches)
+
+    return pd.concat(match_dfs)
+
 def calculate_pdev_for_inventory(
     sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False
 ) -> Tuple[int, int, float]:
@@ -536,17 +553,8 @@ def calculate_pdev_for_inventory(
     if match_by not in ['apn', 'geo', 'both']:
         raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
 
-    match_dfs = []
-    if match_by in ['apn', 'both']:
-        match_dfs.append(matches.apn_matches)
-
-    if match_by in ['geo', 'both']:
-        if geo_matching_lax:
-            match_dfs.append(matches.geo_matches_lax)
-        else:
-            match_dfs.append(matches.geo_matches)
-
-    matched_site_indices = pd.concat(match_dfs)['sites_index']
+    match_df = get_matches_df(matches, match_by, geo_matching_lax)
+    matched_site_indices = match_df['sites_index']
 
     is_match = sites.index.isin(matched_site_indices)
 
@@ -562,7 +570,7 @@ def calculate_pdev_for_vacant_sites(
 
 
 def calculate_pdev_for_nonvacant_sites(
-        sites: pd.DataFrame, matches: pd.DataFrame, match_by: str = 'apn', geo_matching_lax: bool = False
+        sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
