@@ -752,6 +752,14 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
     plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg')
 
+def adj_pdev(raw_pdev):
+    if isinstance(raw_pdev, pd.Series):
+        return raw_pdev.apply(adj_pdev)
+    if np.isnan(raw_pdev):
+        return np.nan
+    assert 0 <= raw_pdev <= 1
+    # Todo: double-check 3/5 is the precise ratio of years
+    return raw_pdev + 3/5 * raw_pdev * (1 - raw_pdev)
 
 def catplot_qoi(result_df, qoi_col_prefix, order=None):
     assert 'City' in result_df.columns

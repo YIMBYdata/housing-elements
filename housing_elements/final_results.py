@@ -180,10 +180,10 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         results.append(
             {
                 'Site type': site_type,
-                'Overall development rate': '{:.1%}'.format(8/5 * num_matches.sum() / num_sites.sum()),
+                'Overall development rate': '{:.1%}'.format(utils.adj_pdev(num_matches.sum() / num_sites.sum())),
                 'Num sites': num_sites.sum(),
-                'Median P(dev)': '{:.1%}'.format(8 / 5 * p_dev_col.median()),
-                'Mean P(dev)': '{:.1%}'.format(8 / 5 * p_dev_col.mean()),
+                'Median P(dev)': '{:.1%}'.format(utils.adj_pdev(p_dev_col.median())),
+                'Mean P(dev)': '{:.1%}'.format(utils.adj_pdev(p_dev_col.mean())),
             }
         )
 
@@ -201,19 +201,19 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         output += '\n'
 
     add_stats(
-        '8/5 * P(dev) stats',
-        8/5 * results_df['P(dev) for inventory'],
-        8/5 * overall_row['P(dev) for inventory']
+        'adj P(dev) stats',
+        utils.adj_pdev(results_df['P(dev) for inventory']),
+        utils.adj_pdev(overall_row['P(dev) for inventory'])
     )
     add_stats(
-        '8/5 * P(dev) for vacant sites stats',
-        8/5 * results_df['P(dev) for vacant sites'],
-        8/5 * overall_row['P(dev) for vacant sites']
+        'adj P(dev) for vacant sites stats',
+        utils.adj_pdev(results_df['P(dev) for vacant sites']),
+        utils.adj_pdev(overall_row['P(dev) for vacant sites'])
     )
     add_stats(
-        '8/5 * P(dev) for nonvacant sites stats',
-        8/5 * results_df['P(dev) for nonvacant sites'],
-        8/5 * overall_row['P(dev) for nonvacant sites']
+        'adj P(dev) for nonvacant sites stats',
+        utils.adj_pdev(results_df['P(dev) for nonvacant sites']),
+        utils.adj_pdev(overall_row['P(dev) for nonvacant sites'])
     )
 
     add_stats(
@@ -551,6 +551,9 @@ def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_
     plt.ylabel("P(dev) for City's Inventory")
     plt.xlabel("# of Sites in City's Inventory")
     plt.savefig('./figures/pdev_vs_inventory_size.jpg')
+
+    
+
 
 if __name__ == '__main__':
     main()
