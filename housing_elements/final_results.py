@@ -107,6 +107,7 @@ def get_results_for_city(
 
     return {
         'City': city,
+        'Units permitted (2015-2019)': permits.totalunit.sum(),
         'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits, matches, match_by, geo_matching_lax),
         'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by, geo_matching_lax),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
