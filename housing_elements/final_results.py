@@ -470,6 +470,25 @@ def print_summary_stats():
 
     get_final_appendix_table(results_both_lax_df).to_csv('results/final_appendix_table.csv', index=False)
 
+    make_ground_truth_summary_table()
+
+
+def make_ground_truth_summary_table():
+    # Make comparison table for ground truth
+    results_both_lax_df = pd.read_csv('results/apn_or_geo_matching_lax_results.csv')
+    ground_truth_results_df = pd.read_csv('results/ground_truth_results.csv')
+
+    ground_truth_summary_df = pd.DataFrame({
+        'City': ground_truth_results_df['City'],
+        'P(dev) for inventory, 8 years, ground truth': 8/5 * ground_truth_results_df['P(dev) for inventory'],
+    })
+    print(ground_truth_summary_df)
+    abag_pdevs = (8/5 * results_both_lax_df.set_index('City')['P(dev) for inventory']).to_dict()
+    ground_truth_summary_df['P(dev) for inventory, 8 years, ABAG'] = ground_truth_summary_df['City'].map(abag_pdevs)
+
+    ground_truth_summary_df.to_csv('results/ground_truth_summary.csv', index=False)
+
+
 
 def get_final_appendix_table(results_both_lax_df):
     df = pd.DataFrame({
