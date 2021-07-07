@@ -426,7 +426,7 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
 def calculate_pinventory_for_dev(
     permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool = False
 ) -> float:
-    """P(inventory|developed)"""
+    """P(inventory|developed), over permitted units"""
     assert permits.index.nunique() == len(permits.index)
 
     matches_df = get_matches_df(matches, match_by, geo_matching_lax)
@@ -440,6 +440,16 @@ def calculate_pinventory_for_dev(
     if total_units:
         return housing_on_sites / total_units
     return np.nan
+
+def calculate_pinventory_for_dev_by_project(
+    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool = False
+) -> float:
+    """P(inventory|developed), over permitted projects"""
+    assert permits.index.nunique() == len(permits.index)
+
+    matches_df = get_matches_df(matches, match_by, geo_matching_lax)
+
+    return permits.index.isin(matches_df['permits_index']).mean()
 
 
 def calculate_underproduction_on_sites(

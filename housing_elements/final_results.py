@@ -93,6 +93,7 @@ def get_results_for_city(
         'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by, geo_matching_lax),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
         'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by, geo_matching_lax),
+        'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(permits, matches, match_by, geo_matching_lax),
         'P(dev) for nonvacant sites': nonvacant_ratio,
         'P(dev) for vacant sites': vacant_ratio,
         'P(dev) for inventory': all_ratio,
@@ -133,13 +134,16 @@ def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
         'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by='both', geo_matching_lax=True),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
         'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by='both', geo_matching_lax=True),
+        'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(permits, matches, match_by='both', geo_matching_lax=True),
         'P(dev) for nonvacant sites': utils.calculate_pdev_for_nonvacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
         'P(dev) for vacant sites': utils.calculate_pdev_for_vacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
         'P(dev) for inventory': utils.calculate_pdev_for_inventory(sites, matches, match_by='both', geo_matching_lax=True),
     }
 
 
-def get_additional_stats(results_both_df: pd.DataFrame):
+def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> str:
+    output = ''
+
     match_cols = {
         'All': '# matches',
         'Nonvacant': '# nonvacant matches',
@@ -154,11 +158,11 @@ def get_additional_stats(results_both_df: pd.DataFrame):
 
     results = []
     for site_type in ['All', 'Nonvacant', 'Vacant']:
-        sites_matches_col = results_both_df[match_cols[site_type]]
+        sites_matches_col = results_df[match_cols[site_type]]
         num_matches = sites_matches_col.str.split('/').apply(lambda x: int(x[0]))
         num_sites = sites_matches_col.str.split('/').apply(lambda x: int(x[1]))
 
-        p_dev_col = results_both_df[p_dev_cols[site_type]]
+        p_dev_col = results_df[p_dev_cols[site_type]]
 
         results.append(
             {
@@ -170,7 +174,51 @@ def get_additional_stats(results_both_df: pd.DataFrame):
             }
         )
 
-    return pd.DataFrame(results)
+    output += 'Pdevs table:\n'
+    output += pd.DataFrame(results).to_csv(index=False)
+    output += '\n'
+
+    underproduction_stats = get_summary_stats_for_series(results_df['Mean underproduction'])
+    output += 'Underproduction table:\n'
+    output += print_dict(underproduction_stats)
+    output += 'Overall: ' + str(overall_row['Mean underproduction']) + '\n'
+    output += '\n'
+
+    p_inventory_stats = get_summary_stats_for_series(results_df['P(inventory) for homes built'])
+    output += 'P(inventory) for homes built:\n'
+    output += print_dict(p_inventory_stats)
+    output += 'Overall: ' + str(overall_row['P(inventory) for homes built']) + '\n'
+    output += '\n'
+
+    p_inventory_by_project_stats = get_summary_stats_for_series(results_df['P(inventory) for projects built'])
+    output += 'P(inventory) for projects built:\n'
+    output += print_dict(p_inventory_by_project_stats)
+    output += 'Overall: ' + str(overall_row['P(inventory) for projects built']) + '\n'
+    output += '\n'
+
+    p_inventory_by_project_stats = get_summary_stats_for_series(8/5 * results_df['RHNA Success'])
+    output += '8/5 * RHNA success:\n'
+    output += print_dict(p_inventory_by_project_stats)
+    output += 'Overall: ' + str(8/5 * overall_row['RHNA Success']) + '\n'
+    output += '\n'
+
+    return output
+
+
+def get_summary_stats_for_series(series: pd.Series) -> Dict[str, float]:
+    return {
+        'Mean': series.mean(),
+        'Stddev': series.std(),
+        'Median': series.median(),
+        'Min': series.min(),
+        '25th percentile': series.quantile(0.25),
+        '75th percentile': series.quantile(0.75),
+        'Max': series.max(),
+    }
+
+def print_dict(results_dict: Dict[str, Any]) -> str:
+    return '\n'.join([f'{k}: {v}' for k, v in results_dict.items()]) + '\n'
+
 
 def make_plots(results_both_df: pd.DataFrame) -> None:
     utils.map_qoi('P(dev) for inventory', results_both_df)
@@ -228,7 +276,12 @@ def get_all_matches_kwargs(kwargs):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--use-cache', action='store_true')
+    parser.add_argument('--additional-results-only', action='store_true')
     args = parser.parse_args()
+
+    if args.additional_results_only:
+        print_summary_stats()
+        return
 
     if args.use_cache:
         with open('cities_with_sites_cache.pkl', 'rb') as f:
@@ -349,9 +402,25 @@ def main():
     ground_truth_results_df = pd.DataFrame([get_ground_truth_results_for_city(city) for city in ground_truth_cities])
     ground_truth_results_df.to_csv('results/ground_truth_results.csv', index=False)
 
+    print_summary_stats()
+
+def print_summary_stats():
+    results_both_df = pd.read_csv('results/apn_or_geo_matching_results.csv')
+    results_both_lax_df = pd.read_csv('results/apn_or_geo_matching_lax_results.csv')
+
     # Additional summary stats for results section
-    get_additional_stats(results_both_df.query('City != "Overall"')).to_csv('results/overall_summary_stats.csv', index=False)
-    get_additional_stats(results_both_lax_df.query('City != "Overall"')).to_csv('results/overall_summary_stats_lax.csv', index=False)
+    Path('results/overall_summary_stats.csv').write_text(
+        get_additional_stats(
+            results_both_df.query('City != "Overall"'),
+            results_both_df.set_index('City').loc['Overall'],
+        )
+    )
+    Path('results/overall_summary_stats_lax.csv').write_text(
+        get_additional_stats(
+            results_both_lax_df.query('City != "Overall"'),
+            results_both_lax_df.set_index('City').loc['Overall'],
+        )
+    )
 
 
 def find_n_matches_raw_apn(cities):

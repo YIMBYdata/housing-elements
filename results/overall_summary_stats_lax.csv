@@ -1,4 +1,46 @@
+Pdevs table:
 Site type,Overall development rate,Num sites,Median P(dev),Mean P(dev)
 All,6.3%,15750,8.6%,14.1%
 Nonvacant,3.9%,7790,2.9%,8.2%
 Vacant,6.5%,5270,9.4%,16.6%
+
+Underproduction table:
+Mean: 1.4035972645537889
+Stddev: 1.3066259765624242
+Median: 1.0
+Min: 0.1
+25th percentile: 0.75
+75th percentile: 1.4235294117647057
+Max: 8.296181677692
+Overall: 2.2693793761263743
+
+P(inventory) for homes built:
+Mean: 0.2304180308434294
+Stddev: 0.24771706168828625
+Median: 0.138978149100257
+Min: 0.0
+25th percentile: 0.0272727272727272
+75th percentile: 0.3684931506849315
+Max: 0.9707602339181286
+Overall: 0.2512650144124401
+
+P(inventory) for projects built:
+Mean: 0.1384420290703094
+Stddev: 0.17543972566525087
+Median: 0.0697674418604651
+Min: 0.0
+25th percentile: 0.0165413533834586
+75th percentile: 0.1993957703927492
+Max: 0.9802867383512543
+Overall: 0.1605418793913966
+
+8/5 * RHNA success:
+Mean: 1.3413092074043627
+Stddev: 1.1418864827322464
+Median: 1.1152640742890307
+Min: 0.07003367003366992
+25th percentile: 0.5873417721518988
+75th percentile: 1.7766233766233768
+Max: 8.177777777777777
+Overall: 1.219460609606894
+
