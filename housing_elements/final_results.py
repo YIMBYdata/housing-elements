@@ -484,6 +484,10 @@ def get_final_appendix_table(results_both_lax_df):
         results_both_lax_df['P(inventory) for homes built'] / (1 - results_both_lax_df['P(inventory) for homes built'])
     ).apply('{:.2f}'.format)
 
+    df = df[
+        df['City'] != 'Overall'
+    ]
+
     return df
 
 
