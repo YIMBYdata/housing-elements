@@ -110,6 +110,7 @@ def get_results_for_city(
         'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits, matches, match_by, geo_matching_lax),
         'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by, geo_matching_lax),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
+        'Units permitted / claimed capacity': utils.calculate_permits_to_capacity_ratio(sites, permits),
         'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by, geo_matching_lax),
         'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(permits, matches, match_by, geo_matching_lax),
         'P(dev) for nonvacant sites': nonvacant_ratio,
@@ -237,6 +238,12 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         '8/5 * RHNA success',
         8/5 * results_df['RHNA Success'],
         8/5 * overall_row['RHNA Success'],
+    )
+
+    add_stats(
+        '8/5 * Units permitted / claimed capacity',
+        8/5 * results_df['Units permitted / claimed capacity'],
+        8/5 * overall_row['Units permitted / claimed capacity'],
     )
 
     return output

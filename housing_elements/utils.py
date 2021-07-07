@@ -521,6 +521,9 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
         return total_units / rhna_target
     return np.nan
 
+def calculate_permits_to_capacity_ratio(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> float:
+    return permits.totalunit.sum() / sites.relcapcty.sum()
+
 def get_rhna_target(city: str) -> float:
     rhna_targets = load_rhna_targets()
     if city == 'Overall':
