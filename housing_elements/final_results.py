@@ -121,7 +121,7 @@ def get_results_for_city(
     }
 
 
-def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
+def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gpd.GeoDataFrame]) -> pd.DataFrame:
     if city == 'San Jose':
         permits = san_jose_permits.load_all_permits()
     elif city == 'San Francisco':
@@ -131,8 +131,7 @@ def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
     else:
         raise ValueError(f"Ground truth data not available for {city}")
 
-    permits = utils.load_all_new_building_permits(city)
-    sites = utils.load_site_inventory(city)
+    sites = cities_with_sites[city]
 
     if city == 'San Jose':
         # the San Jose data already has "San Jose, CA" at the end
@@ -140,23 +139,21 @@ def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
     else:
         address_suffix = ', ' + city + ', CA'
 
-    if not isinstance(permits, gpd.GeoDataFrame):
-        permits = gpd.GeoDataFrame(permits, geometry=None, crs='EPSG:3857')
+    if 'geometry' in permits.columns:
+        if isinstance(permits.geometry, gpd.GeoSeries):
+            geometry = permits.geometry
+        else:
+            geometry = gpd.GeoSeries(permits['geometry'], index=permits.index, crs='EPSG:3857')
+    else:
+        geometry = gpd.GeoSeries(None, index=permits.index, crs='EPSG:3857')
+
+    permits = gpd.GeoDataFrame(permits, geometry=geometry, crs='EPSG:3857')
+
     permits = utils.impute_missing_geometries(permits, address_suffix)
 
     matches = utils.get_all_matches(sites, permits)
 
-    return {
-        'City': city,
-        'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits, matches, match_by='both', geo_matching_lax=True),
-        'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by='both', geo_matching_lax=True),
-        'RHNA Success': utils.calculate_rhna_success(city, permits),
-        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by='both', geo_matching_lax=True),
-        'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(permits, matches, match_by='both', geo_matching_lax=True),
-        'P(dev) for nonvacant sites': utils.calculate_pdev_for_nonvacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
-        'P(dev) for vacant sites': utils.calculate_pdev_for_vacant_sites(sites, matches, match_by='both', geo_matching_lax=True),
-        'P(dev) for inventory': utils.calculate_pdev_for_inventory(sites, matches, match_by='both', geo_matching_lax=True),
-    }
+    return get_results_for_city(city, sites, permits, matches, match_by='both', geo_matching_lax=True)
 
 
 def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> str:
@@ -183,7 +180,7 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         results.append(
             {
                 'Site type': site_type,
-                'Overall development rate': '{:.1%}'.format(num_matches.sum() / num_sites.sum()),
+                'Overall development rate': '{:.1%}'.format(8/5 * num_matches.sum() / num_sites.sum()),
                 'Num sites': num_sites.sum(),
                 'Median P(dev)': '{:.1%}'.format(8 / 5 * p_dev_col.median()),
                 'Mean P(dev)': '{:.1%}'.format(8 / 5 * p_dev_col.mean()),
@@ -320,6 +317,7 @@ def main():
     parser.add_argument('--use-cache', action='store_true')
     parser.add_argument('--additional-results-only', action='store_true')
     parser.add_argument('--plots-only', action='store_true')
+    parser.add_argument('--ground-truth-results-only', action='store_true')
     args = parser.parse_args()
 
     if args.additional_results_only:
@@ -334,6 +332,10 @@ def main():
 
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
+
+    if args.ground_truth_results_only:
+        get_ground_truth_results(cities_with_sites)
+        return
 
     print("Computing all matches...")
     all_matches = parallel_process(
@@ -432,11 +434,14 @@ def main():
 
     make_plots(results_both_lax_df.query('City != "Overall"'))
 
-    ground_truth_cities = ['Los Altos', 'San Francisco', 'San Jose']
-    ground_truth_results_df = pd.DataFrame([get_ground_truth_results_for_city(city) for city in ground_truth_cities])
-    ground_truth_results_df.to_csv('results/ground_truth_results.csv', index=False)
+    get_ground_truth_results(cities_with_sites)
 
     print_summary_stats()
+
+def get_ground_truth_results(cities_with_sites: Dict[str, gpd.GeoDataFrame]) -> None:
+    ground_truth_cities = ['Los Altos', 'San Francisco', 'San Jose']
+    ground_truth_results_df = pd.DataFrame([get_ground_truth_results_for_city(city, cities_with_sites) for city in ground_truth_cities])
+    ground_truth_results_df.to_csv('results/ground_truth_results.csv', index=False)
 
 def print_summary_stats():
     results_both_df = pd.read_csv('results/apn_or_geo_matching_results.csv')

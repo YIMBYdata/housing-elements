@@ -1,5 +1,6 @@
 import pandas as pd
 import geopandas as gpd
+from shapely.wkt import loads
 
 def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: bool = True) -> pd.DataFrame:
     permits = pd.read_csv('https://data.sfgov.org/api/views/p4e4-a5a7/rows.csv?accessType=DOWNLOAD')
@@ -39,4 +40,11 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
 
     rhna_permits = rhna_permits.rename(columns={'Location': 'geometry'})
 
-    return gpd.GeoDataFrame(rhna_permits)
+    # Parse string representation of geometry (e.g. 'POINT (-122.4124068139322 37.78615820417518)') into an actual Point object.
+    # Not sure why it's in this format in the first place...
+    rhna_permits['geometry'] = rhna_permits['geometry'].dropna().apply(loads)
+
+    digit_apns = rhna_permits['apn'].str.isdigit()
+    rhna_permits['apn'] = rhna_permits['apn'][digit_apns].astype(int).astype('Int64').reindex(rhna_permits.index, fill_value=pd.NA)
+
+    return gpd.GeoDataFrame(rhna_permits, crs='EPSG:3857')

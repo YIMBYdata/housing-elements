@@ -79,12 +79,18 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
 
         deduped_dupes = dupes.groupby('apn').apply(_dedupe_apn).reset_index(drop=True)
 
-        return pd.concat([
+        permits_df = pd.concat([
             non_dupes,
             deduped_dupes,
         ]).reset_index(drop=True)
     else:
-        return permits_df.reset_index(drop=True)
+        permits_df = permits_df.reset_index(drop=True)
+
+    permits_df['apn'] = permits_df['apn'][
+        permits_df['apn'].str.isdigit().fillna(False)
+    ].astype(int).astype('Int64').reindex(permits_df.index, fill_value=pd.NA)
+
+    return permits_df
 
 def _dedupe_apn(apn_df: pd.DataFrame) -> pd.DataFrame:
     """

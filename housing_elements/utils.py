@@ -199,7 +199,7 @@ def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str
         to help the geocoder find the address, in case the city/state name isn't already part of the
         address field.
     """
-    assert df.crs.to_epsg() == 4326
+    assert df.crs.to_epsg() in [4326, 3857]
 
     # Some rows with 'address' being null might also be missing, but we don't have an address to
     # geocode, so too bad.

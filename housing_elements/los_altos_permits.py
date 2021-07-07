@@ -29,4 +29,7 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
     if dedupe:
         permits = permits.sort_values('totalunit', ascending=False).drop_duplicates('apn')
 
+    # Convert float to Int64 (nullable int)
+    permits['apn'] = permits['apn'].dropna().astype('int64').astype('Int64').reindex(permits.index, fill_value=pd.NA)
+
     return permits
