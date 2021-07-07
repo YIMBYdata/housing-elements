@@ -1,7 +1,7 @@
 import pandas as pd
 import geopandas as gpd
 
-def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: bool = True) -> pd.DataFrame:
+def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: bool = False) -> pd.DataFrame:
     expired_permits = gpd.read_file('data/raw_data/san_jose/sj_expired_building_permits.shp')
     active_permits = gpd.read_file('data/raw_data/san_jose/sj_active_building_permits.shp')
 
@@ -38,34 +38,25 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
             permits_df['permyear'] >= 2015
         ]
 
-        filtered_permits_df = permits_df[
+        # Earlier we were filtering for DWELLINGUN  > 0, but actually let's not filter those out,
+        # because it's really common in this dataset for it to be zero for new construction.
+        permits_df = permits_df[
             (permits_df['WORKDESC'] == "New Construction")
-            & (permits_df['totalunit'] > 0)
         ]
 
-        # There are many rows with a data error, where new units = 0 even though there is actually a new unit added.
-        # This should catch some of them...
-        typo_permits_df = permits_df[
-            (permits_df['WORKDESC'] == "New Construction")
-            & (permits_df['totalunit'] == 0)
-            & permits_df['SUBDESC'].isin(['2nd Unit Added', 'Single-Family'])
-        ].copy()
-        typo_permits_df['corrected'] = True
-        typo_permits_df['totalunit'] = 1
-
-        permits_df = pd.concat([filtered_permits_df, typo_permits_df])
-
-        assert permits_df['SUBDESC'].isin([
-            '2nd Unit Added',
-            'Single-Family',
-            'Apt/Condo/Townhouse',
-            'Mixed Use',
-            'Condo',
-            'Apartment',
-            'Duplex',
-            'Townhouse',
-            'Manufactured Home',
-        ]).all()
+        permits_df = permits_df[
+            permits_df['SUBDESC'].isin([
+                '2nd Unit Added',
+                'Single-Family',
+                'Apt/Condo/Townhouse',
+                'Mixed Use',
+                'Condo',
+                'Apartment',
+                'Duplex',
+                'Townhouse',
+                'Manufactured Home',
+            ])
+        ]
 
     if dedupe:
         if not filter_post_2015_new_construction:
