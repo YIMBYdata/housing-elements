@@ -60,6 +60,24 @@ def load_sites_and_permits():
 
     return cities_with_sites, cities_with_permits
 
+def cached_load_sites_and_permits(use_cache: bool) -> Tuple[gpd.GeoDataFrame, gpd.GeoDataFrame]:
+    if use_cache:
+        with open('cities_with_sites_cache.pkl', 'rb') as f:
+            cities_with_sites = pickle.load(f)
+
+        with open('cities_with_permits_cache.pkl', 'rb') as f:
+            cities_with_permits = pickle.load(f)
+    else:
+        cities_with_sites, cities_with_permits = load_sites_and_permits()
+
+        with open('cities_with_sites_cache.pkl', 'wb') as f:
+            pickle.dump(cities_with_sites, f)
+
+        with open('cities_with_permits_cache.pkl', 'wb') as f:
+            pickle.dump(cities_with_permits, f)
+
+    return cities_with_sites, cities_with_permits
+
 def get_results_for_city_kwargs(kwargs):
     with HiddenPrints():
         return get_results_for_city(**kwargs)
@@ -289,20 +307,7 @@ def main():
         make_plots(pd.read_csv('results/apn_or_geo_matching_lax_results.csv').query('City != "Overall"'))
         return
 
-    if args.use_cache:
-        with open('cities_with_sites_cache.pkl', 'rb') as f:
-            cities_with_sites = pickle.load(f)
-
-        with open('cities_with_permits_cache.pkl', 'rb') as f:
-            cities_with_permits = pickle.load(f)
-    else:
-        cities_with_sites, cities_with_permits = load_sites_and_permits()
-
-        with open('cities_with_sites_cache.pkl', 'wb') as f:
-            pickle.dump(cities_with_sites, f)
-
-        with open('cities_with_permits_cache.pkl', 'wb') as f:
-            pickle.dump(cities_with_permits, f)
+    cities_with_sites, cities_with_permits = cached_load_sites_and_permits(args.use_cache)
 
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
