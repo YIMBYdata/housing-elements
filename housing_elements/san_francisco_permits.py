@@ -2,7 +2,11 @@ import pandas as pd
 import geopandas as gpd
 from shapely.wkt import loads
 
-def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: bool = True) -> pd.DataFrame:
+def load_all_permits(
+    filter_post_2015_new_construction: bool = True,
+    filter_pre_2020: bool = True,
+    dedupe: bool = True
+) -> pd.DataFrame:
     permits = pd.read_csv('https://data.sfgov.org/api/views/p4e4-a5a7/rows.csv?accessType=DOWNLOAD')
     date_cols = [c for c in permits.columns if 'Date' in c]
     permits[date_cols] = permits[date_cols].apply(pd.to_datetime)
@@ -28,6 +32,10 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
         rhna_permits = rhna_permits[
             (rhna_permits['Issued Date'] >= '2015-01-01')
         ]
+    if filter_pre_2020:
+        rhna_permits = rhna_permits[
+            (rhna_permits['Issued Date'] < '2020-01-01')
+        ]
 
     # Add / rename columns to fit ABAG format
     rhna_permits['permyear'] = rhna_permits['Issued Date'].dt.year
@@ -47,4 +55,4 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
     digit_apns = rhna_permits['apn'].str.isdigit()
     rhna_permits['apn'] = rhna_permits['apn'][digit_apns].astype(int).astype('Int64').reindex(rhna_permits.index, fill_value=pd.NA)
 
-    return gpd.GeoDataFrame(rhna_permits, crs='EPSG:3857')
+    return gpd.GeoDataFrame(rhna_permits, crs='EPSG:4326')

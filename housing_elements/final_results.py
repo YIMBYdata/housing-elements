@@ -133,22 +133,21 @@ def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gp
 
     sites = cities_with_sites[city]
 
+    if 'geometry' in permits.columns:
+        if isinstance(permits.geometry, gpd.GeoSeries):
+            geometry = permits.geometry
+        else:
+            geometry = gpd.GeoSeries(permits['geometry'], index=permits.index, crs='EPSG:4326')
+    else:
+        geometry = gpd.GeoSeries(None, index=permits.index, crs='EPSG:4326')
+
+    permits = gpd.GeoDataFrame(permits, geometry=geometry, crs='EPSG:4326')
+
     if city == 'San Jose':
         # the San Jose data already has "San Jose, CA" at the end
         address_suffix = None
     else:
         address_suffix = ', ' + city + ', CA'
-
-    if 'geometry' in permits.columns:
-        if isinstance(permits.geometry, gpd.GeoSeries):
-            geometry = permits.geometry
-        else:
-            geometry = gpd.GeoSeries(permits['geometry'], index=permits.index, crs='EPSG:3857')
-    else:
-        geometry = gpd.GeoSeries(None, index=permits.index, crs='EPSG:3857')
-
-    permits = gpd.GeoDataFrame(permits, geometry=geometry, crs='EPSG:3857')
-
     permits = utils.impute_missing_geometries(permits, address_suffix)
 
     matches = utils.get_all_matches(sites, permits)
