@@ -239,7 +239,8 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     sea_plot = sea.histplot(results_both_df['P(dev) for vacant sites']).set_title("Each city's P(dev)")
     sea_plot.get_figure().savefig('./figures/Pdev.png')
 
-    sea_plot = sea.histplot(results_both_df['P(inventory) for homes built']).set_title("P(inventory) for homes built")
+    sea_plot = sea.histplot(results_both_df['P(inventory) for homes built'])
+    sea_plot.set(xlabel='Share of new homes on inventory sites', ylabel='Number of cities')
     sea_plot.get_figure().savefig('./figures/pinventory.png')
 
     sea_plot = sea.histplot(results_both_df['Mean underproduction']).set_title("Each city's mean underproduction")
@@ -277,10 +278,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--use-cache', action='store_true')
     parser.add_argument('--additional-results-only', action='store_true')
+    parser.add_argument('--plots-only', action='store_true')
     args = parser.parse_args()
 
     if args.additional_results_only:
         print_summary_stats()
+        return
+
+    if args.plots_only:
+        make_plots(pd.read_csv('results/apn_or_geo_matching_lax_results.csv').query('City != "Overall"'))
         return
 
     if args.use_cache:
@@ -396,7 +402,7 @@ def main():
     combined_df.to_csv('results/combined_df.csv', index=False)
 
 
-    make_plots(results_both_df.query('City != "Overall"'))
+    make_plots(results_both_lax_df.query('City != "Overall"'))
 
     ground_truth_cities = ['Los Altos', 'San Francisco', 'San Jose']
     ground_truth_results_df = pd.DataFrame([get_ground_truth_results_for_city(city) for city in ground_truth_cities])
