@@ -427,6 +427,8 @@ def calculate_pinventory_for_dev(
     permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool = False
 ) -> float:
     """P(inventory|developed)"""
+    assert permits.index.nunique() == len(permits.index)
+
     matches_df = get_matches_df(matches, match_by, geo_matching_lax)
 
     housing_on_sites = permits[permits.index.isin(matches_df['permits_index'])].totalunit.sum()
@@ -446,6 +448,9 @@ def calculate_underproduction_on_sites(
     """
     Report the average ratio of (units built / units claimed) for all matched sites in the city.
     """
+    assert sites.index.nunique() == len(sites.index)
+    assert permits.index.nunique() == len(permits.index)
+
     matches_df = get_matches_df(matches, match_by, geo_matching_lax).drop_duplicates()
 
     merged_df = sites[['relcapcty']].rename_axis('sites_index').reset_index().merge(
@@ -460,6 +465,34 @@ def calculate_underproduction_on_sites(
     deduped_df = merged_df.groupby(['sites_index', 'relcapcty'])['totalunit'].sum().reset_index()
 
     return deduped_df.query('relcapcty != 0').eval('totalunit / relcapcty').dropna().mean()
+
+
+def calculate_city_unit_ratio(
+    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool
+) -> float:
+    """
+    Report the average ratio of (units built / units claimed) for all matched sites in the city.
+    """
+    assert sites.index.nunique() == len(sites.index)
+    assert permits.index.nunique() == len(permits.index)
+
+    matches_df = get_matches_df(matches, match_by, geo_matching_lax).drop_duplicates()
+
+    merged_df = sites[['relcapcty']].rename_axis('sites_index').reset_index().merge(
+        matches_df,
+        on='sites_index'
+    ).merge(
+        permits[['totalunit']].rename_axis('permits_index').reset_index(),
+        on='permits_index'
+    )
+
+    merged_df = merged_df.dropna(subset=['totalunit', 'relcapcty']).query('relcapcty != 0')
+
+    # Handle cases where one site matches multiple permits, or vice versa. Just make sure we're counting each once.
+    total_units = merged_df.drop_duplicates('permits_index')['totalunit'].sum()
+    total_capacity = merged_df.drop_duplicates('sites_index')['relcapcty'].sum()
+    return total_units / total_capacity
+
 
 def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
     """Percentage of RHNA total built. Can exceed 100%.
@@ -495,13 +528,13 @@ def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> pd.DataF
     sites = sites.rename_axis('sites_index').reset_index()[['sites_index', 'apn', 'locapn']]
     permits = permits.rename_axis('permits_index').reset_index()[['permits_index', 'apn']]
 
-    merged_df_1 = sites.merge(
+    merged_df_1 = sites.dropna(subset=['apn']).merge(
         permits,
         left_on='apn',
         right_on='apn',
     )
 
-    merged_df_2 = sites.merge(
+    merged_df_2 = sites.dropna(subset=['locapn']).merge(
         permits,
         left_on='locapn',
         right_on='apn',
