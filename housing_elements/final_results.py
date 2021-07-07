@@ -160,8 +160,6 @@ def get_ground_truth_results_for_city(city: str) -> pd.DataFrame:
 
 
 def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> str:
-    output = ''
-
     match_cols = {
         'All': '# matches',
         'Nonvacant': '# nonvacant matches',
@@ -192,33 +190,58 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
             }
         )
 
+    output = ''
     output += 'Pdevs table:\n'
     output += pd.DataFrame(results).to_csv(index=False)
     output += '\n'
 
-    underproduction_stats = get_summary_stats_for_series(results_df['Mean underproduction'])
-    output += 'Underproduction table:\n'
-    output += print_dict(underproduction_stats)
-    output += 'Overall: ' + str(overall_row['Mean underproduction']) + '\n'
-    output += '\n'
+    def add_stats(title, series, overall):
+        nonlocal output
+        stats = get_summary_stats_for_series(series)
+        output += title + ':\n'
+        output += print_dict(stats)
+        output += 'Overall: ' + str(overall) + '\n'
+        output += '\n'
 
-    p_inventory_stats = get_summary_stats_for_series(results_df['P(inventory) for homes built'])
-    output += 'P(inventory) for homes built:\n'
-    output += print_dict(p_inventory_stats)
-    output += 'Overall: ' + str(overall_row['P(inventory) for homes built']) + '\n'
-    output += '\n'
+    add_stats(
+        '8/5 * P(dev) stats',
+        8/5 * results_df['P(dev) for inventory'],
+        overall_row['P(dev) for inventory']
+    )
+    add_stats(
+        '8/5 * P(dev) for vacant sites stats',
+        8/5 * results_df['P(dev) for vacant sites'],
+        overall_row['P(dev) for vacant sites']
+    )
+    add_stats(
+        '8/5 * P(dev) for nonvacant sites stats',
+        8/5 * results_df['P(dev) for nonvacant sites'],
+        overall_row['P(dev) for nonvacant sites']
+    )
 
-    p_inventory_by_project_stats = get_summary_stats_for_series(results_df['P(inventory) for projects built'])
-    output += 'P(inventory) for projects built:\n'
-    output += print_dict(p_inventory_by_project_stats)
-    output += 'Overall: ' + str(overall_row['P(inventory) for projects built']) + '\n'
-    output += '\n'
+    add_stats(
+        'Underproduction stats',
+        results_df['Mean underproduction'],
+        overall_row['Mean underproduction']
+    )
 
-    p_inventory_by_project_stats = get_summary_stats_for_series(8/5 * results_df['RHNA Success'])
-    output += '8/5 * RHNA success:\n'
-    output += print_dict(p_inventory_by_project_stats)
-    output += 'Overall: ' + str(8/5 * overall_row['RHNA Success']) + '\n'
-    output += '\n'
+    add_stats(
+        'P(inventory) for homes built',
+        results_df['P(inventory) for homes built'],
+        overall_row['P(inventory) for homes built'],
+    )
+
+    add_stats(
+        'P(inventory) for projects built',
+        results_df['P(inventory) for projects built'],
+        overall_row['P(inventory) for projects built'],
+    )
+
+    add_stats(
+        '8/5 * RHNA success',
+        8/5 * results_df['RHNA Success'],
+        8/5 * overall_row['RHNA Success'],
+    )
 
     return output
 

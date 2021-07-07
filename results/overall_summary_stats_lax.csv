@@ -4,7 +4,37 @@ All,5.7%,15750,8.1%,13.2%
 Nonvacant,3.7%,7790,1.9%,7.7%
 Vacant,5.9%,5270,7.3%,15.2%
 
-Underproduction table:
+8/5 * P(dev) stats:
+Mean: 0.13241319456114872
+Stddev: 0.19609676121257977
+Median: 0.0808080808080808
+Min: 0.0
+25th percentile: 0.028571428571428484
+75th percentile: 0.1557522123893805
+Max: 1.6
+Overall: 0.0582857142857142
+
+8/5 * P(dev) for vacant sites stats:
+Mean: 0.15158379979070505
+Stddev: 0.23182091118314382
+Median: 0.07289021657953697
+Min: 0.0
+25th percentile: 0.0
+75th percentile: 0.18031746031746027
+Max: 1.6
+Overall: 0.0595825426944971
+
+8/5 * P(dev) for nonvacant sites stats:
+Mean: 0.0773735875091048
+Stddev: 0.11326778177203618
+Median: 0.019161676646706562
+Min: 0.0
+25th percentile: 0.0
+75th percentile: 0.10861788617886169
+Max: 0.5333333333333333
+Overall: 0.038767650834403
+
+Underproduction stats:
 Mean: 1.3870677788019719
 Stddev: 1.3345147805567432
 Median: 0.9987728700572591
