@@ -206,17 +206,17 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
     add_stats(
         '8/5 * P(dev) stats',
         8/5 * results_df['P(dev) for inventory'],
-        overall_row['P(dev) for inventory']
+        8/5 * overall_row['P(dev) for inventory']
     )
     add_stats(
         '8/5 * P(dev) for vacant sites stats',
         8/5 * results_df['P(dev) for vacant sites'],
-        overall_row['P(dev) for vacant sites']
+        8/5 * overall_row['P(dev) for vacant sites']
     )
     add_stats(
         '8/5 * P(dev) for nonvacant sites stats',
         8/5 * results_df['P(dev) for nonvacant sites'],
-        overall_row['P(dev) for nonvacant sites']
+        8/5 * overall_row['P(dev) for nonvacant sites']
     )
 
     add_stats(

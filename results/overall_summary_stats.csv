@@ -12,7 +12,7 @@ Min: 0.0
 25th percentile: 0.027586206896551682
 75th percentile: 0.15000000000000002
 Max: 1.6
-Overall: 0.0507301587301587
+Overall: 0.08116825396825393
 
 8/5 * P(dev) for vacant sites stats:
 Mean: 0.15158379979070505
@@ -22,7 +22,7 @@ Min: 0.0
 25th percentile: 0.0
 75th percentile: 0.18031746031746027
 Max: 1.6
-Overall: 0.0595825426944971
+Overall: 0.09533206831119537
 
 8/5 * P(dev) for nonvacant sites stats:
 Mean: 0.0773735875091048
@@ -32,7 +32,7 @@ Min: 0.0
 25th percentile: 0.0
 75th percentile: 0.10861788617886169
 Max: 0.5333333333333333
-Overall: 0.038767650834403
+Overall: 0.0620282413350448
 
 Underproduction stats:
 Mean: 1.4044695427877645
