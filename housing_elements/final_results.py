@@ -468,6 +468,25 @@ def print_summary_stats():
         )
     )
 
+    get_final_appendix_table(results_both_lax_df).to_csv('results/final_appendix_table.csv', index=False)
+
+
+def get_final_appendix_table(results_both_lax_df):
+    df = pd.DataFrame({
+        'City': results_both_lax_df['City']
+    })
+
+    # TODO use Salim's better 8-year projection method
+    df['P(dev) for all sites'] = (8/5 * results_both_lax_df['P(dev) for inventory']).clip(upper=1).apply('{:.1%}'.format)
+    df['Liberal P(dev) proxy'] = (8/5 * results_both_lax_df['Units permitted / claimed capacity']).clip(upper=1).apply('{:.1%}'.format)
+    df['Average ratio of built units to claimed capacity'] = results_both_lax_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
+    df['Ratio of non-inventory units to inventory units'] = (
+        results_both_lax_df['P(inventory) for homes built'] / (1 - results_both_lax_df['P(inventory) for homes built'])
+    ).apply('{:.2f}'.format)
+
+    return df
+
+
 
 def find_n_matches_raw_apn(cities):
     n_matches = 0
