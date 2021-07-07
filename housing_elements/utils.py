@@ -181,6 +181,10 @@ def load_abag_permits() -> gpd.GeoDataFrame:
         assert geometry_df["joinid"].isin(data_df["joinid"]).all()
 
         ABAG = gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
+
+    # Filter out permits from before the start of the 5th Housing Element cycle.
+    ABAG = ABAG[ABAG['permyear'] >= 2015].copy()
+
     return ABAG
 
 def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
