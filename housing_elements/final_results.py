@@ -93,17 +93,20 @@ def get_results_for_city(
     permits: gpd.GeoDataFrame,
     matches: Matches,
     match_by: str,
-    geo_matching_lax: bool = False,
+    geo_matching_buffer: str = 'normal',
     use_raw_apns: bool = False,
 ) -> pd.DataFrame:
+    """
+    :param geo_matching_buffer: Options are 'normal' (1 meter), 'lax' (8 meters), and 'very_lax' (15 meters).
+    """
     nonvacant_matches, nonvacant_sites, nonvacant_ratio = utils.calculate_pdev_for_nonvacant_sites(
-        sites, matches, match_by, geo_matching_lax, use_raw_apns
+        sites, matches, match_by, geo_matching_buffer, use_raw_apns
     )
     vacant_matches, vacant_sites, vacant_ratio = utils.calculate_pdev_for_vacant_sites(
-        sites, matches, match_by, geo_matching_lax, use_raw_apns
+        sites, matches, match_by, geo_matching_buffer, use_raw_apns
     )
     all_matches, all_sites, all_ratio = utils.calculate_pdev_for_inventory(
-        sites, matches, match_by, geo_matching_lax, use_raw_apns
+        sites, matches, match_by, geo_matching_buffer, use_raw_apns
     )
 
     if use_raw_apns:
@@ -120,12 +123,12 @@ def get_results_for_city(
     return {
         'City': city,
         'Units permitted (2015-2019)': permits.totalunit.sum(),
-        'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits, matches, match_by, geo_matching_lax),
-        'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by, geo_matching_lax),
+        'Mean underproduction': utils.calculate_underproduction_on_sites(sites, permits, matches, match_by, geo_matching_buffer),
+        'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by, geo_matching_buffer),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
         'Units permitted / claimed capacity': utils.calculate_permits_to_capacity_ratio(sites, permits),
-        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by, geo_matching_lax),
-        'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(permits, matches, match_by, geo_matching_lax),
+        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by, geo_matching_buffer),
+        'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(permits, matches, match_by, geo_matching_buffer),
         'P(dev) for nonvacant sites': nonvacant_ratio,
         'P(dev) for vacant sites': vacant_ratio,
         'P(dev) for inventory': all_ratio,
@@ -170,7 +173,7 @@ def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gp
 
     matches = utils.get_all_matches(sites, permits)
 
-    return get_results_for_city(city, sites, permits, matches, match_by='both', geo_matching_lax=True)
+    return get_results_for_city(city, sites, permits, matches, match_by='both', geo_matching_buffer='lax')
 
 
 def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> str:
@@ -418,11 +421,23 @@ def main():
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_lax=True)
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='lax')
                 for city in cities
             ],
         )
     )
+
+    print("Getting geo very lax results...")
+    results_geo_very_lax_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='very_lax')
+                for city in cities
+            ],
+        )
+    )
+
 
     print("Getting apn or geo results...")
     results_both_df = pd.DataFrame(
@@ -440,7 +455,18 @@ def main():
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_lax=True)
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='lax')
+                for city in cities
+            ],
+        )
+    )
+
+    print("Getting apn or geo very lax results...")
+    results_both_very_lax_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='very_lax')
                 for city in cities
             ],
         )
@@ -448,19 +474,14 @@ def main():
 
     apn_results_df.to_csv('results/apn_matching_results.csv', index=False)
     raw_apn_results_df.to_csv('results/raw_apn_matching_results.csv', index=False)
+
     results_geo_df.to_csv('results/geo_matching_results.csv', index=False)
     results_geo_lax_df.to_csv('results/geo_matching_lax_results.csv', index=False)
+    # results_geo_very_lax_df.to_csv('results/geo_matching_very_lax_results.csv', index=False)
+
     results_both_df.to_csv('results/apn_or_geo_matching_results.csv', index=False)
     results_both_lax_df.to_csv('results/apn_or_geo_matching_lax_results.csv', index=False)
-
-    combined_df = (
-        apn_results_df
-        .merge(results_geo_df, on='City', suffixes=[' (by APN)', ' (by conservative geomatching)'])
-        .merge(results_geo_lax_df, on='City', suffixes=['', ' (by lenient geomatching)'])
-        .merge(results_both_df, on='City', suffixes=['', ' (by APN or conservative geomatching)'])
-        .merge(results_both_lax_df, on='City', suffixes=['', ' (by APN or lenient geomatching)'])
-    )
-    combined_df.to_csv('results/combined_df.csv', index=False)
+    # results_both_very_lax_df.to_csv('results/apn_or_geo_matching_very_lax_results.csv', index=False)
 
 
     make_plots(results_both_lax_df.query('City != "Overall"'))

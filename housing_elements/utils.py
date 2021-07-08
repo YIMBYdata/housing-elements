@@ -442,12 +442,12 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     return sites
 
 def calculate_pinventory_for_dev(
-    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool = False
+    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = 'normal'
 ) -> float:
     """P(inventory|developed), over permitted units"""
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_lax)
+    matches_df = get_matches_df(matches, match_by, geo_matching_buffer)
 
     housing_on_sites = permits[permits.index.isin(matches_df['permits_index'])].totalunit.sum()
     total_units = permits.totalunit.sum()
@@ -460,18 +460,18 @@ def calculate_pinventory_for_dev(
     return np.nan
 
 def calculate_pinventory_for_dev_by_project(
-    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool = False
+    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = 'normal'
 ) -> float:
     """P(inventory|developed), over permitted projects"""
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_lax)
+    matches_df = get_matches_df(matches, match_by, geo_matching_buffer)
 
     return permits.index.isin(matches_df['permits_index']).mean()
 
 
 def calculate_underproduction_on_sites(
-    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool
+    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str
 ) -> float:
     """
     Report the average ratio of (units built / units claimed) for all matched sites in the city.
@@ -479,7 +479,7 @@ def calculate_underproduction_on_sites(
     assert sites.index.nunique() == len(sites.index)
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_lax).drop_duplicates()
+    matches_df = get_matches_df(matches, match_by, geo_matching_buffer).drop_duplicates()
 
     merged_df = sites[['relcapcty']].rename_axis('sites_index').reset_index().merge(
         matches_df,
@@ -496,7 +496,7 @@ def calculate_underproduction_on_sites(
 
 
 def calculate_city_unit_ratio(
-    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_lax: bool
+    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str
 ) -> float:
     """
     Report the average ratio of (units built / units claimed) for all matched sites in the city.
@@ -504,7 +504,7 @@ def calculate_city_unit_ratio(
     assert sites.index.nunique() == len(sites.index)
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_lax).drop_duplicates()
+    matches_df = get_matches_df(matches, match_by, geo_matching_buffer).drop_duplicates()
 
     merged_df = sites[['relcapcty']].rename_axis('sites_index').reset_index().merge(
         matches_df,
@@ -586,6 +586,7 @@ class Matches(NamedTuple):
     apn_matches_raw: pd.DataFrame
     geo_matches: pd.DataFrame
     geo_matches_lax: pd.DataFrame
+    geo_matches_very_lax: pd.DataFrame
 
 def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Matches:
     """
@@ -595,11 +596,12 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
     apn_matches = merge_on_apn(sites, permits)
     apn_matches_raw = merge_on_apn(sites, permits, use_raw_apns=True)
     geo_matches = merge_on_address(sites, permits)
-    geo_matches_lax = merge_on_address(sites, permits, lax=True)
+    geo_matches_lax = merge_on_address(sites, permits, buffer='lax')
+    geo_matches_very_lax = merge_on_address(sites, permits, buffer='very_lax')
 
-    return Matches(apn_matches, apn_matches_raw, geo_matches, geo_matches_lax)
+    return Matches(apn_matches, apn_matches_raw, geo_matches, geo_matches_lax, geo_matches_very_lax)
 
-def get_matches_df(matches: Matches, match_by: str, geo_matching_lax: bool, use_raw_apns: bool = False) -> pd.DataFrame:
+def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, use_raw_apns: bool = False) -> pd.DataFrame:
     match_dfs = []
     if match_by in ['apn', 'both']:
         if use_raw_apns:
@@ -608,15 +610,19 @@ def get_matches_df(matches: Matches, match_by: str, geo_matching_lax: bool, use_
             match_dfs.append(matches.apn_matches)
 
     if match_by in ['geo', 'both']:
-        if geo_matching_lax:
-            match_dfs.append(matches.geo_matches_lax)
-        else:
+        if geo_matching_buffer == 'normal':
             match_dfs.append(matches.geo_matches)
+        elif geo_matching_buffer == 'lax':
+            match_dfs.append(matches.geo_matches_lax)
+        elif geo_matching_buffer == 'very_lax':
+            match_dfs.append(matches.geo_matches_very_lax)
+        else:
+            raise ValueError(f"Unknown geo_matching_buffer option: {geo_matching_buffer}")
 
     return pd.concat(match_dfs)
 
 def calculate_pdev_for_inventory(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False, use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = 'normal', use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -629,7 +635,7 @@ def calculate_pdev_for_inventory(
     if match_by not in ['apn', 'geo', 'both']:
         raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
 
-    match_df = get_matches_df(matches, match_by, geo_matching_lax, use_raw_apns)
+    match_df = get_matches_df(matches, match_by, geo_matching_buffer, use_raw_apns)
     matched_site_indices = match_df['sites_index']
 
     is_match = sites.index.isin(matched_site_indices)
@@ -638,22 +644,22 @@ def calculate_pdev_for_inventory(
 
 
 def calculate_pdev_for_vacant_sites(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False, use_raw_apns: bool = True
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = 'normal', use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites.is_vacant].copy()
-    return calculate_pdev_for_inventory(vacant_rows, matches, match_by, use_raw_apns)
+    return calculate_pdev_for_inventory(vacant_rows, matches, match_by, 'lax' if use_raw_apns else 'normal')
 
 
 def calculate_pdev_for_nonvacant_sites(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False, use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = 'normal', use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
-    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, use_raw_apns)
+    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, 'lax' if use_raw_apns else 'normal')
 
 
-def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bool = False) -> gpd.GeoDataFrame:
+def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer: str = 'normal') -> gpd.GeoDataFrame:
     """
     Returns all matches. Length of output is between 0 and len(permits). A site could be repeated, if it was matched with
     multiple permits.
@@ -668,12 +674,16 @@ def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bo
     sites = sites.to_crs('EPSG:3310')
     permits = permits.to_crs('EPSG:3310')
 
-    if lax:
-        # About 25 feet
-        buffer_meters = 8
-    else:
+    if buffer == 'normal':
         # About 3 feet
         buffer_meters = 1
+    elif buffer == 'lax':
+        # About 25 feet
+        buffer_meters = 8
+    elif buffer == 'very_lax':
+        buffer_meters = 15
+    else:
+        raise ValueError(f"Buffer option not recognized: {buffer}")
 
     # Buffer by N meters, and take the closest match for each permit, to limit false positives
     permits_buffered = permits.copy()
