@@ -648,7 +648,7 @@ def calculate_pdev_for_vacant_sites(
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites.is_vacant].copy()
-    return calculate_pdev_for_inventory(vacant_rows, matches, match_by, 'lax' if use_raw_apns else 'normal')
+    return calculate_pdev_for_inventory(vacant_rows, matches, match_by, geo_matching_buffer, use_raw_apns)
 
 
 def calculate_pdev_for_nonvacant_sites(
@@ -656,7 +656,7 @@ def calculate_pdev_for_nonvacant_sites(
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
-    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, 'lax' if use_raw_apns else 'normal')
+    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, geo_matching_buffer, use_raw_apns)
 
 
 def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer: str = 'normal') -> gpd.GeoDataFrame:
