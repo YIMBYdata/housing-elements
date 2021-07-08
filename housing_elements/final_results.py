@@ -94,16 +94,28 @@ def get_results_for_city(
     matches: Matches,
     match_by: str,
     geo_matching_lax: bool = False,
+    use_raw_apns: bool = False,
 ) -> pd.DataFrame:
     nonvacant_matches, nonvacant_sites, nonvacant_ratio = utils.calculate_pdev_for_nonvacant_sites(
-        sites, matches, match_by, geo_matching_lax
+        sites, matches, match_by, geo_matching_lax, use_raw_apns
     )
     vacant_matches, vacant_sites, vacant_ratio = utils.calculate_pdev_for_vacant_sites(
-        sites, matches, match_by, geo_matching_lax
+        sites, matches, match_by, geo_matching_lax, use_raw_apns
     )
     all_matches, all_sites, all_ratio = utils.calculate_pdev_for_inventory(
-        sites, matches, match_by, geo_matching_lax
+        sites, matches, match_by, geo_matching_lax, use_raw_apns
     )
+
+    if use_raw_apns:
+        return {
+            'City': city,
+            'P(dev) for nonvacant sites': nonvacant_ratio,
+            'P(dev) for vacant sites': vacant_ratio,
+            'P(dev) for inventory': all_ratio,
+            '# nonvacant matches': f'{nonvacant_matches} / {nonvacant_sites}',
+            '# vacant matches': f'{vacant_matches} / {vacant_sites}',
+            '# matches': f'{all_matches} / {all_sites}',
+        }
 
     return {
         'City': city,
@@ -144,6 +156,10 @@ def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gp
         geometry = gpd.GeoSeries(None, index=permits.index, crs='EPSG:4326')
 
     permits = gpd.GeoDataFrame(permits, geometry=geometry, crs='EPSG:4326')
+
+    # Need to add this so that the raw APN matching code doesn't fail... even though it actually doesn't matter,
+    # we're not going to look at the raw APN matches for ground truth datasets.
+    permits['apn_raw'] = permits['apn']
 
     if city == 'San Jose':
         # the San Jose data already has "San Jose, CA" at the end
@@ -374,9 +390,16 @@ def main():
             ],
         )
     )
-    get_results_for_city(
-        city='Overall', sites=cities_with_sites['Overall'], permits=cities_with_permits['Overall'],
-        matches=all_matches['Overall'], match_by='apn'
+
+    print("Getting APN raw results...")
+    raw_apn_results_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='apn', use_raw_apns=True)
+                for city in cities
+            ],
+        )
     )
 
     print("Getting geo results...")
@@ -424,6 +447,7 @@ def main():
     )
 
     apn_results_df.to_csv('results/apn_matching_results.csv', index=False)
+    raw_apn_results_df.to_csv('results/raw_apn_matching_results.csv', index=False)
     results_geo_df.to_csv('results/geo_matching_results.csv', index=False)
     results_geo_lax_df.to_csv('results/geo_matching_lax_results.csv', index=False)
     results_both_df.to_csv('results/apn_or_geo_matching_results.csv', index=False)
@@ -482,7 +506,6 @@ def make_ground_truth_summary_table():
         'City': ground_truth_results_df['City'],
         'P(dev) for inventory, 8 years, ground truth': 8/5 * ground_truth_results_df['P(dev) for inventory'],
     })
-    print(ground_truth_summary_df)
     abag_pdevs = (8/5 * results_both_lax_df.set_index('City')['P(dev) for inventory']).to_dict()
     ground_truth_summary_df['P(dev) for inventory, 8 years, ABAG'] = ground_truth_summary_df['City'].map(abag_pdevs)
 

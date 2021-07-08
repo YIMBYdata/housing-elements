@@ -247,7 +247,7 @@ def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDa
     return df_copy
 
 
-def load_all_new_building_permits(city: str, standardize_apn: bool = True) -> pd.DataFrame:
+def load_all_new_building_permits(city: str) -> pd.DataFrame:
     """
     Returns the combined dataset of 2013-2019 permits, combining the 2013-2017 dataset from ABAG with the 2018-19 dataset from the APRs.
     """
@@ -271,8 +271,8 @@ def load_all_new_building_permits(city: str, standardize_apn: bool = True) -> pd
         ]
     ).reset_index(drop=True)
 
-    if standardize_apn:
-        permits_df = standardize_apn_format(permits_df, 'apn')
+    permits_df['apn_raw'] = float_col_to_nullable_int(pd.to_numeric(permits_df['apn'], errors='coerce'))
+    permits_df['apn'] = standardize_apn_format(permits_df['apn'])
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
     # doesn't have the city name or zip code. Otherwise, we get a bunch of results of that address from all over the US.
@@ -306,7 +306,7 @@ VACANT_SITE_TYPES = ['Underutilized and Va', 'Vacant', 'Undeveloped', 'Open Spac
 
 NONVACANT_SITE_TYPES = ['Opportunity', 'Underused site', 'Underutilized, margi', 'Non-Vacant', "Infill", 'underutilize', 'Underutilized']
 
-def load_site_inventory(city: str, exclude_approved_sites: bool = True, standardize_apn: bool = True, fix_realcap: bool = True) -> pd.DataFrame:
+def load_site_inventory(city: str, exclude_approved_sites: bool = True, fix_realcap: bool = True) -> pd.DataFrame:
     """
     Return the 5th RHNA cycle site inventory for CITY.
 
@@ -350,9 +350,12 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, standard
     sites = drop_constant_cols(sites)
     sites = add_cols_for_sitetype(sites)
 
-    if standardize_apn:
-        sites = standardize_apn_format(sites, 'apn')
-        sites = standardize_apn_format(sites, 'locapn')
+    # Back up the raw apn/locapn, so that we can calculate the number of matches using the raw string.
+    sites['apn_raw'] = float_col_to_nullable_int(pd.to_numeric(sites['apn'], errors='coerce'))
+    sites['locapn_raw'] = float_col_to_nullable_int(pd.to_numeric(sites['locapn'], errors='coerce'))
+
+    sites['apn'] = standardize_apn_format(sites['apn'])
+    sites['locapn'] = standardize_apn_format(sites['locapn'])
 
     if city == 'San Francisco':
         # Exclude PDR sites that have a stated capacity of zero.
@@ -370,20 +373,31 @@ def add_cols_for_sitetype(sites):
     sites['na_vacant'] = ~sites.sitetype.isin(VACANT_SITE_TYPES + NONVACANT_SITE_TYPES)
     return sites
 
-def standardize_apn_format(df: pd.DataFrame, column: str) -> pd.DataFrame:
-    if not is_numeric_dtype(df[column].dtype):
-        df[column] = df[column].str.replace("-", "", regex=False)
-        df[column] = df[column].str.replace(" ", "", regex=False)
-        df[column] = df[column].str.replace(r"[a-zA-Z|.+,;:/]", '', regex=True)
+def float_col_to_nullable_int(series: pd.Series) -> pd.Series:
+    """
+    Given a pd.Series with float values (possibly null),
+    rounds the non-nan values to their nearest int, and fills the null values in with None.
+
+    Returns a Series of dtype 'Int64' (the new nullable int type).
+    """
+    return series.dropna().astype('int64').astype('Int64').reindex(series.index, fill_value=pd.NA)
+
+def standardize_apn_format(column: pd.Series) -> pd.Series:
+    if not is_numeric_dtype(column.dtype):
+        column = column.str.replace("-", "", regex=False)
+        column = column.str.replace(" ", "", regex=False)
+        column = column.str.replace(r"[a-zA-Z|.+,;:/]", '', regex=True)
 
         # Some extra logic to handle Oakland, Hayward, Pittsburg, San Bruno, South SF, Windsor
-        df[column] = df[column].str.replace("\n", "", regex=False)
-        df[column] = df[column].where(df[column].str.isdigit())
-        df[column] = df[column].where(df[column].str.len() > 0)
-        df[column] = df[column].where(df[column].str.len() <= 23)
+        column = column.str.replace("\n", "", regex=False)
+        column = column.where(column.str.isdigit())
+        column = column.where(column.str.len() > 0)
+        column = column.where(column.str.len() <= 23)
 
-    df[column] = df[column].dropna().astype('int64').astype('Int64').reindex(df.index, fill_value=pd.NA)
-    return df
+        column = pd.to_numeric(column, errors='coerce')
+
+    column = float_col_to_nullable_int(column)
+    return column
 
 def drop_constant_cols(sites: pd.DataFrame) -> pd.DataFrame:
     """Return df with constant columns dropped unless theyre necessary for QOI calculations."""
@@ -534,7 +548,7 @@ def get_rhna_target(city: str) -> float:
     return rhna_target
 
 
-def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> pd.DataFrame:
+def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, use_raw_apns: bool = False) -> pd.DataFrame:
     """
     :return: a DataFrame with two columns, 'sites_index' and 'permits_index', indicating which rows
     in `sites` and `permits` were matched.
@@ -542,19 +556,26 @@ def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> pd.DataF
     assert sites.index.nunique() == len(sites.index)
     assert permits.index.nunique() == len(permits.index)
 
-    sites = sites.rename_axis('sites_index').reset_index()[['sites_index', 'apn', 'locapn']]
-    permits = permits.rename_axis('permits_index').reset_index()[['permits_index', 'apn']]
+    if use_raw_apns:
+        apn_col = 'apn_raw'
+        locapn_col = 'locapn_raw'
+    else:
+        apn_col = 'apn'
+        locapn_col = 'locapn'
 
-    merged_df_1 = sites.dropna(subset=['apn']).merge(
+    sites = sites.rename_axis('sites_index').reset_index()[['sites_index', apn_col, locapn_col]]
+    permits = permits.rename_axis('permits_index').reset_index()[['permits_index', apn_col]]
+
+    merged_df_1 = sites.dropna(subset=[apn_col]).merge(
         permits,
-        left_on='apn',
-        right_on='apn',
+        left_on=apn_col,
+        right_on=apn_col,
     )
 
-    merged_df_2 = sites.dropna(subset=['locapn']).merge(
+    merged_df_2 = sites.dropna(subset=[locapn_col]).merge(
         permits,
-        left_on='locapn',
-        right_on='apn',
+        left_on=locapn_col,
+        right_on=apn_col,
     )
 
     return pd.concat([merged_df_1, merged_df_2])[['sites_index', 'permits_index']].drop_duplicates()
@@ -562,6 +583,7 @@ def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> pd.DataF
 
 class Matches(NamedTuple):
     apn_matches: pd.DataFrame
+    apn_matches_raw: pd.DataFrame
     geo_matches: pd.DataFrame
     geo_matches_lax: pd.DataFrame
 
@@ -571,15 +593,19 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
     so that we only compute them once.
     """
     apn_matches = merge_on_apn(sites, permits)
+    apn_matches_raw = merge_on_apn(sites, permits, use_raw_apns=True)
     geo_matches = merge_on_address(sites, permits)
     geo_matches_lax = merge_on_address(sites, permits, lax=True)
 
-    return Matches(apn_matches, geo_matches, geo_matches_lax)
+    return Matches(apn_matches, apn_matches_raw, geo_matches, geo_matches_lax)
 
-def get_matches_df(matches: Matches, match_by: str, geo_matching_lax: bool) -> pd.DataFrame:
+def get_matches_df(matches: Matches, match_by: str, geo_matching_lax: bool, use_raw_apns: bool = False) -> pd.DataFrame:
     match_dfs = []
     if match_by in ['apn', 'both']:
-        match_dfs.append(matches.apn_matches)
+        if use_raw_apns:
+            match_dfs.append(matches.apn_matches_raw)
+        else:
+            match_dfs.append(matches.apn_matches)
 
     if match_by in ['geo', 'both']:
         if geo_matching_lax:
@@ -590,7 +616,7 @@ def get_matches_df(matches: Matches, match_by: str, geo_matching_lax: bool) -> p
     return pd.concat(match_dfs)
 
 def calculate_pdev_for_inventory(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False, use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -603,7 +629,7 @@ def calculate_pdev_for_inventory(
     if match_by not in ['apn', 'geo', 'both']:
         raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
 
-    match_df = get_matches_df(matches, match_by, geo_matching_lax)
+    match_df = get_matches_df(matches, match_by, geo_matching_lax, use_raw_apns)
     matched_site_indices = match_df['sites_index']
 
     is_match = sites.index.isin(matched_site_indices)
@@ -612,19 +638,19 @@ def calculate_pdev_for_inventory(
 
 
 def calculate_pdev_for_vacant_sites(
-        sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False, use_raw_apns: bool = True
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites.is_vacant].copy()
-    return calculate_pdev_for_inventory(vacant_rows, matches, match_by)
+    return calculate_pdev_for_inventory(vacant_rows, matches, match_by, use_raw_apns)
 
 
 def calculate_pdev_for_nonvacant_sites(
-        sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_lax: bool = False, use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
-    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by)
+    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, use_raw_apns)
 
 
 def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, lax: bool = False) -> gpd.GeoDataFrame:
