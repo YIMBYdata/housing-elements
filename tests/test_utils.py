@@ -9,7 +9,9 @@ from pandas.testing import assert_frame_equal
 sites = gpd.GeoDataFrame({
     'site_id': [1, 2, 3],
     'apn': ['1', '2', '3'],
+    'apn_raw': ['1', '2', '3'],
     'locapn': ['1', '2', '3'],
+    'locapn_raw': ['1', '2', '3'],
     'geometry': [Point(1, 1), Point(1, 2), Point(1, 3)]
 }, crs='EPSG:3310').to_crs('EPSG:3857')
 
@@ -18,12 +20,13 @@ permits = gpd.GeoDataFrame({
     'geometry': [Point(8.5, 2)],
     'permyear': ['2017'],
     'apn': ['A'],
+    'apn_raw': ['A'],
 }, crs='EPSG:3310').to_crs('EPSG:3857')
 
 class TestUtils(unittest.TestCase):
     def test_merge_on_address_lax(self):
         # Should be able to merge points within 8 meters, even if the inputs are not in a meters projection
-        merged = utils.merge_on_address(sites, permits, lax=True)
+        merged = utils.merge_on_address(sites, permits, buffer='lax')
 
         expected = pd.DataFrame({
             'sites_index': [1],
@@ -44,13 +47,13 @@ class TestUtils(unittest.TestCase):
             'geometry': [Point(10.5, 2)],
         }, crs='EPSG:3310').to_crs('EPSG:3857')
 
-        merged = utils.merge_on_address(sites, permits, lax=True)
+        merged = utils.merge_on_address(sites, permits, buffer='lax')
 
         self.assertEqual(len(merged), 0)
 
     def test_calculate_pdev_for_inventory_geo(self):
         matches = utils.get_all_matches(sites, permits)
-        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, matches, match_by='geo', geo_matching_lax=False)
+        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, matches, match_by='geo')
 
         self.assertEqual(num_matches, 0)
         self.assertEqual(num_sites, 3)
@@ -58,8 +61,8 @@ class TestUtils(unittest.TestCase):
 
     def test_calculate_pdev_for_inventory_geo_lax(self):
         matches = utils.get_all_matches(sites, permits)
-        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, matches, match_by='geo', geo_matching_lax=True)
-
+        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(sites, matches, match_by='geo',
+                                                                                geo_matching_buffer='lax')
         self.assertEqual(num_matches, 1)
         self.assertEqual(num_sites, 3)
         self.assertEqual(match_rate, 1/3)
