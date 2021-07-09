@@ -746,7 +746,7 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     plt.rcParams.update({'font.size': 10})
     ax.set_yticklabels([])
     ax.set_xticklabels([])
-    ax.set_title(f' {title}', fontdict={'fontsize': 25})
+    #ax.set_title(f' {title}', fontdict={'fontsize': 25})
     file_name_prefix = file_name_prefix.replace('/', '')
     file_name_prefix = file_name_prefix.replace(' ', '_')
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)

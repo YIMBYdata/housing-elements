@@ -266,26 +266,33 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     utils.map_qoi('Mean underproduction', results_both_df)
     utils.map_qoi('RHNA Success', results_both_df)
 
+    plt.figure()
+    plot_pdev_vs_vacant_land(results_both_df)
     sea_plot = sea.histplot(results_both_df['P(dev) for nonvacant sites']).set_title(
         "Each city's P(dev) for nonvacant sites"
     )
     sea_plot.get_figure().savefig('./figures/Pdev_nonvacant.png')
 
+    plt.figure()
     sea_plot = sea.histplot(results_both_df['P(dev) for vacant sites']).set_title("Each city's P(dev) for vacant sites")
     sea_plot.get_figure().savefig('./figures/Pdev_vacant.png')
 
+    plt.figure()
     sea_plot = sea.histplot(results_both_df['P(dev) for vacant sites']).set_title("Each city's P(dev)")
     sea_plot.get_figure().savefig('./figures/Pdev.png')
 
+    plt.figure()
     sea_plot = sea.histplot(results_both_df['P(inventory) for homes built'])
-    sea_plot.set(xlabel='Share of new homes on inventory sites', ylabel='Number of cities')
+    sea_plot.set(xlabel='Share of homes built on inventory sites', ylabel='Number of Cities')
     sea_plot.get_figure().savefig('./figures/pinventory.png')
 
+    plt.figure()
     sea_plot = sea.histplot(results_both_df['Mean underproduction']).set_title("Each city's mean underproduction")
     sea_plot.get_figure().savefig('./figures/mean_underproduction.png')
 
+    plt.figure()
     sea_plot = sea.histplot(results_both_df['RHNA Success']).set_title("Each city's RHNA success")
-    sea_plot.get_figure().savefig('./figures/rhna_succes.png')
+    sea_plot.get_figure().savefig('./figures/rhna_success.png')
 
     # Did RHNA success in last cycle actually have anything to do with how good the site inventory was?
     rhna_success = results_both_df['P(inventory) for homes built']
@@ -293,6 +300,7 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
 
     is_null = np.isnan(rhna_success) | np.isnan(p_dev)
 
+    plt.figure()
     sea_plot = sea.scatterplot(x=rhna_success[~is_null], y=p_dev[~is_null])
     sea_plot.set_title("Does RHNA success have anything to do with the realistic capacity of the inventory sites?")
     sea_plot.get_figure().savefig('./figures/did_realistic_capacity_calcs_matter.png')
@@ -524,8 +532,8 @@ def plot_pdev_vs_vacant_land(results_both_df):
     sea.set(font_scale=1.1)
     plt.figure(figsize=(8, 6))
     ax = sea.countplot(x=to_barplot['P(dev)'], hue=to_barplot['Vacant'], data=to_barplot, order=order_ps)
-    plt.legend(loc='upper right', title='Land')
-    plt.title("Distribution of P(dev) Across Cities")
+    plt.legend(loc='upper right', title='Parcels')
+    plt.ylabel("Number of Cities")
     plt.savefig('./figures/pdev_vs_vacancy.jpg')
 
 def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_permits):
