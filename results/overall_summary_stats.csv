@@ -84,9 +84,9 @@ Min: 0.01915976449456128
 Max: 6.6947368421052635
 Overall: 0.7525560036360556
 
+Comparing buffer sizes:
 
-
- Comparing buffer sizes:adj P(dev) for raw_apn:
+adj P(dev) for raw_apn:
 Mean: 0.05722217754104431
 Stddev: 0.13142120097275253
 Median: 0.013021241149520954

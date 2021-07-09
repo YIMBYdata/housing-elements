@@ -266,7 +266,7 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         8/5 * overall_row['Units permitted / claimed capacity'],
     )
 
-    output += '\n\n Comparing buffer sizes:'
+    output += 'Comparing buffer sizes:\n\n'
     dfs = {
         'raw_apn': pd.read_csv('results/raw_apn_matching_results.csv'),
         'apn': pd.read_csv('results/apn_matching_results.csv'),
