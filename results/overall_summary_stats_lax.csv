@@ -1,14 +1,8 @@
 Pdevs table:
 Site type,Overall development rate,Num sites,Median P(dev),Mean P(dev)
-<<<<<<< HEAD
-All,9.2%,15750,8.1%,13.2%
-Nonvacant,7.7%,7790,3.3%,8.6%
-Vacant,10.1%,5270,8.6%,16.2%
-=======
 All,9.0%,15750,7.9%,12.8%
-Nonvacant,5.9%,7790,1.9%,7.6%
-Vacant,9.3%,5270,7.2%,14.6%
->>>>>>> pdev_adjustment
+Nonvacant,7.6%,7790,3.3%,8.4%
+Vacant,9.9%,5270,8.5%,15.6%
 
 adj P(dev) stats:
 Mean: 0.11938410983849741
@@ -20,47 +14,25 @@ Min: 0.0
 Max: 1.0
 Overall: 0.09121880816326516
 
-<<<<<<< HEAD
-8/5 * P(dev) for vacant sites stats:
-Mean: 0.16223798967496417
-Stddev: 0.23531304198476366
-Median: 0.08648648648648641
-Min: 0.0
-25th percentile: 0.0
-75th percentile: 0.20256410256410257
-Max: 1.6
-Overall: 0.10170777988614801
-
-8/5 * P(dev) for nonvacant sites stats:
-Mean: 0.08561415018331325
-Stddev: 0.11937281922682377
-Median: 0.033333333333333284
-Min: 0.0
-25th percentile: 0.0
-75th percentile: 0.13939393939393935
-Max: 0.5333333333333333
-Overall: 0.07907573812580225
-=======
 adj P(dev) for vacant sites stats:
-Mean: 0.13375463524120695
-Stddev: 0.17500356385370835
-Median: 0.0716449860311748
+Mean: 0.14324746051526163
+Stddev: 0.1785843122254768
+Median: 0.08473338203067925
 Min: 0.0
 25th percentile: 0.0
-75th percentile: 0.17269538926681777
+75th percentile: 0.19294563609467455
 Max: 1.0
-Overall: 0.09320202067483041
+Overall: 0.09928329414645212
 
 adj P(dev) for nonvacant sites stats:
-Mean: 0.07300158847318373
-Stddev: 0.1039563194269447
-Median: 0.019075621212664463
+Mean: 0.08059869520341884
+Stddev: 0.10899542223316785
+Median: 0.03307291666666662
 Min: 0.0
 25th percentile: 0.0
-75th percentile: 0.1058518738845924
+75th percentile: 0.13483126721763083
 Max: 0.4666666666666667
-Overall: 0.06112648288431388
->>>>>>> pdev_adjustment
+Overall: 0.07761019772889433
 
 Underproduction stats:
 Mean: 1.3870677788019719
