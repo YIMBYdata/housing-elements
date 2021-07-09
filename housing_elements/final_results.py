@@ -93,11 +93,11 @@ def get_results_for_city(
     permits: gpd.GeoDataFrame,
     matches: Matches,
     match_by: str,
-    geo_matching_buffer: str = 'normal',
+    geo_matching_buffer: str = '1m',
     use_raw_apns: bool = False,
 ) -> pd.DataFrame:
     """
-    :param geo_matching_buffer: Options are 'normal' (1 meter), 'lax' (8 meters), and 'very_lax' (15 meters).
+    :param geo_matching_buffer: Options are '1m', '8m', '15m', and '30m'.
     """
     nonvacant_matches, nonvacant_sites, nonvacant_ratio = utils.calculate_pdev_for_nonvacant_sites(
         sites, matches, match_by, geo_matching_buffer, use_raw_apns
@@ -173,7 +173,7 @@ def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gp
 
     matches = utils.get_all_matches(sites, permits)
 
-    return get_results_for_city(city, sites, permits, matches, match_by='both', geo_matching_buffer='lax')
+    return get_results_for_city(city, sites, permits, matches, match_by='both', geo_matching_buffer='8m')
 
 
 def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> str:
@@ -359,7 +359,7 @@ def main():
         return
 
     if args.plots_only:
-        make_plots(pd.read_csv('results/apn_or_geo_matching_lax_results.csv').query('City != "Overall"'))
+        make_plots(pd.read_csv('results/apn_or_geo_matching_8m_results.csv').query('City != "Overall"'))
         return
 
     cities_with_sites, cities_with_permits = cached_load_sites_and_permits(args.use_cache)
@@ -390,7 +390,6 @@ def main():
     all_matches['Overall'] = utils.get_all_matches(overall_sites, overall_permits)
     cities.append('Overall')
 
-
     print("Getting APN results...")
     apn_results_df = pd.DataFrame(
         parallel_process(
@@ -413,8 +412,8 @@ def main():
         )
     )
 
-    print("Getting geo results...")
-    results_geo_df = pd.DataFrame(
+    print("Getting geo 1m results...")
+    results_geo_1m_df = pd.DataFrame(
         parallel_process(
             get_results_for_city_kwargs,
             [
@@ -424,31 +423,42 @@ def main():
         )
     )
 
-    print("Getting geo lax results...")
-    results_geo_lax_df = pd.DataFrame(
+    print("Getting geo 8m results...")
+    results_geo_8m_df = pd.DataFrame(
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='lax')
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='8m')
                 for city in cities
             ],
         )
     )
 
-    print("Getting geo very lax results...")
-    results_geo_very_lax_df = pd.DataFrame(
+    print("Getting geo 15m results...")
+    results_geo_15m_df = pd.DataFrame(
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='very_lax')
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='15m')
+                for city in cities
+            ],
+        )
+    )
+
+    print("Getting geo 15m results...")
+    results_geo_30m_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='30m')
                 for city in cities
             ],
         )
     )
 
 
-    print("Getting apn or geo results...")
-    results_both_df = pd.DataFrame(
+    print("Getting apn or geo 1m results...")
+    results_both_1m_df = pd.DataFrame(
         parallel_process(
             get_results_for_city_kwargs,
             [
@@ -458,23 +468,34 @@ def main():
         )
     )
 
-    print("Getting apn or geo lax results...")
-    results_both_lax_df = pd.DataFrame(
+    print("Getting apn or geo 8m results...")
+    results_both_8m_df = pd.DataFrame(
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='lax')
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='8m')
                 for city in cities
             ],
         )
     )
 
-    print("Getting apn or geo very lax results...")
-    results_both_very_lax_df = pd.DataFrame(
+    print("Getting apn or geo 15m results...")
+    results_both_15m_df = pd.DataFrame(
         parallel_process(
             get_results_for_city_kwargs,
             [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='very_lax')
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='15m')
+                for city in cities
+            ],
+        )
+    )
+
+    print("Getting apn or geo 30m results...")
+    results_both_30m_df = pd.DataFrame(
+        parallel_process(
+            get_results_for_city_kwargs,
+            [
+                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='30m')
                 for city in cities
             ],
         )
@@ -483,16 +504,18 @@ def main():
     apn_results_df.to_csv('results/apn_matching_results.csv', index=False)
     raw_apn_results_df.to_csv('results/raw_apn_matching_results.csv', index=False)
 
-    results_geo_df.to_csv('results/geo_matching_results.csv', index=False)
-    results_geo_lax_df.to_csv('results/geo_matching_lax_results.csv', index=False)
-    # results_geo_very_lax_df.to_csv('results/geo_matching_very_lax_results.csv', index=False)
+    results_geo_1m_df.to_csv('results/geo_matching_1m_results.csv', index=False)
+    results_geo_8m_df.to_csv('results/geo_matching_8m_results.csv', index=False)
+    results_geo_15m_df.to_csv('results/geo_matching_15m_results.csv', index=False)
+    results_geo_30m_df.to_csv('results/geo_matching_30m_results.csv', index=False)
 
-    results_both_df.to_csv('results/apn_or_geo_matching_results.csv', index=False)
-    results_both_lax_df.to_csv('results/apn_or_geo_matching_lax_results.csv', index=False)
-    # results_both_very_lax_df.to_csv('results/apn_or_geo_matching_very_lax_results.csv', index=False)
+    results_both_1m_df.to_csv('results/apn_or_geo_matching_1m_results.csv', index=False)
+    results_both_8m_df.to_csv('results/apn_or_geo_matching_8m_results.csv', index=False)
+    results_both_15m_df.to_csv('results/apn_or_geo_matching_15m_results.csv', index=False)
+    results_both_30m_df.to_csv('results/apn_or_geo_matching_30m_results.csv', index=False)
 
-
-    make_plots(results_both_lax_df.query('City != "Overall"'))
+    # 8m is the chosen buffer size
+    make_plots(results_both_8m_df.query('City != "Overall"'))
 
     get_ground_truth_results(cities_with_sites)
 
@@ -504,55 +527,49 @@ def get_ground_truth_results(cities_with_sites: Dict[str, gpd.GeoDataFrame]) -> 
     ground_truth_results_df.to_csv('results/ground_truth_results.csv', index=False)
 
 def print_summary_stats():
-    results_both_df = pd.read_csv('results/apn_or_geo_matching_results.csv')
-    results_both_lax_df = pd.read_csv('results/apn_or_geo_matching_lax_results.csv')
+    # 8m is the chosen buffer
+    results_df = pd.read_csv('results/apn_or_geo_matching_8m_results.csv')
 
     # Additional summary stats for results section
     Path('results/overall_summary_stats.csv').write_text(
         get_additional_stats(
-            results_both_df.query('City != "Overall"'),
-            results_both_df.set_index('City').loc['Overall'],
-        )
-    )
-    Path('results/overall_summary_stats_lax.csv').write_text(
-        get_additional_stats(
-            results_both_lax_df.query('City != "Overall"'),
-            results_both_lax_df.set_index('City').loc['Overall'],
+            results_df.query('City != "Overall"'),
+            results_df.set_index('City').loc['Overall'],
         )
     )
 
-    get_final_appendix_table(results_both_lax_df).to_csv('results/final_appendix_table.csv', index=False)
+    get_final_appendix_table(results_df).to_csv('results/final_appendix_table.csv', index=False)
 
     make_ground_truth_summary_table()
 
 
 def make_ground_truth_summary_table():
     # Make comparison table for ground truth
-    results_both_lax_df = pd.read_csv('results/apn_or_geo_matching_lax_results.csv')
+    results_df = pd.read_csv('results/apn_or_geo_matching_8m_results.csv')
     ground_truth_results_df = pd.read_csv('results/ground_truth_results.csv')
 
     ground_truth_summary_df = pd.DataFrame({
         'City': ground_truth_results_df['City'],
         'P(dev) for inventory, 8 years, ground truth': 8/5 * ground_truth_results_df['P(dev) for inventory'],
     })
-    abag_pdevs = (8/5 * results_both_lax_df.set_index('City')['P(dev) for inventory']).to_dict()
+    abag_pdevs = (8/5 * results_df.set_index('City')['P(dev) for inventory']).to_dict()
     ground_truth_summary_df['P(dev) for inventory, 8 years, ABAG'] = ground_truth_summary_df['City'].map(abag_pdevs)
 
     ground_truth_summary_df.to_csv('results/ground_truth_summary.csv', index=False)
 
 
 
-def get_final_appendix_table(results_both_lax_df):
+def get_final_appendix_table(results_df):
     df = pd.DataFrame({
-        'City': results_both_lax_df['City']
+        'City': results_df['City']
     })
 
     # TODO use Salim's better 8-year projection method
-    df['P(dev) for all sites'] = (8/5 * results_both_lax_df['P(dev) for inventory']).clip(upper=1).apply('{:.1%}'.format)
-    df['Liberal P(dev) proxy'] = (8/5 * results_both_lax_df['Units permitted / claimed capacity']).clip(upper=1).apply('{:.1%}'.format)
-    df['Average ratio of built units to claimed capacity'] = results_both_lax_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
+    df['P(dev) for all sites'] = (8/5 * results_df['P(dev) for inventory']).clip(upper=1).apply('{:.1%}'.format)
+    df['Liberal P(dev) proxy'] = (8/5 * results_df['Units permitted / claimed capacity']).clip(upper=1).apply('{:.1%}'.format)
+    df['Average ratio of built units to claimed capacity'] = results_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
     df['Ratio of non-inventory units to inventory units'] = (
-        results_both_lax_df['P(inventory) for homes built'] / (1 - results_both_lax_df['P(inventory) for homes built'])
+        results_df['P(inventory) for homes built'] / (1 - results_df['P(inventory) for homes built'])
     ).apply('{:.2f}'.format)
 
     df = df[

@@ -82,8 +82,8 @@ def combine_match_dfs(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, matche
         )
 
     output_df['apn_match_results'] = make_matches_series(matches.apn_matches, output_df.index)
-    output_df['geo_match_results'] = make_matches_series(matches.geo_matches, output_df.index)
-    output_df['geo_match_results_lax'] = make_matches_series(matches.geo_matches_lax, output_df.index)
+    output_df['geo_match_results'] = make_matches_series(matches.geo_matches_1m, output_df.index)
+    output_df['geo_match_results_lax'] = make_matches_series(matches.geo_matches_8m, output_df.index)
     for col in ['apn_match_results', 'geo_match_results', 'geo_match_results_lax']:
         output_df[col] = output_df[col].replace({np.nan: None})
 

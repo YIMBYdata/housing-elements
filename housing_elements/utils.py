@@ -586,9 +586,10 @@ def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, use_raw_apn
 class Matches(NamedTuple):
     apn_matches: pd.DataFrame
     apn_matches_raw: pd.DataFrame
-    geo_matches: pd.DataFrame
-    geo_matches_lax: pd.DataFrame
-    geo_matches_very_lax: pd.DataFrame
+    geo_matches_1m: pd.DataFrame
+    geo_matches_8m: pd.DataFrame
+    geo_matches_15m: pd.DataFrame
+    geo_matches_30m: pd.DataFrame
 
 def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Matches:
     """
@@ -597,11 +598,12 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
     """
     apn_matches = merge_on_apn(sites, permits)
     apn_matches_raw = merge_on_apn(sites, permits, use_raw_apns=True)
-    geo_matches = merge_on_address(sites, permits)
-    geo_matches_lax = merge_on_address(sites, permits, buffer='lax')
-    geo_matches_very_lax = merge_on_address(sites, permits, buffer='very_lax')
+    geo_matches_1m = merge_on_address(sites, permits, buffer='1m')
+    geo_matches_8m = merge_on_address(sites, permits, buffer='8m')
+    geo_matches_15m = merge_on_address(sites, permits, buffer='15m')
+    geo_matches_30m = merge_on_address(sites, permits, buffer='30m')
 
-    return Matches(apn_matches, apn_matches_raw, geo_matches, geo_matches_lax, geo_matches_very_lax)
+    return Matches(apn_matches, apn_matches_raw, geo_matches_1m, geo_matches_8m, geo_matches_15m, geo_matches_30m)
 
 def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, use_raw_apns: bool = False) -> pd.DataFrame:
     match_dfs = []
@@ -612,12 +614,14 @@ def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, us
             match_dfs.append(matches.apn_matches)
 
     if match_by in ['geo', 'both']:
-        if geo_matching_buffer == 'normal':
-            match_dfs.append(matches.geo_matches)
-        elif geo_matching_buffer == 'lax':
-            match_dfs.append(matches.geo_matches_lax)
-        elif geo_matching_buffer == 'very_lax':
-            match_dfs.append(matches.geo_matches_very_lax)
+        if geo_matching_buffer == '1m':
+            match_dfs.append(matches.geo_matches_1m)
+        elif geo_matching_buffer == '8m':
+            match_dfs.append(matches.geo_matches_8m)
+        elif geo_matching_buffer == '15m':
+            match_dfs.append(matches.geo_matches_15m)
+        elif geo_matching_buffer == '30m':
+            match_dfs.append(matches.geo_matches_30m)
         else:
             raise ValueError(f"Unknown geo_matching_buffer option: {geo_matching_buffer}")
 
@@ -661,7 +665,7 @@ def calculate_pdev_for_nonvacant_sites(
     return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, geo_matching_buffer, use_raw_apns)
 
 
-def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer: str = 'normal') -> gpd.GeoDataFrame:
+def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer: str = '1m') -> gpd.GeoDataFrame:
     """
     Returns all matches. Length of output is between 0 and len(permits). A site could be repeated, if it was matched with
     multiple permits.
@@ -676,14 +680,14 @@ def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer:
     sites = sites.to_crs('EPSG:3310')
     permits = permits.to_crs('EPSG:3310')
 
-    if buffer == 'normal':
-        # About 3 feet
-        buffer_meters = 1
-    elif buffer == 'lax':
-        # About 25 feet
-        buffer_meters = 8
-    elif buffer == 'very_lax':
-        buffer_meters = 15
+    supported_buffers = {
+        '1m': 1,  # about 3 feet
+        '8m': 8,  # about 25 feet
+        '15m': 15,  # about 50 feet
+        '30m': 30,  # about 100 feet
+    }
+    if buffer in supported_buffers:
+        buffer_meters = supported_buffers[buffer]
     else:
         raise ValueError(f"Buffer option not recognized: {buffer}")
 
