@@ -185,6 +185,8 @@ def load_abag_permits() -> gpd.GeoDataFrame:
     # Filter out permits from before the start of the 5th Housing Element cycle.
     ABAG = ABAG[ABAG['permyear'] >= 2015].copy()
 
+    ABAG['apn'] = ABAG['apn'].replace({np.nan: None})
+
     return ABAG
 
 def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
@@ -271,7 +273,7 @@ def load_all_new_building_permits(city: str) -> pd.DataFrame:
         ]
     ).reset_index(drop=True)
 
-    permits_df['apn_raw'] = float_col_to_nullable_int(pd.to_numeric(permits_df['apn'], errors='coerce'))
+    permits_df['apn_raw'] = permits_df['apn']
     permits_df['apn'] = standardize_apn_format(permits_df['apn'])
 
     # We need to add "<city name>, CA" to the addresses when we're geocoding them because the ABAG dataset (as far as I've seen)
@@ -351,8 +353,8 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, fix_real
     sites = add_cols_for_sitetype(sites)
 
     # Back up the raw apn/locapn, so that we can calculate the number of matches using the raw string.
-    sites['apn_raw'] = float_col_to_nullable_int(pd.to_numeric(sites['apn'], errors='coerce'))
-    sites['locapn_raw'] = float_col_to_nullable_int(pd.to_numeric(sites['locapn'], errors='coerce'))
+    sites['apn_raw'] = sites['apn'] # float_col_to_nullable_int(pd.to_numeric(sites['apn'], errors='coerce'))
+    sites['locapn_raw'] = sites['locapn'] # float_col_to_nullable_int(pd.to_numeric(sites['locapn'], errors='coerce'))
 
     sites['apn'] = standardize_apn_format(sites['apn'])
     sites['locapn'] = standardize_apn_format(sites['locapn'])

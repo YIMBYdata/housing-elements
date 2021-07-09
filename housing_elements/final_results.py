@@ -162,7 +162,7 @@ def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gp
 
     # Need to add this so that the raw APN matching code doesn't fail... even though it actually doesn't matter,
     # we're not going to look at the raw APN matches for ground truth datasets.
-    permits['apn_raw'] = permits['apn']
+    permits['apn_raw'] = permits['apn'].astype(str)
 
     if city == 'San Jose':
         # the San Jose data already has "San Jose, CA" at the end
