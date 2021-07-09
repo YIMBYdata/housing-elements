@@ -266,6 +266,24 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         8/5 * overall_row['Units permitted / claimed capacity'],
     )
 
+    output += '\n\n Comparing buffer sizes:'
+    dfs = {
+        'raw_apn': pd.read_csv('results/raw_apn_matching_results.csv'),
+        'apn': pd.read_csv('results/apn_matching_results.csv'),
+        'apn_or_geo_1m': pd.read_csv('results/apn_or_geo_matching_1m_results.csv'),
+        'apn_or_geo_8m': pd.read_csv('results/apn_or_geo_matching_8m_results.csv'),
+        'apn_or_geo_15m': pd.read_csv('results/apn_or_geo_matching_15m_results.csv'),
+        'apn_or_geo_30m': pd.read_csv('results/apn_or_geo_matching_30m_results.csv'),
+    }
+    for matching_logic, df in dfs.items():
+        cities_df = df.query('City != "Overall"')
+        overall_row = df.set_index('City').loc['Overall']
+        add_stats(
+            f'adj P(dev) for {matching_logic}',
+            utils.adj_pdev(cities_df['P(dev) for inventory']),
+            utils.adj_pdev(overall_row['P(dev) for inventory']),
+        )
+
     return output
 
 
@@ -550,9 +568,9 @@ def make_ground_truth_summary_table():
 
     ground_truth_summary_df = pd.DataFrame({
         'City': ground_truth_results_df['City'],
-        'P(dev) for inventory, 8 years, ground truth': 8/5 * ground_truth_results_df['P(dev) for inventory'],
+        'P(dev) for inventory, 8 years, ground truth': utils.adj_pdev(ground_truth_results_df['P(dev) for inventory']),
     })
-    abag_pdevs = (8/5 * results_df.set_index('City')['P(dev) for inventory']).to_dict()
+    abag_pdevs = results_df.set_index('City')['P(dev) for inventory'].apply(utils.adj_pdev).to_dict()
     ground_truth_summary_df['P(dev) for inventory, 8 years, ABAG'] = ground_truth_summary_df['City'].map(abag_pdevs)
 
     ground_truth_summary_df.to_csv('results/ground_truth_summary.csv', index=False)
@@ -565,7 +583,7 @@ def get_final_appendix_table(results_df):
     })
 
     # TODO use Salim's better 8-year projection method
-    df['P(dev) for all sites'] = (8/5 * results_df['P(dev) for inventory']).clip(upper=1).apply('{:.1%}'.format)
+    df['P(dev) for all sites'] = results_df['P(dev) for inventory'].apply(utils.adj_pdev).clip(upper=1).apply('{:.1%}'.format)
     df['Liberal P(dev) proxy'] = (8/5 * results_df['Units permitted / claimed capacity']).clip(upper=1).apply('{:.1%}'.format)
     df['Average ratio of built units to claimed capacity'] = results_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
     df['Ratio of non-inventory units to inventory units'] = (
