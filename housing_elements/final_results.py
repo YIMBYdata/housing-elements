@@ -554,6 +554,7 @@ def get_ground_truth_results(cities_with_sites: Dict[str, gpd.GeoDataFrame]) -> 
 def print_summary_stats():
     # 8m is the chosen buffer
     results_df = pd.read_csv('results/apn_or_geo_matching_8m_results.csv')
+    results_upper_bound_df = pd.read_csv('results/apn_or_geo_matching_30m_results.csv')
 
     # Additional summary stats for results section
     Path('results/overall_summary_stats.csv').write_text(
@@ -563,7 +564,7 @@ def print_summary_stats():
         )
     )
 
-    get_final_appendix_table(results_df).to_csv('results/final_appendix_table.csv', index=False)
+    get_final_appendix_table(results_df, results_upper_bound_df).to_csv('results/final_appendix_table.csv', index=False)
 
     make_ground_truth_summary_table()
 
@@ -584,18 +585,21 @@ def make_ground_truth_summary_table():
 
 
 
-def get_final_appendix_table(results_df):
+def get_final_appendix_table(results_df, results_upper_bound_df):
+    assert len(results_df) == len(results_upper_bound_df)
+    assert (results_df['City'] == results_upper_bound_df['City']).all()
+
     df = pd.DataFrame({
         'City': results_df['City']
     })
 
-    # TODO use Salim's better 8-year projection method
-    df['P(dev) for all sites'] = results_df['P(dev) for inventory'].apply(utils.adj_pdev).clip(upper=1).apply('{:.1%}'.format)
-    df['Liberal P(dev) proxy'] = (8/5 * results_df['Units permitted / claimed capacity']).clip(upper=1).apply('{:.1%}'.format)
-    df['Average ratio of built units to claimed capacity'] = results_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
-    df['Ratio of non-inventory units to inventory units'] = (
-        results_df['P(inventory) for homes built'] / (1 - results_df['P(inventory) for homes built'])
-    ).apply('{:.2f}'.format)
+    df['P(dev) for inventory sites'] = results_df['P(dev) for inventory'].apply(utils.adj_pdev).apply('{:.1%}'.format)
+    df['P(dev) for inventory sites (upper bound estimate)'] = results_upper_bound_df['P(dev) for inventory'].apply(utils.adj_pdev).apply('{:.1%}'.format)
+    df['Citywide production relative to claimed capacity'] = (8/5 * results_df['Units permitted / claimed capacity']).clip(upper=1).apply('{:.1%}'.format)
+    df['Realized vs. anticipated density on inventory sites'] = results_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
+    df['Permitted units on inventory sites, as fraction of all permitted units'] = (
+        results_df['P(inventory) for homes built']
+    ).apply('{:.0%}'.format)
 
     df = df[
         df['City'] != 'Overall'
