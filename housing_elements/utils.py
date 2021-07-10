@@ -659,26 +659,39 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
     return Matches(apn_matches, apn_matches_raw, geo_matches_1m, geo_matches_8m, geo_matches_15m, geo_matches_30m)
 
 def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, use_raw_apns: bool = False) -> pd.DataFrame:
-    match_dfs = []
-    if match_by in ['apn', 'both']:
-        if use_raw_apns:
-            match_dfs.append(matches.apn_matches_raw)
-        else:
-            match_dfs.append(matches.apn_matches)
+    if use_raw_apns:
+        apn_df = matches.apn_matches_raw
+    else:
+        apn_df = matches.apn_matches
 
-    if match_by in ['geo', 'both']:
-        if geo_matching_buffer == '1m':
-            match_dfs.append(matches.geo_matches_1m)
-        elif geo_matching_buffer == '8m':
-            match_dfs.append(matches.geo_matches_8m)
-        elif geo_matching_buffer == '15m':
-            match_dfs.append(matches.geo_matches_15m)
-        elif geo_matching_buffer == '30m':
-            match_dfs.append(matches.geo_matches_30m)
-        else:
-            raise ValueError(f"Unknown geo_matching_buffer option: {geo_matching_buffer}")
+    if geo_matching_buffer == '1m':
+        geo_df = matches.geo_matches_1m
+    elif geo_matching_buffer == '8m':
+        geo_df = matches.geo_matches_8m
+    elif geo_matching_buffer == '15m':
+        geo_df = matches.geo_matches_15m
+    elif geo_matching_buffer == '30m':
+        geo_df = matches.geo_matches_30m
+    else:
+        raise ValueError(f"Unknown geo_matching_buffer option: {geo_matching_buffer}")
 
-    return pd.concat(match_dfs)
+    if match_by == 'apn':
+        return apn_df
+    elif match_by == 'geo':
+        return geo_df
+    elif match_by == 'both':
+        # We need to make sure a permit isn't matched to multiple sites, i.e. one site via APN matching and one
+        # via geo matching. So let's only consider a permit for geo-matching if it was not already matched by APN.
+        #
+        # This should not affect the results of P(dev), but it might affect the results of "achieved density vs.
+        # claimed capacity". Not doing this deduping might bias that measure upward, because a permit might contribute
+        # to "units built" on multiple sites.
+        geo_new_df = geo_df[
+            ~geo_df['permits_index'].isin(apn_df['permits_index'])
+        ]
+        return pd.concat([apn_df, geo_df])
+    else:
+        raise ValueError(f"Unknown matching type: {match_by}")
 
 def calculate_pdev_for_inventory(
     sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = 'normal', use_raw_apns: bool = False
