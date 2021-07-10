@@ -689,7 +689,7 @@ def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, us
         geo_new_df = geo_df[
             ~geo_df['permits_index'].isin(apn_df['permits_index'])
         ]
-        return pd.concat([apn_df, geo_df])
+        return pd.concat([apn_df, geo_new_df])
     else:
         raise ValueError(f"Unknown matching type: {match_by}")
 
