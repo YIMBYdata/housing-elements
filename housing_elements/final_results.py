@@ -127,6 +127,7 @@ def get_results_for_city(
         'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(sites, permits, matches, match_by, geo_matching_buffer),
         'RHNA Success': utils.calculate_rhna_success(city, permits),
         'Units permitted / claimed capacity': utils.calculate_permits_to_capacity_ratio(sites, permits),
+        'Units permitted via BPS / claimed capacity': utils.calculate_permits_to_capacity_ratio_via_bps(sites, city),
         'P(inventory) for homes built': utils.calculate_pinventory_for_dev(permits, matches, match_by, geo_matching_buffer),
         'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(permits, matches, match_by, geo_matching_buffer),
         'P(dev) for nonvacant sites': nonvacant_ratio,
@@ -264,6 +265,12 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         '8/5 * Units permitted / claimed capacity',
         8/5 * results_df['Units permitted / claimed capacity'],
         8/5 * overall_row['Units permitted / claimed capacity'],
+    )
+
+    add_stats(
+        '8/5 * Units permitted / claimed capacity via BPS',
+        8/5 * results_df['Units permitted via BPS / claimed capacity'],
+        8/5 * overall_row['Units permitted via BPS / claimed capacity'],
     )
 
     output += 'Comparing buffer sizes:\n\n'

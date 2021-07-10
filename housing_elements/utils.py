@@ -19,6 +19,7 @@ _logger = logging.getLogger(__name__)
 ABAG = None
 INVENTORY = None
 TARGETS = None
+BPS_DATA = None
 XLSX_FILES = [
     ('Richmond', '2018'),
     ('PleasantHill', '2018'),
@@ -540,6 +541,35 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
 def calculate_permits_to_capacity_ratio(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> float:
     return permits.totalunit.sum() / sites.relcapcty.sum()
 
+def calculate_permits_to_capacity_ratio_via_bps(sites: gpd.GeoDataFrame, city: str) -> Optional[float]:
+    if city == 'Overall':
+        # I don't think we need the overall Bay Area numbers, and anyways how to do this is unclear:
+        # do we include all cities in ABAG? All cities in our analysis? How do we deal with the 4 cities that
+        # don't report data to BPS?
+        return None
+
+    bps_df = get_census_bps_dataset()
+    rows_for_city = bps_df[
+        bps_df['place_name'] == city
+    ]
+    if len(rows_for_city) == 0:
+        known_missing_cities = {
+            'Clayton',
+            'Lafayette',
+            'Moraga',
+            'Saint Helena',
+        }
+        if city in known_missing_cities:
+            return None
+        raise ValueError(f"City {city} not available in BPS dataset")
+
+    if len(rows_for_city) != 5:
+        raise ValueError(f"Not all years present for {city}: found {len(rows_for_city)} rows")
+
+    assert set(rows_for_city['year'].unique()) == {'2015', '2016', '2017', '2018', '2019'}
+
+    return rows_for_city['total_units'].sum() / sites.relcapcty.sum()
+
 def get_rhna_target(city: str) -> float:
     rhna_targets = load_rhna_targets()
     if city == 'Overall':
@@ -548,6 +578,29 @@ def get_rhna_target(city: str) -> float:
         warnings.simplefilter(action='ignore', category=FutureWarning)
         rhna_target = rhna_targets.query('City == @city')['Total'].values[0]
     return rhna_target
+
+def get_census_bps_dataset() -> pd.DataFrame:
+    global BPS_DATA
+    if BPS_DATA is None:
+        # Census building permits dataset for places (i.e. cities or unincorporated places)
+        # compiled by Sid for another project.
+        # Downloaded from https://housingdata.app/places_annual.parquet.
+        BPS_DATA = pd.read_parquet(
+            'data/raw_data/places_annual.parquet',
+            columns=['year', 'place_name', 'state_code', 'total_units']
+        )
+        BPS_DATA = BPS_DATA[
+            (BPS_DATA['year'] >= '2015')
+            & (BPS_DATA['year'] <= '2019')
+            & (BPS_DATA['state_code'] == 6)  # FIPS code for California
+        ].drop(columns=['state_code']).copy()
+
+        # That dataset accidentally drops the ' City' in a lot of cities whose names end in 'City'
+        cities_to_fix = ['Foster', 'Union', 'Redwood', 'Daly', 'Suisun']
+        for city in cities_to_fix:
+            BPS_DATA.loc[BPS_DATA['place_name'] == city, 'place_name'] = city + ' City'
+
+    return BPS_DATA
 
 
 def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, use_raw_apns: bool = False) -> pd.DataFrame:
