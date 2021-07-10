@@ -700,6 +700,25 @@ def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_
     plt.savefig('./figures/pdev_vs_inventory_size.jpg')
 
     
+def analyze_realcap_input(cities):
+    """
+    :param: cities: list of strings of city names
+    
+    Return tuple of number of inventory sites, number of sites with realistic capacity 
+    that can't be converted to a number without special handling, and return the number of 
+    sites that have no realistic capacity listed whatsoever.
+    """
+    n_sites, n_missing, n_parse_fail, n_unlisted = 0, 0, 0, 0
+
+    for city in cities:
+        df = utils.load_site_inventory(city, fix_realcap=False)
+        n_missing += df.relcapcty.isna().sum()
+        n_unlisted += df.realcap_not_listed.sum()
+        n_parse_fail += df.realcap_parse_fail.sum()
+        n_sites += len(df.index)
+
+    assert n_missing == (n_unlisted + n_parse_fail)
+    return n_sites, n_parse_fail, n_unlisted
 
 
 if __name__ == '__main__':
