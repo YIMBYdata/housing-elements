@@ -3,7 +3,6 @@ import pandas as pd
 import geopandas as gpd
 import numpy as np
 import seaborn as sea
-from scipy import stats
 import matplotlib.pyplot as plt
 from housing_elements import utils, los_altos_permits, san_francisco_permits, san_jose_permits, map_utils
 from pathlib import Path
@@ -11,9 +10,7 @@ import warnings
 import os, sys
 import pickle
 import argparse
-from multiprocessing import Pool
-from tqdm import tqdm
-import statsmodels
+from housing_elements.parallel_utils import parallel_process
 
 # Silence an annoying warning that I get when running pd.read_excel
 warnings.filterwarnings("ignore", message="Data Validation extension is not supported and will be removed")
@@ -95,11 +92,6 @@ def cached_load_sites_and_permits(use_cache: bool) -> Tuple[gpd.GeoDataFrame, gp
 def get_results_for_city_kwargs(kwargs):
     with HiddenPrints():
         return get_results_for_city(**kwargs)
-
-def parallel_process(function, args_list, num_workers=8):
-    with Pool(num_workers) as pool:
-        results = list(tqdm(pool.imap(function, args_list), total=len(args_list)))
-    return results
 
 def get_results_for_city(
     city: str,
@@ -389,7 +381,8 @@ def get_all_matches_kwargs(kwargs):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--use-cache', action='store_true')
+    parser.add_argument('--use-sites-permits-cache', action='store_true')
+    parser.add_argument('--use-matches-cache', action='store_true')
     parser.add_argument('--additional-results-only', action='store_true')
     parser.add_argument('--plots-only', action='store_true')
     parser.add_argument('--ground-truth-results-only', action='store_true')
@@ -403,7 +396,7 @@ def main():
         make_plots(pd.read_csv('results/apn_or_geo_matching_25ft_results.csv').query('City != "Overall"'))
         return
 
-    cities_with_sites, cities_with_permits, ground_truth_cities_with_permits = cached_load_sites_and_permits(args.use_cache)
+    cities_with_sites, cities_with_permits, ground_truth_cities_with_permits = cached_load_sites_and_permits(args.use_sites_permits_cache)
 
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
@@ -412,16 +405,20 @@ def main():
         get_ground_truth_results(cities_with_sites, ground_truth_cities_with_permits)
         return
 
-    print("Computing all matches...")
-    all_matches = parallel_process(
-        get_all_matches_kwargs,
-        [{'sites': cities_with_sites[city], 'permits': cities_with_permits[city]} for city in cities]
-    )
-    all_matches = dict(zip(cities, all_matches))
+    if args.use_matches_cache:
+        print("Loading all matches from cache...")
+        with open('all_matches_cache.pkl', 'rb') as f:
+            all_matches = pickle.load(f)
+    else:
+        print("Computing all matches...")
+        all_matches = parallel_process(
+            get_all_matches_kwargs,
+            [{'sites': cities_with_sites[city], 'permits': cities_with_permits[city]} for city in cities]
+        )
+        all_matches = dict(zip(cities, all_matches))
 
-    # Dump match results to JSON, for use in website
-    print("Creating JSON output for map...")
-    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
+        with open('all_matches_cache.pkl', 'wb') as f:
+            pickle.dump(all_matches, f)
 
     # Add an "overall" row so that we have the overall stats in the final table
     overall_sites = pd.concat([cities_with_sites[city] for city in cities])
@@ -494,6 +491,10 @@ def main():
             )
         )
         both_results_df.to_csv(f'results/apn_or_geo_matching_{buffer}_results.csv', index=False)
+
+    # Dump match results to JSON, for use in website
+    print("Creating JSON output for map...")
+    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
 
     # 25ft is the chosen buffer size
     results_df = pd.read_csv('results/apn_or_geo_matching_25ft_results.csv')
