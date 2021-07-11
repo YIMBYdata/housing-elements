@@ -181,7 +181,7 @@ def write_matches_to_files(
     for buffer in [0, 5, 10, 25, 50, 75]:
         results_df = pd.read_csv(f'results/apn_or_geo_matching_{buffer}ft_results.csv')
         results_df_formatted = format_results_df(results_df)
-        summary_df['results_{buffer}ft'] = summary_df['city'].map(results_df_formatted)
+        summary_df[f'results_{buffer}ft'] = summary_df['city'].map(results_df_formatted)
 
     summary_df.to_json(Path(output_dir, 'summary.json'), orient='records')
 
