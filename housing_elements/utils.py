@@ -676,7 +676,13 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
         geo_matches_100ft
     )
 
-def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, use_raw_apns: bool = False) -> pd.DataFrame:
+def get_matches_df(
+    matches: Matches, match_by: str, geo_matching_buffer: str, use_raw_apns: bool = False, add_match_type_labels: bool = False
+) -> pd.DataFrame:
+    """
+    If match_by == 'both' and add_match_type_labels = True, it will add columns `apn_matched` and `geo_matched` to indicate
+    for each row, which method was used to get the match.
+    """
     if use_raw_apns:
         apn_df = matches.apn_matches_raw
     else:
@@ -710,10 +716,23 @@ def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, us
         # This should not affect the results of P(dev), but it might affect the results of "achieved density vs.
         # claimed capacity". Not doing this deduping might bias that measure upward, because a permit might contribute
         # to "units built" on multiple sites.
+        merged_apn_df = apn_df.assign(apn_matched=True).merge(
+            geo_df.assign(geo_matched=True),
+            on=['sites_index', 'permits_index'],
+            how='left'
+        )
+        merged_apn_df['geo_matched'] = merged_apn_df['geo_matched'].fillna(False)
+
         geo_new_df = geo_df[
             ~geo_df['permits_index'].isin(apn_df['permits_index'])
-        ]
-        return pd.concat([apn_df, geo_new_df])
+        ].assign(apn_matched=False, geo_matched=True)
+
+        result_df = pd.concat([merged_apn_df, geo_new_df])
+
+        if not add_match_type_labels:
+            result_df = result_df.drop(columns=['apn_matched', 'geo_matched'])
+
+        return result_df
     else:
         raise ValueError(f"Unknown matching type: {match_by}")
 
