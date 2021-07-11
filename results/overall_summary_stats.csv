@@ -105,6 +105,7 @@ Min: 0.0
 75th percentile: 0.06430653894210739
 Max: 1.0
 Overall: 0.02725224489795911
+# matches: 270 / 15750 (1.7%)
 
 adj P(dev) for apn:
 Mean: 0.07200456442980677
@@ -115,6 +116,7 @@ Min: 0.0
 75th percentile: 0.0781515529985052
 Max: 1.0
 Overall: 0.05207229387755094
+# matches: 519 / 15750 (3.3%)
 
 adj P(dev) for apn_or_geo_0ft:
 Mean: 0.11012475467847732
@@ -125,6 +127,7 @@ Min: 0.0
 75th percentile: 0.13459357277882794
 Max: 1.0
 Overall: 0.07747306666666662
+# matches: 777 / 15750 (4.9%)
 
 adj P(dev) for apn_or_geo_5ft:
 Mean: 0.11117231696277263
@@ -135,6 +138,7 @@ Min: 0.0
 75th percentile: 0.13459357277882794
 Max: 1.0
 Overall: 0.07796214905517754
+# matches: 782 / 15750 (5.0%)
 
 adj P(dev) for apn_or_geo_10ft:
 Mean: 0.11348283969040843
@@ -145,6 +149,7 @@ Min: 0.0
 75th percentile: 0.13459357277882794
 Max: 1.0
 Overall: 0.07942867059712774
+# matches: 797 / 15750 (5.1%)
 
 adj P(dev) for apn_or_geo_25ft:
 Mean: 0.11725630359504008
@@ -155,6 +160,7 @@ Min: 0.0
 75th percentile: 0.1447265625
 Max: 1.0
 Overall: 0.08810764383975805
+# matches: 886 / 15750 (5.6%)
 
 adj P(dev) for apn_or_geo_50ft:
 Mean: 0.12974056974989656
@@ -165,6 +171,7 @@ Min: 0.0
 75th percentile: 0.15614366729678633
 Max: 1.0
 Overall: 0.10052257959183661
+# matches: 1014 / 15750 (6.4%)
 
 adj P(dev) for apn_or_geo_75ft:
 Mean: 0.13833244223382318
@@ -175,6 +182,7 @@ Min: 0.0
 75th percentile: 0.18367822269999093
 Max: 1.0
 Overall: 0.11314642479213892
+# matches: 1145 / 15750 (7.3%)
 
 adj P(dev) for apn_or_geo_100ft:
 Mean: 0.14732766167317493
@@ -185,4 +193,5 @@ Min: 0.0
 75th percentile: 0.19848771266540632
 Max: 1.0
 Overall: 0.12768989508692358
+# matches: 1297 / 15750 (8.2%)
 

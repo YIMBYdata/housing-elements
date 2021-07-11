@@ -60,15 +60,26 @@ def load_sites_and_permits():
 
     return cities_with_sites, cities_with_permits
 
-def cached_load_sites_and_permits(use_cache: bool) -> Tuple[gpd.GeoDataFrame, gpd.GeoDataFrame]:
+def cached_load_sites_and_permits(use_cache: bool) -> Tuple[gpd.GeoDataFrame, gpd.GeoDataFrame, gpd.GeoDataFrame]:
     if use_cache:
         with open('cities_with_sites_cache.pkl', 'rb') as f:
             cities_with_sites = pickle.load(f)
 
         with open('cities_with_permits_cache.pkl', 'rb') as f:
             cities_with_permits = pickle.load(f)
+
+        with open('ground_truth_cities_with_permits_cache.pkl', 'rb') as f:
+            ground_truth_cities_with_permits = pickle.load(f)
     else:
         cities_with_sites, cities_with_permits = load_sites_and_permits()
+
+        ground_truth_cities_with_permits = {
+            'San Jose': san_jose_permits.load_all_permits(),
+            'San Francisco': san_francisco_permits.load_all_permits(),
+            'Los Altos': los_altos_permits.load_all_permits(),
+        }
+        for city in ground_truth_cities_with_permits:
+            ground_truth_cities_with_permits[city] = ground_truth_permits_post_processing(ground_truth_cities_with_permits[city], city)
 
         with open('cities_with_sites_cache.pkl', 'wb') as f:
             pickle.dump(cities_with_sites, f)
@@ -76,7 +87,10 @@ def cached_load_sites_and_permits(use_cache: bool) -> Tuple[gpd.GeoDataFrame, gp
         with open('cities_with_permits_cache.pkl', 'wb') as f:
             pickle.dump(cities_with_permits, f)
 
-    return cities_with_sites, cities_with_permits
+        with open('ground_truth_cities_with_permits_cache.pkl', 'wb') as f:
+            pickle.dump(ground_truth_cities_with_permits, f)
+
+    return cities_with_sites, cities_with_permits, ground_truth_cities_with_permits
 
 def get_results_for_city_kwargs(kwargs):
     with HiddenPrints():
@@ -93,11 +107,11 @@ def get_results_for_city(
     permits: gpd.GeoDataFrame,
     matches: Matches,
     match_by: str,
-    geo_matching_buffer: str = '1m',
+    geo_matching_buffer: str = '5ft',
     use_raw_apns: bool = False,
 ) -> pd.DataFrame:
     """
-    :param geo_matching_buffer: Options are '1m', '8m', '15m', and '30m'.
+    :param geo_matching_buffer: Options are '5ft', '10ft', '25ft', '50ft', '75ft', '100ft'.
     """
     nonvacant_matches, nonvacant_sites, nonvacant_ratio = utils.calculate_pdev_for_nonvacant_sites(
         sites, matches, match_by, geo_matching_buffer, use_raw_apns
@@ -138,19 +152,7 @@ def get_results_for_city(
         '# matches': f'{all_matches} / {all_sites}',
     }
 
-
-def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gpd.GeoDataFrame]) -> pd.DataFrame:
-    if city == 'San Jose':
-        permits = san_jose_permits.load_all_permits()
-    elif city == 'San Francisco':
-        permits = san_francisco_permits.load_all_permits()
-    elif city == 'Los Altos':
-        permits = los_altos_permits.load_all_permits()
-    else:
-        raise ValueError(f"Ground truth data not available for {city}")
-
-    sites = cities_with_sites[city]
-
+def ground_truth_permits_post_processing(permits: gpd.GeoDataFrame, city: str) -> gpd.GeoDataFrame:
     if 'geometry' in permits.columns:
         if isinstance(permits.geometry, gpd.GeoSeries):
             geometry = permits.geometry
@@ -172,9 +174,16 @@ def get_ground_truth_results_for_city(city: str, cities_with_sites: Dict[str, gp
         address_suffix = ', ' + city + ', CA'
     permits = utils.impute_missing_geometries(permits, address_suffix)
 
-    matches = utils.get_all_matches(sites, permits)
+    return permits
 
-    return get_results_for_city(city, sites, permits, matches, match_by='both', geo_matching_buffer='8m')
+
+def get_ground_truth_results_for_city(
+    city: str,
+    sites: gpd.GeoDataFrame,
+    permits: gpd.GeoDataFrame,
+) -> pd.DataFrame:
+    matches = utils.get_all_matches(sites, permits)
+    return get_results_for_city(city, sites, permits, matches, match_by='both', geo_matching_buffer='25ft')
 
 
 def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> str:
@@ -213,12 +222,14 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
     output += pd.DataFrame(results).to_csv(index=False)
     output += '\n'
 
-    def add_stats(title, series, overall):
+    def add_stats(title, series, overall, extra_info=None):
         nonlocal output
         stats = get_summary_stats_for_series(series)
         output += title + ':\n'
         output += print_dict(stats)
         output += 'Overall: ' + str(overall) + '\n'
+        if extra_info:
+            output += extra_info
         output += '\n'
 
     add_stats(
@@ -277,18 +288,23 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
     dfs = {
         'raw_apn': pd.read_csv('results/raw_apn_matching_results.csv'),
         'apn': pd.read_csv('results/apn_matching_results.csv'),
-        'apn_or_geo_1m': pd.read_csv('results/apn_or_geo_matching_1m_results.csv'),
-        'apn_or_geo_8m': pd.read_csv('results/apn_or_geo_matching_8m_results.csv'),
-        'apn_or_geo_15m': pd.read_csv('results/apn_or_geo_matching_15m_results.csv'),
-        'apn_or_geo_30m': pd.read_csv('results/apn_or_geo_matching_30m_results.csv'),
+        'apn_or_geo_0ft': pd.read_csv('results/apn_or_geo_matching_0ft_results.csv'),
+        'apn_or_geo_5ft': pd.read_csv('results/apn_or_geo_matching_5ft_results.csv'),
+        'apn_or_geo_10ft': pd.read_csv('results/apn_or_geo_matching_10ft_results.csv'),
+        'apn_or_geo_25ft': pd.read_csv('results/apn_or_geo_matching_25ft_results.csv'),
+        'apn_or_geo_50ft': pd.read_csv('results/apn_or_geo_matching_50ft_results.csv'),
+        'apn_or_geo_75ft': pd.read_csv('results/apn_or_geo_matching_75ft_results.csv'),
+        'apn_or_geo_100ft': pd.read_csv('results/apn_or_geo_matching_100ft_results.csv'),
     }
     for matching_logic, df in dfs.items():
         cities_df = df.query('City != "Overall"')
         overall_row = df.set_index('City').loc['Overall']
+        extra_info = f'# matches: {overall_row["# matches"]} ({eval(overall_row["# matches"]):.1%})\n'
         add_stats(
             f'adj P(dev) for {matching_logic}',
             utils.adj_pdev(cities_df['P(dev) for inventory']),
             utils.adj_pdev(overall_row['P(dev) for inventory']),
+            extra_info
         )
 
     return output
@@ -384,16 +400,16 @@ def main():
         return
 
     if args.plots_only:
-        make_plots(pd.read_csv('results/apn_or_geo_matching_8m_results.csv').query('City != "Overall"'))
+        make_plots(pd.read_csv('results/apn_or_geo_matching_25ft_results.csv').query('City != "Overall"'))
         return
 
-    cities_with_sites, cities_with_permits = cached_load_sites_and_permits(args.use_cache)
+    cities_with_sites, cities_with_permits, ground_truth_cities_with_permits = cached_load_sites_and_permits(args.use_cache)
 
     cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
     assert len(cities) == 97
 
     if args.ground_truth_results_only:
-        get_ground_truth_results(cities_with_sites)
+        get_ground_truth_results(cities_with_sites, ground_truth_cities_with_permits)
         return
 
     print("Computing all matches...")
@@ -437,124 +453,69 @@ def main():
         )
     )
 
-    print("Getting geo 1m results...")
-    results_geo_1m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo')
-                for city in cities
-            ],
-        )
-    )
-
-    print("Getting geo 8m results...")
-    results_geo_8m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='8m')
-                for city in cities
-            ],
-        )
-    )
-
-    print("Getting geo 15m results...")
-    results_geo_15m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='15m')
-                for city in cities
-            ],
-        )
-    )
-
-    print("Getting geo 15m results...")
-    results_geo_30m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='geo', geo_matching_buffer='30m')
-                for city in cities
-            ],
-        )
-    )
-
-
-    print("Getting apn or geo 1m results...")
-    results_both_1m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both')
-                for city in cities
-            ],
-        )
-    )
-
-    print("Getting apn or geo 8m results...")
-    results_both_8m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='8m')
-                for city in cities
-            ],
-        )
-    )
-
-    print("Getting apn or geo 15m results...")
-    results_both_15m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='15m')
-                for city in cities
-            ],
-        )
-    )
-
-    print("Getting apn or geo 30m results...")
-    results_both_30m_df = pd.DataFrame(
-        parallel_process(
-            get_results_for_city_kwargs,
-            [
-                dict(city=city, sites=cities_with_sites[city], permits=cities_with_permits[city], matches=all_matches[city], match_by='both', geo_matching_buffer='30m')
-                for city in cities
-            ],
-        )
-    )
-
     apn_results_df.to_csv('results/apn_matching_results.csv', index=False)
     raw_apn_results_df.to_csv('results/raw_apn_matching_results.csv', index=False)
 
-    results_geo_1m_df.to_csv('results/geo_matching_1m_results.csv', index=False)
-    results_geo_8m_df.to_csv('results/geo_matching_8m_results.csv', index=False)
-    results_geo_15m_df.to_csv('results/geo_matching_15m_results.csv', index=False)
-    results_geo_30m_df.to_csv('results/geo_matching_30m_results.csv', index=False)
+    for buffer in ['0ft', '5ft', '10ft', '25ft', '50ft', '75ft', '100ft']:
+        print(f"Getting geo {buffer} results...")
+        geo_results_df = pd.DataFrame(
+            parallel_process(
+                get_results_for_city_kwargs,
+                [
+                    dict(
+                        city=city,
+                        sites=cities_with_sites[city],
+                        permits=cities_with_permits[city],
+                        matches=all_matches[city],
+                        match_by='geo',
+                        geo_matching_buffer=buffer
+                    )
+                    for city in cities
+                ],
+            )
+        )
+        geo_results_df.to_csv(f'results/geo_matching_{buffer}_results.csv', index=False)
 
-    results_both_1m_df.to_csv('results/apn_or_geo_matching_1m_results.csv', index=False)
-    results_both_8m_df.to_csv('results/apn_or_geo_matching_8m_results.csv', index=False)
-    results_both_15m_df.to_csv('results/apn_or_geo_matching_15m_results.csv', index=False)
-    results_both_30m_df.to_csv('results/apn_or_geo_matching_30m_results.csv', index=False)
+        print(f"Getting apn or geo {buffer} results...")
+        both_results_df = pd.DataFrame(
+            parallel_process(
+                get_results_for_city_kwargs,
+                [
+                    dict(
+                        city=city,
+                        sites=cities_with_sites[city],
+                        permits=cities_with_permits[city],
+                        matches=all_matches[city],
+                        match_by='both',
+                        geo_matching_buffer=buffer
+                    )
+                    for city in cities
+                ],
+            )
+        )
+        both_results_df.to_csv(f'results/apn_or_geo_matching_{buffer}_results.csv', index=False)
 
-    # 8m is the chosen buffer size
-    make_plots(results_both_8m_df.query('City != "Overall"'))
+    # 25ft is the chosen buffer size
+    results_df = pd.read_csv('results/apn_or_geo_matching_25ft_results.csv')
 
-    get_ground_truth_results(cities_with_sites)
+    make_plots(results_df.query('City != "Overall"'))
+
+    get_ground_truth_results(cities_with_sites, ground_truth_cities_with_permits)
 
     print_summary_stats()
 
-def get_ground_truth_results(cities_with_sites: Dict[str, gpd.GeoDataFrame]) -> None:
+def get_ground_truth_results(cities_with_sites: Dict[str, gpd.GeoDataFrame], ground_truth_cities_with_permits: gpd.GeoDataFrame) -> None:
     ground_truth_cities = ['Los Altos', 'San Francisco', 'San Jose']
-    ground_truth_results_df = pd.DataFrame([get_ground_truth_results_for_city(city, cities_with_sites) for city in ground_truth_cities])
+
+    ground_truth_results_df = pd.DataFrame([
+        get_ground_truth_results_for_city(city, cities_with_sites[city], ground_truth_cities_with_permits[city]) for city in ground_truth_cities
+    ])
     ground_truth_results_df.to_csv('results/ground_truth_results.csv', index=False)
 
 def print_summary_stats():
-    # 8m is the chosen buffer
-    results_df = pd.read_csv('results/apn_or_geo_matching_8m_results.csv')
-    results_upper_bound_df = pd.read_csv('results/apn_or_geo_matching_30m_results.csv')
+    # 25ft is the chosen buffer
+    results_df = pd.read_csv('results/apn_or_geo_matching_25ft_results.csv')
+    results_upper_bound_df = pd.read_csv('results/apn_or_geo_matching_100ft_results.csv')
 
     # Additional summary stats for results section
     Path('results/overall_summary_stats.csv').write_text(
@@ -571,7 +532,7 @@ def print_summary_stats():
 
 def make_ground_truth_summary_table():
     # Make comparison table for ground truth
-    results_df = pd.read_csv('results/apn_or_geo_matching_8m_results.csv')
+    results_df = pd.read_csv('results/apn_or_geo_matching_25ft_results.csv')
     ground_truth_results_df = pd.read_csv('results/ground_truth_results.csv')
 
     ground_truth_summary_df = pd.DataFrame({

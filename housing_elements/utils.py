@@ -445,7 +445,7 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     return sites
 
 def calculate_pinventory_for_dev(
-    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = 'normal'
+    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = '5ft'
 ) -> float:
     """P(inventory|developed), over permitted units"""
     assert permits.index.nunique() == len(permits.index)
@@ -463,7 +463,7 @@ def calculate_pinventory_for_dev(
     return np.nan
 
 def calculate_pinventory_for_dev_by_project(
-    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = 'normal'
+    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = '5ft'
 ) -> float:
     """P(inventory|developed), over permitted projects"""
     assert permits.index.nunique() == len(permits.index)
@@ -522,6 +522,8 @@ def calculate_city_unit_ratio(
     # Handle cases where one site matches multiple permits, or vice versa. Just make sure we're counting each once.
     total_units = merged_df.drop_duplicates('permits_index')['totalunit'].sum()
     total_capacity = merged_df.drop_duplicates('sites_index')['relcapcty'].sum()
+    if total_capacity == 0 or pd.isnull(total_capacity):
+        return None
     return total_units / total_capacity
 
 
@@ -639,10 +641,13 @@ def merge_on_apn(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, use_raw_apn
 class Matches(NamedTuple):
     apn_matches: pd.DataFrame
     apn_matches_raw: pd.DataFrame
-    geo_matches_1m: pd.DataFrame
-    geo_matches_8m: pd.DataFrame
-    geo_matches_15m: pd.DataFrame
-    geo_matches_30m: pd.DataFrame
+    geo_matches_0ft: pd.DataFrame
+    geo_matches_5ft: pd.DataFrame
+    geo_matches_10ft: pd.DataFrame
+    geo_matches_25ft: pd.DataFrame
+    geo_matches_50ft: pd.DataFrame
+    geo_matches_75ft: pd.DataFrame
+    geo_matches_100ft: pd.DataFrame
 
 def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Matches:
     """
@@ -651,12 +656,25 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
     """
     apn_matches = merge_on_apn(sites, permits)
     apn_matches_raw = merge_on_apn(sites, permits, use_raw_apns=True)
-    geo_matches_1m = merge_on_address(sites, permits, buffer='1m')
-    geo_matches_8m = merge_on_address(sites, permits, buffer='8m')
-    geo_matches_15m = merge_on_address(sites, permits, buffer='15m')
-    geo_matches_30m = merge_on_address(sites, permits, buffer='30m')
+    geo_matches_0ft = merge_on_address(sites, permits, buffer='0ft')
+    geo_matches_5ft = merge_on_address(sites, permits, buffer='5ft')
+    geo_matches_10ft = merge_on_address(sites, permits, buffer='10ft')
+    geo_matches_25ft = merge_on_address(sites, permits, buffer='25ft')
+    geo_matches_50ft = merge_on_address(sites, permits, buffer='50ft')
+    geo_matches_75ft = merge_on_address(sites, permits, buffer='75ft')
+    geo_matches_100ft = merge_on_address(sites, permits, buffer='100ft')
 
-    return Matches(apn_matches, apn_matches_raw, geo_matches_1m, geo_matches_8m, geo_matches_15m, geo_matches_30m)
+    return Matches(
+        apn_matches,
+        apn_matches_raw,
+        geo_matches_0ft,
+        geo_matches_5ft,
+        geo_matches_10ft,
+        geo_matches_25ft,
+        geo_matches_50ft,
+        geo_matches_75ft,
+        geo_matches_100ft
+    )
 
 def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, use_raw_apns: bool = False) -> pd.DataFrame:
     if use_raw_apns:
@@ -664,14 +682,20 @@ def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, us
     else:
         apn_df = matches.apn_matches
 
-    if geo_matching_buffer == '1m':
-        geo_df = matches.geo_matches_1m
-    elif geo_matching_buffer == '8m':
-        geo_df = matches.geo_matches_8m
-    elif geo_matching_buffer == '15m':
-        geo_df = matches.geo_matches_15m
-    elif geo_matching_buffer == '30m':
-        geo_df = matches.geo_matches_30m
+    if geo_matching_buffer == '0ft':
+        geo_df = matches.geo_matches_0ft
+    elif geo_matching_buffer == '5ft':
+        geo_df = matches.geo_matches_5ft
+    elif geo_matching_buffer == '10ft':
+        geo_df = matches.geo_matches_10ft
+    elif geo_matching_buffer == '25ft':
+        geo_df = matches.geo_matches_25ft
+    elif geo_matching_buffer == '50ft':
+        geo_df = matches.geo_matches_50ft
+    elif geo_matching_buffer == '75ft':
+        geo_df = matches.geo_matches_75ft
+    elif geo_matching_buffer == '100ft':
+        geo_df = matches.geo_matches_100ft
     else:
         raise ValueError(f"Unknown geo_matching_buffer option: {geo_matching_buffer}")
 
@@ -694,7 +718,7 @@ def get_matches_df(matches: Matches, match_by: str, geo_matching_buffer: str, us
         raise ValueError(f"Unknown matching type: {match_by}")
 
 def calculate_pdev_for_inventory(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = 'normal', use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = '5ft', use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -716,7 +740,7 @@ def calculate_pdev_for_inventory(
 
 
 def calculate_pdev_for_vacant_sites(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = 'normal', use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = '5ft', use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites.is_vacant].copy()
@@ -724,14 +748,14 @@ def calculate_pdev_for_vacant_sites(
 
 
 def calculate_pdev_for_nonvacant_sites(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = 'normal', use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = '5ft', use_raw_apns: bool = False
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
     return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, geo_matching_buffer, use_raw_apns)
 
 
-def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer: str = '1m') -> gpd.GeoDataFrame:
+def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer: str = '5ft') -> gpd.GeoDataFrame:
     """
     Returns all matches. Length of output is between 0 and len(permits). A site could be repeated, if it was matched with
     multiple permits.
@@ -746,20 +770,18 @@ def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer:
     sites = sites.to_crs('EPSG:3310')
     permits = permits.to_crs('EPSG:3310')
 
-    supported_buffers = {
-        '1m': 1,  # about 3 feet
-        '8m': 8,  # about 25 feet
-        '15m': 15,  # about 50 feet
-        '30m': 30,  # about 100 feet
-    }
-    if buffer in supported_buffers:
-        buffer_meters = supported_buffers[buffer]
+    supported_buffers = [0, 5, 10, 25, 50, 75, 100]  # feet
+    buffer_map = {f'{buffer}ft': buffer for buffer in supported_buffers}
+    if buffer in buffer_map:
+        buffer_feet = buffer_map[buffer]
     else:
         raise ValueError(f"Buffer option not recognized: {buffer}")
 
-    # Buffer by N meters, and take the closest match for each permit, to limit false positives
+    # Buffer by N feet, and take the closest match for each permit, to limit false positives
+    buffer_meters = buffer_feet * 0.3048
     permits_buffered = permits.copy()
-    permits_buffered.geometry = permits_buffered.geometry.buffer(buffer_meters)
+    if buffer_meters != 0:
+        permits_buffered.geometry = permits_buffered.geometry.buffer(buffer_meters)
 
     # Get all pairs of sites, permits within N meters of each other.
     # The geometry column will be taken the left dataframe (i.e. the site geometry).
