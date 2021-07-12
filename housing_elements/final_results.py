@@ -4,6 +4,7 @@ import geopandas as gpd
 import numpy as np
 import seaborn as sea
 import matplotlib.pyplot as plt
+from collections import Counter
 from housing_elements import utils, los_altos_permits, san_francisco_permits, san_jose_permits, map_utils
 from pathlib import Path
 import warnings
@@ -701,6 +702,34 @@ def analyze_realcap_input(cities):
     assert n_missing == (n_unlisted + n_parse_fail)
     return n_sites, n_parse_fail, n_unlisted
 
+
+def plot_inventory_permits_by_year():
+    path = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+    path = path + "/figures/permits_by_year.jpg"
+    with open('../cities_with_sites_cache.pkl', 'rb') as f:
+        cities_with_sites = pickle.load(f)
+
+    with open('../cities_with_permits_cache.pkl', 'rb') as f:
+        cities_with_permits = pickle.load(f)
+        
+    cities = [c for c in cities_with_permits if c in cities_with_sites]
+    permyears = []
+    for city in cities:
+        sites = cities_with_sites[city]
+        permits = cities_with_permits[city]
+        matches = utils.merge_on_address(sites, permits)
+        permyears.extend(permits.loc[matches.permits_index].permyear.values)
+    
+    py = [p for p in permyears if p > 2014]
+    ordered_py = [(years, counts) for years, counts in Counter(py).items()]
+    years, counts = [c[0] for c in ordered_py], [c[1] for c in ordered_py]
+    
+    sea.set()
+    plt.bar(years, counts)
+    plt.ylabel("Number of Permits")
+    plt.xlabel("Year")
+    plt.title("When do inventory sites get permitted?")
+    plt.savefig(path)
 
 if __name__ == '__main__':
     main()
