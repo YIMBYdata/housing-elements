@@ -23,7 +23,7 @@ def load_all_permits(filter_post_2015_new_construction: bool = True, dedupe: boo
     permits = permits.rename(renaming_map, axis=1)
 
     if filter_post_2015_new_construction:
-        permits = permits.query('permyear >= 2015')
+        permits = permits.query('permyear >= 2015 and permyear < 2020')
 
     if dedupe:
         permits = permits.sort_values('totalunit', ascending=False).drop_duplicates('apn')
