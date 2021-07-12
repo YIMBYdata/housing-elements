@@ -11,6 +11,7 @@ def load_all_permits(
     date_cols = [c for c in permits.columns if 'Date' in c]
     permits[date_cols] = permits[date_cols].apply(pd.to_datetime)
     permits['apn'] = permits['Block'] + permits['Lot']
+    permits['na_existing_units'] = permits['Existing Units'].isna()
     permits['new_units'] = permits['Proposed Units'].fillna(0) - permits['Existing Units'].fillna(0)
     relevant_uses = [
         'apartments', '1 family dwelling', '2 family dwelling',
@@ -23,7 +24,10 @@ def load_all_permits(
         & permits['Proposed Use'].isin(relevant_uses)
         & permits['Permit Type'].isin([1, 2, 3, 8])
     ].copy()
-
+    
+    rhna_permits = rhna_permits.query('not (`Permit Type` == 8 and na_existing_units)')
+    rhna_permits = rhna_permits.query('not (`Permit Type` == 3 and na_existing_units)')
+    
     if dedupe:
         rhna_permits.drop_duplicates('Permit Number', inplace=True)
         rhna_permits.sort_values(by=["Permit Type", 'Filed Date'], ascending=[True, False], inplace=True)
