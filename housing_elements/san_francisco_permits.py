@@ -22,11 +22,12 @@ def load_all_permits(
         permits['new_units'] > 0
         & permits['Proposed Use'].isin(relevant_uses)
         & permits['Permit Type'].isin([1, 2, 3, 8])
-    ]
+    ].copy()
 
     if dedupe:
-        rhna_permits.sort_values(by="Permit Type", axis=0, inplace=True)
-        rhna_permits = rhna_permits.drop_duplicates(['apn', 'new_units', 'Proposed Units', 'Street Number'])
+        rhna_permits.drop_duplicates('Permit Number', inplace=True)
+        rhna_permits.sort_values(by=["Permit Type", 'Filed Date'], ascending=[True, False], inplace=True)
+        rhna_permits.drop_duplicates(['apn', 'Street Number', 'Existing Units'], keep='first', inplace=True)
 
     if filter_post_2015_new_construction:
         rhna_permits = rhna_permits[
