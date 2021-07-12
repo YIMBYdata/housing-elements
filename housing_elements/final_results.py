@@ -50,10 +50,17 @@ def load_sites_and_permits():
             try:
                 cities_with_permits[city] = utils.load_all_new_building_permits(city)
             except Exception:
-                print(city, file=sys.stderr)
+                print("Loading permits failed for " + city, file=sys.stderr)
 
     assert len(cities_with_permits) == 99
     assert len(set(cities_with_permits).intersection(set(cities_with_sites))) == 97
+
+    cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
+
+    overall_sites = pd.concat([cities_with_sites[city] for city in cities])
+    overall_permits = pd.concat([cities_with_permits[city] for city in cities], ignore_index=True)
+    cities_with_sites['Overall'] = overall_sites
+    cities_with_permits['Overall'] = overall_permits
 
     return cities_with_sites, cities_with_permits
 
@@ -378,56 +385,12 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
 def get_all_matches_kwargs(kwargs):
     return utils.get_all_matches(**kwargs)
 
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--use-sites-permits-cache', action='store_true')
-    parser.add_argument('--use-matches-cache', action='store_true')
-    parser.add_argument('--additional-results-only', action='store_true')
-    parser.add_argument('--plots-only', action='store_true')
-    parser.add_argument('--ground-truth-results-only', action='store_true')
-    args = parser.parse_args()
-
-    if args.additional_results_only:
-        print_summary_stats()
-        return
-
-    if args.plots_only:
-        make_plots(pd.read_csv('results/apn_or_geo_matching_25ft_results.csv').query('City != "Overall"'))
-        return
-
-    cities_with_sites, cities_with_permits, ground_truth_cities_with_permits = cached_load_sites_and_permits(args.use_sites_permits_cache)
-
-    cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
-    assert len(cities) == 97
-
-    if args.ground_truth_results_only:
-        get_ground_truth_results(cities_with_sites, ground_truth_cities_with_permits)
-        return
-
-    if args.use_matches_cache:
-        print("Loading all matches from cache...")
-        with open('all_matches_cache.pkl', 'rb') as f:
-            all_matches = pickle.load(f)
-    else:
-        print("Computing all matches...")
-        all_matches = parallel_process(
-            get_all_matches_kwargs,
-            [{'sites': cities_with_sites[city], 'permits': cities_with_permits[city]} for city in cities]
-        )
-        all_matches = dict(zip(cities, all_matches))
-
-        with open('all_matches_cache.pkl', 'wb') as f:
-            pickle.dump(all_matches, f)
-
-    # Add an "overall" row so that we have the overall stats in the final table
-    overall_sites = pd.concat([cities_with_sites[city] for city in cities])
-    overall_permits = pd.concat([cities_with_permits[city] for city in cities], ignore_index=True)
-    cities_with_sites['Overall'] = overall_sites
-    cities_with_permits['Overall'] = overall_permits
-    all_matches['Overall'] = utils.get_all_matches(overall_sites, overall_permits)
-    cities.append('Overall')
-
+def create_results_csv_files(
+    cities: List[str],
+    cities_with_sites: Dict[str, gpd.GeoDataFrame],
+    cities_with_permits: Dict[str, gpd.GeoDataFrame],
+    all_matches: Dict[str, pd.DataFrame],
+):
     print("Getting APN results...")
     apn_results_df = pd.DataFrame(
         parallel_process(
@@ -491,6 +454,62 @@ def main():
             )
         )
         both_results_df.to_csv(f'results/apn_or_geo_matching_{buffer}_results.csv', index=False)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--use-sites-permits-cache', action='store_true')
+    parser.add_argument('--use-matches-cache', action='store_true')
+    parser.add_argument('--additional-results-only', action='store_true')
+    parser.add_argument('--plots-only', action='store_true')
+    parser.add_argument('--ground-truth-results-only', action='store_true')
+    parser.add_argument('--map-results-only', action='store_true')
+    args = parser.parse_args()
+
+    if args.additional_results_only:
+        print_summary_stats()
+        return
+
+    if args.plots_only:
+        make_plots(pd.read_csv('results/apn_or_geo_matching_25ft_results.csv').query('City != "Overall"'))
+        return
+
+    cities_with_sites, cities_with_permits, ground_truth_cities_with_permits = cached_load_sites_and_permits(args.use_sites_permits_cache)
+
+    cities = sorted(set(cities_with_sites.keys()) & set(cities_with_permits.keys()))
+    assert len(cities) == 98
+
+    # load_sites_and_permits should have added an 'Overall' DataFrame to both, which includes sites and permits across all cities that have both present.
+    assert 'Overall' in cities
+
+    # Move 'Overall' to the end of the list
+    cities.remove('Overall')
+    cities.append('Overall')
+
+    if args.ground_truth_results_only:
+        get_ground_truth_results(cities_with_sites, ground_truth_cities_with_permits)
+        return
+
+    if args.use_matches_cache:
+        print("Loading all matches from cache...")
+        with open('all_matches_cache.pkl', 'rb') as f:
+            all_matches = pickle.load(f)
+    else:
+        print("Computing all matches...")
+        all_matches = parallel_process(
+            get_all_matches_kwargs,
+            [{'sites': cities_with_sites[city], 'permits': cities_with_permits[city]} for city in cities]
+        )
+        all_matches = dict(zip(cities, all_matches))
+
+        with open('all_matches_cache.pkl', 'wb') as f:
+            pickle.dump(all_matches, f)
+
+    if args.map_results_only:
+        map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
+        return
+
+    create_results_csv_files(cities, cities_with_sites, cities_with_permits, all_matches)
 
     # Dump match results to JSON, for use in website
     print("Creating JSON output for map...")
@@ -661,13 +680,13 @@ def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_
     plt.xlabel("# of Sites in City's Inventory")
     plt.savefig('./figures/pdev_vs_inventory_size.jpg')
 
-    
+
 def analyze_realcap_input(cities):
     """
     :param: cities: list of strings of city names
-    
-    Return tuple of number of inventory sites, number of sites with realistic capacity 
-    that can't be converted to a number without special handling, and return the number of 
+
+    Return tuple of number of inventory sites, number of sites with realistic capacity
+    that can't be converted to a number without special handling, and return the number of
     sites that have no realistic capacity listed whatsoever.
     """
     n_sites, n_missing, n_parse_fail, n_unlisted = 0, 0, 0, 0

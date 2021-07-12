@@ -45,6 +45,10 @@ def add_matches_dict_to_sites(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame
             matches, match_by='both', geo_matching_buffer=f'{buffer}ft', add_match_type_labels=True
         )
 
+        match_results_col = f'match_results_{buffer}ft'
+        apn_match_col = f'apn_matched_{buffer}ft'
+        geo_match_col = f'geo_matched_{buffer}ft'
+
         if len(matches_df):
             merged = matches_df.merge(
                 permits_renamed_df,
@@ -64,24 +68,54 @@ def add_matches_dict_to_sites(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame
                 ],
                 default=None
             )
-            merged = merged.drop(columns=['apn_matched', 'geo_matched'])
+
+
+            merged = merged.rename(columns={
+                'apn_matched': apn_match_col,
+                'geo_matched': geo_match_col,
+            })
 
             match_results_by_site = (
                 merged
                 .groupby('sites_index')
                 .apply(lambda group: group.drop(columns=['sites_index']).to_dict('records'))
-                .reset_index(name=f'match_results_{buffer}ft')
+                .reset_index(name=match_results_col)
             )
+
+            apn_matched_by_site = merged.groupby('sites_index')[apn_match_col].any().reset_index()
+            geo_matched_by_site = merged.groupby('sites_index')[geo_match_col].any().reset_index()
 
             output_df = output_df.merge(
                 match_results_by_site,
                 on='sites_index',
                 how='left',
+            ).merge(
+                apn_matched_by_site,
+                on='sites_index',
+                how='left',
+            ).merge(
+                geo_matched_by_site,
+                on='sites_index',
+                how='left',
             )
+
+            output_df[apn_match_col] = output_df[apn_match_col].fillna(False)
+            output_df[geo_match_col] = output_df[geo_match_col].fillna(False)
         else:
-            output_df[f'match_results_{buffer}ft'] = None
+            output_df[match_results_col] = None
+            output_df[apn_match_col] = False
+            output_df[geo_match_col] = False
 
     output_df = output_df.drop(columns=['sites_index'])
+
+    for buffer in [5, 10, 25, 50, 75, 100]:
+        assert (output_df['apn_matched_0ft'] == output_df[f'apn_matched_{buffer}ft']).all()
+
+    output_df = output_df.drop(
+        columns=[f'apn_matched_{buffer}ft' for buffer in [5, 10, 25, 50, 75, 100]]
+    ).rename(
+        columns={'apn_matched_0ft': 'apn_matched'}
+    )
 
     return output_df
 
@@ -178,10 +212,14 @@ def write_matches_to_files(
 
     summary_df = pd.DataFrame(summary_info)
 
-    for buffer in [0, 5, 10, 25, 50, 75]:
+    apn_results_df = pd.read_csv(f'results/apn_matching_results.csv')
+    apn_results_df_formatted = format_results_df(apn_results_df)
+    summary_df[f'results_apn_only'] = summary_df['city'].map(apn_results_df_formatted)
+
+    for buffer in [0, 5, 10, 25, 50, 75, 100]:
         results_df = pd.read_csv(f'results/apn_or_geo_matching_{buffer}ft_results.csv')
         results_df_formatted = format_results_df(results_df)
-        summary_df[f'results_{buffer}ft'] = summary_df['city'].map(results_df_formatted)
+        summary_df[f'results_apn_and_geo_{buffer}ft'] = summary_df['city'].map(results_df_formatted)
 
     summary_df.to_json(Path(output_dir, 'summary.json'), orient='records')
 
