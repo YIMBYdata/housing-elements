@@ -25,8 +25,8 @@ def load_all_permits(
         & permits['Permit Type'].isin([1, 2, 3, 8])
     ].copy()
     
-    rhna_permits = rhna_permits.query('not (`Permit Type` == 8 and na_existing_units)')
-    rhna_permits = rhna_permits.query('not (`Permit Type` == 3 and na_existing_units)')
+    rhna_permits.query('not (`Permit Type` == 8 and na_existing_units)', inplace=True)
+    rhna_permits.query('not (`Permit Type` == 3 and na_existing_units)', inplace=True)
     
     if dedupe:
         rhna_permits.drop_duplicates('Permit Number', inplace=True)
