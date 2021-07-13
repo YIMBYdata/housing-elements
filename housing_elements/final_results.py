@@ -577,7 +577,7 @@ def get_final_appendix_table(results_df, results_upper_bound_df):
 
     df['P(dev) for inventory sites'] = results_df['P(dev) for inventory'].apply(utils.adj_pdev).apply('{:.1%}'.format)
     df['P(dev) for inventory sites (upper bound estimate)'] = results_upper_bound_df['P(dev) for inventory'].apply(utils.adj_pdev).apply('{:.1%}'.format)
-    df['Citywide production relative to claimed capacity'] = (8/5 * results_df['Units permitted / claimed capacity']).clip(upper=1).apply('{:.1%}'.format)
+    df['Citywide production relative to claimed capacity'] = (8/5 * results_df['Units permitted / claimed capacity']).apply('{:.1%}'.format)
     df['Realized vs. anticipated density on inventory sites'] = results_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
     df['Permitted units on inventory sites, as fraction of all permitted units'] = (
         results_df['P(inventory) for homes built']
