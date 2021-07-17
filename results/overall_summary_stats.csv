@@ -195,3 +195,25 @@ Max: 1.0
 Overall: 0.12768989508692358
 # matches: 1297 / 15750 (8.2%)
 
+P(inventory) for homes built, under different matching assumptions
+raw_apn 0.7%
+apn 4.2%
+apn_or_geo_0ft 11.6%
+apn_or_geo_5ft 12.1%
+apn_or_geo_10ft 12.3%
+apn_or_geo_25ft 12.9%
+apn_or_geo_50ft 19.1%
+apn_or_geo_75ft 19.8%
+apn_or_geo_100ft 22.0%
+
+P(inventory) for projects built, under different matching assumptions
+raw_apn 1.0%
+apn 2.0%
+apn_or_geo_0ft 7.0%
+apn_or_geo_5ft 7.0%
+apn_or_geo_10ft 7.1%
+apn_or_geo_25ft 7.1%
+apn_or_geo_50ft 9.5%
+apn_or_geo_75ft 9.5%
+apn_or_geo_100ft 12.4%
+

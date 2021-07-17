@@ -445,12 +445,12 @@ def fix_el_cerrito_realcap(sites: pd.DataFrame) -> pd.DataFrame:
     return sites
 
 def calculate_pinventory_for_dev(
-    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = '5ft'
+    permits: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
 ) -> float:
     """P(inventory|developed), over permitted units"""
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_buffer)
+    matches_df = get_matches_df(matches, matching_logic)
 
     housing_on_sites = permits[permits.index.isin(matches_df['permits_index'])].totalunit.sum()
     total_units = permits.totalunit.sum()
@@ -463,18 +463,18 @@ def calculate_pinventory_for_dev(
     return np.nan
 
 def calculate_pinventory_for_dev_by_project(
-    permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str = '5ft'
+    permits: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
 ) -> float:
     """P(inventory|developed), over permitted projects"""
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_buffer)
+    matches_df = get_matches_df(matches, matching_logic)
 
     return permits.index.isin(matches_df['permits_index']).mean()
 
 
 def calculate_underproduction_on_sites(
-    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str
+    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
 ) -> float:
     """
     Report the average ratio of (units built / units claimed) for all matched sites in the city.
@@ -482,7 +482,7 @@ def calculate_underproduction_on_sites(
     assert sites.index.nunique() == len(sites.index)
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_buffer).drop_duplicates()
+    matches_df = get_matches_df(matches, matching_logic).drop_duplicates()
 
     merged_df = sites[['relcapcty']].rename_axis('sites_index').reset_index().merge(
         matches_df,
@@ -499,7 +499,7 @@ def calculate_underproduction_on_sites(
 
 
 def calculate_city_unit_ratio(
-    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, match_by: str, geo_matching_buffer: str
+    sites: pd.DataFrame, permits: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
 ) -> float:
     """
     Report the average ratio of (units built / units claimed) for all matched sites in the city.
@@ -507,7 +507,7 @@ def calculate_city_unit_ratio(
     assert sites.index.nunique() == len(sites.index)
     assert permits.index.nunique() == len(permits.index)
 
-    matches_df = get_matches_df(matches, match_by, geo_matching_buffer).drop_duplicates()
+    matches_df = get_matches_df(matches, matching_logic).drop_duplicates()
 
     merged_df = sites[['relcapcty']].rename_axis('sites_index').reset_index().merge(
         matches_df,
@@ -649,6 +649,12 @@ class Matches(NamedTuple):
     geo_matches_75ft: pd.DataFrame
     geo_matches_100ft: pd.DataFrame
 
+
+class MatchingLogic(NamedTuple):
+    match_by: str
+    geo_matching_buffer: str = '25ft'
+    use_raw_apns: bool = False
+
 def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Matches:
     """
     Helper function to precompute all matches. This should speed up all the downstream functions that depend on matching logic,
@@ -677,39 +683,39 @@ def get_all_matches(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> Match
     )
 
 def get_matches_df(
-    matches: Matches, match_by: str, geo_matching_buffer: str, use_raw_apns: bool = False, add_match_type_labels: bool = False
+    matches: Matches, matching_logic: MatchingLogic, add_match_type_labels: bool = False
 ) -> pd.DataFrame:
     """
     If match_by == 'both' and add_match_type_labels = True, it will add columns `apn_matched` and `geo_matched` to indicate
     for each row, which method was used to get the match.
     """
-    if use_raw_apns:
+    if matching_logic.use_raw_apns:
         apn_df = matches.apn_matches_raw
     else:
         apn_df = matches.apn_matches
 
-    if geo_matching_buffer == '0ft':
+    if matching_logic.geo_matching_buffer == '0ft':
         geo_df = matches.geo_matches_0ft
-    elif geo_matching_buffer == '5ft':
+    elif matching_logic.geo_matching_buffer == '5ft':
         geo_df = matches.geo_matches_5ft
-    elif geo_matching_buffer == '10ft':
+    elif matching_logic.geo_matching_buffer == '10ft':
         geo_df = matches.geo_matches_10ft
-    elif geo_matching_buffer == '25ft':
+    elif matching_logic.geo_matching_buffer == '25ft':
         geo_df = matches.geo_matches_25ft
-    elif geo_matching_buffer == '50ft':
+    elif matching_logic.geo_matching_buffer == '50ft':
         geo_df = matches.geo_matches_50ft
-    elif geo_matching_buffer == '75ft':
+    elif matching_logic.geo_matching_buffer == '75ft':
         geo_df = matches.geo_matches_75ft
-    elif geo_matching_buffer == '100ft':
+    elif matching_logic.geo_matching_buffer == '100ft':
         geo_df = matches.geo_matches_100ft
     else:
-        raise ValueError(f"Unknown geo_matching_buffer option: {geo_matching_buffer}")
+        raise ValueError(f"Unknown geo_matching_buffer option: {matching_logic.geo_matching_buffer}")
 
-    if match_by == 'apn':
+    if matching_logic.match_by == 'apn':
         return apn_df
-    elif match_by == 'geo':
+    elif matching_logic.match_by == 'geo':
         return geo_df
-    elif match_by == 'both':
+    elif matching_logic.match_by == 'both':
         # We need to make sure a permit isn't matched to multiple sites, i.e. one site via APN matching and one
         # via geo matching. So let's only consider a permit for geo-matching if it was not already matched by APN.
         #
@@ -734,10 +740,10 @@ def get_matches_df(
 
         return result_df
     else:
-        raise ValueError(f"Unknown matching type: {match_by}")
+        raise ValueError(f"Unknown matching type: {matching_logic.match_by}")
 
 def calculate_pdev_for_inventory(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = '5ft', use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
 ) -> Tuple[int, int, float]:
     """
     Return tuple of (# matched permits, # total sites, P(permit | inventory_site))
@@ -747,10 +753,7 @@ def calculate_pdev_for_inventory(
     if num_sites == 0:
         return 0, 0, np.nan
 
-    if match_by not in ['apn', 'geo', 'both']:
-        raise ValueError(f"Parameter match_by={match_by} not recognized. must equal 'apn', 'geo', or 'both'.")
-
-    match_df = get_matches_df(matches, match_by, geo_matching_buffer, use_raw_apns)
+    match_df = get_matches_df(matches, matching_logic)
     matched_site_indices = match_df['sites_index']
 
     is_match = sites.index.isin(matched_site_indices)
@@ -759,19 +762,19 @@ def calculate_pdev_for_inventory(
 
 
 def calculate_pdev_for_vacant_sites(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = '5ft', use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, vacant)"""
     vacant_rows = sites[sites.is_vacant].copy()
-    return calculate_pdev_for_inventory(vacant_rows, matches, match_by, geo_matching_buffer, use_raw_apns)
+    return calculate_pdev_for_inventory(vacant_rows, matches, matching_logic)
 
 
 def calculate_pdev_for_nonvacant_sites(
-    sites: pd.DataFrame, matches: Matches, match_by: str = 'apn', geo_matching_buffer: str = '5ft', use_raw_apns: bool = False
+    sites: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
 ) -> Tuple[int, int, float]:
     """Return P(permit | inventory_site, non-vacant)"""
     nonvacant_rows = sites[sites.is_nonvacant].copy()
-    return calculate_pdev_for_inventory(nonvacant_rows, matches, match_by, geo_matching_buffer, use_raw_apns)
+    return calculate_pdev_for_inventory(nonvacant_rows, matches, matching_logic)
 
 
 def merge_on_address(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, buffer: str = '5ft') -> gpd.GeoDataFrame:

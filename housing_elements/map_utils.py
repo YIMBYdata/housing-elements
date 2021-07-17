@@ -42,7 +42,7 @@ def add_matches_dict_to_sites(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame
 
     for buffer in [0, 5, 10, 25, 50, 75, 100]:
         matches_df = utils.get_matches_df(
-            matches, match_by='both', geo_matching_buffer=f'{buffer}ft', add_match_type_labels=True
+            matches, matching_logic=utils.MatchingLogic(match_by='both', geo_matching_buffer=f'{buffer}ft'), add_match_type_labels=True
         )
 
         match_results_col = f'match_results_{buffer}ft'
