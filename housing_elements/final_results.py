@@ -275,12 +275,6 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         8/5 * overall_row['Units permitted / claimed capacity'],
     )
 
-    add_stats(
-        '8/5 * Units permitted / claimed capacity via BPS',
-        8/5 * results_df['Units permitted via BPS / claimed capacity'],
-        8/5 * overall_row['Units permitted via BPS / claimed capacity'],
-    )
-
     output += 'Comparing buffer sizes:\n\n'
     dfs = {
         'raw_apn': pd.read_csv('results/raw_apn_matching_results.csv'),
@@ -338,10 +332,61 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         output += matching_logic + ' ' + format_mean_and_std(cities_df['P(inventory) for projects built']) + '\n'
     output += '\n'
 
+    output += make_bps_comparison_results()
+
     return output
 
-def get_bps_stats(cities_with_sites: Dict[str, gpd.GeoDataFrame], cities_with_permits: Dict[str, gpd.GeoDataFrame]) -> None:
-    pass
+def make_bps_comparison_results() -> None:
+    cities_with_sites, cities_with_permits, _ = cached_load_sites_and_permits(use_cache=True)
+
+    cities = set(cities_with_sites.keys()) & set(cities_with_permits.keys())
+    cities -= utils.BPS_KNOWN_MISSING_CITIES
+    cities.remove('Overall')
+
+    results = []
+    for city in cities:
+        sites = cities_with_sites[city]
+        permits = cities_with_permits[city]
+
+        results.append({
+            'city': city,
+            'permits to capacity ratio (using ABAG dataset)': utils.calculate_permits_to_capacity_ratio(sites, permits),
+            'permits to capacity ratio (using BPS dataset)': utils.calculate_permits_to_capacity_ratio_via_bps(sites, city),
+        })
+
+    results_df = pd.DataFrame(results)
+
+    overall_sites = pd.concat([cities_with_sites[city] for city in cities])
+    overall_permits = pd.concat([cities_with_permits[city] for city in cities])
+    overall_row = pd.Series({
+        'permits to capacity ratio (using ABAG dataset)': utils.calculate_permits_to_capacity_ratio(overall_sites, overall_permits),
+        'permits to capacity ratio (using BPS dataset)': utils.calculate_permits_to_capacity_ratio_via_bps(overall_sites, list(cities)),
+    })
+
+    output = 'BPS comparison table results:\n'
+    def add_stats(title, series, overall, extra_info=None):
+        nonlocal output
+        stats = get_summary_stats_for_series(series)
+        output += title + ':\n'
+        output += print_dict(stats)
+        output += 'Overall: ' + str(overall) + '\n'
+        if extra_info:
+            output += extra_info
+        output += '\n'
+
+    add_stats(
+        '8/5 * permits to capacity ratio (using ABAG dataset)',
+        8/5 * results_df['permits to capacity ratio (using ABAG dataset)'],
+        8/5 * overall_row['permits to capacity ratio (using ABAG dataset)'],
+    )
+
+    add_stats(
+        '8/5 * permits to capacity ratio (using BPS dataset)',
+        8/5 * results_df['permits to capacity ratio (using BPS dataset)'],
+        8/5 * overall_row['permits to capacity ratio (using BPS dataset)'],
+    )
+
+    return output
 
 
 def get_summary_stats_for_series(series: pd.Series) -> Dict[str, float]:

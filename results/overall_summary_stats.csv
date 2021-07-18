@@ -84,16 +84,6 @@ Min: 0.01915976449456128
 Max: 6.6947368421052635
 Overall: 0.7525560036360556
 
-8/5 * Units permitted / claimed capacity via BPS:
-Mean: 0.8175842018348293
-Stddev: 1.0434295284335293
-Median: 0.5199527945627377
-Min: 0.0
-25th percentile: 0.20971736416497025
-75th percentile: 0.8721757408079746
-Max: 6.402507836990596
-Overall: nan
-
 Comparing buffer sizes:
 
 adj P(dev) for raw_apn:
@@ -238,4 +228,25 @@ apn_or_geo_25ft 14.6% (sd. 0.19)
 apn_or_geo_50ft 16.1% (sd. 0.19)
 apn_or_geo_75ft 16.9% (sd. 0.19)
 apn_or_geo_100ft 18.4% (sd. 0.20)
+
+BPS comparison table results:
+8/5 * permits to capacity ratio (using ABAG dataset):
+Mean: 0.8842020895733085
+Stddev: 1.068292313648324
+Median: 0.5816630027156343
+Min: 0.019159764494561422
+25th percentile: 0.3233207933379442
+75th percentile: 0.9286887064839358
+Max: 6.6947368421052635
+Overall: 0.7550881344293414
+
+8/5 * permits to capacity ratio (using BPS dataset):
+Mean: 0.8175842018348292
+Stddev: 1.0434295284335295
+Median: 0.5199527945627377
+Min: 0.0
+25th percentile: 0.20971736416497025
+75th percentile: 0.8721757408079746
+Max: 6.402507836990596
+Overall: 0.7165908410370609
 

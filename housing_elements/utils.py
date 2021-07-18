@@ -543,7 +543,14 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
 def calculate_permits_to_capacity_ratio(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame) -> float:
     return permits.totalunit.sum() / sites.relcapcty.sum()
 
-def calculate_permits_to_capacity_ratio_via_bps(sites: gpd.GeoDataFrame, city: str) -> Optional[float]:
+BPS_KNOWN_MISSING_CITIES = {
+    'Clayton',
+    'Lafayette',
+    'Moraga',
+    'Saint Helena',
+}
+
+def calculate_permits_to_capacity_ratio_via_bps(sites: gpd.GeoDataFrame, city: Union[str, List[str]]) -> Optional[float]:
     if city == 'Overall':
         # I don't think we need the overall Bay Area numbers, and anyways how to do this is unclear:
         # do we include all cities in ABAG? All cities in our analysis? How do we deal with the 4 cities that
@@ -551,24 +558,26 @@ def calculate_permits_to_capacity_ratio_via_bps(sites: gpd.GeoDataFrame, city: s
         return None
 
     bps_df = get_census_bps_dataset()
-    rows_for_city = bps_df[
-        bps_df['place_name'] == city
-    ]
-    if len(rows_for_city) == 0:
-        known_missing_cities = {
-            'Clayton',
-            'Lafayette',
-            'Moraga',
-            'Saint Helena',
-        }
-        if city in known_missing_cities:
-            return None
-        raise ValueError(f"City {city} not available in BPS dataset")
+    if isinstance(city, list):
+        rows_for_city = bps_df[
+            bps_df['place_name'].isin(city)
+        ]
+        assert len(rows_for_city) == 5 * len(city)
+    elif isinstance(city, str):
+        rows_for_city = bps_df[
+            bps_df['place_name'] == city
+        ]
+        if len(rows_for_city) == 0:
+            if city in BPS_KNOWN_MISSING_CITIES:
+                return None
+            raise ValueError(f"City {city} not available in BPS dataset")
 
-    if len(rows_for_city) != 5:
-        raise ValueError(f"Not all years present for {city}: found {len(rows_for_city)} rows")
+        if len(rows_for_city) != 5:
+            raise ValueError(f"Not all years present for {city}: found {len(rows_for_city)} rows")
 
-    assert set(rows_for_city['year'].unique()) == {'2015', '2016', '2017', '2018', '2019'}
+        assert set(rows_for_city['year'].unique()) == {'2015', '2016', '2017', '2018', '2019'}
+    else:
+        raise ValueError('city must be a str or List[str]')
 
     return rows_for_city['total_units'].sum() / sites.relcapcty.sum()
 
