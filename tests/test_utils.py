@@ -54,7 +54,7 @@ class TestUtils(unittest.TestCase):
     def test_calculate_pdev_for_inventory_geo(self):
         matches = utils.get_all_matches(sites, permits)
         num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(
-            sites, matches, match_by='geo', geo_matching_buffer='5ft'
+            sites, matches, matching_logic=utils.MatchingLogic(match_by='geo', geo_matching_buffer='5ft')
         )
 
         self.assertEqual(num_matches, 0)
@@ -64,7 +64,7 @@ class TestUtils(unittest.TestCase):
     def test_calculate_pdev_for_inventory_geo_lax(self):
         matches = utils.get_all_matches(sites, permits)
         num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(
-            sites, matches, match_by='geo', geo_matching_buffer='25ft'
+            sites, matches, matching_logic=utils.MatchingLogic(match_by='geo', geo_matching_buffer='25ft')
         )
         self.assertEqual(num_matches, 1)
         self.assertEqual(num_sites, 3)
@@ -75,6 +75,6 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(utils.adj_pdev(0), 0)
         self.assertEqual(utils.adj_pdev(0.5), 0.65)
 
-        
+
 if __name__ == '__main__':
     unittest.main()
