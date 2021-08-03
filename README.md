@@ -17,6 +17,11 @@ poetry run jupyter lab
 ```
 to spin up a Jupyter lab shell with all of the dependencies.
 
+Additionally, you must create a geocodio API key at geocod.io, and in the project root create a file "geocodio_api_key.json" with the contents:
+    {
+        "key": "INSERT_YOUR_API_KEY_HERE"
+    }
+
 ## Data sources
 Documentation on how the data was obtained are in [Data sources](<Data sources.md>).
 
