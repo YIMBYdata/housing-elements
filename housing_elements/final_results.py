@@ -211,13 +211,13 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
                 'Site type': site_type,
                 'Overall development rate': '{:.1%}'.format(utils.adj_pdev(num_matches.sum() / num_sites.sum())),
                 'Num sites': num_sites.sum(),
-                'Median P(dev)': '{:.1%}'.format(utils.adj_pdev(p_dev_col.median())),
-                'Mean P(dev)': '{:.1%}'.format(utils.adj_pdev(p_dev_col.mean())),
+                'Median P(dev)': '{:.3f}'.format(utils.adj_pdev(p_dev_col.median())),
+                'Mean P(dev)': '{:.3f}'.format(utils.adj_pdev(p_dev_col.mean())),
             }
         )
 
     output = ''
-    output += 'Pdevs table:\n'
+    output += '## Pdevs table (Table 1):\n'
     output += pd.DataFrame(results).to_csv(index=False)
     output += '\n'
 
@@ -277,7 +277,7 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         8/5 * overall_row['Units permitted / claimed capacity'],
     )
 
-    output += 'Comparing buffer sizes:\n\n'
+    output += '## Comparing buffer sizes (Table B.1 and B.2):\n\n'
     dfs = {
         'raw_apn': pd.read_csv('results/raw_apn_matching_results.csv'),
         'apn': pd.read_csv('results/apn_matching_results.csv'),
@@ -307,6 +307,21 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         mean = series.mean()
         std = series.std()
         return f'{mean:.1%} (sd. {std:.2f})'
+
+    output += 'P(dev) for ABAG as a whole, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        result = utils.adj_pdev(df.query('City == "Overall"')['P(dev) for inventory'].squeeze())
+        output += matching_logic + f' {result:.3f}\n'
+
+    output += '\n'
+
+    output += 'P(dev) for median city, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        cities_df = df.query('City != "Overall"')
+        result = utils.adj_pdev(cities_df['P(dev) for inventory'].median())
+        output += matching_logic + f' {result:.3f}\n'
+
+    output += '\n'
 
     output += 'Mean P(inventory) for homes built, under different matching assumptions\n'
     for matching_logic, df in dfs.items():

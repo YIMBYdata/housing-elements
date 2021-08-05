@@ -1,8 +1,8 @@
-Pdevs table:
+## Pdevs table (Table 1):
 Site type,Overall development rate,Num sites,Median P(dev),Mean P(dev)
-All,8.9%,15750,8.0%,13.0%
-Nonvacant,7.4%,7790,3.3%,8.3%
-Vacant,9.9%,5270,8.4%,16.0%
+All,8.9%,15750,0.080,0.130
+Nonvacant,7.4%,7790,0.033,0.083
+Vacant,9.9%,5270,0.084,0.160
 
 adj P(dev) stats:
 Mean: 0.12396023546650577
@@ -84,7 +84,7 @@ Min: 0.01915976449456128
 Max: 6.6947368421052635
 Overall: 0.7525560036360556
 
-Comparing buffer sizes:
+## Comparing buffer sizes (Table B.1 and B.2):
 
 adj P(dev) for raw_apn:
 Mean: 0.060138385871009024
@@ -184,6 +184,28 @@ Min: 0.0
 Max: 1.0
 Overall: 0.13175873015873008
 # matches: 1297 / 15750 (8.2%)
+
+P(dev) for ABAG as a whole, under different matching assumptions
+raw_apn 0.027
+apn 0.053
+apn_or_geo_0ft 0.079
+apn_or_geo_5ft 0.079
+apn_or_geo_10ft 0.081
+apn_or_geo_25ft 0.090
+apn_or_geo_50ft 0.103
+apn_or_geo_75ft 0.116
+apn_or_geo_100ft 0.132
+
+P(dev) for median city, under different matching assumptions
+raw_apn 0.013
+apn 0.038
+apn_or_geo_0ft 0.070
+apn_or_geo_5ft 0.070
+apn_or_geo_10ft 0.075
+apn_or_geo_25ft 0.080
+apn_or_geo_50ft 0.090
+apn_or_geo_75ft 0.103
+apn_or_geo_100ft 0.110
 
 Mean P(inventory) for homes built, under different matching assumptions
 raw_apn 0.7%
