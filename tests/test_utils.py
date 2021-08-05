@@ -73,7 +73,7 @@ class TestUtils(unittest.TestCase):
     def test_adj_pdev(self):
         self.assertEqual(utils.adj_pdev(1), 1)
         self.assertEqual(utils.adj_pdev(0), 0)
-        self.assertEqual(utils.adj_pdev(0.5), 0.65)
+        self.assertEqual(utils.adj_pdev(0.5), 8/5*.5)
 
 
 if __name__ == '__main__':

@@ -922,8 +922,7 @@ def adj_pdev(raw_pdev):
     if np.isnan(raw_pdev):
         return np.nan
     assert 0 <= raw_pdev <= 1
-    # Todo: double-check 3/5 is the precise ratio of years
-    return raw_pdev + 3/5 * raw_pdev * (1 - raw_pdev)
+    return min( 8 / 5 * raw_pdev, 1)
 
 def catplot_qoi(result_df, qoi_col_prefix, order=None):
     assert 'City' in result_df.columns
