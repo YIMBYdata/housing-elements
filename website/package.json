@@ -14,7 +14,7 @@
     "react-dom": "17.0.2",
     "react-mapbox-gl": "^5.1.1",
     "react-query": "^3.19.1",
-    "react-select-search": "^3.0.8",
+    "react-select-search": "2.2.1",
     "title-case": "^3.0.3"
   },
   "devDependencies": {
