@@ -376,7 +376,6 @@ export default function RhnaCity (): JSX.Element {
                 <div className="m-4 col-span-1">
                     <SelectSearch
                     // @ts-ignore
-                        search
                         onChange={setSiteType}
                         options={siteTypeOptions}
                         fuseOptions={fuseOptions}
@@ -387,7 +386,6 @@ export default function RhnaCity (): JSX.Element {
                 <div className="m-4 col-span-1">
                     <SelectSearch
                     // @ts-ignore
-                        search
                         onChange={setMatchingLogic}
                         options={matchingLogicOptions}
                         fuseOptions={fuseOptions}
