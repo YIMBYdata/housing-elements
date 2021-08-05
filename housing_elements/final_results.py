@@ -323,7 +323,7 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
 
     output += '\n'
 
-    output += 'Mean P(inventory) for homes built, under different matching assumptions\n'
+    output += 'Median P(inventory) for homes built, under different matching assumptions\n'
     for matching_logic, df in dfs.items():
         cities_df = df.query('City != "Overall"')
         output += matching_logic + ' ' + format_percent(cities_df['P(inventory) for homes built'].median()) + '\n'
@@ -334,6 +334,19 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
     for matching_logic, df in dfs.items():
         cities_df = df.query('City != "Overall"')
         output += matching_logic + ' ' + format_percent(cities_df['P(inventory) for projects built'].median()) + '\n'
+    output += '\n'
+
+    output += 'P(inventory) for homes built for ABAG overall, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        result = df.query('City == "Overall"')['P(inventory) for homes built'].squeeze()
+        output += matching_logic + ' ' + format_percent(result) + '\n'
+
+    output += '\n'
+
+    output += 'P(inventory) for projects built for ABAG overall, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        result = df.query('City == "Overall"')['P(inventory) for projects built'].squeeze()
+        output += matching_logic + ' ' + format_percent(result) + '\n'
     output += '\n'
 
     output += 'Mean P(inventory) for homes built, under different matching assumptions\n'
