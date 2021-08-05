@@ -16,6 +16,8 @@ from housing_elements.parallel_utils import parallel_process
 # Silence an annoying warning that I get when running pd.read_excel
 warnings.filterwarnings("ignore", message="Data Validation extension is not supported and will be removed")
 
+WEBSITE_DATA_PATH = Path('./website/public/data')
+
 
 class HiddenPrints:
     def __enter__(self):
@@ -321,7 +323,7 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
 
     output += '\n'
 
-    output += 'Mean P(inventory) for homes built, under different matching assumptions\n'
+    output += 'Median P(inventory) for homes built, under different matching assumptions\n'
     for matching_logic, df in dfs.items():
         cities_df = df.query('City != "Overall"')
         output += matching_logic + ' ' + format_percent(cities_df['P(inventory) for homes built'].median()) + '\n'
@@ -332,6 +334,19 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
     for matching_logic, df in dfs.items():
         cities_df = df.query('City != "Overall"')
         output += matching_logic + ' ' + format_percent(cities_df['P(inventory) for projects built'].median()) + '\n'
+    output += '\n'
+
+    output += 'P(inventory) for homes built for ABAG overall, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        result = df.query('City == "Overall"')['P(inventory) for homes built'].squeeze()
+        output += matching_logic + ' ' + format_percent(result) + '\n'
+
+    output += '\n'
+
+    output += 'P(inventory) for projects built for ABAG overall, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        result = df.query('City == "Overall"')['P(inventory) for projects built'].squeeze()
+        output += matching_logic + ' ' + format_percent(result) + '\n'
     output += '\n'
 
     output += 'Mean P(inventory) for homes built, under different matching assumptions\n'
@@ -623,14 +638,14 @@ def main():
             pickle.dump(all_matches, f)
 
     if args.map_results_only:
-        map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
+        map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, WEBSITE_DATA_PATH, all_matches=all_matches)
         return
 
     create_results_csv_files(cities, cities_with_sites, cities_with_permits, all_matches)
 
     # Dump match results to JSON, for use in website
     print("Creating JSON output for map...")
-    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
+    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, WEBSITE_DATA_PATH, all_matches=all_matches)
 
     # 25ft is the chosen buffer size
     results_df = pd.read_csv('results/apn_or_geo_matching_25ft_results.csv')

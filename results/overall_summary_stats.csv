@@ -207,7 +207,7 @@ apn_or_geo_50ft 0.090
 apn_or_geo_75ft 0.103
 apn_or_geo_100ft 0.110
 
-Mean P(inventory) for homes built, under different matching assumptions
+Median P(inventory) for homes built, under different matching assumptions
 raw_apn 0.7%
 apn 4.2%
 apn_or_geo_0ft 11.6%
@@ -228,6 +228,28 @@ apn_or_geo_25ft 7.1%
 apn_or_geo_50ft 9.5%
 apn_or_geo_75ft 9.5%
 apn_or_geo_100ft 12.4%
+
+P(inventory) for homes built for ABAG overall, under different matching assumptions
+raw_apn 6.9%
+apn 16.2%
+apn_or_geo_0ft 25.6%
+apn_or_geo_5ft 25.7%
+apn_or_geo_10ft 26.1%
+apn_or_geo_25ft 27.8%
+apn_or_geo_50ft 30.0%
+apn_or_geo_75ft 32.4%
+apn_or_geo_100ft 35.8%
+
+P(inventory) for projects built for ABAG overall, under different matching assumptions
+raw_apn 1.9%
+apn 3.0%
+apn_or_geo_0ft 15.7%
+apn_or_geo_5ft 15.8%
+apn_or_geo_10ft 15.9%
+apn_or_geo_25ft 16.8%
+apn_or_geo_50ft 17.6%
+apn_or_geo_75ft 18.5%
+apn_or_geo_100ft 19.6%
 
 Mean P(inventory) for homes built, under different matching assumptions
 raw_apn 9.4% (sd. 0.17)
@@ -253,7 +275,7 @@ apn_or_geo_100ft 18.4% (sd. 0.20)
 
 BPS comparison table results:
 8/5 * permits to capacity ratio (using ABAG dataset):
-Mean: 0.8842020895733087
+Mean: 0.8842020895733084
 Stddev: 1.068292313648324
 Median: 0.5816630027156343
 Min: 0.019159764494561422
@@ -263,7 +285,7 @@ Max: 6.6947368421052635
 Overall: 0.7550881344293415
 
 8/5 * permits to capacity ratio (using BPS dataset):
-Mean: 0.8175842018348292
+Mean: 0.8175842018348293
 Stddev: 1.0434295284335293
 Median: 0.5199527945627377
 Min: 0.0
