@@ -430,13 +430,13 @@ const legend = (
             <span
                 className={legendSpanClass}
                 style={{backgroundColor: 'green', opacity: 0.3}}></span>
-            Matched site (APN and address)
+            Matched site (APN and geocoding)
         </div>
         <div>
             <span
                 className={legendSpanClass}
                 style={{backgroundColor: 'blue', opacity: 0.3}}></span>
-            Matched site (Address only)
+            Matched site (Geocoding only)
         </div>
         <div>
             <span
@@ -498,7 +498,7 @@ function makeMatchTable(result, buffer) {
                     {makeTableRow(apnResults)}
                 </tr>
                 <tr className="bg-blue-100">
-                    <th className="text-left">APN or address</th>
+                    <th className="text-left">APN and geocoding</th>
                     {makeTableRow(bothResults)}
                 </tr>
             </tbody>
