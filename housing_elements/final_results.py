@@ -209,13 +209,13 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
                 'Site type': site_type,
                 'Overall development rate': '{:.1%}'.format(utils.adj_pdev(num_matches.sum() / num_sites.sum())),
                 'Num sites': num_sites.sum(),
-                'Median P(dev)': '{:.1%}'.format(utils.adj_pdev(p_dev_col.median())),
-                'Mean P(dev)': '{:.1%}'.format(utils.adj_pdev(p_dev_col.mean())),
+                'Median P(dev)': '{:.3f}'.format(utils.adj_pdev(p_dev_col.median())),
+                'Mean P(dev)': '{:.3f}'.format(utils.adj_pdev(p_dev_col.mean())),
             }
         )
 
     output = ''
-    output += 'Pdevs table:\n'
+    output += '## Pdevs table (Table 1):\n'
     output += pd.DataFrame(results).to_csv(index=False)
     output += '\n'
 
