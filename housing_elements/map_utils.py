@@ -250,15 +250,15 @@ def format_results_df(results_df: pd.DataFrame) -> Dict[str, Any]:
         city = row['City']
         results[city] = {
             'overall': {
-                'P(dev)': row['P(dev) for inventory'],
+                'P(dev)': utils.adj_pdev(row['P(dev) for inventory']),
                 '# matches': row['# matches'],
             },
             'vacant': {
-                'P(dev)': row['P(dev) for vacant sites'],
+                'P(dev)': utils.adj_pdev(row['P(dev) for vacant sites']),
                 '# matches': row['# vacant matches'],
             },
             'nonvacant': {
-                'P(dev)': row['P(dev) for nonvacant sites'],
+                'P(dev)': utils.adj_pdev(row['P(dev) for nonvacant sites']),
                 '# matches': row['# nonvacant matches'],
             },
         }

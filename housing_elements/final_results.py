@@ -16,6 +16,8 @@ from housing_elements.parallel_utils import parallel_process
 # Silence an annoying warning that I get when running pd.read_excel
 warnings.filterwarnings("ignore", message="Data Validation extension is not supported and will be removed")
 
+WEBSITE_DATA_PATH = Path('./website/public/data')
+
 
 class HiddenPrints:
     def __enter__(self):
@@ -620,14 +622,14 @@ def main():
             pickle.dump(all_matches, f)
 
     if args.map_results_only:
-        map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
+        map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, WEBSITE_DATA_PATH, all_matches=all_matches)
         return
 
     create_results_csv_files(cities, cities_with_sites, cities_with_permits, all_matches)
 
     # Dump match results to JSON, for use in website
     print("Creating JSON output for map...")
-    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, Path('./map_results'), all_matches=all_matches)
+    map_utils.write_matches_to_files(cities_with_sites, cities_with_permits, WEBSITE_DATA_PATH, all_matches=all_matches)
 
     # 25ft is the chosen buffer size
     results_df = pd.read_csv('results/apn_or_geo_matching_25ft_results.csv')
