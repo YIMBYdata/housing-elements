@@ -428,6 +428,9 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     utils.map_qoi('RHNA Success', results_both_df)
 
     plt.figure()
+    plot_inventory_permits_by_year()
+    
+    plt.figure()
     plot_pdev_vs_vacant_land(results_both_df)
     sea_plot = sea.histplot(results_both_df['P(dev) for nonvacant sites']).set_title(
         "Each city's P(dev) for nonvacant sites"
@@ -818,21 +821,31 @@ def analyze_realcap_input(cities):
 
 def plot_inventory_permits_by_year():
     path = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-    path = path + "/figures/permits_by_year.jpg"
-    with open('../cities_with_sites_cache.pkl', 'rb') as f:
+    with open(f'{path}/cities_with_sites_cache.pkl', 'rb') as f:
         cities_with_sites = pickle.load(f)
 
-    with open('../cities_with_permits_cache.pkl', 'rb') as f:
+    with open(f'{path}/cities_with_permits_cache.pkl', 'rb') as f:
         cities_with_permits = pickle.load(f)
         
-    cities = [c for c in cities_with_permits if c in cities_with_sites]
-    permyears = []
-    for city in cities:
-        sites = cities_with_sites[city]
-        permits = cities_with_permits[city]
-        matches = utils.merge_on_address(sites, permits)
-        permyears.extend(permits.loc[matches.permits_index].permyear.values)
+    with open(f'{path}/all_matches_cache.pkl', 'rb') as f:
+        matches = pickle.load(f)
     
+    cities = [c for c in cities_with_permits if c in cities_with_sites]
+
+    match_df = None
+    for city in cities:
+        permits = cities_with_permits[city]
+        match_city = utils.get_matches_df(matches[city], utils.MatchingLogic("both", "25ft"))
+        match_city['permyear'] = permits.loc[match_city.permits_index].permyear.values
+        match_city.sort_values('permyear', inplace=True)
+        match_city.drop_duplicates('sites_index', inplace=True)
+        if match_df is None:
+            match_df = match_city
+        else:
+            match_df = pd.concat((match_df, match_city))
+    
+    match_df.drop_duplicates('sites_index', inplace=True)
+    permyears = match_df.permyear.values
     py = [p for p in permyears if p > 2014]
     ordered_py = [(years, counts) for years, counts in Counter(py).items()]
     years, counts = [c[0] for c in ordered_py], [c[1] for c in ordered_py]
@@ -842,6 +855,7 @@ def plot_inventory_permits_by_year():
     plt.ylabel("Number of Permits")
     plt.xlabel("Year")
     plt.title("When do inventory sites get permitted?")
+    path = path + "/figures/permits_by_year.jpg"
     plt.savefig(path)
 
 if __name__ == '__main__':
