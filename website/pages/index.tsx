@@ -503,7 +503,7 @@ function makeMatchTable(result, buffer) {
                 </tr>
             </tbody>
         </table>
-        <div className="mt-4 text-sm text-gray-500 max-w-md">(*The likelihood of development is extrapolated from the 2015-2019 period to 8 years, see report for formula.)</div>
+        <div className="mt-4 text-sm text-gray-500 max-w-md">(*The likelihood of development is extrapolated from the 2015-2019 period to 8 years by multiplying by 8/5.)</div>
         </>
     )
 }
