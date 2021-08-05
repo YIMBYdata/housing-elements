@@ -306,6 +306,21 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         std = series.std()
         return f'{mean:.1%} (sd. {std:.2f})'
 
+    output += 'P(dev) for ABAG as a whole, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        result = utils.adj_pdev(df.query('City == "Overall"')['P(dev) for inventory'].squeeze())
+        output += matching_logic + f' {result:.3f}\n'
+
+    output += '\n'
+
+    output += 'P(dev) for median city, under different matching assumptions\n'
+    for matching_logic, df in dfs.items():
+        cities_df = df.query('City != "Overall"')
+        result = utils.adj_pdev(cities_df['P(dev) for inventory'].median())
+        output += matching_logic + f' {result:.3f}\n'
+
+    output += '\n'
+
     output += 'Mean P(inventory) for homes built, under different matching assumptions\n'
     for matching_logic, df in dfs.items():
         cities_df = df.query('City != "Overall"')

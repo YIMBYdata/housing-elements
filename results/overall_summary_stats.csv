@@ -185,6 +185,28 @@ Max: 1.0
 Overall: 0.13175873015873008
 # matches: 1297 / 15750 (8.2%)
 
+P(dev) for ABAG as a whole, under different matching assumptions
+raw_apn 0.027
+apn 0.053
+apn_or_geo_0ft 0.079
+apn_or_geo_5ft 0.079
+apn_or_geo_10ft 0.081
+apn_or_geo_25ft 0.090
+apn_or_geo_50ft 0.103
+apn_or_geo_75ft 0.116
+apn_or_geo_100ft 0.132
+
+P(dev) for median city, under different matching assumptions
+raw_apn 0.013
+apn 0.038
+apn_or_geo_0ft 0.070
+apn_or_geo_5ft 0.070
+apn_or_geo_10ft 0.075
+apn_or_geo_25ft 0.080
+apn_or_geo_50ft 0.090
+apn_or_geo_75ft 0.103
+apn_or_geo_100ft 0.110
+
 Mean P(inventory) for homes built, under different matching assumptions
 raw_apn 0.7%
 apn 4.2%
@@ -231,17 +253,17 @@ apn_or_geo_100ft 18.4% (sd. 0.20)
 
 BPS comparison table results:
 8/5 * permits to capacity ratio (using ABAG dataset):
-Mean: 0.8842020895733087
+Mean: 0.8842020895733085
 Stddev: 1.068292313648324
 Median: 0.5816630027156343
 Min: 0.019159764494561422
 25th percentile: 0.3233207933379442
 75th percentile: 0.9286887064839358
 Max: 6.6947368421052635
-Overall: 0.7550881344293415
+Overall: 0.7550881344293414
 
 8/5 * permits to capacity ratio (using BPS dataset):
-Mean: 0.8175842018348292
+Mean: 0.8175842018348295
 Stddev: 1.0434295284335293
 Median: 0.5199527945627377
 Min: 0.0
