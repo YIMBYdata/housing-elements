@@ -463,6 +463,8 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     plt.figure()
     sea_plot = sea.histplot(results_both_df['P(inventory) for homes built'])
     sea_plot.set(xlabel='Share of homes built on inventory sites', ylabel='Number of Cities')
+    fname = './results/intermediate_results_for_plots/pinventory.csv'
+    results_both_df[['City', 'P(inventory) for homes built']].to_csv(fname)
     sea_plot.get_figure().savefig('./figures/pinventory.png')
 
     plt.figure()
@@ -764,6 +766,8 @@ def plot_pdev_vs_vacant_land(results_both_df):
                                ' for vacant sites': 'vacant'})
 
     to_barplot = to_plot.copy()
+    to_save = to_barplot[['P(dev)', 'Vacant']]
+    to_save.to_csv('./results/intermediate_results_for_plots/pdev_vs_vacancy.csv')
     to_barplot['P(dev)'] = (to_plot['P(dev)'].values / .2).round(0) / 5
     to_barplot['P(dev)'] = to_barplot['P(dev)'].astype(str)
     to_barplot = to_barplot[to_barplot['P(dev)'] != 'nan']
@@ -787,6 +791,7 @@ def plot_pdev_vs_vacant_land(results_both_df):
     plt.legend(loc='upper right', title='Parcels')
     plt.ylabel("Number of Cities")
     plt.savefig('./figures/pdev_vs_vacancy.jpg')
+
 
 def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_permits):
     city_n_sites = {}
@@ -864,7 +869,7 @@ def plot_inventory_permits_by_year():
     py = [p for p in permyears if p > 2014]
     ordered_py = [(years, counts) for years, counts in Counter(py).items()]
     years, counts = [c[0] for c in ordered_py], [c[1] for c in ordered_py]
-    
+    pd.DataFrame({"years":years, "counts": counts}).to_csv(path + "/results/intermediate_results_for_plots/permits_by_year.csv")
     sea.set()
     plt.bar(years, counts)
     plt.ylabel("Number of Permits")

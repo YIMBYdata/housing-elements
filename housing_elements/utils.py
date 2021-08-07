@@ -907,6 +907,7 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     plt.rcParams.update({'font.size': 25})
     to_plot.plot(ax=ax, column=qoi, legend=True,
                  legend_kwds={'label': legend_label, 'ax': ax}, cmap='RedGreen')
+
     plt.rcParams.update({'font.size': 10})
     ax.set_yticklabels([])
     ax.set_xticklabels([])
@@ -915,6 +916,8 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     file_name_prefix = file_name_prefix.replace(' ', '_')
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
     plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg')
+    fname = f'results/intermediate_results_for_plots/{file_name_prefix.lower()}_bay_map.csv'
+    to_plot[['city', 'geometry', qoi]].to_csv(fname)
 
 def adj_pdev(raw_pdev):
     if isinstance(raw_pdev, pd.Series):
