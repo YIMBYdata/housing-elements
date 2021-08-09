@@ -916,8 +916,9 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     file_name_prefix = file_name_prefix.replace(' ', '_')
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
     plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg')
-    fname = f'results/intermediate_results_for_plots/{file_name_prefix.lower()}_bay_map.csv'
-    to_plot[['city', 'geometry', qoi]].to_csv(fname)
+    fname = f'results/csvs_for_plots/{file_name_prefix.lower()}_bay_map.csv'
+    if qoi == 'P(dev) for inventory':
+        to_plot[['city', 'geometry', qoi]].to_csv(fname)
 
 def adj_pdev(raw_pdev):
     if isinstance(raw_pdev, pd.Series):
