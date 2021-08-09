@@ -447,33 +447,35 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     
     plt.figure()
     plot_pdev_vs_vacant_land(results_both_df)
+
+    plt.figure()
     sea_plot = sea.histplot(results_both_df['P(dev) for nonvacant sites']).set_title(
         "Each city's P(dev) for nonvacant sites"
     )
-    sea_plot.get_figure().savefig('./figures/Pdev_nonvacant.png')
+    sea_plot.get_figure().savefig('./figures/Pdev_nonvacant_histogram.png')
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['P(dev) for vacant sites']).set_title("Each city's P(dev) for vacant sites")
-    sea_plot.get_figure().savefig('./figures/Pdev_vacant.png')
+    sea_plot.get_figure().savefig('./figures/Pdev_vacant_histogram.png')
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['P(dev) for vacant sites']).set_title("Each city's P(dev)")
-    sea_plot.get_figure().savefig('./figures/Pdev.png')
+    sea_plot.get_figure().savefig('./figures/Pdev_histogram.png')
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['P(inventory) for homes built'])
     sea_plot.set(xlabel='Share of homes built on inventory sites', ylabel='Number of Cities')
-    fname = './results/csvs_for_plots/pinventory.csv'
+    fname = './results/csvs_for_plots/pinventory_histogram.csv'
     results_both_df[['City', 'P(inventory) for homes built']].to_csv(fname)
-    sea_plot.get_figure().savefig('./figures/pinventory.png')
+    sea_plot.get_figure().savefig('./figures/pinventory_histogram.png')
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['Mean underproduction']).set_title("Each city's mean underproduction")
-    sea_plot.get_figure().savefig('./figures/mean_underproduction.png')
+    sea_plot.get_figure().savefig('./figures/mean_underproduction_histogram.png')
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['RHNA Success']).set_title("Each city's RHNA success")
-    sea_plot.get_figure().savefig('./figures/rhna_success.png')
+    sea_plot.get_figure().savefig('./figures/rhna_success_histogram.png')
 
     # Did RHNA success in last cycle actually have anything to do with how good the site inventory was?
     rhna_success = results_both_df['P(inventory) for homes built']
@@ -483,8 +485,8 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
 
     plt.figure()
     sea_plot = sea.scatterplot(x=rhna_success[~is_null], y=p_dev[~is_null])
-    sea_plot.set_title("Does RHNA success have anything to do with the realistic capacity of the inventory sites?")
-    sea_plot.get_figure().savefig('./figures/did_realistic_capacity_calcs_matter.png')
+    sea_plot.set_title("Does RHNA success have anything to do with the P(dev) of the inventory sites?")
+    sea_plot.get_figure().savefig('./figures/did_realistic_capacity_calcs_matter_scatterplot.png')
 
     pdevs = results_both_df['P(dev) for inventory']
     rhnas = [utils.get_rhna_target(city) for city in results_both_df['City']]
@@ -494,7 +496,7 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     plt.xlabel("RHNA Allocation")
     plt.ylabel("Pdev")
     plt.title("Do smaller rhna allocations contribute to high P(dev)s?")
-    plt.savefig('./figures/rhna_vs_pdev.png')
+    plt.savefig('./figures/rhna_vs_pdev_scatterplot.png')
 
 
 def get_all_matches_kwargs(kwargs):
@@ -767,7 +769,7 @@ def plot_pdev_vs_vacant_land(results_both_df):
 
     to_barplot = to_plot.copy()
     to_save = to_barplot[['P(dev)', 'Vacant']]
-    to_save.to_csv('./results/csvs_for_plots/pdev_vs_vacancy.csv')
+    to_save.to_csv('./results/csvs_for_plots/histogram_pdev_disaggregated_by_sitetype.csv')
     to_barplot['P(dev)'] = (to_plot['P(dev)'].values / .2).round(0) / 5
     to_barplot['P(dev)'] = to_barplot['P(dev)'].astype(str)
     to_barplot = to_barplot[to_barplot['P(dev)'] != 'nan']
@@ -790,7 +792,7 @@ def plot_pdev_vs_vacant_land(results_both_df):
     ax = sea.countplot(x=to_barplot['P(dev)'], hue=to_barplot['Vacant'], data=to_barplot, order=order_ps)
     plt.legend(loc='upper right', title='Parcels')
     plt.ylabel("Number of Cities")
-    plt.savefig('./figures/pdev_vs_vacancy.jpg')
+    plt.savefig('./figures/histogram_pdev_disaggregated_by_sitetype.jpg')
 
 
 def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_permits):
