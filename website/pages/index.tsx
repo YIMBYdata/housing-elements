@@ -144,10 +144,10 @@ export default function RhnaCity (): JSX.Element {
 
   const [clickedElement, setClickedElement] = useState<ClickedElement>(null)
 
-  const sitesUrl = !isOverview ? '/data/' + cityName + '/sites_with_matches.geojson': null
-  const permitsUrl = !isOverview ? '/data/' + cityName + '/permits.geojson' : null
+  const sitesUrl = !isOverview ? 'data/' + cityName + '/sites_with_matches.geojson': null
+  const permitsUrl = !isOverview ? 'data/' + cityName + '/permits.geojson' : null
 
-  const { data: summaryData } = useFetch('/data/summary.json')
+  const { data: summaryData } = useFetch('data/summary.json')
 
   const [cityOptions, indexLookup] = useMemo(
     () => makeOptions(summaryData),
@@ -301,8 +301,8 @@ export default function RhnaCity (): JSX.Element {
                     </MapContext.Consumer>
                     <Source id='permits' geoJsonSource={{ data: permitsUrl, type: 'geojson' }} />
                     <Source id='sitesWithMatches' geoJsonSource={{ data: sitesUrl, type: 'geojson' }} />
-                    <Source id='summary' geoJsonSource={{ data: '/data/summary.geojson', type: 'geojson' }} />
-                    <Source id='summaryCentroids' geoJsonSource={{ data: '/data/summary_centroids.geojson', type: 'geojson' }} />
+                    <Source id='summary' geoJsonSource={{ data: 'data/summary.geojson', type: 'geojson' }} />
+                    <Source id='summaryCentroids' geoJsonSource={{ data: 'data/summary_centroids.geojson', type: 'geojson' }} />
                     <Layer
                         id="sitesWithMatchesLayer"
                         type='fill'
