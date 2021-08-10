@@ -415,7 +415,7 @@ export default function RhnaCity (): JSX.Element {
   return (
       <>
           <Head>
-              <title>What Gets Built on Sites that Cities "Make Available" for Housing?</title>
+              <title>Development on Housing Element Sites - Map</title>
               <meta name='viewport' content='width=device-width, initial-scale=1.0' />
           </Head>
 
