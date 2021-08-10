@@ -260,7 +260,7 @@ export default function RhnaCity (): JSX.Element {
         <div className="mx-auto mb-10 align-center items-center justify-center flex flex-col">
             <div>
                 <h1 className="text-5xl m-2 text-center">Development on Housing Element Sites</h1>
-                <h2 className="text-xl mb-4 text-center">Sidharth Kapur, Salim Damderji, Christopher S. Elmendorf, Paavo Monkkonen</h2>
+                <h2 className="text-xl mb-4 text-center">Sidharth Kapur, Salim Damerdji, Christopher S. Elmendorf, Paavo Monkkonen</h2>
 
                 <div className="max-w-3xl mx-2 mt-6 mb-10 leading-snug">
                     <p>This map is a companion to the Lewis Center report, <a className="text-blue-500 hover:underline" href="#">"What Gets Built on Sites that Cities 'Make Available' for Housing?"</a>.</p>
