@@ -383,7 +383,7 @@ export default function RhnaCity (): JSX.Element {
             {currentOption && makeMatchTable(currentOption, buffer)}
             {isOverview &&
              <>
-             <div className="lg:grid lg:grid-cols-3 flex flex-col mb-20">
+             <div className="lg:grid lg:grid-cols-3 flex flex-col mb-4">
                  <div className="m-4 col-span-1">
                      <p className="text-sm text-gray-500 mb-2">Sites:</p>
                      <SelectSearch
@@ -394,6 +394,9 @@ export default function RhnaCity (): JSX.Element {
                          value={siteType}
                          renderOption={renderOption}
                      />
+                     <p className="text-xs text-gray-500 mt-2">
+                         Whether to display each city's likelihood of development estimate for all sites, nonvacant sites only, or vacant sites only.
+                     </p>
                  </div>
                  <div className="m-4 col-span-1">
                      <p className="text-sm text-gray-500 mb-2">Matching logic:</p>
@@ -405,15 +408,15 @@ export default function RhnaCity (): JSX.Element {
                          value={matchingLogic}
                          renderOption={renderOption}
                      />
-                     <div className="text-sm text-gray-500 mt-2">
-                     <p>(<span className="font-bold">APN</span> matches sites to permits using the county's assessor parcel number (APN), which uniquely identifies parcels.</p>
-                     <p><span className="font-bold">APN and geocoding</span> is more lenient: it matches a site to a permit if the APN matches, or if the site is within <span className="italic">x</span> feet of a building permit.)</p>
+                     <div className="text-xs text-gray-500 mt-2">
+                     <p><span className="font-bold">APN</span> matches sites to permits using the county's assessor parcel number (APN), which uniquely identifies parcels.</p>
+                     <p className="mt-1"><span className="font-bold">APN and geocoding</span> is more lenient: it matches a site to a permit if the APN matches, or if the site is within <span className="italic">x</span> feet of a building permit.</p>
                      </div>
                  </div>
                  <div className="m-4 col-span-1">
                      {bufferInput}
-                     <p className="text-sm text-gray-500 mt-2">
-                         (How lenient to be when geomatching: a site is considered matched if it is within <span className="italic">x</span> feet of a building permit.)
+                     <p className="text-xs text-gray-500 mt-2">
+                         How lenient to be when geomatching: a site is considered matched if it is within <span className="italic">x</span> feet of a building permit.
                      </p>
                  </div>
              </div>
