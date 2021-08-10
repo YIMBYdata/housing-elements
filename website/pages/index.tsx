@@ -382,8 +382,10 @@ export default function RhnaCity (): JSX.Element {
             </div>
             {currentOption && makeMatchTable(currentOption, buffer)}
             {isOverview &&
-             <div className="lg:grid lg:grid-cols-3 flex flex-col">
+             <>
+             <div className="lg:grid lg:grid-cols-3 flex flex-col mb-20">
                  <div className="m-4 col-span-1">
+                     <p className="text-sm text-gray-500 mb-2">Sites:</p>
                      <SelectSearch
                      // @ts-ignore
                          onChange={setSiteType}
@@ -394,6 +396,7 @@ export default function RhnaCity (): JSX.Element {
                      />
                  </div>
                  <div className="m-4 col-span-1">
+                     <p className="text-sm text-gray-500 mb-2">Matching logic:</p>
                      <SelectSearch
                      // @ts-ignore
                          onChange={setMatchingLogic}
@@ -402,11 +405,19 @@ export default function RhnaCity (): JSX.Element {
                          value={matchingLogic}
                          renderOption={renderOption}
                      />
+                     <div className="text-sm text-gray-500 mt-2">
+                     <p>(<span className="font-bold">APN</span> matches sites to permits using the county's assessor parcel number (APN), which uniquely identifies parcels.</p>
+                     <p><span className="font-bold">APN and geocoding</span> is more lenient: it matches a site to a permit if the APN matches, or if the site is within <span className="italic">x</span> feet of a building permit.)</p>
+                     </div>
                  </div>
                  <div className="m-4 col-span-1">
                      {bufferInput}
+                     <p className="text-sm text-gray-500 mt-2">
+                         (How lenient to be when geomatching: a site is considered matched if it is within <span className="italic">x</span> feet of a building permit.)
+                     </p>
                  </div>
              </div>
+                </>
             }
         </div>
     )
