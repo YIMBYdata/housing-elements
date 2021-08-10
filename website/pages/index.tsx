@@ -258,6 +258,16 @@ export default function RhnaCity (): JSX.Element {
 
     page = (
         <div className="mx-auto mb-10 align-center items-center justify-center flex flex-col">
+            <div>
+                <h1 className="text-5xl m-2 text-center">Development on Housing Element Sites</h1>
+                <h2 className="text-xl mb-4 text-center">Sidharth Kapur, Salim Damderji, Christopher S. Elmendorf, Paavo Monkkonen</h2>
+
+                <div className="max-w-3xl mx-2 mt-6 mb-10 leading-snug">
+                    <p>This map is a companion to the Lewis Center report, <a className="text-blue-500 hover:underline" href="#">"What Gets Built on Sites that Cities 'Make Available' for Housing?"</a>.</p>
+                    <p className="mt-4">Below, the overview shows our likelihood of development estimates—the probability that housing was built on a site listed in a jurisdiction's 5th cycle Housing Element—for Bay Area cities. It allows you to visualize likelihoods for vacant and nonvacant sites, as well as under different matching criteria. Because building permits and sites do not always match using parcel numbers, we use both assessor parcel numbers and a spatial overlay approach with different buffer sizes. See the full report for more detail.</p>
+                    <p className="mt-4">The views for individual cities (accessible using the dropdown at the top) allows comparing the location of housing inventory sites for a city to the locations that received new housing building permits in 2015-2019. The "buffer size" control allows you to compare which sites are considered "matched" (indicated by the color of the housing inventory site) to a permit as the geocoding buffer size varies.</p>
+                </div>
+            </div>
             <div className="lg:grid lg:grid-cols-3 flex flex-col">
                 <div className="m-4 col-span-1">
                     <SelectSearch
@@ -372,45 +382,47 @@ export default function RhnaCity (): JSX.Element {
             </div>
             {currentOption && makeMatchTable(currentOption, buffer)}
             {isOverview &&
-            <div className="lg:grid lg:grid-cols-3 flex flex-col">
-                <div className="m-4 col-span-1">
-                    <SelectSearch
-                    // @ts-ignore
-                        onChange={setSiteType}
-                        options={siteTypeOptions}
-                        fuseOptions={fuseOptions}
-                        value={siteType}
-                        renderOption={renderOption}
-                    />
-                </div>
-                <div className="m-4 col-span-1">
-                    <SelectSearch
-                    // @ts-ignore
-                        onChange={setMatchingLogic}
-                        options={matchingLogicOptions}
-                        fuseOptions={fuseOptions}
-                        value={matchingLogic}
-                        renderOption={renderOption}
-                    />
-                </div>
-                <div className="m-4 col-span-1">
-                    {bufferInput}
-                </div>
-            </div>
+             <div className="lg:grid lg:grid-cols-3 flex flex-col">
+                 <div className="m-4 col-span-1">
+                     <SelectSearch
+                     // @ts-ignore
+                         onChange={setSiteType}
+                         options={siteTypeOptions}
+                         fuseOptions={fuseOptions}
+                         value={siteType}
+                         renderOption={renderOption}
+                     />
+                 </div>
+                 <div className="m-4 col-span-1">
+                     <SelectSearch
+                     // @ts-ignore
+                         onChange={setMatchingLogic}
+                         options={matchingLogicOptions}
+                         fuseOptions={fuseOptions}
+                         value={matchingLogic}
+                         renderOption={renderOption}
+                     />
+                 </div>
+                 <div className="m-4 col-span-1">
+                     {bufferInput}
+                 </div>
+             </div>
             }
         </div>
     )
   }
 
   return (
-      <div>
+      <>
           <Head>
               <title>What Gets Built on Sites that Cities "Make Available" for Housing?</title>
               <meta name='viewport' content='width=device-width, initial-scale=1.0' />
           </Head>
 
+          <body className="bg-gray-50 font-sans">
           {page}
-      </div>
+          </body>
+      </>
   )
 }
 
