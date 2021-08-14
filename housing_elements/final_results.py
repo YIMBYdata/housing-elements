@@ -5,7 +5,7 @@ import numpy as np
 import seaborn as sea
 import matplotlib.pyplot as plt
 from collections import Counter
-from housing_elements import utils, los_altos_permits, san_francisco_permits, san_jose_permits, map_utils
+from housing_elements import utils, plot_utils, data_loading_utils, map_utils, los_altos_permits, san_francisco_permits, san_jose_permits
 from pathlib import Path
 import warnings
 import os, sys
