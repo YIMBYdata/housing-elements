@@ -123,6 +123,9 @@ def get_results_for_city(
         sites, matches, matching_logic
     )
 
+    # Ground truth datasets won't have these income-related columns
+    has_bmr_info = 'vlowndr' in permits.columns
+
     return {
         'City': city,
         'Units permitted (2015-2019)': permits.totalunit.sum(),
@@ -141,6 +144,9 @@ def get_results_for_city(
         'P(inventory) for projects built': analysis_utils.calculate_pinventory_for_dev_by_project(
             permits, matches, matching_logic
         ),
+        'P(inventory) for BMR units': analysis_utils.calculate_pinventory_for_dev_bmr_units(
+            permits, matches, matching_logic
+        ) if has_bmr_info else None,
         'P(dev) for nonvacant sites': nonvacant_ratio,
         'P(dev) for vacant sites': vacant_ratio,
         'P(dev) for inventory': all_ratio,
@@ -263,6 +269,13 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         'P(inventory) for projects built',
         results_df['P(inventory) for projects built'],
         overall_row['P(inventory) for projects built'],
+    )
+
+    add_stats(
+        'P(inventory) for BMR units',
+        results_df['P(inventory) for BMR units'],
+        overall_row['P(inventory) for BMR units'],
+        extra_info='Number of cities with BMR units: {:d}\n'.format(results_df['P(inventory) for BMR units'].notnull().sum())
     )
 
     add_stats(
