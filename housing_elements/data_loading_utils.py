@@ -158,6 +158,66 @@ def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
+    """
+    Fills in the missing entries in the input GeoDataFrame's 'geometry' field,
+    using the 'address' column.
+
+    The input GeoDataFrame's projection must be the standard (long, lat)
+    projection (ESPG:4326).
+
+    :param address_suffix: (Optional.) A string to add to the end of the address (e.g. the city name)
+        to help the geocoder find the address, in case the city/state name isn't already part of the
+        address field.
+    """
+    assert df.crs.to_epsg() == 4326
+
+    # Some rows with 'address' being null might also be missing, but we don't have an address to
+    # geocode, so too bad.
+    missing_indices = df[
+        df.geometry.isnull()
+        & df['address'].notnull()
+        & (df['address'].apply(type) == str)
+    ].index
+
+    addresses = df.loc[missing_indices]['address']
+
+    if address_suffix:
+        addresses = addresses + address_suffix
+
+    missing_points_geoseries = geocode_results_to_geoseries(
+        geocode_cache.lookup(addresses),
+        index=missing_indices
+    )
+
+    fixed_df = df.copy()
+    fixed_df.geometry = df.geometry.combine_first(missing_points_geoseries)
+
+    return fixed_df
+
+
+def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """
+    Use a county dataset to impute APNs with missing geometries.
+    """
+    missing_rows = df[
+        df.geometry.isnull()
+    ][['apn']].drop_duplicates()
+
+    merged = missing_rows.merge(
+        parcels[['apn', 'geometry']],
+        how='left',
+        on='apn',
+    )
+
+    df_copy = df.copy()
+
+    # merged should have the same indices as the original DataFrame
+    df_copy.geometry = df_copy.geometry.combine_first(merged.geometry)
+
+    return df_copy
+
+
 def load_abag_permits() -> gpd.GeoDataFrame:
     """
     Loads all 2013-2017 building permits from ABAG as a GeoDataFrame.
@@ -301,8 +361,6 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, fix_real
     return sites
 
 
-
-
 def add_cols_for_sitetype(sites):
     sites['is_vacant'] = sites.sitetype.isin(VACANT_SITE_TYPES)
     sites['is_nonvacant'] = sites.sitetype.isin(NONVACANT_SITE_TYPES)
@@ -409,64 +467,6 @@ def get_census_bps_dataset() -> pd.DataFrame:
 
     return BPS_DATA
 
-def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
-    """
-    Fills in the missing entries in the input GeoDataFrame's 'geometry' field,
-    using the 'address' column.
-
-    The input GeoDataFrame's projection must be the standard (long, lat)
-    projection (ESPG:4326).
-
-    :param address_suffix: (Optional.) A string to add to the end of the address (e.g. the city name)
-        to help the geocoder find the address, in case the city/state name isn't already part of the
-        address field.
-    """
-    assert df.crs.to_epsg() == 4326
-
-    # Some rows with 'address' being null might also be missing, but we don't have an address to
-    # geocode, so too bad.
-    missing_indices = df[
-        df.geometry.isnull()
-        & df['address'].notnull()
-        & (df['address'].apply(type) == str)
-    ].index
-
-    addresses = df.loc[missing_indices]['address']
-
-    if address_suffix:
-        addresses = addresses + address_suffix
-
-    missing_points_geoseries = geocode_results_to_geoseries(
-        geocode_cache.lookup(addresses),
-        index=missing_indices
-    )
-
-    fixed_df = df.copy()
-    fixed_df.geometry = df.geometry.combine_first(missing_points_geoseries)
-
-    return fixed_df
-
-
-def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    """
-    Use a county dataset to impute APNs with missing geometries.
-    """
-    missing_rows = df[
-        df.geometry.isnull()
-    ][['apn']].drop_duplicates()
-
-    merged = missing_rows.merge(
-        parcels[['apn', 'geometry']],
-        how='left',
-        on='apn',
-    )
-
-    df_copy = df.copy()
-
-    # merged should have the same indices as the original DataFrame
-    df_copy.geometry = df_copy.geometry.combine_first(merged.geometry)
-
-    return df_copy
 
 def geocode_result_to_point(geocodio_result: dict) -> Optional[Point]:
     results = geocodio_result['results']
