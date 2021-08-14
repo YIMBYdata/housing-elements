@@ -5,7 +5,7 @@ import numpy as np
 import seaborn as sea
 import matplotlib.pyplot as plt
 from collections import Counter
-from housing_elements import utils, plot_utils, data_loading_utils, map_utils, los_altos_permits, san_francisco_permits, san_jose_permits
+from housing_elements import analysis_utils, plot_utils, data_loading_utils, map_utils, los_altos_permits, san_francisco_permits, san_jose_permits
 from pathlib import Path
 import warnings
 import os, sys
@@ -30,7 +30,7 @@ class HiddenPrints:
 
 
 def load_sites_and_permits():
-    sites_df = utils.load_all_sites()
+    sites_df = data_loading_utils.load_all_sites()
     all_cities = sites_df.jurisdict.unique()
 
     assert len(all_cities) == 108
@@ -39,7 +39,7 @@ def load_sites_and_permits():
     for city in all_cities:
         with HiddenPrints():
             try:
-                sites = utils.load_site_inventory(city)
+                sites = data_loading_utils.load_site_inventory(city)
                 assert sites.shape[0]
                 cities_with_sites[city] = sites
             except Exception:
@@ -51,7 +51,7 @@ def load_sites_and_permits():
     for city in all_cities:
         with HiddenPrints():
             try:
-                cities_with_permits[city] = utils.load_all_new_building_permits(city)
+                cities_with_permits[city] = data_loading_utils.load_all_new_building_permits(city)
             except Exception:
                 print("Loading permits failed for " + city, file=sys.stderr)
 
@@ -113,32 +113,32 @@ def get_results_for_city(
     """
     :param geo_matching_buffer: Options are '5ft', '10ft', '25ft', '50ft', '75ft', '100ft'.
     """
-    nonvacant_matches, nonvacant_sites, nonvacant_ratio = utils.calculate_pdev_for_nonvacant_sites(
+    nonvacant_matches, nonvacant_sites, nonvacant_ratio = analysis_utils.calculate_pdev_for_nonvacant_sites(
         sites, matches, matching_logic
     )
-    vacant_matches, vacant_sites, vacant_ratio = utils.calculate_pdev_for_vacant_sites(
+    vacant_matches, vacant_sites, vacant_ratio = analysis_utils.calculate_pdev_for_vacant_sites(
         sites, matches, matching_logic
     )
-    all_matches, all_sites, all_ratio = utils.calculate_pdev_for_inventory(
+    all_matches, all_sites, all_ratio = analysis_utils.calculate_pdev_for_inventory(
         sites, matches, matching_logic
     )
 
     return {
         'City': city,
         'Units permitted (2015-2019)': permits.totalunit.sum(),
-        'Mean underproduction': utils.calculate_underproduction_on_sites(
+        'Mean underproduction': analysis_utils.calculate_underproduction_on_sites(
             sites, permits, matches, matching_logic
         ),
-        'Units built to units claimed ratio on matched sites': utils.calculate_city_unit_ratio(
+        'Units built to units claimed ratio on matched sites': analysis_utils.calculate_city_unit_ratio(
             sites, permits, matches, matching_logic
         ),
-        'RHNA Success': utils.calculate_rhna_success(city, permits),
-        'Units permitted / claimed capacity': utils.calculate_permits_to_capacity_ratio(sites, permits),
-        'Units permitted via BPS / claimed capacity': utils.calculate_permits_to_capacity_ratio_via_bps(sites, city),
-        'P(inventory) for homes built': utils.calculate_pinventory_for_dev(
+        'RHNA Success': analysis_utils.calculate_rhna_success(city, permits),
+        'Units permitted / claimed capacity': analysis_utils.calculate_permits_to_capacity_ratio(sites, permits),
+        'Units permitted via BPS / claimed capacity': analysis_utils.calculate_permits_to_capacity_ratio_via_bps(sites, city),
+        'P(inventory) for homes built': analysis_utils.calculate_pinventory_for_dev(
             permits, matches, matching_logic
         ),
-        'P(inventory) for projects built': utils.calculate_pinventory_for_dev_by_project(
+        'P(inventory) for projects built': analysis_utils.calculate_pinventory_for_dev_by_project(
             permits, matches, matching_logic
         ),
         'P(dev) for nonvacant sites': nonvacant_ratio,
@@ -169,7 +169,7 @@ def ground_truth_permits_post_processing(permits: gpd.GeoDataFrame, city: str) -
         address_suffix = None
     else:
         address_suffix = ', ' + city + ', CA'
-    permits = utils.impute_missing_geometries(permits, address_suffix)
+    permits = data_loading_utils.impute_missing_geometries(permits, address_suffix)
 
     return permits
 
@@ -179,9 +179,9 @@ def get_ground_truth_results_for_city(
     sites: gpd.GeoDataFrame,
     permits: gpd.GeoDataFrame,
 ) -> pd.DataFrame:
-    matches = utils.get_all_matches(sites, permits)
+    matches = analysis_utils.get_all_matches(sites, permits)
     return get_results_for_city(
-        city, sites, permits, matches, utils.MatchingLogic(match_by='both', geo_matching_buffer='25ft', use_raw_apns=False)
+        city, sites, permits, matches, analysis_utils.MatchingLogic(match_by='both', geo_matching_buffer='25ft', use_raw_apns=False)
     )
 
 
@@ -209,10 +209,10 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         results.append(
             {
                 'Site type': site_type,
-                'Overall development rate': '{:.1%}'.format(utils.adj_pdev(num_matches.sum() / num_sites.sum())),
+                'Overall development rate': '{:.1%}'.format(analysis_utils.adj_pdev(num_matches.sum() / num_sites.sum())),
                 'Num sites': num_sites.sum(),
-                'Median P(dev)': '{:.3f}'.format(utils.adj_pdev(p_dev_col.median())),
-                'Mean P(dev)': '{:.3f}'.format(utils.adj_pdev(p_dev_col.mean())),
+                'Median P(dev)': '{:.3f}'.format(analysis_utils.adj_pdev(p_dev_col.median())),
+                'Mean P(dev)': '{:.3f}'.format(analysis_utils.adj_pdev(p_dev_col.mean())),
             }
         )
 
@@ -233,18 +233,18 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
 
     add_stats(
         'adj P(dev) stats',
-        utils.adj_pdev(results_df['P(dev) for inventory']),
-        utils.adj_pdev(overall_row['P(dev) for inventory'])
+        analysis_utils.adj_pdev(results_df['P(dev) for inventory']),
+        analysis_utils.adj_pdev(overall_row['P(dev) for inventory'])
     )
     add_stats(
         'adj P(dev) for vacant sites stats',
-        utils.adj_pdev(results_df['P(dev) for vacant sites']),
-        utils.adj_pdev(overall_row['P(dev) for vacant sites'])
+        analysis_utils.adj_pdev(results_df['P(dev) for vacant sites']),
+        analysis_utils.adj_pdev(overall_row['P(dev) for vacant sites'])
     )
     add_stats(
         'adj P(dev) for nonvacant sites stats',
-        utils.adj_pdev(results_df['P(dev) for nonvacant sites']),
-        utils.adj_pdev(overall_row['P(dev) for nonvacant sites'])
+        analysis_utils.adj_pdev(results_df['P(dev) for nonvacant sites']),
+        analysis_utils.adj_pdev(overall_row['P(dev) for nonvacant sites'])
     )
 
     add_stats(
@@ -295,8 +295,8 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         extra_info = f'# matches: {matching_logic_overall_row["# matches"]} ({eval(matching_logic_overall_row["# matches"]):.1%})\n'
         add_stats(
             f'adj P(dev) for {matching_logic}',
-            utils.adj_pdev(cities_df['P(dev) for inventory']),
-            utils.adj_pdev(matching_logic_overall_row['P(dev) for inventory']),
+            analysis_utils.adj_pdev(cities_df['P(dev) for inventory']),
+            analysis_utils.adj_pdev(matching_logic_overall_row['P(dev) for inventory']),
             extra_info
         )
 
@@ -310,7 +310,7 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
 
     output += 'P(dev) for ABAG as a whole, under different matching assumptions\n'
     for matching_logic, df in dfs.items():
-        result = utils.adj_pdev(df.query('City == "Overall"')['P(dev) for inventory'].squeeze())
+        result = analysis_utils.adj_pdev(df.query('City == "Overall"')['P(dev) for inventory'].squeeze())
         output += matching_logic + f' {result:.3f}\n'
 
     output += '\n'
@@ -318,7 +318,7 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
     output += 'P(dev) for median city, under different matching assumptions\n'
     for matching_logic, df in dfs.items():
         cities_df = df.query('City != "Overall"')
-        result = utils.adj_pdev(cities_df['P(dev) for inventory'].median())
+        result = analysis_utils.adj_pdev(cities_df['P(dev) for inventory'].median())
         output += matching_logic + f' {result:.3f}\n'
 
     output += '\n'
@@ -370,7 +370,7 @@ def make_bps_comparison_results() -> None:
     cities_with_sites, cities_with_permits, _ = cached_load_sites_and_permits(use_cache=True)
 
     cities = set(cities_with_sites.keys()) & set(cities_with_permits.keys())
-    cities -= utils.BPS_KNOWN_MISSING_CITIES
+    cities -= analysis_utils.BPS_KNOWN_MISSING_CITIES
     cities.remove('Overall')
 
     results = []
@@ -380,8 +380,8 @@ def make_bps_comparison_results() -> None:
 
         results.append({
             'city': city,
-            'permits to capacity ratio (using ABAG dataset)': utils.calculate_permits_to_capacity_ratio(sites, permits),
-            'permits to capacity ratio (using BPS dataset)': utils.calculate_permits_to_capacity_ratio_via_bps(sites, city),
+            'permits to capacity ratio (using ABAG dataset)': analysis_utils.calculate_permits_to_capacity_ratio(sites, permits),
+            'permits to capacity ratio (using BPS dataset)': analysis_utils.calculate_permits_to_capacity_ratio_via_bps(sites, city),
         })
 
     results_df = pd.DataFrame(results)
@@ -389,8 +389,8 @@ def make_bps_comparison_results() -> None:
     overall_sites = pd.concat([cities_with_sites[city] for city in cities])
     overall_permits = pd.concat([cities_with_permits[city] for city in cities])
     overall_row = pd.Series({
-        'permits to capacity ratio (using ABAG dataset)': utils.calculate_permits_to_capacity_ratio(overall_sites, overall_permits),
-        'permits to capacity ratio (using BPS dataset)': utils.calculate_permits_to_capacity_ratio_via_bps(overall_sites, list(cities)),
+        'permits to capacity ratio (using ABAG dataset)': analysis_utils.calculate_permits_to_capacity_ratio(overall_sites, overall_permits),
+        'permits to capacity ratio (using BPS dataset)': analysis_utils.calculate_permits_to_capacity_ratio_via_bps(overall_sites, list(cities)),
     })
 
     output = 'BPS comparison table results:\n'
@@ -435,16 +435,16 @@ def print_dict(results_dict: Dict[str, Any]) -> str:
 
 
 def make_plots(results_both_df: pd.DataFrame) -> None:
-    utils.map_qoi('P(dev) for inventory', results_both_df)
-    utils.map_qoi('P(dev) for vacant sites', results_both_df)
-    utils.map_qoi('P(dev) for nonvacant sites', results_both_df)
-    utils.map_qoi('P(inventory) for homes built', results_both_df)
-    utils.map_qoi('Mean underproduction', results_both_df)
-    utils.map_qoi('RHNA Success', results_both_df)
+    plot_utils.map_qoi('P(dev) for inventory', results_both_df)
+    plot_utils.map_qoi('P(dev) for vacant sites', results_both_df)
+    plot_utils.map_qoi('P(dev) for nonvacant sites', results_both_df)
+    plot_utils.map_qoi('P(inventory) for homes built', results_both_df)
+    plot_utils.map_qoi('Mean underproduction', results_both_df)
+    plot_utils.map_qoi('RHNA Success', results_both_df)
 
     plt.figure()
     plot_inventory_permits_by_year()
-    
+
     plt.figure()
     plot_pdev_vs_vacant_land(results_both_df)
 
@@ -489,7 +489,7 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     sea_plot.get_figure().savefig('./figures/did_realistic_capacity_calcs_matter_scatterplot.png')
 
     pdevs = results_both_df['P(dev) for inventory']
-    rhnas = [utils.get_rhna_target(city) for city in results_both_df['City']]
+    rhnas = [data_loading_utils.get_rhna_target(city) for city in results_both_df['City']]
 
     plt.figure(figsize=(5, 5))
     plt.scatter(rhnas, pdevs, s=10, alpha=0.7)
@@ -500,7 +500,7 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
 
 
 def get_all_matches_kwargs(kwargs):
-    return utils.get_all_matches(**kwargs)
+    return analysis_utils.get_all_matches(**kwargs)
 
 def create_results_csv_files(
     cities: List[str],
@@ -518,7 +518,7 @@ def create_results_csv_files(
                     sites=cities_with_sites[city],
                     permits=cities_with_permits[city],
                     matches=all_matches[city],
-                    matching_logic=utils.MatchingLogic(match_by='apn'),
+                    matching_logic=analysis_utils.MatchingLogic(match_by='apn'),
                 )
                 for city in cities
             ],
@@ -535,7 +535,7 @@ def create_results_csv_files(
                     sites=cities_with_sites[city],
                     permits=cities_with_permits[city],
                     matches=all_matches[city],
-                    matching_logic=utils.MatchingLogic(
+                    matching_logic=analysis_utils.MatchingLogic(
                         match_by='apn',
                         use_raw_apns=True
                     ),
@@ -559,7 +559,7 @@ def create_results_csv_files(
                         sites=cities_with_sites[city],
                         permits=cities_with_permits[city],
                         matches=all_matches[city],
-                        matching_logic=utils.MatchingLogic(
+                        matching_logic=analysis_utils.MatchingLogic(
                             match_by='geo',
                             geo_matching_buffer=buffer
                         )
@@ -580,7 +580,7 @@ def create_results_csv_files(
                         sites=cities_with_sites[city],
                         permits=cities_with_permits[city],
                         matches=all_matches[city],
-                        matching_logic=utils.MatchingLogic(
+                        matching_logic=analysis_utils.MatchingLogic(
                             match_by='both',
                             geo_matching_buffer=buffer
                         )
@@ -693,9 +693,9 @@ def make_ground_truth_summary_table():
 
     ground_truth_summary_df = pd.DataFrame({
         'City': ground_truth_results_df['City'],
-        'P(dev) for inventory, 8 years, ground truth': utils.adj_pdev(ground_truth_results_df['P(dev) for inventory']),
+        'P(dev) for inventory, 8 years, ground truth': analysis_utils.adj_pdev(ground_truth_results_df['P(dev) for inventory']),
     })
-    abag_pdevs = results_df.set_index('City')['P(dev) for inventory'].apply(utils.adj_pdev).to_dict()
+    abag_pdevs = results_df.set_index('City')['P(dev) for inventory'].apply(analysis_utils.adj_pdev).to_dict()
     ground_truth_summary_df['P(dev) for inventory, 8 years, ABAG'] = ground_truth_summary_df['City'].map(abag_pdevs)
 
     ground_truth_summary_df.to_csv('results/ground_truth_summary.csv', index=False)
@@ -710,8 +710,8 @@ def get_final_appendix_table(results_df, results_upper_bound_df):
         'City': results_df['City']
     })
 
-    df['P(dev) for inventory sites'] = results_df['P(dev) for inventory'].apply(utils.adj_pdev).apply('{:.1%}'.format)
-    df['P(dev) for inventory sites (upper bound estimate)'] = results_upper_bound_df['P(dev) for inventory'].apply(utils.adj_pdev).apply('{:.1%}'.format)
+    df['P(dev) for inventory sites'] = results_df['P(dev) for inventory'].apply(analysis_utils.adj_pdev).apply('{:.1%}'.format)
+    df['P(dev) for inventory sites (upper bound estimate)'] = results_upper_bound_df['P(dev) for inventory'].apply(analysis_utils.adj_pdev).apply('{:.1%}'.format)
     df['Citywide production relative to claimed capacity'] = (8/5 * results_df['Units permitted / claimed capacity']).apply('{:.1%}'.format)
     df['Realized vs. anticipated density on inventory sites'] = results_df['Mean underproduction'].dropna().apply('{:.2f}'.format).reindex(df.index, fill_value='N/A')
     df['Permitted units on inventory sites, as fraction of all permitted units'] = (
@@ -729,22 +729,22 @@ def get_final_appendix_table(results_df, results_upper_bound_df):
 def find_n_matches_raw_apn(cities):
     n_matches = 0
     for city in cities:
-        site_df = utils.load_site_inventory(city, standardize_apn=False)
-        permits_df = utils.load_all_new_building_permits(city, standardize_apn=False)
-        city_matches, _, _ = utils.calculate_pdev_for_inventory(site_df, permits_df, 'apn')
+        site_df = data_loading_utils.load_site_inventory(city, standardize_apn=False)
+        permits_df = data_loading_utils.load_all_new_building_permits(city, standardize_apn=False)
+        city_matches, _, _ = data_loading_utils.calculate_pdev_for_inventory(site_df, permits_df, 'apn')
         n_matches += city_matches
     return n_matches
 
 
 def find_city_where_apn_formatting_mattered(cities):
     for city in cities:
-        site_raw = utils.load_site_inventory(city, standardize_apn=False)
-        permits_raw = utils.load_all_new_building_permits(city, standardize_apn=False)
-        n_matches_raw, _, _ = utils.calculate_pdev_for_inventory(site_raw, permits_raw, 'apn')
+        site_raw = data_loading_utils.load_site_inventory(city, standardize_apn=False)
+        permits_raw = data_loading_utils.load_all_new_building_permits(city, standardize_apn=False)
+        n_matches_raw, _, _ = data_loading_utils.calculate_pdev_for_inventory(site_raw, permits_raw, 'apn')
 
-        site_cln = utils.load_site_inventory(city, standardize_apn=True)
-        permits_cln = utils.load_all_new_building_permits(city, standardize_apn=True)
-        n_matches_cln, _, _ = utils.calculate_pdev_for_inventory(site_cln, permits_cln, 'apn')
+        site_cln = data_loading_utils.load_site_inventory(city, standardize_apn=True)
+        permits_cln = data_loading_utils.load_all_new_building_permits(city, standardize_apn=True)
+        n_matches_cln, _, _ = data_loading_utils.calculate_pdev_for_inventory(site_cln, permits_cln, 'apn')
 
         if n_matches_raw != n_matches_cln:
             matching_cln_site_indexes = site_cln[site_cln.apn.isin(permits_cln.apn)].index
@@ -831,7 +831,7 @@ def analyze_realcap_input(cities):
     n_sites, n_missing, n_parse_fail, n_unlisted = 0, 0, 0, 0
 
     for city in cities:
-        df = utils.load_site_inventory(city, fix_realcap=False)
+        df = data_loading_utils.load_site_inventory(city, fix_realcap=False)
         n_missing += df.relcapcty.isna().sum()
         n_unlisted += df.realcap_not_listed.sum()
         n_parse_fail += df.realcap_parse_fail.sum()
@@ -857,7 +857,7 @@ def plot_inventory_permits_by_year():
     match_df = None
     for city in cities:
         permits = cities_with_permits[city]
-        match_city = utils.get_matches_df(matches[city], utils.MatchingLogic("both", "25ft"))
+        match_city = analysis_utils.get_matches_df(matches[city], analysis_utils.MatchingLogic("both", "25ft"))
         match_city['permyear'] = permits.loc[match_city.permits_index].permyear.values
         match_city.sort_values('permyear', inplace=True)
         match_city.drop_duplicates('sites_index', inplace=True)

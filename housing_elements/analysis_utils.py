@@ -3,6 +3,7 @@ import geopandas as gpd
 import pandas as pd
 import numpy as np
 from typing import List, Optional, Tuple, NamedTuple
+from housing_elements import data_loading_utils
 
 
 def fraction_apns_nan(permits: pd.DataFrame) -> float:
@@ -106,7 +107,7 @@ def calculate_rhna_success(city: str, permits: pd.DataFrame) -> float:
     This is a crude proxy for RHNA success because it's insensitive to affordability levels.
     """
     total_units = permits.totalunit.sum()
-    rhna_target = get_rhna_target(city)
+    rhna_target = data_loading_utils.get_rhna_target(city)
     print("Total units permitted:", total_units)
     print("Total rhna target:", rhna_target)
     if rhna_target:
@@ -130,7 +131,7 @@ def calculate_permits_to_capacity_ratio_via_bps(sites: gpd.GeoDataFrame, city: U
         # don't report data to BPS?
         return None
 
-    bps_df = get_census_bps_dataset()
+    bps_df = data_loading_utils.get_census_bps_dataset()
     if isinstance(city, list):
         rows_for_city = bps_df[
             bps_df['place_name'].isin(city)
