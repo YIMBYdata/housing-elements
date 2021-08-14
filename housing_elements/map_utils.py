@@ -1,3 +1,6 @@
+"""
+Code for generating the data in JSON form for use in the webapp
+"""
 from __future__ import annotations
 from typing import Dict, List, Optional, Tuple, Union
 from pathlib import Path
@@ -11,11 +14,7 @@ import geopandas as gpd
 import shapely
 from tqdm import tqdm
 from housing_elements.parallel_utils import parallel_process
-
-from . import utils
-
-
-# def permits_group_to_dicts(group_df: pd.DataFrame) -> list:
+from housing_elements import analysis_utils
 
 
 def add_matches_dict_to_sites(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, matches: Matches) -> gpd.GeoDataFrame:
@@ -41,8 +40,8 @@ def add_matches_dict_to_sites(sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame
     output_df['sites_index'] = output_df.index
 
     for buffer in [0, 5, 10, 25, 50, 75, 100]:
-        matches_df = utils.get_matches_df(
-            matches, matching_logic=utils.MatchingLogic(match_by='both', geo_matching_buffer=f'{buffer}ft'), add_match_type_labels=True
+        matches_df = analysis_utils.get_matches_df(
+            matches, matching_logic=analysis_utils.MatchingLogic(match_by='both', geo_matching_buffer=f'{buffer}ft'), add_match_type_labels=True
         )
 
         match_results_col = f'match_results_{buffer}ft'
@@ -147,7 +146,7 @@ def write_geodataframe_to_geojson(df: gpd.GeoDataFrame, path: Path) -> None:
     with path.open('w') as f:
         json.dump(json_value, f)
 
-def process_city(city: str, sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, matches: utils.Matches, output_dir: str) -> dict:
+def process_city(city: str, sites: gpd.GeoDataFrame, permits: gpd.GeoDataFrame, matches: analysis_utils.Matches, output_dir: str) -> dict:
     sites_with_matches_df = add_matches_dict_to_sites(sites, permits, matches)
 
     formatted_permits_df = permits[['permyear', 'address', 'totalunit', 'hcategory', 'geometry']].rename(
@@ -187,7 +186,7 @@ def write_matches_to_files(
     cities_with_sites: Dict[str, gpd.GeoDataFrame],
     cities_with_permits: Dict[str, pd.DataFrame],
     output_dir: Path,
-    all_matches: Dict[str, utils.Matches] = None,
+    all_matches: Dict[str, analysis_utils.Matches] = None,
 ) -> None:
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
@@ -250,15 +249,15 @@ def format_results_df(results_df: pd.DataFrame) -> Dict[str, Any]:
         city = row['City']
         results[city] = {
             'overall': {
-                'P(dev)': utils.adj_pdev(row['P(dev) for inventory']),
+                'P(dev)': analysis_utils.adj_pdev(row['P(dev) for inventory']),
                 '# matches': row['# matches'],
             },
             'vacant': {
-                'P(dev)': utils.adj_pdev(row['P(dev) for vacant sites']),
+                'P(dev)': analysis_utils.adj_pdev(row['P(dev) for vacant sites']),
                 '# matches': row['# vacant matches'],
             },
             'nonvacant': {
-                'P(dev)': utils.adj_pdev(row['P(dev) for nonvacant sites']),
+                'P(dev)': analysis_utils.adj_pdev(row['P(dev) for nonvacant sites']),
                 '# matches': row['# nonvacant matches'],
             },
         }
