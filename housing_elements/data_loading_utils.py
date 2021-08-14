@@ -6,10 +6,10 @@ import geopandas as gpd
 import pandas as pd
 import numpy as np
 import logging
-from pandas.api.types import is_numeric_dtype
-from housing_elements import geocode_cache
 from shapely.geometry import Point
 from typing import List, Optional
+from pandas.api.types import is_numeric_dtype
+from housing_elements import geocode_cache
 
 _logger = logging.getLogger(__name__)
 
@@ -25,37 +25,6 @@ XLSX_FILES = [
 ]
 PARENT_DIR = os.path.dirname(os.path.dirname(__file__))
 
-def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Map the column names in the spreadsheet to the one in the ABAG dataset, so they can be concatenated.
-    """
-    df = df.copy()
-    mapping = {
-        "Very Low- Income Deed Restricted": "vlowdr",
-        "Very Low- Income Non Deed Restricted": "vlowndr",
-        "Low- Income Deed Restricted": "lowdr",
-        "Low- Income Non Deed Restricted": "lowndr",
-        "Moderate- Income Deed Restricted": "moddr",
-        "Moderate- Income Non Deed Restricted": "modndr",
-        "Above Moderate- Income": "amodtot",
-        "Project Name+": "projname",
-        "Unit Category (SFA,SFD,2 to 4,5+,ADU,MH)": "hcategory",
-        "Tenure R=Renter O=Owner": "tenure",
-        "Street Address": "address",
-        "Notes+": "notes",
-        "Current APN": "apn",
-        "# of Units Issued Building Permits": "totalunit",
-    }
-    df = df.rename(columns=mapping, errors="raise")
-
-    # Deed-restricted X + Non-deed-restricted X = Total X (where X = very low, low, or moderate)
-    df["vlowtot"] = df["vlowdr"] + df["vlowndr"]
-    df["lowtot"] = df["lowdr"] + df["lowndr"]
-    df["modtot"] = df["moddr"] + df["modndr"]
-
-    df["permyear"] = pd.to_datetime(df["Building Permits Date Issued"]).dt.year
-
-    return df
 
 def load_apr_permits(
     city: str, year: str, filter_for_permits: bool = True
@@ -154,6 +123,39 @@ def load_apr_permits(
         return df
     else:
         return df
+
+
+def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Map the column names in the spreadsheet to the one in the ABAG dataset, so they can be concatenated.
+    """
+    df = df.copy()
+    mapping = {
+        "Very Low- Income Deed Restricted": "vlowdr",
+        "Very Low- Income Non Deed Restricted": "vlowndr",
+        "Low- Income Deed Restricted": "lowdr",
+        "Low- Income Non Deed Restricted": "lowndr",
+        "Moderate- Income Deed Restricted": "moddr",
+        "Moderate- Income Non Deed Restricted": "modndr",
+        "Above Moderate- Income": "amodtot",
+        "Project Name+": "projname",
+        "Unit Category (SFA,SFD,2 to 4,5+,ADU,MH)": "hcategory",
+        "Tenure R=Renter O=Owner": "tenure",
+        "Street Address": "address",
+        "Notes+": "notes",
+        "Current APN": "apn",
+        "# of Units Issued Building Permits": "totalunit",
+    }
+    df = df.rename(columns=mapping, errors="raise")
+
+    # Deed-restricted X + Non-deed-restricted X = Total X (where X = very low, low, or moderate)
+    df["vlowtot"] = df["vlowdr"] + df["vlowndr"]
+    df["lowtot"] = df["lowdr"] + df["lowndr"]
+    df["modtot"] = df["moddr"] + df["modndr"]
+
+    df["permyear"] = pd.to_datetime(df["Building Permits Date Issued"]).dt.year
+
+    return df
 
 
 def load_abag_permits() -> gpd.GeoDataFrame:
