@@ -158,6 +158,28 @@ def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def load_abag_permits() -> gpd.GeoDataFrame:
+    """
+    Loads all 2013-2017 building permits from ABAG as a GeoDataFrame.
+    """
+    global ABAG
+    if ABAG is None:
+        geometry_df = gpd.read_file(PARENT_DIR + "/data/raw_data/abag_building_permits/permits.shp")
+        data_df = pd.read_csv(PARENT_DIR + "/data/raw_data/abag_building_permits/permits.csv")
+
+        # There shouldn't be any rows with geometry data that don't have label data
+        assert geometry_df["joinid"].isin(data_df["joinid"]).all()
+
+        ABAG = gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
+
+    # Filter out permits from before the start of the 5th Housing Element cycle.
+    ABAG = ABAG[ABAG['permyear'] >= 2015].copy()
+
+    ABAG['apn'] = ABAG['apn'].replace({np.nan: None})
+
+    return ABAG
+
+
 def impute_missing_geometries(df: gpd.GeoDataFrame, address_suffix: Optional[str] = None) -> gpd.GeoDataFrame:
     """
     Fills in the missing entries in the input GeoDataFrame's 'geometry' field,
@@ -216,28 +238,6 @@ def impute_missing_geometries_from_file(df: gpd.GeoDataFrame, parcels: gpd.GeoDa
     df_copy.geometry = df_copy.geometry.combine_first(merged.geometry)
 
     return df_copy
-
-
-def load_abag_permits() -> gpd.GeoDataFrame:
-    """
-    Loads all 2013-2017 building permits from ABAG as a GeoDataFrame.
-    """
-    global ABAG
-    if ABAG is None:
-        geometry_df = gpd.read_file(PARENT_DIR + "/data/raw_data/abag_building_permits/permits.shp")
-        data_df = pd.read_csv(PARENT_DIR + "/data/raw_data/abag_building_permits/permits.csv")
-
-        # There shouldn't be any rows with geometry data that don't have label data
-        assert geometry_df["joinid"].isin(data_df["joinid"]).all()
-
-        ABAG = gpd.GeoDataFrame(data_df.merge(geometry_df, how="left", on="joinid"))
-
-    # Filter out permits from before the start of the 5th Housing Element cycle.
-    ABAG = ABAG[ABAG['permyear'] >= 2015].copy()
-
-    ABAG['apn'] = ABAG['apn'].replace({np.nan: None})
-
-    return ABAG
 
 
 def load_all_new_building_permits(city: str) -> pd.DataFrame:
