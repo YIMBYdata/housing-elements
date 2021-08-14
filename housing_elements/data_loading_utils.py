@@ -12,7 +12,6 @@ from typing import List, Optional
 
 _logger = logging.getLogger(__name__)
 
-PARENT_DIR = os.path.dirname(os.path.dirname(__file__))
 ABAG = None
 INVENTORY = None
 TARGETS = None
@@ -23,6 +22,7 @@ XLSX_FILES = [
     ('Oakland', '2019'),
     ('Livermore', '2019'),
 ]
+PARENT_DIR = os.path.dirname(os.path.dirname(__file__))
 
 def map_apr_column_names(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -223,6 +223,14 @@ def load_rhna_targets() -> str:
         TARGETS = pd.read_csv(PARENT_DIR + '/data/raw_data/rhna_targets.txt', sep=', ', engine='python')
     return TARGETS
 
+SITE_TYPES_TO_EXCLUDE = [
+    'Approved',
+    'Built',
+    'Entitled',
+    'Planned and Approved',
+    'Under Construction',
+]
+
 
 VACANT_SITE_TYPES = ['Underutilized and Va', 'Vacant', 'Undeveloped', 'Open Space', 'Underutilized & Vaca', 'Vacant and Underutil']
 
@@ -289,13 +297,6 @@ def load_site_inventory(city: str, exclude_approved_sites: bool = True, fix_real
         ]
     return sites
 
-SITE_TYPES_TO_EXCLUDE = [
-    'Approved',
-    'Built',
-    'Entitled',
-    'Planned and Approved',
-    'Under Construction',
-]
 
 
 
