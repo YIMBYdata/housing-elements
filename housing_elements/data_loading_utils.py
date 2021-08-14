@@ -1,10 +1,11 @@
+from __future__ import annotations
+import re
+import os
+import warnings
 import geopandas as gpd
 import pandas as pd
 import numpy as np
-import re
-import os
 import logging
-import warnings
 from pandas.api.types import is_numeric_dtype
 from housing_elements import geocode_cache
 from shapely.geometry import Point
