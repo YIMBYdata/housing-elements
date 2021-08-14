@@ -1,5 +1,5 @@
 import unittest
-from housing_elements import utils
+from housing_elements import analysis_utils
 import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Point
@@ -23,10 +23,10 @@ permits = gpd.GeoDataFrame({
     'apn_raw': ['A'],
 }, crs='EPSG:3310').to_crs('EPSG:3857')
 
-class TestUtils(unittest.TestCase):
+class TestAnalysisUtils(unittest.TestCase):
     def test_merge_on_address_lax(self):
         # Should be able to merge points within 8 meters, even if the inputs are not in a meters projection
-        merged = utils.merge_on_address(sites, permits, buffer='25ft')
+        merged = analysis_utils.merge_on_address(sites, permits, buffer='25ft')
 
         expected = pd.DataFrame({
             'sites_index': [1],
@@ -47,14 +47,14 @@ class TestUtils(unittest.TestCase):
             'geometry': [Point(10.5, 2)],
         }, crs='EPSG:3310').to_crs('EPSG:3857')
 
-        merged = utils.merge_on_address(sites, permits, buffer='25ft')
+        merged = analysis_utils.merge_on_address(sites, permits, buffer='25ft')
 
         self.assertEqual(len(merged), 0)
 
     def test_calculate_pdev_for_inventory_geo(self):
-        matches = utils.get_all_matches(sites, permits)
-        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(
-            sites, matches, matching_logic=utils.MatchingLogic(match_by='geo', geo_matching_buffer='5ft')
+        matches = analysis_utils.get_all_matches(sites, permits)
+        num_matches, num_sites, match_rate = analysis_utils.calculate_pdev_for_inventory(
+            sites, matches, matching_logic=analysis_utils.MatchingLogic(match_by='geo', geo_matching_buffer='5ft')
         )
 
         self.assertEqual(num_matches, 0)
@@ -62,18 +62,18 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(match_rate, 0)
 
     def test_calculate_pdev_for_inventory_geo_lax(self):
-        matches = utils.get_all_matches(sites, permits)
-        num_matches, num_sites, match_rate = utils.calculate_pdev_for_inventory(
-            sites, matches, matching_logic=utils.MatchingLogic(match_by='geo', geo_matching_buffer='25ft')
+        matches = analysis_utils.get_all_matches(sites, permits)
+        num_matches, num_sites, match_rate = analysis_utils.calculate_pdev_for_inventory(
+            sites, matches, matching_logic=analysis_utils.MatchingLogic(match_by='geo', geo_matching_buffer='25ft')
         )
         self.assertEqual(num_matches, 1)
         self.assertEqual(num_sites, 3)
         self.assertEqual(match_rate, 1/3)
 
     def test_adj_pdev(self):
-        self.assertEqual(utils.adj_pdev(1), 1)
-        self.assertEqual(utils.adj_pdev(0), 0)
-        self.assertEqual(utils.adj_pdev(0.5), 8/5*.5)
+        self.assertEqual(analysis_utils.adj_pdev(1), 1)
+        self.assertEqual(analysis_utils.adj_pdev(0), 0)
+        self.assertEqual(analysis_utils.adj_pdev(0.5), 8/5*.5)
 
 
 if __name__ == '__main__':

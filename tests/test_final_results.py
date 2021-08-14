@@ -3,7 +3,7 @@ from housing_elements import utils, final_results
 import geopandas as gpd
 import pandas as pd
 
-class TestFinalResults(unittest.TestCase):    
+class TestFinalResults(unittest.TestCase):
     def test_analyze_realcap_input(self):
         cities = ['Berkeley', 'Albany', 'Alameda', 'Livermore', 'Fremont', 'San Ramon']
         n_sites, n_parseable, n_unlisted = final_results.analyze_realcap_input(cities)

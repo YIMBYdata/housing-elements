@@ -275,7 +275,7 @@ apn_or_geo_100ft 18.4% (sd. 0.20)
 
 BPS comparison table results:
 8/5 * permits to capacity ratio (using ABAG dataset):
-Mean: 0.8842020895733084
+Mean: 0.8842020895733085
 Stddev: 1.068292313648324
 Median: 0.5816630027156343
 Min: 0.019159764494561422
@@ -285,7 +285,7 @@ Max: 6.6947368421052635
 Overall: 0.7550881344293415
 
 8/5 * permits to capacity ratio (using BPS dataset):
-Mean: 0.8175842018348293
+Mean: 0.8175842018348292
 Stddev: 1.0434295284335293
 Median: 0.5199527945627377
 Min: 0.0
