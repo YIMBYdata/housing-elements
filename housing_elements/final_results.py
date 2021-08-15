@@ -125,6 +125,14 @@ def get_results_for_city(
 
     # Ground truth datasets won't have these income-related columns
     has_bmr_info = 'vlowndr' in permits.columns
+    if has_bmr_info:
+        bmr_matches, bmr_permits, p_inventory_bmr_units = analysis_utils.calculate_pinventory_for_dev_bmr_units(
+            permits, matches, matching_logic
+        )
+        bmr_match_formatted = f'{bmr_matches} / {bmr_permits}'
+    else:
+        p_inventory_bmr_units = None
+        bmr_match_formatted = None
 
     return {
         'City': city,
@@ -144,9 +152,8 @@ def get_results_for_city(
         'P(inventory) for projects built': analysis_utils.calculate_pinventory_for_dev_by_project(
             permits, matches, matching_logic
         ),
-        'P(inventory) for BMR units': analysis_utils.calculate_pinventory_for_dev_bmr_units(
-            permits, matches, matching_logic
-        ) if has_bmr_info else None,
+        'P(inventory) for BMR units': p_inventory_bmr_units,
+        '# BMR matches / # BMR permits': bmr_match_formatted,
         'P(dev) for nonvacant sites': nonvacant_ratio,
         'P(dev) for vacant sites': vacant_ratio,
         'P(dev) for inventory': all_ratio,
@@ -861,10 +868,10 @@ def plot_inventory_permits_by_year():
 
     with open(f'{path}/cities_with_permits_cache.pkl', 'rb') as f:
         cities_with_permits = pickle.load(f)
-        
+
     with open(f'{path}/all_matches_cache.pkl', 'rb') as f:
         matches = pickle.load(f)
-    
+
     cities = [c for c in cities_with_permits if c in cities_with_sites]
 
     match_df = None
@@ -878,7 +885,7 @@ def plot_inventory_permits_by_year():
             match_df = match_city
         else:
             match_df = pd.concat((match_df, match_city))
-    
+
     match_df.drop_duplicates('sites_index', inplace=True)
     permyears = match_df.permyear.values
     py = [p for p in permyears if p > 2014]

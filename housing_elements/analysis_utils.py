@@ -66,15 +66,16 @@ def calculate_pinventory_for_dev_bmr_units(
 
     bmr_permits = filter_for_bmr_permits(permits)
 
-    housing_on_sites = bmr_permits[bmr_permits.index.isin(matches_df['permits_index'])].totalunit.sum()
+    matching_bmr_permits = bmr_permits[bmr_permits.index.isin(matches_df['permits_index'])]
+    housing_on_sites = matching_bmr_permits.totalunit.sum()
     total_units = bmr_permits.totalunit.sum()
 
     print("BMR units permitted on inventory sites:", housing_on_sites)
     print("Total BMR units permitted:", total_units)
 
     if total_units:
-        return housing_on_sites / total_units
-    return None
+        return len(matching_bmr_permits), len(bmr_permits), housing_on_sites / total_units
+    return len(matching_bmr_permits), len(bmr_permits), None
 
 
 def calculate_pinventory_for_dev_by_project(
