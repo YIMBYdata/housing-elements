@@ -472,30 +472,30 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     sea_plot = sea.histplot(results_both_df['P(dev) for nonvacant sites']).set_title(
         "Each city's P(dev) for nonvacant sites"
     )
-    sea_plot.get_figure().savefig('./figures/Pdev_nonvacant_histogram.png')
+    sea_plot.get_figure().savefig('./figures/Pdev_nonvacant_histogram.png', dpi=500)
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['P(dev) for vacant sites']).set_title("Each city's P(dev) for vacant sites")
-    sea_plot.get_figure().savefig('./figures/Pdev_vacant_histogram.png')
+    sea_plot.get_figure().savefig('./figures/Pdev_vacant_histogram.png', dpi=500)
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['P(dev) for vacant sites']).set_title("Each city's P(dev)")
-    sea_plot.get_figure().savefig('./figures/Pdev_histogram.png')
+    sea_plot.get_figure().savefig('./figures/Pdev_histogram.png', dpi=500)
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['P(inventory) for homes built'])
     sea_plot.set(xlabel='Share of homes built on inventory sites', ylabel='Number of Cities')
     fname = './results/csvs_for_plots/pinventory_histogram.csv'
     results_both_df[['City', 'P(inventory) for homes built']].to_csv(fname)
-    sea_plot.get_figure().savefig('./figures/pinventory_histogram.png')
+    sea_plot.get_figure().savefig('./figures/pinventory_histogram.png', dpi=500)
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['Mean underproduction']).set_title("Each city's mean underproduction")
-    sea_plot.get_figure().savefig('./figures/mean_underproduction_histogram.png')
+    sea_plot.get_figure().savefig('./figures/mean_underproduction_histogram.png', dpi=500)
 
     plt.figure()
     sea_plot = sea.histplot(results_both_df['RHNA Success']).set_title("Each city's RHNA success")
-    sea_plot.get_figure().savefig('./figures/rhna_success_histogram.png')
+    sea_plot.get_figure().savefig('./figures/rhna_success_histogram.png', dpi=500)
 
     # Did RHNA success in last cycle actually have anything to do with how good the site inventory was?
     rhna_success = results_both_df['P(inventory) for homes built']
@@ -506,7 +506,7 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     plt.figure()
     sea_plot = sea.scatterplot(x=rhna_success[~is_null], y=p_dev[~is_null])
     sea_plot.set_title("Does RHNA success have anything to do with the P(dev) of the inventory sites?")
-    sea_plot.get_figure().savefig('./figures/did_realistic_capacity_calcs_matter_scatterplot.png')
+    sea_plot.get_figure().savefig('./figures/did_realistic_capacity_calcs_matter_scatterplot.png', dpi=500)
 
     pdevs = results_both_df['P(dev) for inventory']
     rhnas = [data_loading_utils.get_rhna_target(city) for city in results_both_df['City']]
@@ -516,7 +516,7 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     plt.xlabel("RHNA Allocation")
     plt.ylabel("Pdev")
     plt.title("Do smaller rhna allocations contribute to high P(dev)s?")
-    plt.savefig('./figures/rhna_vs_pdev_scatterplot.png')
+    plt.savefig('./figures/rhna_vs_pdev_scatterplot.png', dpi=500)
 
 
 def get_all_matches_kwargs(kwargs):
@@ -812,7 +812,7 @@ def plot_pdev_vs_vacant_land(results_both_df):
     ax = sea.countplot(x=to_barplot['P(dev)'], hue=to_barplot['Vacant'], data=to_barplot, order=order_ps)
     plt.legend(loc='upper right', title='Parcels')
     plt.ylabel("Number of Cities")
-    plt.savefig('./figures/histogram_pdev_disaggregated_by_sitetype.jpg')
+    plt.savefig('./figures/histogram_pdev_disaggregated_by_sitetype.jpg', dpi=500)
 
 
 def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_permits):
@@ -837,7 +837,7 @@ def plot_pdev_vs_inventory_size(results_both_df, cities_with_sites, cities_with_
     plt.title('P(dev) as a function of site inventory size')
     plt.ylabel("P(dev) for City's Inventory")
     plt.xlabel("# of Sites in City's Inventory")
-    plt.savefig('./figures/pdev_vs_inventory_size.jpg')
+    plt.savefig('./figures/pdev_vs_inventory_size.jpg', dpi=500)
 
 
 def analyze_realcap_input(cities):
@@ -898,7 +898,7 @@ def plot_inventory_permits_by_year():
     plt.xlabel("Year")
     plt.title("When do inventory sites get permitted?")
     path = path + "/figures/permits_by_year.jpg"
-    plt.savefig(path)
+    plt.savefig(path, dpi=500)
 
 if __name__ == '__main__':
     main()

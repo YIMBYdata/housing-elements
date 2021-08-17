@@ -74,7 +74,7 @@ def map_qoi_inner(qoi, title, legend_label, to_plot, file_name_prefix):
     file_name_prefix = file_name_prefix.replace('/', '')
     file_name_prefix = file_name_prefix.replace(' ', '_')
     ctx.add_basemap(ax, source=ctx.providers.CartoDB.PositronNoLabels, attribution=False)
-    plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg')
+    plt.savefig(f'figures/{file_name_prefix.lower()}_bay_map.jpg', dpi=500)
     fname = f'results/csvs_for_plots/{file_name_prefix.lower()}_bay_map.csv'
     if qoi == 'P(dev) for inventory':
         to_plot[['city', 'geometry', qoi]].to_csv(fname)
@@ -92,4 +92,4 @@ def catplot_qoi(result_df, qoi_col_prefix, order=None):
     ax = sea.barplot(x="City", y=qoi_col_prefix, hue="Method",
                 data=long_df, saturation=.5, ci=None, order=order[:len(order)//3])
     ax.tick_params(axis='x', labelrotation=90)
-    plt.savefig(f'figures/{qoi_col_prefix.lower()}_by_city_barplot.jpg')
+    plt.savefig(f'figures/{qoi_col_prefix.lower()}_by_city_barplot.jpg', dpi=500)
