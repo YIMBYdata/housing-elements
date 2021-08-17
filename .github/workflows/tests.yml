@@ -11,4 +11,4 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Run tests
-        run: poetry run python tests/test_utils.py
+        run: poetry run python tests/*.py
