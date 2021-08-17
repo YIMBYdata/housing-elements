@@ -1,5 +1,5 @@
 import unittest
-from housing_elements import utils, final_results
+from housing_elements import final_results
 import geopandas as gpd
 import pandas as pd
 
