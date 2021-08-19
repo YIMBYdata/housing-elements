@@ -1,99 +1,99 @@
 City,Citywide production relative to claimed capacity,Realized vs. anticipated density on inventory sites,"Permitted units on inventory sites, as fraction of all permitted units"
-Alameda,51.7%,50.9%,50.3%
-Albany,63.4%,94.1%,68.2%
-American Canyon,65.7%,N/A,0.0%
-Antioch,33.2%,N/A,0.0%
-Atherton,54.0%,75.0%,3.0%
-Belmont,29.3%,102.5%,76.5%
-Belvedere,23.5%,100.0%,25.0%
-Benicia,3.7%,87.7%,45.5%
-Berkeley,29.7%,177.9%,5.3%
-Brentwood,213.5%,121.5%,12.5%
-Brisbane,5.4%,93.1%,65.9%
-Burlingame,41.2%,282.4%,89.2%
-Calistoga,20.2%,272.7%,37.2%
-Campbell,36.2%,220.5%,70.5%
-Clayton,3.8%,10.0%,50.0%
-Cloverdale,20.6%,90.9%,35.1%
-Colma,288.5%,253.8%,88.0%
-Concord,5.7%,56.7%,13.3%
-Corte Madera,54.1%,100.0%,54.5%
-Cotati,9.0%,N/A,53.8%
-Cupertino,16.5%,172.7%,7.2%
-Daly City,134.2%,412.0%,37.9%
-Danville,66.5%,204.3%,69.4%
-Dixon,18.7%,24.8%,39.5%
-Dublin,113.9%,31.8%,1.5%
-East Palo Alto,30.9%,N/A,0.0%
-El Cerrito,41.0%,N/A,1.1%
-Emeryville,16.6%,N/A,0.0%
-Fairfax,56.9%,135.0%,65.9%
-Fairfield,27.0%,25.3%,4.4%
-Fremont,85.7%,95.7%,19.4%
-Gilroy,220.4%,N/A,11.5%
-Half Moon Bay,5.9%,13.6%,50.9%
-Hayward,67.0%,47.8%,25.1%
-Healdsburg,49.3%,18.9%,2.9%
-Hercules,27.2%,N/A,0.0%
-Lafayette,49.6%,97.3%,23.0%
-Larkspur,25.6%,N/A,5.0%
-Livermore,54.9%,104.9%,58.3%
-Los Altos,121.6%,76.5%,4.2%
-Los Altos Hills,32.0%,50.0%,20.2%
-Los Gatos,15.0%,N/A,0.0%
-Martinez,5.1%,36.3%,52.9%
-Menlo Park,58.4%,266.5%,39.5%
-Mill Valley,43.0%,100.0%,1.2%
-Millbrae,1.2%,N/A,0.0%
-Milpitas,25.2%,33.7%,89.5%
-Monte Sereno,127.3%,N/A,0.0%
-Moraga,9.4%,80.0%,5.1%
-Morgan Hill,137.9%,70.1%,23.0%
-Mountain View,89.6%,139.7%,54.4%
-Napa,67.4%,127.8%,21.7%
-Newark,72.3%,38.6%,98.2%
-Novato,39.1%,510.0%,21.6%
-Oakland,178.3%,184.2%,27.1%
-Oakley,299.0%,10.0%,0.7%
-Pacifica,19.4%,N/A,0.0%
-Palo Alto,31.2%,87.1%,5.3%
-Petaluma,20.3%,84.7%,52.0%
-Piedmont,71.2%,100.0%,2.4%
-Pinole,2.7%,100.0%,7.7%
-Pittsburg,33.9%,76.4%,37.0%
-Pleasant Hill,33.1%,N/A,0.6%
-Pleasanton,51.6%,85.5%,45.7%
-Portola Valley,48.1%,128.6%,18.5%
-Redwood City,53.0%,240.0%,1.4%
-Richmond,39.7%,92.2%,0.6%
-Rio Vista,7.5%,55.7%,40.0%
-Rohnert Park,418.4%,N/A,7.1%
-Ross,36.4%,N/A,0.0%
-San Anselmo,21.4%,100.0%,33.3%
-San Bruno,46.0%,42.7%,12.9%
-San Carlos,36.3%,157.8%,13.9%
-San Francisco,47.1%,205.6%,28.8%
-San Jose,55.6%,70.5%,33.4%
-San Leandro,6.9%,71.4%,3.6%
-San Mateo,35.4%,142.0%,61.2%
-San Pablo,6.9%,100.0%,1.9%
-San Rafael,42.0%,17.9%,6.8%
-San Ramon,39.1%,85.7%,1.7%
-Santa Clara,65.2%,115.5%,21.0%
-Santa Rosa,108.9%,10.0%,0.1%
-Saratoga,30.7%,N/A,0.0%
-Sausalito,11.2%,50.0%,5.0%
-Sebastopol,8.7%,66.7%,7.4%
-Sonoma,14.4%,10.3%,3.6%
-South San Francisco,50.0%,361.8%,43.7%
-Suisun City,22.1%,N/A,0.0%
-Sunnyvale,7.7%,81.0%,44.1%
-Tiburon,38.8%,N/A,0.0%
-Union City,43.0%,65.2%,7.0%
-Vacaville,30.9%,50.1%,32.0%
-Vallejo,9.4%,100.0%,2.5%
-Walnut Creek,77.9%,138.1%,4.9%
-Windsor,15.3%,N/A,9.5%
-Woodside,23.9%,N/A,12.3%
-Yountville,14.1%,50.0%,10.0%
-Overall,47.0%,102.6%,27.8%
+Alameda,82.7%,64.9%,50.3%
+Albany,101.4%,54.2%,68.2%
+American Canyon,105.1%,N/A,0.0%
+Antioch,53.1%,N/A,0.0%
+Atherton,86.4%,83.3%,3.0%
+Belmont,46.9%,100.3%,76.5%
+Belvedere,37.6%,100.0%,25.0%
+Benicia,5.9%,95.1%,45.5%
+Berkeley,47.5%,157.2%,5.3%
+Brentwood,341.6%,166.5%,12.5%
+Brisbane,8.6%,143.8%,65.9%
+Burlingame,65.9%,402.7%,89.2%
+Calistoga,32.3%,272.7%,37.2%
+Campbell,57.9%,304.0%,70.5%
+Clayton,6.1%,34.5%,50.0%
+Cloverdale,32.9%,114.7%,35.1%
+Colma,461.5%,253.8%,88.0%
+Concord,9.1%,65.6%,13.3%
+Corte Madera,86.6%,100.0%,54.5%
+Cotati,14.4%,N/A,53.8%
+Cupertino,26.5%,172.7%,7.2%
+Daly City,214.7%,412.0%,37.9%
+Danville,106.3%,109.4%,69.4%
+Dixon,30.0%,34.2%,39.5%
+Dublin,182.3%,92.9%,1.5%
+East Palo Alto,49.4%,N/A,0.0%
+El Cerrito,65.7%,N/A,1.1%
+Emeryville,26.5%,N/A,0.0%
+Fairfax,91.1%,135.0%,65.9%
+Fairfield,43.2%,25.3%,4.4%
+Fremont,137.2%,105.5%,19.4%
+Gilroy,352.6%,N/A,11.5%
+Half Moon Bay,9.4%,89.3%,50.9%
+Hayward,107.2%,47.4%,25.1%
+Healdsburg,78.9%,27.5%,2.9%
+Hercules,43.5%,N/A,0.0%
+Lafayette,79.4%,87.5%,23.0%
+Larkspur,41.0%,N/A,5.0%
+Livermore,87.8%,123.5%,58.3%
+Los Altos,194.5%,92.9%,4.2%
+Los Altos Hills,51.2%,68.1%,20.2%
+Los Gatos,23.9%,N/A,0.0%
+Martinez,8.2%,83.1%,52.9%
+Menlo Park,93.5%,356.7%,39.5%
+Mill Valley,68.8%,100.0%,1.2%
+Millbrae,1.9%,N/A,0.0%
+Milpitas,40.3%,37.2%,89.5%
+Monte Sereno,203.6%,N/A,0.0%
+Moraga,15.1%,80.0%,5.1%
+Morgan Hill,220.7%,167.1%,23.0%
+Mountain View,143.4%,829.6%,54.4%
+Napa,107.9%,112.6%,21.7%
+Newark,115.7%,57.2%,98.2%
+Novato,62.6%,327.8%,21.6%
+Oakland,285.2%,300.5%,27.1%
+Oakley,478.4%,10.0%,0.7%
+Pacifica,31.0%,N/A,0.0%
+Palo Alto,49.9%,80.8%,5.3%
+Petaluma,32.4%,70.4%,52.0%
+Piedmont,113.9%,100.0%,2.4%
+Pinole,4.2%,100.0%,7.7%
+Pittsburg,54.2%,107.7%,37.0%
+Pleasant Hill,52.9%,N/A,0.6%
+Pleasanton,82.6%,81.8%,45.7%
+Portola Valley,77.0%,128.6%,18.5%
+Redwood City,84.7%,240.0%,1.4%
+Richmond,63.5%,103.0%,0.6%
+Rio Vista,12.1%,55.7%,40.0%
+Rohnert Park,669.5%,N/A,7.1%
+Ross,58.2%,N/A,0.0%
+San Anselmo,34.3%,100.0%,33.3%
+San Bruno,73.6%,85.5%,12.9%
+San Carlos,58.2%,202.8%,13.9%
+San Francisco,75.3%,396.0%,28.8%
+San Jose,89.0%,94.6%,33.4%
+San Leandro,11.1%,83.3%,3.6%
+San Mateo,56.7%,145.3%,61.2%
+San Pablo,11.0%,100.0%,1.9%
+San Rafael,67.2%,16.7%,6.8%
+San Ramon,62.5%,85.7%,1.7%
+Santa Clara,104.4%,195.0%,21.0%
+Santa Rosa,174.3%,10.0%,0.1%
+Saratoga,49.2%,N/A,0.0%
+Sausalito,17.9%,50.0%,5.0%
+Sebastopol,13.9%,75.0%,7.4%
+Sonoma,23.1%,10.3%,3.6%
+South San Francisco,80.0%,578.8%,43.7%
+Suisun City,35.4%,N/A,0.0%
+Sunnyvale,12.4%,75.1%,44.1%
+Tiburon,62.0%,N/A,0.0%
+Union City,68.8%,80.0%,7.0%
+Vacaville,49.4%,66.4%,32.0%
+Vallejo,15.1%,125.0%,2.5%
+Walnut Creek,124.7%,142.4%,4.9%
+Windsor,24.4%,N/A,9.5%
+Woodside,38.2%,N/A,12.3%
+Yountville,22.5%,50.0%,10.0%
+Overall,75.3%,230.6%,27.8%
