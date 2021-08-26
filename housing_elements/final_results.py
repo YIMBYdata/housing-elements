@@ -126,13 +126,21 @@ def get_results_for_city(
     # Ground truth datasets won't have these income-related columns
     has_bmr_info = 'vlowndr' in permits.columns
     if has_bmr_info:
-        bmr_matches, bmr_permits, p_inventory_bmr_units = analysis_utils.calculate_pinventory_for_dev_bmr_units(
+        matching_bmr_units, bmr_units, p_inventory_bmr_units = analysis_utils.calculate_pinventory_for_dev_bmr_units(
             permits, matches, matching_logic
         )
-        bmr_match_formatted = f'{bmr_matches} / {bmr_permits}'
+        bmr_match_formatted = f'{matching_bmr_units} / {bmr_units}'
+
+        bmr_matches_100_percent, bmr_permits_100_percent, p_inventory_bmr_units_100_percent = analysis_utils.calculate_pinventory_for_dev_100_percent_affordable_bmr_units(
+            permits, matches, matching_logic
+        )
+        bmr_match_formatted_100_percent = f'{bmr_matches_100_percent} / {bmr_permits_100_percent}'
     else:
         p_inventory_bmr_units = None
         bmr_match_formatted = None
+
+        p_inventory_bmr_units_100_percent = None
+        bmr_match_formatted_100_percent = None
 
     return {
         'City': city,
@@ -152,8 +160,10 @@ def get_results_for_city(
         'P(inventory) for projects built': analysis_utils.calculate_pinventory_for_dev_by_project(
             permits, matches, matching_logic
         ),
+        'P(inventory) for BMR units, 100% AH projects only': p_inventory_bmr_units_100_percent,
+        '# 100% AH matches / # 100% AH BMR permits': bmr_match_formatted_100_percent,
         'P(inventory) for BMR units': p_inventory_bmr_units,
-        '# BMR matches / # BMR permits': bmr_match_formatted,
+        '# BMR units matched / # BMR units': bmr_match_formatted,
         'P(dev) for nonvacant sites': nonvacant_ratio,
         'P(dev) for vacant sites': vacant_ratio,
         'P(dev) for inventory': all_ratio,
@@ -283,6 +293,13 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         results_df['P(inventory) for BMR units'],
         overall_row['P(inventory) for BMR units'],
         extra_info='Number of cities with BMR units: {:d}\n'.format(results_df['P(inventory) for BMR units'].notnull().sum())
+    )
+
+    add_stats(
+        'P(inventory) for BMR units, 100% AH projects only',
+        results_df['P(inventory) for BMR units, 100% AH projects only'],
+        overall_row['P(inventory) for BMR units, 100% AH projects only'],
+        extra_info='Number of cities with 100% AH BMR units: {:d}\n'.format(results_df['P(inventory) for BMR units, 100% AH projects only'].notnull().sum())
     )
 
     add_stats(
