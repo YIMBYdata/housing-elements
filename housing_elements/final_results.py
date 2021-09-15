@@ -126,21 +126,13 @@ def get_results_for_city(
     # Ground truth datasets won't have these income-related columns
     has_bmr_info = 'vlowndr' in permits.columns
     if has_bmr_info:
-        matching_bmr_units, bmr_units, p_inventory_bmr_units = analysis_utils.calculate_pinventory_for_dev_bmr_units(
+        bmr_matches, bmr_permits, p_inventory_bmr_units = analysis_utils.calculate_pinventory_for_dev_bmr_units(
             permits, matches, matching_logic
         )
-        bmr_match_formatted = f'{matching_bmr_units} / {bmr_units}'
-
-        bmr_matches_100_percent, bmr_permits_100_percent, p_inventory_bmr_units_100_percent = analysis_utils.calculate_pinventory_for_dev_100_percent_affordable_bmr_units(
-            permits, matches, matching_logic
-        )
-        bmr_match_formatted_100_percent = f'{bmr_matches_100_percent} / {bmr_permits_100_percent}'
+        bmr_match_formatted = f'{bmr_matches} / {bmr_permits}'
     else:
         p_inventory_bmr_units = None
         bmr_match_formatted = None
-
-        p_inventory_bmr_units_100_percent = None
-        bmr_match_formatted_100_percent = None
 
     return {
         'City': city,
@@ -160,10 +152,8 @@ def get_results_for_city(
         'P(inventory) for projects built': analysis_utils.calculate_pinventory_for_dev_by_project(
             permits, matches, matching_logic
         ),
-        'P(inventory) for BMR units, 100% AH projects only': p_inventory_bmr_units_100_percent,
-        '# 100% AH matches / # 100% AH BMR permits': bmr_match_formatted_100_percent,
         'P(inventory) for BMR units': p_inventory_bmr_units,
-        '# BMR units matched / # BMR units': bmr_match_formatted,
+        '# BMR matches / # BMR permits': bmr_match_formatted,
         'P(dev) for nonvacant sites': nonvacant_ratio,
         'P(dev) for vacant sites': vacant_ratio,
         'P(dev) for inventory': all_ratio,
@@ -206,6 +196,37 @@ def get_ground_truth_results_for_city(
     return get_results_for_city(
         city, sites, permits, matches, analysis_utils.MatchingLogic(match_by='both', geo_matching_buffer='25ft', use_raw_apns=False)
     )
+
+def make_appendix_A_tables(results_25_ft, results_100_ft):
+
+    # Table A1
+    pdevs = ['P(dev) for inventory', 'P(dev) for vacant sites', 'P(dev) for nonvacant sites']
+    pdevs_25_ft = results_25_ft[pdevs] * 8 / 5
+    pdevs_100_ft = results_100_ft[pdevs] * 8 / 5
+    pdevs_100_ft.columns = [c + " (100 ft buffer)" for c in pdevs_100_ft.columns]
+    table_a1 = pd.concat((results_25_ft[['City']], pdevs_25_ft, pdevs_100_ft), axis=1)
+    table_a1.set_index('City', inplace=True)
+    table_a1 = round(table_a1 * 100, 1)
+    table_a1 = table_a1.applymap(lambda x : str(x) + '%' if x == x else 'N/A')
+    table_a1 = table_a1.reindex(sorted(table_a1.columns), axis=1)
+    table_a1.to_csv("./results/table_a1.csv")
+    
+    # Table A2
+    cols_a2 = ["City",
+           "Units permitted / claimed capacity",
+           "Mean underproduction",
+           "P(inventory) for homes built"]
+    table_a2 = results_25_ft[cols_a2].copy()
+    table_a2.rename({'Units permitted / claimed capacity': 'Citywide production relative to claimed capacity',
+                'Mean underproduction': 'Realized vs. anticipated density on inventory sites',
+                'P(inventory) for homes built': 'Permitted units on inventory sites, as fraction of all permitted units'},
+               axis=1, inplace=True)
+
+    table_a2.set_index("City", inplace=True)
+    table_a2.iloc[:, 0] = table_a2.iloc[:, 0] * 8 / 5
+    table_a2 = round(table_a2 * 100, 1)
+    table_a2 = table_a2.applymap(lambda x : str(x) + '%' if x == x else 'N/A')
+    table_a2.to_csv("./results/table_a2.csv")
 
 
 def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> str:
@@ -293,13 +314,6 @@ def get_additional_stats(results_df: pd.DataFrame, overall_row: pd.Series) -> st
         results_df['P(inventory) for BMR units'],
         overall_row['P(inventory) for BMR units'],
         extra_info='Number of cities with BMR units: {:d}\n'.format(results_df['P(inventory) for BMR units'].notnull().sum())
-    )
-
-    add_stats(
-        'P(inventory) for BMR units, 100% AH projects only',
-        results_df['P(inventory) for BMR units, 100% AH projects only'],
-        overall_row['P(inventory) for BMR units, 100% AH projects only'],
-        extra_info='Number of cities with 100% AH BMR units: {:d}\n'.format(results_df['P(inventory) for BMR units, 100% AH projects only'].notnull().sum())
     )
 
     add_stats(
@@ -720,7 +734,7 @@ def print_summary_stats():
     )
 
     get_final_appendix_table(results_df, results_upper_bound_df).to_csv('results/final_appendix_table.csv', index=False)
-
+    make_appendix_A_tables(results_df, results_upper_bound_df)
     make_ground_truth_summary_table()
 
 

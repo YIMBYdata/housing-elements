@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.colors as clr
 
-import analysis_utils as utils
+from housing_elements import analysis_utils as utils
 
 
 def register_cmap():
