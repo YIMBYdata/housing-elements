@@ -517,6 +517,8 @@ def make_plots(results_both_df: pd.DataFrame) -> None:
     plt.ylabel("Pdev")
     plt.title("Do smaller rhna allocations contribute to high P(dev)s?")
     plt.savefig('./figures/rhna_vs_pdev_scatterplot.png', dpi=500)
+    
+    plot_utils.make_cover()
 
 
 def get_all_matches_kwargs(kwargs):
@@ -610,7 +612,6 @@ def create_results_csv_files(
             )
         )
         both_results_df.to_csv(f'results/apn_or_geo_matching_{buffer}_results.csv', index=False)
-
 
 def main():
     parser = argparse.ArgumentParser()

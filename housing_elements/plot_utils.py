@@ -1,10 +1,17 @@
 from __future__ import annotations
+
+import pickle
 import geopandas as gpd
 import pandas as pd
+import contextily as ctx
+
 import seaborn as sea
 import matplotlib.pyplot as plt
-import contextily as ctx
-from matplotlib.colors import LinearSegmentedColormap
+import matplotlib.cm as cm
+import matplotlib.colors as clr
+
+import analysis_utils as utils
+
 
 def register_cmap():
     if ('RedGreen' in plt.colormaps()):
@@ -30,7 +37,7 @@ def register_cmap():
                    (0.75, 1.0, 1.0),
                    (1.0, 1.0, 1.0))
 
-    cmap = LinearSegmentedColormap('RedGreen', cdict)
+    cmap = clr.LinearSegmentedColormap('RedGreen', cdict)
     plt.register_cmap('RedGreen', cmap)
 
 
@@ -93,3 +100,33 @@ def catplot_qoi(result_df, qoi_col_prefix, order=None):
                 data=long_df, saturation=.5, ci=None, order=order[:len(order)//3])
     ax.tick_params(axis='x', labelrotation=90)
     plt.savefig(f'figures/{qoi_col_prefix.lower()}_by_city_barplot.jpg', dpi=500)
+
+def make_cover():
+    """Save image for cover of report. It's an image of Santa Clara's inventory sites & permits."""
+    with open('cities_with_sites_cache.pkl', 'rb') as f:
+        cities_with_sites = pickle.load(f)
+
+    with open('cities_with_permits_cache.pkl', 'rb') as f:
+        cities_with_permits = pickle.load(f)
+
+    with open('all_matches_cache.pkl', 'rb') as f:
+        matches = pickle.load(f)
+        
+    sclara = cities_with_sites['Santa Clara']
+    permits = cities_with_permits['Santa Clara']
+    matches = utils.get_matches_df(matches['Santa Clara'], utils.MatchingLogic("both", "25ft"))     
+    permits = permits.drop_duplicates('address')
+    sites = sclara[['geometry']].to_crs(epsg=3857)
+    permits = permits[['geometry']].to_crs(epsg=3857)
+    blue = cm.get_cmap('cividis')(0)
+    cmap = clr.LinearSegmentedColormap.from_list("", 3*[(255/256, 237/256, 163/256)])
+    fig, ax = plt.subplots(figsize=(15, 15))
+    fig.patch.set_visible(False)
+    ax.axis('off')
+    sites.plot(ax=ax, legend=False, color=blue)
+    ctx.add_basemap(
+        ax, 
+        source=ctx.providers.CartoDB.PositronNoLabels,
+        attribution=False)
+    permits.plot(ax=ax, cmap=cmap, markersize=20)
+    plt.savefig('cover.png', dpi=500)
