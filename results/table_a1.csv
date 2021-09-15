@@ -1,4 +1,4 @@
-City,P(dev) for inventory,P(dev) for inventory (100 ft buffer),P(dev) for nonvacant sites,P(dev) for nonvacant sites (100 ft buffer),P(dev) for vacant sites,P(dev) for vacant sites (100 ft buffer)
+City,P(dev) for all sites,P(dev) for all sites (100 ft buffer),P(dev) for nonvacant sites,P(dev) for nonvacant sites (100 ft buffer),P(dev) for vacant sites,P(dev) for vacant sites (100 ft buffer)
 Alameda,44.4%,44.4%,45.7%,45.7%,43.6%,43.6%
 Albany,7.8%,15.6%,9.4%,9.4%,20.0%,40.0%
 American Canyon,0.0%,0.0%,0.0%,0.0%,0.0%,0.0%
