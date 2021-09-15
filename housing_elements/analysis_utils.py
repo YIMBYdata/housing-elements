@@ -37,13 +37,16 @@ def calculate_pinventory_for_dev(
     return np.nan
 
 
-def filter_for_100_percent_affordable_permits(permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+def filter_for_bmr_permits(permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    if 'vlowdr' not in permits.columns:
+        print(permits)
     return permits[
-        # Must have low-income or moderate-income deed-restricted units
+        # Must have low-income units
         (
             (permits['vlowdr'] > 0)
             | (permits['lowdr'] > 0)
-            | (permits['moddr'] > 0)
+            | (permits['vlowdr'] > 0)
+            | (permits['lowdr'] > 0)
         )
         # Not a mixed-income/IZ or density bonus project
         & (permits['amodtot'] == 0)
@@ -53,29 +56,15 @@ def filter_for_100_percent_affordable_permits(permits: gpd.GeoDataFrame) -> gpd.
     ]
 
 
-def filter_for_projects_with_bmr(permits: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    return permits[
-        # Must have low-income or moderate-income deed-restricted units
-        (
-            (permits['vlowdr'] > 0)
-            | (permits['lowdr'] > 0)
-            | (permits['moddr'] > 0)
-        )
-        # exclude ADUs
-        & (~permits['hcategory'].isin(['SU', 'ADU']))
-        & (permits['totalunit'] > 1)
-    ]
-
-
-def calculate_pinventory_for_dev_100_percent_affordable_bmr_units(
+def calculate_pinventory_for_dev_bmr_units(
     permits: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
-) -> Tuple[int, int, float]:
+) -> float:
     """P(inventory|developed), over permitted units"""
     assert permits.index.nunique() == len(permits.index)
 
     matches_df = get_matches_df(matches, matching_logic)
 
-    bmr_permits = filter_for_100_percent_affordable_permits(permits)
+    bmr_permits = filter_for_bmr_permits(permits)
 
     matching_bmr_permits = bmr_permits[bmr_permits.index.isin(matches_df['permits_index'])]
     housing_on_sites = matching_bmr_permits.totalunit.sum()
@@ -87,29 +76,6 @@ def calculate_pinventory_for_dev_100_percent_affordable_bmr_units(
     if total_units:
         return len(matching_bmr_permits), len(bmr_permits), housing_on_sites / total_units
     return len(matching_bmr_permits), len(bmr_permits), None
-
-def calculate_pinventory_for_dev_bmr_units(
-    permits: pd.DataFrame, matches: Matches, matching_logic: MatchingLogic
-) -> Tuple[int, int, float]:
-    """P(inventory|developed), over permitted units"""
-    assert permits.index.nunique() == len(permits.index)
-
-    matches_df = get_matches_df(matches, matching_logic)
-
-    bmr_permits = filter_for_projects_with_bmr(permits)
-
-    bmr_columns = ['vlowdr', 'lowdr', 'vlowdr', 'lowdr']
-
-    matching_bmr_permits = bmr_permits[bmr_permits.index.isin(matches_df['permits_index'])]
-    housing_on_sites = matching_bmr_permits[bmr_columns].sum().sum()
-    total_units = bmr_permits[bmr_columns].sum().sum()
-
-    print("BMR units permitted on inventory sites:", housing_on_sites)
-    print("Total BMR units permitted:", total_units)
-
-    if total_units:
-        return int(housing_on_sites), int(total_units), housing_on_sites / total_units
-    return housing_on_sites, total_units, None
 
 
 def calculate_pinventory_for_dev_by_project(
