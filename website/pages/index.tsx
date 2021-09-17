@@ -263,7 +263,7 @@ export default function RhnaCity (): JSX.Element {
                 <h2 className="text-xl mb-4 text-center">Sidharth Kapur, Salim Damerdji, Christopher S. Elmendorf, Paavo Monkkonen</h2>
 
                 <div className="max-w-3xl mx-2 mt-6 mb-10 leading-snug">
-                    <p>This map is a companion to the Lewis Center report, <a className="text-blue-500 hover:underline" href="#">"What Gets Built on Sites that Cities 'Make Available' for Housing?"</a>.</p>
+                    <p>This map is a companion to the Lewis Center report, <a className="text-blue-500 hover:underline" href="https://www.lewis.ucla.edu/research/what-gets-built-on-sites-that-cities-make-available-for-housing/">"What Gets Built on Sites that Cities 'Make Available' for Housing?"</a>.</p>
                     <p className="mt-4">Below, the overview shows our likelihood of development estimates—the probability that housing was built on a site listed in a jurisdiction's 5th cycle Housing Element—for Bay Area cities. It allows you to visualize likelihoods for vacant and nonvacant sites, as well as under different matching criteria. Because building permits and sites do not always match using parcel numbers, we use both assessor parcel numbers and a spatial overlay approach with different buffer sizes. See the full report for more detail.</p>
                     <p className="mt-4">The views for individual cities (accessible using the dropdown at the top) allows comparing the location of housing inventory sites for a city to the locations that received new housing building permits in 2015-2019. The "buffer size" control allows you to compare which sites are considered "matched" (indicated by the color of the housing inventory site) to a permit as the geocoding buffer size varies.</p>
                 </div>
@@ -383,44 +383,44 @@ export default function RhnaCity (): JSX.Element {
             {currentOption && makeMatchTable(currentOption, buffer)}
             {isOverview &&
              <>
-             <div className="lg:grid lg:grid-cols-3 flex flex-col mb-4">
-                 <div className="m-4 col-span-1">
-                     <p className="text-sm text-gray-500 mb-2">Sites:</p>
-                     <SelectSearch
-                     // @ts-ignore
-                         onChange={setSiteType}
-                         options={siteTypeOptions}
-                         fuseOptions={fuseOptions}
-                         value={siteType}
-                         renderOption={renderOption}
-                     />
-                     <p className="text-xs text-gray-500 mt-2">
-                         Whether to display each city's likelihood of development estimate for all sites, nonvacant sites only, or vacant sites only.
-                     </p>
-                 </div>
-                 <div className="m-4 col-span-1">
-                     <p className="text-sm text-gray-500 mb-2">Matching logic:</p>
-                     <SelectSearch
-                     // @ts-ignore
-                         onChange={setMatchingLogic}
-                         options={matchingLogicOptions}
-                         fuseOptions={fuseOptions}
-                         value={matchingLogic}
-                         renderOption={renderOption}
-                     />
-                     <div className="text-xs text-gray-500 mt-2">
-                     <p><span className="font-bold">APN</span> matches sites to permits using the county's assessor parcel number (APN), which uniquely identifies parcels.</p>
-                     <p className="mt-1"><span className="font-bold">APN and geocoding</span> is more lenient: it matches a site to a permit if the APN matches, or if the site is within <span className="italic">x</span> feet of a building permit.</p>
+                 <div className="lg:grid lg:grid-cols-3 flex flex-col mb-4">
+                     <div className="m-4 col-span-1">
+                         <p className="text-sm text-gray-500 mb-2">Sites:</p>
+                         <SelectSearch
+                         // @ts-ignore
+                             onChange={setSiteType}
+                             options={siteTypeOptions}
+                             fuseOptions={fuseOptions}
+                             value={siteType}
+                             renderOption={renderOption}
+                         />
+                         <p className="text-xs text-gray-500 mt-2">
+                             Whether to display each city's likelihood of development estimate for all sites, nonvacant sites only, or vacant sites only.
+                         </p>
+                     </div>
+                     <div className="m-4 col-span-1">
+                         <p className="text-sm text-gray-500 mb-2">Matching logic:</p>
+                         <SelectSearch
+                         // @ts-ignore
+                             onChange={setMatchingLogic}
+                             options={matchingLogicOptions}
+                             fuseOptions={fuseOptions}
+                             value={matchingLogic}
+                             renderOption={renderOption}
+                         />
+                         <div className="text-xs text-gray-500 mt-2">
+                             <p><span className="font-bold">APN</span> matches sites to permits using the county's assessor parcel number (APN), which uniquely identifies parcels.</p>
+                             <p className="mt-1"><span className="font-bold">APN and geocoding</span> is more lenient: it matches a site to a permit if the APN matches, or if the site is within <span className="italic">x</span> feet of a building permit.</p>
+                         </div>
+                     </div>
+                     <div className="m-4 col-span-1">
+                         {bufferInput}
+                         <p className="text-xs text-gray-500 mt-2">
+                             How lenient to be when geomatching: a site is considered matched if it is within <span className="italic">x</span> feet of a building permit.
+                         </p>
                      </div>
                  </div>
-                 <div className="m-4 col-span-1">
-                     {bufferInput}
-                     <p className="text-xs text-gray-500 mt-2">
-                         How lenient to be when geomatching: a site is considered matched if it is within <span className="italic">x</span> feet of a building permit.
-                     </p>
-                 </div>
-             </div>
-                </>
+             </>
             }
         </div>
     )

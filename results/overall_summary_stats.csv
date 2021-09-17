@@ -65,6 +65,17 @@ Max: 0.9811659192825112
 Overall: 0.1678910226746876
 
 P(inventory) for BMR units:
+Mean: 0.3834441100996989
+Stddev: 0.43147680656692633
+Median: 0.1582449065154676
+Min: 0.0
+25th percentile: 0.0
+75th percentile: 0.9801923076923077
+Max: 1.0
+Overall: 0.3090319967598218
+Number of cities with BMR units: 56
+
+P(inventory) for BMR units, 100% AH projects only:
 Mean: 0.37637646221051324
 Stddev: 0.4811817885481485
 Median: 0.0
@@ -73,7 +84,7 @@ Min: 0.0
 75th percentile: 1.0
 Max: 1.0
 Overall: 0.3033582089552238
-Number of cities with BMR units: 25
+Number of cities with 100% AH BMR units: 25
 
 8/5 * RHNA success:
 Mean: 1.1281459389783122
@@ -286,7 +297,7 @@ apn_or_geo_100ft 18.4% (sd. 0.20)
 
 BPS comparison table results:
 8/5 * permits to capacity ratio (using ABAG dataset):
-Mean: 0.8842020895733087
+Mean: 0.8842020895733085
 Stddev: 1.068292313648324
 Median: 0.5816630027156343
 Min: 0.019159764494561422
