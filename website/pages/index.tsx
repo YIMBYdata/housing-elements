@@ -136,10 +136,6 @@ const matchingLogicOptions = [
     },
 ]
 
-function updateQuery(path: str): void {
-    window.history.pushState(null, document.title, path)
-}
-
 export default function RhnaCity (): JSX.Element {
   const [cityName, setCityName] = useState('Overview')
 
