@@ -15,7 +15,8 @@
     "react-mapbox-gl": "^5.1.1",
     "react-query": "^3.19.1",
     "react-select-search": "2.2.1",
-    "title-case": "^3.0.3"
+    "title-case": "^3.0.3",
+    "use-query-string": "^2.4.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.15",

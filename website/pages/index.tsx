@@ -7,6 +7,7 @@ import ReactMapboxGl, { Layer, Source, Popup, MapContext } from 'react-mapbox-gl
 import { LngLat } from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useQuery } from 'react-query'
+import { useRouter } from 'next/router'
 
 export function useFetch (url) {
     return useQuery(
@@ -135,10 +136,19 @@ const matchingLogicOptions = [
     },
 ]
 
-
+function updateQuery(path: str): void {
+    window.history.pushState(null, document.title, path)
+}
 
 export default function RhnaCity (): JSX.Element {
   const [cityName, setCityName] = useState('Overview')
+
+  const router = useRouter()
+  const { query } = router
+
+  if (query.city && query.city != cityName) {
+    setCityName(query.city)
+  }
 
   const isOverview = cityName == 'Overview'
 
