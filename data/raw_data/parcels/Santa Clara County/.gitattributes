@@ -1,4 +1,0 @@
-parcels.dbf filter=lfs diff=lfs merge=lfs -text
-parcels.prj filter=lfs diff=lfs merge=lfs -text
-parcels.shp filter=lfs diff=lfs merge=lfs -text
-parcels.shx filter=lfs diff=lfs merge=lfs -text
