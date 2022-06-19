@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, useCallback } from 'react'
 import SelectSearch from 'react-select-search/dist/cjs'
 import { titleCase } from 'title-case'
 import Head from 'next/head'
@@ -8,6 +8,7 @@ import { LngLat } from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useQuery } from 'react-query'
 import { useRouter } from 'next/router'
+import { useQueryState, queryTypes } from 'next-usequerystate'
 
 export function useFetch (url) {
     return useQuery(
@@ -27,6 +28,8 @@ const bayAreaBounds = [
   [-123.1360271, 36.97640742],
   [-121.53590925, 38.82979915]
 ]
+
+const URL_PREFIX = '/RHNAmaps/'
 
 function makeOptions (summaryResponse) {
   const summary = (summaryResponse || []).slice()
@@ -137,28 +140,31 @@ const matchingLogicOptions = [
 ]
 
 export default function RhnaCity (): JSX.Element {
-  const [cityName, setCityName] = useState('Overview')
-
   const router = useRouter()
-  const { query } = router
+  const { asPath } = router
+  const cityName = asPath == '/' ? 'Overview' : asPath.substring(7)
 
-  if (query.city && query.city != cityName) {
-    setCityName(query.city[0])
-  }
+  const setCityName = useCallback(
+    (city) => {
+      router.push('/#city=' + city)
+    },
+    []
+  )
 
   const isOverview = cityName == 'Overview'
 
   const [clickedElement, setClickedElement] = useState<ClickedElement>(null)
 
-  const sitesUrl = !isOverview ? 'data/' + cityName + '/sites_with_matches.geojson': null
-  const permitsUrl = !isOverview ? 'data/' + cityName + '/permits.geojson' : null
+  const sitesUrl = !isOverview ? URL_PREFIX + 'data/' + cityName + '/sites_with_matches.geojson': null
+  const permitsUrl = !isOverview ? URL_PREFIX + 'data/' + cityName + '/permits.geojson' : null
 
-  const { data: summaryData } = useFetch('data/summary.json')
+  const { data: summaryData } = useFetch(URL_PREFIX + 'data/summary.json')
 
   const [cityOptions, indexLookup] = useMemo(
     () => makeOptions(summaryData),
     [summaryData]
   )
+
   const currentOption = useMemo(
     () => cityOptions[indexLookup[cityName]],
     [summaryData, cityName]
@@ -317,8 +323,8 @@ export default function RhnaCity (): JSX.Element {
                     </MapContext.Consumer>
                     <Source id='permits' geoJsonSource={{ data: permitsUrl, type: 'geojson' }} />
                     <Source id='sitesWithMatches' geoJsonSource={{ data: sitesUrl, type: 'geojson' }} />
-                    <Source id='summary' geoJsonSource={{ data: 'data/summary.geojson', type: 'geojson' }} />
-                    <Source id='summaryCentroids' geoJsonSource={{ data: 'data/summary_centroids.geojson', type: 'geojson' }} />
+                    <Source id='summary' geoJsonSource={{ data: URL_PREFIX + 'data/summary.geojson', type: 'geojson' }} />
+                    <Source id='summaryCentroids' geoJsonSource={{ data: URL_PREFIX + 'data/summary_centroids.geojson', type: 'geojson' }} />
                     <Layer
                         id="sitesWithMatchesLayer"
                         type='fill'
@@ -340,7 +346,7 @@ export default function RhnaCity (): JSX.Element {
                         sourceId='sitesWithMatches'
                         layout={{
                             'text-field': '{site_capacity_units}',
-                            visibility: isOverview ? 'none': 'visible'
+ visibility: isOverview ? 'none': 'visible'
                         }}
                         paint={{
                             'text-color': 'hsl(0, 0, 35%)',
@@ -385,7 +391,7 @@ export default function RhnaCity (): JSX.Element {
                     )}
                     {isOverview ? <></> : legend}
                 </Map>
-            </div>
+</div>
             {currentOption && makeMatchTable(currentOption, buffer)}
             {isOverview &&
              <>
@@ -439,9 +445,9 @@ export default function RhnaCity (): JSX.Element {
               <meta name='viewport' content='width=device-width, initial-scale=1.0' />
           </Head>
 
-          <body className="bg-gray-50 font-sans">
+          <div className="bg-gray-50 font-sans">
           {page}
-          </body>
+          </div>
       </>
   )
 }
