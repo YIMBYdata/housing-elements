@@ -143,7 +143,7 @@ export default function RhnaCity (): JSX.Element {
   const { query } = router
 
   if (query.city && query.city != cityName) {
-    setCityName(query.city)
+    setCityName(query.city[0])
   }
 
   const isOverview = cityName == 'Overview'
