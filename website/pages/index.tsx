@@ -8,7 +8,6 @@ import { LngLat } from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useQuery } from 'react-query'
 import { useRouter } from 'next/router'
-import { useQueryState, queryTypes } from 'next-usequerystate'
 
 export function useFetch (url) {
     return useQuery(
