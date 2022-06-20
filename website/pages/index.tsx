@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, useCallback } from 'react'
+import { useMemo, useState, useCallback } from 'react'
 import SelectSearch from 'react-select-search/dist/cjs'
 import { titleCase } from 'title-case'
 import Head from 'next/head'
@@ -351,7 +351,7 @@ export default function RhnaCity (): JSX.Element {
                         sourceId='sitesWithMatches'
                         layout={{
                             'text-field': '{site_capacity_units}',
- visibility: isOverview ? 'none': 'visible'
+                            visibility: isOverview ? 'none': 'visible'
                         }}
                         paint={{
                             'text-color': 'hsl(0, 0, 35%)',
@@ -396,7 +396,7 @@ export default function RhnaCity (): JSX.Element {
                     )}
                     {isOverview ? <></> : legend}
                 </Map>
-</div>
+            </div>
             {currentOption && makeMatchTable(currentOption, buffer)}
             {isOverview &&
              <>
@@ -450,9 +450,9 @@ export default function RhnaCity (): JSX.Element {
               <meta name='viewport' content='width=device-width, initial-scale=1.0' />
           </Head>
 
-          <div className="bg-gray-50 font-sans">
+          <body className="bg-gray-50 font-sans">
           {page}
-          </div>
+          </body>
       </>
   )
 }
