@@ -138,6 +138,7 @@ const matchingLogicOptions = [
     },
 ]
 
+
 export default function RhnaCity (): JSX.Element {
   const router = useRouter()
   const { asPath } = router
@@ -169,7 +170,6 @@ export default function RhnaCity (): JSX.Element {
     () => makeOptions(summaryData),
     [summaryData]
   )
-
   const currentOption = useMemo(
     () => cityOptions[indexLookup[cityName]],
     [summaryData, cityName]
