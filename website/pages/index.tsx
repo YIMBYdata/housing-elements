@@ -139,17 +139,20 @@ const matchingLogicOptions = [
 ]
 
 
-export default function RhnaCity (): JSX.Element {
-  const router = useRouter()
+function getCityName(router): string {
   const { asPath } = router
 
-  let cityName = null
-  if (asPath == '/') {
-    cityName = 'Overview'
-  } else if (asPath.startsWith('/#city=')){
-    cityName = decodeURI(asPath.substring('/#city='.length))
+  if (asPath.includes('#city=')) {
+    return asPath.substring(asPath.indexOf('#city=') + '#city='.length)
+  } else {
+    return 'Overview'
   }
+}
 
+
+export default function RhnaCity (): JSX.Element {
+  const router = useRouter()
+  const cityName = getCityName(router)
   const setCityName = useCallback(
     (city) => {
       router.push('/#city=' + city)
