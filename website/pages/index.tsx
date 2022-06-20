@@ -143,7 +143,9 @@ function getCityName(router): string {
   const { asPath } = router
 
   if (asPath.includes('#city=')) {
-    return asPath.substring(asPath.indexOf('#city=') + '#city='.length)
+    const startIndex = asPath.indexOf('#city=') + '#city='.length
+    const citySubstring = asPath.substring(startIndex)
+    return decodeURI(citySubstring)
   } else {
     return 'Overview'
   }
